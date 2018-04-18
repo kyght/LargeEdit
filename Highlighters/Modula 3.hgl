@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Modula3" FileType="" Extensions="M3 I3" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:modula.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="AND&#xA;AS&#xA;ANY&#xA;ARRAY&#xA;BEGIN&#xA;BITS&#xA;BRANDED&#xA;BY&#xA;CASE&#xA;CONST&#xA;DIV&#xA;DO&#xA;END&#xA;EVAL&#xA;EXCEPT&#xA;EXCEPTION&#xA;EXIT&#xA;EXPORTS&#xA;ELSIF&#xA;ELSE&#xA;FROM&#xA;FINALLY&#xA;FOR&#xA;GENERIC&#xA;IF&#xA;IMPORT&#xA;IN&#xA;INTERFACE&#xA;LOCK&#xA;LOOP&#xA;METHODS&#xA;MOD&#xA;MODULE&#xA;NOT&#xA;OBJECT&#xA;OF&#xA;OR&#xA;OVERRIDES&#xA;PROCEDURE&#xA;REPEAT&#xA;RETURN&#xA;REVEAL&#xA;RAISE&#xA;RAISES&#xA;READONLY&#xA;RECORD&#xA;REF&#xA;ROOT&#xA;SET&#xA;THEN&#xA;TO&#xA;TRY&#xA;TYPE&#xA;TYPECASE&#xA;UNTIL&#xA;UNTRACED&#xA;UNSAFE&#xA;VALUE&#xA;VAR&#xA;WHILE&#xA;WITH&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Identifiers" Enabled="True" Style="" Words="ABS&#xA;ADDRESS&#xA;ADR&#xA;ADRSIZE&#xA;BITSIZE&#xA;BOOLEAN&#xA;BYTESIZE&#xA;CARDINAL&#xA;CEILING&#xA;CHAR&#xA;DEC&#xA;DISPOSE&#xA;EXTENDED&#xA;FALSE&#xA;FIRST&#xA;FLOAT&#xA;FLOOR&#xA;INC&#xA;INTEGER&#xA;ISTYPE&#xA;LAST&#xA;LONGFLOAT&#xA;LONGREAL&#xA;LOOPHOLE&#xA;MAX&#xA;MIN&#xA;MUTEX&#xA;NARROW&#xA;NEW&#xA;NIL&#xA;NULL&#xA;NUMBER&#xA;ORD&#xA;REAL&#xA;REFANY&#xA;ROUND&#xA;SUBARRAY&#xA;TEXT&#xA;TRUE&#xA;TRUNC&#xA;TYPECODE&#xA;VAL&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks (*..*)" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="(*" Close="*)"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

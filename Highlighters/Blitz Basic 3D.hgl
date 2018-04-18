@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Blitz Basic 3D" FileType="" Extensions="BB" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:blitz.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="After&#xA;And&#xA;Before&#xA;Case&#xA;Const&#xA;Data&#xA;Default&#xA;Delete&#xA;Dim&#xA;Each&#xA;Else&#xA;ElseIf&#xA;End&#xA;EndIf&#xA;Exit&#xA;False&#xA;Field&#xA;First&#xA;For&#xA;Forever&#xA;Function&#xA;Global&#xA;Gosub&#xA;Goto&#xA;Handle&#xA;If&#xA;Include&#xA;Insert&#xA;Last&#xA;Local&#xA;New&#xA;Next&#xA;Not&#xA;Null&#xA;Object&#xA;Or&#xA;Read&#xA;Repeat&#xA;Restore&#xA;Return&#xA;Select&#xA;Step&#xA;Then&#xA;To&#xA;True&#xA;Type&#xA;Until&#xA;Wend&#xA;While&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="2D Functions" Enabled="True" Style="" Words="ACos&#xA;ASin&#xA;ATan&#xA;ATan2&#xA;Abs&#xA;AcceptTCPStream&#xA;AppTitle&#xA;Asc&#xA;AutoMidHandle&#xA;AvailVidMem&#xA;BackBuffer&#xA;BankSize&#xA;Bin&#xA;Ceil&#xA;ChangeDir&#xA;ChannelPan&#xA;ChannelPitch&#xA;ChannelPlaying&#xA;ChannelVolume&#xA;Chr&#xA;CloseDir&#xA;CloseFile&#xA;CloseTCPServer&#xA;CloseTCPStream&#xA;Cls&#xA;ClsColor&#xA;Color&#xA;ColorBlue&#xA;ColorGreen&#xA;ColorRed&#xA;CommandLine&#xA;CopyBank&#xA;CopyFile&#xA;CopyImage&#xA;CopyPixel&#xA;CopyPixelFast&#xA;CopyRect&#xA;CopyStream&#xA;Cos&#xA;CountGfxDrivers&#xA;CountGfxModes&#xA;CreateBank&#xA;CreateDir&#xA;CreateImage&#xA;CreateNetPlayer&#xA;CreateTCPServer&#xA;CreateTimer&#xA;CurrentDate&#xA;CurrentDir&#xA;CurrentTime&#xA;DebugLog&#xA;Delay&#xA;DeleteDir&#xA;DeleteFile&#xA;DeleteNetPlayer&#xA;DrawBlock&#xA;DrawBlockRect&#xA;DrawImage&#xA;DrawImageRect&#xA;Eof&#xA;ExecFile&#xA;Exp&#xA;FilePos&#xA;FileSize&#xA;FileType&#xA;Flip&#xA;Float&#xA;Floor&#xA;FlushJoy&#xA;FlushKeys&#xA;FlushMouse&#xA;FontHeight&#xA;FontWidth&#xA;FreeBank&#xA;FreeFont&#xA;FreeImage&#xA;FreeSound&#xA;FreeTimer&#xA;FrontBuffer&#xA;GetColor&#xA;GetJoy&#xA;GetKey&#xA;GetMouse&#xA;GfxDriverName&#xA;GfxModeDepth&#xA;GfxModeExists&#xA;GfxModeHeight&#xA;GfxModeWidth&#xA;GrabImage&#xA;Graphics&#xA;GraphicsBuffer&#xA;GraphicsDepth&#xA;GraphicsHeight&#xA;GraphicsWidth&#xA;HandleImage&#xA;Hex&#xA;HidePointer&#xA;HostNetGame&#xA;ImageBuffer&#xA;ImageHeight&#xA;ImageRectCollide&#xA;ImageRectOverlap&#xA;ImageWidth&#xA;ImageXHandle&#xA;ImageYHandle&#xA;ImagesCollide&#xA;ImagesOverlap&#xA;Input&#xA;Instr&#xA;Int&#xA;JoinNetGame&#xA;JoyHit&#xA;JoyType&#xA;JoyX&#xA;JoyY&#xA;JoyZ&#xA;KeyDown&#xA;KeyHit&#xA;Left&#xA;Len&#xA;Line&#xA;LoadAnimImage&#xA;LoadBuffer&#xA;LoadFont&#xA;LoadImage&#xA;LoadSound&#xA;LockBuffer&#xA;Log&#xA;Log10&#xA;LoopSound&#xA;Lower&#xA;LSet&#xA;MaskImage&#xA;Mid&#xA;MidHandle&#xA;Millisecs&#xA;Mod&#xA;MouseDown&#xA;MouseHit&#xA;MouseX&#xA;MouseXSpeed&#xA;MouseY&#xA;MouseYSpeed&#xA;MouseZ&#xA;MouseZSpeed&#xA;MoveMouse&#xA;NetMsgData&#xA;NetMsgFrom&#xA;NetMsgTo&#xA;NetMsgType&#xA;NetPlayerLocal&#xA;NetPlayerName&#xA;NextFile&#xA;OpenFile&#xA;OpenTCPStream&#xA;Origin&#xA;Oval&#xA;PauseChannel&#xA;PeekByte&#xA;PeekFloat&#xA;PeekInt&#xA;PeekShort&#xA;Pi&#xA;PlayCDTrack&#xA;PlayMusic&#xA;PlaySound&#xA;Plot&#xA;PokeByte&#xA;PokeFloat&#xA;PokeInt&#xA;PokeShort&#xA;Print&#xA;RSet&#xA;Rand&#xA;ReadAvail&#xA;ReadByte&#xA;ReadBytes&#xA;ReadDir&#xA;ReadFile&#xA;ReadFloat&#xA;ReadInt&#xA;ReadLine&#xA;ReadPixel&#xA;ReadPixelFast&#xA;ReadShort&#xA;ReadString&#xA;Rect&#xA;RectsOverlap&#xA;RecvNetMsg&#xA;Replace&#xA;ResizeBank&#xA;ResizeImage&#xA;ResumeChannel&#xA;Right&#xA;Rnd&#xA;RotateImage&#xA;RuntimeError&#xA;Sar&#xA;SaveBuffer&#xA;SaveImage&#xA;ScaleImage&#xA;Scanline&#xA;SeedRand&#xA;SeekFile&#xA;SetBuffer&#xA;SetFont&#xA;SetGfxDriver&#xA;SetNetMsg&#xA;Sgn&#xA;Shl&#xA;ShowPointer&#xA;Shr&#xA;Sin&#xA;SoundPan&#xA;SoundPitch&#xA;SoundVolume&#xA;Sqr&#xA;StartNetGame&#xA;Stop&#xA;StopChannel&#xA;StopNetGame&#xA;Str&#xA;String&#xA;StringHeight&#xA;StringWidth&#xA;TCPTimeouts&#xA;TFormFilter&#xA;TFormImage&#xA;Tan&#xA;Text&#xA;TileBlock&#xA;TileImage&#xA;TotalVidMem&#xA;Trim&#xA;UnlockBuffer&#xA;Upper&#xA;VWait&#xA;Viewport&#xA;WaitJoy&#xA;WaitKey&#xA;WaitMouse&#xA;WaitTimer&#xA;Write&#xA;WriteByte&#xA;WriteBytes&#xA;WriteFile&#xA;WriteFloat&#xA;WriteInt&#xA;WriteLine&#xA;WritePixel&#xA;WritePixelFast&#xA;WriteShort&#xA;WriteString&#xA;Xor&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="3D Functions" Enabled="True" Style="" Words="AddAnimSeq&#xA;AddTriangle&#xA;AddVertex&#xA;AlignToVector&#xA;AmbientLight&#xA;Animate&#xA;AnimateMD2&#xA;Animating&#xA;AnimLength&#xA;AnimSeq&#xA;AnimTime&#xA;AntiAlias&#xA;BrushAlpha&#xA;BrushBlend&#xA;BrushColor&#xA;BrushFX&#xA;BrushShininess&#xA;BrushTexture&#xA;CameraClsColor&#xA;CameraClsMode&#xA;CameraFogColor&#xA;CameraFogMode&#xA;CameraFogRange&#xA;CameraPick&#xA;CameraProject&#xA;CameraRange&#xA;CameraViewport&#xA;CameraZoom&#xA;CaptureWorld&#xA;ClearCollisions&#xA;ClearSurface&#xA;ClearTextureFilters&#xA;ClearWorld&#xA;CollisionEntity&#xA;CollisionNX&#xA;CollisionNY&#xA;CollisionNZ&#xA;Collisions&#xA;CollisionSurface&#xA;CollisionTime&#xA;CollisionTriangle&#xA;CollisionX&#xA;CollisionY&#xA;CollisionZ&#xA;CopyEntity&#xA;CountChildren&#xA;CountCollisions&#xA;CountSurfaces&#xA;CountTriangles&#xA;CountVertices&#xA;CreateBrush&#xA;CreateCamera&#xA;CreateCone&#xA;CreateCube&#xA;CreateCylinder&#xA;CreateLight&#xA;CreateListener&#xA;CreateMesh&#xA;CreateMirror&#xA;CreatePivot&#xA;CreatePlane&#xA;CreateSphere&#xA;CreateSprite&#xA;CreateSurface&#xA;CreateTerrain&#xA;CreateTexture&#xA;Dither&#xA;EmitSound&#xA;EntityAlpha&#xA;EntityAnimating&#xA;EntityAnimTime&#xA;EntityAutoFade&#xA;EntityBlend&#xA;EntityBox&#xA;EntityCollided&#xA;EntityColor&#xA;EntityDistance&#xA;EntityFX&#xA;EntityInView&#xA;EntityName&#xA;EntityOrder&#xA;EntityParent&#xA;EntityPick&#xA;EntityPickMode&#xA;EntityPitch&#xA;EntityRadius&#xA;EntityRoll&#xA;EntityShininess&#xA;EntityTexture&#xA;EntityType&#xA;EntityVisible&#xA;EntityX&#xA;EntityY&#xA;EntityYaw&#xA;EntityZ&#xA;FindChild&#xA;FindSurface&#xA;FitMesh&#xA;FlipMesh&#xA;FreeBrush&#xA;FreeEntity&#xA;FreeTexture&#xA;GetChild&#xA;GetEntityType&#xA;GetParent&#xA;GetSurface&#xA;GfxDriver3D&#xA;GfxMode3D&#xA;Graphics3D&#xA;HandleSprite&#xA;HideEntity&#xA;HWMultiTex&#xA;LightColor&#xA;LightConeAngles&#xA;LightMesh&#xA;LightRange&#xA;LinePick&#xA;Load3DSound&#xA;LoadAnimMesh&#xA;LoadAnimSeq&#xA;LoadAnimTexture&#xA;LoadBrush&#xA;LoaderMatrix&#xA;LoadMD2&#xA;LoadMesh&#xA;LoadSprite&#xA;LoadTerrain&#xA;LoadTexture&#xA;MD2Animating&#xA;MD2AnimLength&#xA;MD2AnimTime&#xA;MeshDepth&#xA;MeshesIntersect&#xA;MeshHeight&#xA;MeshWidth&#xA;ModifyTerrain&#xA;MoveEntity&#xA;NameEntity&#xA;PaintEntity&#xA;PaintMesh&#xA;PaintSurface&#xA;PickedEntity&#xA;PickedNX&#xA;PickedNY&#xA;PickedNZ&#xA;PickedSurface&#xA;PickedTime&#xA;PickedTriangle&#xA;PickedX&#xA;PickedY&#xA;PickedZ&#xA;PointEntity&#xA;PositionEntity&#xA;PositionMesh&#xA;PositionTexture&#xA;ProjectedX&#xA;ProjectedY&#xA;ProjectedZ&#xA;RenderWorld&#xA;ResetEntity&#xA;RotateEntity&#xA;RotateMesh&#xA;RotateSprite&#xA;RotateTexture&#xA;ScaleEntity&#xA;ScaleMesh&#xA;ScaleSprite&#xA;ScaleTexture&#xA;SetAnimKey&#xA;ShowEntity&#xA;SpriteViewMode&#xA;TerrainDetail&#xA;TerrainHeight&#xA;TerrainShading&#xA;TerrainSize&#xA;TerrainX&#xA;TerrainY&#xA;TerrainZ&#xA;TextureBlend&#xA;TextureBuffer&#xA;TextureCoords&#xA;TextureFilter&#xA;TextureHeight&#xA;TextureWidth&#xA;TFormedX&#xA;TFormedY&#xA;TFormedZ&#xA;TFormNormal&#xA;TFormPoint&#xA;TFormVector&#xA;TranslateEntity&#xA;TriangleVertex&#xA;TurnEntity&#xA;UpdateNormals&#xA;UpdateWorld&#xA;VertexBlue&#xA;VertexColor&#xA;VertexCoords&#xA;VertexGreen&#xA;VertexNormal&#xA;VertexNX&#xA;VertexNY&#xA;VertexNZ&#xA;VertexRed&#xA;VertexTexCoords&#xA;VertexU&#xA;VertexV&#xA;VertexW&#xA;VertexX&#xA;VertexY&#xA;VertexZ&#xA;WBuffer&#xA;Windowed3D&#xA;WireFrame&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words=".&#xA;\&#xA;=&#xA;+&#xA;[&#xA;]&#xA;-&#xA;//&#xA;/&#xA;(&#xA;)&#xA;*&#xA;#&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

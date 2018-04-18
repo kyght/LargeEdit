@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Rich Text Format" FileType="" Extensions="RTF" Version="1" Revision="0" Sample="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss Arial;}&#xA;{\f1\froman Times New Roman;}}{\colortbl;\red0\green0\blue0;&#xA;}{\info{\author Crystal Reports}}\paperw12240\paperh15840\margl360&#xA;\margr360\margt360\margb288\gutter0\windowctrl\ftnbj\viewkind1\viewscale100&#xA;\sectd\linex0\sbknone{\shp{\*\shpinst\shpleft4230\shptop767\shpright11580&#xA;\shpbottom1430\shpfhdr0\shpbxpage\shpbypage\shpwr3\shpwrk0&#xA;\shpfblwtxt1{\sp{\sn txflTextFlow}{\sv 0}}{\sp{\sn shapeType}&#xA;{\sv 1}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fLine}{\sv 1}}&#xA;{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineWidth}{\sv 0}}{\sp{\sn lineDashing}&#xA;{\sv 0}}{\sp{\sn lineStyle}{\sv 0}}{\sp{\sn fFilled}&#xA;{\sv 0}}}}{\shp{\*\shpinst\shpleft810\shptop5411\shpright11820&#xA;\shpbottom7459\shpfhdr0\shpbxpage\shpbypage\shpwr3\shpwrk0&#xA;\shpfblwtxt1{\sp{\sn txflTextFlow}{\sv 0}}{\sp{\sn shapeType}&#xA;{\sv 1}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fLine}{\sv 1}}&#xA;{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineWidth}{\sv 0}}{\sp{\sn lineDashing}&#xA;{\sv 0}}{\sp{\sn lineStyle}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}}}&#xA;{\pard \pvpg\phpg\posx10530\posy815\absw960\absh-185\fi0&#xA;{\pard \pvpg\phpg\posx9090\posy815\absw1320\absh-185\fi0&#xA;\strike0\fs18 \cf1 Tuesday}\par }{\pard \pvpg\phpg&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$%&amp;()+,-./:;&lt;=&gt;[\]^_`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <Range Name="RTF Tags" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="\"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Known tags" Enabled="True" Style="" Words="ansi&#xA;author&#xA;b&#xA;company&#xA;deff&#xA;f&#xA;fmodern&#xA;fnil&#xA;fonttbl&#xA;froman&#xA;fswiss&#xA;ftech&#xA;i&#xA;info&#xA;operator&#xA;par&#xA;pard&#xA;qc&#xA;qj&#xA;ql&#xA;qr&#xA;rtf&#xA;title&#xA;ul&#xA;fs24&#xA;margl&#xA;margr&#xA;sa&#xA;sb&#xA;*&#xA;">
+              <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+            </KeyList>
+          </SubRules>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

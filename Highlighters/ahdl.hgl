@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AHDL" FileType="" Extensions="TDF TDO INC" Version="1" Revision="0" Sample=""/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="and&#xA;assert&#xA;begin&#xA;bidir&#xA;bits&#xA;buried&#xA;case&#xA;ceil&#xA;clique&#xA;connected_pins&#xA;constant&#xA;defaults&#xA;define&#xA;design&#xA;device&#xA;div&#xA;else&#xA;elsif&#xA;end&#xA;for&#xA;function&#xA;generate&#xA;gnd&#xA;help_id&#xA;if&#xA;include&#xA;input&#xA;is&#xA;log2&#xA;machine&#xA;mod&#xA;nand&#xA;node&#xA;nor&#xA;not&#xA;of&#xA;options&#xA;or&#xA;others&#xA;output&#xA;parameters&#xA;report&#xA;returns&#xA;segments&#xA;severity&#xA;states&#xA;subdesign&#xA;table&#xA;then&#xA;title&#xA;to&#xA;tri_state_node&#xA;variable&#xA;vcc&#xA;when&#xA;with&#xA;xnor&#xA;xor&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="carry&#xA;cascade&#xA;dff&#xA;dffe&#xA;exp&#xA;floor&#xA;global&#xA;jkff&#xA;jkffe&#xA;latch&#xA;lcell&#xA;mcell&#xA;memory&#xA;opendrn&#xA;soft&#xA;srff&#xA;srffe&#xA;tff&#xA;tffe&#xA;tri&#xA;used&#xA;wire&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="altdpram&#xA;busmux&#xA;csdpram&#xA;csfifo&#xA;dcfifo&#xA;divide&#xA;lpm_abs&#xA;lpm_add_sub&#xA;lpm_and&#xA;lpm_bustri&#xA;lpm_clshift&#xA;lpm_compare&#xA;lpm_constant&#xA;lpm_counter&#xA;lpm_decode&#xA;lpm_dff&#xA;lpm_divide&#xA;lpm_ff&#xA;lpm_fifo&#xA;lpm_fifo_dc&#xA;lpm_inv&#xA;lpm_latch&#xA;lpm_mult&#xA;lpm_mux&#xA;lpm_or&#xA;lpm_ram_dp&#xA;lpm_ram_dq&#xA;lpm_ram_io&#xA;lpm_rom&#xA;lpm_shiftreg&#xA;lpm_tff&#xA;lpm_xor&#xA;mux&#xA;ntsc&#xA;scfifo&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

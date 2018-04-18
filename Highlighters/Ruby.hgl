@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Ruby" FileType="" Extensions="rb rbw" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ruby.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;'()*+,./&lt;&gt;[]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Ruby Keywords" Enabled="True" Style="" Words="(&#xA;)&#xA;#&#xA;#{&#xA;{&#xA;}&#xA;__FILE__&#xA;__LINE__&#xA;alias&#xA;and&#xA;begin&#xA;break&#xA;case&#xA;class&#xA;def&#xA;defined?&#xA;do&#xA;else&#xA;elsif&#xA;end&#xA;ensure&#xA;false&#xA;for&#xA;if&#xA;in&#xA;module&#xA;next&#xA;nil&#xA;not&#xA;or&#xA;quit&#xA;redo&#xA;rescue&#xA;retry&#xA;return&#xA;self&#xA;super&#xA;then&#xA;true&#xA;undef&#xA;unless&#xA;until&#xA;when&#xA;while&#xA;yield&#xA;BEGIN&#xA;END&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ruby Classes/Exceptions" Enabled="True" Style="" Words="`&#xA;ArgumentError&#xA;Array&#xA;Bignum&#xA;Binding&#xA;Class&#xA;Complex&#xA;ConditionVariable&#xA;Continuation&#xA;DelegateClass&#xA;Dir&#xA;English&#xA;EOFError&#xA;Errno::ENOENT&#xA;Errno::EPERM&#xA;Exception&#xA;FalseClass&#xA;Fatal&#xA;File&#xA;File::Stat&#xA;Fixnum&#xA;Float&#xA;FloatDomainError&#xA;GetoptLong&#xA;Hash&#xA;IndexError&#xA;Integer&#xA;Interrupt&#xA;IO&#xA;IOError&#xA;LoadError&#xA;LocalJumpError&#xA;MatchData&#xA;Method&#xA;Module&#xA;Mutex&#xA;NameError&#xA;NilClass&#xA;NoMemoryError&#xA;NotImplementedError&#xA;Numeric&#xA;Object&#xA;Proc&#xA;Pstore&#xA;Range&#xA;RangeError&#xA;Regexp&#xA;RegexpError&#xA;RuntimeError&#xA;ScriptError&#xA;SecurityError&#xA;SimpleDelegator&#xA;Singleton&#xA;StandardError&#xA;String&#xA;Struct&#xA;Struct::Tms&#xA;Symbol&#xA;SyntaxError&#xA;SystemCallError&#xA;SystemExit&#xA;SystemStackError&#xA;Tempfile&#xA;Thread&#xA;ThreadGroup&#xA;Time&#xA;TrueClass&#xA;TypeError&#xA;WeakRef&#xA;ZeroDivisionError&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ruby Libraries/Modules" Enabled="True" Style="" Words="mkmf&#xA;win32api&#xA;win32ole&#xA;BasicSocket&#xA;Benchmark&#xA;CGI&#xA;Comparable&#xA;Config&#xA;CONFIG&#xA;DATA&#xA;Date&#xA;Enumerable&#xA;Errno&#xA;FALSE&#xA;FileTest&#xA;Find&#xA;FTP&#xA;GC&#xA;HTTP&#xA;HTTPResponse&#xA;IPSocket&#xA;Kernel&#xA;Marshal&#xA;Math&#xA;NET&#xA;Net::FTP&#xA;Net::HTTP&#xA;Net::HTTPResponse&#xA;Net::POP&#xA;Net::APOP&#xA;Net::POPMail&#xA;Net::SMTP&#xA;Net::Telnet&#xA;NIL&#xA;ObjectSpace&#xA;Observable&#xA;ParseDate&#xA;POP&#xA;POPMail&#xA;Process&#xA;Session&#xA;SMTP&#xA;Socket&#xA;SOCKSSocket&#xA;Stat&#xA;STDERR&#xA;STDIN&#xA;STDOUT&#xA;TCPServer&#xA;TCPSocket&#xA;Telnet&#xA;Tms&#xA;TOPLEVEL_BINDING&#xA;TRUE&#xA;UDPSocket&#xA;UNIXServer&#xA;UNIXSocket&#xA;Win32API&#xA;WIN32OLE&#xA;WIN32OLE_EVENT&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ruby Constants/Strings" Enabled="True" Style="" Words="&quot;&#xA;cutime&#xA;cstime&#xA;domain&#xA;expires&#xA;secure&#xA;stime&#xA;AF_APPLETALK&#xA;AF_AX25&#xA;AF_INET6&#xA;AF_INET&#xA;AF_IPX&#xA;AF_UNIX&#xA;AF_UNSPEC&#xA;AI_ALL&#xA;AI_CANONNAME&#xA;AI_MASK&#xA;AI_NUMERICHOST&#xA;AI_PASSIVE&#xA;AI_V4MAPPED_CFG&#xA;ARGF&#xA;ARGV&#xA;Complex::I&#xA;Default&#xA;E&#xA;EXTENDED&#xA;EAI_ADDRFAMILY&#xA;EAI_AGAIN&#xA;EAI_BADFLAGS&#xA;EAI_BADHINTS&#xA;EAI_FAIL&#xA;EAI_FAMILY&#xA;EAI_MAX&#xA;EAI_MEMORY&#xA;EAI_NODATA&#xA;EAI_NONAME&#xA;EAI_PROTOCOL&#xA;EAI_SERVICE&#xA;EAI_SOCKTYPE&#xA;EAI_SYSTEM&#xA;FTP_PORT&#xA;IGNORECASE&#xA;IP_ADD_MEMBERSHIP&#xA;IP_DEFAULT_MULTICAST_LOOP&#xA;IP_DEFAULT_MULTICAST_TTL&#xA;IP_MAX_MEMBERSHIPS&#xA;IP_MULTICAST_IF&#xA;IP_MULTICAST_LOOP&#xA;IP_MULTICAST_TTL&#xA;LOOKUP_INET6&#xA;LOOKUP_INET&#xA;LOOKUP_UNSPEC&#xA;MSG_DONTROUTE&#xA;MSG_OOB&#xA;MSG_PEEK&#xA;MULTILINE&#xA;PF_APPLETALK&#xA;PF_AX25&#xA;PF_INET6&#xA;PF_INET&#xA;PF_IPX&#xA;PF_UNIX&#xA;PF_UNSPEC&#xA;PI&#xA;PLATFORM&#xA;PRIO_PGRP&#xA;PRIO_PROCESS&#xA;PRIO_USER&#xA;RUBY_PLATFORM&#xA;RUBY_RELEASE_DATE&#xA;RUBY_VERSION&#xA;SOCK_DGRAM&#xA;SOCK_PACKET&#xA;SOCK_RAW&#xA;SOCK_RDM&#xA;SOCK_SEQPACKET&#xA;SOCK_STREAM&#xA;SOL_ATALK&#xA;SOL_AX25&#xA;SOL_IPX&#xA;SOL_IP&#xA;SOL_SOCKET&#xA;SOL_TCP&#xA;SOL_UDP&#xA;SOPRI_BACKGROUND&#xA;SOPRI_INTERACTIVE&#xA;SOPRI_NORMAL&#xA;SO_BROADCAST&#xA;SO_DEBUG&#xA;SO_DONTROUTE&#xA;SO_ERROR&#xA;SO_KEEPALIVE&#xA;SO_LINGER&#xA;SO_NO_CHECK&#xA;SO_OOBINLINE&#xA;SO_PRIORITY&#xA;SO_RCVBUF&#xA;SO_REUSEADDR&#xA;SO_SNDBUF&#xA;SO_TYPE&#xA;TCP_MAXSEG&#xA;TCP_NODELAY&#xA;WIN32OLE::VERSION&#xA;WNOHANG&#xA;WUNTRACED&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ruby Methods" Enabled="True" Style="" Words=".&#xA;..&#xA;...&#xA;!&#xA;!=&#xA;~&#xA;%&#xA;%=&#xA;%q&#xA;%w&#xA;%Q&#xA;%W&#xA;@&#xA;&amp;&#xA;&amp;&amp;&#xA;&amp;=&#xA;*&#xA;**&#xA;*=&#xA;**=&#xA;+&#xA;+=&#xA;+@&#xA;-&#xA;-=&#xA;-@&#xA;&gt;&#xA;&gt;=&#xA;&gt;&gt;&#xA;&gt;&gt;=&#xA;&lt;&#xA;&lt;=&#xA;&lt;&lt;=&#xA;&lt;&gt;&#xA;&lt;&lt;&#xA;&lt;=&gt;&#xA;=&#xA;==&#xA;===&#xA;=&gt;&#xA;=~&#xA;[&#xA;[]=&#xA;]&#xA;|&#xA;||&#xA;|=&#xA;||=&#xA;^&#xA;^=&#xA;::&#xA;//&#xA;/=&#xA;/&#xA;_id2ref&#xA;__id__&#xA;__send__&#xA;abort&#xA;abort_on_exception&#xA;abort_on_exception!&#xA;abs&#xA;abs2&#xA;add&#xA;alias_method&#xA;alive?&#xA;ancestors&#xA;append_features&#xA;arg&#xA;arity&#xA;asctime&#xA;assoc&#xA;at&#xA;atan2&#xA;atime&#xA;attr&#xA;attr_accessor&#xA;attr_reader&#xA;attr_writer&#xA;at_exit&#xA;autoload&#xA;backtrace&#xA;basename&#xA;between?&#xA;binding&#xA;binmode&#xA;blksize&#xA;blockdev?&#xA;block_given?&#xA;blocks&#xA;broadcast&#xA;call&#xA;callcc&#xA;caller&#xA;capitalize&#xA;capitalize!&#xA;casefold?&#xA;catch&#xA;ceil&#xA;center&#xA;chomp&#xA;chomp!&#xA;chop&#xA;chop!&#xA;chardev?&#xA;chr&#xA;chdir&#xA;chmod&#xA;chown&#xA;chroot&#xA;class_eval&#xA;class_variables&#xA;clear&#xA;clone&#xA;close&#xA;closed?&#xA;close_read&#xA;close_write&#xA;cmp&#xA;coerce&#xA;collect&#xA;collect!&#xA;compact&#xA;compact!&#xA;compare&#xA;compile&#xA;concat&#xA;conjugate&#xA;const_defined?&#xA;const_get&#xA;const_set&#xA;constants&#xA;copy&#xA;cp&#xA;cos&#xA;count&#xA;create_makefile&#xA;critical&#xA;critical=&#xA;crypt&#xA;ctime&#xA;current&#xA;day&#xA;default&#xA;default=&#xA;define_finalizer&#xA;delete&#xA;delete!&#xA;delete_at&#xA;delete_if&#xA;detect&#xA;dev&#xA;directory?&#xA;dirname&#xA;dir_config&#xA;disable&#xA;display&#xA;divmod&#xA;downcase&#xA;downcase!&#xA;downto&#xA;dump&#xA;dup&#xA;each&#xA;each_byte&#xA;each_index&#xA;each_key&#xA;each_line&#xA;each_object&#xA;each_pair&#xA;each_with_index&#xA;egid&#xA;egid=&#xA;empty?&#xA;enable&#xA;england&#xA;entries&#xA;eof&#xA;eof?&#xA;eql?&#xA;equal?&#xA;error?&#xA;error_message&#xA;escape&#xA;euid&#xA;euid=&#xA;eval&#xA;exception&#xA;exclude_end?&#xA;exec&#xA;executable?&#xA;executable_real?&#xA;exist?&#xA;exist2?&#xA;existw?&#xA;exit&#xA;exit!&#xA;exp&#xA;expand_path&#xA;extend&#xA;extend_object&#xA;fail&#xA;fcntl&#xA;fetch&#xA;file?&#xA;fileno&#xA;fill&#xA;find&#xA;find_all&#xA;find_library&#xA;finite?&#xA;first&#xA;flatten&#xA;flatten!&#xA;flock&#xA;flush&#xA;foreach&#xA;fork&#xA;format&#xA;freeze&#xA;frexp&#xA;frozen?&#xA;ftype&#xA;garbage_collect&#xA;get&#xA;getc&#xA;getogrp&#xA;getpriority&#xA;gets&#xA;getwd&#xA;get_option&#xA;gid&#xA;gid=&#xA;glob&#xA;global_variables&#xA;gm&#xA;gmt?&#xA;gmtime&#xA;gregorian&#xA;gregorian_leap?&#xA;grep&#xA;grpowned?&#xA;gsub&#xA;gsub!&#xA;has_key?&#xA;has_value?&#xA;hash&#xA;have_func&#xA;have_header&#xA;have_library&#xA;hex&#xA;hour&#xA;id&#xA;id2name&#xA;image&#xA;include&#xA;include?&#xA;included_modules&#xA;index&#xA;indexes&#xA;indices&#xA;inherited&#xA;initialize&#xA;integer?&#xA;iterator?&#xA;intern&#xA;ino&#xA;inspect&#xA;install&#xA;instance_eval&#xA;instance_methods&#xA;instance_of?&#xA;instance_variables&#xA;ioctl&#xA;is_a?&#xA;isatty&#xA;isdst&#xA;italy&#xA;jd&#xA;join&#xA;julian&#xA;julian_leap?&#xA;kcode&#xA;key?&#xA;keys&#xA;kill&#xA;kind_of?&#xA;lambda&#xA;last&#xA;last_match&#xA;ldexp&#xA;leap?&#xA;length&#xA;lineno&#xA;lineno=&#xA;link&#xA;list&#xA;ljust&#xA;load&#xA;local&#xA;local_variables&#xA;localtime&#xA;lock&#xA;locked?&#xA;log&#xA;log10&#xA;loop&#xA;lstat&#xA;main&#xA;makedirs&#xA;makepath&#xA;map&#xA;map!&#xA;match&#xA;max&#xA;mday&#xA;member?&#xA;members&#xA;message&#xA;method&#xA;method_added&#xA;method_defined?&#xA;method_missing&#xA;methods&#xA;min&#xA;mjd&#xA;mkdir&#xA;mktime&#xA;mode&#xA;module_eval&#xA;module_function&#xA;modulo&#xA;mon&#xA;month&#xA;move&#xA;mv&#xA;mtime&#xA;name&#xA;nan?&#xA;nesting&#xA;new&#xA;new1&#xA;new2&#xA;new3&#xA;newsg&#xA;neww&#xA;next!&#xA;nil?&#xA;nitems&#xA;nlink&#xA;nonzero?&#xA;now&#xA;ns?&#xA;oct&#xA;open&#xA;ordering&#xA;ordering=&#xA;os?&#xA;owned?&#xA;p&#xA;pack&#xA;parsedate&#xA;pass&#xA;path&#xA;pid&#xA;pipe&#xA;pipe?&#xA;polar&#xA;pop&#xA;popen&#xA;pos&#xA;pos=&#xA;ppid&#xA;print&#xA;printf&#xA;priority&#xA;priority=&#xA;private&#xA;private_methods&#xA;proc&#xA;protected&#xA;protected_methods&#xA;prune&#xA;public_methods&#xA;private_class_method&#xA;private_instance_methods&#xA;protected_instance_methods&#xA;public_class_method&#xA;public_instance_methods&#xA;public&#xA;push&#xA;putc&#xA;puts&#xA;pwd&#xA;quiet&#xA;quiet=&#xA;quiet?&#xA;quote&#xA;raise&#xA;rand&#xA;rassoc&#xA;reject!&#xA;read&#xA;readable?&#xA;readable_real?&#xA;readchar&#xA;readline&#xA;readlines&#xA;readlink&#xA;real&#xA;rehash&#xA;reject&#xA;reject!&#xA;remainder&#xA;remove_const&#xA;remove_method&#xA;rename&#xA;reopen&#xA;replace&#xA;require&#xA;respond_to?&#xA;restore&#xA;reverse&#xA;reverse!&#xA;reverse_each&#xA;rewind&#xA;rdev&#xA;rindex&#xA;rjust&#xA;rmdir&#xA;rm_f&#xA;round&#xA;run&#xA;safe_level&#xA;safe_unlink&#xA;scan&#xA;sec&#xA;seek&#xA;select&#xA;send&#xA;setgid?&#xA;setpgid&#xA;setpgrp&#xA;setpriority&#xA;setsid&#xA;setuid?&#xA;set_backtrace&#xA;set_options&#xA;set_trace_func&#xA;sg&#xA;shift&#xA;signal&#xA;sin&#xA;singleton_methods&#xA;singleton_method_added&#xA;size&#xA;size?&#xA;sleep&#xA;slice&#xA;slice!&#xA;socket?&#xA;sort&#xA;sort!&#xA;source&#xA;split&#xA;sprintf&#xA;squeeze&#xA;squeeze!&#xA;sqrt&#xA;srand&#xA;start&#xA;stat&#xA;status&#xA;step&#xA;sticky?&#xA;stop&#xA;stop?&#xA;store&#xA;strftime&#xA;strip&#xA;strip!&#xA;sub&#xA;sub!&#xA;succ&#xA;succ!&#xA;superclass&#xA;symlink&#xA;symlink?&#xA;sync&#xA;synchronize&#xA;sync=&#xA;syscall&#xA;syscopy&#xA;sysread&#xA;system&#xA;syswrite&#xA;swapcase&#xA;swapcase!&#xA;taint&#xA;tainted?&#xA;tell&#xA;terminate&#xA;test&#xA;throw&#xA;timeout&#xA;times&#xA;today&#xA;to_a&#xA;to_ary&#xA;to_f&#xA;to_i&#xA;to_io&#xA;to_proc&#xA;to_r&#xA;to_s&#xA;to_str&#xA;tr&#xA;tr!&#xA;trace_var&#xA;trap&#xA;try_lock&#xA;tr_s&#xA;tr_s!&#xA;truncate&#xA;tty?&#xA;tv_sec&#xA;tv_usec&#xA;type&#xA;uid&#xA;uid=&#xA;umask&#xA;undef_method&#xA;ungetc&#xA;uniq&#xA;uniq!&#xA;unlink&#xA;unlock&#xA;unpack&#xA;unshift&#xA;untaint&#xA;untrace_var&#xA;upcase&#xA;upcase!&#xA;update&#xA;upto&#xA;usec&#xA;utc&#xA;utc?&#xA;utime&#xA;value?&#xA;values&#xA;var&#xA;wait&#xA;wait2&#xA;waitpid&#xA;waitpid2&#xA;wakeup&#xA;wday&#xA;weakref_alive?&#xA;write&#xA;writable?&#xA;writable_real?&#xA;yday&#xA;year&#xA;zero?&#xA;zone&#xA;Comparisons&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ruby Library Methods" Enabled="True" Style="" Words="a&#xA;accept&#xA;addr&#xA;add_observer&#xA;all&#xA;base&#xA;bind&#xA;binmode=&#xA;blockquote&#xA;caption&#xA;changed&#xA;changed?&#xA;checkbox&#xA;checkbox_group&#xA;cmd&#xA;code&#xA;const_load&#xA;content_type&#xA;cookies&#xA;connect&#xA;count_observers&#xA;debug_mode&#xA;debug_mode=&#xA;delete_observer&#xA;delete_observers&#xA;dir&#xA;do_not_reverse_lookup&#xA;do_not_reverse_lookup=&#xA;escapeElement&#xA;escapeHTML&#xA;file_field&#xA;form&#xA;for_fd&#xA;getaddress&#xA;getaddrinfo&#xA;getbinaryfile&#xA;gethostbyaddr&#xA;gethostbyname&#xA;gethostname&#xA;getnameinfo&#xA;getservbyname&#xA;getpeername&#xA;getsockname&#xA;getsockopt&#xA;gettextfile&#xA;head&#xA;header&#xA;hidden&#xA;html&#xA;img&#xA;img_button&#xA;invoke&#xA;lastresp&#xA;listen&#xA;local_path&#xA;login&#xA;lookup_order&#xA;lookup_order=&#xA;ls&#xA;mails&#xA;message_loop&#xA;multipart_form&#xA;notify_observers&#xA;on_event&#xA;original_filename&#xA;out&#xA;pair&#xA;params&#xA;parse&#xA;passive&#xA;passive=&#xA;password_field&#xA;peeraddr&#xA;popup_menu&#xA;port&#xA;post&#xA;pretty&#xA;putbinaryfile&#xA;puttextfile&#xA;radio_button&#xA;radio_groupready&#xA;recv&#xA;recvfrom&#xA;reset&#xA;resume&#xA;resume=&#xA;retrbinary&#xA;retrlinew&#xA;return_code&#xA;rfc1123_date&#xA;scrolling_list&#xA;sendmail&#xA;setsockopt&#xA;shutdown&#xA;socketpair&#xA;storbinary&#xA;storlines&#xA;submit&#xA;telnetmode&#xA;telnetmode=&#xA;text_field&#xA;textarea&#xA;top&#xA;uidl&#xA;unescape&#xA;unescapeElement&#xA;unescapeHTML&#xA;waitfor&#xA;welcome&#xA;Call&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Block-to-Proc Variable/Instance Variable/Class Variable" Enabled="True" Style="" Words="@@a&#xA;@@b&#xA;@@c&#xA;@@d&#xA;@@e&#xA;@@f&#xA;@@g&#xA;@@h&#xA;@@i&#xA;@@j&#xA;@@k&#xA;@@l&#xA;@@m&#xA;@@n&#xA;@@o&#xA;@@p&#xA;@@q&#xA;@@r&#xA;@@s&#xA;@@t&#xA;@@u&#xA;@@v&#xA;@@w&#xA;@@x&#xA;@@y&#xA;@@z&#xA;@y&#xA;@z&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks =begin..=end" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="=begin" Close="=end"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

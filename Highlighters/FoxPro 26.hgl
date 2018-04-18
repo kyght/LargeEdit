@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="FoxPro 2.6" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="ACCEPT&#xA;ACTIVATE&#xA;ACTIVATE&#xA;ALTERNATIVE&#xA;AMERICAN&#xA;AND&#xA;ANSI&#xA;APPEND&#xA;ARRAY&#xA;AUTOSAVE&#xA;AVERAGE&#xA;BAR&#xA;BELL&#xA;BLANK&#xA;BLICK&#xA;BLOCKSIZE&#xA;BOX&#xA;BORDER&#xA;BROWSE&#xA;BRSTATUS&#xA;BUILD&#xA;BUILD&#xA;EXE&#xA;BUILD&#xA;PROJECT&#xA;CALCULATE&#xA;CALL&#xA;CANCEL&#xA;CARRY&#xA;CASE&#xA;CENTURY&#xA;CHANGE&#xA;CLEAR&#xA;CLOCK&#xA;CLOSE&#xA;COLLATE&#xA;COLOR&#xA;COMMAND&#xA;COMPILE&#xA;COMPATABLE&#xA;CONFIRM&#xA;CONSOLE&#xA;CONTINUE&#xA;COPY&#xA;COUNT&#xA;CPCOMPILE&#xA;CPDIALOG&#xA;CREATE&#xA;CURRENCY&#xA;CURSOR&#xA;DATABASES&#xA;DATE&#xA;DEACTIVATE&#xA;DEBUG&#xA;DECIMALS&#xA;DECLARE&#xA;DEFAULT&#xA;DEFINE&#xA;DELETE&#xA;DELETED&#xA;DELIMITERS&#xA;DEVELOPMENT&#xA;DEVICE&#xA;DIMENSION&#xA;DIR&#xA;DIRECTORY&#xA;DISPLAY&#xA;DO&#xA;&#xA;DOHISTORY&#xA;ECHO&#xA;EDIT&#xA;EJECT&#xA;ELSE&#xA;ENDCASE&#xA;ENDDO&#xA;ENDFOR&#xA;ENDSCAN&#xA;ENDTEXT&#xA;ENDIF&#xA;ENDPRINTJOB&#xA;ERASE&#xA;ERROR&#xA;ESCAPE&#xA;EXACT&#xA;EXCLUSIVE&#xA;EXIT&#xA;EXPORT&#xA;EXTENDED&#xA;EXTERNAL&#xA;FIELDS&#xA;FILES&#xA;FILER&#xA;FILL&#xA;FILTER&#xA;FIND&#xA;FIXED&#xA;FORMAT&#xA;FLUSH&#xA;FOR&#xA;FROM&#xA;FULLPATH&#xA;FUNCTION&#xA;FUNCTION&#xA;GATHER&#xA;GENERAL&#xA;GET&#xA;GETS&#xA;GETEXPR&#xA;GO&#xA;GOTO&#xA;HEADINGS&#xA;HELP&#xA;HELPFILTER&#xA;HIDE&#xA;HOURS&#xA;IF&#xA;IMPORT&#xA;INDEX&#xA;INDEXES&#xA;INPUT&#xA;INSERT&#xA;INTENSITY&#xA;JOIN&#xA;KEY&#xA;KEYBOARD&#xA;KEYCOMP&#xA;LABEL&#xA;LIBRARY&#xA;LIST&#xA;LOAD&#xA;LOCATE&#xA;LOCK&#xA;LOGERRORS&#xA;MACKEY&#xA;MACRO&#xA;MARGIN&#xA;MARK&#xA;MARK&#xA;MEMO&#xA;MEMOWIDTH&#xA;MENU&#xA;MESSAGE&#xA;MODIFY&#xA;MODULE&#xA;MOUSE&#xA;MOVE&#xA;MULTILOCKS&#xA;NEAR&#xA;NOCPTRANS&#xA;NORMALIZE&#xA;NOTE&#xA;NOTIFY&#xA;OBJECT&#xA;ODOMETER&#xA;OFF&#xA;ON&#xA;OPTIMIZE&#xA;ORDER&#xA;OTHERWISE&#xA;PAD&#xA;PAGE&#xA;PALETTE&#xA;PARAMETERS&#xA;PATH&#xA;PDSETUP&#xA;PICTURE&#xA;PLAY&#xA;POINT&#xA;POP&#xA;POPUP&#xA;PRINTER&#xA;PRINTJOB&#xA;PRIVATE&#xA;PROCEDURE&#xA;PROJECT&#xA;PROMPT&#xA;PUBLIC&#xA;PUSH&#xA;QUERY&#xA;READ&#xA;READBORDER&#xA;READERROR&#xA;RECALL&#xA;REGIONAL&#xA;REINDEX&#xA;RELEASE&#xA;RELEASE&#xA;RENAME&#xA;REPLACE&#xA;REPORT&#xA;RESTORE&#xA;RESUME&#xA;RETRY&#xA;RETURN&#xA;REFRESH&#xA;RELATION&#xA;RELATION&#xA;REPORT&#xA;REPROCESS&#xA;RESOURCE&#xA;RUN&#xA;SAFETY&#xA;SAVE&#xA;SAY&#xA;SCAN&#xA;SCATTER&#xA;SCHEME&#xA;SCOREBOARD&#xA;SCREEN&#xA;SEEK&#xA;SELECT&#xA;SELECTION&#xA;SEPERATOR&#xA;SET&#xA;SHADOWS&#xA;SHOW&#xA;SHUTDOWN&#xA;SIZE&#xA;SKIP&#xA;SORT&#xA;STATUS&#xA;STICKY&#xA;STEP&#xA;STORE&#xA;STRUCTURE&#xA;SUM&#xA;SUSPEND&#xA;SYSMENU&#xA;SQL&#xA;TABLE&#xA;TAG&#xA;TALK&#xA;TEXTMERGE&#xA;TEXT&#xA;TO&#xA;TOPIC&#xA;TOTAL&#xA;TRBETWEEN&#xA;TYPE&#xA;TYPEAHEAD&#xA;UDFPARAMS&#xA;UNIQUE&#xA;UNLOCK&#xA;UPDATE&#xA;USE&#xA;VIEW&#xA;WAIT&#xA;WHILE&#xA;WINDOW&#xA;WITH&#xA;ZAP&#xA;ZOOM&#xA;ADDITIVE&#xA;AFTER&#xA;AGAIN&#xA;ALL&#xA;ALTERNATE&#xA;AUTOMATIC&#xA;AUTO&#xA;ASCENDING&#xA;BITMAP&#xA;BEFORE&#xA;APP&#xA;BOTTOM&#xA;BRITISH&#xA;BY&#xA;CENTER&#xA;COMPACT&#xA;COLUMN&#xA;COMPATIBLE&#xA;CGA&#xA;CLASS&#xA;CYCLE&#xA;DB4&#xA;&#xA;&#xA;DESKTOP&#xA;DESC&#xA;DIF&#xA;DOUBLE&#xA;&#xA;DOS&#xA;DISTINCT&#xA;ENCRYPT&#xA;ENVIRONMENT&#xA;ENABLE&#xA;&#xA;DISABLE&#xA;EGA43&#xA;EGA25&#xA;DELIMITED&#xA;EXCEPT&#xA;FORM&#xA;FOOTER&#xA;BLINK&#xA;FLOAT&#xA;FONT&#xA;FOXPLUS&#xA;FREEZE&#xA;FRENCH&#xA;GERMAN&#xA;FW2&#xA;GROUP&#xA;GROW&#xA;HALFHEIGHT&#xA;HAVING&#xA;HEADING&#xA;HEIGHT&#xA;HIGHLIGHT&#xA;INFORMATION&#xA;IN&#xA;ICON&#xA;JAPAN&#xA;INTO&#xA;ISOMETRIC&#xA;ITALIAN&#xA;LOOP&#xA;LPARTITION&#xA;LINE&#xA;LEVEL&#xA;LEDIT&#xA;LAST&#xA;MACROS&#xA;MASTER&#xA;MDI&#xA;MEMVAR&#xA;MENUS&#xA;MULTISELECT&#xA;MOVER&#xA;MONO&#xA;MODAL&#xA;MINIMIZE&#xA;MESSAGES&#xA;NEXT&#xA;NOAPPEND&#xA;NOCLEAR&#xA;NOCLOSE&#xA;NOCONSOLE&#xA;NODEBUG&#xA;NODELETE&#xA;NOEDIT&#xA;NOEJECT&#xA;NOENVIRONMENT&#xA;NOFLOAT&#xA;NOGROW&#xA;NOLGRID&#xA;NOLINK&#xA;NOLOCK&#xA;NOMARGIN&#xA;NOMDI&#xA;NOMENU&#xA;NOMODIFY&#xA;NOMOUSE&#xA;NONE&#xA;NOOPTIMIZE&#xA;NOOVERWRITE&#xA;NOREFRESH&#xA;NORGRID&#xA;NORM&#xA;NORMAL&#xA;NOSAVE&#xA;NOSHOW&#xA;&#xA;NOUPDATE&#xA;NOWAIT&#xA;NOWINDOW&#xA;NOZOOM&#xA;NUMBER&#xA;OF&#xA;ONLY&#xA;OPEN&#xA;OVERWRITE&#xA;PARTITION&#xA;PATTERN&#xA;PDOX&#xA;PEN&#xA;PREVIEW&#xA;PRERERENCE&#xA;POXPLUS&#xA;POPUPS&#xA;PANEL&#xA;PRODUCTION&#xA;PLAIN&#xA;RANDOM&#xA;RANGE&#xA;&#xA;RECORD&#xA;REDIT&#xA;REFERENCE&#xA;&#xA;RELATIVE&#xA;REST&#xA;&#xA;RPD&#xA;SAME&#xA;SAMPLE&#xA;SDF&#xA;SHADOW&#xA;SHARE&#xA;SINGLE&#xA;STANDALONE&#xA;&#xA;STYLE&#xA;SUMMARY&#xA;SYLK&#xA;SYSTEM&#xA;TAB&#xA;TIMEOUT&#xA;TITLE&#xA;TITLES&#xA;TOP&#xA;UDFPARMS&#xA;UNION&#xA;USA&#xA;VALUE&#xA;VALUES&#xA;VGA25&#xA;VGA50&#xA;WHEN&#xA;WHERE&#xA;WIDE&#xA;WIDTH&#xA;WINDOWS&#xA;WK1&#xA;WK3&#xA;WKS&#xA;WR1&#xA;WRAP&#xA;WRK&#xA;XLS&#xA;YMD&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ABS&#xA;ACOPY&#xA;ACOS&#xA;ADEL&#xA;ADIR&#xA;AELEMENT&#xA;AFIELDS&#xA;AFONT&#xA;AINS&#xA;ALEN&#xA;ALIAS&#xA;ALLTRIM&#xA;ANSITOOEM&#xA;ASC&#xA;ASCAN&#xA;ASIN&#xA;ASORT&#xA;ASUBSCRIPT&#xA;AT&#xA;ATAN&#xA;ATC&#xA;ATCLINE&#xA;ATLINE&#xA;ATN2&#xA;BAR&#xA;BETWEEN&#xA;BOF&#xA;CAPSLOCK&#xA;CDOW&#xA;CDX&#xA;CEILING&#xA;CHR&#xA;CHRSAW&#xA;CHRTRAN&#xA;CMONTH&#xA;CNTBAR&#xA;CNTPAD&#xA;COL&#xA;COS&#xA;CPCONVERT&#xA;CPCURRENT&#xA;CPDBF&#xA;CTOD&#xA;CURDIR&#xA;DATE&#xA;DAY&#xA;DBF&#xA;DDE&#xA;DDEAbortTrans&#xA;DDEAdvise&#xA;DDEEnabled&#xA;DDEExecute&#xA;DDEInitiate&#xA;DDELastError&#xA;DDEPoke&#xA;DDERequest&#xA;DDESetOption&#xA;DDESetService&#xA;DDESetTopic&#xA;DDETerminate&#xA;DELETED&#xA;DESCENDING&#xA;DIFFERENCE&#xA;DISKSPACE&#xA;DMY&#xA;DOW&#xA;DTOC&#xA;DTOR&#xA;DTOS&#xA;EMPTY&#xA;EOF&#xA;ERROR&#xA;EVALUATE&#xA;EXP&#xA;FCHSIZE&#xA;FCLOSE&#xA;FCOUNT&#xA;FCREATE&#xA;FEOF&#xA;FERROR&#xA;FFLUSH&#xA;FGETS&#xA;FIELD&#xA;FILE&#xA;FILTER&#xA;FKLABEL&#xA;FKMAX&#xA;FLOCK&#xA;FLOOR&#xA;FONTMETRIC&#xA;FOPEN&#xA;FOR&#xA;FOUND&#xA;FPUTS&#xA;FREAD&#xA;FSEEK&#xA;FSIZE&#xA;FULLPATH&#xA;FV&#xA;FWRITE&#xA;GETBAR&#xA;GETDIR&#xA;GETENV&#xA;GETFILE&#xA;GETFONT&#xA;GETPAD&#xA;GOMONTH&#xA;HEADER&#xA;HOME&#xA;IDXCOLLATE&#xA;IIF&#xA;INKEY&#xA;INLIST&#xA;INSMODE&#xA;INT&#xA;ISALPHA&#xA;ISBLANK&#xA;ISCOLOR&#xA;ISDIGIT&#xA;ISLOWER&#xA;ISREADONLY&#xA;ISUPPER&#xA;KEY&#xA;KEYMATCH&#xA;LASTKEY&#xA;LEFT&#xA;LEN&#xA;LIKE&#xA;LINENO&#xA;LOCFILE&#xA;LOCK&#xA;LOG&#xA;LOG10&#xA;LOOKUP&#xA;LOWER&#xA;LTRIM&#xA;LUPDATE&#xA;MAX&#xA;MCOL&#xA;MDOWN&#xA;MDX&#xA;MDY&#xA;MEMLINES&#xA;MEMORY&#xA;MENU&#xA;MESSAGE&#xA;MIN&#xA;MLINE&#xA;MOD&#xA;MONTH&#xA;MRKBAR&#xA;MRKPAD&#xA;MROW(&#xA;MWINDOW&#xA;NDX&#xA;NUMLOCK&#xA;OBJNUM&#xA;OBJVAR&#xA;OCCURS&#xA;OEMTOANSI&#xA;ON&#xA;ORDER&#xA;OS&#xA;PACK&#xA;PAD&#xA;PADC&#xA;PADL&#xA;PADR&#xA;PARAMETERS&#xA;PAYMENT&#xA;PCOL&#xA;PI&#xA;POPUP&#xA;PRINTSTATUS&#xA;PRMBAR&#xA;PRMPAD&#xA;PROGRAM&#xA;PROMPT&#xA;PROPER&#xA;PROW&#xA;PRTINFO PUTFILE&#xA;PV&#xA;QUIT&#xA;RAND&#xA;RAT&#xA;RATLINE&#xA;RDLEVEL&#xA;READKEY&#xA;RECCOUNT&#xA;RECNO&#xA;RECSIZE&#xA;RELATION&#xA;REPLICATE&#xA;RGBSCHEME&#xA;RIGHT&#xA;RLOCK&#xA;ROUND&#xA;ROW&#xA;RTOD&#xA;RTRIM&#xA;SCHEME&#xA;SCOLS&#xA;SCROLL&#xA;SECONDS&#xA;SEEK&#xA;SELECT&#xA;SET&#xA;SIGN&#xA;SIN&#xA;SIZE&#xA;POPUP&#xA;SKPBAR&#xA;SKPPAD&#xA;SOUNDEX&#xA;SPACE&#xA;SQRT&#xA;SROWS&#xA;STR&#xA;STRTRAN&#xA;STUFF&#xA;SUBSTR&#xA;SYS&#xA;SYS(0)&#xA;SYS(1)&#xA;SYS(2)&#xA;SYS(3)&#xA;SYS(5)&#xA;SYS(6)&#xA;SYS(7)&#xA;SYS(9)&#xA;SYS(10)&#xA;SYS(11)&#xA;SYS(12)&#xA;SYS(13)&#xA;SYS(14)&#xA;SYS(15)&#xA;SYS(16)&#xA;SYS(17)&#xA;SYS(18)&#xA;SYS(20)&#xA;SYS(21)&#xA;SYS(22)&#xA;SYS(23)&#xA;SYS(24)&#xA;SYS(100)&#xA;SYS(101)&#xA;SYS(102)&#xA;SYS(103)&#xA;SYS(1001)&#xA;SYS(1016)&#xA;SYS(1037)&#xA;SYS(2000)&#xA;SYS(2001)&#xA;SYS(2002)&#xA;SYS(2003)&#xA;SYS(2004)&#xA;SYS(2005)&#xA;SYS(2006)&#xA;SYS(2007)&#xA;SYS(2008)&#xA;SYS(2009)&#xA;SYS(2010)&#xA;SYS(2011)&#xA;SYS(2012)&#xA;SYS(2013)&#xA;SYS(2014)&#xA;SYS(2015)&#xA;SYS(2016)&#xA;SYS(2017)&#xA;SYS(2018)&#xA;SYS(2019)&#xA;SYS(2020)&#xA;SYS(2021)&#xA;SYS(2022)&#xA;SYS(2023)&#xA;SYSMETRIC(&#xA;TAG&#xA;TAN&#xA;TARGET&#xA;TIME&#xA;TRANSFORM&#xA;TRIM&#xA;TXTWIDTH&#xA;TYPE&#xA;UPDATED&#xA;UPPER&#xA;USED&#xA;VAL&#xA;VALID&#xA;VARREAD&#xA;VERSION&#xA;WBORDER&#xA;WCHILD&#xA;WCOLS&#xA;WEXIST&#xA;WFONT&#xA;WLAST&#xA;WLCOL&#xA;WLROW&#xA;WMAXIMUM&#xA;WMINIMUM&#xA;WONTOP&#xA;WOUTPUT&#xA;WPARENT&#xA;WREAD&#xA;WROWS&#xA;WTITLE&#xA;WVISIBLE&#xA;YEAR&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Misc" Enabled="True" Style="" Words=".AND.&#xA;.F.&#xA;.NOT.&#xA;.OR.&#xA;.T.&#xA;AND&#xA;NOT&#xA;OR&#xA;! !=&#xA;#&#xA;$&#xA;%&#xA;* **&#xA;+&#xA;-&#xA;//&#xA;/&#xA;&lt;&#xA;&lt;=&#xA;&lt;&gt;&#xA;= &#xA;==&#xA;&gt;&#xA;&gt;=&#xA;AND&#xA;NOT&#xA;OR&#xA;^&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks &amp;&amp;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&amp;&amp;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Compiler control" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

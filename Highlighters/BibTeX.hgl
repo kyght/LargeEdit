@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="BibTeX" FileType="" Extensions="BIB BST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:bibtex.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$%&amp;()+,-./0123456789:;&lt;=&gt;D[]^_`eilmrst{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="\!&#xA;\&quot;&#xA;\&amp;&#xA;\'&#xA;\(&#xA;\)&#xA;\*&#xA;\+&#xA;\,&#xA;\-&#xA;\.&#xA;\/&#xA;\:&#xA;\;&#xA;\=&#xA;\&gt;&#xA;\@&#xA;\[&#xA;\\&#xA;\]&#xA;\^&#xA;\_&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="=&#xA;{&#xA;}&#xA;,&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="@article&#xA;@book&#xA;@booklet&#xA;@conference&#xA;@inbook&#xA;@incollection&#xA;@manual&#xA;@mastersthesis&#xA;@phdthesis&#xA;@proceedings&#xA;@techreport&#xA;@unpublished&#xA;@report&#xA;@thesis&#xA;@\acute&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="\a'&#xA;\a`&#xA;\acute&#xA;\aleph&#xA;\alph&#xA;\alpha&#xA;\amalg&#xA;\and&#xA;\angle&#xA;\approx&#xA;\arabic&#xA;\arccos&#xA;\arcsin&#xA;\arctan&#xA;\arg&#xA;\arraybackslash&#xA;\arrowvert&#xA;\ast&#xA;\asymp&#xA;\Arrowvert&#xA;\backslash&#xA;\bar&#xA;\bf&#xA;\bibitem&#xA;\bigcap&#xA;\bigcirc&#xA;\bigcup&#xA;\bigodot&#xA;\bigoplus&#xA;\bigotimes&#xA;\bigsqcup&#xA;\bigtriangledown&#xA;\bigtriangleup&#xA;\biguplus&#xA;\bigvee&#xA;\bigwedge&#xA;\boldmath&#xA;\boldsymbol&#xA;\boolean&#xA;\bot&#xA;\botfigrule&#xA;\bottomcaption&#xA;\bottomfraction&#xA;\bowtie&#xA;\boxed&#xA;\bracevert&#xA;\branch&#xA;\breve&#xA;\bullet&#xA;\Box&#xA;\cal&#xA;\cap&#xA;\caption&#xA;\cdot&#xA;\cdots&#xA;\cfrac&#xA;\chi&#xA;\circ&#xA;\circle&#xA;\circle*&#xA;\cline&#xA;\clubsuit&#xA;\cong&#xA;\coprod&#xA;\copyright&#xA;\cos&#xA;\cosh&#xA;\cot&#xA;\coth&#xA;\csc&#xA;\cup&#xA;\d&#xA;\dag&#xA;\dagger&#xA;\dashbox&#xA;\ddag&#xA;\ddagger&#xA;\ddot&#xA;\ddots&#xA;\deg&#xA;\delta&#xA;\det&#xA;\diamond&#xA;\diamondpar&#xA;\diamondsuit&#xA;\dim&#xA;\displaystyle&#xA;\dot&#xA;\doteq&#xA;\dotfill&#xA;\dots&#xA;\downarrow&#xA;\Delta&#xA;\Diamond&#xA;\Downarrow&#xA;\ell&#xA;\em&#xA;\emph&#xA;\emptyset&#xA;\enspace&#xA;\epsilon&#xA;\eqref&#xA;\eta&#xA;\exists&#xA;\exp&#xA;\fbox&#xA;\flat&#xA;\fnsymbol&#xA;\forall&#xA;\frac&#xA;\frown&#xA;\fussy&#xA;\gamma&#xA;\ge&#xA;\geq&#xA;\gets&#xA;\gg&#xA;\grave&#xA;\Gamma&#xA;\hat&#xA;\heartsuit&#xA;\hom&#xA;\hookleftarrow&#xA;\hookrightarrow&#xA;\hspace&#xA;\hspace*&#xA;\huge&#xA;\hyphenation&#xA;\hyphenchar&#xA;\Huge&#xA;\idotsint&#xA;\ignorespaces&#xA;\imath&#xA;\in&#xA;\include&#xA;\indent&#xA;\inf&#xA;\infty&#xA;\input&#xA;\int&#xA;\iota&#xA;\isucaption&#xA;\it&#xA;\itdefault&#xA;\item&#xA;\itemindent&#xA;\itemsep&#xA;\itshape&#xA;\Im&#xA;\jmath&#xA;\jot&#xA;\Join&#xA;\kappa&#xA;\ker&#xA;\label&#xA;\lambda&#xA;\langle&#xA;\large&#xA;\lceil&#xA;\ldots&#xA;\le&#xA;\leadsto&#xA;\left&#xA;\leftarrow&#xA;\leftharpoondown&#xA;\leftharpoonup&#xA;\leftmargin&#xA;\leftmark&#xA;\leftrightarrow&#xA;\leq&#xA;\lfloor&#xA;\lg&#xA;\lgroup&#xA;\lhd&#xA;\lhead&#xA;\lim&#xA;\liminf&#xA;\limits&#xA;\limsup&#xA;\line&#xA;\linebreak&#xA;\linethickness&#xA;\linewidth&#xA;\ll&#xA;\lmoustache&#xA;\ln&#xA;\log&#xA;\longleftarrow&#xA;\longleftrightarrow&#xA;\longmapsto&#xA;\longrightarrow&#xA;\LARGE&#xA;\Lambda&#xA;\Large&#xA;\Leftarrow&#xA;\Leftrightarrow&#xA;\Longleftarrow&#xA;\Longleftrightarrow&#xA;\Longrightarrow&#xA;\mapsto&#xA;\mathbf&#xA;\mathcal&#xA;\mathindent&#xA;\mathit&#xA;\matrix&#xA;\max&#xA;\mid&#xA;\min&#xA;\mod&#xA;\mp&#xA;\mu&#xA;\nabla&#xA;\ne&#xA;\nearrow&#xA;\neg&#xA;\neq&#xA;\ni&#xA;\nobreak&#xA;\nolinebreak&#xA;\normalsize&#xA;\not&#xA;\notin&#xA;\nu&#xA;\nwarrow&#xA;\odot&#xA;\oint&#xA;\omega&#xA;\ominus&#xA;\oplus&#xA;\oslash&#xA;\otimes&#xA;\oval&#xA;\overbrace&#xA;\overleftarrow&#xA;\overline&#xA;\overrightarrow&#xA;\Omega&#xA;\parallel&#xA;\parbox&#xA;\part&#xA;\part*&#xA;\partial&#xA;\perp&#xA;\phantom&#xA;\phi&#xA;\pi&#xA;\pm&#xA;\pmb&#xA;\pmod&#xA;\pod&#xA;\prec&#xA;\preceq&#xA;\prime&#xA;\prod&#xA;\propto&#xA;\psi&#xA;\Phi&#xA;\Pi&#xA;\Pr&#xA;\Psi&#xA;\qquad&#xA;\quad&#xA;\rangle&#xA;\rceil&#xA;\ref&#xA;\rfloor&#xA;\rgroup&#xA;\rhd&#xA;\rho&#xA;\right&#xA;\rightarrow&#xA;\rightharpoondown&#xA;\rightharpoonup&#xA;\rightmark&#xA;\rm&#xA;\rmoustache&#xA;\roman&#xA;\Re&#xA;\Rightarrow&#xA;\Roman&#xA;\scshape&#xA;\searrow&#xA;\sec&#xA;\secdef&#xA;\sf&#xA;\sharp&#xA;\shortstack&#xA;\sigma&#xA;\sim&#xA;\simeq&#xA;\sin&#xA;\sinh&#xA;\sl&#xA;\sloppy&#xA;\small&#xA;\smile&#xA;\space&#xA;\spadesuit&#xA;\spcheck&#xA;\sqcap&#xA;\sqcup&#xA;\sqrt&#xA;\sqsubseteq&#xA;\sqsupseteq&#xA;\ss&#xA;\stackrel&#xA;\star&#xA;\stepcounter&#xA;\stretch&#xA;\strut&#xA;\subset&#xA;\subseteq&#xA;\subsubsection&#xA;\succ&#xA;\succeq&#xA;\sum&#xA;\sup&#xA;\supset&#xA;\supseteq&#xA;\surd&#xA;\swarrow&#xA;\symbol&#xA;\Sigma&#xA;\tan&#xA;\tanh&#xA;\tau&#xA;\texlmd&#xA;\textbf&#xA;\textit&#xA;\textnormal&#xA;\textrm&#xA;\textsc&#xA;\textsf&#xA;\textsl&#xA;\textstyle&#xA;\texttt&#xA;\textup&#xA;\theta&#xA;\tilde&#xA;\times&#xA;\tiny&#xA;\top&#xA;\triangle&#xA;\triangleleft&#xA;\triangleright&#xA;\tt&#xA;\twlrm&#xA;\Theta&#xA;\unboldmath&#xA;\underbrace&#xA;\underline&#xA;\unlhd&#xA;\unrhd&#xA;\uparrow&#xA;\updownarrow&#xA;\uplus&#xA;\uproot&#xA;\upshape&#xA;\upsilon&#xA;\Uparrow&#xA;\Updownarrow&#xA;\Upsilon&#xA;\vapace&#xA;\varepsilon&#xA;\varphi&#xA;\varpi&#xA;\varprojlim&#xA;\varrho&#xA;\varsigma&#xA;\vartheta&#xA;\vdash&#xA;\vdots&#xA;\vec&#xA;\vector&#xA;\vee&#xA;\verb&#xA;\vline&#xA;\voffset&#xA;\vrule&#xA;\wedge&#xA;\widehat&#xA;\widetilde&#xA;\wp&#xA;\wr&#xA;\xi&#xA;\Xi&#xA;\zeta&#xA;\{&#xA;\|&#xA;\}&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="address&#xA;author&#xA;chapter&#xA;edition&#xA;editor&#xA;howpublished&#xA;journal&#xA;month&#xA;note&#xA;number&#xA;organization&#xA;pages&#xA;publisher&#xA;series&#xA;title&#xA;type&#xA;volume&#xA;year&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

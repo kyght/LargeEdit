@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PowerTerm Scripts" FileType="" Extensions="PSL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:powerterm.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Switch/Permission" Enabled="True" Style="" Words="-all&#xA;-ascii&#xA;-code&#xA;-command&#xA;-decreasing&#xA;-errorcode&#xA;-exact&#xA;-glob&#xA;-increasing&#xA;-indices&#xA;-integer&#xA;-nocase&#xA;-nocomplain&#xA;-nonewline&#xA;-real&#xA;-regexp&#xA;APPEND&#xA;CREAT&#xA;EXCL&#xA;NOCTTY&#xA;NONBLOCK&#xA;PSL_BREAK&#xA;PSL_CONTINUE&#xA;PSL_RETURN&#xA;RDONLY&#xA;RDWR&#xA;TRUNC&#xA;WRONLY&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="break&#xA;continue&#xA;default&#xA;for&#xA;if&#xA;return&#xA;switch&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="append&#xA;array&#xA;cd&#xA;clear-screen&#xA;close&#xA;concat&#xA;cursor&#xA;dde&#xA;display&#xA;eof&#xA;eval&#xA;exec&#xA;expr&#xA;file&#xA;flush&#xA;foreach&#xA;format&#xA;gets&#xA;glob&#xA;global&#xA;incr&#xA;info&#xA;join&#xA;key&#xA;lappend&#xA;lindex&#xA;linsert&#xA;list&#xA;llength&#xA;lrange&#xA;lreplace&#xA;lsearch&#xA;lsort&#xA;menu&#xA;message&#xA;open&#xA;open-setup-file&#xA;proc&#xA;puts&#xA;pwd&#xA;read&#xA;regexp&#xA;regsub&#xA;rename&#xA;run&#xA;scan&#xA;screen&#xA;screen-rect&#xA;seek&#xA;send&#xA;session&#xA;set&#xA;split&#xA;string&#xA;tell&#xA;time&#xA;unset&#xA;uplevel&#xA;upvar&#xA;wait&#xA;window&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Parameters" Enabled="True" Style="" Words="anymore&#xA;args&#xA;atime&#xA;baud-rate&#xA;body&#xA;cmdcount&#xA;comm-type&#xA;commands&#xA;compare&#xA;complete&#xA;current&#xA;dirname&#xA;donesearch&#xA;end&#xA;error&#xA;execute&#xA;exists&#xA;extension&#xA;first&#xA;globals&#xA;hide&#xA;host-name&#xA;index&#xA;initiate&#xA;isdirectory&#xA;isfile&#xA;last&#xA;length&#xA;level&#xA;library&#xA;locals&#xA;match&#xA;minimize&#xA;modify&#xA;mtime&#xA;namens&#xA;nextelement&#xA;ok&#xA;parity&#xA;poke&#xA;port-number&#xA;position&#xA;procs&#xA;protocol-type&#xA;range&#xA;record&#xA;request&#xA;restore&#xA;restore&#xA;rootname&#xA;script&#xA;seconds&#xA;server-name&#xA;service-name&#xA;session-name&#xA;size&#xA;start&#xA;startsearch&#xA;stop-bits&#xA;system&#xA;tail&#xA;terminate&#xA;tolower&#xA;toupper&#xA;trim&#xA;trimleft&#xA;trimright&#xA;type&#xA;user-name&#xA;value&#xA;vars&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiters" Enabled="True" Style="" Words="!&#xA;$&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;+&#xA;,&#xA;-&#xA;.&#xA;//&#xA;/&#xA;:&#xA;;&#xA;&lt;&#xA;=&#xA;&gt;&#xA;[&#xA;]&#xA;{&#xA;|&#xA;}&#xA;~&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

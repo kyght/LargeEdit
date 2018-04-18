@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Config Files" FileType="" Extensions="CFG INI" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:config.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;'()*+,-./:;&lt;=&gt;?[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="AGENCY&#xA;API_USERS&#xA;ABSFONT&#xA;ALERT&#xA;BUSINESS&#xA;CLIENT_USERS&#xA;CODEPAGE&#xA;DEBUG&#xA;DISABLE_TOOLBAR&#xA;EXECUTE&#xA;EIS&#xA;FILE&#xA;FILECODEPAGE&#xA;HOST&#xA;JOB&#xA;LOG_FILE&#xA;LP&#xA;LPPATH&#xA;LOCAL&#xA;LOADPAGEMSG&#xA;MEMORY&#xA;&#xA;NT95INTERFACE&#xA;ROUTE_FILE&#xA;SERVER&#xA;STORE&#xA;SQL&#xA;SPX&#xA;SQLCODEPAGE&#xA;SCENARIO_SIZE&#xA;SPLASH&#xA;TIMEOUT&#xA;THREADS&#xA;TCP&#xA;TCPX&#xA;WORKERS&#xA;WEBSERVER&#xA;WEBPORT&#xA;WEBTIMEOUT&#xA;WEBCGI&#xA;WEBCLASSES&#xA;WEBICONS&#xA;WEB_USERS&#xA;WEBCODEPAGE&#xA;WEBSSL&#xA;sqlentry&#xA;sqlodbc&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

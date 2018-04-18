@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="UE MACRO" FileType="" Extensions="UEM uem" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:uemacro.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,./:;&lt;=&gt;?@[\]^_{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="AnsiToOem&#xA;Bottom&#xA;CloseFile&#xA;ColumnModeOff&#xA;ColumnModeOn&#xA;ColumnCut&#xA;ColumnDelete&#xA;ColumnInsert&#xA;ColumnInsertNum&#xA;Copy&#xA;Cut&#xA;Delete&#xA;DeleteLine&#xA;DeleteToEndOfLine&#xA;DeleteToStartOfLine&#xA;DosToMac&#xA;DosToUnix&#xA;ExitMacro&#xA;GetString&#xA;GetValue&#xA;GotoBookMark&#xA;GotoLine&#xA;GotoPage&#xA;HexDelete&#xA;HexInsert&#xA;HexOff&#xA;HexOn&#xA;InsertMode&#xA;InsertPageBreak&#xA;InvertCase&#xA;NextWindow&#xA;NewFile&#xA;OemToAnsi&#xA;Open&#xA;OverStrikeMode&#xA;Paste&#xA;PlayMacro&#xA;PreviousWindow&#xA;ReturnToWarp&#xA;Save&#xA;SaveAs&#xA;SelectAll&#xA;SelectToBottom&#xA;SelectToTop&#xA;SelectWord&#xA;SpacesToTabs&#xA;SpacesToTabsAll&#xA;TabsToSpaces&#xA;TimeDate&#xA;ToCaps&#xA;ToggleBookMark&#xA;ToLower&#xA;Top&#xA;ToUpper&#xA;TrimTrailingSpaces&#xA;UnixMactoDos&#xA;WrapToReturn&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Templates" Enabled="True" Style="" Words="Template&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Nesting Statements" Enabled="True" Style="" Words="Else&#xA;EndIf&#xA;EndLoop&#xA;EndSelect&#xA;ExitLoop&#xA;IfCharIs&#xA;IfColNum&#xA;IfEof&#xA;IfFound&#xA;IfNotFound&#xA;IfSel&#xA;Loop&#xA;StartSelect&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Commands" Enabled="True" Style="" Words="All&#xA;ARROW&#xA;AllFiles&#xA;Backspace&#xA;DEL&#xA;DOWN&#xA;END&#xA;HOME&#xA;IgnoreCase&#xA;Key&#xA;LEFT&#xA;PGDN&#xA;PGUP&#xA;RemoveDup&#xA;RIGHT&#xA;Selected&#xA;Text&#xA;UP&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sort" Enabled="True" Style="" Words="IgnoreCase&#xA;RemoveDup&#xA;SortAsc&#xA;SortDes&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Find &amp; Replace" Enabled="True" Style="" Words="Find&#xA;MatchCase&#xA;MatchWord&#xA;RegExp&#xA;Replace&#xA;Select&#xA;SelectText&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *.." Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*" Close="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

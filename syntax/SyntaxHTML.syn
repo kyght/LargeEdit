@@ -1,0 +1,40 @@
+[Asp]
+Background=65535
+Foreground=0
+Style=0
+[Comment]
+Background=536870911
+Foreground=0
+Style=2
+[Escape ampersand]
+Background=536870911
+Foreground=65280
+Style=1
+[Identifier]
+Background=536870911
+Foreground=536870911
+Style=1
+[Reserved word]
+Background=536870911
+Foreground=16711680
+Style=1
+[Space]
+Background=536870911
+Foreground=536870911
+Style=0
+[Symbol]
+Background=536870911
+Foreground=536870911
+Style=1
+[Text]
+Background=536870911
+Foreground=536870911
+Style=0
+[Unknown word]
+Background=536870911
+Foreground=255
+Style=1
+[Value]
+Background=536870911
+Foreground=128
+Style=0

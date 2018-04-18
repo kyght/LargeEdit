@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Digital Command Language" FileType="" Extensions="COM com" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:dcl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;()+,/:;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Lexicals" Enabled="True" Style="" Words="F$CONTEXT&#xA;F$CSID&#xA;F$CVSI&#xA;F$CVTIME&#xA;F$CVUI&#xA;F$DEVICE&#xA;F$DIRECTORY&#xA;F$EDIT&#xA;F$ELEMENT&#xA;F$ENVIRONMENT&#xA;F$EXTRACT&#xA;F$FAO&#xA;F$FILE_ATTRIBUTES&#xA;F$GETDVI&#xA;F$GETENV&#xA;F$GETJPI&#xA;F$GETQUI&#xA;F$GETSYI&#xA;F$IDENTIFIER&#xA;F$INTEGER&#xA;F$LENGTH&#xA;F$LOCATE&#xA;F$MESSAGE&#xA;F$MODE&#xA;F$PARSE&#xA;F$PID&#xA;F$PRIVILEGE&#xA;F$PROCESS&#xA;F$SEARCH&#xA;F$SETPRV&#xA;F$STRING&#xA;F$TIME&#xA;F$TRNLNM&#xA;F$TYPE&#xA;F$USER&#xA;F$VERIFY&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Redirection" Enabled="True" Style="" Words="Exit&#xA;Gosub&#xA;Goto&#xA;Return&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Logic" Enabled="True" Style="" Words=".And.&#xA;.Not.&#xA;.Or.&#xA;Else&#xA;EndIf&#xA;If&#xA;Then&#xA;=&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Integer Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;*&#xA;//&#xA;/&#xA;.EQ.&#xA;.GE.&#xA;.GT.&#xA;.LE.&#xA;.LT.&#xA;.NE.&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="String Operators" Enabled="True" Style="" Words=".EQS.&#xA;.GES.&#xA;.GTS.&#xA;.LES.&#xA;.LTS.&#xA;.NES.&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="ASSIGN&#xA;CLOSE&#xA;DEFAULT&#xA;DEFINE&#xA;INQUIRE&#xA;OPEN&#xA;PROMPT&#xA;SET&#xA;SUBMIT&#xA;WRITE&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Miscellaneous" Enabled="True" Style="" Words="LOG&#xA;NOLOG&#xA;NOPUNC&#xA;PUNC&#xA;SYS$INPUT&#xA;SYS$LOGIN&#xA;SYS$OUTPUT&#xA;SYS$SYSTEM&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Dollar Sign" Enabled="True" Style="" Words="$&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AutoIT 2.61" FileType="" Extensions="AUT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:autoit261.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value=",\"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="#include&#xA;AdlibOn&#xA;AdlibOff&#xA;BlockInput&#xA;Break&#xA;DetectHiddenText&#xA;Exit&#xA;EndRepeat&#xA;EnvAdd&#xA;EnvDiv&#xA;EnvMult&#xA;EnvSub&#xA;FileAppend&#xA;FileReadLine&#xA;FileSelectFile&#xA;Gosub&#xA;Goto&#xA;HideAutoItWin&#xA;IfInString&#xA;IfNotInString&#xA;IfWinExist&#xA;IfWinNotExist&#xA;IfWinActive&#xA;IfWinNotActive&#xA;IfEqual&#xA;IfNotEqual&#xA;IfGreater&#xA;IfGreaterOrEqual&#xA;IfLess&#xA;IfLessOrEqual&#xA;IfExist&#xA;IfNotExist&#xA;IfMsgBox&#xA;IniRead&#xA;IniWrite&#xA;IniDelete&#xA;InputBox&#xA;LeftClick&#xA;LeftClickDrag&#xA;MouseGetPos&#xA;MouseMove&#xA;MsgBox&#xA;Random&#xA;RegDelete&#xA;RegRead&#xA;RegWrite&#xA;Repeat&#xA;Return&#xA;RightClick&#xA;RightClickDrag&#xA;Run&#xA;RunWait&#xA;Send&#xA;SetBatchLines&#xA;SetCapslockState&#xA;SetEnv&#xA;SetKeyDelay&#xA;SetStoreCapslockMode&#xA;SetTitleMatchMode&#xA;SetWinDelay&#xA;Shutdown&#xA;Sleep&#xA;SplashTextOn&#xA;SplashTextOff&#xA;StringCaseSense&#xA;StringGetPos&#xA;StringLeft&#xA;StringRight&#xA;StringMid&#xA;StringLen&#xA;StringReplace&#xA;StringTrimLeft&#xA;StringTrimRight&#xA;WinGetActiveStats&#xA;WinGetActiveTitle&#xA;WinKill&#xA;WinWait&#xA;WinWaitClose&#xA;WinWaitActive&#xA;WinWaitNotActive&#xA;WinHide&#xA;WinRestore&#xA;WinShow&#xA;WinMinimize&#xA;WinMaximize&#xA;WinActivate&#xA;WinClose&#xA;WinMinimizeAll&#xA;WinMinimizeAllUndo&#xA;WinMove&#xA;WinSetTitle&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modifieurs" Enabled="True" Style="" Words="Default&#xA;Hide&#xA;Max&#xA;Min&#xA;On&#xA;Off&#xA;REG_SZ&#xA;REG_DWORD&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Marqueurs" Enabled="True" Style="" Words="\&#xA;{}&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Variables" Enabled="True" Style="" Words="A_OSTYPE&#xA;A_OSVERSION&#xA;A_SCRIPTNAME&#xA;A_SCRIPTDIR&#xA;A_SCRIPTFULLPATH&#xA;A_WORKINGDIR&#xA;A_NUMBATCHLINES&#xA;A_SEC&#xA;A_MIN&#xA;A_HOUR&#xA;A_MDAY&#xA;A_MON&#xA;A_YEAR&#xA;A_WDAY&#xA;A_YDAY&#xA;CLIPBOARD&#xA;COMSPEC&#xA;ERRORLEVEL&#xA;HKEY_LOCAL_MACHINE&#xA;HKEY_CURRENT_USER&#xA;HKEY_CURRENT_CONFIG&#xA;WIN32_WINDOWS&#xA;WIN32_NT&#xA;WIN_XP&#xA;WIN_2000&#xA;WIN_NT4&#xA;WIN_95&#xA;WIN_98&#xA;WIN_ME&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value=",\"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings %..%" Enabled="True" Style="">
+          <Delimiters Value=",\"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%" Close="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

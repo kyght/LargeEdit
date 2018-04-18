@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Cisco IOS Config" FileType="" Extensions="conf" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:cisco.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;$%&amp;()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="aaa&#xA;access-list&#xA;address&#xA;alias&#xA;arp&#xA;async-bootp&#xA;banner&#xA;boot&#xA;bridge&#xA;buffers&#xA;busy-message&#xA;call-history-mib&#xA;cdp&#xA;chat-script&#xA;class-map&#xA;clock&#xA;cns&#xA;config-register&#xA;controller&#xA;crypto&#xA;default&#xA;default-value&#xA;dialer&#xA;dialer-list&#xA;dnsix-dmdp&#xA;dnsix-nat&#xA;downward-compatible-config&#xA;enable&#xA;end&#xA;exception&#xA;exit&#xA;file&#xA;frame-relay&#xA;help&#xA;hostname&#xA;interface&#xA;ip&#xA;isdn&#xA;isdn-mib&#xA;kerberos&#xA;key&#xA;line&#xA;logging&#xA;login-string&#xA;map-class&#xA;map-list&#xA;memory-size&#xA;menu&#xA;modemcap&#xA;multilink&#xA;netbios&#xA;no&#xA;ntp&#xA;partition&#xA;policy-map&#xA;priority-list&#xA;privilege&#xA;process-max-time&#xA;prompt&#xA;queue-list&#xA;resume-string&#xA;rlogin&#xA;rmon&#xA;route-map&#xA;router&#xA;rtr&#xA;scheduler&#xA;service&#xA;snmp-server&#xA;sntp&#xA;stackmaker&#xA;state-machine&#xA;subscriber-policy&#xA;tacacs-server&#xA;template&#xA;terminal-queue&#xA;tftp-server&#xA;time-range&#xA;username&#xA;virtual-profile&#xA;virtual-template&#xA;vpdn&#xA;vpdn-group&#xA;x25&#xA;x29&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Parameters" Enabled="True" Style="" Words="accounting&#xA;accounting-list&#xA;accounting-threshold&#xA;accounting-transits&#xA;address-pool&#xA;as-path&#xA;audit&#xA;authentication&#xA;authorization&#xA;auth-proxy&#xA;bgp-community&#xA;bootp&#xA;cef&#xA;classless&#xA;community-list&#xA;default-gateway&#xA;default-network&#xA;dhcp&#xA;dhcp-server&#xA;domain-list&#xA;domain-lookup&#xA;domain-name&#xA;dvmrp&#xA;exec-callback&#xA;extcommunity-list&#xA;finger&#xA;flow-aggregation&#xA;flow-cache&#xA;flow-export&#xA;forward-protocol&#xA;ftp&#xA;gratuitous-arps&#xA;host&#xA;host-routing&#xA;hp-host&#xA;http&#xA;icmp&#xA;inspect&#xA;local&#xA;mrm&#xA;mroute&#xA;msdp&#xA;multicast&#xA;multicast-routing&#xA;name-server&#xA;nat&#xA;new-model&#xA;ospf&#xA;password&#xA;password-encryption&#xA;pgm&#xA;pim&#xA;port-map&#xA;prefix-list&#xA;radius&#xA;rcmd&#xA;reflexive-list&#xA;route&#xA;routing&#xA;rsvp&#xA;rtcp&#xA;sap&#xA;sdr&#xA;security&#xA;source-route&#xA;subnet-zero&#xA;tacacs&#xA;tcp&#xA;tcp-small-servers&#xA;telnet&#xA;tftp&#xA;timestamps&#xA;udp-small-servers&#xA;vrf&#xA;wccp&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Options" Enabled="True" Style="" Words="any&#xA;autocommand&#xA;connection&#xA;datetime&#xA;debug&#xA;deny&#xA;exec&#xA;if-needed&#xA;log&#xA;login&#xA;noescape&#xA;nopassword&#xA;permit&#xA;ppp&#xA;secondary&#xA;source-interface&#xA;start-stop&#xA;system9&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

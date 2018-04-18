@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ASM for C515C" FileType="" Extensions="ASM LST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;#'()+,:;@[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="ACALL&#xA;ADD&#xA;ADDC&#xA;AJMP&#xA;ANL&#xA;CJNE&#xA;CLR&#xA;CPL&#xA;DA&#xA;DEC&#xA;DIV&#xA;DJNZ&#xA;DPTR&#xA;INC&#xA;JB&#xA;JBC&#xA;JC&#xA;JMP&#xA;JNB&#xA;JNC&#xA;JNZ&#xA;JZ&#xA;LCALL&#xA;LJMP&#xA;MOV&#xA;MOVC&#xA;MOVX&#xA;MUL&#xA;NOP&#xA;ORL&#xA;POP&#xA;PUSH&#xA;RET&#xA;RETI&#xA;RL&#xA;RLC&#xA;RR&#xA;RRC&#xA;SETB&#xA;SJMP&#xA;SUBB&#xA;SWAP&#xA;XCH&#xA;XCHD&#xA;XRL&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Registers" Enabled="True" Style="" Words="A&#xA;AB&#xA;ACC&#xA;ADCON0&#xA;ADCON1&#xA;ADDATH&#xA;ADDATL&#xA;B&#xA;CCEN&#xA;CCH1&#xA;CCH2&#xA;CCH3&#xA;CCL1&#xA;CCL2&#xA;CCL3&#xA;CRCH&#xA;CRCL&#xA;DIR5&#xA;DPH&#xA;DPL&#xA;DPSEL&#xA;IEN0&#xA;IEN1&#xA;IEN2&#xA;IP0&#xA;IP1&#xA;IRCON&#xA;P0&#xA;P1&#xA;P2&#xA;P3&#xA;P4&#xA;P5&#xA;P6&#xA;P7&#xA;PCON&#xA;PCON1&#xA;PSW&#xA;R0&#xA;R1&#xA;R2&#xA;R3&#xA;R4&#xA;R5&#xA;R6&#xA;R7&#xA;SBUF&#xA;SCF&#xA;SCIEN&#xA;SCON&#xA;SP&#xA;SRB&#xA;SRELH&#xA;SRELL&#xA;SSCCON&#xA;SSCMOD&#xA;STB&#xA;SYSCON&#xA;T2CON&#xA;TCON&#xA;TH0&#xA;TH1&#xA;TH2&#xA;TL0&#xA;TL1&#xA;TL2&#xA;TMOD&#xA;WDTREL&#xA;XPAGE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Bits" Enabled="True" Style="" Words="A10&#xA;A11&#xA;A12&#xA;A13&#xA;A14&#xA;A15&#xA;A8&#xA;A9&#xA;AC&#xA;ACC.0&#xA;ACC.1&#xA;ACC.2&#xA;ACC.3&#xA;ACC.4&#xA;ACC.5&#xA;ACC.6&#xA;ACC.7&#xA;AD0&#xA;AD1&#xA;AD2&#xA;AD3&#xA;AD4&#xA;AD5&#xA;AD6&#xA;AD7&#xA;ADEX&#xA;ADM&#xA;ADST&#xA;BD&#xA;BSY&#xA;C&#xA;CLK&#xA;CLKOU&#xA;CY&#xA;EA&#xA;EADC&#xA;ES&#xA;ET0&#xA;ET1&#xA;ET2&#xA;EX0&#xA;EX1&#xA;EX2&#xA;EX3&#xA;EX4&#xA;EX5&#xA;EX6&#xA;EXEN2&#xA;EXF2&#xA;F0&#xA;F1&#xA;I2FR&#xA;I3FR&#xA;IADC&#xA;IE0&#xA;IE1&#xA;IEX2&#xA;IEX3&#xA;IEX4&#xA;IEX5&#xA;IEX6&#xA;INT0&#xA;INT1&#xA;INT2&#xA;INT3&#xA;INT4&#xA;INT5&#xA;INT6&#xA;INT8&#xA;IT0&#xA;IT1&#xA;MX0&#xA;MX1&#xA;MX2&#xA;OV&#xA;P&#xA;RB8&#xA;RD&#xA;REN&#xA;RI&#xA;RS0&#xA;RS1&#xA;RXD&#xA;RXDC&#xA;SCLK&#xA;SLS&#xA;SM0&#xA;SM1&#xA;SM2&#xA;SRI&#xA;STO&#xA;SWDT&#xA;T0&#xA;T1&#xA;T2&#xA;T2CM&#xA;T2EX&#xA;T2I0&#xA;T2I1&#xA;T2PS&#xA;T2R0&#xA;T2R1&#xA;TB8&#xA;TF0&#xA;TF1&#xA;TF2&#xA;TI&#xA;TR0&#xA;TR1&#xA;TXD&#xA;TXDC&#xA;WDT&#xA;WR&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="BIT&#xA;BSEG&#xA;CODE&#xA;CSEG&#xA;DATA&#xA;DB&#xA;DBIT&#xA;DS&#xA;DSEG&#xA;DW&#xA;END&#xA;EQU&#xA;EXTRN&#xA;IDATA&#xA;ISEG&#xA;NAME&#xA;ORG&#xA;PUBLIC&#xA;RSEG&#xA;SEGMENT&#xA;SET&#xA;USING&#xA;XDATA&#xA;XSEG&#xA;">
+          <Attributes Foreground="clTeal" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Logical operators" Enabled="True" Style="" Words="AND&#xA;EQ&#xA;GE&#xA;GT&#xA;HIGH&#xA;LE&#xA;LOW&#xA;LT&#xA;MOD&#xA;NE&#xA;NOT&#xA;OR&#xA;SHL&#xA;SHR&#xA;XOR&#xA;">
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="@" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

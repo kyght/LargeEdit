@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Bash" FileType="" Extensions="SH CSH" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:bash.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%'()*+,./:;&lt;=&gt;?@[\]^`{}~ґ"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="'&#xA;{&#xA;}&#xA;&amp;&amp;&#xA;||&#xA;$&#xA;alias&#xA;break&#xA;case&#xA;continue&#xA;do&#xA;done&#xA;elif&#xA;else&#xA;esac&#xA;exit&#xA;export&#xA;fi&#xA;for&#xA;if&#xA;in&#xA;return&#xA;set&#xA;then&#xA;unalias&#xA;unset&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="halt&#xA;ifconfig&#xA;init&#xA;initlog&#xA;insmod&#xA;linuxconf&#xA;lsmod&#xA;modprobe&#xA;reboot&#xA;rmmod&#xA;route&#xA;shutdown&#xA;traceroute&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="]&#xA;&#xA;[&#xA;awk&#xA;basename&#xA;cat&#xA;cp&#xA;echo&#xA;egrep&#xA;fgrep&#xA;gawk&#xA;grep&#xA;gzip&#xA;kill&#xA;killall&#xA;less&#xA;md&#xA;mkdir&#xA;mv&#xA;nice&#xA;pidof&#xA;ps&#xA;rd&#xA;read&#xA;rm&#xA;rmdir&#xA;sed&#xA;sleep&#xA;test&#xA;touch&#xA;ulimit&#xA;uname&#xA;usleep&#xA;zcat&#xA;zless&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="`&#xA;-a&#xA;-b&#xA;-c&#xA;-d&#xA;-e&#xA;-f&#xA;-g&#xA;-h&#xA;-i&#xA;-j&#xA;-k&#xA;-l&#xA;-m&#xA;-n&#xA;-o&#xA;-p&#xA;-q&#xA;-r&#xA;-s&#xA;-t&#xA;-u&#xA;-v&#xA;-w&#xA;-x&#xA;-z&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="-eq&#xA;-ge&#xA;-gt&#xA;-le&#xA;-lt&#xA;=&#xA;!=&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

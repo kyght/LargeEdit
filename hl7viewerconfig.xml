@@ -1,0 +1,5 @@
+<config>
+	<hl7viewer>
+		<baselib>plugins\hl7viewer\schemas</baselib>
+	</hl7viewer>
+</config>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="" FileType="" Extensions="" Version="1" Revision="0" Sample="??? ????????? dash ?? ?????? ????????????&#xA;&#xA;:allow-other-keys :append :array :base :capitalize :case :circle :count :direction :downcase :element-type :escape :external :from-end :gensym :if-exists :inherited :initial-element :input :internal :key :length :level :output :output-file :pretty :print :radix :stream :test :test-not :upcase :verbose&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Sharp signes" Enabled="True" Style="" Words="#\&#xA;#=&#xA;#-&#xA;#+&#xA;#(&#xA;#.&#xA;#'&#xA;#:&#xA;##&#xA;#a&#xA;#A&#xA;#b&#xA;#B&#xA;#c&#xA;#o&#xA;#O&#xA;#r&#xA;#R&#xA;#s&#xA;#S&#xA;#x&#xA;#X&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Lambda" Enabled="True" Style="" Words="&amp;allow-other-keys&#xA;&amp;aux&#xA;&amp;key&#xA;&amp;optional&#xA;&amp;rest&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="abs&#xA;acons&#xA;acos&#xA;alpha-char-p&#xA;alphanumericp&#xA;and&#xA;append&#xA;apply&#xA;apropos&#xA;aref&#xA;array-dimensions&#xA;array-rank&#xA;arrayp&#xA;asin&#xA;assoc&#xA;atan&#xA;atom&#xA;block&#xA;boundp&#xA;break&#xA;by&#xA;bye&#xA;car&#xA;case&#xA;catch&#xA;cdr&#xA;ceiling&#xA;char&#xA;char=&#xA;char/=&#xA;char&gt;&#xA;char&gt;=&#xA;char&lt;&#xA;char&lt;=&#xA;char-code&#xA;char-downcase&#xA;char-upcase&#xA;char-acterp&#xA;close&#xA;code-char&#xA;compile&#xA;compile-file&#xA;compiler-let&#xA;complexp&#xA;concatenate&#xA;cond&#xA;cons&#xA;consp&#xA;copy-seq&#xA;cos&#xA;decf&#xA;declare&#xA;defconstant&#xA;defmacro&#xA;defparameter&#xA;defstruct&#xA;defun&#xA;defvar&#xA;delete&#xA;delete-file&#xA;delete-if&#xA;delete-if-not&#xA;describe&#xA;digit-char-p&#xA;do&#xA;&#xA;do-all-symbols&#xA;do-external-symbols&#xA;do-symbols&#xA;documentation&#xA;dolist&#xA;dotimes&#xA;ed&#xA;eighth&#xA;eq&#xA;eql&#xA;equal&#xA;error&#xA;eval&#xA;eval-when&#xA;exp&#xA;export&#xA;expt&#xA;fifth&#xA;find-package&#xA;find-symbol&#xA;finish-output&#xA;first&#xA;flet&#xA;floatp&#xA;floor&#xA;format&#xA;fourth&#xA;fresh-line&#xA;funcall&#xA;function&#xA;gcd&#xA;gensym&#xA;gentemp&#xA;get&#xA;getf&#xA;get-macro-character&#xA;get-properties&#xA;go&#xA;if&#xA;import&#xA;in-package&#xA;incf&#xA;inspect&#xA;integerp&#xA;intern&#xA;isqrt&#xA;labels&#xA;lanbda&#xA;last&#xA;lcm&#xA;length&#xA;let&#xA;list&#xA;list-all-packages&#xA;listp&#xA;load&#xA;log&#xA;loop&#xA;lower-case-p&#xA;macroexpand&#xA;macro-function&#xA;macrolet&#xA;make-array&#xA;make-list&#xA;make-string&#xA;makunbound&#xA;mapc&#xA;mapcan&#xA;mapcar&#xA;mapcon&#xA;mapl&#xA;maplist&#xA;max&#xA;member&#xA;member-if&#xA;member-if-not&#xA;min&#xA;mod&#xA;multiple-value-bind&#xA;multiple-value-call&#xA;multiple-value-list&#xA;multiple-value-prog1&#xA;multiple-value-setq&#xA;nconc&#xA;nil&#xA;ninth&#xA;not&#xA;nreverse&#xA;nstring-downcase&#xA;nstring-upcase&#xA;nth&#xA;nthcdr&#xA;null&#xA;numberp&#xA;open&#xA;or&#xA;otherwise&#xA;peek-char&#xA;pi&#xA;pop&#xA;pprint&#xA;prin1&#xA;princ&#xA;print&#xA;probe-file&#xA;proclaim&#xA;prog&#xA;&#xA;prog1&#xA;progn&#xA;progv&#xA;provide&#xA;psetf&#xA;psetq&#xA;push&#xA;quote&#xA;random&#xA;rationalp&#xA;read&#xA;read-char&#xA;read-preserving-whitespace&#xA;rem&#xA;remf&#xA;remove&#xA;remove-if&#xA;remove-if-not&#xA;remprop&#xA;rename-file&#xA;require&#xA;rest&#xA;return&#xA;return-from&#xA;reverse&#xA;round&#xA;rplace&#xA;rplacd&#xA;second&#xA;set&#xA;set-macro-character&#xA;setf&#xA;setq&#xA;seventh&#xA;shadow&#xA;sin&#xA;sixth&#xA;special&#xA;special-form-p&#xA;sqrt&#xA;step&#xA;string&#xA;string=&#xA;string/=&#xA;string&gt;&#xA;string&lt;&#xA;string&gt;=&#xA;string&lt;=&#xA;string-char&#xA;string-downcase&#xA;string-upcase&#xA;stringp&#xA;subseq&#xA;symbol-name&#xA;symbol-package&#xA;symbol-values&#xA;t&#xA;tagbody&#xA;tan&#xA;tenth&#xA;terpri&#xA;the&#xA;third&#xA;throw&#xA;time&#xA;trace&#xA;truncate&#xA;typep&#xA;unless&#xA;unread-char&#xA;untrace&#xA;unwind-protect&#xA;upper-case-p&#xA;use-package&#xA;values&#xA;values-list&#xA;variable&#xA;vector&#xA;vectorp&#xA;when&#xA;with-input-from-string&#xA;with-open-file&#xA;with-output-to-string&#xA;write&#xA;write-char&#xA;write-to-string&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="=&#xA;//&#xA;/= &#xA;/&#xA;&gt;&#xA;&gt;=&#xA;&lt;&#xA;&lt;=&#xA;+&#xA;-&#xA;*&#xA;1+&#xA;1-&#xA;evenp&#xA;minusp&#xA;oddp&#xA;plusp&#xA;zerop&#xA;">
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark #|" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#|" Close="|#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Global Variables" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*" Close="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Options" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

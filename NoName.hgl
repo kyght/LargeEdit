@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Info>
+      <General Name="" Extensions="" Version="0" Revision="0" Sample="" History=""/>
+      <Author Name="" Mail="" Web="" Copyright="" Company="" Remark=""/>
+    </Info>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Editor/>
+    <MainRules Name="" Style="">
+      <Attributes Foreground="clWindowText" Background="clWindow"/>
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <SubRules/>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

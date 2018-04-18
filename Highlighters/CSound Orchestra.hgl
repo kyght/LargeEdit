@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="CSound orchestra" FileType="" Extensions="orc" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:csoundorch.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,-./:&lt;=&gt;?[]^{}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="-&#xA;!&#xA;%&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;,&#xA;.&#xA;/&#xA;//&#xA;:&#xA;?&#xA;^&#xA;|&#xA;+&#xA;&lt;&#xA;=&#xA;&gt;&#xA;abs&#xA;add&#xA;cos&#xA;cosh&#xA;cosinv&#xA;di&#xA;divz&#xA;endin&#xA;exp&#xA;log&#xA;log10&#xA;logbtwo&#xA;mac&#xA;maca&#xA;mod&#xA;mul&#xA;pow&#xA;powoftwo&#xA;product&#xA;sin&#xA;sinh&#xA;sininv&#xA;sqrt&#xA;sub&#xA;sum&#xA;tan&#xA;tanh&#xA;taninv&#xA;taninv2&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Variables" Enabled="True" Style="" Words="kr&#xA;ksmps&#xA;nchnls&#xA;sr&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Opcodes" Enabled="True" Style="" Words="active&#xA;adsr&#xA;adsyn&#xA;adsynt&#xA;aftouch&#xA;alpass&#xA;ampdb&#xA;ampdbfs&#xA;ampmidi&#xA;areson&#xA;aresonk&#xA;atone&#xA;atonek&#xA;atonex&#xA;babo&#xA;balance&#xA;bamboo&#xA;betarand&#xA;bexprnd&#xA;biquad&#xA;birnd&#xA;butbp&#xA;butbr&#xA;buthp&#xA;butlp&#xA;butterbp&#xA;butterbr&#xA;butterhp&#xA;butterlp&#xA;buzz&#xA;cabasa&#xA;cauchy&#xA;cggoto&#xA;chanctrl&#xA;cigoto&#xA;ckgoto&#xA;clear&#xA;clip&#xA;clockoff&#xA;clockon&#xA;comb&#xA;convle&#xA;convolve&#xA;cps2pch&#xA;cpsmidi&#xA;cpsmidib&#xA;cpsoct&#xA;cpspch&#xA;cpstmid&#xA;cpsxpch&#xA;cpuprc&#xA;cross2&#xA;crunch&#xA;ctrl14&#xA;ctrl21&#xA;ctrl7&#xA;ctrlinit&#xA;dam&#xA;dbamp&#xA;dbfsamp&#xA;dcblock&#xA;delay&#xA;delay1&#xA;delayr&#xA;delayw&#xA;deltap&#xA;deltap3&#xA;deltapi&#xA;deltapn&#xA;diff&#xA;diskin&#xA;dispfft&#xA;display&#xA;distort1&#xA;div&#xA;downsamp&#xA;dripwater&#xA;dumpk&#xA;dumpk2&#xA;dumpk3&#xA;dumpk4&#xA;envlpx&#xA;envlpxr&#xA;expon&#xA;exprand&#xA;expseg&#xA;expsega&#xA;expsegr&#xA;filelen&#xA;filenchnls&#xA;filepeak&#xA;filesr&#xA;filter2&#xA;fin&#xA;fini&#xA;fink&#xA;fiopen&#xA;flanger&#xA;fmb3&#xA;fmbell&#xA;fmmetal&#xA;fmpercfl&#xA;fmrhode&#xA;fmvoice&#xA;fmwurlie&#xA;fof&#xA;fof2&#xA;fog&#xA;fold&#xA;follow&#xA;follow2&#xA;foscil&#xA;foscili&#xA;fout&#xA;fouti&#xA;foutir&#xA;foutk&#xA;frac&#xA;ftgen&#xA;ftlen&#xA;ftlptim&#xA;ftsr&#xA;gauss&#xA;gbuzz&#xA;gogobel&#xA;goto&#xA;grain&#xA;granule&#xA;guiro&#xA;harmon&#xA;hilbert&#xA;hrtfer&#xA;hsboscil&#xA;in&#xA;in32&#xA;inch&#xA;inh&#xA;init&#xA;initc14&#xA;initc21&#xA;initc7&#xA;ino&#xA;inq&#xA;ins&#xA;int&#xA;integ&#xA;interp&#xA;inx&#xA;inz&#xA;itablecopy&#xA;itablegpw&#xA;itablemix&#xA;itablew&#xA;lfo&#xA;limit&#xA;line&#xA;linen&#xA;linenr&#xA;linrand&#xA;linseg&#xA;linsegr&#xA;locsend&#xA;locsig&#xA;lorenz&#xA;loscil&#xA;loscil3&#xA;lowpass2&#xA;lowres&#xA;lowresx&#xA;lpf18&#xA;lpfreson&#xA;lpinterp&#xA;lposcil&#xA;lposcil3&#xA;lpread&#xA;lpreson&#xA;lpslot&#xA;madsr&#xA;mandol&#xA;marimba&#xA;massign&#xA;maxalloc&#xA;mclock&#xA;mdelay&#xA;midic14&#xA;midic21&#xA;midic7&#xA;midictrl&#xA;midiin&#xA;midion&#xA;midion2&#xA;midiout&#xA;mirror&#xA;moog&#xA;moogvcf&#xA;moscil&#xA;mpulse&#xA;mrtmsg&#xA;multitap&#xA;mxadsr&#xA;nestedap&#xA;nlfilt&#xA;noise&#xA;noteoff&#xA;noteon&#xA;noteondur&#xA;noteondur2&#xA;notnum&#xA;nreverb&#xA;nrpn&#xA;nsamp&#xA;ntrpol&#xA;octcps&#xA;octmidi&#xA;octmidib&#xA;octpch&#xA;oscil&#xA;oscil1&#xA;oscil1i&#xA;oscil3&#xA;oscili&#xA;osciln&#xA;oscilx&#xA;out&#xA;out32&#xA;outc&#xA;outch&#xA;outh&#xA;outiat&#xA;outic&#xA;outic14&#xA;outipat&#xA;outipb&#xA;outipc&#xA;outkat&#xA;outkc&#xA;outkc14&#xA;outkpat&#xA;outkpb&#xA;outkpc&#xA;outo&#xA;outq&#xA;outq1&#xA;outq2&#xA;outq3&#xA;outq4&#xA;outs&#xA;outs1&#xA;outs2&#xA;outx&#xA;outz&#xA;pchbend&#xA;pchmidi&#xA;pchmidib&#xA;pchoct&#xA;peak&#xA;phaser1&#xA;phaser2&#xA;phasor&#xA;phasorbnk&#xA;pinkish&#xA;pitch&#xA;pitchamdf&#xA;planet&#xA;pluck&#xA;poisson&#xA;port&#xA;portk&#xA;poscil&#xA;poscil3&#xA;prealloc&#xA;print&#xA;printk&#xA;printk2&#xA;printks&#xA;pset&#xA;pvadd&#xA;pvbufread&#xA;pvcross&#xA;pvinterp&#xA;pvoc&#xA;pvread&#xA;rand&#xA;randh&#xA;randi&#xA;readclock&#xA;readk&#xA;readk2&#xA;readk3&#xA;readk4&#xA;reinit&#xA;release&#xA;repluck&#xA;reson&#xA;resonk&#xA;resonr&#xA;resonx&#xA;resony&#xA;resonz&#xA;reverb&#xA;reverb2&#xA;rezzy&#xA;rigoto&#xA;rireturn&#xA;rms&#xA;rnd&#xA;rtclock&#xA;s16b14&#xA;s32b14&#xA;samphold&#xA;sandpaper&#xA;scans&#xA;scanu&#xA;schedkwhen&#xA;schedule&#xA;schedwhen&#xA;seed&#xA;sekere&#xA;sense&#xA;sensekey&#xA;seqtime&#xA;sfilist&#xA;sfinstr&#xA;sfinstr3&#xA;sfinstr3m&#xA;sfinstrm&#xA;sfload&#xA;sfpassign&#xA;sfplay&#xA;sfplay3&#xA;sfplay3m&#xA;sfplaym&#xA;sfplist&#xA;sfpreset&#xA;shaker&#xA;sleighbells&#xA;slider16&#xA;slider16f&#xA;slider32&#xA;slider32f&#xA;slider64&#xA;slider64f&#xA;slider8&#xA;slider8f&#xA;sndwarp&#xA;sndwarpst&#xA;soundin&#xA;soundout&#xA;space&#xA;spdist&#xA;specaddm&#xA;specdiff&#xA;specdisp&#xA;specfilt&#xA;spechist&#xA;specptrk&#xA;specscal&#xA;specsum&#xA;spectrum&#xA;spsend&#xA;stix&#xA;streson&#xA;strset&#xA;table&#xA;timeinsts&#xA;timek&#xA;times&#xA;timout&#xA;tival&#xA;tone&#xA;tonek&#xA;tonex&#xA;transeg&#xA;trigger&#xA;trigseq&#xA;trirand&#xA;turnoff&#xA;turnon&#xA;unirand&#xA;upsamp&#xA;vbap16&#xA;vbap16move&#xA;vbap4&#xA;vbap4move&#xA;vbap8&#xA;vbap8move&#xA;vbaplsinit&#xA;vbapz&#xA;vbapzmove&#xA;vco&#xA;vdelay&#xA;vdelay3&#xA;veloc&#xA;vibes&#xA;vincr&#xA;vlowres&#xA;voice&#xA;vpvoc&#xA;weibull&#xA;wgbow&#xA;wgbowedbar&#xA;wgbrass&#xA;wgclar&#xA;wgflute&#xA;wgpluck&#xA;wgpluck2&#xA;wguide1&#xA;wguide2&#xA;wrap&#xA;zacl&#xA;zakinit&#xA;zamod&#xA;zar&#xA;zarg&#xA;zaw&#xA;zawm&#xA;zfilter2&#xA;zir&#xA;ziw&#xA;ziwm&#xA;zkcl&#xA;zkmod&#xA;zkr&#xA;zkw&#xA;zkwm&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Macros" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

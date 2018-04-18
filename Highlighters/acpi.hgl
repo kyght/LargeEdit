@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="acpi" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Codes" Enabled="True" Style="" Words="Break&#xA;BreakPoint&#xA;Continue&#xA;Else&#xA;ElseIf&#xA;Fatal&#xA;If&#xA;Load&#xA;Noop&#xA;Notify&#xA;Release&#xA;Reset&#xA;Return&#xA;Signal&#xA;Sleep&#xA;Stall&#xA;Switch&#xA;Unload&#xA;While&#xA;Acquire&#xA;Add&#xA;And&#xA;Buff&#xA;Concatenate&#xA;ConcatenateResTemplate&#xA;CondRefOf&#xA;Decrement&#xA;DecStr&#xA;DerefOf&#xA;Divide&#xA;FindSetLeftBit&#xA;FindSetRightBit&#xA;FromBCD&#xA;HexStr&#xA;Increment&#xA;Index&#xA;Int&#xA;LAnd&#xA;LEqual&#xA;LGreater&#xA;LGreaterEqual&#xA;LLess&#xA;LLessEqual&#xA;LNot&#xA;LNotEqual&#xA;LoadTable&#xA;LOr&#xA;Match&#xA;Mid&#xA;Mod&#xA;Multiply&#xA;NAnd&#xA;NOr&#xA;Not&#xA;ObjectType&#xA;Or&#xA;RefOf&#xA;ShiftLeft&#xA;ShiftRight&#xA;SizeOf&#xA;Store&#xA;String&#xA;Subtract&#xA;ToBCD&#xA;Wait&#xA;Xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="BankField&#xA;CreateBitField&#xA;CreateByteField&#xA;CreateDWordField&#xA;CreateField&#xA;CreateQWordField&#xA;CreateWordField&#xA;DataTableRegion&#xA;Device&#xA;Event&#xA;Field&#xA;IndexField&#xA;Method&#xA;Mutex&#xA;OperationRegion&#xA;PowerResource&#xA;Processor&#xA;ThermalZone&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Region Types" Enabled="True" Style="" Words="CMOS&#xA;EmbeddedControl&#xA;PCI_Config&#xA;PciBarTarget&#xA;SMBus&#xA;SystemIO&#xA;SystemMemory&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Access Types" Enabled="True" Style="" Words="AnyAcc&#xA;BufferAcc&#xA;ByteAcc&#xA;DWordAcc&#xA;QWordAcc&#xA;WordAcc&#xA;">
+          <Attributes Foreground="$004080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modifiers" Enabled="True" Style="" Words="Alias&#xA;Name&#xA;Scope&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Data types" Enabled="True" Style="" Words="Integer&#xA;Sting&#xA;Buffer&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Mud Master Script" FileType="" Extensions="MM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:mudmaster.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$%&amp;()+,-./0123456789:;&lt;=&gt;@[\]^_`|~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="action&#xA;alias&#xA;array&#xA;assign&#xA;autoaccept&#xA;barback&#xA;barfore&#xA;baritem&#xA;baritemback&#xA;baritemfore&#xA;baritem&#xA;barseparator&#xA;bell&#xA;CacheSize&#xA;call&#xA;calldll&#xA;changes&#xA;char&#xA;chat&#xA;chatall&#xA;chatback&#xA;chatcommands&#xA;chatfore&#xA;chatgroup&#xA;chatgroupremove&#xA;chatgroupset&#xA;chatignore&#xA;chatname&#xA;chatport&#xA;chatprivate&#xA;chatserve&#xA;chattransfers&#xA;chatversions&#xA;clearlist&#xA;cr&#xA;debugdepth&#xA;default&#xA;dir&#xA;disableaction&#xA;disablealias&#xA;disablebaritem&#xA;disableevent&#xA;disablegag&#xA;disablegroup&#xA;disablehighlight&#xA;disablemacro&#xA;disablesub&#xA;dll&#xA;dnd&#xA;doevents&#xA;downloadpath&#xA;echo&#xA;editaction&#xA;editalias&#xA;editbaritem&#xA;editevent&#xA;editgag&#xA;edithighlight&#xA;editmacro&#xA;editsub&#xA;edit&#xA;emote&#xA;emoteall&#xA;emotegroup&#xA;empty&#xA;enableaction&#xA;enablealias&#xA;enablebaritem&#xA;enableevent&#xA;enablegag&#xA;enablegroup&#xA;enablehighlight&#xA;enablemacro&#xA;enablesub&#xA;event&#xA;filecancel&#xA;filedelete&#xA;filestatus&#xA;fireevent&#xA;freelibrary&#xA;gag&#xA;grep&#xA;groupactions&#xA;groupaliases&#xA;grouparrays&#xA;groupbaritems&#xA;groupchat&#xA;groupemote&#xA;groupevents&#xA;grouplists&#xA;groupmacros&#xA;groupsubs&#xA;groputablist&#xA;groupvariables&#xA;help&#xA;highlight&#xA;if&#xA;ignore&#xA;ignorealiases&#xA;information&#xA;itemadd&#xA;itemdelete&#xA;killall&#xA;killgroup&#xA;listadd&#xA;listdelete&#xA;listitems&#xA;lists&#xA;loadlibrary&#xA;logpath&#xA;logstatus&#xA;loop&#xA;macro&#xA;math&#xA;message&#xA;msp&#xA;nodefault&#xA;openport&#xA;pace&#xA;pause&#xA;peekconnections&#xA;ping&#xA;playmidi&#xA;playwav&#xA;presubstitute&#xA;promptoverwrite&#xA;read&#xA;remark&#xA;requestconnects&#xA;resetevent&#xA;savescrollback&#xA;scriptpath&#xA;sendaction&#xA;sendalias&#xA;sendarray&#xA;sendbaritem&#xA;sendevent&#xA;sendfile&#xA;sendgag&#xA;sendgroup&#xA;sendhighlight&#xA;sendlist&#xA;sendmacro&#xA;sendsub&#xA;sendvariable&#xA;session&#xA;sessionaddress&#xA;sessionname&#xA;sessionpath&#xA;sessionport&#xA;setbackcolor&#xA;setCWD&#xA;seteventtime&#xA;setforecolor&#xA;setIP&#xA;showme&#xA;showmismatcherrors&#xA;snoop&#xA;soundpath&#xA;speedwalk&#xA;startchatserver&#xA;suball&#xA;substitute&#xA;subword&#xA;tabadd&#xA;tabdelete&#xA;tablist&#xA;textin&#xA;unaction&#xA;unalias&#xA;unarray&#xA;unbaritem&#xA;unchat&#xA;undo&#xA;unevent&#xA;ungag&#xA;unhighlight&#xA;unmacro&#xA;unsubstitute&#xA;unvariable&#xA;updatebaritem&#xA;updatestatusbar&#xA;uploadpath&#xA;variable&#xA;version&#xA;volumebits&#xA;volumedefault&#xA;volumemax&#xA;while&#xA;write&#xA;writegroup&#xA;zap&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Procedures" Enabled="True" Style="" Words="Abs&#xA;AnsiBold&#xA;AnsiReset&#xA;Asc&#xA;BackBlack&#xA;BackCyan&#xA;BackGreen&#xA;BackMagenta&#xA;BackRed&#xA;BackWhite&#xA;BackYellow&#xA;CharColor&#xA;Chr&#xA;CommandCount&#xA;CommandToList&#xA;ConCat&#xA;Connected&#xA;CWD&#xA;Day&#xA;EventTime&#xA;Exists&#xA;FileExists&#xA;ForeBlack&#xA;ForeCyan&#xA;ForeGreen&#xA;ForeMagenta&#xA;ForeRed&#xA;ForeWhite&#xA;ForeYellow&#xA;GetCount&#xA;GetArray&#xA;GetItem&#xA;Hour&#xA;InList&#xA;IP&#xA;IPP&#xA;IsEmpty&#xA;IsNumber&#xA;Left&#xA;Len&#xA;Lower&#xA;LTrim&#xA;Math&#xA;Mid&#xA;Minute&#xA;Month&#xA;NumActions&#xA;NumAliases&#xA;NumArrays&#xA;NumBars&#xA;NumEvents&#xA;NumGags&#xA;NumHighlights&#xA;NumLists&#xA;NumMacros&#xA;NumTabs&#xA;NumSubstitutes&#xA;NumVars&#xA;PadLeft&#xA;PadRight&#xA;PreTranslate&#xA;ProcedureCount&#xA;Random&#xA;ReadableTime&#xA;Right&#xA;RTrim&#xA;Second&#xA;StripAnsi&#xA;StrStr&#xA;TextColor&#xA;Time&#xA;TimeToDay&#xA;TimeToDayOfWeek&#xA;TimeToHour&#xA;TimeToMinute&#xA;TimeToMonth&#xA;TimeToSecond&#xA;TimeToYear&#xA;Upper&#xA;Val&#xA;Var&#xA;Version&#xA;Word&#xA;WordColor&#xA;WordCount&#xA;Year&#xA;@&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Misc" Enabled="True" Style="" Words="-&#xA;+&#xA;=&#xA;$&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

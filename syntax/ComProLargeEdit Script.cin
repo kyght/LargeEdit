@@ -1,0 +1,52 @@
+--- LargeEdit Methods ---
+CaretX
+CaretY
+CurrentFile
+SelectedText
+New
+Open( 'Filename' )
+Save
+Update
+PrintPreview
+Print
+Run
+Files( index )
+FileCount
+ResultLog( 'Text')
+SetCurrentFile( 'Filename' )
+SetHighlighter( 'Name' )
+Find( 'Text' )
+Replace( 'FindText', 'ReplaceText', true)
+BlockBegin( x, y )
+BlockEnd( x, y )
+SpellCheck
+FTPOpen
+FTPSave
+FTPSaveAs
+RecKeys
+PlayKeys
+StopKeys
+SaveKeys( 'Filename' )
+OpenKeys( 'Filename' )
+ShowHelp( 'c:\Helpfile.chm', 'Search' )
+ToggleProjectWin
+Version
+Build
+--- LargeFile Methods ---
+Filename
+IsSaved
+IsNewFile
+IsChanged
+IsSmall
+EndOfFile
+Next
+Last
+StartLine
+TotalLine
+IsRemoteFileOpen
+IsTempOpen
+TempFilename
+EditMode
+Line( index )
+LineCount
+Text

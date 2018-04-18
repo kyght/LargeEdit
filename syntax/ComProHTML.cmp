@@ -1,0 +1,12 @@
+[CodeProposal]
+InsertList=C:\NSFiles\LargeEdit6\syntax\ComProHTML.cin
+ItemList=C:\NSFiles\LargeEdit6\syntax\ComProHTML.cit
+Title=HTML document Code Completion
+Match=1
+CaseSen=0
+Triggers=<
+Timer=1000
+Tokens= 
+Language=HTML document
+UseTriggerLength=0
+TriggerLength=1

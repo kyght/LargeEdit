@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="HART DDL" FileType="" Extensions="DDL H" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:hartddl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ARRAY&#xA;COMMAND&#xA;DEVICE&#xA;DEVICE_TYPE&#xA;DD_REVISION&#xA;DEVICE_REVISION&#xA;EDIT_DISPLAY&#xA;IMPORT&#xA;MANUFACTURER&#xA;MENU&#xA;METHOD&#xA;VARIABLE&#xA;WRITE_AS_ONE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="ALL&#xA;AO&#xA;ARRAYS&#xA;AUTO&#xA;BAD&#xA;CASE&#xA;CLASS&#xA;COLLECTION&#xA;COMMANDS&#xA;COMM_ERROR&#xA;CONSTANT_UNIT&#xA;CORRECTABLE&#xA;DATA&#xA;DATA_ENTRY_ERROR&#xA;DATA_ENTRY_WARNING&#xA;DATE&#xA;DATE_AND_TIME&#xA;DEFAULT&#xA;DEFINITION&#xA;DETAIL&#xA;DISPLAY_ITEMS&#xA;DURATION&#xA;DV&#xA;EDIT_DISPLAYS&#xA;EDIT_ITEMS&#xA;ELEMENTS&#xA;ELSE&#xA;EVENT&#xA;EVERYTHING&#xA;FALSE&#xA;GOOD&#xA;HANDLING&#xA;HARDWARE&#xA;HELP&#xA;IF&#xA;IGNORE_IN_HANDHELD&#xA;INFO&#xA;ITEMS&#xA;LABEL&#xA;MANUAL&#xA;MEMBERS&#xA;MISC&#xA;MORE&#xA;NUMBER&#xA;OPERATION&#xA;POST_EDIT_ACTIONS&#xA;POST_READ_ACTIONS&#xA;POST_WRITE_ACTIONS&#xA;PRE_EDIT_ACTIONS&#xA;PRE_READ_ACTIONS&#xA;PRE_WRITE_ACTIONS&#xA;PROCESS&#xA;PROCESS_ERROR&#xA;READ_TIMEOUT&#xA;REDEFINITIONS&#xA;REFRESH&#xA;RELATIONS&#xA;RELEASED&#xA;RESPONSE_CODES&#xA;REVIEW&#xA;REVISION&#xA;SELECT&#xA;SELF_CORRECTING&#xA;SOFTWORE&#xA;STATE&#xA;SUMMARY&#xA;TIME&#xA;TRANSACTION&#xA;TRUE&#xA;TV&#xA;TYPE&#xA;UNCORRECTABLE&#xA;UNIT&#xA;VALIDITY&#xA;VARIABLES&#xA;WRITE_ITMEOUT&#xA;break&#xA;char&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;float&#xA;for&#xA;if&#xA;int&#xA;long&#xA;return&#xA;short&#xA;signed&#xA;switch&#xA;unsigned&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Method Built ins" Enabled="True" Style="" Words="ABORT_ON_ALL_COMM_STATUS&#xA;ABORT_ON_ALL_DEVICE_STATUS&#xA;ABORT_ON_ALL_RESPONSE_CODES&#xA;ABORT_ON_COMM_ERROR&#xA;ABORT_ON_COMM_STATUS&#xA;ABORT_ON_DEVICE_STATUS&#xA;ABORT_ON_NO_DEVICE&#xA;ABORT_ON_RESPONSE_CODE&#xA;ACKNOWLEDGE&#xA;acknowledge&#xA;add_abort_method&#xA;assign_double&#xA;assign_float&#xA;assign_int&#xA;assign_var&#xA;DELAY&#xA;DELAY_TIME&#xA;dassign&#xA;delay&#xA;display&#xA;display_comm_status&#xA;display_device_status&#xA;display_response_status&#xA;display_xmtr_status&#xA;ext_send_command&#xA;ext_send_command_trans&#xA;fassign&#xA;fgetval&#xA;float_value&#xA;fsetval&#xA;fvar_value&#xA;GET_DEV_VAR_VALUE&#xA;GET_LOCAL_VAR_VALUE&#xA;get_dev_var_value&#xA;get_dictionary_string&#xA;get_local_var_value&#xA;get_more_status&#xA;get_status_code_string&#xA;IGNORE_ALL_COMM_STATUS&#xA;IGNORE_ALL_DEVICE_STATUS&#xA;IGNORE_ALL_RESPONSE_CODES&#xA;IGNORE_COMM_ERROR&#xA;IGNORE_COMM_STATUS&#xA;IGNORE_DEVICE_STATUS&#xA;IGNORE_NO_DEVICE&#xA;IGNORE_RESPONSE_CODE&#xA;iassign&#xA;igetval&#xA;int_value&#xA;isetval&#xA;ivar_value&#xA;lassign&#xA;lgetval&#xA;long_value&#xA;lsetval&#xA;lvar_value&#xA;PUT_MESSAGE&#xA;process_abort&#xA;put_message&#xA;RETRY_ON_ALL_COMM_STATUS&#xA;RETRY_ON_ALL_DEVICE_STATUS&#xA;RETRY_ON_ALL_RESPONSE_CODES&#xA;RETRY_ON_COMM_ERROR&#xA;RETRY_ON_COMM_STATUS&#xA;RETRY_ON_DEVICE_STATUS&#xA;RETRY_ON_NO_DEVICE&#xA;RETRY_ON_RESPONSE_CODE&#xA;remove_abort_method&#xA;remove_all_abort_methods&#xA;rspcode_string&#xA;SELECT_FROM_LIST&#xA;SET_NUMBER_OF_RETRIES&#xA;save_values&#xA;select_from_list&#xA;send&#xA;send_command&#xA;send_command_trans&#xA;send_trans&#xA;VARID&#xA;vassign&#xA;XMTR_ABORT_ON_ALL_COMM_STATUS&#xA;XMTR_ABORT_ON_ALL_DEVICE_STATUS&#xA;XMTR_ABORT_ON_ALL_RESPONSE_CODES&#xA;XMTR_ABORT_ON_COMM_ERROR&#xA;XMTR_ABORT_ON_COMM_STATUS&#xA;XMTR_ABORT_ON_DATA&#xA;XMTR_ABORT_ON_DEVICE_STATUS&#xA;XMTR_ABORT_ON_NO_DEVICE&#xA;XMTR_ABORT_ON_RESPONSE_CODE&#xA;XMTR_IGNORE_ALL_COMM_STATUS&#xA;XMTR_IGNORE_ALL_DEVICE_STATUS&#xA;XMTR_IGNORE_ALL_RESPONSE_CODES&#xA;XMTR_IGNORE_COMM_ERROR&#xA;XMTR_IGNORE_COMM_STATUS&#xA;XMTR_IGNORE_DEVICE_STATUS&#xA;XMTR_IGNORE_NO_DEVICE&#xA;XMTR_IGNORE_RESPONSE_CODE&#xA;XMTR_RETRY_ON_ALL_COMM_STATUS&#xA;XMTR_RETRY_ON_ALL_DEVICE_STATUS&#xA;XMTR_RETRY_ON_ALL_RESPONSE_CODES&#xA;XMTR_RETRY_ON_COMM_ERROR&#xA;XMTR_RETRY_ON_COMM_STATUS&#xA;XMTR_RETRY_ON_DATA&#xA;XMTR_RETRY_ON_DEVICE_STATUS&#xA;XMTR_RETRY_ON_NO_DEVICE&#xA;XMTR_RETRY_ON_RESPONSE_CODE&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="ANALOG_OUTPUT&#xA;ASCII&#xA;BIT_ENUMERATED&#xA;BITSTRING&#xA;CORRECTION&#xA;COMPUTATION&#xA;DISCRETE&#xA;DYNAMIC&#xA;DIAGNOSTIC&#xA;DISPLAY_FORMAT&#xA;DISPLAY_VALUE&#xA;DOUBLE&#xA;EDIT_FORMAT&#xA;ENUMERATED&#xA;FLOAT&#xA;FREQUENCY&#xA;HART&#xA;INDEX&#xA;INPUT&#xA;INTEGER&#xA;LOCAL&#xA;LOCAL_DISPLAY&#xA;MAX_VALUE&#xA;MIN_VALUE&#xA;MISC_ERROR&#xA;MISC_WARNING&#xA;MODE&#xA;MODE_ERROR&#xA;PACKED_ASCII&#xA;PASSWORD&#xA;READ&#xA;REPLY&#xA;REQUEST&#xA;READ_ONLY&#xA;SCALING_FACTOR&#xA;SERVICE&#xA;SUCCESS&#xA;UNSIGNED_INTEGER&#xA;USER_INTERFACE&#xA;WRITE&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="[]&#xA;ADD&#xA;DELETE&#xA;REDEFINE&#xA;+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

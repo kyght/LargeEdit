@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Stata7" FileType="" Extensions="DO DCT ADO" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:stata7.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="about&#xA;adjust&#xA;alpha&#xA;anova&#xA;append&#xA;arch&#xA;areg&#xA;arima&#xA;averagelinkage&#xA;binreg&#xA;biprobit&#xA;bitest&#xA;boxcox&#xA;brier&#xA;bstrap&#xA;by&#xA;canon&#xA;cd&#xA;centile&#xA;cf&#xA;checksum&#xA;ci&#xA;clogit&#xA;cloglog&#xA;cluster&#xA;completelinkage&#xA;cnsreg&#xA;codebook&#xA;collapse&#xA;compare&#xA;compress&#xA;constraint&#xA;contract&#xA;copy&#xA;copyright&#xA;corr2data&#xA;correlate&#xA;corrgram&#xA;count&#xA;cox&#xA;cross&#xA;ct&#xA;ctset&#xA;cttost&#xA;cumsp&#xA;cumul&#xA;cusum&#xA;dendrogram&#xA;describe&#xA;destring&#xA;dfuller&#xA;diagplots&#xA;dir&#xA;display&#xA;do&#xA;doedit&#xA;dotplot&#xA;drawnorm&#xA;drop&#xA;dstdize&#xA;edit&#xA;egen&#xA;eivreg&#xA;epitab&#xA;erase&#xA;expand&#xA;factor&#xA;fillin&#xA;for&#xA;format&#xA;fracpoly&#xA;gen&#xA;glm&#xA;glogit&#xA;grmeanby&#xA;gsort&#xA;generate&#xA;hadimvo&#xA;hausman&#xA;heckman&#xA;heckprob&#xA;help&#xA;hetprob&#xA;hilite&#xA;hist&#xA;hotel&#xA;icd9&#xA;impute&#xA;infile&#xA;input&#xA;insheet&#xA;inspect&#xA;ipolate&#xA;ivreg&#xA;jknife&#xA;joinby&#xA;kappa&#xA;kdensity&#xA;ksm&#xA;ksmirnov&#xA;kwallis&#xA;kmeans&#xA;kmedians&#xA;keep&#xA;label&#xA;ladder&#xA;level&#xA;limits&#xA;lincom&#xA;linktest&#xA;list&#xA;lnskew0&#xA;log&#xA;logistic&#xA;logit&#xA;loneway&#xA;lorenz&#xA;lrtest&#xA;ltable&#xA;lv&#xA;matsize&#xA;maximize&#xA;means&#xA;memory&#xA;merge&#xA;meta&#xA;mfx&#xA;mkdir&#xA;mkspline&#xA;ml&#xA;mlogit&#xA;more&#xA;mvencode&#xA;mvreg&#xA;nbreg&#xA;net&#xA;ncode&#xA;search&#xA;newey&#xA;news&#xA;nl&#xA;nlogit&#xA;notes&#xA;nptrend&#xA;notes&#xA;obs&#xA;ologit&#xA;oneway&#xA;oprobit&#xA;order&#xA;orthog&#xA;outfile&#xA;outsheet&#xA;pcorr&#xA;pctile&#xA;pergram&#xA;pk&#xA;pkcollapse&#xA;pkcross&#xA;pkequiv&#xA;pkexamine&#xA;pkshape&#xA;pksumm&#xA;plot&#xA;poisson&#xA;pperron&#xA;prais&#xA;predict&#xA;probit&#xA;prtest&#xA;qc&#xA;qreg&#xA;quadchk&#xA;query&#xA;range&#xA;recast&#xA;recode&#xA;reg3&#xA;regress&#xA;rename&#xA;replace&#xA;reshape&#xA;roc&#xA;rreg&#xA;runtest&#xA;sample&#xA;sampsi&#xA;save&#xA;scobit&#xA;sdtest&#xA;search&#xA;separate&#xA;serrbar&#xA;set&#xA;shell&#xA;signrank&#xA;singlelinkage&#xA;simul&#xA;sktest&#xA;smooth&#xA;snapspan&#xA;sort&#xA;spearman&#xA;spikeplot&#xA;st&#xA;stbase&#xA;stci&#xA;stcox&#xA;stdes&#xA;stfill&#xA;stgen&#xA;stir&#xA;stphplot&#xA;stptime&#xA;strate&#xA;streg&#xA;sts&#xA;stset&#xA;stsplit&#xA;stsum&#xA;sttocc&#xA;sttoct&#xA;stvary&#xA;stack&#xA;statsby&#xA;stb&#xA;stem&#xA;summarize&#xA;sureg&#xA;svy&#xA;svydes&#xA;svylc&#xA;svymean&#xA;svyset&#xA;svytab&#xA;svytest&#xA;sw&#xA;swik&#xA;symmetry&#xA;table&#xA;tabstat&#xA;tabsum&#xA;tabulate&#xA;test&#xA;testnl&#xA;tobit&#xA;translate&#xA;treatreg&#xA;truncreg&#xA;tsreport&#xA;tsset&#xA;ttest&#xA;type&#xA;update&#xA;use&#xA;vce&#xA;view&#xA;vwls&#xA;weibull&#xA;which&#xA;wntestb&#xA;wntestq&#xA;xcorr&#xA;xi&#xA;xpose&#xA;xt&#xA;xtabond&#xA;xtclog&#xA;xtdata&#xA;xtdes&#xA;xtgee&#xA;xtgls&#xA;xtintreg&#xA;xtivreg&#xA;xtlogit&#xA;xtnbreg&#xA;xtpcse&#xA;xtpois&#xA;xtprobit&#xA;xtrchh&#xA;xtreg&#xA;xtregar&#xA;xtsum&#xA;xttab&#xA;xttobit&#xA;zip&#xA;#review&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Program" Enabled="True" Style="" Words="assert&#xA;args&#xA;break&#xA;byable&#xA;capture&#xA;char&#xA;confirm&#xA;continue&#xA;discard&#xA;define&#xA;error&#xA;estimates&#xA;exit&#xA;end&#xA;foreach&#xA;forvalues&#xA;gettoken&#xA;global&#xA;hexdump&#xA;local&#xA;more&#xA;numlist&#xA;pause&#xA;postfile&#xA;preserve&#xA;program&#xA;quietly&#xA;quiet&#xA;return&#xA;rmsg&#xA;restore&#xA;scalar&#xA;sleep&#xA;smcl&#xA;sortpreserve&#xA;st_is&#xA;syntax&#xA;sysdir&#xA;tabdisp&#xA;tokenize&#xA;tsrevar&#xA;unab&#xA;version&#xA;while&#xA;window&#xA;#delimit&#xA;_predict&#xA;_rmcoll&#xA;_robust&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="functions" Enabled="True" Style="" Words="Binomial&#xA;F&#xA;Ftail&#xA;_caller&#xA;abbrev&#xA;abs&#xA;acos&#xA;asin&#xA;atan&#xA;autocode&#xA;binorm&#xA;chi2&#xA;chi2tail&#xA;comb&#xA;cos&#xA;cond&#xA;d&#xA;date&#xA;day&#xA;digamma&#xA;dow&#xA;doy&#xA;e&#xA;exp&#xA;floate&#xA;gammap&#xA;group&#xA;halfyear&#xA;ibeta&#xA;index&#xA;inlist&#xA;inrange&#xA;int&#xA;invF&#xA;invFtail&#xA;invbinomial&#xA;invchi2&#xA;invchi2tail&#xA;invgammap&#xA;invnchi2&#xA;invnorm&#xA;invttail&#xA;length&#xA;ln&#xA;lnfact&#xA;lngamma&#xA;log10&#xA;lower&#xA;ltrim&#xA;match&#xA;matrix&#xA;max&#xA;mdy&#xA;min&#xA;missing&#xA;mod&#xA;month&#xA;nchi2&#xA;norm&#xA;normden&#xA;npnchi2&#xA;quarter&#xA;r&#xA;real&#xA;reldif&#xA;replay&#xA;reverse&#xA;round&#xA;rtrim&#xA;s&#xA;sign&#xA;sin&#xA;string&#xA;subinstr&#xA;subinword&#xA;substr&#xA;sum&#xA;tan&#xA;trigamma&#xA;trim&#xA;ttail&#xA;uniform&#xA;upper&#xA;week&#xA;year&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="syntax" Enabled="True" Style="" Words="if&#xA;in&#xA;using&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="personal" Enabled="True" Style="" Words="dcount&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="==&#xA;=&#xA;&lt;&#xA;&gt;&#xA;+&#xA;*&#xA;^&#xA;-&#xA;//&#xA;/&#xA;|&#xA;&amp;&#xA;~=&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

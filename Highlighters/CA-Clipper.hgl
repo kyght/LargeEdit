@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="CA-Clipper" FileType="" Extensions="PRG" Version="1" Revision="0" Sample="*                         CA-CLIPPER 5.xx VERSION&#xA;#include &quot;Directry.CH&quot;&#xA;STATIC  aErrTxt := CP_ERRMSG&#xA;STATIC  bHitKey := { || DevPos (MaxRow(), 32), DevOut ( 'Hit any key ....' ),;&#xA;                        InKey ( 0 ) }&#xA;FUNCTION RCmpDemo&#xA;*-- Main menu&#xA;LOCAL   nChoice := 1                    &amp;&amp; Menu choice&#xA;SetColor ( 'W+/B' )&#xA;DO WHILE .t.&#xA;   *-- Display header lines&#xA;   Eval ( bHeader )&#xA;   cOldCol := SetColor ( 'W+/R' )&#xA;   nRetCode := R_CmpFile ( { 'RCmpLib.*', '*.PRG', 'Dutch.REG' }, ;&#xA;       'Archive.RCP', .F., 30, 7, 25, Chr ( 177 ), 'GR+/R', nil, .T., ;&#xA;       { |x| DispName ( x, 9, 38 ) } )&#xA;ENDDO&#xA;RETURN nil&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Translated from SynHighlighterCAC.pas in modification"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!$%&amp;()+,-:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="AADD&#xA;IF&#xA;AND&#xA;AT&#xA;GO&#xA;ABS&#xA;BOF&#xA;ASC&#xA;IIF&#xA;EOF&#xA;READ&#xA;CALL&#xA;CHR&#xA;DAY&#xA;DATE&#xA;COL&#xA;PACK&#xA;LEN&#xA;DIR&#xA;GET&#xA;FILE&#xA;FIND&#xA;OR&#xA;LOG&#xA;VAL&#xA;FIELD&#xA;MIN&#xA;BEGIN&#xA;BREAK&#xA;ENDIF&#xA;CANCEL&#xA;MAX&#xA;CLEAR&#xA;FOR&#xA;SEEK&#xA;ELSE&#xA;LOCK&#xA;ENDDO&#xA;CTOD&#xA;DOW&#xA;DTOC&#xA;LOCAL&#xA;INT&#xA;EJECT&#xA;ZAP&#xA;SPACE&#xA;SAY&#xA;EXP&#xA;CDOW&#xA;USE&#xA;PCOL&#xA;FLOCK&#xA;TIME&#xA;SAVE&#xA;DECLARE&#xA;ERASE&#xA;JOIN&#xA;NOT&#xA;YEAR&#xA;RECALL&#xA;DELETE&#xA;ENDCASE&#xA;INIT&#xA;CREATE&#xA;WAIT&#xA;SUM&#xA;RUN&#xA;CLOSE&#xA;NOTE&#xA;DELETED&#xA;SKIP&#xA;RECNO&#xA;ROW&#xA;INDEX&#xA;LOCATE&#xA;RENAME&#xA;ELSEIF&#xA;WHILE&#xA;STR&#xA;EXIT&#xA;DTOS&#xA;RLOCK&#xA;COPY&#xA;AVERAGE&#xA;REPLACE&#xA;LIST&#xA;TRIM&#xA;WORD&#xA;FOUND&#xA;PUBLIC&#xA;SELECT&#xA;INKEY&#xA;RELEASE&#xA;TYPE&#xA;UPDATE&#xA;QUIT&#xA;TOTAL&#xA;TEXT&#xA;FIELDNAME&#xA;MONTH&#xA;ROUND&#xA;LTRIM&#xA;MEMVAR&#xA;SORT&#xA;STATIC&#xA;PROW&#xA;LOWER&#xA;COUNT&#xA;COMMIT&#xA;CMONTH&#xA;SQRT&#xA;UPPER&#xA;UNLOCK&#xA;STORE&#xA;RTRIM&#xA;LASTREC&#xA;EMPTY&#xA;FCOUNT&#xA;SECONDS&#xA;REINDEX&#xA;INPUT&#xA;KEYBOARD&#xA;DEVPOS&#xA;DISPLAY&#xA;ANNOUNCE&#xA;PCOUNT&#xA;REPLICATE&#xA;SEQUENCE&#xA;PRIVATE&#xA;SETPOS&#xA;RETURN&#xA;PROMPT&#xA;RECCOUNT&#xA;EXTERNAL&#xA;SUBSTR&#xA;RESTORE&#xA;CONTINUE&#xA;VALTYPE&#xA;FUNCTION&#xA;REQUEST&#xA;PROCEDURE&#xA;PARAMETERS&#xA;TRANSFORM&#xA;accept&#xA;append&#xA;all&#xA;alternate&#xA;box&#xA;blank&#xA;bell&#xA;century&#xA;color&#xA;confirm&#xA;console&#xA;cursor&#xA;decimals&#xA;default&#xA;delimiters&#xA;device&#xA;extended&#xA;epoch&#xA;escape&#xA;exact&#xA;exclusive&#xA;form&#xA;from&#xA;filter&#xA;fixed&#xA;format&#xA;gets&#xA;key&#xA;label&#xA;memory&#xA;menu&#xA;margin&#xA;message&#xA;order&#xA;path&#xA;printer&#xA;report&#xA;relation&#xA;screen&#xA;structure&#xA;set&#xA;scoreboard&#xA;softseek&#xA;to&#xA;typeahead&#xA;unique&#xA;wrap&#xA;case&#xA;do&#xA;end&#xA;loop&#xA;next&#xA;otherwise&#xA;recover&#xA;step&#xA;using&#xA;with&#xA;achoice&#xA;aclone&#xA;acopy&#xA;adel&#xA;adir&#xA;aeval&#xA;afields&#xA;afill&#xA;ains&#xA;alert&#xA;alias&#xA;alltrim&#xA;altd&#xA;array&#xA;ascan&#xA;asize&#xA;asort&#xA;atail&#xA;bin2i&#xA;bin2l&#xA;bin2w&#xA;browse&#xA;colorselect&#xA;curdir&#xA;dbappend&#xA;dbclearfilter&#xA;dbclearindex&#xA;dbclearrelation&#xA;dbcloseall&#xA;dbclosearea&#xA;dbcommit&#xA;dbcommitall&#xA;dbcreate&#xA;dbcreateindex&#xA;dbdelete&#xA;dbedit&#xA;dbeval&#xA;dbf&#xA;dbfilter&#xA;dbgobottom&#xA;dbgoto&#xA;dbgotop&#xA;dbrecall&#xA;dbreindex&#xA;dbrelation&#xA;dbrselect&#xA;dbseek&#xA;dbselectarea&#xA;dbsetdriver&#xA;dbsetfilter&#xA;dbsetindex&#xA;dbsetorder&#xA;dbsetrelation&#xA;dbskip&#xA;dbstruct&#xA;dbunlock&#xA;dbunlockall&#xA;dbusearea&#xA;descend&#xA;devout&#xA;devoutpict&#xA;directory&#xA;diskspace&#xA;dispbegin&#xA;dispbox&#xA;dispcount&#xA;dispend&#xA;dispout&#xA;doserror&#xA;errorblock&#xA;errorlevel&#xA;eval&#xA;fclose&#xA;fcreate&#xA;ferase&#xA;ferror&#xA;fieldblock&#xA;fieldget&#xA;fieldpos&#xA;fieldput&#xA;fieldwblock&#xA;fklabel&#xA;fkmax&#xA;fopen&#xA;fread&#xA;freadstr&#xA;frename&#xA;fseek&#xA;fwrite&#xA;getenv&#xA;hardcr&#xA;header&#xA;i2bin&#xA;indexext&#xA;indexkey&#xA;indexord&#xA;isalpha&#xA;iscolor&#xA;isdigit&#xA;islower&#xA;isprinter&#xA;isupper&#xA;l2bin&#xA;lastkey&#xA;left&#xA;lupdate&#xA;maxcol&#xA;maxrow&#xA;memoedit&#xA;memoline&#xA;memoread&#xA;memotran&#xA;memowrit&#xA;memvarblock&#xA;mlcount&#xA;mlctopos&#xA;mlpos&#xA;mod&#xA;mpostolc&#xA;neterr&#xA;netname&#xA;nextkey&#xA;nosnow&#xA;os&#xA;outerr&#xA;outstd&#xA;pad&#xA;procline&#xA;procname&#xA;qout&#xA;rat&#xA;readexit&#xA;readinsert&#xA;readkey&#xA;readmodal&#xA;readvar&#xA;recsize&#xA;restscreen&#xA;right&#xA;savescreen&#xA;scroll&#xA;setblink&#xA;setcancel&#xA;setcolor&#xA;setcursor&#xA;setkey&#xA;setmode&#xA;setprc&#xA;soundex&#xA;strtran&#xA;stuff&#xA;tone&#xA;updated&#xA;version&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Directive" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Params" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="." Close="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

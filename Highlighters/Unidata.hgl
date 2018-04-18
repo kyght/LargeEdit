@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Unidata" FileType="" Extensions="BAS INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:unidata.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,.:;&lt;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="PRECOMPILER NEW" Enabled="True" Style="" Words="$BASICTYPE&#xA;$DEFINE&#xA;$IFDEF&#xA;$IFNDEF&#xA;$INCLUDE&#xA;$INSERT&#xA;$UNDEFINE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PREDEFS" Enabled="True" Style="" Words="%Def&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="STATEMENTS" Enabled="True" Style="" Words="ABORT&#xA;ABS&#xA;ACOS&#xA;ALPHA&#xA;AND&#xA;ASCII&#xA;ASIN&#xA;ASSIGN&#xA;ATAN&#xA;BITAND&#xA;BITNOT&#xA;BITOR&#xA;BITXOR&#xA;BPIOCP&#xA;BPIOCPN&#xA;BREAK&#xA;BYTELEN&#xA;CALCULATE&#xA;CALL&#xA;CALLC&#xA;CASE&#xA;CAT&#xA;CATS&#xA;CHAIN&#xA;CHANGE&#xA;CHAR&#xA;CHARLEN&#xA;CHARS&#xA;CHECKSUM&#xA;CLEAR&#xA;CLEARCOMMON&#xA;CLEARDATA&#xA;CLEARFILE&#xA;CLEARINPUT&#xA;CLEARSELECT&#xA;CLEARSQL&#xA;CLOSE&#xA;COMMIT&#xA;CLOSE&#xA;SEQ&#xA;COL1&#xA;COL2&#xA;COMMON&#xA;CONNECT&#xA;CONTINUE&#xA;CONVERT&#xA;COS&#xA;COUNT&#xA;COUNTS&#xA;CRT&#xA;DATA&#xA;DATE&#xA;DCOUNT&#xA;DEBUG&#xA;DEFFUN&#xA;DEL&#xA;DELETE&#xA;DELETELIST&#xA;DELETEU&#xA;DIM&#xA;DIR&#xA;DISCONNECT&#xA;DISPLAY&#xA;DISPLAYWIDTH&#xA;DOWNCASE&#xA;DQUOTE&#xA;DROUND&#xA;EBCDIC&#xA;ECHO&#xA;ENTER&#xA;EQ&#xA;EQS&#xA;EQU&#xA;EXECUTE&#xA;EXECUTESQL&#xA;EXIT&#xA;EXP&#xA;EXTRACT&#xA;ELSE&#xA;FIELD&#xA;FIELDSTORE&#xA;FILEINFO&#xA;FILELOCK&#xA;FILEUNLOCK&#xA;FIND&#xA;FINDSTR&#xA;FLUSH&#xA;FMT&#xA;FOOTING&#xA;FOR&#xA;FORMLIST&#xA;FUNCTION&#xA;GARBAGECOLLECT&#xA;GE&#xA;GES&#xA;GET&#xA;GETCOLUMNDATA&#xA;GETCOLUMNNAME&#xA;GETENV&#xA;GETERRMSG&#xA;GETLIST&#xA;GETNEXTTUPLE&#xA;GETPTR&#xA;GETPU&#xA;GETREADU&#xA;GETUSERGROUP&#xA;GETUSERNAME&#xA;GOSUB&#xA;GOTO&#xA;GROUP&#xA;GROUPSTORE&#xA;GT&#xA;GTS&#xA;HASH&#xA;HEADING&#xA;HUSH&#xA;ICONV&#xA;IF&#xA;IN&#xA;INDEX&#xA;INDICES&#xA;INMAT&#xA;INPUT&#xA;INPUTCLEAR&#xA;INPUTERR&#xA;INPUTIF&#xA;INPUTNULL&#xA;INPUTTRAP&#xA;INS&#xA;INSERT&#xA;INT&#xA;ISMB&#xA;ISNV&#xA;ISNVS&#xA;ITYPE&#xA;LE&#xA;LEN&#xA;LENS&#xA;LES&#xA;LN&#xA;LOCATE&#xA;LOCK&#xA;LOOP&#xA;LOWER&#xA;LT&#xA;LTS&#xA;MAT&#xA;MATBUILD&#xA;MATCH&#xA;MATCHFIELD&#xA;MATPARSE&#xA;MATREAD&#xA;MATREADL&#xA;MATREADU&#xA;MAXIMUM&#xA;MBLEN&#xA;MDPERFORM&#xA;MINIMUM&#xA;MOD&#xA;NE&#xA;NEG&#xA;NES&#xA;NEXT&#xA;NOCONVERT&#xA;NOT&#xA;NOTS&#xA;NULL&#xA;NUM&#xA;NUMS&#xA;OCONV&#xA;OCONVS&#xA;ON&#xA;OPEN&#xA;OPENSEQ&#xA;OR&#xA;OSBREAD&#xA;OSBWRITE&#xA;OSCLOSE&#xA;OSDELETE&#xA;OSOPEN&#xA;OSREAD&#xA;OSWRITE&#xA;PAGE&#xA;PAUSE&#xA;PCPERFORM&#xA;PERFORM&#xA;PRECISION&#xA;PRINT&#xA;PRINTER&#xA;CLOSE&#xA;PRINTERR&#xA;PROCREAD&#xA;PROCWRITE&#xA;PROGRAM&#xA;PROMPT&#xA;PWR&#xA;QUOTE&#xA;RAISE&#xA;READ&#xA;READBCK&#xA;READBCKL&#xA;READBCKU&#xA;READFWD&#xA;READFWDL&#xA;READFWDU&#xA;READL&#xA;READLIST&#xA;READNEXT&#xA;READNEXTTUPLE&#xA;READSELECT&#xA;READSEQ&#xA;READT&#xA;READU&#xA;READV&#xA;READVL&#xA;READVU&#xA;READXBCK&#xA;READXFWD&#xA;RECORDLOCKED&#xA;RECORDLOCKL&#xA;RECORDLOCKU&#xA;RELEASE&#xA;REM&#xA;REMOVE&#xA;REPLACE&#xA;RESIZET&#xA;RETURN&#xA;REUSE&#xA;REWING&#xA;RND&#xA;RNDSEED&#xA;RQM&#xA;REPEAT&#xA;SADD&#xA;SCMP&#xA;SDIV&#xA;SELECT&#xA;SELECTINDEX&#xA;SELECTINFO&#xA;SEND&#xA;SEQ&#xA;SEQS&#xA;SETINDEX&#xA;SETROW&#xA;SETTABLE&#xA;SIN&#xA;SLEEP&#xA;SMUL&#xA;START&#xA;SOUNDEX&#xA;SPACE&#xA;SPACES&#xA;SPLICE&#xA;SQRT&#xA;SQUOTE&#xA;SSUB&#xA;STATUS&#xA;STOP&#xA;STR&#xA;STRS&#xA;SUBROUTINE&#xA;SUBSTRINGS&#xA;SUM&#xA;SWAP&#xA;SYSTEM&#xA;TAN&#xA;THEN&#xA;TIME&#xA;TIMEDATE&#xA;TRANSACTION&#xA;TRIM&#xA;TRIMB&#xA;TRIMF&#xA;TRIMS&#xA;UDTEXECUTE&#xA;UNASSIGNED&#xA;UNLOCK&#xA;UPCASE&#xA;USE&#xA;WAIT&#xA;WAKE&#xA;WEOF&#xA;WEOFSEQ&#xA;WRITER&#xA;WRITELIST&#xA;WRITESEQ&#xA;WRITERSEQF&#xA;WRITET&#xA;WRITEU&#xA;WRITEV&#xA;WRITEVU&#xA;XLATE&#xA;[&#xA;]&#xA;^&#xA;{&#xA;}&#xA;!&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

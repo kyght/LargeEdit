@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Bullant" FileType="" Extensions="ANT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:bullant.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Bullant Keywords" Enabled="True" Style="" Words="ancestor&#xA;and&#xA;assert&#xA;attributes&#xA;author&#xA;autoassign&#xA;begin&#xA;callback&#xA;case&#xA;character$&#xA;class&#xA;constants&#xA;construct&#xA;continue&#xA;date$&#xA;datetime$&#xA;debug&#xA;depends&#xA;description&#xA;downcast&#xA;elif&#xA;else&#xA;end&#xA;ensures&#xA;evolution&#xA;evolve&#xA;exception&#xA;exposure&#xA;extension&#xA;for&#xA;foreach&#xA;from&#xA;function&#xA;generics&#xA;help&#xA;hex$&#xA;identifier$&#xA;if&#xA;in&#xA;inherits&#xA;interval$&#xA;is&#xA;label&#xA;leave&#xA;library&#xA;locals&#xA;lock&#xA;method&#xA;money$&#xA;not&#xA;options&#xA;or&#xA;parameters&#xA;raise&#xA;raw$&#xA;reason&#xA;refer&#xA;retry&#xA;return&#xA;returns&#xA;rollback&#xA;route&#xA;security&#xA;serial&#xA;settings&#xA;severity&#xA;snapshot&#xA;step&#xA;test&#xA;tick$&#xA;time$&#xA;transaction&#xA;trap&#xA;until&#xA;version$&#xA;when&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant Reserved" Enabled="True" Style="" Words="config&#xA;host&#xA;kernel&#xA;peer&#xA;self&#xA;task&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant Literals" Enabled="True" Style="" Words="__internal&#xA;abstract&#xA;all&#xA;concrete&#xA;error&#xA;false&#xA;fatal&#xA;final&#xA;glyph&#xA;hidden&#xA;immutable&#xA;mutable&#xA;none&#xA;null&#xA;obsolete&#xA;other&#xA;public&#xA;private&#xA;restricted&#xA;transient&#xA;true&#xA;unknown&#xA;warning&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiters" Enabled="True" Style="" Words="!&#xA;%&#xA;&amp;&#xA;*&#xA;(&#xA;)&#xA;+&#xA;,&#xA;-&#xA;.&#xA;/&#xA;{&#xA;}&#xA;[&#xA;]&#xA;:&#xA;&lt;&#xA;=&#xA;&gt;&#xA;^&#xA;|&#xA;~&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant Apriori Library" Enabled="True" Style="" Words="$Analyzer&#xA;$BreakPoint&#xA;$Callback&#xA;$CharacterEncoding&#xA;$Class&#xA;$command&#xA;$Config&#xA;$Constant&#xA;$Debugger&#xA;$Depend&#xA;$Error&#xA;$Exception&#xA;$Host&#xA;$Inherit&#xA;$Iterator&#xA;$Kernel&#xA;$Knowledge&#xA;$Library&#xA;$List&#xA;$ListItem&#xA;$Methint&#xA;$Method&#xA;$NameValue&#xA;$Profile&#xA;$Seed&#xA;$Settings&#xA;$Source&#xA;$Statistics&#xA;$StrNote&#xA;$Super&#xA;$Task&#xA;$Traverse&#xA;$Type&#xA;$Ute&#xA;$Variable&#xA;$Vector&#xA;$WatchAttribute&#xA;$WatchLocal&#xA;$WatchParameter&#xA;$WatchPoint&#xA;AprioriComparable&#xA;Boolean&#xA;Buffer&#xA;Character&#xA;Comparable&#xA;Date&#xA;Datetime&#xA;Directory&#xA;EqualAndLess&#xA;File&#xA;FileSystem&#xA;Float&#xA;Identifier&#xA;Integer&#xA;Interval&#xA;LicenseManagerTest&#xA;MD5Digest&#xA;Money&#xA;MTRandomGenerator&#xA;Object&#xA;RandomGenerator&#xA;Raw&#xA;RawBuffer&#xA;Socket&#xA;SSLContext&#xA;String&#xA;StringBuffer&#xA;TCPAcceptor&#xA;TCPSocket&#xA;Tick&#xA;Time&#xA;UDPSocket&#xA;Url&#xA;UTF16Encoder&#xA;UTF8Encoder&#xA;Version&#xA;datatype&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant Application/Security Library" Enabled="True" Style="" Words="$Application&#xA;CallbackCustomEventWatcher&#xA;Credentials&#xA;CustomEventWatcher&#xA;EventDispatcher&#xA;GUIApplication&#xA;GUIAppObject&#xA;GUICreatable&#xA;GUICustomEventRequest&#xA;GUIEventHandler&#xA;GUIForgettable&#xA;GUIGroup&#xA;GUIObject&#xA;GUIPendingEvent&#xA;LibraryVersion&#xA;LoginData&#xA;Properties&#xA;PropertiesKeyIterator&#xA;RAPConnection&#xA;RAPDecoder&#xA;RAPEncoder&#xA;RAPObject&#xA;RAPPlugin&#xA;RAPRawDecoder&#xA;RAPServer&#xA;RootHandler&#xA;SecurityDomain&#xA;SecurityInterface&#xA;SecurityManager&#xA;SessionID&#xA;SessionState&#xA;SocketImp&#xA;SSLHandshake&#xA;SSLSocketImp&#xA;StdSocketImp&#xA;SynchronousCustomEventWatcher&#xA;User&#xA;X509Certificate&#xA;X509CertificateRequest&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant ANT_GCL" Enabled="True" Style="" Words="$ListContainer&#xA;$ListContainerIterator&#xA;Adaptor&#xA;AdaptorBase&#xA;AVLTree&#xA;AVLTreeIterator&#xA;AVLTreeMap&#xA;AVLTreeSet&#xA;AVLTreeSetIterator&#xA;BinaryTree&#xA;BinaryTreeIterator&#xA;BinaryTreeMap&#xA;BinaryTreeSet&#xA;BinaryTreeSetIterator&#xA;ComparableComparator&#xA;ComparableEqualityTester&#xA;Comparator&#xA;ComparatorBase&#xA;Container&#xA;ContainerBase&#xA;ContainerHelper&#xA;DefaultComparator&#xA;DefaultEqualityTester&#xA;DefaultHasher&#xA;EqualityTester&#xA;EqualityTesterBase&#xA;HashableHasher&#xA;Hasher&#xA;HasherBase&#xA;HashIterator&#xA;HashMap&#xA;HashMapIterator&#xA;HashSet&#xA;HashSetIterator&#xA;HashTable&#xA;HashTableIterator&#xA;HashTableMap&#xA;HashTableObsolete&#xA;HashTableSet&#xA;HashTableSetIterator&#xA;ImmutableIterator&#xA;IterableContainer&#xA;Iterator&#xA;IteratorBase&#xA;LinkedList&#xA;LinkedListIterator&#xA;LinkedListMap&#xA;LinkedListSet&#xA;LinkedListSetIterator&#xA;List&#xA;ListIterator&#xA;ListSet&#xA;ListSetIterator&#xA;Map&#xA;MapBase&#xA;MapBaseIterator&#xA;MapEntry&#xA;MapEntryBase&#xA;MapEntryComparator&#xA;MapEntryHasher&#xA;MapEntryTester&#xA;MapHelper&#xA;MapIterator&#xA;MapWrapper&#xA;MapWrapperIterator&#xA;ObjectIdentityHasher&#xA;OrderedContainer&#xA;OrderedMap&#xA;PriorityQueue&#xA;Queue&#xA;QueueAdaptor&#xA;RedBlackTree&#xA;RedBlackTreeIterator&#xA;RedBlackTreeMap&#xA;RedBlackTreeSet&#xA;RedBlackTreeSetIterator&#xA;ReverseComparator&#xA;Ring&#xA;Sequence&#xA;SequenceHelper&#xA;SequenceIterator&#xA;Set&#xA;SplayTree&#xA;SplayTreeIterator&#xA;SplayTreeMap&#xA;SplayTreeSet&#xA;SplayTreeSetIterator&#xA;Stack&#xA;StackAdaptor&#xA;Tree&#xA;TreeComparable&#xA;TreeIterator&#xA;TreeMap&#xA;TreeMapComparable&#xA;TreeMapIterator&#xA;TreeSet&#xA;TreeSetComparable&#xA;TreeSetIterator&#xA;Vector&#xA;VectorIterator&#xA;VectorMap&#xA;VectorSet&#xA;VectorSetIterator&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bullant ANT_DesktopGUI" Enabled="True" Style="" Words="Alignment&#xA;BorderPanel&#xA;Button&#xA;ButtonWatcher&#xA;Canvas&#xA;CanvasPosDropTarget&#xA;CanvasPosSpec&#xA;CanvasWatcher&#xA;CheckBox&#xA;CheckBoxWatcher&#xA;ClientSystemSettings&#xA;ClientSystemSettingsConstants&#xA;Color&#xA;ColumnPanel&#xA;ComboBox&#xA;ComboBoxContent&#xA;ComboBoxContentInterface&#xA;ComboBoxItem&#xA;ComboBoxItemInterface&#xA;ComboBoxWatcher&#xA;DesktopGUIApplication&#xA;DesktopGUIAppObject&#xA;DesktopGUIFeatureIdentifiers&#xA;DesktopLibraryVersion&#xA;Dialog&#xA;Dimension&#xA;DirDialog&#xA;DragDropSpec&#xA;DragDropType&#xA;Draggable&#xA;DraggableCanvasPos&#xA;DraggableGUIElement&#xA;DraggableListBoxItem&#xA;DraggableTreeControlItem&#xA;DropOperationType&#xA;DropTarget&#xA;DropTargetSpec&#xA;DropTargetSpecWatcher&#xA;DropType&#xA;FileDialog&#xA;FileDownloader&#xA;FileDownloaderBase&#xA;FileDownloaderURL&#xA;FileDownloaderWatcher&#xA;FileUploader&#xA;FileUploaderBase&#xA;FileUploaderHTTP&#xA;FileUploaderWatcher&#xA;FlowPanel&#xA;FocusWatcher&#xA;Font&#xA;FontAttributes&#xA;Frame&#xA;GridPanel&#xA;GUIElement&#xA;GUIElementDropTarget&#xA;GUIElementItemSpec&#xA;Image&#xA;ImageButton&#xA;ImageFile&#xA;ImageJPEG&#xA;ImagePanel&#xA;ImagePNG&#xA;ImageURL&#xA;ImageWatcher&#xA;ItemSpec&#xA;ListBox&#xA;ListBoxColumn&#xA;ListBoxContent&#xA;ListBoxContentInterface&#xA;ListBoxDropTarget&#xA;ListBoxItem&#xA;ListBoxItemInterface&#xA;ListBoxItemSpec&#xA;ListBoxWatcher&#xA;Menu&#xA;MenuBar&#xA;MenuBase&#xA;MenuContainer&#xA;MenuElement&#xA;MenuItem&#xA;MenuWatcher&#xA;Panel&#xA;Point&#xA;PointList&#xA;PopupMenu&#xA;PopupMenuWatcher&#xA;ProgressBar&#xA;RadioButton&#xA;RadioGroup&#xA;RadioGroupWatcher&#xA;RemoteDirAlias&#xA;RemoteFileAlias&#xA;ScrollPanel&#xA;Slider&#xA;SliderWatcher&#xA;SplitterPanel&#xA;SplitterPanelWatcher&#xA;StaticImage&#xA;StaticText&#xA;SubChannel&#xA;SubChannelWatcher&#xA;SubFrame&#xA;SubFrameWatcher&#xA;TabPanel&#xA;TabPanelWatcher&#xA;TextArea&#xA;TextAreaWatcher&#xA;TextButton&#xA;TextField&#xA;TextFieldWatcher&#xA;TreeControl&#xA;TreeControlContent&#xA;TreeControlContentInterface&#xA;TreeControlDropTarget&#xA;TreeControlItem&#xA;TreeControlItemInterface&#xA;TreeControlItemSpec&#xA;TreeControlWatcher&#xA;WebViewer&#xA;WebViewerWatcher&#xA;Window&#xA;WindowWatcher&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks @off..@on" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@off" Close="@on"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

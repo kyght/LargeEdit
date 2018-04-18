@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Formida" FileType="" Extensions="CMD cmd" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words 1" Enabled="True" Style="" Words="applications&#xA;arc&#xA;args&#xA;ask&#xA;axes&#xA;bell&#xA;bezier&#xA;blow&#xA;box&#xA;break&#xA;bspline&#xA;busy&#xA;capability&#xA;cell&#xA;choice&#xA;circle&#xA;clearmap&#xA;close&#xA;component&#xA;continue&#xA;copy&#xA;cspline&#xA;db&#xA;dbdelete&#xA;dbinsert&#xA;dbrefresh&#xA;dbtrans&#xA;dbupdate&#xA;debug&#xA;decode&#xA;delete&#xA;delid&#xA;dir&#xA;do&#xA;download&#xA;drag&#xA;draw&#xA;dump&#xA;duplicate&#xA;dynlib&#xA;east&#xA;ellipse&#xA;else&#xA;embed&#xA;encode&#xA;end&#xA;enlarge&#xA;env&#xA;errlog&#xA;exclude&#xA;exec&#xA;exit&#xA;expand&#xA;export&#xA;focus&#xA;for&#xA;formfeed&#xA;function&#xA;get&#xA;glabel&#xA;glist&#xA;gloop&#xA;goto&#xA;gtext&#xA;highlight&#xA;hint&#xA;history&#xA;indentbox&#xA;indentloop&#xA;idir&#xA;if&#xA;ifno&#xA;ifyes&#xA;import&#xA;include&#xA;interrupt&#xA;iso&#xA;kill&#xA;linemerge&#xA;lines&#xA;list&#xA;loop&#xA;lower&#xA;menu&#xA;merge&#xA;message&#xA;mirror&#xA;mkdir&#xA;modify&#xA;monitor&#xA;mount&#xA;node&#xA;north&#xA;objlist&#xA;open&#xA;ortho&#xA;pan&#xA;paneladd&#xA;pardon&#xA;path&#xA;pause&#xA;persp&#xA;pfile&#xA;plan&#xA;poll&#xA;polyclip&#xA;polygon&#xA;polygonize&#xA;polymerge&#xA;print&#xA;prism&#xA;procedure&#xA;project&#xA;protect&#xA;pseries&#xA;pulldown&#xA;raise_event&#xA;rasdraw&#xA;rasdump&#xA;read&#xA;rect&#xA;rename&#xA;renid&#xA;reorder&#xA;repoll&#xA;restore&#xA;return&#xA;reverse&#xA;rotate&#xA;route&#xA;save&#xA;save2d&#xA;search&#xA;set&#xA;shift&#xA;shrink&#xA;skip&#xA;sleep&#xA;sort&#xA;sortid&#xA;sound&#xA;south&#xA;start&#xA;stop&#xA;stretch&#xA;suppress&#xA;switch&#xA;tell&#xA;top&#xA;treenode&#xA;treenode_define&#xA;type&#xA;uncache&#xA;uncursor&#xA;under&#xA;unless&#xA;unembed&#xA;unload&#xA;unmount&#xA;unset&#xA;until&#xA;upper&#xA;vane&#xA;vector&#xA;wadjust&#xA;walpha&#xA;wclose&#xA;wcomponent&#xA;wcloth&#xA;wdelete&#xA;wdisplay&#xA;wedit&#xA;west&#xA;wexpose&#xA;wform&#xA;wgraphic&#xA;wgroup&#xA;whide&#xA;while&#xA;wlist&#xA;wmenu&#xA;wmove&#xA;wopen&#xA;wpaint&#xA;wpanel&#xA;wradio&#xA;write&#xA;writefile&#xA;wscale&#xA;wscroll&#xA;wsize&#xA;wswitch&#xA;wtable&#xA;wtree&#xA;wweb&#xA;zone&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words 2" Enabled="True" Style="" Words="alias&#xA;atable&#xA;channel&#xA;color&#xA;command&#xA;compound&#xA;cursor&#xA;database&#xA;dbstructure&#xA;entity&#xA;epointer&#xA;field&#xA;fillstyle&#xA;filter&#xA;font&#xA;grid&#xA;group&#xA;gstructure&#xA;hatchstyle&#xA;label&#xA;linestyle&#xA;markerstyle&#xA;menupane&#xA;numeric&#xA;panel&#xA;point&#xA;projection&#xA;stanza&#xA;string&#xA;structure&#xA;textstyle&#xA;tile&#xA;time&#xA;window&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words 3" Enabled="True" Style="" Words="abs&#xA;acos&#xA;adir3d&#xA;aindex&#xA;aindexc&#xA;aindexcw&#xA;aindexw&#xA;aliasval&#xA;ang&#xA;ang3&#xA;area&#xA;ascii&#xA;asin&#xA;atan&#xA;atan2&#xA;awchar&#xA;awcol&#xA;awline&#xA;awpix&#xA;awrow&#xA;awword&#xA;bestlineseg&#xA;bmatch&#xA;cart&#xA;cbrt&#xA;ccent&#xA;cdrop&#xA;chext&#xA;choosefile&#xA;choosefont&#xA;clash_b&#xA;clash_c&#xA;clash_e&#xA;clash_p&#xA;clash_r&#xA;clash_s&#xA;clash_w&#xA;clump_b&#xA;clump_c&#xA;clump_e&#xA;clump_p&#xA;clump_r&#xA;clump_s&#xA;clump_w&#xA;config&#xA;cos&#xA;cross&#xA;ctrls&#xA;cubic&#xA;dexist&#xA;dir3d&#xA;dircos&#xA;dist&#xA;dot&#xA;earea&#xA;efdesc&#xA;efsize&#xA;eleng&#xA;elev&#xA;envval&#xA;evol&#xA;exp&#xA;exist&#xA;extents&#xA;far&#xA;fexist&#xA;fext&#xA;filepix&#xA;flines&#xA;fload&#xA;flocal&#xA;fmt&#xA;fname&#xA;fpath&#xA;fsize&#xA;ftime&#xA;full&#xA;inbox&#xA;index&#xA;indexc&#xA;ingroup&#xA;inpoly&#xA;int&#xA;intcc&#xA;intlc&#xA;intll&#xA;intlp&#xA;intpp&#xA;kbchar&#xA;ldrop&#xA;len&#xA;ljoin&#xA;log&#xA;logx&#xA;longlat&#xA;low&#xA;lread&#xA;luglock&#xA;matchmatx2&#xA;matx3&#xA;matx4&#xA;max&#xA;members&#xA;midp&#xA;min&#xA;mofi&#xA;near&#xA;nint&#xA;norm&#xA;ns&#xA;ntos&#xA;nval&#xA;onarc&#xA;online&#xA;onplane&#xA;order&#xA;pbox&#xA;pcirc&#xA;pcur&#xA;pdrop&#xA;plock&#xA;pmeasure&#xA;pnob&#xA;proc_set&#xA;prub&#xA;ps&#xA;qs&#xA;quadratic&#xA;quartic&#xA;rand&#xA;raspix&#xA;rem&#xA;root_members&#xA;sbox&#xA;scirc&#xA;scoords&#xA;scur&#xA;sin&#xA;slide&#xA;sm&#xA;sqrt&#xA;strim&#xA;tan&#xA;tricur&#xA;uint&#xA;um&#xA;upp&#xA;value_set&#xA;vcur&#xA;wcap&#xA;wcur&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words 3" Enabled="True" Style="" Words="all&#xA;angle_mode&#xA;arc_filter&#xA;audio&#xA;bit_per_pixel&#xA;box_factor&#xA;box_margin&#xA;busy_cursor&#xA;button&#xA;cell_filter&#xA;circle_filter&#xA;compound_filter&#xA;cond_precision&#xA;current_date&#xA;current_dir&#xA;current_filter&#xA;current_time&#xA;current_window&#xA;date_format&#xA;date_mode&#xA;dberr&#xA;dec_places&#xA;def_approx&#xA;def_color&#xA;def_fragment&#xA;def_ls&#xA;def_marker_height&#xA;def_ms&#xA;def_rank&#xA;def_text_angle&#xA;def_text_height&#xA;def_text_just&#xA;def_text_path&#xA;def_ts&#xA;def_view&#xA;degs&#xA;dialogue&#xA;display_rect&#xA;echoing&#xA;ee&#xA;ellipse_filter&#xA;epick&#xA;err&#xA;err_level&#xA;eventing&#xA;false&#xA;file_messages&#xA;fkey&#xA;found&#xA;free_channel&#xA;free_window&#xA;funcerr&#xA;funcval&#xA;gain&#xA;gc&#xA;gc_display&#xA;glabel_filter&#xA;global&#xA;grads&#xA;graphics&#xA;gtext_filter&#xA;help&#xA;home_dir&#xA;host_name&#xA;ident&#xA;ident_name&#xA;instance_filter&#xA;international&#xA;interrupted&#xA;lines_filter&#xA;ll_proj&#xA;local&#xA;lug_color&#xA;lug_index&#xA;machine&#xA;machine_no&#xA;macro_name&#xA;mapping&#xA;max_color&#xA;menu_option&#xA;menu_position&#xA;menu_switch&#xA;menus_enabled&#xA;monitor_menubar&#xA;mouse&#xA;mouse_buttons&#xA;mouse_window&#xA;mx_user_id&#xA;network_socket&#xA;new_window&#xA;no_change&#xA;node_filter&#xA;now&#xA;null&#xA;num_fkeys&#xA;num_roots&#xA;off&#xA;on&#xA;on_interrupt&#xA;os_name&#xA;p0&#xA;pi&#xA;pick_cursor&#xA;pixel_mm&#xA;polygon_filter&#xA;polygon_validation&#xA;post_dump&#xA;pre_dump&#xA;printer_name&#xA;print_length&#xA;print_margin&#xA;print_width&#xA;prism_filter&#xA;privileged&#xA;process_id&#xA;program&#xA;rads&#xA;scope&#xA;scratch&#xA;session_start&#xA;stepping&#xA;stuff&#xA;sys_message_file&#xA;tabs&#xA;tags&#xA;these&#xA;this&#xA;today&#xA;tomorrow&#xA;tracking&#xA;true&#xA;units&#xA;user_id&#xA;user_message_file&#xA;user_name&#xA;utc_mode&#xA;vector_filter&#xA;version&#xA;version_no&#xA;window_manager&#xA;window_numbers&#xA;x_release&#xA;x_server&#xA;yesterday&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

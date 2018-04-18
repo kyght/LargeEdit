@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ADEPT Command Language" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Misc Functions" Enabled="True" Style="" Words="append_catalog_path&#xA;append_graphics_path&#xA;append_load_path&#xA;append_path&#xA;buffer_create&#xA;buffer_doc&#xA;caller&#xA;catch&#xA;cmd_exists&#xA;count&#xA;defined&#xA;delete&#xA;eval&#xA;execute&#xA;high_bound&#xA;insert_buffer&#xA;low_bound&#xA;option&#xA;package_file&#xA;package_name&#xA;packages&#xA;require&#xA;throw&#xA;absolute_file_name&#xA;access&#xA;basename&#xA;chr&#xA;close&#xA;dirname&#xA;eof&#xA;exit_editor&#xA;expand_file_name&#xA;file_directory&#xA;file_mtime&#xA;file_newer&#xA;file_size&#xA;file_system&#xA;flush&#xA;getline&#xA;getpid&#xA;glob&#xA;hex&#xA;init_done&#xA;key_cmd&#xA;keymap_exists&#xA;max&#xA;menu_checked&#xA;menu_cmd&#xA;menu_exists&#xA;menu_item_count&#xA;menu_popup&#xA;min&#xA;oct&#xA;open&#xA;ord&#xA;put&#xA;pwd&#xA;read&#xA;seek&#xA;tell&#xA;truncate&#xA;umask&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Context Functions" Enabled="True" Style="" Words="channel_set_callback&#xA;content_model&#xA;context_paths&#xA;context_string&#xA;in_context&#xA;in_context_list&#xA;open_accept&#xA;open_connect&#xA;open_listen&#xA;pack&#xA;read&#xA;tag_content&#xA;unpack&#xA;write&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Document Functions" Enabled="True" Style="" Words="current_doc&#xA;doc_close&#xA;doc_list&#xA;doc_name&#xA;doc_open&#xA;doc_parent&#xA;doc_path&#xA;doc_set_path&#xA;doc_show&#xA;doc_valid&#xA;doc_window&#xA;file_selector&#xA;list_response&#xA;panel_popup&#xA;path_doc&#xA;response&#xA;save_some_docs&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Dynamic Functions" Enabled="True" Style="" Words="base_tag_name&#xA;char_entity_names&#xA;content_model&#xA;division_tag&#xA;dl_call&#xA;dl_error&#xA;dl_find&#xA;dl_load&#xA;dl_unload&#xA;doc_type&#xA;doc_type_dir&#xA;dtd_decl_path&#xA;dtd_tag&#xA;entity_tag&#xA;file_entity_tag&#xA;fosi_public_id&#xA;graphic_entity_attr_name&#xA;graphic_entity_tag&#xA;graphic_tag_name&#xA;graphic_file_attr_name&#xA;marked_section_tag&#xA;notation_tag&#xA;pack&#xA;path_public_ids&#xA;procins_tag&#xA;public_id&#xA;public_id_path&#xA;sgml_feature&#xA;tag_attr_choices&#xA;tag_attr_default&#xA;tag_attr_required&#xA;tag_attr_type&#xA;tag_attr_value&#xA;tag_attrs&#xA;tag_content&#xA;tag_display&#xA;tag_exists&#xA;tag_has_attr&#xA;tag_names&#xA;text_entity_tag&#xA;unpack&#xA;user_tag_names&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Editor Commands" Enabled="True" Style="" Words="addrequiredtags&#xA;alias&#xA;aliases&#xA;attribute&#xA;autoload&#xA;beep&#xA;bitmapdisplay&#xA;break&#xA;buffers&#xA;caret&#xA;case&#xA;change_entity&#xA;change_tag&#xA;characters&#xA;check_completeness&#xA;clear_mark&#xA;comments&#xA;context&#xA;continue&#xA;copy_file&#xA;copy_keymap&#xA;copy_mark&#xA;create_file_entity&#xA;declare_entity&#xA;declare_graphic_entity&#xA;declare_ms_parameter&#xA;declare_notation&#xA;declare_text_entity&#xA;define_keymap&#xA;define_tag&#xA;delete_buffer&#xA;delete_character&#xA;delete_entity&#xA;delete_mark&#xA;delete_tag&#xA;detail&#xA;dirdot&#xA;directory&#xA;dirfontpercent&#xA;dirheading&#xA;dironly&#xA;dirorder&#xA;dirtext&#xA;dirupdate&#xA;doctypespath&#xA;edit&#xA;editfontpercent&#xA;editor&#xA;eval&#xA;execute&#xA;expressions&#xA;fileentityfontcolor&#xA;fileentitymarkers&#xA;find&#xA;fontpercent&#xA;for&#xA;fosi&#xA;fosiwarnings&#xA;fulljust&#xA;fullkeymap&#xA;gentext&#xA;gentextfontcolor&#xA;gentexttagdisplay&#xA;graphicdisplay&#xA;help&#xA;helpfontpercent&#xA;hookname&#xA;ids&#xA;if/else&#xA;indent&#xA;inputmode&#xA;insert_accent&#xA;insert_entity&#xA;insert_graphic&#xA;insert_graphic_entity&#xA;insert_marked_section&#xA;insert_pi&#xA;insert_string&#xA;insert_table&#xA;insert_tag&#xA;invoke_processor&#xA;join&#xA;keymap&#xA;language&#xA;link&#xA;load_buffers&#xA;loadmessages&#xA;loadpath&#xA;lookup&#xA;map&#xA;mark&#xA;menu&#xA;menu_add&#xA;menu_change&#xA;menu_copy&#xA;menu_delete&#xA;menu_load&#xA;menu_move&#xA;menu_reset&#xA;menu_save&#xA;message&#xA;modified&#xA;modify_entity&#xA;modify_file_entities&#xA;modify_graphic_entities&#xA;modify_marked_section&#xA;modify_ms_parameters&#xA;modify_notation&#xA;modify_tag&#xA;modify_text_entities&#xA;more&#xA;move_file&#xA;new&#xA;newline&#xA;options&#xA;outline&#xA;package&#xA;paste&#xA;pendingdelete&#xA;print&#xA;printer&#xA;quit&#xA;read&#xA;readvar&#xA;redisplay&#xA;remove_file&#xA;rename_entity&#xA;rename_notation&#xA;rename_tag&#xA;repeat&#xA;replace&#xA;require&#xA;requireattrs&#xA;rochange&#xA;save&#xA;save_as&#xA;save_buffers&#xA;search&#xA;selectionsvc&#xA;selectscan&#xA;set&#xA;sgmlselection&#xA;sh&#xA;show&#xA;showattrs&#xA;showentities&#xA;shownewlines&#xA;source&#xA;spell&#xA;split&#xA;substitute&#xA;tabledisplay&#xA;tablefit&#xA;tag_display&#xA;tagfontpercent&#xA;tagidisplay&#xA;tagnames&#xA;tagscan&#xA;textentityfontcolor&#xA;time&#xA;translate&#xA;unalias&#xA;undeclare_entity&#xA;undeclare_notation&#xA;undefine_keymap&#xA;undefine_tag&#xA;undo&#xA;units&#xA;unmap&#xA;unsetvar&#xA;usertags&#xA;variables&#xA;version&#xA;wait&#xA;while&#xA;window&#xA;windows&#xA;wrapscan&#xA;write&#xA;write8bit&#xA;writecheck&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Editor Functions" Enabled="True" Style="" Words="caret_at&#xA;current_tag_attr_value&#xA;current_tag_name&#xA;edit_id&#xA;edit_new_window&#xA;entity&#xA;entity_doc&#xA;entity_exists&#xA;entity_first&#xA;entity_last&#xA;entity_name&#xA;forward_char&#xA;goto_oid&#xA;insert&#xA;insert_tag&#xA;inside_tag&#xA;looking_at&#xA;modified&#xA;mouse_in_selection&#xA;oid_delete_attr&#xA;oid_modify_attr&#xA;oid_top_pos&#xA;scroll_to_oid&#xA;selected&#xA;selection_balanced&#xA;selection_end&#xA;selection_start&#xA;">
+          <Attributes Foreground="clTeal" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Strings and Objects" Enabled="True" Style="" Words="chop&#xA;chr&#xA;dupl&#xA;goto_oid&#xA;gsub&#xA;hex&#xA;index&#xA;length&#xA;match&#xA;match_length&#xA;match_result&#xA;match_start&#xA;oct&#xA;oid_attr&#xA;oid_attr_list&#xA;oid_attr_required&#xA;oid_attr_type&#xA;oid_backward&#xA;oid_caret&#xA;oid_caret_offset&#xA;oid_caret_pos&#xA;oid_check_attr&#xA;oid_child&#xA;oid_children&#xA;oid_content&#xA;oid_current_tag&#xA;oid_delete_attr&#xA;oid_detailed&#xA;oid_doc&#xA;oid_emptyoid_entity_first&#xA;oid_entity_last&#xA;oid_first&#xA;oid_forward&#xA;oid_has_attr&#xA;oid_in_doc&#xA;oid_last&#xA;oid_level&#xA;oid_modify_attr&#xA;oid_mouse_pos&#xA;oid_name&#xA;oid_next&#xA;oid_null&#xA;oid_parent&#xA;oid_prev&#xA;oid_protected&#xA;oid_same_doc&#xA;oid_select&#xA;oid_top_pos&#xA;oid_type&#xA;oid_valid&#xA;ord&#xA;pack&#xA;reverse&#xA;rindex&#xA;scroll_to_oid&#xA;selection_end&#xA;selection_start&#xA;span&#xA;split&#xA;sub&#xA;substr&#xA;tolower&#xA;toupper&#xA;trim&#xA;unpack&#xA;">
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="System Functions" Enabled="True" Style="" Words="context_error&#xA;create&#xA;ctime&#xA;cut&#xA;destroy&#xA;editbeforehook&#xA;editfilehook&#xA;elapsed_time&#xA;entity_path&#xA;exclude_tag&#xA;file_mtime&#xA;goto_cell&#xA;insert_tag&#xA;modify_graphic&#xA;modify_tag&#xA;newfilehook&#xA;paste&#xA;print_panel&#xA;quit&#xA;save&#xA;tbl_caret_col&#xA;tbl_caret_row&#xA;tbl_col_count&#xA;tbl_quit&#xA;tbl_resize&#xA;tbl_row_count&#xA;time&#xA;time_date&#xA;timer_add_callback&#xA;timer_remove_callback&#xA;times&#xA;window_class&#xA;window_close&#xA;window_create&#xA;window_destroy&#xA;window_doc&#xA;window_get&#xA;window_id&#xA;window_list&#xA;window_lower&#xA;window_mask&#xA;window_name&#xA;window_open&#xA;window_raise&#xA;window_set&#xA;window_show&#xA;window_state&#xA;window_sync&#xA;window_xid&#xA;">
+          <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Variables $" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Variables APT" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="APT"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

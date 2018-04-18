@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Modula2/2k-02-6-nr" FileType="" Extensions="MOD DEF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:modula2.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,-./:;?@[\]^_{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="ABS&#xA;AND&#xA;ADDRESS&#xA;ARRAY&#xA;BEGIN&#xA;BITSET&#xA;BY&#xA;CASE&#xA;CONST&#xA;DEALLOCATE&#xA;DEFINITION&#xA;DO&#xA;ELSE&#xA;ELSIF&#xA;END&#xA;EXCL&#xA;EXIT&#xA;FOR&#xA;FOREIGN&#xA;FROM&#xA;HIGH&#xA;IF&#xA;IMPLEMENTATION&#xA;IMPORT&#xA;IN&#xA;INC&#xA;INCL&#xA;LOOP&#xA;MAX&#xA;MIN&#xA;MODULE&#xA;NOT&#xA;OF&#xA;OR&#xA;POINTER&#xA;PROCEDURE&#xA;RECORD&#xA;REPEAT&#xA;RETURN&#xA;SET&#xA;STEP&#xA;THEN&#xA;TO&#xA;TYPE&#xA;UNTIL&#xA;VAR&#xA;WHILE&#xA;WITH&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="VAR TYPES" Enabled="True" Style="" Words="^&#xA;BOOLEAN&#xA;BYTE&#xA;CARDINAL&#xA;CHAR&#xA;FLOAT&#xA;INTEGER&#xA;IntSet&#xA;NIL&#xA;REAL&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="=&#xA;:&#xA;=&#xA;&lt;=&#xA;&gt;=&#xA;#&#xA;+&#xA;-&#xA;*&#xA;//&#xA;/&#xA;DIV&#xA;MOD&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="[&#xA;]&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="FALSE&#xA;TRUE&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ALLOCATE&#xA;CHR&#xA;DEALLOCATE&#xA;DEC&#xA;DISPOSE&#xA;NEW&#xA;ORD&#xA;SIZE&#xA;SYSTEM&#xA;TRUNC&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks (*..*)" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="(*" Close="*)"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

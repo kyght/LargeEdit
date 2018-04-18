@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="BV JavaScript" FileType="" Extensions="JSP JS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:broadvisionjs.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="JavaScript Keywords" Enabled="True" Style="" Words="abstract&#xA;boolean&#xA;break&#xA;byte&#xA;case&#xA;catch&#xA;char&#xA;class&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;extends&#xA;false&#xA;final&#xA;finally&#xA;float&#xA;for&#xA;function&#xA;goto&#xA;if&#xA;implements&#xA;import&#xA;in&#xA;instanceof&#xA;int&#xA;interface&#xA;long&#xA;native&#xA;new&#xA;null&#xA;package&#xA;private&#xA;protected&#xA;public&#xA;return&#xA;short&#xA;static&#xA;super&#xA;switch&#xA;synchronized&#xA;this&#xA;throw&#xA;throws&#xA;transient&#xA;true&#xA;try&#xA;var&#xA;void&#xA;while&#xA;with&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="BroadVision Objects" Enabled="True" Style="" Words="BV_SmgrSessionHandle&#xA;BVI_ACLManager&#xA;BVI_Category&#xA;BVI_CategoryList&#xA;BVI_Content&#xA;BVI_ContentList&#xA;BVI_ContentManager&#xA;BVI_ContentSchema&#xA;BVI_DateTime&#xA;BVI_File&#xA;BVI_FilePath&#xA;BVI_FileSystem&#xA;BVI_GenericDBManager&#xA;BVI_Log&#xA;BVI_MatchingAgent&#xA;BVI_Money&#xA;BVI_MonitorManager&#xA;BVI_MonitorVariable&#xA;BVI_MultiValueModifierList&#xA;BVI_MultiValueRow&#xA;BVI_MultiValueSchema&#xA;BVI_MultiValueTable&#xA;BVI_NameValuePair&#xA;BVI_NamingContext&#xA;BVI_Properties&#xA;BVI_Request&#xA;BVI_Response&#xA;BVI_Session&#xA;BVI_SessionLocation&#xA;BVI_SessnProf&#xA;BVI_StringList&#xA;BVI_SystemConfiguration&#xA;BVI_SystemMonitor&#xA;BVI_Table&#xA;BVI_Value&#xA;BVI_ValueList&#xA;BVI_Visitor&#xA;BVI_VisitorManager&#xA;Error&#xA;Strings&#xA;System&#xA;portal&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="HTTP Session Objects" Enabled="True" Style="" Words="Request&#xA;Response&#xA;RETURN&#xA;Session&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="HTML TAGS" Enabled="True" Style="" Words="&lt;A&#xA;&lt;/A&gt;&#xA;&lt;ABBR&gt;&#xA;&lt;ABBR&#xA;&lt;/ABBR&gt;&#xA;&lt;ABOVE&gt;&#xA;&lt;ACRONYM&gt;&#xA;&lt;ACRONYM&#xA;&lt;/ACRONYM&gt;&#xA;&lt;ADDRESS&gt;&#xA;&lt;ADDRESS&#xA;&lt;/ADDRESS&gt;&#xA;&lt;APPLET&#xA;&lt;/APPLET&gt;&#xA;&lt;ARRAY&gt;&#xA;&lt;AREA&#xA;&lt;/AREA&#xA;&lt;B&gt;&#xA;&lt;B&#xA;&lt;/B&gt;&#xA;&lt;BASE&#xA;&lt;BASEFONT&#xA;&lt;BDO&gt;&#xA;&lt;BDO&#xA;&lt;/BDO&gt;&#xA;&lt;BGSOUND&#xA;&lt;BIG&gt;&#xA;&lt;BIG&#xA;&lt;/BIG&gt;&#xA;&lt;BLINK&gt;&#xA;&lt;/BLINK&gt;&#xA;&lt;BLOCKQUOTE&gt;&#xA;&lt;BLOCKQUOTE&#xA;&lt;/BLOCKQUOTE&gt;&#xA;&lt;BODY&#xA;&lt;BODY&gt;&#xA;&lt;/BODY&gt;&#xA;&lt;BOX&gt;&#xA;&lt;BR&#xA;&lt;BR&gt;&#xA;&lt;BIG&#xA;&lt;BLINK&#xA;&lt;BUTTON&gt;&#xA;&lt;/BUTTON&gt;&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="&lt;DD&gt;&#xA;&lt;DD&#xA;&lt;/DD&gt;&#xA;&lt;DEL&gt;&#xA;&lt;DEL&#xA;&lt;/DEL&gt;&#xA;&lt;DFN&gt;&#xA;&lt;DFN&#xA;&lt;/DFN&gt;&#xA;&lt;DIR&gt;&#xA;&lt;DIR&#xA;&lt;/DIR&gt;&#xA;&lt;DIV&gt;&#xA;&lt;DIV&#xA;&lt;/DIV&gt;&#xA;&lt;DL&gt;&#xA;&lt;DL&#xA;&lt;/DL&gt;&#xA;&lt;DT&gt;&#xA;&lt;DT&#xA;&lt;/DT&gt;&#xA;&lt;EM&gt;&#xA;&lt;EM&#xA;&lt;/EM&gt;&#xA;&lt;EMBED&#xA;&lt;FIELDSET&gt;&#xA;&lt;FIELDSET&#xA;&lt;/FIELDSET&gt;&#xA;&lt;FIG&gt;&#xA;&lt;FONT&#xA;&lt;/FONT&gt;&#xA;&lt;FORM&gt;&#xA;&lt;FORM&#xA;&lt;/FORM&gt;&#xA;&lt;FRAME&#xA;&lt;FRAMESET&#xA;&lt;/FRAMESET&gt;&#xA;&lt;H1&gt;&#xA;&lt;H1&#xA;&lt;/H1&gt;&#xA;&lt;H2&gt;&#xA;&lt;H2&#xA;&lt;/H2&gt;&#xA;&lt;H3&gt;&#xA;&lt;H3&#xA;&lt;/H3&gt;&#xA;&lt;H4&gt;&#xA;&lt;H4&#xA;&lt;/H4&gt;&#xA;&lt;H5&gt;&#xA;&lt;H5&#xA;&lt;/H5&gt;&#xA;&lt;H6&gt;&#xA;&lt;H6&#xA;&lt;/H6&gt;&#xA;&lt;HEAD&gt;&#xA;&lt;HEAD&#xA;&lt;/HEAD&gt;&#xA;&lt;HR&gt;&#xA;&lt;HR&#xA;&lt;HTML&gt;&#xA;&lt;HTML&#xA;&lt;/HTML&gt;&#xA;&lt;I&gt;&#xA;&lt;I&#xA;&lt;/I&gt;&#xA;&lt;IFRAME&gt;&#xA;&lt;/IFRAME&gt;&#xA;&lt;ILAYER&gt;&#xA;&lt;/ILAYER&gt;&#xA;&lt;IMG&#xA;&lt;INPUT&gt;&#xA;&lt;INPUT&#xA;&lt;INS&gt;&#xA;&lt;INS&#xA;&lt;/INS&gt;&#xA;&lt;ISINDEX&gt;&#xA;&lt;ISINDEX&#xA;&lt;KBD&gt;&#xA;&lt;KBD&#xA;&lt;/KBD&gt;&#xA;&lt;LABEL&gt;&#xA;&lt;LABEL&#xA;&lt;/LABEL&gt;&#xA;&lt;LAYER&gt;&#xA;&lt;LAYER&#xA;&lt;/LAYER&gt;&#xA;&lt;LEGEND&gt;&#xA;&lt;LEGEND&#xA;&lt;/LEGEND&gt;&#xA;&lt;LI&gt;&#xA;&lt;LI&#xA;&lt;/LI&gt;&#xA;&lt;LINK&#xA;&lt;LISTING&gt;&#xA;&lt;/LISTING&gt;&#xA;&lt;MAP&#xA;&lt;/MAP&gt;&#xA;&lt;MARQUEE&#xA;&lt;/MARQUEE&gt;&#xA;&lt;MENU&gt;&#xA;&lt;MENU&#xA;&lt;/MENU&gt;&#xA;&lt;META&#xA;&lt;MULTICOL&gt;&#xA;&lt;/MULTICOL&gt;&#xA;&lt;NEXTID&#xA;&lt;NOBR&gt;&#xA;&lt;/NOBR&gt;&#xA;&lt;NOFRAMES&gt;&#xA;&lt;/NOFRAMES&gt;&#xA;&lt;NOLAYER&gt;&#xA;&lt;/NOLAYER&gt;&#xA;&lt;NOTE&gt;&#xA;&lt;/NOTE&gt;&#xA;&lt;NOSCRIPT&gt;&#xA;&lt;/NOSCRIPT&gt;&#xA;&lt;OBJECT&gt;&#xA;&lt;OBJECT&#xA;&lt;/OBJECT&gt;&#xA;&lt;OL&gt;&#xA;&lt;OL&#xA;&lt;/OL&gt;&#xA;&lt;OPTION&gt;&#xA;&lt;OPTION&#xA;&lt;/OPTION&gt;&#xA;&lt;OPTGROUP&gt;&#xA;&lt;OPTGROUP&#xA;&lt;/OPTGROUP&gt;&#xA;&lt;P&#xA;&lt;P&gt;&#xA;&lt;/P&gt;&#xA;&lt;PARAM&#xA;&lt;PRE&gt;&#xA;&lt;PRE&#xA;&lt;/PRE&gt;&#xA;&lt;Q&gt;&#xA;&lt;Q&#xA;&lt;/Q&gt;&#xA;&lt;QUOTE&gt;&#xA;&lt;RANGE&gt;&#xA;&lt;ROOT&gt;&#xA;&lt;S&gt;&#xA;&lt;S&#xA;&lt;/S&gt;&#xA;&lt;SAMP&gt;&#xA;&lt;SAMP&#xA;&lt;/SAMP&gt;&#xA;&lt;SCRIPT&#xA;&lt;SCRIPT&gt;&#xA;&lt;/SCRIPT&gt;&#xA;&lt;SELECT&#xA;&lt;SELECT&gt;&#xA;&lt;/SELECT&gt;&#xA;&lt;SMALL&gt;&#xA;&lt;SMALL&#xA;&lt;/SMALL&gt;&#xA;&lt;SOUND&#xA;&lt;SPACER&gt;&#xA;&lt;SPAN&gt;&#xA;&lt;SPAN&#xA;&lt;/SPAN&gt;&#xA;&lt;SQRT&gt;&#xA;&lt;STRIKE&gt;&#xA;&lt;STRIKE&#xA;&lt;/STRIKE&gt;&#xA;&lt;STRONG&gt;&#xA;&lt;STRONG&#xA;&lt;/STRONG&gt;&#xA;&lt;STYLE&gt;&#xA;&lt;STYLE&#xA;&lt;/STYLE&gt;&#xA;&lt;SUB&gt;&#xA;&lt;SUB&#xA;&lt;/SUB&gt;&#xA;&lt;SUP&gt;&#xA;&lt;SUP&#xA;&lt;/SUP&gt;&#xA;&lt;TABLE&gt;&#xA;&lt;TABLE&#xA;&lt;/TABLE&gt;&#xA;&lt;TBODY&gt;&#xA;&lt;TBODY&#xA;&lt;/TBODY&gt;&#xA;&lt;TD&#xA;&lt;TD&gt;&#xA;&lt;/TD&gt;&#xA;&lt;TEXT&gt;&#xA;&lt;TEXTAREA&#xA;&lt;TEXTAREA&gt;&#xA;&lt;/TEXTAREA&gt;&#xA;&lt;TFOOT&gt;&#xA;&lt;TFOOT&#xA;&lt;/TFOOT&gt;&#xA;&lt;TH&#xA;&lt;TH&gt;&#xA;&lt;/TH&gt;&#xA;&lt;THEAD&gt;&#xA;&lt;THEAD&#xA;&lt;/THEAD&gt;&#xA;&lt;TITLE&gt;&#xA;&lt;/TITLE&gt;&#xA;&lt;TR&#xA;&lt;TR&gt;&#xA;&lt;/TR&gt;&#xA;&lt;TT&gt;&#xA;&lt;/TT&gt;&#xA;&lt;TT&#xA;&lt;U&gt;&#xA;&lt;U&#xA;&lt;/U&gt;&#xA;&lt;UL&gt;&#xA;&lt;UL&#xA;&lt;/UL&gt;&#xA;&lt;VAR&gt;&#xA;&lt;/VAR&gt;&#xA;&lt;VAR&#xA;&lt;WBR&gt;&#xA;&lt;XMP&gt;&#xA;&lt;/XMP&gt;&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="HTML ATTRIBUTES" Enabled="True" Style="" Words="ABBR=&#xA;ACCEPT-CHARSET=&#xA;ACCEPT=&#xA;ACCESSKEY=&#xA;ACTION=&#xA;ALIGN=&#xA;ALINK=&#xA;ALT=&#xA;ARCHIVE=&#xA;AXIS=&#xA;BACKGROUND=&#xA;BEHAVIOR&#xA;BELOW&#xA;BGCOLOR=&#xA;BORDER=&#xA;CELLPADDING=&#xA;CELLSPACING=&#xA;CHAR=&#xA;CHAROFF=&#xA;CHARSET=&#xA;CHECKED&#xA;CITE=&#xA;CLASS=&#xA;CLASSID=&#xA;CLEAR=&#xA;CODE=&#xA;CODEBASE=&#xA;CODETYPE=&#xA;COLOR=&#xA;COLS=&#xA;COLSPAN=&#xA;COMPACT&#xA;CONTENT=&#xA;COORDS=&#xA;DATA=&#xA;DATETIME=&#xA;DECLARE&#xA;DEFER&#xA;DIR=&#xA;DISABLED&#xA;ENCTYPE=&#xA;FACE=&#xA;FOR=&#xA;FRAME=&#xA;FRAMEBORDER=&#xA;FRAMESPACING=&#xA;HEADERS=&#xA;HEIGHT=&#xA;HIDDEN=&#xA;HREF=&#xA;HREFLANG=&#xA;HSPACE=&#xA;HTTP-EQUIV=&#xA;ID=&#xA;ISMAP=&#xA;LABEL=&#xA;LANG=&#xA;LANGUAGE=&#xA;LINK=&#xA;LOOP=&#xA;LONGDESC=&#xA;MAILTO=&#xA;MARGINHEIGHT=&#xA;MARGINWIDTH=&#xA;MAXLENGTH=&#xA;MEDIA=&#xA;METHOD=&#xA;MULTIPLE&#xA;NAME=&#xA;NOHREF&#xA;NORESIZE&#xA;NOSHADE&#xA;OBJECT=&#xA;ONBLUR=&#xA;ONCHANGE=&#xA;ONFOCUS=&#xA;ONKEYDOWN=&#xA;ONKEYPRESS=&#xA;ONKEYUP=&#xA;ONLOAD=&#xA;ONRESET=&#xA;ONSELECT=&#xA;ONSUBMIT=&#xA;ONUNLOAD=&#xA;ONCLICK=&#xA;ONDBLCLICK=&#xA;ONMOUSEDOWN=&#xA;ONMOUSEMOVE=&#xA;ONMOUSEOUT=&#xA;ONMOUSEOVER=&#xA;ONMOUSEUP=&#xA;PROFILE=&#xA;PROMPT=&#xA;READONLY&#xA;REL=&#xA;REV=&#xA;ROWS=&#xA;ROWSPAN=&#xA;RULES=&#xA;SCHEME=&#xA;SCOPE=&#xA;SCROLLING=&#xA;SELECTED&#xA;SHAPE=&#xA;SIZE=&#xA;SPAN=&#xA;SRC=&#xA;STANDBY=&#xA;START=&#xA;STYLE=&#xA;SUMMARY=&#xA;TABINDEX=&#xA;TARGET=&#xA;TEXT=&#xA;TITLE=&#xA;TOPMARGIN=&#xA;TYPE=&#xA;URL=&#xA;USEMAP=&#xA;VALIGN=&#xA;VALUE=&#xA;VALUETYPE=&#xA;VERSION=&#xA;VLINK=&#xA;VSPACE=&#xA;WIDTH=&#xA;=&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="BroadVision built-in Scripts" Enabled="True" Style="" Words="classOf&#xA;comment&#xA;currentService&#xA;currentVisitor&#xA;dquote&#xA;dumpEnvironment&#xA;getMatchingRow&#xA;getMatchingValue&#xA;HTMLEncode&#xA;init2DArray&#xA;initSessionState&#xA;isEmptyString&#xA;isNullString&#xA;loginData&#xA;makeScriptURL&#xA;obslogBuy&#xA;obslogBuyContent&#xA;obslogChoose&#xA;obslogChooseContent&#xA;obslogEnterStore&#xA;obslogIdentify&#xA;obslogTargetingRule&#xA;obslogRegisterUser&#xA;obslogSee&#xA;obslogSeeContent&#xA;obslogSeeContentList&#xA;obslogSelect&#xA;obslogSelectContent&#xA;obslogUserDefined&#xA;sessionContentInfo&#xA;setCurrentService&#xA;setCurrentVisitor&#xA;showError&#xA;squote&#xA;stringLeft&#xA;stringLeftTrim&#xA;statusMessage&#xA;stringRight&#xA;stringRightTrim&#xA;stringTrim&#xA;substring2&#xA;visitScript&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

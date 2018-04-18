@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Informix ESQL/C" FileType="" Extensions="" Version="1" Revision="0" Sample="/********************************** INCLUDE FILES **************************/&#xA;#include &lt;windows.h&gt;&#xA;long     CALLBACK MainWndProc( HWND, unsigned, WPARAM, LPARAM );&#xA;int      OpenStore( LPERRORSTRUCT );&#xA;int   APIENTRY WinMain( HINSTANCE hInstance, HINSTANCE hPrevInst,&#xA;         LPSTR lpszCmdLine, int iCmdShow )&#xA;{  /***** begin WinMain *****/&#xA;   /******************************** LOCAL VARIABLES ***********************/&#xA;   MSG      msg;&#xA;   HANDLE   hAccel;&#xA;   if( !hPrevInst )&#xA;      if( !InitApplication( hInstance ) )&#xA;         return( FALSE );&#xA;   hAccel = LoadAccelerators( hInstance, &quot;MenuAccel&quot; );&#xA;   WndClass.lpszClassName  = &quot;WDemoClass&quot;;&#xA;   BOOL     bRet = TRUE;&#xA;BOOL  CALLBACK AboutProc( HWND hDlg, unsigned iMsg,&#xA;               WPARAM wParam, LPARAM lParam )&#xA;   char  szErr[257];&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Informix" Enabled="True" Style="" Words="ADD&#xA;ALLOWING&#xA;ARG_VAL&#xA;ARRAY&#xA;ARR_COUNT&#xA;ARR_CURR&#xA;ATTRIBUTE&#xA;ATTRIBUTES&#xA;AUTONEXT&#xA;AVERAGE&#xA;AVG&#xA;BOTTOM&#xA;CLEAR&#xA;CALL&#xA;CASE&#xA;EVERY&#xA;ENTRY&#xA;CLIPPED&#xA;CLOSE&#xA;DEFINE&#xA;DEFER&#xA;DELIMITERS&#xA;COLUMNS&#xA;COMMAND&#xA;COMMENT&#xA;COMMENTS&#xA;COMPOSITES&#xA;CONNECT&#xA;CONSTRUCT&#xA;CONTINUE&#xA;CORRECT&#xA;EXTERN&#xA;DESCRIBE&#xA;DISPLAY&#xA;DISPLAYONLY&#xA;DOWN&#xA;DOWNSHIFT&#xA;FOUND&#xA;FORMONLY&#xA;FORMAT&#xA;FORM&#xA;FOREACH&#xA;FIRST&#xA;FINISH&#xA;FIELD&#xA;FETCH&#xA;FALSE&#xA;GLOBALS&#xA;HEADER&#xA;HELP&#xA;INCLUDE&#xA;INPUT&#xA;INSTRUCTIONS&#xA;JOINING&#xA;LABEL&#xA;LAST&#xA;LENGHT&#xA;LET&#xA;MATCHES&#xA;NEXTFIELD&#xA;LINE&#xA;LINENO&#xA;MDY&#xA;LINES&#xA;LOG&#xA;MESSAGE&#xA;MENU&#xA;NOTFOUND&#xA;MIN&#xA;MODE&#xA;NUM_ARGS&#xA;OUTPUT&#xA;PROGRAM&#xA;PROMPT&#xA;PRINT&#xA;PRINTER&#xA;OTHERWISE&#xA;NORMAL&#xA;MAX&#xA;OPTIONS&#xA;PREVIOUS&#xA;PREPARE&#xA;PAGENO&#xA;PAGE&#xA;OPEN&#xA;OPTION&#xA;NEXT&#xA;NEED&#xA;NAME&#xA;MAIN&#xA;MARGIN&#xA;MASTER&#xA;QUERYCLEAR&#xA;QUIT&#xA;REPORT&#xA;&#xA;SCR_LINE&#xA;SCROLL&#xA;REGISTER&#xA;RECORD&#xA;QUERY&#xA;SCREEN&#xA;THRU&#xA;THROUGH&#xA;RESOURCE&#xA;RETURN&#xA;RETURNING&#xA;REVERSE&#xA;ROW&#xA;ROWID&#xA;RUN&#xA;&#xA;START&#xA;SQLCA&#xA;SKIP&#xA;SIZEOF&#xA;SHARE&#xA;SET_COUNT&#xA;TRUE&#xA;TRAILER&#xA;TOP&#xA;STARTLOG&#xA;STATIC&#xA;STATISTICS&#xA;STATUS&#xA;STEP&#xA;STOP&#xA;SUM&#xA;SWITCH&#xA;SYNONYM&#xA;SYSTABLES&#xA;UNLOCK&#xA;UP&#xA;UPSHIFT&#xA;VERIFY&#xA;WHENEVER&#xA;WITHOUT&#xA;WRAP&#xA;WARNING&#xA;VALUE&#xA;VALIDATE&#xA;WAITING&#xA;BREAK&#xA;EDITADD&#xA;GOTO&#xA;EDITUPDATE&#xA;ERROR&#xA;ERRORLOG&#xA;ERR_GET&#xA;ERR_PRINT&#xA;ERR_QUIT&#xA;EXCLUSIVE&#xA;EXITNOW&#xA;INITIALIZE&#xA;INTERRUPT&#xA;LOCK&#xA;MODIFY&#xA;PAUSE&#xA;PIPE&#xA;PUBLIC&#xA;RECOVER&#xA;REMOVE&#xA;RENAME&#xA;ROLLFORWARD&#xA;SLEEP&#xA;SQLERRD&#xA;TABLES&#xA;TEMP&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Informix types" Enabled="True" Style="" Words="CHAR&#xA;DATE&#xA;DAY&#xA;DBA&#xA;DECIMAL&#xA;DOUBLE&#xA;DEC&#xA;FLOAT&#xA;INDEX&#xA;LIKE&#xA;LONG&#xA;INT&#xA;INTEGER&#xA;LOOKUP&#xA;MONTH&#xA;MONEY&#xA;NOENTRY&#xA;NOUPDATE&#xA;PICTURE&#xA;REQUIRED&#xA;PERCENT&#xA;SHORT&#xA;SMALLFLOAT&#xA;SMALLINT&#xA;STRUCT&#xA;SERIAL&#xA;SPACE&#xA;SPACES&#xA;TYPEDEF&#xA;TYPE&#xA;TODAY&#xA;TIME&#xA;UNSIGNED&#xA;WEEKDAY&#xA;YEAR&#xA;ZEROFILL&#xA;BOOL&#xA;void&#xA;HDC&#xA;HWND&#xA;HANDLE&#xA;CUSTSTRUCT&#xA;ERRORSTRUCT&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Parameters" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

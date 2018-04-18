@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="TEAK ASM" FileType="" Extensions="ASM DBG SRC lnk lin lst" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:teakasm.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="add&#xA;addh&#xA;addl&#xA;addv&#xA;and&#xA;adda&#xA;add3&#xA;add3a&#xA;add3aa&#xA;addsub&#xA;addsuba&#xA;addhp&#xA;banke&#xA;bkrep&#xA;br&#xA;break&#xA;brr&#xA;bankr&#xA;bitrev&#xA;bkreprst&#xA;bkrepsto&#xA;call&#xA;calla&#xA;callr&#xA;chng&#xA;clr&#xA;clrr&#xA;cmp&#xA;cmpu&#xA;cmpv&#xA;cntx&#xA;copy&#xA;clrp&#xA;dec&#xA;dint&#xA;divs&#xA;eint&#xA;exp&#xA;inc&#xA;lim&#xA;load&#xA;lpg&#xA;maa&#xA;maasu&#xA;mac&#xA;macsu&#xA;macus&#xA;macuu&#xA;max&#xA;maxd&#xA;min&#xA;moda&#xA;modb&#xA;modr&#xA;mov&#xA;movd&#xA;movp&#xA;movr&#xA;movs&#xA;movsi&#xA;mpy&#xA;mpyi&#xA;mpys&#xA;mpysu&#xA;msu&#xA;msusu&#xA;mac1&#xA;movpdw&#xA;mov&#xA;neg&#xA;nop&#xA;norm&#xA;not&#xA;or&#xA;pacr&#xA;pacr0&#xA;pacr1&#xA;pop&#xA;push&#xA;popa&#xA;pusha&#xA;rep&#xA;ret&#xA;retd&#xA;reti&#xA;retid&#xA;rets&#xA;rnd&#xA;rol&#xA;ror&#xA;rst&#xA;set&#xA;shfc&#xA;shfi&#xA;shl&#xA;shl4&#xA;shr&#xA;shr4&#xA;sqr&#xA;sqra&#xA;sub&#xA;subh&#xA;subl&#xA;subv&#xA;swap&#xA;sub3&#xA;sub3a&#xA;sub3aa&#xA;suba&#xA;sbr&#xA;scall&#xA;trap&#xA;tst0&#xA;tst1&#xA;tstb&#xA;tst4b&#xA;vtrclr&#xA;vtrmov&#xA;vtrshr&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="a0&#xA;a1&#xA;a0l&#xA;a0h&#xA;a0e&#xA;a1l&#xA;a1h&#xA;a1e&#xA;arp0&#xA;arp1&#xA;arp2&#xA;arp3&#xA;ar0&#xA;ar1&#xA;b0&#xA;b0l&#xA;b0h&#xA;b1&#xA;b1h&#xA;b1l&#xA;cfgi&#xA;cfgj&#xA;ext0&#xA;ext1&#xA;ext2&#xA;ext3&#xA;lc&#xA;p&#xA;ph&#xA;pc&#xA;p0&#xA;p1&#xA;r0&#xA;r1&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;rb&#xA;sv&#xA;sp&#xA;st0&#xA;st1&#xA;st2&#xA;stt0&#xA;stt1&#xA;stt2&#xA;stepi&#xA;stepj&#xA;y&#xA;y0&#xA;y1&#xA;mod0&#xA;mod1&#xA;mod2&#xA;mod3&#xA;modj&#xA;modi&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="eq&#xA;e&#xA;true&#xA;lt&#xA;le&#xA;l&#xA;gt&#xA;ge&#xA;nn&#xA;nr&#xA;neq&#xA;niu0&#xA;iu0&#xA;iu1&#xA;v&#xA;c&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="animate&#xA;code&#xA;command&#xA;config&#xA;CSECT&#xA;DSECT&#xA;DW&#xA;DB&#xA;data&#xA;define&#xA;dw&#xA;db&#xA;ELSE&#xA;ENDIF&#xA;EQU&#xA;GLOBAL&#xA;global&#xA;IFDEF&#xA;INCLUDE&#xA;internal&#xA;iow&#xA;iorw&#xA;map&#xA;memory&#xA;LOAD&#xA;open&#xA;Port&#xA;PORT&#xA;RLOAD&#xA;&#xA;register&#xA;text&#xA;wait&#xA;xram&#xA;xyram&#xA;yram&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="#&#xA;@&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

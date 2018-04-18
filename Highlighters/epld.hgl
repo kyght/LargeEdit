@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="EPLD" FileType="" Extensions="abl abv" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:epld.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,/:;&lt;=&gt;?[\]^{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ASYNC_RESET&#xA;Buffer&#xA;Collapse&#xA;Case&#xA;Collapse&#xA;Com&#xA;DECLARATIONS&#xA;Dc&#xA;Declarations&#xA;Device&#xA;EQUATIONS&#xA;End&#xA;Equations&#xA;Else&#xA;Equations.&#xA;FUNCTIONAL_BLOCK&#xA;FUSES&#xA;Functional_block&#xA;Fuses&#xA;Goto&#xA;INTERFACE&#xA;If-Then-Else&#xA;In&#xA;Interface&#xA;Istype&#xA;If&#xA;In&#xA;Invert&#xA;Istype&#xA;Keep&#xA;Library&#xA;MACRO&#xA;Macro&#xA;Module&#xA;Node&#xA;Neg&#xA;Output&#xA;Pin&#xA;Property&#xA;PIN&#xA;Pos&#xA;Reg&#xA;Reg_D&#xA;Reg_G&#xA;Reg_JK&#xA;Reg_SR&#xA;Reg_T&#xA;Retain&#xA;STATE_DIAGRAM&#xA;STATE_REGISTER&#xA;STATE_REGISTER&#xA;SYNC_RESET&#xA;State&#xA;State_Diagram&#xA;State_register&#xA;Sync_reset&#xA;Signal&#xA;State&#xA;TEST_VECTORS&#xA;TITLE&#xA;TRUTH_TABLE&#xA;Test_Vectors&#xA;Title&#xA;Trace&#xA;Truth_Table&#xA;Title&#xA;Test_vectors&#xA;Then&#xA;When-Then-Else&#xA;With&#xA;XOR&#xA;XOR_FACTORS&#xA;XOR_Factors&#xA;Xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="@Alternate&#xA;@Carry&#xA;@Const&#xA;@Dcset&#xA;@Dcset&#xA;@Dcstate&#xA;@Exit&#xA;@Expr&#xA;@If&#xA;@Ifb&#xA;@Ifdef&#xA;@Ifiden&#xA;@Ifnb&#xA;@Ifndef&#xA;@Ifniden&#xA;@Include&#xA;@Irp&#xA;@Irpc&#xA;@Message&#xA;@Onset&#xA;@Onset&#xA;@Page&#xA;@Radix&#xA;@Repeat&#xA;@Setsize&#xA;@Standard&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words=".ACLR&#xA;.ASET&#xA;.AP&#xA;.AR&#xA;.AR&#xA;.ASET&#xA;.CE&#xA;.CLK&#xA;.CLR&#xA;.SET&#xA;.COM&#xA;.D&#xA;.FB&#xA;.FC&#xA;.J&#xA;.K&#xA;.LD&#xA;.LE&#xA;.LH&#xA;.OE&#xA;.PIN&#xA;.PR&#xA;.Q&#xA;.R&#xA;.RE&#xA;.S&#xA;.R&#xA;.SET&#xA;.SP&#xA;.SR&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

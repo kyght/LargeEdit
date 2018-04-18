@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WAP" FileType="" Extensions="wml" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wap.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Tags" Enabled="True" Style="" Words="=&#xA;&lt;&#xA;&gt;&#xA;&lt;a&gt;&#xA;&lt;a&#xA;&lt;access&gt;&#xA;&lt;access&#xA;&lt;anchor&gt;&#xA;&lt;anchor&#xA;&lt;b&gt;&#xA;&lt;big&gt;&#xA;&lt;br/&gt;&#xA;&lt;card&gt;&#xA;&lt;card&#xA;&lt;do&gt;&#xA;&lt;do&#xA;&lt;em&gt;&#xA;&lt;fieldset&gt;&#xA;&lt;fieldset&#xA;&lt;go&#xA;&lt;head&gt;&#xA;&lt;i&gt;&#xA;&lt;img&#xA;&lt;input&#xA;&lt;meta&#xA;&lt;noop/&gt;&#xA;&lt;option&gt;&#xA;&lt;option&#xA;&lt;optgroup&gt;&#xA;&lt;optgroup&#xA;&lt;onevent&#xA;&lt;p&gt;&#xA;&lt;p&#xA;&lt;prev&gt;&#xA;&lt;prev/&gt;&#xA;&lt;postfield&gt;&#xA;&lt;postfield&#xA;&lt;refresh&gt;&#xA;&lt;select&#xA;&lt;setvar&#xA;&lt;small&gt;&#xA;&lt;strong&gt;&#xA;&lt;table&gt;&#xA;&lt;table&#xA;&lt;td&gt;&#xA;&lt;td&#xA;&lt;template&gt;&#xA;&lt;template&#xA;&lt;tr&gt;&#xA;&lt;tr&#xA;&lt;timer&gt;&#xA;&lt;timer&#xA;&lt;u&gt;&#xA;&lt;wml&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Tag End" Enabled="True" Style="" Words="&lt;/a&gt;&#xA;&lt;/access&gt;&#xA;&lt;/anchor&gt;&#xA;&lt;/b&gt;&#xA;&lt;/big&gt;&#xA;&lt;/b&gt;&#xA;&lt;/big&gt;&#xA;&lt;/card&gt;&#xA;&lt;/do&gt;&#xA;&lt;/em&gt;&#xA;&lt;/fieldset&gt;&#xA;&lt;/go&gt;&#xA;&lt;/head&gt;&#xA;&lt;/i&gt;&#xA;&lt;/img&gt;&#xA;&lt;/input&gt;&#xA;&lt;/meta&gt;&#xA;&lt;/option&gt;&#xA;&lt;/optgroup&gt;&#xA;&lt;/onevent&gt;&#xA;&lt;/p&gt;&#xA;&lt;/prev&gt;&#xA;&lt;/postfield&gt;&#xA;&lt;/refresh&gt;&#xA;&lt;/select&gt;&#xA;&lt;/setvar&gt;&#xA;&lt;/small&gt;&#xA;&lt;/strong&gt;&#xA;&lt;/table&gt;&#xA;&lt;/td&gt;&#xA;&lt;/template&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/timer&gt;&#xA;&lt;/u&gt;&#xA;&lt;/wml&gt;&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="'&#xA;&quot;&#xA;accept-charset=&#xA;align=&#xA;alt=&#xA;columns=&#xA;content=&#xA;domain=&#xA;emptyok=&#xA;format=&#xA;forua=&#xA;height=&#xA;href=&#xA;hspace=&#xA;http-equiv=&#xA;id=&#xA;iname=&#xA;ivalue=&#xA;label=&#xA;localsrc=&#xA;maxlength=&#xA;method=&#xA;mode=&#xA;multiple=&#xA;name=&#xA;nextcontext=&#xA;onpick=&#xA;optional=&#xA;ontimer=&#xA;ordered=&#xA;path=&#xA;sendreferer=&#xA;src=&#xA;title=&#xA;type=&#xA;value=&#xA;vspace=&#xA;width=&#xA;xml:lang=&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="accept&#xA;action&#xA;bottom&#xA;Cache-Control&#xA;center&#xA;delete&#xA;false&#xA;get&#xA;left&#xA;max-age&#xA;nowrap&#xA;onenterforward&#xA;onenterbackward&#xA;onpick&#xA;ontimer&#xA;options&#xA;passwd&#xA;password&#xA;prevpost&#xA;right&#xA;text&#xA;timer&#xA;true&#xA;wrap&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!--..--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

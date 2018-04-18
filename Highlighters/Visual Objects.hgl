@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Objects" FileType="" Extensions="PRG UDC CH" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:visualobjects.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="_DLL&#xA;_AND&#xA;_OR&#xA;_NOT&#xA;_WINCALL&#xA;_INIT1&#xA;_INIT2&#xA;_INIT3&#xA;_NC&#xA;_XOR&#xA;__Debug__&#xA;_CAST&#xA;_CHR&#xA;__ENTITY__&#xA;_codeblock&#xA;as&#xA;array&#xA;access&#xA;accept&#xA;assign&#xA;align&#xA;assert&#xA;byte&#xA;begin&#xA;bitmap&#xA;break&#xA;class&#xA;codeblock&#xA;case&#xA;clipper&#xA;do&#xA;dim&#xA;date&#xA;declare&#xA;define&#xA;dword&#xA;downto&#xA;default&#xA;dialog&#xA;export&#xA;else&#xA;enddo&#xA;endif&#xA;end&#xA;endcase&#xA;external&#xA;elseif&#xA;global&#xA;get&#xA;function&#xA;float&#xA;for&#xA;func&#xA;false&#xA;hidden&#xA;icon&#xA;is&#xA;instance&#xA;int&#xA;integer&#xA;if&#xA;inherit&#xA;local&#xA;longint&#xA;logic&#xA;long&#xA;method&#xA;member&#xA;nil&#xA;next&#xA;object&#xA;otherwise&#xA;proc&#xA;procedure&#xA;protect&#xA;psz&#xA;pascal&#xA;ptr&#xA;parameters&#xA;public&#xA;parameter&#xA;private&#xA;privat&#xA;real4&#xA;real8&#xA;return&#xA;recover&#xA;read&#xA;resource&#xA;ref&#xA;string&#xA;super&#xA;self&#xA;shortint&#xA;symbol&#xA;sequence&#xA;say&#xA;static&#xA;struc&#xA;struct&#xA;structure&#xA;short&#xA;strict&#xA;set&#xA;then&#xA;textblock&#xA;to&#xA;thiscall&#xA;true&#xA;until&#xA;using&#xA;upto&#xA;usual&#xA;union&#xA;void&#xA;while&#xA;word&#xA;wait&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators/Consts" Enabled="True" Style="" Words=".AND.&#xA;.OR.&#xA;.NOT.&#xA;.T.&#xA;.F.&#xA;NULL&#xA;NULL_OBJECT&#xA;NULL_STRING&#xA;NULL_ARRAY&#xA;NULL_PTR&#xA;NULL_PSZ&#xA;NULL_DATE&#xA;NULL_CODEBLOCK&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

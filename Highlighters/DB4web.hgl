@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DB4Web" FileType="" Extensions="HTM HTML JS DB4 INC D4W &quot;*&quot;" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:db4web.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="HTML-Tags" Enabled="True" Style="" Words="&lt;/A&gt;&#xA;&lt;/ABBR&gt;&#xA;&lt;/ACRONYM&gt;&#xA;&lt;/ADDRESS&gt;&#xA;&lt;/APPLET&gt;&#xA;&lt;/AREA&#xA;&lt;/B&gt;&#xA;&lt;/BDO&gt;&#xA;&lt;/BIG&gt;&#xA;&lt;/BLINK&gt;&#xA;&lt;/BLOCKQUOTE&gt;&#xA;&lt;/BODY&gt;&#xA;&lt;/BUTTON&gt;&#xA;&lt;/CAPTION&gt;&#xA;&lt;/CENTER&gt;&#xA;&lt;/CITE&gt;&#xA;&lt;/CODE&gt;&#xA;&lt;/COLGROUP&gt;&#xA;&lt;/COMMENT&gt;&#xA;&lt;/DD&gt;&#xA;&lt;/DEL&gt;&#xA;&lt;/DFN&gt;&#xA;&lt;/DIR&gt;&#xA;&lt;/DIV&gt;&#xA;&lt;/DL&gt;&#xA;&lt;/DT&gt;&#xA;&lt;/EM&gt;&#xA;&lt;/FIELDSET&gt;&#xA;&lt;/FONT&gt;&#xA;&lt;/FORM&gt;&#xA;&lt;/FRAMESET&gt;&#xA;&lt;/H1&gt;&#xA;&lt;/H2&gt;&#xA;&lt;/H3&gt;&#xA;&lt;/H4&gt;&#xA;&lt;/H5&gt;&#xA;&lt;/H6&gt;&#xA;&lt;/HEAD&gt;&#xA;&lt;/HTML&gt;&#xA;&lt;/I&gt;&#xA;&lt;/IFRAME&gt;&#xA;&lt;/ILAYER&gt;&#xA;&lt;/INS&gt;&#xA;&lt;/KBD&gt;&#xA;&lt;/LABEL&gt;&#xA;&lt;/LAYER&gt;&#xA;&lt;/LEGEND&gt;&#xA;&lt;/LI&gt;&#xA;&lt;/LISTING&gt;&#xA;&lt;/MAP&gt;&#xA;&lt;/MARQUEE&gt;&#xA;&lt;/MENU&gt;&#xA;&lt;/MULTICOL&gt;&#xA;&lt;/NOBR&gt;&#xA;&lt;/NOFRAMES&gt;&#xA;&lt;/NOLAYER&gt;&#xA;&lt;/NOSCRIPT&gt;&#xA;&lt;/NOTE&gt;&#xA;&lt;/OL&gt;&#xA;&lt;/OPTGROUP&gt;&#xA;&lt;/OPTION&gt;&#xA;&lt;/P&gt;&#xA;&lt;/PRE&gt;&#xA;&lt;/Q&gt;&#xA;&lt;/S&gt;&#xA;&lt;/SAMP&gt;&#xA;&lt;/SCRIPT&gt;&#xA;&lt;/SELECT&gt;&#xA;&lt;/SMALL&gt;&#xA;&lt;/SPAN&gt;&#xA;&lt;/STRIKE&gt;&#xA;&lt;/STRONG&gt;&#xA;&lt;/STYLE&gt;&#xA;&lt;/SUB&gt;&#xA;&lt;/SUP&gt;&#xA;&lt;/TABLE&gt;&#xA;&lt;/TBODY&gt;&#xA;&lt;/TD&gt;&#xA;&lt;/TEXTAREA&gt;&#xA;&lt;/TFOOT&gt;&#xA;&lt;/TH&gt;&#xA;&lt;/THEAD&gt;&#xA;&lt;/TITLE&gt;&#xA;&lt;/TR&gt;&#xA;&lt;/TT&gt;&#xA;&lt;/U&gt;&#xA;&lt;/UL&gt;&#xA;&lt;/VAR&gt;&#xA;&lt;/XMP&gt;&#xA;&lt;A&#xA;&lt;ABBR&#xA;&lt;ABBR&gt;&#xA;&lt;ABOVE&gt;&#xA;&lt;ACRONYM&#xA;&lt;ACRONYM&gt;&#xA;&lt;ADDRESS&#xA;&lt;ADDRESS&gt;&#xA;&lt;APPLET&#xA;&lt;AREA&#xA;&lt;ARRAY&gt;&#xA;&lt;B&#xA;&lt;B&gt;&#xA;&lt;BASE&#xA;&lt;BASEFONT&#xA;&lt;BDO&#xA;&lt;BDO&gt;&#xA;&lt;BGSOUND&#xA;&lt;BIG&#xA;&lt;BIG&gt;&#xA;&lt;BLINK&#xA;&lt;BLINK&gt;&#xA;&lt;BLOCKQUOTE&#xA;&lt;BLOCKQUOTE&gt;&#xA;&lt;BODY&#xA;&lt;BODY&gt;&#xA;&lt;BOX&gt;&#xA;&lt;BR&#xA;&lt;BR&gt;&#xA;&lt;BUTTON&gt;&#xA;&lt;CAPTION&#xA;&lt;CAPTION&gt;&#xA;&lt;CENTER&#xA;&lt;CENTER&gt;&#xA;&lt;CITE&#xA;&lt;CITE&gt;&#xA;&lt;CODE&#xA;&lt;CODE&gt;&#xA;&lt;COL&gt;&#xA;&lt;COLGROUP&gt;&#xA;&lt;COMMENT&gt;&#xA;&lt;DD&#xA;&lt;DD&gt;&#xA;&lt;DEL&#xA;&lt;DEL&gt;&#xA;&lt;DFN&#xA;&lt;DFN&gt;&#xA;&lt;DIR&#xA;&lt;DIR&gt;&#xA;&lt;DIV&#xA;&lt;DIV&gt;&#xA;&lt;DL&#xA;&lt;DL&gt;&#xA;&lt;DT&#xA;&lt;DT&gt;&#xA;&lt;EM&#xA;&lt;EM&gt;&#xA;&lt;EMBED&#xA;&lt;FIELDSET&#xA;&lt;FIELDSET&gt;&#xA;&lt;FIG&gt;&#xA;&lt;FONT&#xA;&lt;FORM&#xA;&lt;FORM&gt;&#xA;&lt;FRAME&#xA;&lt;FRAMESET&#xA;&lt;H1&#xA;&lt;H1&gt;&#xA;&lt;H2&#xA;&lt;H2&gt;&#xA;&lt;H3&#xA;&lt;H3&gt;&#xA;&lt;H4&#xA;&lt;H4&gt;&#xA;&lt;H5&#xA;&lt;H5&gt;&#xA;&lt;H6&#xA;&lt;H6&gt;&#xA;&lt;HEAD&#xA;&lt;HEAD&gt;&#xA;&lt;HR&#xA;&lt;HR&gt;&#xA;&lt;HTML&#xA;&lt;HTML&gt;&#xA;&lt;I&#xA;&lt;I&gt;&#xA;&lt;IFRAME&gt;&#xA;&lt;ILAYER&gt;&#xA;&lt;IMG&#xA;&lt;INPUT&#xA;&lt;INPUT&gt;&#xA;&lt;INS&#xA;&lt;INS&gt;&#xA;&lt;ISINDEX&#xA;&lt;ISINDEX&gt;&#xA;&lt;KBD&#xA;&lt;KBD&gt;&#xA;&lt;LABEL&#xA;&lt;LABEL&gt;&#xA;&lt;LAYER&#xA;&lt;LAYER&gt;&#xA;&lt;LEGEND&#xA;&lt;LEGEND&gt;&#xA;&lt;LI&#xA;&lt;LI&gt;&#xA;&lt;LINK&#xA;&lt;LISTING&gt;&#xA;&lt;MAP&#xA;&lt;MARQUEE&#xA;&lt;MENU&#xA;&lt;MENU&gt;&#xA;&lt;META&#xA;&lt;MULTICOL&gt;&#xA;&lt;NEXTID&#xA;&lt;NOBR&gt;&#xA;&lt;NOFRAMES&gt;&#xA;&lt;NOLAYER&gt;&#xA;&lt;NOSCRIPT&gt;&#xA;&lt;NOTE&gt;&#xA;&lt;OBJECT&#xA;&lt;OBJECT&gt;&#xA;&lt;OL&#xA;&lt;OL&gt;&#xA;&lt;OPTGROUP&#xA;&lt;OPTGROUP&gt;&#xA;&lt;OPTION&#xA;&lt;OPTION&gt;&#xA;&lt;P&#xA;&lt;P&gt;&#xA;&lt;PARAM&#xA;&lt;PRE&#xA;&lt;PRE&gt;&#xA;&lt;Q&#xA;&lt;Q&gt;&#xA;&lt;QUOTE&gt;&#xA;&lt;RANGE&gt;&#xA;&lt;ROOT&gt;&#xA;&lt;S&#xA;&lt;S&gt;&#xA;&lt;SAMP&#xA;&lt;SAMP&gt;&#xA;&lt;SCRIPT&#xA;&lt;SCRIPT&gt;&#xA;&lt;SELECT&#xA;&lt;SMALL&#xA;&lt;SMALL&gt;&#xA;&lt;SOUND&#xA;&lt;SPACER&gt;&#xA;&lt;SPAN&#xA;&lt;SPAN&gt;&#xA;&lt;SQRT&gt;&#xA;&lt;STRIKE&#xA;&lt;STRIKE&gt;&#xA;&lt;STRONG&#xA;&lt;STRONG&gt;&#xA;&lt;STYLE&#xA;&lt;STYLE&gt;&#xA;&lt;SUB&#xA;&lt;SUB&gt;&#xA;&lt;SUP&#xA;&lt;SUP&gt;&#xA;&lt;TABLE&#xA;&lt;TABLE&gt;&#xA;&lt;TBODY&#xA;&lt;TBODY&gt;&#xA;&lt;TD&#xA;&lt;TD&gt;&#xA;&lt;TEXT&gt;&#xA;&lt;TEXTAREA&#xA;&lt;TEXTAREA&gt;&#xA;&lt;TFOOT&#xA;&lt;TFOOT&gt;&#xA;&lt;TH&#xA;&lt;TH&gt;&#xA;&lt;THEAD&#xA;&lt;THEAD&gt;&#xA;&lt;TITLE&gt;&#xA;&lt;TR&#xA;&lt;TR&gt;&#xA;&lt;TT&#xA;&lt;TT&gt;&#xA;&lt;U&#xA;&lt;U&gt;&#xA;&lt;UL&#xA;&lt;UL&gt;&#xA;&lt;VAR&#xA;&lt;VAR&gt;&#xA;&lt;WBR&gt;&#xA;&lt;XMP&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="HTML-Attributes" Enabled="True" Style="" Words="ABBR=&#xA;ACCEPT-CHARSET=&#xA;ACCEPT=&#xA;ACCESSKEY=&#xA;ACTION=&#xA;ALIGN=&#xA;ALINK=&#xA;ALT=&#xA;ARCHIVE=&#xA;AXIS=&#xA;BACKGROUND=&#xA;BEHAVIOR&#xA;BELOW&#xA;BGCOLOR=&#xA;BORDER=&#xA;CELLPADDING=&#xA;CELLSPACING=&#xA;CHAR=&#xA;CHAROFF=&#xA;CHARSET=&#xA;CHECKED&#xA;CITE=&#xA;CLASS=&#xA;CLASSID=&#xA;CLEAR=&#xA;CODE=&#xA;CODEBASE=&#xA;CODETYPE=&#xA;COLOR=&#xA;COLS=&#xA;COLSPAN=&#xA;COMPACT&#xA;CONTENT=&#xA;COORDS=&#xA;DATA=&#xA;DATETIME=&#xA;DECLARE&#xA;DEFER&#xA;DIR=&#xA;DISABLED&#xA;ENCTYPE=&#xA;FACE=&#xA;FOR=&#xA;FRAME=&#xA;FRAMEBORDER=&#xA;FRAMESPACING=&#xA;HEADERS=&#xA;HEIGHT=&#xA;HIDDEN=&#xA;HREF=&#xA;HREFLANG=&#xA;HSPACE=&#xA;HTTP-EQUIV=&#xA;ID=&#xA;ISMAP=&#xA;LABEL=&#xA;LANG=&#xA;LANGUAGE=&#xA;LINK=&#xA;LOOP=&#xA;LONGDESC=&#xA;MAILTO=&#xA;MARGINHEIGHT=&#xA;MARGINWIDTH=&#xA;MAXLENGTH=&#xA;MEDIA=&#xA;METHOD=&#xA;MULTIPLE&#xA;NAME=&#xA;NOHREF&#xA;NORESIZE&#xA;NOSHADE&#xA;OBJECT=&#xA;ONBLUR=&#xA;ONCHANGE=&#xA;ONFOCUS=&#xA;ONKEYDOWN=&#xA;ONKEYPRESS=&#xA;ONKEYUP=&#xA;ONLOAD=&#xA;ONRESET=&#xA;ONSELECT=&#xA;ONSUBMIT=&#xA;ONUNLOAD=&#xA;ONCLICK=&#xA;ONDBLCLICK=&#xA;ONMOUSEDOWN=&#xA;ONMOUSEMOVE=&#xA;ONMOUSEOUT=&#xA;ONMOUSEOVER=&#xA;ONMOUSEUP=&#xA;PROFILE=&#xA;PROMPT=&#xA;READONLY&#xA;REL=&#xA;REV=&#xA;ROWS=&#xA;ROWSPAN=&#xA;RULES=&#xA;SCHEME=&#xA;SCOPE=&#xA;SCROLLING=&#xA;SELECTED&#xA;SHAPE=&#xA;SIZE=&#xA;SPAN=&#xA;SRC=&#xA;STANDBY=&#xA;START=&#xA;STYLE=&#xA;SUMMARY=&#xA;TABINDEX=&#xA;TARGET=&#xA;TEXT=&#xA;TITLE=&#xA;TOPMARGIN=&#xA;TYPE=&#xA;URL=&#xA;USEMAP=&#xA;VALIGN=&#xA;VALUE=&#xA;VALUETYPE=&#xA;VERSION=&#xA;VLINK=&#xA;VSPACE=&#xA;WIDTH=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DB4Web-Commands" Enabled="True" Style="" Words="AUTOCOMMITOFF&#xA;AUTOCOMMITON&#xA;COMMIT&#xA;CleanupIFR&#xA;ConnectObject&#xA;DATA&#xA;DEBUGOFF&#xA;DEBUGON&#xA;DISCONNECT&#xA;DO&#xA;DIRECTEXEC&#xA;ELSE&#xA;ENDDATA&#xA;ENDDOWHILE&#xA;ENDIF&#xA;ENDEXEC&#xA;ENDONERROR&#xA;ENDSQL&#xA;ENDSTATEMENT&#xA;ENDTRANSLATIONTABLE&#xA;ENDTRANSLATIONTABLEVAR&#xA;ENDWHILE&#xA;EXEC&#xA;EXIT&#xA;EXPORT&#xA;FETCH&#xA;function&#xA;for&#xA;FeedIDL&#xA;hexoperand&#xA;IF&#xA;include&#xA;intOperand&#xA;integerOperand&#xA;lineOperand&#xA;LOCKMODE&#xA;ONERROR&#xA;or&#xA;returnOperand&#xA;ROLLBACK&#xA;RUN&#xA;SET&#xA;SOFTFETCH&#xA;SQL&#xA;STARTFETCH&#xA;stringOperand&#xA;THEN&#xA;TRANSLATIONTABLE&#xA;TRANSLATIONTABLEVAR&#xA;true&#xA;UFETCH&#xA;var&#xA;WHILE&#xA;wordOperand&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DB4Web-Functions" Enabled="True" Style="" Words="as&#xA;by&#xA;create&#xA;crypt&#xA;date&#xA;delete&#xA;describe&#xA;existfile&#xA;existvar&#xA;fak&#xA;fclose&#xA;fcmp&#xA;fdiff&#xA;fdiv&#xA;fgets&#xA;fgetline&#xA;fmult&#xA;fopen&#xA;fpow&#xA;fputs&#xA;fputline&#xA;from&#xA;fsum&#xA;group&#xA;having&#xA;hextoint&#xA;hexstrtostr&#xA;init_cap&#xA;inttohex&#xA;insert&#xA;in&#xA;into&#xA;like&#xA;ln&#xA;log&#xA;lower&#xA;ltrim&#xA;mtime&#xA;not&#xA;order&#xA;pow&#xA;random&#xA;reportevent&#xA;rtrim&#xA;select&#xA;sqrt&#xA;stackcreate&#xA;stacklevel&#xA;stackpull&#xA;stackpush&#xA;stackremove&#xA;strlen&#xA;strline&#xA;strpos&#xA;strrpos&#xA;strreplace&#xA;strsub&#xA;strtlc&#xA;strtoint&#xA;strtohexstr&#xA;strword&#xA;table&#xA;update&#xA;upper&#xA;values&#xA;where&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DB4Web-Systemvariables" Enabled="True" Style="" Words="_adabas_cBinaryFormat&#xA;_buildDate&#xA;_buildLevel&#xA;_buildOS&#xA;_buildVersion&#xA;_cacheDir&#xA;_cacheSize&#xA;_cacheTimeout&#xA;_cgi_&#xA;_colCount&#xA;_colName&#xA;_cryptKey&#xA;_data_&#xA;_dateFormat&#xA;_dateInput&#xA;_db4webHost&#xA;_debug&#xA;_decrypt_&#xA;_driverList&#xA;_downcase&#xA;_encrypt_&#xA;_errorMessage&#xA;_errorDb&#xA;_errorUser&#xA;_errorVendor&#xA;_execReturn&#xA;_fetchstatus&#xA;_filename&#xA;_floatFormat&#xA;_httpdAUTH_TYPE&#xA;_httpdGATEWAY_INTERFACE&#xA;_httpdHTTP_ACCEPT&#xA;_httpdHTTPS_CIPHER&#xA;_httpdHTTP_CONNECTION&#xA;_httpdHTTP_COOKIE&#xA;_httpdHTTP_FORWARDED&#xA;_httpdHTTP_HOST&#xA;_httpdHTTP_PROXY_CONNECTION&#xA;_httpdHTTP_REFERER&#xA;_httpdHTTP_TRANSONUID&#xA;_httpdHTTP_USER_AGENT&#xA;_httpdHTTPS&#xA;_httpdHTTPS_KEYSIZE&#xA;_httpdHTTPS_SECRETKEYSIZE&#xA;_httpdHTTPS_CHIPER&#xA;_httpdPATH_INFO&#xA;_httpdPATH_TRANSLATED&#xA;_httpdREFERER_URL&#xA;_httpdREMOTE_ADDR&#xA;_httpdREMOTE_HOST&#xA;_httpdREMOTE_IDENT&#xA;_httpdREMOTE_PORT&#xA;_httpdREMOTE_USER&#xA;_httpdREQUEST_METHOD&#xA;_httpdSCRIPT_NAME&#xA;_httpdSCRIPT_FILENAME&#xA;_httpdSERVER_NAME&#xA;_httpdSERVER_PORT&#xA;_httpdSERVER_PROTOCOL&#xA;_httpdSERVER_SOFTWARE&#xA;_httpdSSL_CIPHER&#xA;_httpdSSL_CIPHER_ALGKEYSIZE&#xA;_httpdSSL_CIPHER_EXPORT&#xA;_httpdSSL_CIPHER_USEKEYSIZE&#xA;_httpdSSL_CLIENT_I_DN&#xA;_httpdSSL_CLIENT_I_DN_C&#xA;_httpdSSL_CLIENT_I_DN_CN&#xA;_httpdSSL_CLIENT_I_DN_Email&#xA;_httpdSSL_CLIENT_I_DN_L&#xA;_httpdSSL_CLIENT_I_DN_O&#xA;_httpdSSL_CLIENT_I_DN_OU&#xA;_httpdSSL_CLIENT_I_DN_ST&#xA;_httpdSSL_CLIENT_M_SERIAL&#xA;_httpdSSL_CLIENT_M_VERSION&#xA;_httpdSSL_CLIENT_S_DN&#xA;_httpdSSL_CLIENT_S_DN_C&#xA;_httpdSSL_CLIENT_S_DN_CN&#xA;_httpdSSL_CLIENT_S_DN_Email&#xA;_httpdSSL_CLIENT_S_DN_L&#xA;_httpdSSL_CLIENT_S_DN_O&#xA;_httpdSSL_CLIENT_S_DN_OU&#xA;_httpdSSL_CLIENT_S_DN_ST&#xA;_httpdSSL_CLIENT_VERIFY&#xA;_httpdSSL_CLIENT_V_END&#xA;_httpdSSL_CLIENT_V_START&#xA;_httpdSSL_PROTOCOL&#xA;_httpdSSL_SERVER_M_SERIAL&#xA;_httpdSSL_SERVER_M_VERSION&#xA;_httpdSSL_SERVER_S_DN&#xA;_httpdSSL_SERVER_V_END&#xA;_httpdSSL_SERVER_V_START&#xA;_httpdSSL_SESSION_ID&#xA;_httpdSSL_VERSION_INTERFACE&#xA;_httpdSSL_VERSION_LIBRARY&#xA;_lang&#xA;_localfile&#xA;_method&#xA;_multi&#xA;_money_&#xA;_moneyFormat&#xA;_port&#xA;_quote_&#xA;_quoteFormat&#xA;_readfile_&#xA;_returnMessage&#xA;_returnStatus&#xA;_rowCount&#xA;_rowNum&#xA;_sqlPrecision&#xA;_sqlScale&#xA;_status&#xA;_statusText&#xA;_strlineSeparator&#xA;_strwordSeparator&#xA;_syntaxTrace&#xA;_syntaxVersion&#xA;_timeout&#xA;_timeoutDetected&#xA;_timeoutContinue&#xA;_trans_&#xA;_useCache&#xA;_utf8Decode_&#xA;_web&#xA;_webHost&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks &lt;!--..--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

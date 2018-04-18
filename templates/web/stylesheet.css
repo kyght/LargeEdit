@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+  background-color: #E8E8E8;
+  margin-top: 5px;
+}
+
+p {
+  margin-left: 5px;
+}
+
+h3 {
+  margin-left: 5px;
+}
+
+h4 {
+  margin-left: 5px;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.pagecontent {
+  text-align: left;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.fulltable {
+  height: 100%;
+  width: 100%;
+}
+

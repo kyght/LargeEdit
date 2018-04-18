@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Mumps" FileType="" Extensions="DAT RTN M" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:mumps.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#&amp;()*+,-./:;&lt;=&gt;?@[\]_|"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMANDS" Enabled="True" Style="" Words="B&#xA;C&#xA;D&#xA;E&#xA;F&#xA;G&#xA;H&#xA;I&#xA;J&#xA;K&#xA;L&#xA;M&#xA;N&#xA;O&#xA;Q&#xA;R&#xA;S&#xA;TC&#xA;TRE&#xA;TRO&#xA;TS&#xA;U&#xA;V&#xA;W&#xA;X&#xA;ZA&#xA;ZD&#xA;ZF&#xA;ZG&#xA;ZHOROLOG&#xA;ZI&#xA;ZL&#xA;ZM&#xA;ZN&#xA;ZP&#xA;ZQ&#xA;ZR&#xA;ZS&#xA;ZSY&#xA;ZT&#xA;ZU&#xA;ZW&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FUNCTIONS" Enabled="True" Style="" Words="$$&#xA;$A&#xA;$C&#xA;$D&#xA;$E&#xA;$F&#xA;$FN&#xA;$G&#xA;$L&#xA;$NA&#xA;$N&#xA;$O&#xA;$P&#xA;$Q&#xA;$R&#xA;$RE&#xA;$S&#xA;$T&#xA;$TR&#xA;$V&#xA;$ZB&#xA;$ZBN&#xA;$ZB&#xA;$ZCR&#xA;$ZD&#xA;$ZDE&#xA;$ZH&#xA;$ZN&#xA;$ZO&#xA;$ZOS&#xA;$ZP&#xA;$ZS&#xA;$ZSE&#xA;$ZU&#xA;$ZU&#xA;$ZV&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL VARIABLES" Enabled="True" Style="" Words="$H&#xA;$I&#xA;$IO&#xA;$J&#xA;$K&#xA;$SY&#xA;$TL&#xA;$X&#xA;$Y&#xA;$ZA&#xA;$ZC&#xA;$ZE&#xA;$ZL&#xA;$ZR&#xA;$ZT&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="STRUCTURED SYSTEM VARIABLES" Enabled="True" Style="" Words="^$DEVICE&#xA;^$GLOBAL&#xA;^$JOB&#xA;^$LOCK&#xA;^$ROUTINE&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATORS" Enabled="True" Style="" Words="=&#xA;+&#xA;-&#xA;*&#xA;_&#xA;\&#xA;/&#xA;:&#xA;.&#xA;,&#xA;[&#xA;]&#xA;'&#xA;&lt;&#xA;&gt;&#xA;@&#xA;#&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="^&#xA;^(&#xA;^;&#xA;^,&#xA;(&#xA;)&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 7" Enabled="True" Style="" Words="APPEND&#xA;NEWVERSION&#xA;OVERWRITE&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

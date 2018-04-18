@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Modelica" FileType="" Extensions="mo mos" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:modelica.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Modelica keywords" Enabled="True" Style="" Words="annotation&#xA;assert&#xA;block&#xA;class&#xA;connector&#xA;constant&#xA;discrete&#xA;else&#xA;elseif&#xA;elsewhen&#xA;end&#xA;exit&#xA;extends&#xA;external&#xA;final&#xA;flow&#xA;for&#xA;function&#xA;if&#xA;in&#xA;inner&#xA;input&#xA;import&#xA;loop&#xA;model&#xA;nondiscrete&#xA;outer&#xA;output&#xA;package&#xA;parameter&#xA;record&#xA;redeclare&#xA;replaceable&#xA;return&#xA;size&#xA;terminate&#xA;then&#xA;type&#xA;when&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="section separators" Enabled="True" Style="" Words="algorithm&#xA;equation&#xA;protected&#xA;public&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="operators/functions" Enabled="True" Style="" Words="abs&#xA;acos&#xA;asin&#xA;atan&#xA;atan2&#xA;connect&#xA;cos&#xA;cosh&#xA;cross&#xA;der&#xA;edge&#xA;exp&#xA;initial&#xA;noEvent&#xA;pre&#xA;reinit&#xA;sample&#xA;sign&#xA;sin&#xA;sinh&#xA;tan&#xA;tanh&#xA;terminal&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="operators" Enabled="True" Style="" Words="*&#xA;+&#xA;-&#xA;//&#xA;/&#xA;&lt;&#xA;=&#xA;&gt;&#xA;^&#xA;and&#xA;false&#xA;not&#xA;or&#xA;true&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

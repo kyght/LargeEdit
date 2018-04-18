@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Hugo" FileType="" Extensions="H G HUG" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:hugo.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,-./:;&lt;=&gt;?[]{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="and&#xA;anything&#xA;array&#xA;attribute&#xA;break&#xA;call&#xA;capital&#xA;case&#xA;child&#xA;children&#xA;cls&#xA;color&#xA;colour&#xA;constant&#xA;class&#xA;dict&#xA;do&#xA;elder&#xA;eldest&#xA;else&#xA;elseif&#xA;false&#xA;for&#xA;global&#xA;held&#xA;hex&#xA;if&#xA;in&#xA;input&#xA;is&#xA;jump&#xA;local&#xA;locate&#xA;move&#xA;multi&#xA;multiheld&#xA;multinotheld&#xA;music&#xA;nearby&#xA;newline&#xA;not&#xA;notheld&#xA;number&#xA;object&#xA;or&#xA;parent&#xA;parse$&#xA;pause&#xA;picture&#xA;playback&#xA;print&#xA;printchar&#xA;player_character&#xA;property&#xA;quit&#xA;random&#xA;readfile&#xA;readval&#xA;recordoff&#xA;recordon&#xA;remove&#xA;restart&#xA;restore&#xA;return&#xA;run&#xA;runevents&#xA;routine&#xA;replace&#xA;room&#xA;removal&#xA;save&#xA;scriptoff&#xA;scripton&#xA;select&#xA;serial$&#xA;sibling&#xA;sound&#xA;string&#xA;system&#xA;text&#xA;to&#xA;true&#xA;undo&#xA;verb&#xA;while&#xA;window&#xA;writefile&#xA;writeval&#xA;xobject&#xA;xverb&#xA;younger&#xA;youngest&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="already_listed&#xA;clothing&#xA;container&#xA;enterable&#xA;female&#xA;hidden&#xA;known&#xA;light&#xA;living&#xA;lockable&#xA;locked&#xA;mobile&#xA;moved&#xA;open&#xA;openable&#xA;platform&#xA;plural&#xA;quiet&#xA;readable&#xA;special&#xA;static&#xA;switchable&#xA;switchedon&#xA;transparent&#xA;unfriendly&#xA;visited&#xA;workflag&#xA;worn&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Globals" Enabled="True" Style="" Words="actor&#xA;after_period&#xA;best_parse_rank&#xA;bgcolor&#xA;boldcolor&#xA;counter&#xA;customerror_flag&#xA;default_font&#xA;endflag&#xA;event_flag&#xA;format&#xA;general&#xA;her_obj&#xA;him_obj&#xA;indent_size&#xA;it_obj&#xA;last_object&#xA;light_source&#xA;list_nest&#xA;location&#xA;max_rank&#xA;max_score&#xA;need_newline&#xA;number_scripts&#xA;objects&#xA;obstacle&#xA;old_location&#xA;oldword&#xA;override_indent&#xA;player&#xA;player_person&#xA;prompt&#xA;ranking&#xA;replace_pronoun&#xA;score&#xA;scriptdata&#xA;self&#xA;setscript&#xA;sl_bgcolor&#xA;sl_textcolor&#xA;speaking&#xA;statustype&#xA;textcolor&#xA;them_obj&#xA;verbosity&#xA;verbroutine&#xA;words&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Constants" Enabled="True" Style="" Words="_temp_array&#xA;and_word&#xA;are_word&#xA;banner&#xA;black&#xA;blue&#xA;bold_off&#xA;bold_on&#xA;bright_white&#xA;brown&#xA;cyan&#xA;dark_gray&#xA;def_background&#xA;def_foreground&#xA;def_sl_background&#xA;def_sl_foreground&#xA;descform_f&#xA;down_arrow&#xA;enter_key&#xA;escape_key&#xA;file_check&#xA;green&#xA;groupplurals_f&#xA;here_word&#xA;in_word&#xA;is_word&#xA;italic_off&#xA;italic_on&#xA;left_arrow&#xA;light_blue&#xA;light_cyan&#xA;light_green&#xA;light_magenta&#xA;light_red&#xA;list_f&#xA;magenta&#xA;match_foreground&#xA;max_scripts&#xA;max_words&#xA;menu_bgcolor&#xA;menu_selectbgcolor&#xA;menu_selectcolor&#xA;menu_textcolor&#xA;menuitem&#xA;noindent_f&#xA;norecurse_f&#xA;on_word&#xA;prop_off&#xA;prop_on&#xA;red&#xA;right_arrow&#xA;underline_off&#xA;underline_on&#xA;up_arrow&#xA;white&#xA;yellow&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties" Enabled="True" Style="" Words="adjective&#xA;adjectives&#xA;after&#xA;article&#xA;before&#xA;cant_go&#xA;capacity&#xA;contains_desc&#xA;cursor_column&#xA;cursor_row&#xA;d_to&#xA;desc_detail&#xA;door_to&#xA;e_to&#xA;exclude_from_all&#xA;found_in&#xA;hasgraphics&#xA;holding&#xA;ignore_response&#xA;in_scope&#xA;in_to&#xA;initial_desc&#xA;inv_desc&#xA;key_object&#xA;linelength&#xA;list_contents&#xA;long_desc&#xA;misc&#xA;n_to&#xA;name&#xA;ne_to&#xA;noun&#xA;nouns&#xA;nw_to&#xA;order_response&#xA;out_to&#xA;parse_rank&#xA;prep&#xA;preposition&#xA;pronoun&#xA;reach&#xA;s_to&#xA;screenheight&#xA;screenwidth&#xA;se_to&#xA;short_desc&#xA;size&#xA;statusline_height&#xA;sw_to&#xA;title_caption&#xA;type&#xA;u_to&#xA;w_to&#xA;when_closed&#xA;when_open&#xA;windowlines&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Verbs/Actions" Enabled="True" Style="" Words="&amp;Do&#xA;&amp;Char&#xA;&amp;Loop&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Routines" Enabled="True" Style="" Words="Acquire&#xA;AnyVerb&#xA;AssignPronoun&#xA;Activate&#xA;Art&#xA;abs&#xA;CThe&#xA;CArt&#xA;CalculateHolding&#xA;CenterTitle&#xA;CheckReach&#xA;Contains&#xA;CustomError&#xA;CancelScript&#xA;DarkWarning&#xA;DeleteWord&#xA;DescribePlace&#xA;Deactivate&#xA;EndGame&#xA;ExcludeFromAll&#xA;FindLight&#xA;Font&#xA;FindObject&#xA;GetInput&#xA;HoursMinutes&#xA;higher&#xA;Indent&#xA;InList&#xA;InsertWord&#xA;IsorAre&#xA;ListObjects&#xA;lower&#xA;MatchPlural&#xA;MatchSubject&#xA;Menu&#xA;Message&#xA;MovePlayer&#xA;mod&#xA;NumberWord&#xA;ObjectIs&#xA;ObjectisKnown&#xA;ObjectisLight&#xA;ObjWord&#xA;Parse&#xA;ParseError&#xA;PauseScript&#xA;PreParse&#xA;PrintEndGame&#xA;PrintScore&#xA;pow&#xA;PrintStatusLine&#xA;PropertyList&#xA;PutInScope&#xA;RemoveFromScope&#xA;ResumeScript&#xA;RunScripts&#xA;Script&#xA;SetObjWord&#xA;ShortDescribe&#xA;SpecialDesc&#xA;SkipScript&#xA;SpeakTo&#xA;StringPrint&#xA;StringCompare&#xA;StringCopy&#xA;StringDictCompare&#xA;StringEqual&#xA;StringLength&#xA;The&#xA;WhatsIn&#xA;YesOrNo&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Settings/Flags" Enabled="True" Style="" Words="clear&#xA;defined&#xA;error&#xA;set&#xA;undefined&#xA;warning&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings !..!" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!" Close="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

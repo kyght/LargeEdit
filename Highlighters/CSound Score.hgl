@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="CSound score" FileType="" Extensions="sco" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:csoundscore.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;&amp;'()*+,-./:&lt;=&gt;?[]^{}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="-&#xA;!&#xA;%&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;,&#xA;.&#xA;/&#xA;//&#xA;?&#xA;^&#xA;|&#xA;+&#xA;&lt;&#xA;=&#xA;&gt;&#xA;abs&#xA;add&#xA;cos&#xA;cosh&#xA;cosinv&#xA;di&#xA;divz&#xA;e&#xA;exp&#xA;log&#xA;log10&#xA;logbtwo&#xA;mac&#xA;maca&#xA;mod&#xA;mul&#xA;pow&#xA;powoftwo&#xA;product&#xA;sin&#xA;sinh&#xA;sininv&#xA;sqrt&#xA;sub&#xA;sum&#xA;tan&#xA;tanh&#xA;taninv&#xA;taninv2&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

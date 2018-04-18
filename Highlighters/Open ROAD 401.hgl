@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="OpenROAD" FileType="" Extensions="e0* e1* e2* e3* e4* e5* e6* e7* e8* e9*" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:caopenroad401.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abort&#xA;all&#xA;alter&#xA;any&#xA;as&#xA;asc&#xA;at&#xA;avg&#xA;begin&#xA;between&#xA;by&#xA;byref&#xA;call&#xA;callframe&#xA;callproc&#xA;case&#xA;clear&#xA;close&#xA;commit&#xA;committed&#xA;connect&#xA;continue&#xA;copy&#xA;count&#xA;create&#xA;current&#xA;dbevent&#xA;declare&#xA;default&#xA;delete&#xA;deleterow&#xA;desc&#xA;direct&#xA;disconnect&#xA;distinct&#xA;do&#xA;drop&#xA;else&#xA;elseif&#xA;end&#xA;endcase&#xA;enddeclare&#xA;endfor&#xA;endif&#xA;endloop&#xA;endwhile&#xA;escape&#xA;execute&#xA;exists&#xA;exit&#xA;extclassevent&#xA;fetch&#xA;field&#xA;for&#xA;from&#xA;gotoframe&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;immediate&#xA;in&#xA;index&#xA;initialize&#xA;inquire_ingres&#xA;inquire_sql&#xA;insert&#xA;insertrow&#xA;installation&#xA;integrity&#xA;into&#xA;is&#xA;join&#xA;key&#xA;like&#xA;link&#xA;lockmode&#xA;max&#xA;message&#xA;min&#xA;mode&#xA;modify&#xA;next&#xA;nextcase&#xA;noecho&#xA;not&#xA;of&#xA;on&#xA;only&#xA;open&#xA;openframe&#xA;order&#xA;permit&#xA;procedure&#xA;prompt&#xA;qualification&#xA;raise&#xA;read&#xA;register&#xA;relocate&#xA;remove&#xA;repeat&#xA;repeatable&#xA;repeated&#xA;resume&#xA;return&#xA;revoke&#xA;role&#xA;rollback&#xA;row&#xA;rule&#xA;save&#xA;savepoint&#xA;select&#xA;serializable&#xA;set&#xA;sleep&#xA;some&#xA;sum&#xA;system&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;uncommitted&#xA;union&#xA;unique&#xA;until&#xA;update&#xA;values&#xA;view&#xA;where&#xA;while&#xA;with&#xA;work&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="AND&#xA;FALSE&#xA;NULL&#xA;OR&#xA;TRUE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="BF_BMP&#xA;BF_GIF&#xA;BF_SUNRASTER&#xA;BF_TIFF&#xA;BF_XBM&#xA;BF_WINDOWCURSOR&#xA;BF_WINDOWICON&#xA;CC_BACKGROUND&#xA;CC_BLACK&#xA;CC_BLUE&#xA;CC_BROWN&#xA;CC_CYAN&#xA;CC_FOREGROUND&#xA;CC_GRAY&#xA;CC_GREEN&#xA;CC_LIGHT_BLUE&#xA;CC_LIGHT_BROWN&#xA;CC_LIGHT_CYAN&#xA;CC_LIGHT_GRAY&#xA;CC_LIGHT_GREEN&#xA;CC_LIGHT_ORANGE&#xA;CC_LIGHT_PINK&#xA;CC_LIGHT_PURPLE&#xA;CC_LIGHT_RED&#xA;CC_LIGHT_YELLOW&#xA;CC_MAGENTA&#xA;CC_ORANGE&#xA;CC_PALE_BLUE&#xA;CC_PALE_BROWN&#xA;CC_PALE_CYAN&#xA;CC_PALE_GRAY&#xA;CC_PALE_GREEN&#xA;CC_PALE_ORANGE&#xA;CC_PALE_PINK&#xA;CC_PALE_PURPLE&#xA;CC_PALE_RED&#xA;CC_PALE_YELLOW&#xA;CC_PINK&#xA;CC_PURPLE&#xA;CC_RED&#xA;CC_WHITE&#xA;CC_YELLOW&#xA;CC_DEFAULT_1&#xA;CC_DEFAULT_2&#xA;CC_DEFAULT_3&#xA;CC_DEFAULT_4&#xA;CC_DEFAULT_5&#xA;CC_DEFAULT_6&#xA;CC_DEFAULT_7&#xA;CC_DEFAULT_8&#xA;CC_DEFAULT_9&#xA;CC_DEFAULT_10&#xA;CC_DEFAULT_11&#xA;CC_DEFAULT_12&#xA;CC_DEFAULT_13&#xA;CC_DEFAULT_14&#xA;CC_DEFAULT_15&#xA;CC_DEFAULT_16&#xA;CC_DEFAULT_17&#xA;CC_DEFAULT_18&#xA;CC_DEFAULT_19&#xA;CC_DEFAULT_20&#xA;CC_DEFAULT_21&#xA;CC_DEFAULT_22&#xA;CC_DEFAULT_23&#xA;CC_DEFAULT_24&#xA;CC_DEFAULT_25&#xA;CC_DEFAULT_26&#xA;CC_DEFAULT_27&#xA;CC_DEFAULT_28&#xA;CC_DEFAULT_29&#xA;CC_DEFAULT_30&#xA;CC_SYS_ACTIVEBORDER&#xA;CC_SYS_ACTIVECAPTION&#xA;CC_SYS_APPWORKSPACE&#xA;CC_SYS_BACKGROUND&#xA;CC_SYS_BTNFACE&#xA;CC_SYS_BTNSHADOW&#xA;CC_SYS_BTNTEXT&#xA;CC_SYS_CAPTIONTEXT&#xA;CC_SYS_GRAYTEXT&#xA;CC_SYS_HIGHLIGHT&#xA;CC_SYS_HIGHLIGHTTEXT&#xA;CC_SYS_INACTIVEBORDER&#xA;CC_SYS_INACTIVECAPTION&#xA;CC_SYS_INACTIVECAPTIONTEXT&#xA;CC_SYS_MENU&#xA;CC_SYS_MENUTEXT&#xA;CC_SYS_SCROLLBAR&#xA;CC_SYS_SHADOW&#xA;CC_SYS_WINDOW&#xA;CC_SYS_WINDOWFRAME&#xA;CC_SYS_WINDOWTEXT&#xA;CL_INVALIDVALUE&#xA;CP_NONE&#xA;CP_BOTH&#xA;CP_ROWS&#xA;CP_COLUMNS&#xA;CS_CLOSED&#xA;CS_CURRENT&#xA;CS_OPEN&#xA;CS_OPEN_CACHED&#xA;CS_NOCURRENT&#xA;CS_NO_MORE_ROWS&#xA;DC_BW&#xA;DC_COLOR&#xA;DP_CLIP_IMAGE&#xA;DP_AUTOSIZE_FIELD&#xA;DP_SCALE_IMAGE_HW&#xA;DP_SCALE_IMAGE_H&#xA;DP_SCALE_IMAGE_W&#xA;DS_CONNECTED&#xA;DS_DISABLED&#xA;DS_DISCONNECTED&#xA;DS_INGRES_DBMS&#xA;DS_INGRESDSK_DBMS&#xA;DS_NO_DBMS&#xA;DS_ORACLE_DBMS&#xA;DS_SQLSERVER_DBMS&#xA;DV_NULL&#xA;DV_STRING&#xA;DV_SYSTEM&#xA;EH_NEXT_HANDLER&#xA;EH_RESUME&#xA;EH_RETRY&#xA;ER_OK&#xA;ER_FAIL&#xA;ER_USER1&#xA;ER_USER2&#xA;ER_USER3&#xA;ER_USER4&#xA;ER_USER5&#xA;ER_USER6&#xA;ER_USER7&#xA;ER_USER8&#xA;ER_USER9&#xA;ER_USER10&#xA;ER_OUTOFRANGE&#xA;ER_ROWNOTFOUND&#xA;ER_NAMEEXISTS&#xA;EP_NONE&#xA;EP_INTERACTIVE&#xA;EP_OUTPUT&#xA;FA_BOTTOMCENTER&#xA;FA_BOTTOMLEFT&#xA;FA_BOTTOMRIGHT&#xA;FA_CENTER&#xA;FA_CENTERLEFT&#xA;FA_CENTERRIGHT&#xA;FA_DEFAULT&#xA;FA_NONE&#xA;FA_TOPCENTER&#xA;FA_TOPLEFT&#xA;FA_TOPRIGHT&#xA;FB_CHANGEABLE&#xA;FB_CLICKPOINT&#xA;FB_DIMMED&#xA;FB_DRAGBOX&#xA;FB_DRAGSEGMENT&#xA;FB_FLEXIBLE&#xA;FB_INVISIBLE&#xA;FB_LANDABLE&#xA;FB_MARKABLE&#xA;FB_MOVEABLE&#xA;FB_RESIZEABLE&#xA;FB_VISIBLE&#xA;FC_LOWER&#xA;FC_NONE&#xA;FC_UPPER&#xA;FM_QUERY&#xA;FM_READ&#xA;FM_UPDATE&#xA;FM_USER1&#xA;FM_USER2&#xA;FM_USER3&#xA;FO_DEFAULT&#xA;FO_VERTICAL&#xA;FO_HORIZONTAL&#xA;FP_BITMAP&#xA;FP_CLEAR&#xA;FP_CROSSHATCH&#xA;FP_DARKSHADE&#xA;FP_DEFAULT&#xA;FP_HORIZONTAL&#xA;FP_LIGHTSHADE&#xA;FP_SHADE&#xA;FP_SOLID&#xA;FP_VERTICAL&#xA;FT_NOSETVALUE&#xA;FT_SETVALUE&#xA;FT_TABTO&#xA;FT_TAKEFOCUS&#xA;GF_BOTTOM&#xA;GF_DEFAULT&#xA;GF_LEFT&#xA;GF_RIGHT&#xA;GF_TOP&#xA;GW_NO_DBMS&#xA;GW_INFORMIX_DBMS&#xA;HC_DOUBLEQUOTE&#xA;HC_QUOTE&#xA;HC_SPACE&#xA;HC_FORMFEED&#xA;HC_NEWLINE&#xA;HC_TAB&#xA;HV_CONTENTS&#xA;HV_CONTEXT&#xA;HV_HELPONHELP&#xA;HV_KEY&#xA;HV_QUIT&#xA;LS_DASH&#xA;LS_DASHDOT&#xA;LS_DASHDOTDOT&#xA;LS_DEFAULT&#xA;LS_DOT&#xA;LS_SOLID&#xA;LS_3D&#xA;LW_DEFAULT&#xA;LW_MAXIMUM&#xA;LW_MIDDLE&#xA;LW_MINIMUM&#xA;LW_NOLINE&#xA;LW_THICK&#xA;LW_THIN&#xA;LW_VERYTHICK&#xA;LW_VERYTHIN&#xA;LW_EXTRATHIN&#xA;MB_DISABLED&#xA;MB_ENABLED&#xA;MB_INVISIBLE&#xA;MT_ERROR&#xA;MT_NONE&#xA;MT_INFO&#xA;MT_WARNING&#xA;OP_APPEND&#xA;OP_NONE&#xA;OS_DEFAULT&#xA;OS_SHADOW&#xA;OS_SOLID&#xA;OS_3D&#xA;PU_CANCEL&#xA;PU_OK&#xA;QS_ACTIVE&#xA;QS_INACTIVE&#xA;QS_SETCOL&#xA;QY_ARRAY&#xA;QY_CACHE&#xA;QY_CURSOR&#xA;QY_DIRECT&#xA;RC_CHILDSELECTED&#xA;RC_DOWN&#xA;RC_END&#xA;RC_FIELDFREED&#xA;RC_FIELDORPHANED&#xA;RC_GROUPSELECT&#xA;RC_HOME&#xA;RC_LEFT&#xA;RC_MODECHANGED&#xA;RC_MOUSECLICK&#xA;RC_MOUSEDRAG&#xA;RC_NEXT&#xA;RC_NOTAPPLICABLE&#xA;RC_PAGEDOWN&#xA;RC_PAGEUP&#xA;RC_PARENTSELECTED&#xA;RC_PREVIOUS&#xA;RC_PROGRAM&#xA;RC_RESUME&#xA;RC_RETURN&#xA;RC_RIGHT&#xA;RC_ROWDELETED&#xA;RC_ROWINSERTED&#xA;RC_ROWSALLDELETED&#xA;RC_SELECT&#xA;RC_TFSCROLL&#xA;RC_TOGGLESELECT&#xA;RC_UP&#xA;RS_CHANGED&#xA;RS_DELETED&#xA;RS_NEW&#xA;RS_UNCHANGED&#xA;RS_UNDEFINED&#xA;SK_CLOSE&#xA;SK_COPY&#xA;SK_CUT&#xA;SK_DELETE&#xA;SK_DETAILS&#xA;SK_DUPLICATE&#xA;SK_FIND&#xA;SK_GO&#xA;SK_HELP&#xA;SK_NEXT&#xA;SK_NONE&#xA;SK_PASTE&#xA;SK_PROPS&#xA;SK_QUIT&#xA;SK_REDO&#xA;SK_SAVE&#xA;SK_TFDELETEALLROWS&#xA;SK_TFDELETEROW&#xA;SK_TFFIND&#xA;SK_TFINSERTROW&#xA;SK_UNDO&#xA;SP_APPSTARTING&#xA;SP_ARROW&#xA;SP_CROSS&#xA;SP_IBEAM&#xA;SP_ICON&#xA;SP_NO&#xA;SP_SIZE&#xA;SP_SIZENESW&#xA;SP_SIZENS&#xA;SP_SIZENWSE&#xA;SP_SIZEWE&#xA;SP_UPARROW&#xA;SP_WAIT&#xA;SY_NT&#xA;SY_UNIX&#xA;SY_VMS&#xA;SY_OS2&#xA;SY_MSDOS&#xA;SY_WIN95&#xA;TF_COURIER&#xA;TF_HELVETICA&#xA;TF_LUCIDA&#xA;TF_MENUDEFAULT&#xA;TF_NEWCENTURY&#xA;TF_SYSTEM&#xA;TF_TIMESROMAN&#xA;UE_DATAERROR&#xA;UE_EXITED&#xA;UE_NOTACTIVE&#xA;UE_PURGED&#xA;UE_RESUMED&#xA;UE_UNKNOWN&#xA;WI_MOTIF&#xA;WI_MSWIN32&#xA;WI_MSWINDOWS&#xA;WI_NONE&#xA;WI_PM&#xA;WP_FLOATING&#xA;WP_INTERACTIVE&#xA;WP_PARENTCENTERED&#xA;WP_PARENTRELATIVE&#xA;WP_SCREENCENTERED&#xA;WP_SCREENRELATIVE&#xA;WV_ICON&#xA;WV_INVISIBLE&#xA;WV_UNREALIZED&#xA;WV_VISIBLE&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

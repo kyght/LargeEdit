@@ -1,0 +1,198 @@
+ReferenceSymbolDescription
+&#09;   Horizontal tab
+&#10;   Line feed
+&#13;   Carriage Return
+&#32;   Space
+&#33; ! Exclamation mark
+&#34; " Quotation mark
+&#35; # Number sign
+&#36; $ Dollar sign
+&#37; % Percent sign
+&#38; & Ampersand
+&#39; ' Apostrophe
+&#40; ( Left parenthesis
+&#41; ) Right parenthesis
+&#42; * Asterisk
+&#43; + Plus sign
+&#44; , Comma
+&#45; - Hyphen
+&#46;  . Period (fullstop)
+&#47; / Solidus (slash)
+&#48; 0 Digit 0
+&#49; 1 Digit 1
+&#50; 2 Digit 2
+&#51; 3 Digit 3
+&#52; 4 Digit 4
+&#53; 5 Digit 5
+&#54; 6 Digit 6
+&#55; 7 Digit 7
+&#56; 8 Digit 8
+&#57; 9 Digit 9
+&#58; : Colon
+&#59; ; Semi-colon
+&#60; < Less than
+&#61; = Equals sign
+&#62; > Greater than
+&#63; ? Question mark
+&#64; @ Commercial at
+&#65; A Capital letter A
+&#66; B Capital letter B
+&#67; C Capital letter C
+&#68; D Capital letter D
+&#69; E Capital letter E
+&#70; F Capital letter F
+&#71; G Capital letter G
+&#72; H Capital letter H
+&#73; I Capital letter I
+&#74; J Capital letter J
+&#75; K Capital letter K
+&#76; L Capital letter L
+&#77; M Capital letter M
+&#78; N Capital letter N
+&#79; O Capital letter O
+&#80; P Capital letter P
+&#81; Q Capital letter Q
+&#82; R Capital letter R
+&#83; S Capital letter S
+&#84; T Capital letter T
+&#85; U Capital letter U
+&#86; V Capital letter V
+&#87; W Capital letter W
+&#88; X Capital letter X
+&#89; Y Capital letter Y
+&#90; Z Capital letter Z
+&#91; [ Left square bracket
+&#92; \ Reverse solidus (backslash)
+&#93; ] Right square bracket
+&#94; ^ Caret
+&#95; _ Horizontal bar
+&#96; ` Grave accent
+&#97; a Small letter a
+&#98; b Small letter b
+&#99; c Small letter c
+&#100; d Small letter d
+&#101; e Small letter e
+&#102; f Small letter f
+&#103; g Small letter g
+&#104; h Small letter h
+&#105; i Small letter i
+&#106; j Small letter j
+&#107; k Small letter k
+&#108; l Small letter l
+&#109; m Small letter m
+&#110; n Small letter n
+&#111; o Small letter o
+&#112; p Small letter p
+&#113; q Small letter q
+&#114; r Small letter r
+&#115; s Small letter s
+&#116; t Small letter t
+&#117; u Small letter u
+&#118; v Small letter v
+&#119; w Small letter w
+&#120; x Small letter x
+&#121; y Small letter y
+&#122; z Small letter z
+&#123; { Left french brace
+&#124; | Vertical bar
+&#125; } Right french brace
+&#126; ~ Tilde
+&#160;  Non-breaking space
+&#161; ¡ Inverted exclamation
+&#162; ¢ Cent sign
+&#163; £ Pound sterling
+&#164; ¤ General currency sign
+&#165; ¥ Yen sign
+&#166; ¦ Broken vertical bar
+&#167; § Section sign
+&#168; ¨ Umlaut (dieresis)
+&#169; © Copyright
+&#170; ª Feminine ordinal
+&#171; « Left angle quote, guillemotleft
+&#172; ¬ Not sign
+&#173; ­ Soft hyphen
+&#174; ® Registered trademark
+&#175; ¯ Macron accent
+&#176; ° Degree sign
+&#177; ± Plus or minus
+&#178; ² Superscript two
+&#179; ³ Superscript three)
+&#180; ´ Acute accent
+&#181; µ Micro sign
+&#182; ¶ Paragraph sign
+&#183; · Middle dot
+&#184; ¸ Cedilla
+&#185; ¹ Superscript one
+&#186; º Masculine ordinal
+&#187; » Right angle quote, guillemotright
+&#188; ¼ Fraction one-fourth
+&#189; ½ Fraction one-half
+&#190; ¾ Fraction three-fourths
+&#191; ¿ Inverted question mark
+&#192; À Capital A, grave accent
+&#193; Á  Capital A, acute accent
+&#194; Â Capital A, circumflex accent
+&#195; Ã Capital A, tilde
+&#196; Ä Capital A, dieresis or umlaut mark
+&#197; Å Capital A, ring
+&#198; Æ Capital AE diphthong (ligature)
+&#199; Ç Capital C, cedilla
+&#200; È Capital E, grave accent
+&#201; É Capital E, acute accent
+&#202; Ê Capital E, circumflex accent
+&#203; Ë Capital E, dieresis or umlaut mark
+&#204; Ì Capital I, grave accent
+&#205; Í Capital I, acute accent
+&#206; Î Capital I, circumflex accent
+&#207; Ï Capital I, dieresis or umlaut mark
+&#208; Ð Capital Eth, Icelandic
+&#209; Ñ Capital N, tilde
+&#210; Ò Capital O, grave accent
+&#211; Ó Capital O, acute accent
+&#212; Ô Capital O, circumflex accent
+&#213; Õ Capital O, tilde
+&#214; Ö Capital O, dieresis or umlaut mark
+&#215; × Multiply sign
+&#216; Ø Capital O, slash
+&#217; Ù Capital U, grave accent
+&#218; Ú Capital U, acute accent
+&#219; Û Capital U, circumflex accent
+&#220; Ü Capital U, dieresis or umlaut mark
+&#221; Ý Capital Y, acute accent
+&#222; Þ Capital THORN, Icelandic
+&#223; ß Small sharp s, German (sz ligature)
+&#224; à Small a, grave accent
+&#225; á Small a, acute accent
+&#226; â Small a, circumflex accent
+&#227; ã Small a, tilde
+&#228; ä Small a, dieresis or umlaut mark
+&#229; å Small a, ring)
+&#230; æ Small ae diphthong (ligature)
+&#231; ç Small c, cedilla
+&#232; è Small e, grave accent
+&#233; é Small e, acute accent
+&#234; ê Small e, circumflex accent
+&#235; ë Small e, dieresis or umlaut mark
+&#236; ì Small i, grave accent
+&#237; í Small i, acute accent
+&#238; î Small i, circumflex accent
+&#239; ï Small i, dieresis or umlaut mark
+&#240; ð Small eth, Icelandic
+&#241; ñ Small n, tilde
+&#242; ò Small o, grave accent
+&#243; ó Small o, acute accent
+&#244; ô Small o, circumflex accent
+&#245; õ Small o, tilde
+&#246; ö Small o, dieresis or umlaut mark
+&#247; ÷ Division sign
+&#248; ø Small o, slash
+&#249; ù Small u, grave accent
+&#250; ú Small u, acute accent
+&#251; û Small u, circumflex accent
+&#252; ü Small u, dieresis or umlaut mark
+&#253; ý Small y, acute accent
+&#254; þ Small thorn, Icelandic
+&#255; ÿ Small y, dieresis or umlaut mark
+&#00; to &#08;   Unused
+&#11; to &#12;   Unused
+&#14; to &#31;   Unused

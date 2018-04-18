@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DML" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="If&#xA;Dcl&#xA;Cli&#xA;Case&#xA;Call&#xA;Dir&#xA;Load&#xA;Edit&#xA;Line&#xA;Else&#xA;Send&#xA;Fetch&#xA;Erase&#xA;Open&#xA;Files&#xA;Delete&#xA;Menu&#xA;Close&#xA;Search&#xA;While&#xA;Goto&#xA;Exit&#xA;List&#xA;Finish&#xA;Release&#xA;Random&#xA;Repeat&#xA;Floor&#xA;Title&#xA;Unload&#xA;Receive&#xA;Message&#xA;End_if&#xA;Text&#xA;Commit&#xA;Compile&#xA;Error&#xA;Rollback&#xA;Connect&#xA;Generate&#xA;Write&#xA;Invoke&#xA;Print&#xA;Confirm&#xA;End_case&#xA;Execute&#xA;Trigger&#xA;Query&#xA;Display&#xA;Else_if&#xA;Perform&#xA;Report&#xA;Begin_case&#xA;Send_data&#xA;Read_line&#xA;External&#xA;Transfer&#xA;Disconnect&#xA;End_while&#xA;Send_table&#xA;Check_domain&#xA;Utilities&#xA;Receive_data&#xA;Table_search&#xA;Clear_buffer&#xA;End_execute&#xA;Receive_table&#xA;Reposition&#xA;Send_message&#xA;Write_line&#xA;Open_text&#xA;Documentation&#xA;Close_text&#xA;Rewind_text&#xA;Exit_forward&#xA;Cross_reference&#xA;Start_stream&#xA;Receive_arguments&#xA;End_disable_trigger&#xA;Begin_disable_trigger&#xA;Start_transaction&#xA;End_signal_to_status&#xA;Begin_signal_to_status&#xA;Mail&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Special" Enabled="True" Style="" Words="%Add&#xA;%Col&#xA;%Row&#xA;%Form&#xA;%Text&#xA;%Failure&#xA;%Account&#xA;%Success&#xA;%Status&#xA;%Nototals&#xA;%Top_line&#xA;%Actual_break&#xA;%Lines_after&#xA;%Lines_after&#xA;%Nounderlines&#xA;%Tsuppress&#xA;%Bottom_line&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Qualifier" Enabled="True" Style="" Words="/Back&#xA;/Base&#xA;/Tag&#xA;/Check&#xA;/Col&#xA;/Len&#xA;/Bell&#xA;/Log&#xA;/Batch&#xA;/Break&#xA;/Break0&#xA;/Table&#xA;/Lock&#xA;/New&#xA;/Item&#xA;/Heading&#xA;/Lov&#xA;/Pos&#xA;/Opt&#xA;/Wait&#xA;/Domain&#xA;/Row&#xA;/Height&#xA;/Exit&#xA;/With&#xA;/Lheading&#xA;/Remain&#xA;/Pause&#xA;/Width&#xA;/Repeat&#xA;/Rheading&#xA;/Title&#xA;/Total&#xA;/Using&#xA;/Target&#xA;/First&#xA;/Failure&#xA;/Error&#xA;/Noerase&#xA;/Noheading&#xA;/Source&#xA;/Switch&#xA;/Nowait&#xA;/Facility&#xA;/Footing&#xA;/Sequence&#xA;/Success&#xA;/Use_if&#xA;/Add_form&#xA;/Item_if&#xA;/Norepeat&#xA;/Protect&#xA;/Lfooting&#xA;/Prompt&#xA;/Identifier&#xA;/Status&#xA;/Continue&#xA;/System&#xA;/Selection&#xA;/Noerror&#xA;/Secondary&#xA;Rfooting&#xA;/Lov_data&#xA;/Options&#xA;/End_row&#xA;/Lov_col&#xA;/Output&#xA;/Find_form&#xA;/No_domain&#xA;/Statistic&#xA;/Severity&#xA;/Joined_to&#xA;/Begin_row&#xA;/Read_only&#xA;/Tag_length&#xA;/Reduced_to&#xA;/Source_if&#xA;/Default_tag&#xA;/Nostatus&#xA;/Heading_form&#xA;/Description&#xA;/Delete_form&#xA;/Nolov_data&#xA;/Attributes&#xA;/User_key&#xA;/Lov_row&#xA;/Lov_height&#xA;/Sorted_by&#xA;/Switch_base&#xA;/Lines_after&#xA;/Lov_with&#xA;/Stream_name&#xA;/Lines_before&#xA;/Grouped_by&#xA;/Lov_width&#xA;/Row_height&#xA;/Commit_rate&#xA;/Nounderlines&#xA;/Lov_first&#xA;/Modify_form&#xA;/Input_mask&#xA;/Lov_noheading&#xA;/Noclear_buffer&#xA;/Lov_nosearch&#xA;/Text_only&#xA;/Footing_form&#xA;/Nodeadlock_exit&#xA;/Column_headings&#xA;/Column_spacing&#xA;/Alternate_form&#xA;/Lov_selection&#xA;/Display_length&#xA;/Lov_secondary&#xA;/Output_mask&#xA;/Noexit_forward&#xA;/Lov_reduced_to&#xA;/Lov_sorted_by&#xA;/Lov_auto_select&#xA;/Absolute_position&#xA;/Column_heading_row&#xA;/Input_row_height&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="Abs&#xA;Mid&#xA;Chr&#xA;Ceil&#xA;Date&#xA;Len&#xA;Mod&#xA;Log&#xA;Log10&#xA;Tan&#xA;Atan2&#xA;Atan&#xA;Cos&#xA;Acos&#xA;Ascii&#xA;Sin&#xA;Asin&#xA;Int&#xA;Left&#xA;Tanh&#xA;Cosh&#xA;Days&#xA;Sinh&#xA;Trim&#xA;/Nobell&#xA;Right&#xA;Expand&#xA;Ltrim&#xA;Round&#xA;Sqrt&#xA;Seconds&#xA;String&#xA;Lowercase&#xA;Uppercase&#xA;Compress&#xA;Date_seconds&#xA;Day_of_week&#xA;Compress_all&#xA;Binary_to_poly&#xA;Poly_to_binary&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Form" Enabled="True" Style="" Words="Form&#xA;End_form&#xA;Table_form&#xA;Menu_form&#xA;Query_form&#xA;Report_form&#xA;Procedure_form&#xA;">
+          <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Block" Enabled="True" Style="" Words="End_block&#xA;Begin_block&#xA;Item_block&#xA;Menu_block&#xA;Pause_block&#xA;Yesno_block&#xA;Input_block&#xA;Output_block&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Find" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$008080FF" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="Find" Close="In"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Add" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00804000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="Add" Close="To"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Char" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00004080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

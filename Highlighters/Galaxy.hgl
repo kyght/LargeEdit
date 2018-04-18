@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Galaxy" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="#END&#xA;#GALAXY&#xA;ANONYMOUS&#xA;AUTOUNLOAD&#xA;BATTLEPROTOCOL&#xA;CAP&#xA;CARGO&#xA;COL&#xA;COMPRESS&#xA;DRIVE&#xA;EMP&#xA;FLEET&#xA;FLEETTABLES&#xA;GALAXYTV&#xA;GPLUS&#xA;GROUPFORECAST&#xA;MACHINEREPORT&#xA;MAT&#xA;NAMECASE&#xA;NO&#xA;OPTIONS&#xA;PLANETFORECAST&#xA;PRODTABLE&#xA;PRODUCE&#xA;ROUTESFORECAST&#xA;SEND&#xA;SHIELDS&#xA;SHIPTYPEFORECAST&#xA;SORTGROUPS&#xA;TWOCOL&#xA;UNDERSCORES&#xA;WAR&#xA;WEAPONS&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

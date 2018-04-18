@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Scenix" FileType="" Extensions="SRC LST ASM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:scenix.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!#$%()*+,-./&lt;&gt;@"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="add&#xA;addb&#xA;and&#xA;bank&#xA;call&#xA;cja&#xA;cjae&#xA;cjb&#xA;cjbe&#xA;cje&#xA;cjne&#xA;clc&#xA;clr&#xA;clrb&#xA;clz&#xA;dec&#xA;djnz&#xA;ijnz&#xA;inc&#xA;iread&#xA;jb&#xA;jc&#xA;jmp&#xA;jnb&#xA;jnc&#xA;jnz&#xA;jz&#xA;lcall&#xA;ljmp&#xA;lset&#xA;mov&#xA;movb&#xA;nop&#xA;not&#xA;or&#xA;page&#xA;ret&#xA;reti&#xA;retiw&#xA;retp&#xA;retw&#xA;rl&#xA;rr&#xA;setb&#xA;sleep&#xA;stc&#xA;stz&#xA;sub&#xA;subb&#xA;swap&#xA;test&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Special function register names" Enabled="True" Style="" Words="fsr&#xA;ind&#xA;indf&#xA;m&#xA;option&#xA;pc&#xA;ra&#xA;rb&#xA;rc&#xA;rd&#xA;re&#xA;w&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators, and directives" Enabled="True" Style="" Words="!&#xA;#&#xA;$&#xA;%&#xA;+&#xA;&lt;&#xA;=&#xA;&gt;&#xA;@&#xA;banks1&#xA;banks2&#xA;banks3&#xA;banks8&#xA;device&#xA;ds&#xA;equ&#xA;freq&#xA;id&#xA;optionx&#xA;org&#xA;oschs&#xA;oschs1&#xA;oschs2&#xA;oschs3&#xA;oschs4&#xA;oschs5&#xA;oscin&#xA;oscxtmax&#xA;pages1&#xA;pages2&#xA;pages4&#xA;pins18&#xA;pins28&#xA;reset&#xA;stackx&#xA;stackx_optionx&#xA;sx18&#xA;sx28&#xA;sx28l&#xA;sx52&#xA;turbo&#xA;watchdog&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Instructions w/o compound instr." Enabled="True" Style="" Words="csa&#xA;csae&#xA;csb&#xA;csbe&#xA;cse&#xA;csne&#xA;decsz&#xA;incsz&#xA;movsz&#xA;sb&#xA;sc&#xA;skip&#xA;snb&#xA;snc&#xA;snz&#xA;sz&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Conditional assembly, macro definitions" Enabled="True" Style="" Words="else&#xA;endif&#xA;endm&#xA;endr&#xA;error&#xA;exitm&#xA;if&#xA;ifdef&#xA;ifndef&#xA;macro&#xA;rept&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

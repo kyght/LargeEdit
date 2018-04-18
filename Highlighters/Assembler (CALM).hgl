@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Assembler CALM" FileType="" Extensions="ASM CALM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmCALM.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#%&amp;'()*+,-/;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="add&#xA;addc&#xA;and&#xA;asl&#xA;asr&#xA;bic&#xA;bis&#xA;call&#xA;clr&#xA;clrc&#xA;clrv&#xA;comp&#xA;daa&#xA;dec&#xA;div&#xA;ex&#xA;fracdiv&#xA;inc&#xA;ioff&#xA;ion&#xA;jump&#xA;move&#xA;mul&#xA;neg&#xA;nop&#xA;not&#xA;or&#xA;pop&#xA;push&#xA;ret&#xA;reti&#xA;rlc&#xA;rrc&#xA;setc&#xA;setv&#xA;sl&#xA;sr&#xA;sub&#xA;subc&#xA;test&#xA;testjump&#xA;trap&#xA;wait&#xA;xor&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Flags" Enabled="True" Style="" Words="cs&#xA;eq&#xA;ge&#xA;gt&#xA;hi&#xA;hs&#xA;le&#xA;lo&#xA;ls&#xA;lt&#xA;mi&#xA;ne&#xA;pl&#xA;vc&#xA;vs&#xA;zc&#xA;zs&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registres" Enabled="True" Style="" Words="a&#xA;ab&#xA;b&#xA;baud&#xA;ccr&#xA;ix&#xA;iy&#xA;mubus&#xA;pc&#xA;porta&#xA;portb&#xA;portc&#xA;portd&#xA;porte&#xA;sccr1&#xA;sccr2&#xA;scdr&#xA;scsr&#xA;sp&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="#&#xA;'&#xA;(&#xA;)&#xA;*&#xA;+&#xA;-&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Directives" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

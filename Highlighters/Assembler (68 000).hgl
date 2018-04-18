@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ASM 68000" FileType="" Extensions="68K H68 X68 SA" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$()+,-./"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="abcd&#xA;add&#xA;adda&#xA;addi&#xA;addq&#xA;addx&#xA;and&#xA;andi&#xA;asl&#xA;asr&#xA;bcc&#xA;bchg&#xA;bclr&#xA;bcs&#xA;beq&#xA;bge&#xA;bgt&#xA;bhi&#xA;ble&#xA;bls&#xA;blt&#xA;bmi&#xA;bne&#xA;bpl&#xA;bra&#xA;bset&#xA;bsr&#xA;btst&#xA;bvc&#xA;bvs&#xA;chk&#xA;clr&#xA;cmp&#xA;cmpa&#xA;cmpi&#xA;cmpm&#xA;dbcc&#xA;dbcs&#xA;dbeq&#xA;dbf&#xA;dbge&#xA;dbgt&#xA;dbhi&#xA;dble&#xA;dbls&#xA;dblt&#xA;dbmi&#xA;dbne&#xA;dbpl&#xA;dbt&#xA;dbvc&#xA;dbvs&#xA;dc&#xA;divs&#xA;divu&#xA;ds&#xA;eor&#xA;eori&#xA;equ&#xA;exg&#xA;ext&#xA;jsr&#xA;lea&#xA;link&#xA;lsl&#xA;lsr&#xA;move&#xA;movea&#xA;movem&#xA;movep&#xA;moveq&#xA;muls&#xA;mulu&#xA;nbcd&#xA;neg&#xA;negx&#xA;nop&#xA;not&#xA;or&#xA;ori&#xA;pea&#xA;reset&#xA;rol&#xA;ror&#xA;roxl&#xA;roxr&#xA;rte&#xA;rtr&#xA;rts&#xA;sbcd&#xA;stop&#xA;sub&#xA;suba&#xA;subi&#xA;subq&#xA;subx&#xA;swap&#xA;tas&#xA;trap&#xA;trapv&#xA;tst&#xA;unlk&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="M" Enabled="True" Style="" Words="A0&#xA;A1&#xA;A2&#xA;A3&#xA;A4&#xA;A5&#xA;A6&#xA;A7&#xA;D0&#xA;D1&#xA;D2&#xA;D3&#xA;D4&#xA;D5&#xA;D6&#xA;D7&#xA;SR&#xA;SSP&#xA;USP&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Global" Enabled="True" Style="" Words="EXTERN&#xA;EXTERNAL&#xA;GLOBAL&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Condition Codes" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="cc_"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Fortran" FileType="" Extensions="Fortran files" Version="1" Revision="0" Sample="program qwin_test&#xA;USE DATAMOD   !Data Module&#xA;INTEGER(2) fontnum, numfonts&#xA;character*50 lang, country&#xA;INTEGER(4) i4&#xA;TYPE (qwinfo)  qw&#xA;OPEN(3, file='user', title='QWMBCS Test')&#xA;call clearscreen($GCLEARSCREEN)&#xA;call NLSGetLocale(lang, country, cp)   ! get Locale information&#xA;fontnum = SETFONT ('t''Arial''h18b')&#xA;do while (.TRUE.)&#xA;col = mod(box, 7)&#xA;    SELECT CASE  (mod(box,7))&#xA;	  CASE (0)&#xA;	     color = WeekendColor&#xA;      CASE DEFAULT&#xA;	     color = WeekendColor&#xA;    END SELECT&#xA;/*    i4 = setcolorrgb(color)&#xA;    CALL MOVETO(Calender(col+1)%numx+3, ColYOff*row+Calender(col+1)%numy+3,pos)&#xA;    CALL OUTGTEXT(DayString(day))&#xA;*/  end if&#xA;end subroutine&#xA;call date_and_time(date, time, zone, DateTime)&#xA;CALL MOVETO (INT2(140), INT2(80), pos)&#xA;CALL OUTGTEXT('Short Format :')&#xA;CALL Get1stDayWeek(day1st)  !0:SUN, 1:MON,...&#xA;CALL SetNameOfDay(day1st, Str)&#xA;CALL MOVETO(INT2(40), INT2(ColY-40), pos)&#xA;CALL OUTGTEXT('Starting at ')&#xA;CALL MOVETO(INT2(160), INT2(ColY-40), pos)&#xA;CHARACTER(*) name&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;#%&amp;'()*+,-/:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="if&#xA;do&#xA;end&#xA;data&#xA;call&#xA;case&#xA;read&#xA;map&#xA;real&#xA;endif&#xA;else&#xA;enddo&#xA;then&#xA;save&#xA;cycle&#xA;open&#xA;elseif&#xA;while&#xA;exit&#xA;logical&#xA;value&#xA;record&#xA;select&#xA;type&#xA;allocate&#xA;default&#xA;stop&#xA;union&#xA;common&#xA;format&#xA;write&#xA;character&#xA;print&#xA;integer&#xA;deallocate&#xA;interface&#xA;entry&#xA;allocatable&#xA;program&#xA;return&#xA;parameter&#xA;external&#xA;continue&#xA;function&#xA;dimension&#xA;equivalence&#xA;stucture&#xA;subroutine&#xA;structure&#xA;ADMIT&#xA;ASSIGN&#xA;ASSIGNMENT&#xA;AT&#xA;CONTAINS&#xA;COMPLEX&#xA;DOUBLE&#xA;ENDFILE&#xA;CLOSE&#xA;BLOCK&#xA;BACKSPACE&#xA;ELSEWHERE&#xA;FORALL&#xA;ENDWHILE&#xA;EXECUTE&#xA;GO&#xA;GOTO&#xA;GUESS&#xA;IMPLICIT&#xA;IN&#xA;INOUT&#xA;INQUIRE&#xA;INTENT&#xA;INTRINSIC&#xA;KIND&#xA;LOOP&#xA;MODULE&#xA;NAMELIST&#xA;NONE&#xA;NULLIFY&#xA;OPERATOR&#xA;ONLY&#xA;OPTIONAL&#xA;OTHERWISE&#xA;OUT&#xA;PUBLIC&#xA;PROCEDURE&#xA;PRIVATE&#xA;POINTER&#xA;QUIT&#xA;RECURSIVE&#xA;REMOTE&#xA;RESULT&#xA;REWIND&#xA;SEQUENCE&#xA;TO&#xA;TARGET&#xA;UNTIL&#xA;USE&#xA;WHERE&#xA;OPEN&#xA;PAUSE&#xA;PRINT&#xA;READ&#xA;WRITE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sharp" Enabled="True" Style="" Words="#&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ABS&#xA;ACHAR&#xA;ACOS&#xA;ADJUSTL&#xA;ADJUSTR&#xA;AIMAG&#xA;AINT&#xA;ALL&#xA;ALLOCATED&#xA;ANINT&#xA;ANY&#xA;ASIN&#xA;ASSOCIATED&#xA;ATAN&#xA;ATAN2&#xA;BIT_SIZE&#xA;BREAK&#xA;BTEST&#xA;CARG&#xA;CEILING&#xA;CHAR&#xA;CMPLX&#xA;CONJG&#xA;COS&#xA;COSH&#xA;COUNT&#xA;CSHIFT&#xA;DATE_AND_TIME&#xA;DBLE&#xA;DIGITS&#xA;DIM&#xA;DOT_PRODUCT&#xA;DPROD&#xA;DVCHK&#xA;EOSHIFT&#xA;EPSILON&#xA;ERROR&#xA;EXP&#xA;EXPONENT&#xA;FLOOR&#xA;FLUSH&#xA;FRACTION&#xA;GETCL&#xA;HUGE&#xA;IACHAR&#xA;IAND&#xA;IBCLR&#xA;IBITS&#xA;IBSET&#xA;ICHAR&#xA;IEOR&#xA;INDEX&#xA;INT&#xA;INTRUP&#xA;INVALOP&#xA;IOR&#xA;IOSTAT_MSG&#xA;ISHFT&#xA;ISHFTC&#xA;LBOUND&#xA;LEN&#xA;LEN_TRIM&#xA;LGE&#xA;LGT&#xA;LLE&#xA;LLT&#xA;LOG&#xA;LOG10&#xA;MATMUL&#xA;MAX&#xA;MAXEXPONENT&#xA;MAXLOC&#xA;MAXVAL&#xA;MERGE&#xA;MIN&#xA;MINEXPONENT&#xA;MINLOC&#xA;MINVAL&#xA;MOD&#xA;MODULO&#xA;MVBITS&#xA;NBREAK&#xA;NDPERR&#xA;NDPEXC&#xA;NEAREST&#xA;NINT&#xA;NOT&#xA;OFFSET&#xA;OVEFL&#xA;PACK&#xA;PRECFILL&#xA;PRECISION&#xA;PRESENT&#xA;PRODUCT&#xA;PROMPT&#xA;RADIX&#xA;RANDOM_NUMBER&#xA;RANDOM_SEED&#xA;RANGE&#xA;REPEAT&#xA;RESHAPE&#xA;RRSPACING&#xA;SCALE&#xA;SCAN&#xA;SEGMENT&#xA;SELECTED_INT_KIND&#xA;SELECTED_REAL_KIND&#xA;SET_EXPONENT&#xA;SHAPE&#xA;SIGN&#xA;SIN&#xA;SINH&#xA;SIZE&#xA;SPACING&#xA;SPREAD&#xA;SQRT&#xA;SUM&#xA;SYSTEM&#xA;SYSTEM_CLOCK&#xA;TAN&#xA;TANH&#xA;TIMER&#xA;TINY&#xA;TRANSFER&#xA;TRANSPOSE&#xA;TRIM&#xA;UBOUND&#xA;UNDFL&#xA;UNPACK&#xA;VAL&#xA;VERIFY&#xA;sizeof&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="File Status" Enabled="True" Style="" Words="ACCESS&#xA;ACTION&#xA;BLANK&#xA;BLOCKSIZE&#xA;CARRIAGECONTROL&#xA;DIRECT&#xA;ERR&#xA;EXIST&#xA;FILE&#xA;FMT&#xA;FORM&#xA;FORMATTED&#xA;FROM&#xA;IOSTAT&#xA;LOCATION&#xA;NAME&#xA;NAMED&#xA;NEXTREC&#xA;NUMBER&#xA;OPENED&#xA;POSITION&#xA;RECL&#xA;RECORDTYPE&#xA;SEQUENTIAL&#xA;STAT&#xA;STATUS&#xA;UNFORMATTED&#xA;UNIT&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Compiler" Enabled="True" Style="" Words="INCLUDE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Symbols" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="." Close="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

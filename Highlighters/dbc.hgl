@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DB/C" FileType="" Extensions="ERR I6 I7 I8 R6 R7 R8 S6 S7 S8 TXT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:dbc.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Executable Statements" Enabled="True" Style="" Words="Abs&#xA;Add&#xA;Aimdex&#xA;Append&#xA;Arccos&#xA;Arcsin&#xA;Arctan&#xA;Beep&#xA;Build&#xA;Bump&#xA;Change&#xA;Charrestore&#xA;Charsave&#xA;Check10&#xA;Check11&#xA;Chop&#xA;Clear&#xA;Clearadr&#xA;Clearendkey&#xA;Clearlabel&#xA;Clock&#xA;Close&#xA;Closeall&#xA;Cmatch&#xA;Cmove&#xA;Comclose&#xA;Comclr&#xA;Comctl&#xA;Comopen&#xA;Compare&#xA;Compareadr&#xA;Comtst&#xA;Comwait&#xA;Console&#xA;Copy&#xA;Cos&#xA;Count&#xA;Create&#xA;Debug&#xA;Default&#xA;Delete&#xA;Deletek&#xA;Destroy&#xA;Disable&#xA;Display&#xA;Divide&#xA;Draw&#xA;Edit&#xA;Empty&#xA;Enable&#xA;Encode&#xA;Endroutine&#xA;Endset&#xA;Erase&#xA;Execute&#xA;Exist&#xA;Exp&#xA;Extend&#xA;Filepi&#xA;Fill&#xA;Flagrestore&#xA;Flagsave&#xA;Flusheof&#xA;Format&#xA;Fposit&#xA;Get&#xA;Getcolor&#xA;Getcursor&#xA;Getendkey&#xA;Getglobal&#xA;GetLabel&#xA;Getmodules&#xA;Getname&#xA;Getparm&#xA;Getpostion&#xA;Getwindow&#xA;Hide&#xA;Index&#xA;Insert&#xA;Keyin&#xA;Label&#xA;Lcmove&#xA;Lenset&#xA;Link&#xA;List&#xA;Listend&#xA;Load&#xA;Loadadr&#xA;Loadlabel&#xA;Loadmod&#xA;Loadparm&#xA;Log&#xA;Log10&#xA;Lroutine&#xA;Make&#xA;Makeglobal&#xA;Makevar&#xA;Match&#xA;Mod&#xA;Move&#xA;Moveadr&#xA;Movefptr&#xA;Movelength&#xA;Movelptr&#xA;Movesize&#xA;Moveevl&#xA;Mult&#xA;Multiply&#xA;Nformat&#xA;Noeject&#xA;Noreturn&#xA;Open&#xA;Pack&#xA;Pause&#xA;Perform&#xA;Ploadmod&#xA;Popreturn&#xA;Power&#xA;Prep&#xA;Prepare&#xA;Print&#xA;Pushreturn&#xA;Put&#xA;Putfirst&#xA;Query&#xA;Read&#xA;Readgplk&#xA;Readkg&#xA;Readglk&#xA;Readkgp&#xA;Readkp&#xA;Readkplk&#xA;Readks&#xA;Readkslk&#xA;Readlk&#xA;Recv&#xA;Recvclr&#xA;Reformat&#xA;Release&#xA;Rename&#xA;Replace&#xA;Reposit&#xA;Reset&#xA;Resetparm&#xA;Restore&#xA;Retcount&#xA;Rollout&#xA;Routine&#xA;Save&#xA;Scan&#xA;Scrnrestore&#xA;Scrnsave&#xA;Scrnsize&#xA;Search&#xA;Send&#xA;Sendclr&#xA;Set&#xA;Setendkey&#xA;Setflag&#xA;Setlptr&#xA;Setnull&#xA;Sformat&#xA;Show&#xA;Shutdown&#xA;Sin&#xA;Sort&#xA;Sound&#xA;Splclose&#xA;Splopen&#xA;Splopt&#xA;Splcode&#xA;Splexec&#xA;Sqlmsg&#xA;Sqrt&#xA;Squeeze&#xA;Staterestore&#xA;Statesave&#xA;Statesize&#xA;Store&#xA;Storeadr&#xA;Storelabel&#xA;Sub&#xA;Subtract&#xA;Tabpage&#xA;Tan&#xA;Test&#xA;Testadr&#xA;Testlabel&#xA;Trapclr&#xA;Traprestore&#xA;Trapsave&#xA;Trapsize&#xA;Type&#xA;Unlink&#xA;Unload&#xA;Unlock&#xA;Unpack&#xA;Unpacklist&#xA;Updatab&#xA;Update&#xA;Wait&#xA;Weof&#xA;Winrest&#xA;Winrestore&#xA;Winsave&#xA;Winsize&#xA;Write&#xA;Writeab&#xA;Xor&#xA;@&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="Break&#xA;Branch&#xA;Call&#xA;Case&#xA;CCall&#xA;Chain&#xA;Continue&#xA;Else&#xA;Endif&#xA;Endswitch&#xA;External&#xA;For&#xA;Goto&#xA;If&#xA;IFNDEF&#xA;Inc&#xA;Loop&#xA;Movelabel&#xA;Movelv&#xA;Movevl&#xA;Return&#xA;Repeat&#xA;Stop&#xA;Switch&#xA;Trap&#xA;Until&#xA;While&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modifiers" Enabled="True" Style="" Words="Binary&#xA;Cobol&#xA;Colorbits&#xA;Comp&#xA;Compressed&#xA;Data&#xA;Dup&#xA;Duplicates&#xA;Dynamic&#xA;Entries&#xA;Fix&#xA;Fixed&#xA;H&#xA;Increment&#xA;Initial&#xA;KeyLen&#xA;Keylength&#xA;Native&#xA;NoDup&#xA;NoDuplicates&#xA;Overlap&#xA;Parent&#xA;Size&#xA;Standard&#xA;Static&#xA;Text&#xA;Transient&#xA;UnComp&#xA;UnCompressed&#xA;V&#xA;Var&#xA;Variable&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Additional Modifiers" Enabled="True" Style="" Words="AFile&#xA;And&#xA;BKSPC&#xA;BKTAB&#xA;By&#xA;Char&#xA;Character&#xA;Class&#xA;ComFile&#xA;Cverb&#xA;Date&#xA;Definition&#xA;Device&#xA;Dim&#xA;DOWN&#xA;DEFINE&#xA;END&#xA;Endcalss&#xA;EOS&#xA;Equal&#xA;Equ&#xA;Equate&#xA;ESC&#xA;File&#xA;Float&#xA;Form&#xA;From&#xA;Gchar&#xA;Giving&#xA;Gnumber&#xA;Ginteger&#xA;Gfloat&#xA;Gobject&#xA;GDevice&#xA;Greater&#xA;Gresource&#xA;Gimage&#xA;Gqueue&#xA;Gpfile&#xA;GNum&#xA;GForm&#xA;GCharacter&#xA;GDim&#xA;HOME&#xA;IFile&#xA;Image&#xA;In&#xA;Into&#xA;Init&#xA;Integer&#xA;Int&#xA;LEFT&#xA;Less&#xA;Like&#xA;Method&#xA;Module&#xA;Names&#xA;Nocase&#xA;Noreset&#xA;Not&#xA;Num&#xA;Number&#xA;Object&#xA;Over&#xA;Or&#xA;PFile&#xA;Prior&#xA;Queue&#xA;Record&#xA;Recordend&#xA;Resource&#xA;RIGHT&#xA;TAB&#xA;Time&#xA;To&#xA;Timestamp&#xA;UP&#xA;Using&#xA;Varlist&#xA;Verb&#xA;With&#xA;+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;(&#xA;)&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks .-" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=".-"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks .*" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=".*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

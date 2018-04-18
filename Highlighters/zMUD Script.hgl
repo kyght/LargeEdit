@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="zMUD Script" FileType="" Extensions="ZSC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:zmud.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$%&amp;(),./0123456789:;&lt;=&gt;@[\]^_`|~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="ABORT&#xA;ACTION&#xA;ADD&#xA;ADDITEM&#xA;ADDKEY&#xA;ALARM&#xA;ALIAS&#xA;ALL&#xA;BACKUP&#xA;BEEP&#xA;BUTTON&#xA;C+&#xA;C-&#xA;CAPTURE&#xA;CASE&#xA;CHARACTER&#xA;CLASS&#xA;CLOSE&#xA;CLR&#xA;COLOR&#xA;CONFIGURE&#xA;CONNECT&#xA;CR&#xA;CW&#xA;DBCLOSE&#xA;DBFIRST&#xA;DBGET&#xA;DBLOAD&#xA;DBNEXT&#xA;DBOFFLINE&#xA;DBONLINE&#xA;DBPREV&#xA;DBPUT&#xA;DBRESET&#xA;DBSAVE&#xA;DDE&#xA;DEFAULT&#xA;DELCLASS&#xA;DELITEM&#xA;DELKEY&#xA;DELNITEM&#xA;DESCRIBE&#xA;DIR&#xA;DISCONNECT&#xA;DOOR&#xA;ECHO&#xA;ECHOPROMPT&#xA;ERASE&#xA;EVAL&#xA;EXEC&#xA;FILE&#xA;FIND&#xA;FORALL&#xA;FREEZE&#xA;FUNCTION&#xA;GAG&#xA;GAGBLOCK&#xA;GAGOFF&#xA;GAGON&#xA;H+&#xA;H-&#xA;HELP&#xA;HIGHLIGHT&#xA;HISTORY&#xA;HOST&#xA;IF&#xA;IGNORE&#xA;INPUT&#xA;KEY&#xA;KILLALL&#xA;LAUNCH&#xA;LMAP&#xA;LOAD&#xA;LOG&#xA;LOOK&#xA;LOOP&#xA;LOOPDB&#xA;LOOPVIEW&#xA;MAKEROOM&#xA;MAP&#xA;MARK&#xA;MATH&#xA;MEDIA&#xA;MENU&#xA;MERGE&#xA;MESSAGE&#xA;MOVE&#xA;NAME&#xA;NEW&#xA;NODEF&#xA;NODIR&#xA;NOMAP&#xA;NOOP&#xA;OK&#xA;PATH&#xA;PAUSE&#xA;PICK&#xA;PLAY&#xA;PLUGIN&#xA;PROMPT&#xA;PW&#xA;QUERY&#xA;READ&#xA;RECALL&#xA;RECORD&#xA;RENAME&#xA;RESET&#xA;RETRACE&#xA;SAVE&#xA;SAY&#xA;SAYPROMPT&#xA;SCROLL&#xA;SEND&#xA;SENDPROMPT&#xA;SESSION&#xA;SHOW&#xA;SHOWDB&#xA;SHOWPROMPT&#xA;SLOW&#xA;STATUS&#xA;STEP&#xA;STOP&#xA;STW&#xA;SUBSTITUTE&#xA;T+&#xA;T-&#xA;T?&#xA;TAB&#xA;TAG&#xA;TELEPORT&#xA;TEMP&#xA;TIMER&#xA;TRIGGER&#xA;TS&#xA;TYPE&#xA;TZ&#xA;UNALIAS&#xA;UNBUTTON&#xA;UNCLASS&#xA;UNDIR&#xA;UNGAG&#xA;UNKEY&#xA;UNMENU&#xA;UNTIL&#xA;UNTRIGGER&#xA;UNVAR&#xA;URL&#xA;VARIABLE&#xA;VERBATIM&#xA;VERSION&#xA;VIEW&#xA;WAIT&#xA;WALK&#xA;WHILE&#xA;WINDOW&#xA;WIZLIST&#xA;WRAP&#xA;WRITE&#xA;YESNO&#xA;#&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="abs&#xA;additem&#xA;addkey&#xA;alias&#xA;ansi&#xA;ascii&#xA;average&#xA;begins&#xA;bitand&#xA;bitnot&#xA;bitor&#xA;bitxor&#xA;btncol&#xA;btnimage&#xA;case&#xA;char&#xA;clip&#xA;color&#xA;concat&#xA;copy&#xA;count&#xA;countlist&#xA;db&#xA;dbget&#xA;dblist&#xA;dbmax&#xA;dbmin&#xA;dde&#xA;ddeclose&#xA;ddemacro&#xA;ddeopen&#xA;ddepoke&#xA;defined&#xA;delete&#xA;delitem&#xA;delkey&#xA;dice&#xA;diceavg&#xA;dicedev&#xA;dicemax&#xA;dicemin&#xA;dups&#xA;ends&#xA;eval&#xA;exec&#xA;expand&#xA;filesize&#xA;find&#xA;format&#xA;getglobal&#xA;grep&#xA;handle&#xA;if&#xA;insert&#xA;iskey&#xA;ismember&#xA;isnumber&#xA;item&#xA;lastdir&#xA;left&#xA;leftback&#xA;len&#xA;literal&#xA;look&#xA;lower&#xA;max&#xA;min&#xA;mod&#xA;null&#xA;number&#xA;numbuttons&#xA;numitems&#xA;numkeys&#xA;numparam&#xA;numrec&#xA;numrooms&#xA;numwords&#xA;numzones&#xA;param&#xA;pick&#xA;pos&#xA;prompt&#xA;proper&#xA;query&#xA;quote&#xA;random&#xA;read&#xA;remove&#xA;repeat&#xA;replace&#xA;right&#xA;rightback&#xA;roomcol&#xA;roomcom&#xA;roomcontents&#xA;roomcost&#xA;roomdesc&#xA;roomexit&#xA;roomflags&#xA;roomid&#xA;roomkind&#xA;roomlink&#xA;roomload&#xA;roomname&#xA;roomnote&#xA;roomnum&#xA;roomobj&#xA;roomportal&#xA;setglobal&#xA;sort&#xA;stdev&#xA;sum&#xA;time&#xA;trigger&#xA;trim&#xA;trimleft&#xA;trimright&#xA;upper&#xA;viewrec&#xA;walk&#xA;walkmode&#xA;window&#xA;word&#xA;write&#xA;yesno&#xA;zonename&#xA;zonenum&#xA;%&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Misc" Enabled="True" Style="" Words="-&#xA;+&#xA;=&#xA;@&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

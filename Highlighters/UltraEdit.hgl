@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Ultraedit Highlighter syntax rules" FileType="" Extensions="txt" Version="1" Revision="0" Sample="/L20&quot;Java 1.2 with FAME TimeIQ&quot; Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JAVA&#xA;/Delimiters = ~!@%^&amp;*()-+=|\/{}[]:;&quot;'&lt;&gt; , .?&#xA;/Function String = &quot;%[  ]+[ps]*(*)*{&quot;&#xA;/Indent Strings = &quot;{&quot;&#xA;/Unindent Strings = &quot;}&quot;&#xA;/C1&#xA;abstract&#xA;break byte boolean&#xA;while&#xA;/C2&#xA;AbstractAction AbstractBorder AbstractButton AbstractCollection AbstractDocument AbstractLayoutCache AbstractList AbstractListModel AbstractMap AbstractMethodError&#xA;AbstractSequentialList AbstractSet AbstractTableModel AbstractUndoableEdit AbstractWriter AccessControlContext AccessControlException AccessController AccessException&#xA;_BindingIteratorImplBase _NamingContextImplBase&#xA;/C3 &quot;FAME TimeIQ&quot;&#xA;Abs AbstractAnyAllFunctor AbstractBinaryElementArithmeticFunctor AbstractBinaryElementCalendarFunctor AbstractBinaryElementCompareFunctor AbstractBinaryElementFunctor AbstractBinaryElementLogicalFunctor AbstractBinaryFunctor AbstractBinarySeriesFunctor&#xA;Which WildCardMatchesChkException&#xA;Xor&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Sections" Enabled="True" Style="" Words="/Delimiters&#xA;/Function&#xA;/Indent&#xA;/Unindent&#xA;">
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Name" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FFFF" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/L20"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Params" Enabled="True" Style="" Words="Line Comment&#xA;Block Comment On&#xA;Block Comment Off&#xA;File Extensions&#xA;">
+              <Attributes Foreground="clBlue" Background="$0080FFFF" Style=""/>
+            </KeyList>
+          </SubRules>
+        </Range>
+        <Range Name="Section" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FF00" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/C"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="Section Name" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clBlue" Background="$0080FF00" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

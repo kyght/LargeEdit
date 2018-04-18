@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VHDL" FileType="" Extensions="VHD" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:vhdl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abs&#xA;access&#xA;after&#xA;alias&#xA;all&#xA;and&#xA;architecture&#xA;array&#xA;assert&#xA;attribute&#xA;begin&#xA;block&#xA;body&#xA;buffer&#xA;bus&#xA;case&#xA;component&#xA;configuration&#xA;constant&#xA;disconnect&#xA;downto&#xA;else&#xA;elsif&#xA;end&#xA;entity&#xA;exit&#xA;file&#xA;for&#xA;function&#xA;generate&#xA;generic&#xA;group&#xA;guarded&#xA;if&#xA;impure&#xA;in&#xA;inertial&#xA;inout&#xA;is&#xA;label&#xA;library&#xA;linkage&#xA;literal&#xA;loop&#xA;map&#xA;mod&#xA;nand&#xA;new&#xA;next&#xA;nor&#xA;not&#xA;null&#xA;of&#xA;on&#xA;open&#xA;or&#xA;others&#xA;out&#xA;package&#xA;port&#xA;postponed&#xA;procedure&#xA;process&#xA;pure&#xA;range&#xA;record&#xA;register&#xA;reject&#xA;rem&#xA;report&#xA;return&#xA;rol&#xA;ror&#xA;select&#xA;severity&#xA;signal&#xA;shared&#xA;sla&#xA;sll&#xA;sra&#xA;srl&#xA;subtype&#xA;then&#xA;to&#xA;transport&#xA;type&#xA;unaffected&#xA;units&#xA;until&#xA;use&#xA;variable&#xA;wait&#xA;when&#xA;while&#xA;with&#xA;xnor&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="bit&#xA;bit_vector&#xA;boolean&#xA;integer&#xA;real&#xA;std_logic&#xA;std_logic_vector&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="=&#xA;&lt;&#xA;&gt;&#xA;:&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="'event&#xA;'right&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="ActivPullUp&#xA;AndN&#xA;And2FF&#xA;AndNFF&#xA;Cnt1Bit&#xA;CntNBit&#xA;CntNBitDown&#xA;CntNBitMod&#xA;CntNBitOe&#xA;CntNBitSLd&#xA;CntNBitSR&#xA;CntNBitUpDown&#xA;CompNBit&#xA;CompNBitFF&#xA;DiffH2LWithFF&#xA;DiffL2HWithFF&#xA;Dff1&#xA;Dff1NegClk&#xA;Dffn&#xA;Encode4to5&#xA;Mux1of2&#xA;Mux1of8&#xA;Mux1Vof2V&#xA;Mux1Vof3V&#xA;Mux1Vof4V&#xA;PreScale1Bit&#xA;PreScale1BitAR&#xA;PreScale1BitARNegClk&#xA;PreScaleNBit&#xA;PreScaleNBitAR&#xA;Reg1Bit&#xA;Reg1BitAR&#xA;Reg1BitR&#xA;RegNBit&#xA;RegNBitAR&#xA;RSFFAsync&#xA;RSFFsync&#xA;RsSynchronizer&#xA;ShiftP2SRegNBitAR&#xA;ShiftRegNBitAR&#xA;ShiftS2SRegNBit&#xA;SRFFsync&#xA;SyncAndDiffL2HWithFF&#xA;SyncAndDiffH2LWithFF&#xA;SyncAndDiffL2HWithFFAndFg&#xA;SyncAndDiffH2LWithFFAndFg&#xA;SyncAndDiffLL2HHWithFF&#xA;SyncAndDiffHH2LLWithFF&#xA;SyncAndDiffLL2HHWithFFAndFg&#xA;SyncAndDiffHH2LLWithFFAndFg&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="ActivPullUp_arch&#xA;AndN_arch&#xA;And2FF_arch&#xA;AndNFF_arch&#xA;Cnt1Bit_arch&#xA;CntNBit_arch&#xA;CntNBitDown_arch&#xA;CntNBitMod_arch&#xA;CntNBitOe_arch&#xA;CntNBitSLd_arch&#xA;CntNBitSR_arch&#xA;CntNBitUpDown_arch&#xA;CompNBit_arch&#xA;CompNBitFF_arch&#xA;DiffH2LWithFF_arch&#xA;DiffL2HWithFF_arch&#xA;Dff1_arch&#xA;Dff1NegClk_arch&#xA;Dffn_arch&#xA;Encode4to5_arch&#xA;Mux1of2_arch&#xA;Mux1of8_arch&#xA;Mux1Vof2V_arch&#xA;Mux1Vof3V_arch&#xA;Mux1Vof4V_arch&#xA;PreScale1Bit_arch&#xA;PreScale1BitAR_arch&#xA;PreScale1BitARNegClk_arch&#xA;PreScaleNBit_arch&#xA;PreScaleNBitAR_arch&#xA;Reg1Bit_arch&#xA;Reg1BitAR_arch&#xA;Reg1BitR_arch&#xA;RegNBit_arch&#xA;RegNBitAR_arch&#xA;RSFFAsync_arch&#xA;RSFFsync_arch&#xA;RsSynchronizer_arch&#xA;ShiftP2SRegNBitAR_arch&#xA;ShiftRegNBitAR_arch&#xA;ShiftS2SRegNBit_arch&#xA;SRFFsync_arch&#xA;SyncAndDiffL2HWithFF_arch&#xA;SyncAndDiffH2LWithFF_arch&#xA;SyncAndDiffL2HWithFFAndFg_arch&#xA;SyncAndDiffH2LWithFFAndFg_arch&#xA;SyncAndDiffLL2HHWithFF_arch&#xA;SyncAndDiffHH2LLWithFF_arch&#xA;SyncAndDiffLL2HHWithFFAndFg_arch&#xA;SyncAndDiffHH2LLWithFFAndFg_arch&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --..--" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--" Close="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

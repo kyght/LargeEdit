@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AutoLev" FileType="" Extensions="al AL all ALL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:autolev.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="autoepsilon&#xA;autoexpress&#xA;autorhs&#xA;autoz&#xA;autolevpath&#xA;complex&#xA;defaults&#xA;degrees&#xA;digits&#xA;doce&#xA;factoring&#xA;input&#xA;overwrite&#xA;pause&#xA;scratch_directory&#xA;spacing&#xA;units&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="bodies&#xA;constants&#xA;frames&#xA;inertia&#xA;mass&#xA;newtonian&#xA;particles&#xA;points&#xA;specified&#xA;variables&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abs&#xA;acos&#xA;asin&#xA;atan&#xA;autotaylor&#xA;cos&#xA;cosh&#xA;cross&#xA;cols&#xA;cm&#xA;d(&#xA;dt&#xA;dot&#xA;det&#xA;diagmat&#xA;evaluate&#xA;exp&#xA;express&#xA;eig&#xA;element&#xA;factorial&#xA;inverse&#xA;log&#xA;log10&#xA;mag&#xA;magsq&#xA;polynomial&#xA;real&#xA;rem&#xA;round&#xA;roots&#xA;represent&#xA;rows&#xA;sin&#xA;sinh&#xA;spline&#xA;solve&#xA;tan&#xA;tanh&#xA;taylor&#xA;trace&#xA;transpose&#xA;unitvec&#xA;+&#xA;-&#xA;*&#xA;//&#xA;/&#xA;^&#xA;=&#xA;'&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="angvel&#xA;a1pts&#xA;a2pts&#xA;constrain&#xA;dircos&#xA;fr&#xA;frstar&#xA;force&#xA;gyrostat&#xA;gravity&#xA;kindiffs&#xA;kane&#xA;ke&#xA;momentum&#xA;partials&#xA;remainder&#xA;simprot&#xA;tstar&#xA;torque&#xA;v1pt&#xA;v2pts&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="arrange&#xA;coef&#xA;expand&#xA;explicit&#xA;exclude&#xA;factor&#xA;include&#xA;rhs&#xA;replace&#xA;Zee&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

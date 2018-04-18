@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Basic .net" FileType="" Extensions="BAS FRM CLS VBS ASP INC VB" Version="1" Revision="0" Sample="Namespace VehicleDemo&#xA;    Public MustInherit Class Vehicle&#xA;        'Property holders&#xA;        Private mFuelCapacity As Integer&#xA;        Public Property FuelCapacity() As Integer&#xA;            Set&#xA;                mFuelCapacity = Value&#xA;            End Set&#xA;            Get&#xA;                FuelCapacity = mFuelCapacity&#xA;            End Get&#xA;        End Property&#xA;    End Class&#xA;End Namespace&#xA;Me.cboVehicleType.SelectedIndex = 0&#xA;#Region &quot; Windows Form Designer generated code &quot;&#xA;Me.ResumeLayout(False)&#xA;#End Region&#xA;Dim Vehicle As Object&#xA;Vehicle.FuelCapacity = CInt(Me.txtFuelCapacity.Text)&#xA;Me.lblComputedRange.Text = &quot;Your Vehicle's Range is: &quot; &amp; Range.ToString()&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Constants" Enabled="True" Style="" Words="3DDKSHADOW&#xA;3DHIGHLIGHT&#xA;3DLIGHT&#xA;ABORT&#xA;ABORTRETRYIGNORE&#xA;ACTIVEBORDER&#xA;ACTIVETITLEBAR&#xA;ALIAS&#xA;APPLICATIONMODAL&#xA;APPLICATIONWORKSPACE&#xA;ARCHIVE&#xA;BACK&#xA;BINARYCOMPARE&#xA;BLACK&#xA;BLUE&#xA;BUTTONFACE&#xA;BUTTONSHADOW&#xA;BUTTONTEXT&#xA;CANCEL&#xA;CDROM&#xA;CR&#xA;CRITICAL&#xA;CRLF&#xA;CYAN&#xA;DEFAULT&#xA;DEFAULTBUTTON1&#xA;DEFAULTBUTTON2&#xA;DEFAULTBUTTON3&#xA;DESKTOP&#xA;DIRECTORY&#xA;EXCLAMATION&#xA;FALSE&#xA;FIXED&#xA;FORAPPENDING&#xA;FORMFEED&#xA;FORREADING&#xA;FORWRITING&#xA;FROMUNICODE&#xA;GRAYTEXT&#xA;GREEN&#xA;HIDDEN&#xA;HIDE&#xA;HIGHLIGHT&#xA;HIGHLIGHTTEXT&#xA;HIRAGANA&#xA;IGNORE&#xA;INACTIVEBORDER&#xA;INACTIVECAPTIONTEXT&#xA;INACTIVETITLEBAR&#xA;INFOBACKGROUND&#xA;INFORMATION&#xA;INFOTEXT&#xA;KATAKANA&#xA;LF&#xA;LOWERCASE&#xA;MAGENTA&#xA;MAXIMIZEDFOCUS&#xA;MENUBAR&#xA;MENUTEXT&#xA;METHOD&#xA;MINIMIZEDFOCUS&#xA;MINIMIZEDNOFOCUS&#xA;MSGBOXRIGHT&#xA;MSGBOXRTLREADING&#xA;MSGBOXSETFOREGROUND&#xA;NARROW&#xA;NEWLINE&#xA;NO&#xA;NORMAL&#xA;NORMALFOCUS&#xA;NORMALNOFOCUS&#xA;NULLSTRING&#xA;OBJECTERROR&#xA;OK&#xA;OKCANCEL&#xA;OKONLY&#xA;PROPERCASE&#xA;QUESTION&#xA;RAMDISK&#xA;READONLY&#xA;RED&#xA;REMOTE&#xA;REMOVABLE&#xA;RETRY&#xA;RETRYCANCEL&#xA;SCROLLBARS&#xA;SYSTEMFOLDER&#xA;SYSTEMMODAL&#xA;TAB&#xA;TEMPORARYFOLDER&#xA;TEXTCOMPARE&#xA;TITLEBARTEXT&#xA;TRUE&#xA;UNICODE&#xA;UNKNOWN&#xA;UPPERCASE&#xA;VERTICALTAB&#xA;VOLUME&#xA;WHITE&#xA;WIDE&#xA;WIN16&#xA;WIN32&#xA;WINDOWBACKGROUND&#xA;WINDOWFRAME&#xA;WINDOWSFOLDER&#xA;WINDOWTEXT&#xA;YELLOW&#xA;YES&#xA;YESNO&#xA;YESNOCANCEL&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Types" Enabled="True" Style="" Words="BOOLEAN&#xA;BYTE&#xA;DATE&#xA;DECIMIAL&#xA;DOUBLE&#xA;INTEGER&#xA;LONG&#xA;OBJECT&#xA;SINGLE&#xA;STRING&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="APPACTIVATE&#xA;BEEP&#xA;CALL&#xA;CHDIR&#xA;CHDRIVE&#xA;CLASS&#xA;CASE&#xA;CATCH&#xA;DECLARE&#xA;DELEGATE&#xA;DELETESETTING&#xA;DIM&#xA;DO&#xA;DOEVENTS&#xA;END&#xA;ENUM&#xA;EVENT&#xA;EXIT&#xA;EACH&#xA;FUNCTION&#xA;FINALLY&#xA;IF&#xA;IMPORTS&#xA;INHERITS&#xA;INTERFACE&#xA;IMPLEMENTS&#xA;KILL&#xA;LOOP&#xA;MIDB&#xA;NAMESPACE&#xA;OPEN&#xA;PUT&#xA;RAISEEVENT&#xA;RANDOMIZE&#xA;REDIM&#xA;REM&#xA;RESET&#xA;SAVESETTING&#xA;SELECT&#xA;SETATTR&#xA;STOP&#xA;SUB&#xA;SYNCLOCK&#xA;STRUCTURE&#xA;SHADOWS&#xA;SWITCH&#xA;TIMEOFDAY&#xA;TODAY&#xA;TRY&#xA;WIDTH&#xA;WITH&#xA;WRITE&#xA;WHILE&#xA;As&#xA;ADDHANDLER&#xA;ASSEMBLY&#xA;AUTO&#xA;Binary&#xA;ByRef&#xA;ByVal&#xA;BEGINEPILOGUE&#xA;Else&#xA;Empty&#xA;Error&#xA;ENDPROLOGUE&#xA;EXTERNALSOURCE&#xA;ENVIRON&#xA;For&#xA;Friend&#xA;GET&#xA;HANDLES&#xA;Input&#xA;Is&#xA;Len&#xA;Lock&#xA;Me&#xA;Mid&#xA;MUSTINHERIT&#xA;MYBASE&#xA;MYCLASS&#xA;New&#xA;Next&#xA;Nothing&#xA;Null&#xA;NOTINHERITABLE&#xA;NOTOVERRIDABLE&#xA;OFF&#xA;On&#xA;Option&#xA;Optional&#xA;OVERRIDABLE&#xA;ParamArray&#xA;Print&#xA;Private&#xA;Property&#xA;Public&#xA;Resume&#xA;Seek&#xA;Static&#xA;Step&#xA;String&#xA;SHELL&#xA;SENDKEYS&#xA;SET&#xA;Then&#xA;Time&#xA;To&#xA;THROW&#xA;WithEvents&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="COLLECTION&#xA;DEBUG&#xA;DICTIONARY&#xA;DRIVE&#xA;DRIVES&#xA;ERR&#xA;FILE&#xA;FILES&#xA;FILESYSTEMOBJECT&#xA;FOLDER&#xA;FOLDERS&#xA;TEXTSTREAM&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="&amp;&#xA;&amp;=&#xA;*&#xA;*=&#xA;+&#xA;+=&#xA;-&#xA;-=&#xA;//&#xA;/&#xA;/=&#xA;=&#xA;\&#xA;\=&#xA;^&#xA;^=&#xA;ADDRESSOF&#xA;AND&#xA;BITAND&#xA;BITNOT&#xA;BITOR&#xA;BITXOR&#xA;GETTYPE&#xA;LIKE&#xA;MOD&#xA;NOT&#xA;OR&#xA;XOR&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ABS&#xA;ARRAY&#xA;ASC&#xA;ASCB&#xA;ASCW&#xA;CALLBYNAME&#xA;CBOOL&#xA;CBYTE&#xA;CCHAR&#xA;CCHR&#xA;CDATE&#xA;CDBL&#xA;CDEC&#xA;CHOOSE&#xA;CHR&#xA;CHR$&#xA;CHRB&#xA;CHRB$&#xA;CHRW&#xA;CINT&#xA;CLNG&#xA;CLNG8&#xA;CLOSE&#xA;COBJ&#xA;COMMAND&#xA;COMMAND$&#xA;CONVERSION&#xA;COS&#xA;CREATEOBJECT&#xA;CSHORT&#xA;CSTR&#xA;CURDIR&#xA;CTYPE&#xA;CVDATE&#xA;DATEADD&#xA;DATEDIFF&#xA;DATEPART&#xA;DATESERIAL&#xA;DATEVALUE&#xA;DAY&#xA;DDB&#xA;DIR&#xA;DIR$&#xA;EOF&#xA;ERROR$&#xA;EXP&#xA;FILEATTR&#xA;FILECOPY&#xA;FILEDATATIME&#xA;FILELEN&#xA;FILTER&#xA;FIX&#xA;FORMAT&#xA;FORMAT$&#xA;FORMATCURRENCY&#xA;FORMATDATETIME&#xA;FORMATNUMBER&#xA;FORMATPERCENT&#xA;FREEFILE&#xA;FV&#xA;GETALLSETTINGS&#xA;GETATTRGETOBJECT&#xA;GETSETTING&#xA;HEX&#xA;HEX$&#xA;HOUR&#xA;IIF&#xA;IMESTATUS&#xA;INPUT$&#xA;INPUTB&#xA;INPUTB$&#xA;INPUTBOX&#xA;INSTR&#xA;INSTRB&#xA;INSTRREV&#xA;INT&#xA;IPMT&#xA;IRR&#xA;ISARRAY&#xA;ISDATE&#xA;ISEMPTY&#xA;ISERROR&#xA;ISNULL&#xA;ISNUMERIC&#xA;ISOBJECT&#xA;JOIN&#xA;LBOUND&#xA;LCASE&#xA;LCASE$&#xA;LEFT&#xA;LEFT$&#xA;LEFTB&#xA;LEFTB$&#xA;LENB&#xA;LINEINPUT&#xA;LOC&#xA;LOF&#xA;LOG&#xA;LTRIM&#xA;LTRIM$&#xA;MID$&#xA;MIDB&#xA;MIDB$&#xA;MINUTE&#xA;MIRR&#xA;MKDIR&#xA;MONTH&#xA;MONTHNAME&#xA;MSGBOX&#xA;NOW&#xA;NPER&#xA;NPV&#xA;OCT&#xA;OCT$&#xA;PARTITION&#xA;PMT&#xA;PPMT&#xA;PV&#xA;RATE&#xA;REPLACE&#xA;RIGHT&#xA;RIGHT$&#xA;RIGHTB&#xA;RIGHTB$&#xA;RMDIR&#xA;RND&#xA;RTRIM&#xA;RTRIM$&#xA;SECOND&#xA;SIN&#xA;SLN&#xA;SPACE&#xA;SPACE$&#xA;SPC&#xA;SPLIT&#xA;STR&#xA;STR$&#xA;STRCOMP&#xA;STRCONV&#xA;STRING$&#xA;STRREVERSE&#xA;SYD&#xA;TAB&#xA;TAN&#xA;TIMEOFDAY&#xA;TIMER&#xA;TIMESERIAL&#xA;TIMEVALUE&#xA;TODAY&#xA;TRIM&#xA;TRIM$&#xA;TYPENAME&#xA;UBOUND&#xA;UCASE&#xA;UCASE$&#xA;VAL&#xA;WEEKDAY&#xA;WEEKDAYNAME&#xA;YEAR&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Deprecated" Enabled="True" Style="" Words="ANY&#xA;ATN&#xA;CALENDAR&#xA;CIRCLE&#xA;CURRENCY&#xA;DEFBOOL&#xA;DEFBYTE&#xA;DEFCUR&#xA;DEFDATE&#xA;DEFDBL&#xA;DEFDEC&#xA;DEFINT&#xA;DEFLNG&#xA;DEFOBJ&#xA;DEFSNG&#xA;DEFSTR&#xA;DEFVAR&#xA;EQV&#xA;GOSUB&#xA;IMP&#xA;INITIALIZE&#xA;ISMISSING&#xA;LET&#xA;LINE&#xA;LSET&#xA;RSET&#xA;SGN&#xA;SQR&#xA;TERMINATE&#xA;VARIANT&#xA;VARTYPE&#xA;WEND&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Regions and spaces" Enabled="True" Style="" Words="#Region&#xA;#End Region&#xA;Namespace&#xA;">
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

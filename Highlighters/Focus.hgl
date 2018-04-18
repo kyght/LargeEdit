@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="FOCUS" FileType="" Extensions="FEX" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:focus.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,;=^|"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Reserved Words" Enabled="True" Style="" Words="A&#xA;ABS&#xA;ACCESS&#xA;ACROSS&#xA;ADD&#xA;AFTER&#xA;AGAIN&#xA;ALL&#xA;ANALYSE&#xA;AND&#xA;ANOVA&#xA;AS&#xA;ASNAMES&#xA;ASQ&#xA;AVE&#xA;&#xA;B&#xA;BACK&#xA;BIN&#xA;BINS&#xA;BY&#xA;C1&#xA;C2&#xA;C3&#xA;CASE&#xA;CDN&#xA;CHANGE&#xA;CHECK&#xA;CLEAR&#xA;CNT&#xA;CO&#xA;COLUMN&#xA;COLUMNS&#xA;COLUMN-TOTAL&#xA;COMBINE&#xA;COMPILE&#xA;COMPUTE&#xA;CONTAINS&#xA;CONTINUE&#xA;CORRE&#xA;COUNT&#xA;CREATE&#xA;CRTFORM&#xA;CT&#xA;&#xA;DBA&#xA;DECODE&#xA;DECRYPT&#xA;DEFINE&#xA;DEL&#xA;DELETE&#xA;DIS&#xA;DISK&#xA;DISPLAY&#xA;DMTY&#xA;DMY&#xA;DMYY&#xA;DUPL&#xA;ECHO&#xA;EDIT&#xA;ELSE&#xA;ENCRYPT&#xA;END&#xA;ENDCASE&#xA;ENDREPEAT&#xA;EO1&#xA;EO2&#xA;EO3&#xA;EQ&#xA;EX&#xA;EXCEEDS&#xA;EXCLUDES&#xA;EXEC&#xA;EXIT&#xA;EXITREPEAT&#xA;EXPLAIN&#xA;EXSMO&#xA;&#xA;FACTO&#xA;FI&#xA;FILE&#xA;FIN&#xA;FINISH&#xA;FIXFORM&#xA;FML&#xA;FOCUS&#xA;FOOTING&#xA;FOR&#xA;FORM&#xA;FORMAT&#xA;FREEFORM&#xA;FROM&#xA;FST&#xA;&#xA;GE&#xA;GOTO&#xA;GRAPH&#xA;GT&#xA;GTREND&#xA;&#xA;HEADING&#xA;HIST&#xA;HOLD&#xA;&#xA;I&#xA;IF&#xA;IN&#xA;INCLUDE&#xA;INCLUDES&#xA;INDEX&#xA;INIT&#xA;INPUT&#xA;INT&#xA;INTO&#xA;INVALID&#xA;IS&#xA;IS-LESS-THAN&#xA;IS-MORE-THAN&#xA;IS-NOT&#xA;&#xA;JOIN&#xA;JUMP&#xA;LAST&#xA;LE&#xA;LET&#xA;LINES&#xA;LINK&#xA;LIST&#xA;LOC&#xA;LOCATE&#xA;LOCATION&#xA;LOG&#xA;LST&#xA;LT&#xA;&#xA;MAINTAIN&#xA;MARK&#xA;MATCH&#xA;MATCH/NOMATCH&#xA;MAX&#xA;MDISC&#xA;MDY&#xA;MDYY&#xA;MIN&#xA;MISSING&#xA;MODIFY&#xA;MOVE&#xA;MSG&#xA;MT&#xA;MTDY&#xA;MULTR&#xA;N&#xA;NE&#xA;NEW&#xA;NEW-OR-OLD&#xA;NEW-NOR-OLD&#xA;NEW-NOT-OLD&#xA;NEXT&#xA;NOMATCH&#xA;NOPRINT&#xA;NOR&#xA;NOT&#xA;NOTOTAL&#xA;&#xA;OFF&#xA;OFFLINE&#xA;OLD&#xA;OLD-OR-NEW&#xA;OLD-NOT-NEW&#xA;OLD-NOR-NEW&#xA;OM&#xA;OMITS&#xA;ON&#xA;ONLINE&#xA;OR&#xA;OVER&#xA;PAGE&#xA;PAGE-BREAK&#xA;PANEL&#xA;PASS&#xA;PAUSE&#xA;PCT&#xA;PERFORM&#xA;PICKUP&#xA;PIE&#xA;POLRG&#xA;POST&#xA;PRINT&#xA;PROMPT&#xA;&#xA;QUIT&#xA;&#xA;RANKED&#xA;READLIMIT&#xA;REBUILD&#xA;RECAP&#xA;RECOMPUTE&#xA;RECORDLIMIT&#xA;RECTYP&#xA;RECTYPE&#xA;REORG&#xA;REPEAT&#xA;REPLACE&#xA;REPLOT&#xA;RESTRICT&#xA;RETYPE&#xA;ROW&#xA;ROWS&#xA;ROW-TOTAL&#xA;RPCT&#xA;RUN&#xA;SAVB&#xA;SAVE&#xA;SCAN&#xA;SEG&#xA;SEGMENT&#xA;SEGNAME&#xA;SET&#xA;SHOW&#xA;SKIP-LINE&#xA;&#xA;SQRT&#xA;ST&#xA;STATSET&#xA;STOR&#xA;STORE&#xA;SUBFOOT&#xA;SUBHEAD&#xA;SUBTOTAL&#xA;&#xA;SUB-TOTAL&#xA;&#xA;SUM&#xA;SUMMARIZE&#xA;SUPPRINT&#xA;&#xA;TABLE&#xA;TABLEF&#xA;TED&#xA;TEMP&#xA;THEN&#xA;TLOCATE&#xA;TO&#xA;TOP&#xA;TOT&#xA;TOTAL&#xA;TRACE&#xA;TYPE&#xA;&#xA;UNDERLINE&#xA;UP&#xA;UPDATE&#xA;USAGE&#xA;&#xA;USE&#xA;USER&#xA;&#xA;VALIDATE&#xA;WITH&#xA;WITHIN&#xA;WRITE&#xA;&#xA;X1&#xA;X2&#xA;X3&#xA;XFER&#xA;&#xA;Y&#xA;YMD&#xA;YMTD&#xA;YYMD&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DM System Variables" Enabled="True" Style="" Words="&amp;ACCEPTS&#xA;&amp;BASEIO&#xA;&amp;CHNGD&#xA;&amp;CURSOR&#xA;&amp;DATE&#xA;&amp;ECHO&#xA;&amp;FOCCPU&#xA;&amp;FOCDISORG&#xA;&amp;FOCERRNUM&#xA;&amp;FOCEXTTRM&#xA;&amp;FOCFIELDNAME&#xA;&amp;FOCFOCEXEC&#xA;&amp;FOCINCLUDE&#xA;&amp;FOCMODE&#xA;&amp;FOCPRINT&#xA;&amp;FOCPUTLVL&#xA;&amp;FOCQUALCHAR&#xA;&amp;FOCREL&#xA;&amp;FOCSBORDER&#xA;&amp;FOCSYSTYP&#xA;&amp;FOCTMPDSK&#xA;&amp;FOCTRMSD&#xA;&amp;FOCTRMSW&#xA;&amp;FORTRMTYP&#xA;&amp;FOCTTIME&#xA;&amp;FOCVTIME&#xA;&amp;FORMAT&#xA;&amp;HIPERFOCUS&#xA;&amp;INPUT&#xA;&amp;INVALID&#xA;&amp;IORETURN&#xA;&amp;LINES&#xA;&amp;MDY&#xA;&amp;MDYY&#xA;&amp;NOMATCH&#xA;&amp;PFKEY&#xA;&amp;QUIT&#xA;&amp;READS&#xA;&amp;RECORDS&#xA;&amp;REJECTS&#xA;&amp;RETCODE&#xA;&amp;STACK&#xA;&amp;TOD&#xA;&amp;TRANS&#xA;&amp;WINDOWNAME&#xA;&amp;WINDOWVALUE&#xA;&amp;YMD&#xA;&amp;YYMD&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DM Statements" Enabled="True" Style="" Words="-CMS&#xA;-CLOSE&#xA;-CRTCLEAR&#xA;-CRTFORM&#xA;-DEFAULTS&#xA;-EXIT&#xA;-GOTO&#xA;-IF&#xA;-INCLUDE&#xA;-MVS&#xA;-PASS&#xA;-PROMPT&#xA;-QUIT&#xA;-READ&#xA;-REPEAT&#xA;-RUN&#xA;-SET&#xA;-TSO&#xA;-TYPE&#xA;-WINDOW&#xA;-WRITE&#xA;-?&#xA;TSO&#xA;MVS&#xA;CMS&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Field Formats" Enabled="True" Style="" Words="**&#xA;/A&#xA;**&#xA;/D&#xA;**&#xA;/F&#xA;**&#xA;/I&#xA;//&#xA;/DMY&#xA;/DMYY&#xA;//&#xA;/MDY&#xA;/MDYY&#xA;//&#xA;/YMD&#xA;/YYMD&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks -*" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="-*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

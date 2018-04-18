@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PowerBasic" FileType="" Extensions="BAS INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:pbasic.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,.:;&lt;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="PRECOMPILER NEW" Enabled="True" Style="" Words="#Compile&#xA;#Debug&#xA;#Dim&#xA;#Else&#xA;#ElseIf&#xA;#EndIf&#xA;#If&#xA;#Include&#xA;#Option&#xA;#Register&#xA;#Resource&#xA;#Segment&#xA;#Stack&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PRECOMPILER OLD" Enabled="True" Style="" Words="$Compile&#xA;$Debug&#xA;$Dim&#xA;$Else&#xA;$ElseIf&#xA;$EndIf&#xA;$If&#xA;$Include&#xA;$Option&#xA;$Register&#xA;$Resource&#xA;$Segment&#xA;$Stack&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PREDEFS" Enabled="True" Style="" Words="%Def&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="STATEMENTS" Enabled="True" Style="" Words="Abs&#xA;AcceptAccess&#xA;Addr&#xA;Alias&#xA;All&#xA;And&#xA;Any&#xA;Append&#xA;Array&#xA;As&#xA;Asc&#xA;Ascend&#xA;Asciiz&#xA;Asm&#xA;At&#xA;Atn&#xA;Attach&#xA;Attrib&#xA;Base&#xA;Baud&#xA;Bdecl&#xA;Beep&#xA;Bin$&#xA;Binary&#xA;Bit&#xA;Bits%&#xA;Bits&amp;&#xA;Bits?&#xA;Bits??&#xA;Bits???&#xA;Break&#xA;ByCopy&#xA;ByRef&#xA;Byte&#xA;ByVal&#xA;Call&#xA;Case&#xA;CByt&#xA;CCur&#xA;CCux&#xA;Cd&#xA;CDbl&#xA;Cdecl&#xA;CDwd&#xA;Ceil&#xA;Cext&#xA;ChDir&#xA;ChDrive&#xA;Chr$&#xA;CInt&#xA;CLng&#xA;Close&#xA;Cls&#xA;CodePtr&#xA;Collate&#xA;Color&#xA;Comm&#xA;Command$&#xA;Con&#xA;ConsIn&#xA;ConsName$&#xA;Console&#xA;ConsOut&#xA;Cos&#xA;CQud&#xA;Create&#xA;CSng&#xA;CtsFlow&#xA;Cur&#xA;CurDir$&#xA;Currency&#xA;CurrencyX&#xA;Cursor&#xA;CursorX&#xA;CursorY&#xA;Cux&#xA;CvByt&#xA;CvCur&#xA;CvCux&#xA;Cvd&#xA;CvDwd&#xA;Cve&#xA;Cvi&#xA;Cvl&#xA;Cvq&#xA;Cvs&#xA;CvWrd&#xA;CWrd&#xA;Data&#xA;DataCount&#xA;Date$&#xA;Declare&#xA;Decr&#xA;Default&#xA;DefByt&#xA;DefCur&#xA;DefCux&#xA;DefDbl&#xA;DefDwd&#xA;DefExt&#xA;DefInt&#xA;DefLng&#xA;DefQud&#xA;DefSng&#xA;DefStr&#xA;DefWrd&#xA;Delete&#xA;Descend&#xA;Dim&#xA;Dir$&#xA;DiskFree&#xA;DiskSize&#xA;Dll&#xA;Do&#xA;Double&#xA;Down&#xA;DseFlow&#xA;DsrSens&#xA;DtrFlow&#xA;DtrLine&#xA;Dword&#xA;Else&#xA;ElseIf&#xA;End&#xA;Environ$&#xA;Eof&#xA;Eqv&#xA;Erase&#xA;Err&#xA;ErrApi&#xA;ErrClear&#xA;Error&#xA;Exe&#xA;Exit&#xA;Exp&#xA;Exp10&#xA;Exp2&#xA;Explicit&#xA;Export&#xA;Ext&#xA;Extended&#xA;Extract$&#xA;Far&#xA;FileAttr&#xA;FileCopy&#xA;FileName$&#xA;Fix&#xA;Flush&#xA;For&#xA;Format$&#xA;FormFeed&#xA;Frac&#xA;FreeFile&#xA;From&#xA;Function&#xA;Get&#xA;Get$&#xA;GetAttr&#xA;GetStdErr&#xA;GetStdIn&#xA;GetStdOut&#xA;Global&#xA;GoSub&#xA;GoTo&#xA;Handle&#xA;Hex$&#xA;HiByt&#xA;HiWrd&#xA;Host&#xA;Idn&#xA;If&#xA;Imp&#xA;In&#xA;Incr&#xA;InKey$&#xA;Input&#xA;Input#&#xA;Input$&#xA;Insert&#xA;InShift&#xA;InStat&#xA;Instr&#xA;Int&#xA;Integer&#xA;Inv&#xA;IsFalse&#xA;IsTrue&#xA;Iterate&#xA;Kill&#xA;LBound&#xA;LCase$&#xA;Left&#xA;Left$&#xA;Len&#xA;Let&#xA;Lib&#xA;Line&#xA;LoByt&#xA;Loc&#xA;Local&#xA;Locate&#xA;Lock&#xA;Lof&#xA;Log&#xA;Log10&#xA;Log2&#xA;Long&#xA;Loop&#xA;LoWrd&#xA;Lprint&#xA;Lprint$&#xA;Lset&#xA;Ltrim$&#xA;MakDwd&#xA;MakLng&#xA;MakPtr&#xA;Mat&#xA;Max&#xA;Max$&#xA;Max%&#xA;Max&amp;&#xA;MCase$&#xA;Mid$&#xA;Min&#xA;Min$&#xA;Min%&#xA;Min&amp;&#xA;MkByt$&#xA;MkCur$&#xA;MkCux$&#xA;Mkd$&#xA;MkDir&#xA;MkDwd$&#xA;Mke$&#xA;Mki$&#xA;Mkl$&#xA;Mkq$&#xA;Mks$&#xA;MkWrd$&#xA;Mod&#xA;Mouse&#xA;MouseButtons&#xA;MouseStat&#xA;MouseX&#xA;MouseY&#xA;Move&#xA;Name&#xA;Next&#xA;None&#xA;Not&#xA;Notify&#xA;Null&#xA;Oct$&#xA;Of&#xA;Off&#xA;On&#xA;Open&#xA;Option&#xA;Or&#xA;Output&#xA;Page&#xA;Parity&#xA;ParityChar&#xA;ParityRepl&#xA;ParityType&#xA;Parse$&#xA;ParseCount&#xA;Pbd&#xA;PbDebug&#xA;PbMain&#xA;Pcopy&#xA;Peek&#xA;Peek$&#xA;Pointer&#xA;Poke&#xA;Poke$&#xA;Port&#xA;Preserve&#xA;Print&#xA;Print#&#xA;Private&#xA;Ptr&#xA;Put&#xA;Put$&#xA;Quad&#xA;Random&#xA;Randomize&#xA;Read&#xA;Read$&#xA;Recv&#xA;ReDim&#xA;RegExpr&#xA;Register&#xA;RegRepl&#xA;Rem&#xA;Remain$&#xA;Remove$&#xA;Repeat$&#xA;Replace&#xA;Reset&#xA;Resume&#xA;Ret16&#xA;Ret32&#xA;Ret87&#xA;Retp16&#xA;Retp32&#xA;RetPrm&#xA;Return&#xA;Rgb&#xA;Right&#xA;Right$&#xA;Ring&#xA;Rlsd&#xA;RmDir&#xA;Rnd&#xA;Rotate&#xA;Round&#xA;Rset&#xA;Rtrim$&#xA;RtsFlow&#xA;RxBuffer&#xA;RxQue&#xA;Scan&#xA;Screen&#xA;ScreenAttr&#xA;ScreenX&#xA;ScreenY&#xA;Scroll&#xA;Sdecl&#xA;Seek&#xA;Select&#xA;Send&#xA;Set&#xA;SetAttr&#xA;SetEof&#xA;Sgn&#xA;Shared&#xA;Shell&#xA;Shift&#xA;Signed&#xA;Sin&#xA;Single&#xA;SizeOf&#xA;Sleep&#xA;Sort&#xA;Space$&#xA;Spc&#xA;Sqr&#xA;Static&#xA;Status&#xA;StdCall&#xA;StdEof&#xA;StdErr&#xA;StdIn&#xA;StdOut&#xA;Step&#xA;Str$&#xA;StrDelete$&#xA;String&#xA;String$&#xA;StrInsert$&#xA;Stop&#xA;StrPtr&#xA;StrReverse$&#xA;Sub&#xA;Suspend&#xA;Swap&#xA;Tab&#xA;TagArray&#xA;Tally&#xA;Tan&#xA;Tcp&#xA;Then&#xA;Thread&#xA;Time$&#xA;TimeOut&#xA;Timer&#xA;To&#xA;Toggle&#xA;Trim$&#xA;Trn&#xA;Type&#xA;TxBuffer&#xA;TxQue&#xA;UBound&#xA;Ucase&#xA;UCase$&#xA;Udp&#xA;Union&#xA;UnLock&#xA;Until&#xA;Up&#xA;Using&#xA;Val&#xA;VarPtr&#xA;Verify&#xA;Version3&#xA;Version4&#xA;Version5&#xA;WaitKey$&#xA;WaitStat&#xA;Wend&#xA;While&#xA;Width&#xA;With&#xA;Word&#xA;Write&#xA;Write&#xA;XinpFlow&#xA;XoutFlow&#xA;Xor&#xA;Zer&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

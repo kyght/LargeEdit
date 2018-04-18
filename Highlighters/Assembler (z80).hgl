@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Z80 Assembler" FileType="" Extensions="asm dzm def" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmz80.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="adc&#xA;add&#xA;and&#xA;bit&#xA;call&#xA;ccf&#xA;cp&#xA;cpd&#xA;cpdr&#xA;cpi&#xA;cpir&#xA;cpl&#xA;daa&#xA;dec&#xA;di&#xA;djnz&#xA;ei&#xA;ex&#xA;exx&#xA;halt&#xA;im&#xA;in&#xA;inc&#xA;ind&#xA;indr&#xA;ini&#xA;inir&#xA;jp&#xA;jr&#xA;ld&#xA;ldd&#xA;lddr&#xA;ldi&#xA;ldir&#xA;neg&#xA;nop&#xA;or&#xA;otdr&#xA;otir&#xA;out&#xA;outd&#xA;outi&#xA;pop&#xA;push&#xA;res&#xA;ret&#xA;reti&#xA;retn&#xA;rl&#xA;rla&#xA;rlc&#xA;rlca&#xA;rld&#xA;rr&#xA;rra&#xA;rrc&#xA;rrca&#xA;rrd&#xA;rst&#xA;sbc&#xA;scf&#xA;set&#xA;sla&#xA;sll&#xA;sra&#xA;srl&#xA;sub&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="binary&#xA;defb&#xA;defc&#xA;defgroup&#xA;define&#xA;defl&#xA;defm&#xA;defs&#xA;defvars&#xA;defw&#xA;else&#xA;endif&#xA;if&#xA;include&#xA;lib&#xA;lstoff&#xA;lston&#xA;module&#xA;org&#xA;xdef&#xA;xlib&#xA;xref&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="$&#xA;.&#xA;+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="A&#xA;AF&#xA;AF'&#xA;B&#xA;BC&#xA;C&#xA;D&#xA;DE&#xA;E&#xA;F&#xA;H&#xA;HL&#xA;IX&#xA;IY&#xA;IXL&#xA;IXH&#xA;IYL&#xA;IYH&#xA;L&#xA;M&#xA;NZ&#xA;NC&#xA;P&#xA;PE&#xA;PO&#xA;Z&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

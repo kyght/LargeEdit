@@ -1,0 +1,126 @@
+<html xmlns:html="http://www.w3.org/tr/rec-html40" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>LargeEdit - ADO(XML) to HTML</title>
+</head>
+<style>
+			.gridtable {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  border: 1px, solid, black;
+			  width: 100%;
+			  background-color: #D5D5D0;
+			}
+
+			.gridheaders {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			}
+			
+			.gridheadercell {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  Font-FAMILY: 'MS Sans Serif';
+			  font-size: 12px;
+			  font-weight: bold;
+			  text-transform: capitalize;
+			  border-left: thin solid #EBEBEB;
+			  border-top: thin solid #EBEBEB;
+			  border-right: thin solid #969696;
+			  border-bottom: 1px solid black;
+			  text-align: center;
+			  white-space: nowrap;
+			  background-color: #D5D5D0;
+			}
+			
+			.gridrow {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			}
+			
+			.gridcell {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  text-align:left;
+			  background-color: white;
+			}
+
+    </style>
+<body>
+<H2>LargeEdit - ADO(XML) to HTML</H2>
+<DIV ID="GridContents" class="GridContainer">
+<table class="gridtable" border="1" cellpadding="0" cellspacing="0">
+<TR class="gridheaders">
+<TD class="gridheadercell">ID</TD>
+<TD class="gridheadercell">Description</TD>
+<TD class="gridheadercell">Code</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">15</TD>
+<TD class="gridcell">Prince Edward Island</TD>
+<TD class="gridcell">PE</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">16</TD>
+<TD class="gridcell">Nova Scotia</TD>
+<TD class="gridcell">NS</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">17</TD>
+<TD class="gridcell">New Brunswick</TD>
+<TD class="gridcell">NB</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">18</TD>
+<TD class="gridcell">Newfoundland</TD>
+<TD class="gridcell">NF</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">19</TD>
+<TD class="gridcell">Quebec</TD>
+<TD class="gridcell">QC</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">20</TD>
+<TD class="gridcell">Ontario</TD>
+<TD class="gridcell">ON</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">21</TD>
+<TD class="gridcell">Manitoba</TD>
+<TD class="gridcell">MB</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">22</TD>
+<TD class="gridcell">Saskatchewan</TD>
+<TD class="gridcell">SK</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">23</TD>
+<TD class="gridcell">Alberta</TD>
+<TD class="gridcell">AB</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">24</TD>
+<TD class="gridcell">British Columbia</TD>
+<TD class="gridcell">BC</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">25</TD>
+<TD class="gridcell">Northwest Territories</TD>
+<TD class="gridcell">NT</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">26</TD>
+<TD class="gridcell">Yukon</TD>
+<TD class="gridcell">YT</TD>
+</TR>
+<TR class="gridrow">
+<TD class="gridcell">27</TD>
+<TD class="gridcell">Nunavut</TD>
+<TD class="gridcell">NU</TD>
+</TR>
+</table>
+</DIV>
+</body>
+</html>

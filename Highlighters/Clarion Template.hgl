@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Clarion-Template" FileType="" Extensions="TPL TPW" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:clariontemplate.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;&amp;'()*+,-./;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="TPL Organisation" Enabled="True" Style="" Words="#ACCEPT&#xA;#APPLICATION&#xA;#AT&#xA;#ATEND&#xA;#ATSTART&#xA;#CODE&#xA;#CONTROL&#xA;#CONTEXT&#xA;#EMBED&#xA;#EMPTYEMBED&#xA;#ENDAT&#xA;#ENDCONTEXT&#xA;#ENDRESTRICT&#xA;#EXTENSION&#xA;#GROUP&#xA;#MODULE&#xA;#POSTEMBED&#xA;#PREEMBED&#xA;#PROCEDURE&#xA;#PROGRAM&#xA;#PRIORITY&#xA;#RESTRICT&#xA;#REJECT&#xA;#TEMPLATE&#xA;#UTILITY&#xA;#WHERE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Template Data" Enabled="True" Style="" Words="#ADD&#xA;#ALIAS&#xA;#CLEAR&#xA;#DECLARE&#xA;#DELETE&#xA;#DELETEALL&#xA;#DEFAULT&#xA;#ENDDEFAULT&#xA;#ENDGLOBALDATA&#xA;#ENDLOCALDATA&#xA;#ENDREPORTS&#xA;#ENDWINDOWS&#xA;#FIND&#xA;#FIX&#xA;#FREE&#xA;#GLOBALDATA&#xA;#LOCALDATA&#xA;#LINK&#xA;#ORIG&#xA;#POP&#xA;#PURGE&#xA;#REPORTS&#xA;#REQ&#xA;#SELECT&#xA;#SET&#xA;#UNFIX&#xA;#WINDOWS&#xA;SAVE&#xA;UNIQUE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Programmer Input" Enabled="True" Style="" Words="#BOXED&#xA;#BUTTON&#xA;#DISPLAY&#xA;#ENABLE&#xA;#ENDBOXED&#xA;#ENDBUTTON&#xA;#ENDCASE&#xA;#ENDENABLE&#xA;#ENDFIELD&#xA;#ENDPREPARE&#xA;#ENDSHEET&#xA;#ENDTAB&#xA;#ENDWITH&#xA;#FIELD&#xA;#IMAGE&#xA;#PREPARE&#xA;#PROMPT&#xA;#SHEET&#xA;#TAB&#xA;#VALIDATE&#xA;#WITH&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Source Generation" Enabled="True" Style="" Words="#?&#xA;#ABORT&#xA;#APPEND&#xA;#BREAK&#xA;#CALL&#xA;#CASE&#xA;#CLOSE&#xA;#CYCLE&#xA;#CREATE&#xA;#ELSE&#xA;#ELSIF&#xA;#ENDCASE&#xA;#ENDFOR&#xA;#ENDIF&#xA;#ENDLOOP&#xA;#ENDSECTION&#xA;#FOR&#xA;#GENERATE&#xA;#IF&#xA;#INVOKE&#xA;#INDENT&#xA;#INSERT&#xA;#LOOP&#xA;#OF&#xA;#OROF&#xA;#OPEN&#xA;#PRINT&#xA;#READ&#xA;#REDIRECT&#xA;#RELEASE&#xA;#REMOVE&#xA;#REPLACE&#xA;#RESUME&#xA;#RETURN&#xA;#RUN&#xA;#RUNDLL&#xA;#SERVICE&#xA;#SUSPEND&#xA;#SECTION&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Miscellaneous" Enabled="True" Style="" Words="#&lt;&#xA;#ASSERT&#xA;#CLASS&#xA;#COMMENT&#xA;#DEBUG&#xA;#ERROR&#xA;#EXPORT&#xA;#HELP&#xA;#IMPORT&#xA;#INCLUDE&#xA;#MESSAGE&#xA;#PROJECT&#xA;#PROTOTYPE&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Built-In Symbols" Enabled="True" Style="" Words="%ActiveTemplate&#xA;%ActiveTemplateInstance&#xA;%ActiveTemplateOwnerInstance&#xA;%ActiveTemplateParentInstance&#xA;%ActiveTemplatePrimaryInstance&#xA;%AliasFile&#xA;%Application&#xA;%ApplicationDebug&#xA;%ApplicationLocalLibrary&#xA;%ApplicationTemplate&#xA;%ApplicationTemplateInstance&#xA;%ApplicationTemplateParentInstance&#xA;%BytesOutput&#xA;%ConditionalGenerate&#xA;%Control&#xA;%ControlAlert&#xA;%ControlDefaultHeight&#xA;%ControlDefaultWidth&#xA;%ControlEvent&#xA;%ControlField&#xA;%ControlFieldFormat&#xA;%ControlFieldHasColor&#xA;%ControlFieldHasIcon&#xA;%ControlFieldHasLocator&#xA;%ControlFieldHasTree&#xA;%ControlFieldHeading&#xA;%ControlFieldPicture&#xA;%ControlFrom&#xA;%ControlIndent&#xA;%ControlInstance&#xA;%ControlMenu&#xA;%ControlMenuBar&#xA;%ControlOriginal&#xA;%ControlParameter&#xA;%ControlParent&#xA;%ControlParentTab&#xA;%ControlParentType&#xA;%ControlStatement&#xA;%ControlTemplate&#xA;%ControlTool&#xA;%ControlToolBar&#xA;%ControlType&#xA;%ControlUnsplitStatement&#xA;%ControlUse&#xA;%CreateLocalMap&#xA;%DictionaryChanged&#xA;%DictionaryFile&#xA;%Driver&#xA;%DriverBinMemo&#xA;%DriverCreate&#xA;%DriverDescription&#xA;%DriverDLL&#xA;%DriverEncrypt&#xA;%DriverLIB&#xA;%DriverMaxKeys&#xA;%DriverMemo&#xA;%DriverOpcode&#xA;%DriverOwner&#xA;%DriverReclaim&#xA;%DriverRequired&#xA;%DriverSQL&#xA;%DriverType&#xA;%DriverUniqueKey&#xA;%EditFilename&#xA;%EditProcedure&#xA;%EmbedDescription&#xA;%EmbedID&#xA;%EmbedParameters&#xA;%EOF&#xA;%False&#xA;%Field&#xA;%FieldChoices&#xA;%FieldDescription&#xA;%FieldDimension1&#xA;%FieldDimension2&#xA;%FieldDimension3&#xA;%FieldDimension4&#xA;%FieldDisplayPicture&#xA;%FieldFile&#xA;%FieldFormatWidth&#xA;%FieldHeader&#xA;%FieldHelpID&#xA;%FieldID&#xA;%FieldIdent&#xA;%FieldInitial&#xA;%FieldJustIndent&#xA;%FieldJustType&#xA;%FieldLongDesc&#xA;%FieldLookup&#xA;%FieldMemoImage&#xA;%FieldMemoSize&#xA;%FieldName&#xA;%FieldPicture&#xA;%FieldPlaces&#xA;%FieldQuickOptions&#xA;%FieldRangeHigh&#xA;%FieldRangeLow&#xA;%FieldRecordPicture&#xA;%FieldReportControl&#xA;%FieldReportControlHeight&#xA;%FieldReportControlWidth&#xA;%FieldScreenControl&#xA;%FieldScreenControlHeight&#xA;%FieldScreenControlWidth&#xA;%FieldStatement&#xA;%FieldStruct&#xA;%FieldType&#xA;%FieldUserOptions&#xA;%FieldValidation&#xA;%File&#xA;%File32BitOnly&#xA;%FileBindable&#xA;%FileCreate&#xA;%FileDescription&#xA;%FileDriver&#xA;%FileDriverParameter&#xA;%FileEncrypt&#xA;%FileExternal&#xA;%FileExternalModule&#xA;%FileIdent&#xA;%FileKey&#xA;%FileKeyField&#xA;%FileKeyFieldLink&#xA;%FileLongDesc&#xA;%FileName&#xA;%FileOwner&#xA;%FilePrefix&#xA;%FilePrimaryKey&#xA;%FileQuickOptions&#xA;%FileReclaim&#xA;%FileRelationType&#xA;%FileStatement&#xA;%FileStruct&#xA;%FileStructEnd&#xA;%FileStructRec&#xA;%FileStructRecEnd&#xA;%FileThreaded&#xA;%FileType&#xA;%FileUserOptions&#xA;%FirstProcedure&#xA;%Formula&#xA;%FormulaClass&#xA;%FormulaDescription&#xA;%FormulaExpression&#xA;%FormulaExpressionCase&#xA;%FormulaExpressionFalse&#xA;%FormulaExpressionTrue&#xA;%FormulaExpressionType&#xA;%FormulaInstance&#xA;%GlobalData&#xA;%GlobalDataStatement&#xA;%HelpFile&#xA;%Key&#xA;%KeyAuto&#xA;%KeyDescription&#xA;%KeyDuplicate&#xA;%KeyExcludeNulls&#xA;%KeyField&#xA;%KeyFieldSequence&#xA;%KeyFile&#xA;%KeyID&#xA;%KeyIdent&#xA;%KeyIndex&#xA;%KeyLongDesc&#xA;%KeyName&#xA;%KeyNoCase&#xA;%KeyPrimary&#xA;%KeyQuickOptions&#xA;%KeyStatement&#xA;%KeyStruct&#xA;%KeyUserOptions&#xA;%LocalData&#xA;%LocalDataStatement&#xA;%MenuBarStatement&#xA;%Module&#xA;%ModuleBase&#xA;%ModuleChanged&#xA;%ModuleData&#xA;%ModuleDataStatement&#xA;%ModuleExtension&#xA;%ModuleExternal&#xA;%ModuleInclude&#xA;%ModuleLanguage&#xA;%ModuleProcedure&#xA;%ModuleReadOnly&#xA;%ModuleTemplate&#xA;%Null&#xA;%OtherFiles&#xA;%Primary&#xA;%PrimaryInstance&#xA;%PrimaryKey&#xA;%Procedure&#xA;%ProcedureCalled&#xA;%ProcedureDateChanged&#xA;%ProcedureDateCreated&#xA;%ProcedureDescription&#xA;%ProcedureExported&#xA;%ProcedureIsGlobal&#xA;%ProcedureLanguage&#xA;%ProcedureLongDescription&#xA;%ProcedureReadOnly&#xA;%ProcedureReturnType&#xA;%ProcedureTemplate&#xA;%ProcedureTimeChanged&#xA;%ProcedureTimeCreated&#xA;%ProcedureToDo&#xA;%ProcedureType&#xA;%Program&#xA;%ProgramDateChanged&#xA;%ProgramDateCreated&#xA;%ProgramExtension&#xA;%ProgramTimeChanged&#xA;%ProgramTimeCreated&#xA;%Prototype&#xA;%QuickProcedure&#xA;%RegistryChanged&#xA;%Relation&#xA;%RelationAlias&#xA;%RelationConstraintDelete&#xA;%RelationConstraintUpdate&#xA;%RelationKey&#xA;%RelationKeyField&#xA;%RelationKeyFieldLink&#xA;%RelationPrefix&#xA;%RelationQuickOptions&#xA;%RelationUserOptions&#xA;%Report&#xA;%ReportControl&#xA;%ReportControlField&#xA;%ReportControlIndent&#xA;%ReportControlInstance&#xA;%ReportControlLabel&#xA;%ReportControlOriginal&#xA;%ReportControlStatement&#xA;%ReportControlTemplate&#xA;%ReportControlType&#xA;%ReportControlUse&#xA;%ReportStatement&#xA;%Secondary&#xA;%SecondaryTo&#xA;%SecondaryType&#xA;%Target32&#xA;%ToolbarStatement&#xA;%True&#xA;%ViewFile&#xA;%ViewFileField&#xA;%ViewFileFields&#xA;%ViewFiles&#xA;%ViewFileStruct&#xA;%ViewFileStructEnd&#xA;%ViewFilter&#xA;%ViewJoinedTo&#xA;%ViewPrimary&#xA;%ViewPrimaryField&#xA;%ViewPrimaryFields&#xA;%ViewStatement&#xA;%ViewStruct&#xA;%ViewStructEnd&#xA;%Window&#xA;%WindowEvent&#xA;%WindowStatement&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Other Symbols" Enabled="True" Style="" Words="%pClassName&#xA;%pClassIncFile&#xA;%pClassMethod&#xA;%pClassMethodPrototype&#xA;%pClassMethodPrivate&#xA;%pClassMethodVirtual&#xA;%pClassMethodProtected&#xA;%pClassMethodProcAttribute&#xA;%pClassMethodInherited&#xA;%pClassMethodReturnType&#xA;%pClassMethodParentCall&#xA;%pClassProperty&#xA;%pClassPropertyPrototype&#xA;%pClassPropertyPrivate&#xA;%pClassPropertyProtected&#xA;%pClassPropertyInherited&#xA;%ClassMethodList&#xA;%SysActiveInvisible&#xA;%SysAllowUnfilled&#xA;%SysRetainRow&#xA;%SysResetOnGainFocus&#xA;%SysAutoToolbar&#xA;%SysAutoRefresh&#xA;%PropertyList&#xA;%MethodList&#xA;%ObjectList&#xA;%ObjectListType&#xA;%CWTemplateVersion&#xA;%IsExternal&#xA;%SaveCreateLocalMap&#xA;%GlobalIncludeList&#xA;%ModuleIncludeList&#xA;%CalloutModules&#xA;%ClassDeclarations&#xA;%OOPConstruct&#xA;%ByteCount&#xA;%IncludePrototype&#xA;%UsedFile&#xA;%ProcFilesUsed&#xA;%UsedDriverDLLs&#xA;%PrintPreviewUsed&#xA;%FileExternalFlag&#xA;%FileThreadedFlag&#xA;%IniFileName&#xA;%GenerationCompleted&#xA;%GenerateModule&#xA;%VBXList&#xA;%OLENeeded&#xA;%OCXList&#xA;%LastTarget32&#xA;%LastProgramExtension&#xA;%LastApplicationDebug&#xA;%LastApplicationLocalLibrary&#xA;%CustomGlobalMapModule&#xA;%CustomGlobalMapProcedure&#xA;%CustomGlobalMapProcedurePrototype&#xA;%CustomGlobalData&#xA;%CustomGlobalDataDeclaration&#xA;%CustomGlobalDataBeforeFiles&#xA;%CustomGlobalDataComponent&#xA;%CustomGlobalDataComponentIndent&#xA;%CustomGlobalDataComponentDeclaration&#xA;%CustomModuleMapModule&#xA;%CustomModuleMapProcedure&#xA;%CustomModuleMapProcedurePrototype&#xA;%CustomModuleData&#xA;%CustomModuleDataDeclaration&#xA;%CustomModuleDataComponent&#xA;%CustomModuleDataComponentIndent&#xA;%CustomModuleDataComponentDeclaration&#xA;%CustomGlobalMapIncludes&#xA;%CustomGlobalDeclarationIncludes&#xA;%CustomFlags&#xA;%CustomFlagSetting&#xA;%AccessMode&#xA;%BuildFile&#xA;%BuildHeader&#xA;%BuildInclude&#xA;%ExportFile&#xA;%ValueConstruct&#xA;%HoldConstruct&#xA;%RegenerateGlobalModule&#xA;%ClipName&#xA;%UpdateRelationPrimary&#xA;%UpdateRelationSecondary&#xA;%UpdateAttachedFile&#xA;%DeleteRelationPrimary&#xA;%DeleteRelationSecondary&#xA;%DeleteAttachedFile&#xA;%AllFile&#xA;%BRWList&#xA;%GlobalRegenerate&#xA;%FilesPerBCModule&#xA;%RelatesPerRoutine&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Equates/Properties" Enabled="True" Style="" Words="BEEP:&#xA;BUTTON:&#xA;COLOR:&#xA;CREATE:&#xA;CURSOR:&#xA;DDE:&#xA;EVENT:&#xA;ff_:&#xA;FILE:&#xA;FONT:&#xA;ICON:&#xA;LISTZONE:&#xA;PEN:&#xA;PROP:&#xA;PROPLIST:&#xA;PROPPRINT:&#xA;REJECT:&#xA;STD:&#xA;VBXEVENT:&#xA;#FIELDS&#xA;FALSE&#xA;TRUE&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #!" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

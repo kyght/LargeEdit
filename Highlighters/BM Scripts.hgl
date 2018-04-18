@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="BM Scripts" FileType="" Extensions="BMS SCP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:bm.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;'()*+,-./:;&lt;=&gt;?[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="ADVANCE&#xA;AGGREGATE_MEMBER&#xA;ACTION&#xA;BASE_MODEL&#xA;COMMIT&#xA;COMMIT_ZERO&#xA;COMPUTED_ITEM&#xA;COMPUTED_MEMBER&#xA;CYCLE&#xA;CONVERSION&#xA;HANGE_MODEL&#xA;DIMENSION&#xA;DYNAMIC_SPAN&#xA;DECOMMISSION&#xA;DELETE&#xA;DELETE_TASK&#xA;DELETE_JOB&#xA;END_COMMAND&#xA;FILES&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;ITEM&#xA;&#xA;JOIN_MODEL&#xA;JOB&#xA;LOAD_CONVERSION_DATA&#xA;LOAD_ITEMS&#xA;LOAD_TIME&#xA;LOAD_CYCLES&#xA;LOAD_DIMENSION&#xA;&#xA;LOAD_MODEL&#xA;MEMBER&#xA;MODEL&#xA;NULLIFY&#xA;PERIOD&#xA;QUEUE_JOB&#xA;ROUTE_FILE&#xA;RUN_TASK&#xA;SPECIALS&#xA;SPANS&#xA;START_JOB_QUEUE&#xA;STOP_JOB_QUEUE&#xA;SPAN&#xA;TIME&#xA;TASK&#xA;UNIT&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Values" Enabled="True" Style="" Words="AGGREGATION&#xA;AVERAGE&#xA;AGGREGATE_MEMBERS&#xA;ADDITIVE_ONLY&#xA;ASCII_EXTRACTOR&#xA;ACCUMULATOR&#xA;BREAK_TIME&#xA;BAD_OUTPUTS&#xA;CYCLES&#xA;CONSOLIDATION&#xA;COMPUTED_MEMBERS&#xA;CONSOLIDATION&#xA;COMMIT_VERSION&#xA;CYCLE_DIMENSION&#xA;CONVERTER&#xA;DISPLAYS&#xA;DYNAMIC_SPANS&#xA;DIMENSIONS&#xA;DEFAULT&#xA;DIMENSION_ONLY&#xA;DISPLAY_SET&#xA;UPLICATOR&#xA;END_TRANSFORMER&#xA;EXPANDER&#xA;EXCLUDE&#xA;FULL&#xA;FLATTEN&#xA;FIXED_EXTRACTOR&#xA;FIELDER&#xA;GOOD_OUTPUTS&#xA;GDL&#xA;HISTORY&#xA;HIERARCHIC_SUBTRACTIVE&#xA;HIERARCHIC_ONLY&#xA;HOLDER&#xA;ITEMS&#xA;ITEM_HIERARCHY&#xA;INCLUDE_ALL&#xA;INCLUDE&#xA;INVERTED&#xA;INCREMENTAL&#xA;ITEM_DIMENSION&#xA;INCYCLE_DIMENSION&#xA;INCLUDE_ONLY&#xA;JOINER&#xA;KEYED&#xA;LIMITED&#xA;LOAD_MODEL_INCREMENTAL&#xA;LOGGER&#xA;MEMBERS&#xA;MODELS&#xA;NAME&#xA;NORMAL&#xA;NO&#xA;NON_KEYED&#xA;NONE&#xA;NORMAL&#xA;NEW_VERSION&#xA;NULLIFY_CURRENT&#xA;NULLIFY_FROM&#xA;PRECOMPUTE&#xA;PERIODS&#xA;PIVOT&#xA;QUALIFIER&#xA;RETAINED&#xA;RESTATED&#xA;REPEATED&#xA;RUN_TASK_STEP&#xA;SYNOYMS&#xA;SUBTRACTIVE_ONLY&#xA;SERVICE&#xA;SQL_EXTRACTOR&#xA;STRIPPER&#xA;TARGET&#xA;TIME_LATEST&#xA;TIME_DIMENSION&#xA;TOP_INCYCLE&#xA;TRANSFORMER&#xA;TIMER&#xA;YES&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Values for transformer definition" Enabled="True" Style="" Words="ACROSS_FIELD&#xA;&#xA;&#xA;BY_FIELD&#xA;COPY&#xA;CYCLE_FIELD&#xA;&#xA;&#xA;&#xA;DATA&#xA;DEFAULT_ALLOWED&#xA;ERROR&#xA;FILE&#xA;FIELDS&#xA;FIELD_OR_UNIT&#xA;FIELD&#xA;INPUT_0&#xA;INPUT_1&#xA;IGNORE&#xA;ITEM_SPECIFIER&#xA;LEVEL&#xA;META&#xA;NUMERIC&#xA;OUTPUTS&#xA;OUTPUT_0&#xA;OUTPUT_1&#xA;PASSWORD&#xA;PREPEND&#xA;PERIOD_FIELD&#xA;QUERY&#xA;SEPARATOR&#xA;SHORT_RECORDS&#xA;SOURCE&#xA;TO&#xA;TEXT&#xA;USER&#xA;&#xA;VALUE&#xA;WARNING&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Business model statements" Enabled="True" Style="" Words="BUSINESS&#xA;END&#xA;EXCLUSIVE&#xA;NEW&#xA;SHARED&#xA;SP&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

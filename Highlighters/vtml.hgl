@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VTML" FileType="" Extensions="VTML" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:vtml.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="TAGS" Enabled="True" Style="" Words="&lt;ATTRIB&#xA;&lt;ATTRIBUTES&gt;&#xA;&lt;/ATTRIBUTES&gt;&#xA;&lt;CONTAINER&#xA;&lt;/CONTAINER&gt;&#xA;&lt;CONTROL&#xA;&lt;EDITORLAYOUT&#xA;&lt;/EDITORLAYOUT&gt;&#xA;&lt;TAG&gt;&#xA;&lt;TAG&#xA;&lt;/TAG&gt;&#xA;&lt;TAGLAYOUT&gt;&#xA;&lt;/TAGLAYOUT&gt;&#xA;&lt;WIZBREAK&gt;&#xA;&lt;WIZCONTINUE&gt;&#xA;&lt;WIZIF&#xA;&lt;/WIZIF&gt;&#xA;&lt;WIZELSE&gt;&#xA;&lt;WIZLOOP&#xA;&lt;/WIZLOOP&gt;&#xA;&lt;WZISET&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="ATTRIBUTES" Enabled="True" Style="" Words="ALIGN=&#xA;ALLOWDECIMALPOINT=&#xA;ALLOWNEGATIVE=&#xA;ANCHOR=&#xA;ATTRIBUTES&#xA;AUTOSELECT=&#xA;AUTOSIZE=&#xA;BODYEDITING=&#xA;CAPTION=&#xA;CENTER=&#xA;CHARCASE=&#xA;CHECKED=&#xA;CONDITION=&#xA;CONTROL=&#xA;CORNER=&#xA;DEFAULT=&#xA;DIRONLY=&#xA;DOWN=&#xA;DSNAMECONTROL=&#xA;EDITABLE=&#xA;FILENAMEONLY=&#xA;FILEPATH=&#xA;FILTER=&#xA;FROM=&#xA;HEIGHT=&#xA;HORIZRESIZE=&#xA;INDEX=&#xA;LFHEIGHT=&#xA;LFWIDTH=&#xA;LIST=&#xA;MAXHEIGHTPADDING=&#xA;MAXLENGTH=&#xA;MAXWIDTHPADDING=&#xA;MULTILINE=&#xA;NAME=&#xA;PASSWORDCHAR=&#xA;QUERYNAMECONTROL=&#xA;RELATIVE=&#xA;RIGHT=&#xA;SCROLLBAR=&#xA;SELECTED=&#xA;STEP=&#xA;TO=&#xA;TRANSPARENT=&#xA;TYPE=&#xA;VALIGN=&#xA;VALUE=&#xA;VERTRESIZE=&#xA;WIDTH=&#xA;WRAP=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!--..--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

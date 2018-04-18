@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Rman Shader" FileType="" Extensions="SL SLC SLO" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:rmanshader.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="RESERVED_COMMANDS" Enabled="True" Style="" Words="__asm&#xA;__based&#xA;__cdecl&#xA;__export&#xA;__far&#xA;__fastcall&#xA;__fortran&#xA;__huge&#xA;__inline&#xA;__interrupt&#xA;__loadds&#xA;__near&#xA;__pascal&#xA;__saveregs&#xA;__segment&#xA;__segname&#xA;__self&#xA;#define&#xA;#elif&#xA;#else&#xA;#endif&#xA;#error&#xA;#if&#xA;#ifdef&#xA;#ifndef&#xA;#include&#xA;#line&#xA;#pragma&#xA;#undef&#xA;auto&#xA;break&#xA;case&#xA;char&#xA;color&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;enum&#xA;extern&#xA;float&#xA;for&#xA;goto&#xA;if&#xA;int&#xA;long&#xA;normal&#xA;point&#xA;register&#xA;return&#xA;short&#xA;signed&#xA;sizeof&#xA;static&#xA;struct&#xA;switch&#xA;typedef&#xA;uniform&#xA;union&#xA;unsigned&#xA;varying&#xA;void&#xA;volatile&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="RESERVED_VARIABLES" Enabled="True" Style="" Words="Ci&#xA;Cl&#xA;Cs&#xA;E&#xA;I&#xA;L&#xA;N&#xA;Ng&#xA;Oi&#xA;Ol&#xA;Os&#xA;P&#xA;alpha&#xA;class&#xA;dPdu&#xA;dPdv&#xA;delete&#xA;displacement&#xA;du&#xA;dv&#xA;friend&#xA;imager&#xA;inline&#xA;light&#xA;ncomps&#xA;new&#xA;null&#xA;operator&#xA;printf&#xA;private&#xA;protected&#xA;public&#xA;s&#xA;surface&#xA;t&#xA;this&#xA;time&#xA;transformation&#xA;try&#xA;u&#xA;v&#xA;version&#xA;virtual&#xA;volume&#xA;__multiple_inheritance&#xA;__single_inheritance&#xA;__virtual_inheritance&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MATH_FUNCTIONS" Enabled="True" Style="" Words="Du&#xA;Dv&#xA;abs&#xA;acos&#xA;asin&#xA;atan&#xA;ceil&#xA;clamp&#xA;cos&#xA;degrees&#xA;exp&#xA;filteredpulse&#xA;filteredpulsetrain&#xA;floor&#xA;max&#xA;min&#xA;mod&#xA;noise&#xA;pow&#xA;pulse&#xA;pulsetrain&#xA;random&#xA;round&#xA;sign&#xA;sin&#xA;smoothstep&#xA;snoise&#xA;snoisexy&#xA;sqr&#xA;sqrt&#xA;step&#xA;tan&#xA;vsnoise&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="GEOMETRIC_FUNCTIONS" Enabled="True" Style="" Words="area&#xA;calculatenormal&#xA;depth&#xA;distance&#xA;faceforward&#xA;fresnel&#xA;length&#xA;normalize&#xA;reflect&#xA;refract&#xA;setxcomp&#xA;setzcomp&#xA;transform&#xA;ycomp&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="COLOR_FUNCTIONS" Enabled="True" Style="" Words="comp&#xA;mix&#xA;setcomp&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SHADING_AND_LIGHTING_FUNCTIONS" Enabled="True" Style="" Words="ambient&#xA;phong&#xA;specular&#xA;trace&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="TEXTURE_MAPPING_FUNCTIONS" Enabled="True" Style="" Words="bump&#xA;environment&#xA;shadow&#xA;texture&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="VOLUME_VARIABLE_ACCESS_FUNCTIONS" Enabled="True" Style="" Words="incident&#xA;opposite&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

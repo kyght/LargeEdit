@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Systempolicies" FileType="" Extensions="ADM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:systempolicies.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,./:;&lt;=&gt;?\^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="MACHINE&#xA;USER&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="[STRINGS]&#xA;CATEGORY&#xA;CLASS&#xA;END&#xA;PART&#xA;POLICY&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="ACTIONLISTOFF&#xA;ACTIONLISTON&#xA;CHECKBOX&#xA;COMBOBOX&#xA;DELETE&#xA;DISABLED&#xA;DROPDOWNLIST&#xA;EDITTEXT&#xA;ENABLED&#xA;KEYNAME&#xA;LISTBOX&#xA;NAME&#xA;NUMERIC&#xA;TEXT&#xA;VALUE&#xA;VALUENAME&#xA;VALUEOFF&#xA;VALUEON&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="ACTIONLIST&#xA;ADDITIVE&#xA;DEFAULT&#xA;DEFCHECKED&#xA;EXPANDABLETEXT&#xA;EXPLICITVALUE&#xA;ITEMLIST&#xA;MAX&#xA;MAXLEN&#xA;MIN&#xA;REQUIRED&#xA;SPIN&#xA;SUGGESTIONS&#xA;TXTCONVERT&#xA;VALUEPREFIX&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="#ENDIF&#xA;#IF&#xA;NOSORT&#xA;VERSION&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

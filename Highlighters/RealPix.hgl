@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="RealPix" FileType="" Extensions="RP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:realpix.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,-.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="&lt;a&#xA;&lt;/a&gt;&#xA;&lt;b&gt;&#xA;&lt;/b&gt;&#xA;&lt;br/&gt;&#xA;&lt;center&gt;&#xA;&lt;/center&gt;&#xA;&lt;clear&#xA;&lt;crossfade&#xA;&lt;font&#xA;&lt;/font&gt;&#xA;&lt;fadein&#xA;&lt;fadeout&#xA;&lt;fill&#xA;&lt;head&#xA;&lt;hr&#xA;&lt;i&gt;&#xA;&lt;/i&gt;&#xA;&lt;image&#xA;&lt;imfl&gt;&#xA;&lt;/imfl&gt;&#xA;&lt;li&gt;&#xA;&lt;/li&gt;&#xA;&lt;ol&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&#xA;&lt;/p&gt;&#xA;&lt;pos&#xA;&lt;pre&gt;&#xA;&lt;/pre&gt;&#xA;&lt;required&gt;&#xA;&lt;/required&gt;&#xA;&lt;time&#xA;&lt;tl&gt;&#xA;&lt;/tl&gt;&#xA;&lt;tu&gt;&#xA;&lt;/tu&gt;&#xA;&lt;u&gt;&#xA;&lt;/u&gt;&#xA;&lt;ul&gt;&#xA;&lt;/ul&gt;&#xA;&lt;viewchange&#xA;&lt;window&gt;&#xA;&lt;/window&gt;&#xA;&lt;wipe&gt;&#xA;//&#xA;/&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="aspect=&#xA;author=&#xA;begin=&#xA;bgcolor=&#xA;bitrate=&#xA;charset=&#xA;color=&#xA;copyright=&#xA;crawlrate=&#xA;direction=&#xA;dsth=&#xA;dstw=&#xA;dstx=&#xA;dsty=&#xA;duration=&#xA;end=&#xA;face=&#xA;handle=&#xA;height=&#xA;href=&#xA;link=&#xA;loop=&#xA;maxfps=&#xA;name=&#xA;preroll=&#xA;scrollrate=&#xA;size=&#xA;srch=&#xA;srcw=&#xA;srcx=&#xA;srcy=&#xA;start=&#xA;target=&#xA;timeformat=&#xA;title=&#xA;type=&#xA;underline_hyperlinks=&#xA;url=&#xA;width=&#xA;wordwrap=&#xA;x=&#xA;y=&#xA;=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!--../--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="/--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VRML" FileType="" Extensions="wrl" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:vrml.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="NODES" Enabled="True" Style="" Words="AsciiText&#xA;Box&#xA;box&#xA;Cone&#xA;Cube&#xA;Cylinder&#xA;cone&#xA;cube&#xA;cylinder&#xA;Group&#xA;IndexedFaceSet&#xA;IndexedLineSet&#xA;Info&#xA;LOD&#xA;PointSet&#xA;Separator&#xA;Sphere&#xA;Switch&#xA;sphere&#xA;WWWAnchor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PROPERTIES" Enabled="True" Style="" Words="Appearance&#xA;Coordinate3&#xA;DirectionalLight&#xA;FontStyle&#xA;Info&#xA;Material&#xA;MaterialBinding&#xA;MatrixTransform&#xA;Normal&#xA;NormalBinding&#xA;OrthographicCamera&#xA;PerspectiveCamera&#xA;PointLight&#xA;Rotation&#xA;Scale&#xA;Shape&#xA;ShapeHints&#xA;SpotLight&#xA;Texture2&#xA;Texture2Transform&#xA;TextureCoordinate2&#xA;Transform&#xA;Translation&#xA;WWWInline&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FIELDS" Enabled="True" Style="" Words="Approach&#xA;Arches&#xA;Beauty&#xA;BitMask&#xA;Bool&#xA;Cameras&#xA;Closeup&#xA;Color&#xA;Enum&#xA;Float&#xA;Guide&#xA;Image&#xA;Inside&#xA;Long&#xA;Matrix&#xA;SceneInfo&#xA;String&#xA;Title&#xA;Vec2f&#xA;Vec3f&#xA;Viewer&#xA;ViewerSpeed&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PARAMETERS" Enabled="True" Style="" Words="ALL&#xA;AUTO&#xA;BINDINGS&#xA;BOLD&#xA;BOTTOM&#xA;CENTER&#xA;CLAMP&#xA;CLOCKWISE&#xA;CONVEX&#xA;COUNTERCLOCKWISE&#xA;CULLING&#xA;DEF&#xA;DEFAULT&#xA;DEFAULTS&#xA;ENUMS&#xA;FACE&#xA;FAMILY&#xA;FILE&#xA;FORMAT&#xA;ITALIC&#xA;JUSTIFICATION&#xA;LEFT&#xA;NONE&#xA;OFF&#xA;ON&#xA;OVERALL&#xA;PARTS&#xA;PER_FACE&#xA;PER_FACE_INDEXED&#xA;PER_PART&#xA;PER_PART_INDEXED&#xA;PER_VERTEX&#xA;PER_VERTEX_INDEXED&#xA;REPEAT&#xA;RIGHT&#xA;SHAPE&#xA;SIDES&#xA;SOLID&#xA;STYLE&#xA;TYPE&#xA;UNKNOWN_FACE_TYPE&#xA;UNKNOWN_ORDERING&#xA;UNKNOWN_SHAPE_TYPE&#xA;USE&#xA;WRAP&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="CHILDREN" Enabled="True" Style="" Words="Adirection&#xA;ambientColor&#xA;appearance&#xA;bboxCenter&#xA;bboxSize&#xA;bottomRadius&#xA;center&#xA;children&#xA;color&#xA;coordIndex&#xA;creaseAngle&#xA;cutOffAngle&#xA;depth&#xA;description&#xA;diffuseColor&#xA;direction&#xA;dropOffRate&#xA;emissiveColor&#xA;faceType&#xA;family&#xA;fields&#xA;filename&#xA;focalDistance&#xA;geometry&#xA;height&#xA;heightAngle&#xA;image&#xA;indexOfRefraction&#xA;intensity&#xA;isA&#xA;justification&#xA;location&#xA;map&#xA;material&#xA;materialIndex&#xA;matrix&#xA;name&#xA;normalIndex&#xA;numPoints&#xA;on&#xA;orientation&#xA;parts&#xA;point&#xA;position&#xA;radius&#xA;range&#xA;renderCulling&#xA;rotation&#xA;scaleFactor&#xA;scaleOrientation&#xA;shapeType&#xA;shininess&#xA;size&#xA;spacing&#xA;specularColor&#xA;startIndex&#xA;string&#xA;style&#xA;textureCoordIndex&#xA;translation&#xA;transparency&#xA;value&#xA;vector&#xA;vertexOrdering&#xA;whichChild&#xA;width&#xA;wrapS&#xA;wrapT&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

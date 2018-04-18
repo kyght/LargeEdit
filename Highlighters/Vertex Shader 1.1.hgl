@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Vertex Shader 1.1" FileType="" Extensions="VSH" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:vertexshader11.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="+,-.;[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Version Instructions" Enabled="True" Style="" Words="def&#xA;vs&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="General Instructions" Enabled="True" Style="" Words="add&#xA;dp3&#xA;dp4&#xA;dst&#xA;expp&#xA;lit&#xA;logp&#xA;mad&#xA;max&#xA;min&#xA;mov&#xA;mul&#xA;rcp&#xA;rsq&#xA;sge&#xA;slt&#xA;sub&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Macros" Enabled="True" Style="" Words="exp&#xA;frc&#xA;log&#xA;m3x2&#xA;m3x3&#xA;m3x4&#xA;m4x3&#xA;m4x4&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="a0&#xA;c&#xA;c0&#xA;c1&#xA;c2&#xA;c3&#xA;c4&#xA;c5&#xA;c6&#xA;c7&#xA;c8&#xA;c9&#xA;c10&#xA;c11&#xA;c12&#xA;c13&#xA;c14&#xA;c15&#xA;c16&#xA;c17&#xA;c18&#xA;c19&#xA;c20&#xA;c21&#xA;c22&#xA;c23&#xA;c24&#xA;c25&#xA;c26&#xA;c27&#xA;c28&#xA;c29&#xA;c30&#xA;c31&#xA;c32&#xA;c33&#xA;c34&#xA;c35&#xA;c36&#xA;c37&#xA;c38&#xA;c39&#xA;c40&#xA;c41&#xA;c42&#xA;c43&#xA;c44&#xA;c45&#xA;c46&#xA;c47&#xA;c48&#xA;c49&#xA;c50&#xA;c51&#xA;c52&#xA;c53&#xA;c54&#xA;c55&#xA;c56&#xA;c57&#xA;c58&#xA;c59&#xA;c60&#xA;c61&#xA;c62&#xA;c63&#xA;c64&#xA;c65&#xA;c66&#xA;c67&#xA;c68&#xA;c69&#xA;c70&#xA;c71&#xA;c72&#xA;c73&#xA;c74&#xA;c75&#xA;c76&#xA;c77&#xA;c78&#xA;c79&#xA;c80&#xA;c81&#xA;c82&#xA;c83&#xA;c84&#xA;c85&#xA;c86&#xA;c87&#xA;c88&#xA;c89&#xA;c90&#xA;c91&#xA;c92&#xA;c93&#xA;c94&#xA;c95&#xA;c96&#xA;oD0&#xA;oD1&#xA;oFog&#xA;oPos&#xA;oPts&#xA;oT0&#xA;oT1&#xA;oT2&#xA;oT3&#xA;oT4&#xA;oT5&#xA;oT6&#xA;oT7&#xA;r0&#xA;r1&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;r8&#xA;r9&#xA;r10&#xA;r11&#xA;v0&#xA;v1&#xA;v2&#xA;v3&#xA;v4&#xA;v5&#xA;v6&#xA;v7&#xA;v8&#xA;v9&#xA;v10&#xA;v11&#xA;v12&#xA;v13&#xA;v14&#xA;v15&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modifiers" Enabled="True" Style="" Words="w&#xA;ww&#xA;www&#xA;wwww&#xA;x&#xA;xx&#xA;xxx&#xA;xxxx&#xA;xy&#xA;xyz&#xA;xyzw&#xA;y&#xA;yy&#xA;yyy&#xA;yyyy&#xA;yz&#xA;yzw&#xA;z&#xA;zw&#xA;zyxw&#xA;zz&#xA;zzz&#xA;zzzz&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

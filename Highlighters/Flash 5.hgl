@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ActionScript" FileType="" Extensions="FAS AS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:flash5.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="-&#xA;--&#xA;-=&#xA;+&#xA;++&#xA;+=&#xA;!&#xA;!=&#xA;%&#xA;%=&#xA;&amp;&#xA;&amp;&amp;&#xA;&amp;=&#xA;*&#xA;*=&#xA;?&#xA;.&#xA;:&#xA;//&#xA;/&#xA;^&#xA;^=&#xA;|&#xA;||&#xA;|=&#xA;~&#xA;&lt;&#xA;&lt;&lt;&#xA;&lt;&lt;=&#xA;&lt;=&#xA;&lt;&gt;&#xA;=&#xA;==&#xA;&gt;&#xA;&gt;&gt;&#xA;&gt;&gt;=&#xA;&gt;&gt;&gt;&#xA;&gt;&gt;&gt;=&#xA;$version&#xA;add&#xA;and&#xA;eq&#xA;ge&#xA;gt&#xA;le&#xA;lt&#xA;ne&#xA;new&#xA;not&#xA;null&#xA;or&#xA;this&#xA;typeof&#xA;void&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties" Enabled="True" Style="" Words="_alpha&#xA;_currentframe&#xA;_droptarget&#xA;_focusrect&#xA;_framesloaded&#xA;_height&#xA;_highquality&#xA;_name&#xA;_parent&#xA;_quality&#xA;_root&#xA;_rotation&#xA;_soundbuftime&#xA;_target&#xA;_totalframes&#xA;_url&#xA;_visible&#xA;_width&#xA;_x&#xA;_xmouse&#xA;_xscale&#xA;_y&#xA;_ymouse&#xA;_yscale&#xA;**&#xA;_level&#xA;Infinity&#xA;-Infinity&#xA;NaN&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="Array&#xA;Boolean&#xA;Color&#xA;Date&#xA;Key&#xA;Math&#xA;Mouse&#xA;MovieClip&#xA;Number&#xA;Object&#xA;Selection&#xA;Sound&#xA;String&#xA;XML&#xA;XMLSocket&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Methods" Enabled="True" Style="" Words="__proto__&#xA;abs&#xA;acos&#xA;appendChild&#xA;arguments&#xA;asin&#xA;atan&#xA;atan2&#xA;attributes&#xA;attachMovie&#xA;attachSound&#xA;break&#xA;call&#xA;continue&#xA;callee&#xA;ceil&#xA;charAt&#xA;charCodeAt&#xA;childNodes&#xA;chr&#xA;cloneNode&#xA;close&#xA;concat&#xA;connect&#xA;constructor&#xA;contentType&#xA;cos&#xA;createElement&#xA;createTextNode&#xA;docTypeDecl&#xA;duplicateMovieClip&#xA;delete&#xA;do&#xA;E&#xA;escape&#xA;eval&#xA;exp&#xA;else&#xA;firstChild&#xA;floor&#xA;fromCharCode&#xA;for&#xA;fscommand&#xA;function&#xA;getAscii&#xA;getBeginIndex&#xA;getBounds&#xA;getBytesLoaded&#xA;getBytesTotal&#xA;getCaretIndex&#xA;getCode&#xA;getDate&#xA;getDay&#xA;getEndIndex&#xA;getFocus&#xA;getFullYear&#xA;getHours&#xA;getMilliseconds&#xA;getMinutes&#xA;getMonth&#xA;getPan&#xA;getRGB&#xA;getSeconds&#xA;getTime&#xA;getTimezoneOffset&#xA;getTransform&#xA;getURL&#xA;getUTCDate&#xA;getUTCDay&#xA;getUTCFullYear&#xA;getUTCHours&#xA;getUTCMilliseconds&#xA;getUTCMinutes&#xA;getUTCMonth&#xA;getUTCSeconds&#xA;getVolume&#xA;getYear&#xA;globalToLocal&#xA;gotoAndPlay&#xA;gotoAndStop&#xA;getProperty&#xA;getTimer&#xA;getVersion&#xA;hasChildNodes&#xA;hide&#xA;hitTest&#xA;indexOf&#xA;insertBefore&#xA;isDown&#xA;isToggled&#xA;int&#xA;isFinite&#xA;isNaN&#xA;if&#xA;ifFrameLoaded&#xA;in&#xA;ignoreWhite&#xA;join&#xA;lastChild&#xA;lastIndexOf&#xA;length&#xA;load&#xA;loaded&#xA;loadMovie&#xA;loadMovieNum&#xA;loadVariblesNum&#xA;loadVariables&#xA;localToGlobal&#xA;log&#xA;LN2&#xA;LN10&#xA;LOG2E&#xA;LOG10E&#xA;MAX_VALUE&#xA;MIN_VALUE&#xA;min&#xA;max&#xA;maxscroll&#xA;mbchr&#xA;mblength&#xA;mbord&#xA;mbsubstring&#xA;NEGATIVE_INFINITY&#xA;newline&#xA;nextFrame&#xA;nextSibling&#xA;nodeName&#xA;nodeType&#xA;nodeValue&#xA;nextFrame&#xA;nextScene&#xA;OnLoad&#xA;On&#xA;onClose&#xA;onConnect&#xA;onXML&#xA;ord&#xA;on&#xA;onClipEvent&#xA;onData&#xA;onLoad&#xA;parseFloat&#xA;parseInt&#xA;parentNode&#xA;parseXML&#xA;play&#xA;pop&#xA;pow&#xA;prevFrame&#xA;previousSibling&#xA;push&#xA;play&#xA;prevFrame&#xA;prevScene&#xA;print&#xA;printAsBitmap&#xA;printAsBitmapNum&#xA;printNum&#xA;PI&#xA;POSITIVE_INFINITY&#xA;random&#xA;removeMovieClip&#xA;removeNode&#xA;reverse&#xA;round&#xA;return&#xA;SQRT1_2&#xA;SQRT2&#xA;scroll&#xA;send&#xA;sendAndLoad&#xA;setDate&#xA;setFocus&#xA;setFullYear&#xA;setHours&#xA;setMilliseconds&#xA;setMinutes&#xA;setMonth&#xA;setPan&#xA;setRGB&#xA;setSeconds&#xA;setSelection&#xA;setTime&#xA;setTransform&#xA;setUTCDate&#xA;setUTCFullYear&#xA;setUTCHours&#xA;setUTCMilliseconds&#xA;setUTCMinutes&#xA;setUTCMonth&#xA;setUTCSeconds&#xA;setVolume&#xA;setYear&#xA;shift&#xA;show&#xA;sin&#xA;slice&#xA;sort&#xA;splice&#xA;split&#xA;sqrt&#xA;start&#xA;startDrag&#xA;status&#xA;stop&#xA;stopDrag&#xA;substr&#xA;substring&#xA;swapDepths&#xA;set&#xA;setProperty&#xA;stop&#xA;stopAllSounds&#xA;tan&#xA;targetPath&#xA;toLowerCase&#xA;toString&#xA;toUpperCase&#xA;tellTarget&#xA;toggleHighQuality&#xA;trace&#xA;updateAfterEvent&#xA;unescape&#xA;unloadMovie&#xA;unloadMovieNum&#xA;unshift&#xA;UTC&#xA;valueOf&#xA;var&#xA;while&#xA;with&#xA;xmlDecl&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Keys" Enabled="True" Style="" Words="BACKSPACE&#xA;CAPSLOCK&#xA;CONTROL&#xA;DELETEKEY&#xA;DOWN&#xA;END&#xA;ENTER&#xA;ESCAPE&#xA;HOME&#xA;INSERT&#xA;LEFT&#xA;PGDN&#xA;PGUP&#xA;RIGHT&#xA;SHIFT&#xA;SPACE&#xA;TAB&#xA;UP&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FSCommands" Enabled="True" Style="" Words="allowscale&#xA;exec&#xA;fullscreen&#xA;quit&#xA;showmenu&#xA;trapallkeys&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="#include&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Events" Enabled="True" Style="" Words="enterFrame&#xA;load&#xA;data&#xA;dragOut&#xA;dragOver&#xA;mouseDown&#xA;mouseUp&#xA;mouseMove&#xA;keyDown&#xA;keyUp&#xA;keyPress&#xA;unload&#xA;press&#xA;release&#xA;releaseOutside&#xA;rollOver&#xA;rollOut&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

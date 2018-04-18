@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="4DOS/4NT" FileType="" Extensions="" Version="1" Revision="0" Sample="@echo off&#xA;setlocal unalias *&#xA;input Enter your name (no initials): %%name&#xA;set first=%@word[0,%name]&#xA;rem set flen=%@len[%first]&#xA;set last=%@word[1,%name]&#xA;;set llen=%@len[%last]&#xA;iff isdir %1 then&#xA;  cd %1&#xA;else&#xA;  echo Subdirectory %1 does not exist!&#xA;  quit&#xA;endiff&#xA;if &quot;%1&quot; != &quot;&quot;&#xA;  pause Starting shell %_shell with parameters [%$]&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="ACTIVATE&#xA;ALIAS&#xA;ASSOC&#xA;ATTRIB&#xA;AT&#xA;BREAK&#xA;BEEP&#xA;CALL&#xA;CANCEL&#xA;CASE&#xA;CD&#xA;CDD&#xA;CHCP&#xA;CHDIR&#xA;CLS&#xA;COLOR&#xA;COPY&#xA;CTTY&#xA;DIRHISTORY&#xA;DIR&#xA;DETACH&#xA;DESCRIBE&#xA;DELAY&#xA;DEL&#xA;DEFAULT&#xA;DDEEXEC&#xA;DATE&#xA;DRAWBOX&#xA;DRAWHLINE&#xA;DRAWVLINE&#xA;ECHOS&#xA;ECHOSERR&#xA;ENDDO&#xA;ENDIFF&#xA;ENDLOCAL&#xA;ENDSWITCH&#xA;ENDTEXT&#xA;DIRS&#xA;DO&#xA;DPATH&#xA;ECHO.&#xA;ECHO&#xA;ECHOERR&#xA;EXCEPT&#xA;EXIT&#xA;FTYPE&#xA;FREE&#xA;FOR&#xA;FIND&#xA;ESET&#xA;ERASE&#xA;FFIND&#xA;GLOBAL&#xA;GOSUB&#xA;GREP&#xA;GOTO&#xA;HELP&#xA;HISTORY&#xA;INPUT&#xA;INKEY&#xA;IFF&#xA;IF&#xA;KEYBD&#xA;KEYS&#xA;KEYSTACK&#xA;LOCK LOG&#xA;LOADHIGH&#xA;LOADBTM&#xA;LIST&#xA;LH&#xA;MD&#xA;MEMORY&#xA;MKDIR&#xA;MOVE&#xA;MSGBOX&#xA;OPTION&#xA;PATH&#xA;QUERYBOX&#xA;PAUSE&#xA;POPD&#xA;PROMPT&#xA;PUSHD&#xA;QUIT&#xA;REN&#xA;SCRPUT&#xA;TIME&#xA;RENAME&#xA;REBOOT&#xA;RD&#xA;SCREEN&#xA;TEE&#xA;TEXT&#xA;SETDOS&#xA;SET&#xA;RETURN&#xA;RMDIR&#xA;SETLOCAL&#xA;SHIFT&#xA;SHRALIAS&#xA;START&#xA;SWAPPING&#xA;SWITCH&#xA;TRUENAME&#xA;TYPE&#xA;TREE&#xA;TOUCH&#xA;TITLE&#xA;TIMER&#xA;SELECT&#xA;UNSET&#xA;VSCRPUT&#xA;VOL&#xA;VERIFY&#xA;VER&#xA;UNALIAS&#xA;UNLOCK&#xA;WINDOW&#xA;Y&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words=".AND.&#xA;.OR.&#xA;.XOR.&#xA;BY&#xA;DEFINED&#xA;DIREXIST&#xA;ELSE&#xA;ELSEIFF&#xA;EQ&#xA;EQL&#xA;EQU&#xA;ERROR&#xA;ERRORLEVEL&#xA;ERRORMSG&#xA;EXIST&#xA;FOREVER&#xA;GE&#xA;GEQ&#xA;GT&#xA;GTR&#xA;IN&#xA;ISALIAS&#xA;ISDIR&#xA;ISINTERNAL&#xA;ISLABEL&#xA;ISWINDOW&#xA;ITERATE&#xA;LE&#xA;LEAVE&#xA;LEQ&#xA;LSS&#xA;LT&#xA;NE&#xA;NEQ&#xA;NOT&#xA;ON&#xA;OFF&#xA;THEN&#xA;UNTIL&#xA;WHILE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark REM" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="REM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Variables" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="_"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Functions" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Labels" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

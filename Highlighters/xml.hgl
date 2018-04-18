@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="XML" FileType="" Extensions="XML" Version="1" Revision="0" Sample=" &lt;?xml version=&quot;1.0&quot;?&gt;&#xA; &lt;!DOCTYPE root []&gt;&#xA; &lt;Range Name=&quot;Root&quot;&gt;&#xA; &lt;Def&gt;&#xA;  &lt;Back&gt;16777215&lt;/Back&gt;&#xA;  &lt;Fore&gt;0&lt;/Fore&gt;&#xA;  &lt;Style&gt;&lt;/Style&gt;&#xA; &lt;/Def&gt;&#xA; &lt;!-- Number arributes --&gt;&#xA; &lt;Num&gt;&#xA;  &lt;Back&gt;16777215&lt;/Back&gt;&#xA;  &lt;Fore&gt;128&lt;/Fore&gt;&#xA;  &lt;Style&gt;&lt;/Style&gt;&#xA; &lt;/Num&gt;&#xA; &lt;OpenSymbol&gt;&lt;/OpenSymbol&gt;&#xA; &lt;CloseSymbol&gt;&amp;qt&lt;/CloseSymbol&gt;&#xA; &lt;CloseOnTerm&gt;False&lt;/CloseOnTerm&gt;&#xA; &lt;CloseOnEol&gt;False&lt;/CloseOnEol&gt;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%'()*+,-.:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <Range Name="Tag Name" Enabled="True" Style="">
+          <Delimiters Value="!#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="Parameter Value" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Parameter Name" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open=" " Close="="/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Remarks" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Special Chars" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&amp;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Version" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FFFF" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;?" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Doctype" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FF00" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

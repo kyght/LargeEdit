@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MINC DSL" FileType="" Extensions="SRC PI STM OPI NPI SIM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:mincdsl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="AND&#xA;BIN&#xA;BIPUT&#xA;BLOWN&#xA;CASE&#xA;CLOCK_ENABLED_BY&#xA;CLOCKED_BY&#xA;CLOCKF&#xA;COMP_OFF&#xA;COMP_ON&#xA;D_FLOP&#xA;D_LATCH&#xA;DEC&#xA;DEFAULT&#xA;DEFAULT_TO&#xA;DEMORGAN_SYNTH&#xA;DEVICE&#xA;DISABLED_ONLY_FOR_TEST&#xA;DO&#xA;ELSE&#xA;ELSIF&#xA;ENABLED_BY&#xA;END&#xA;FF_SYNTH&#xA;FIT_WITH&#xA;FIXED&#xA;FOOTPRINT&#xA;FOR&#xA;FUNKTION&#xA;GOTO&#xA;GRAY_CODE&#xA;GROUP&#xA;SECTIONS&#xA;HEX&#xA;HIGH_VALUE&#xA;IF&#xA;INCLUDE&#xA;INITIAL&#xA;INITIAL_TO&#xA;INPUT&#xA;INTACT&#xA;JK_FLOP&#xA;LAST_VALUE&#xA;LATCHED_BY&#xA;LOW_POWER&#xA;LOW_TRUE&#xA;LOW_VALUE&#xA;MACRO&#xA;MAX_PTERMS&#xA;MAX_SYMBOLS&#xA;MAX_FOR_PTERMS&#xA;MESSAGE&#xA;MOD&#xA;NAME&#xA;NO_COLLAPSE&#xA;NO_CONNECT&#xA;NO_REDUCE&#xA;NODE&#xA;NOT&#xA;OCT&#xA;ONE_HOT&#xA;OR&#xA;OUTPUT&#xA;PART_NUMBER&#xA;PHYSICAL&#xA;POLARITY_CONTROL&#xA;PRESET_BY&#xA;POWER=&#xA;RETURN&#xA;RESET_BY&#xA;SECTION&#xA;SET&#xA;SIMULATION&#xA;SR_FLOP&#xA;STATE&#xA;STATE_BITS&#xA;STATE_MACHINE&#xA;STATE_VALUE&#xA;STEP&#xA;SYSTEM_TEST&#xA;T_FLOP&#xA;TARGET&#xA;TEMPLATE&#xA;TEST_VECTORS&#xA;THEN&#xA;TO&#xA;TRACE&#xA;TRUTH&#xA;TRUTH_TABLE&#xA;USE&#xA;VAR&#xA;VIRTUAL&#xA;WHEN&#xA;WHILE&#xA;WIRED_BUS&#xA;XOR_POLARITY_CONTROL&#xA;XOR_TO_SOP_SYNTH&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks '..;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MultiBase" FileType="" Extensions="sct sql" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:multibase.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^|~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ACCESORIES&#xA;ACTION&#xA;ADD&#xA;AFTER&#xA;ALL&#xA;ALTER&#xA;APPEND&#xA;AS&#xA;ASC&#xA;AT&#xA;BEFORE&#xA;BEGIN&#xA;BEGINNING&#xA;BELL&#xA;BINARY&#xA;BOTTOM&#xA;BOX&#xA;BREAK&#xA;BY&#xA;CALL&#xA;CANCEL&#xA;CASE&#xA;CHECK&#xA;CLEAN&#xA;CLEAR&#xA;CLIPPED&#xA;CLOSE&#xA;COLLATING&#xA;COLUMN&#xA;COLUMNS&#xA;COMMENTS&#xA;COMMIT&#xA;COMPOSITES&#xA;CONNECT&#xA;CONTINUE&#xA;CONTROL&#xA;CP&#xA;CREATE&#xA;CTL&#xA;CTLCOMP&#xA;CURRENT&#xA;CURSOR&#xA;DATABASE&#xA;DBA&#xA;DEBUG&#xA;DECLARE&#xA;DEFAULT&#xA;DEFINE&#xA;DELETE&#xA;DESC&#xA;DISABLE&#xA;DISPLAY&#xA;DISTINCT&#xA;DOCTEXT&#xA;DOUBLE&#xA;DOWN&#xA;DROP&#xA;ECHO&#xA;EDIT&#xA;EDITADD&#xA;EDITING&#xA;EDITQUERY&#xA;EDITUPDATE&#xA;ELSE&#xA;END&#xA;ENDING&#xA;ERROR&#xA;EVERY&#xA;EXCLUSIVE&#xA;EXECUTE&#xA;EXIT&#xA;EXTENT&#xA;FETCH&#xA;FIELD&#xA;FILE&#xA;FIRST&#xA;FLUSH&#xA;FOR&#xA;FOREACH&#xA;FOREIGN&#xA;FOREVER&#xA;FORM&#xA;FORMAT&#xA;FRAME&#xA;FROM&#xA;FUNCTION&#xA;GET&#xA;GLOBAL&#xA;GOTO&#xA;GRANT&#xA;GROUP&#xA;HAVING&#xA;HEAD&#xA;HEADER&#xA;HELP&#xA;IF&#xA;IGNORE&#xA;IN&#xA;INDEX&#xA;INITIALIZE&#xA;INPUT&#xA;INPUT-OUTPUT&#xA;INSERT&#xA;INTERCALATE&#xA;INTERRUPT&#xA;INTO&#xA;JOINS&#xA;KEY&#xA;LABEL&#xA;LAST&#xA;LAYOUT&#xA;LEFT&#xA;LET&#xA;LIKE&#xA;LINE&#xA;LINES&#xA;LIST&#xA;LOAD&#xA;LOCAL&#xA;LOCK&#xA;LOG&#xA;MAIN&#xA;MARGINS&#xA;MENU&#xA;MESSAGE&#xA;MKDIR&#xA;MODE&#xA;MODIFY&#xA;MV&#xA;NAME&#xA;NEED&#xA;NEW&#xA;NEXT&#xA;NO&#xA;NOWAIT&#xA;NULL&#xA;OF&#xA;ON&#xA;ONE&#xA;OPEN&#xA;OPTION&#xA;OPTIONS&#xA;ORDER&#xA;OUTPUT&#xA;PAGE&#xA;PATH&#xA;PAUSE&#xA;PREPARE&#xA;PREVIOUS&#xA;PRIMARY&#xA;PRINTER&#xA;PROGRAM&#xA;PROMPT&#xA;PUBLIC&#xA;PULLDOWN&#xA;PUT&#xA;QUERY&#xA;READ&#xA;REDRAW&#xA;REFERENCES&#xA;REMOVE&#xA;RENAME&#xA;RESET&#xA;RESOURCE&#xA;RESTRICT&#xA;RETRY&#xA;RETURN&#xA;REVERSE&#xA;REVOKE&#xA;RIGHT&#xA;RM&#xA;ROLLBACK&#xA;ROLLFORWARD&#xA;ROW&#xA;RUN&#xA;SCREEN&#xA;SCROLL&#xA;SELECT&#xA;SET&#xA;SHARE&#xA;SHARED&#xA;SHELL&#xA;SILENT&#xA;SIZE&#xA;SKIP&#xA;SPACES&#xA;STANDARD&#xA;START&#xA;STATISTICS&#xA;STEP&#xA;STOP&#xA;STREAM&#xA;SWITCH&#xA;SYNONYM&#xA;TABLE&#xA;TABLES&#xA;TEMP&#xA;TERMINAL&#xA;TEST&#xA;THEN&#xA;THROUGH&#xA;TO&#xA;TOP&#xA;TRAILER&#xA;TREE&#xA;TSQL&#xA;UNBUFFERED&#xA;UNDERLINE&#xA;UNION&#xA;UNIQUE&#xA;UNLOAD&#xA;UNLOCK&#xA;UNTAGGED&#xA;UP&#xA;UPDATE&#xA;USING&#xA;VALUES&#xA;VARIABLE&#xA;VARIABLES&#xA;VIEW&#xA;WAIT&#xA;WALK&#xA;WHENEVER&#xA;WHERE&#xA;WHILE&#xA;WIDTH&#xA;WINDOW&#xA;WITH&#xA;WORK&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="AUTONEXT&#xA;DOWNSHIFT&#xA;INCLUDE&#xA;LOOKUP&#xA;NOENTRY&#xA;NOT&#xA;NOUPDATE&#xA;PICTURE&#xA;QUERYCLEAR&#xA;REQUIRED&#xA;UPSHIFT&#xA;VERIFY&#xA;ZEROFILL&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="AMBIGUOUS&#xA;CANCELLED&#xA;CRWPATH&#xA;CTLMENUMODE&#xA;CTLMM&#xA;CTSQL&#xA;CURFIELD&#xA;CURRDB&#xA;CURREC&#xA;CURTABLE&#xA;DBDATE&#xA;DBDELIM&#xA;DBEDIT&#xA;DBEMBED&#xA;DBHOST&#xA;DBINCLUDE&#xA;DBKEY&#xA;DBLANG&#xA;DBLIB&#xA;DBLONGCHAR&#xA;DBMETACH&#xA;DBMONEY&#xA;DBPASSWD&#xA;DBPATH&#xA;DBPRINT&#xA;DBPRIOR&#xA;DBPROC&#xA;DBSERVER&#xA;DBSERVICE&#xA;DBSQL&#xA;DBTEMP&#xA;DBTIME&#xA;DBUSER&#xA;DECNEG&#xA;ERRNO&#xA;FOUND&#xA;GRWPATH&#xA;ISAMBUFS&#xA;LASTKEY&#xA;LINENUM&#xA;LOCKED&#xA;MACHINE&#xA;MBBKBMP&#xA;MBBUTBMP&#xA;MBCOMPAT&#xA;MBCTRMODE&#xA;MBINI&#xA;MBISFILES&#xA;MBLANG&#xA;MBPAL&#xA;MBTERM&#xA;MBTERMCAP&#xA;MSGDIR&#xA;NEWVALUE&#xA;NOW&#xA;NUMRECS&#xA;ONXON&#xA;OPERATION&#xA;OUTOPT&#xA;OUTOPT2&#xA;OUTOPT3&#xA;PAGEPAUSE&#xA;PRTSET&#xA;ROWID&#xA;RPRINTER&#xA;SORTMEM&#xA;SQLROWS&#xA;STATUS&#xA;STRANSDIR&#xA;SYSTMENU&#xA;TCALPATH&#xA;TCBPATH&#xA;TCPATH&#xA;TERM&#xA;TNOTESPATH&#xA;TODAY&#xA;TRANSDIR&#xA;TRWPATH&#xA;TRWPRIV&#xA;UNIX&#xA;USER&#xA;USRNAME&#xA;XDBTEMP&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="avg&#xA;count&#xA;date&#xA;day&#xA;hms&#xA;hour&#xA;max&#xA;mdy&#xA;min&#xA;minute&#xA;month&#xA;mt&#xA;second&#xA;sum&#xA;time&#xA;tomt&#xA;typelength&#xA;weekday&#xA;year&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="abs&#xA;acos&#xA;actionlabel&#xA;addtoclist&#xA;ansitooem&#xA;ascii&#xA;asin&#xA;atan&#xA;atan2&#xA;basename&#xA;ceil&#xA;character&#xA;chdir&#xA;closedir&#xA;cos&#xA;cursorpos&#xA;DDEexecute&#xA;DDEinitiate&#xA;DDEpoke&#xA;DDEterminate&#xA;deg&#xA;dirname&#xA;dllfun&#xA;dokey&#xA;endquery&#xA;evalarray&#xA;evalcond&#xA;evalfun&#xA;evalnull&#xA;evalvar&#xA;exp&#xA;fgetquery&#xA;filesize&#xA;floor&#xA;fquery&#xA;fv&#xA;getctlvalue&#xA;getcwd&#xA;getenv&#xA;gethinstance&#xA;gethwnd&#xA;getpmattr&#xA;getprtsetup&#xA;getwinparm&#xA;gotoclist&#xA;gotoscreen&#xA;iconizewin&#xA;inwords&#xA;irr&#xA;keycode&#xA;keylabel&#xA;keypressed&#xA;labelname&#xA;length&#xA;letarray&#xA;letvar&#xA;licence&#xA;ln&#xA;lowcase&#xA;maximizewin&#xA;messagebox&#xA;mod&#xA;movewin&#xA;msgtext&#xA;nocomment&#xA;npv&#xA;oemtoansi&#xA;opendir&#xA;pi&#xA;pmt&#xA;pow&#xA;procid&#xA;putenv&#xA;pv&#xA;rad&#xA;readdir&#xA;restorewin&#xA;round&#xA;setpmattr&#xA;setprtsetup&#xA;setwintitle&#xA;sin&#xA;sleep&#xA;spoolfile&#xA;sqlclose&#xA;sqldescribe&#xA;sqlfetch&#xA;sqlreset&#xA;sqlselect&#xA;sqrt&#xA;strcount&#xA;strgetword&#xA;strlocate&#xA;strltrim&#xA;strnumwords&#xA;strrepeat&#xA;strreplace&#xA;strrtrim&#xA;strtrim&#xA;substring&#xA;sysmsg&#xA;tan&#xA;testfile&#xA;truncate&#xA;upcase&#xA;varlength&#xA;xtopixels&#xA;yes&#xA;ytopixels&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="CHAR&#xA;DECIMAL&#xA;INTEGER&#xA;MONEY&#xA;SERIAL&#xA;SMALLINT&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks {..}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

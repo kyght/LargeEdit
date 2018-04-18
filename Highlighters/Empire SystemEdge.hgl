@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Empire SystemEdge" FileType="" Extensions="CF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sysedge.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value=""/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="community&#xA;extension&#xA;emphistory&#xA;monitor&#xA;no_authen_traps&#xA;no_usergroup_table&#xA;no_who_table&#xA;no_remoteshell_group&#xA;no_serial_status&#xA;no_stat_nfs_filesystems&#xA;no_process_sets&#xA;no_actions&#xA;no_stat_floppy&#xA;no_process_group&#xA;no_probe_disks&#xA;ntregperf&#xA;syscontact&#xA;sysdescr&#xA;sysedge_plugin&#xA;syslocation&#xA;sysedge_debug&#xA;syslog_facility&#xA;syslog_logfile&#xA;watch&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Empire Keywords" Enabled="True" Style="" Words="application&#xA;counter&#xA;filesystem&#xA;gauge&#xA;integer&#xA;ipaddress&#xA;key&#xA;logfile&#xA;ntevent&#xA;octetstring&#xA;objectid&#xA;oid&#xA;object&#xA;process&#xA;perfinstance&#xA;performance&#xA;read-write&#xA;read-only&#xA;readwrite&#xA;readonly&#xA;registry&#xA;security&#xA;system&#xA;traps&#xA;timeticks&#xA;value&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Specifiers" Enabled="True" Style="" Words="absolute&#xA;all&#xA;error&#xA;failure&#xA;information&#xA;delta&#xA;devdevice&#xA;devmntpt&#xA;devbsize&#xA;devtblks&#xA;devfblks&#xA;devtfiles&#xA;devffiles&#xA;devmaxnamelen&#xA;devtype&#xA;devfsid&#xA;devunmount&#xA;devcapacity&#xA;devinodecapacity&#xA;success&#xA;warning&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="nop&#xA;ne&#xA;gt&#xA;ge&#xA;le&#xA;lt&#xA;eq&#xA;=&#xA;&gt;&#xA;&gt;=&#xA;&lt;&#xA;&lt;=&#xA;!&#xA;!=&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="NTRegPerf Values" Enabled="True" Style="" Words="reg_dword&#xA;reg_sz&#xA;reg_expand_sz&#xA;reg_mult_sz&#xA;perf_counter_counter&#xA;perf_counter_rawcount&#xA;perf_counter_rawcount_hex&#xA;perf_sample_counter&#xA;perf_counter_timer&#xA;perf_counter_bulk_count&#xA;perf_counter_large_rawcount&#xA;perf_counter_large_rawcount_hex&#xA;perf_counter_timer_inv&#xA;perf_average_bulk&#xA;perf_100nsec_timer&#xA;perf_100nsec_timer_inv&#xA;perf_counter_multi_timer&#xA;perf_counter_multi_timer_inv&#xA;perf_100nsec_multi_timer&#xA;perf_100nsec_multi_timer_inv&#xA;perf_elapsed_time&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VB Script" FileType="" Extensions="VBS" Version="1" Revision="0" Sample="' Dim, Private, Public, ReDim, or Static statements.&#xA;Option Explicit&#xA;Public objCurrentLayer As AcadLayer&#xA;Select Case CommandName&#xA;Case &quot;TEXT&quot;, &quot;MTEXT&quot;, &quot;DTEXT&quot; ' then do the following..&#xA;If Not ThisDrawing.ActiveLayer.Name = &quot;TEXT&quot; Then&#xA;Set objCurrentLayer = ThisDrawing.Layers.Add(&quot;TEXT&quot;)&#xA;objCurrentLayer.LayerOn = True&#xA;End If&#xA;If Not ThisDrawing.ActiveLayer.Name = &quot;DIM&quot; Then&#xA;End Sub&#xA;WScript.Echo vbCrLf &amp; lngDec &amp; &quot; = 0x&quot; &amp; strHex&#xA;Sub Link4_onMouseMove()&#xA;  Label1.Caption = DescribeLink(3)&#xA;  Status = DescribeLink(3)&#xA;  tID = setTimeout(&quot;ClearDesc()&quot;,4000)&#xA;End Sub&#xA;&#xA;Sub window_onLoad()&#xA; strFabric(1,1) = &quot;Green&quot;&#xA;end sub&#xA;&#xA;Dim lastX, lastY&#xA;browserver = navigator.Appversion&#xA;if Left(browserver, 3) = 4.0 then&#xA;   ie4 = True&#xA;else&#xA;   ie4 = False&#xA;end if&#xA;&#xA;Function OverIcon(x, y, rx1, ry1, rx2, ry2)&#xA;	OverIcon =  x&gt;=rx1 AND x&lt;=rx2 AND y&gt;=ry1 AND y&lt;=ry2&#xA;End Function&#xA;&#xA;Sub Window_OnLoad&#xA;Set dicTestDict = CreateObject(&quot;Scripting.Dictionary&quot;)	&#xA;Set frm = Document.frmForm1&#xA;End Sub&#xA;&#xA;Sub cmdAddNew_OnClick&#xA;If dicTestDict.Exists(frm.txtNewKey.Value) Then&#xA;    Alert &quot;This key already exists&quot;&#xA;Else&#xA;    dicTestDict.Add frm.txtNewKey.Value, frm.txtNewItem.Value&#xA;    Alert &quot;Key and item added successfully&quot;&#xA;End If&#xA;Alert VarType(frm)&#xA;End Sub&#xA;' Check command line parameters&#xA;Select Case WScript.Arguments.Count&#xA;	Case 1&#xA;		' Check if parameter is a valid number&#xA;		On Error Resume Next&#xA;		lngDec = CLng( WScript.Arguments(0) )&#xA;		If Err Then Syntax&#xA;		On Error GoTo 0&#xA;		' Check if number is within range&#xA;		If lngDec &gt; 2147483647 Then Syntax&#xA;	Case Else&#xA;		Syntax&#xA;End Select&#xA;&#xA;' Convert number to string representing hexadecimal value&#xA;strHex = CStr( Hex( lngDec ) )&#xA;' Add leading zeros if necessary&#xA;intLen = Len( strHex )&#xA;if intLen &lt; 8 Then&#xA;	Do Until intLen = 8&#xA;		strHex = &quot;0&quot; &amp; strHex&#xA;		intLen = Len( strHex )&#xA;	Loop&#xA;End If&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="And&#xA;As&#xA;Call&#xA;Case&#xA;Class&#xA;Const&#xA;Dim&#xA;Do&#xA;Each&#xA;Else&#xA;ElseIf&#xA;Empty&#xA;End&#xA;Eqv&#xA;Erase&#xA;Error&#xA;Execute&#xA;Exit&#xA;Explicit&#xA;For&#xA;Function&#xA;Get&#xA;Goto&#xA;If&#xA;Imp&#xA;Is&#xA;Let&#xA;Loop&#xA;Mod&#xA;Next&#xA;New&#xA;Not&#xA;Nothing&#xA;Null&#xA;On&#xA;Option&#xA;Or&#xA;Private&#xA;Property&#xA;Public&#xA;Randomize&#xA;ReDim&#xA;Rem&#xA;Resume&#xA;Select&#xA;Set&#xA;Stop&#xA;Sub&#xA;Then&#xA;To&#xA;Until&#xA;Wend&#xA;While&#xA;With&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="Abs&#xA;Array&#xA;Asc&#xA;Atn&#xA;CBool&#xA;CByte&#xA;CCur&#xA;CDate&#xA;CDbl&#xA;Chr&#xA;CInt&#xA;CLng&#xA;Cos&#xA;CSng&#xA;CStr&#xA;Date&#xA;DateAddFunction&#xA;DateDiff&#xA;DatePart&#xA;DateSerial&#xA;DateValue&#xA;Day&#xA;Eval&#xA;Exp&#xA;Filter&#xA;Fix&#xA;FormatCurrency&#xA;FormatDateTime&#xA;FormatNumber&#xA;FormatPercent&#xA;GetObject&#xA;GetRef&#xA;Hex&#xA;Hour&#xA;InputBox&#xA;InStr&#xA;InStrRev&#xA;Int&#xA;IsArray&#xA;IsDate&#xA;IsEmpty&#xA;IsNull&#xA;IsNumeric&#xA;IsObject&#xA;Join&#xA;LBound&#xA;LCase&#xA;Left&#xA;Len&#xA;LoadPicture&#xA;Log&#xA;LTrim&#xA;Mid&#xA;Minute&#xA;Month&#xA;MonthName&#xA;MsgBox&#xA;Now&#xA;Oct&#xA;Replace&#xA;RGB&#xA;Right&#xA;Rnd&#xA;Round&#xA;RTrim&#xA;ScriptEngine&#xA;ScriptEngineBuildVersion&#xA;ScriptEngineMajorVersion&#xA;ScriptEngineMinorVersion&#xA;Second&#xA;Sgn&#xA;Sin&#xA;Space&#xA;Split&#xA;Sqr&#xA;StrComp&#xA;String&#xA;StrReverse&#xA;Tan&#xA;Time&#xA;Timer&#xA;TimeSerial&#xA;TimeValue&#xA;Trim&#xA;TypeName&#xA;UBound&#xA;UCase&#xA;VarType&#xA;Weekday&#xA;WeekdayName&#xA;Year&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties" Enabled="True" Style="" Words="AccountDisabled&#xA;AccountExpirationDate&#xA;Application&#xA;Arguments&#xA;AtEndOfLine&#xA;AtEndOfStream&#xA;Attributes&#xA;AutoUnlockInterval&#xA;AvailableSpace&#xA;BadPasswordAttempts&#xA;Column&#xA;CompareMode&#xA;ComputerName&#xA;Count&#xA;DateCreated&#xA;DateLastAccessed&#xA;DateLastModified&#xA;Description&#xA;Drive&#xA;DriveLetter&#xA;DriveType&#xA;Drives&#xA;Environment&#xA;FileSystem&#xA;Files&#xA;FirstIndex&#xA;FreeSpace&#xA;FullName&#xA;Global&#xA;HelpContext&#xA;HelpFile&#xA;HomeDirDrive&#xA;HomeDirectory&#xA;HotKey&#xA;IconLocation&#xA;IgnoreCase&#xA;Interactive&#xA;IsAccountLocked&#xA;IsReady&#xA;IsRootFolder&#xA;Item&#xA;Key&#xA;LastLogin&#xA;LastLogoff&#xA;Length&#xA;Line&#xA;LockoutObservationInterval&#xA;LoginHours&#xA;LoginScript&#xA;LoginWorkstations&#xA;MaxBadPasswordsAllowed&#xA;MaxLogins&#xA;MaxPasswordAge&#xA;MaxStorage&#xA;MinPasswordAge&#xA;MinPasswordLength&#xA;Name&#xA;Number&#xA;ObjectSid&#xA;Parameters&#xA;ParentFolder&#xA;PasswordAge&#xA;PasswordExpirationDate&#xA;PasswordExpired&#xA;PasswordHistoryLength&#xA;Path&#xA;Pattern&#xA;PrimaryGroupID&#xA;Profile&#xA;Remove&#xA;RootFolder&#xA;ScriptFullName&#xA;ScriptName&#xA;SerialNumber&#xA;ShareName&#xA;ShortName&#xA;ShortPath&#xA;Size&#xA;Source&#xA;SpecialFolders&#xA;Subfolders&#xA;TargetPath&#xA;TotalSize&#xA;Type&#xA;UserDomain&#xA;UserFlags&#xA;UserName&#xA;Value&#xA;Version&#xA;VolumeName&#xA;WindowStyle&#xA;WorkingDirectory&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Methods" Enabled="True" Style="" Words="Add&#xA;AddPrinterConnection&#xA;AddWindowsPrinterConnection&#xA;AppActivate&#xA;BuildPath&#xA;Clear&#xA;Close&#xA;ConnectObject&#xA;Copy&#xA;CopyFile&#xA;CopyFolder&#xA;CreateFolder&#xA;CreateObject&#xA;CreateShortcut&#xA;CreateTextFile&#xA;Delete&#xA;DeleteFile&#xA;DeleteFolder&#xA;DisconnectObject&#xA;DriveExists&#xA;Echo&#xA;EnumNetworkDrives&#xA;EnumPrinterConnections&#xA;Exists&#xA;ExpandEnvironmentStrings&#xA;FileExists&#xA;FolderExists&#xA;GetAbsolutePathName&#xA;GetBaseName&#xA;GetDrive&#xA;GetDriveName&#xA;GetExtensionName&#xA;GetFile&#xA;GetFileName&#xA;GetFolder&#xA;GetParentFolderName&#xA;GetResource&#xA;GetSpecialFolder&#xA;GetTempName&#xA;Items&#xA;Keys&#xA;LogEvent&#xA;MapNetworkDrive&#xA;Move&#xA;MoveFile&#xA;MoveFolder&#xA;OpenAsTextStream&#xA;OpenTextFile&#xA;Popup&#xA;Put&#xA;Quit&#xA;Raise&#xA;Read&#xA;ReadAll&#xA;ReadLine&#xA;RegDelete&#xA;RegRead&#xA;RegWrite&#xA;RemoveAll&#xA;RemoveNetworkDrive&#xA;RemovePrinterConnection&#xA;Replace&#xA;Run&#xA;Save&#xA;SendKeys&#xA;SetDefaultPrinter&#xA;Skip&#xA;SkipLine&#xA;Sleep&#xA;SetInfo&#xA;Test&#xA;Write&#xA;WriteBlankLines&#xA;WriteLine&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="Dictionary&#xA;Err&#xA;File&#xA;FileSystemObject&#xA;Folder&#xA;Match&#xA;RegExp&#xA;TextStream&#xA;Wscript&#xA;WshNetwork&#xA;WshShell&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Constants" Enabled="True" Style="" Words="False&#xA;FALSE&#xA;True&#xA;TRUE&#xA;vbAbort&#xA;vbAbortRetryIgnore&#xA;vbApplicationModal&#xA;vbArray&#xA;vbBinaryCompare&#xA;vbBlack&#xA;vbBlue&#xA;vbBoolean&#xA;vbByte&#xA;vbCancel&#xA;vbCr&#xA;vbCritical&#xA;vbCrLf&#xA;vbCurrency&#xA;vbCyan&#xA;vbDataObject&#xA;vbDate&#xA;vbDecimal&#xA;vbDefaultButton1&#xA;vbDefaultButton2&#xA;vbDefaultButton3&#xA;vbDefaultButton4&#xA;vbDouble&#xA;vbEmpty&#xA;vbError&#xA;vbExclamation&#xA;vbFirstFourDays&#xA;vbFirstFullWeek&#xA;vbFirstJan1&#xA;vbFormFeed&#xA;vbFriday&#xA;vbGeneralDate&#xA;vbGreen&#xA;vbIgnore&#xA;vbInformation&#xA;vbInteger&#xA;vbLf&#xA;vbLong&#xA;vbLongDate&#xA;vbLongTime&#xA;vbMagenta&#xA;vbMonday&#xA;vbNewLine&#xA;vbNo&#xA;vbNull&#xA;vbNullChar&#xA;vbNullString&#xA;vbObject&#xA;vbObjectError&#xA;vbOK&#xA;vbOKCancel&#xA;vbOKOnly&#xA;vbQuestion&#xA;vbRed&#xA;vbRetry&#xA;vbRetryCancel&#xA;vbSaturday&#xA;vbShortDate&#xA;vbShortTime&#xA;vbSingle&#xA;vbString&#xA;vbSunday&#xA;vbSystemModal&#xA;vbTab&#xA;vbTextCompare&#xA;vbThursday&#xA;vbTuesday&#xA;vbUseSystem&#xA;vbUseSystemDayOfWeek&#xA;vbVariant&#xA;vbVerticalTab&#xA;vbWednesday&#xA;vbWhite&#xA;vbYellow&#xA;vbYes&#xA;vbYesNo&#xA;vbYesNoCancel&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

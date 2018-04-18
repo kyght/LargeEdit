@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="HLA" FileType="" Extensions="HLA" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmhighlevel.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;&amp;'()*+,-./;=?[]^|"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="#asm&#xA;#else&#xA;#elseif&#xA;#emit&#xA;#endasm&#xA;#endif&#xA;#endtext&#xA;#endwhile&#xA;#error&#xA;#if&#xA;#include&#xA;#print&#xA;#text&#xA;#while&#xA;abstract&#xA;align&#xA;begin&#xA;boolean&#xA;break&#xA;breakif&#xA;byte&#xA;char&#xA;class&#xA;const&#xA;context&#xA;cseg&#xA;cset&#xA;data&#xA;do&#xA;dseg&#xA;dup&#xA;dword&#xA;else&#xA;elseif&#xA;end&#xA;endclass&#xA;endcontext&#xA;endfor&#xA;endif&#xA;endmacro&#xA;endreadonly&#xA;endrecord&#xA;endstatic&#xA;endtry&#xA;endunion&#xA;endwhile&#xA;enum&#xA;exception&#xA;exitexitif&#xA;external&#xA;foreach&#xA;forever&#xA;forward&#xA;if&#xA;in&#xA;inherits&#xA;int16&#xA;int32&#xA;int8&#xA;iterator&#xA;keyword&#xA;lazy&#xA;macro&#xA;method&#xA;mod&#xA;name&#xA;namespace&#xA;noalignstk&#xA;nodisplay&#xA;noframe&#xA;nostorage&#xA;override&#xA;pointer&#xA;procedure&#xA;program&#xA;qword&#xA;raise&#xA;readonly&#xA;real32&#xA;real64&#xA;real80&#xA;record&#xA;repeat&#xA;result&#xA;returns&#xA;setthunk&#xA;static&#xA;storage&#xA;string&#xA;tbyte&#xA;terminator&#xA;text&#xA;then&#xA;this&#xA;thunk&#xA;to&#xA;try&#xA;type&#xA;union&#xA;unit&#xA;uns16&#xA;uns32&#xA;uns8&#xA;until&#xA;val&#xA;valres&#xA;var&#xA;while&#xA;word&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Machine Instructions" Enabled="True" Style="" Words="aaa&#xA;aad&#xA;aam&#xA;aas&#xA;adc&#xA;add&#xA;and&#xA;bound&#xA;bsf&#xA;bsr&#xA;bswap&#xA;bt&#xA;btc&#xA;btr&#xA;bts&#xA;call&#xA;cbw&#xA;cdq&#xA;clc&#xA;cld&#xA;cli&#xA;cmc&#xA;cmp&#xA;cmpsb&#xA;cmpsd&#xA;cmpsw&#xA;cmpxchg&#xA;cwd&#xA;cwde&#xA;daa&#xA;das&#xA;dec&#xA;div&#xA;enter&#xA;f2xm1&#xA;fabs&#xA;fadd&#xA;faddp&#xA;fbld&#xA;fbstp&#xA;fchs&#xA;fclex&#xA;fcom&#xA;fcomp&#xA;fcompp&#xA;fcos&#xA;fdecstp&#xA;fdiv&#xA;fdivp&#xA;fdivr&#xA;fdivrp&#xA;ffree&#xA;fiadd&#xA;ficom&#xA;ficomp&#xA;fidiv&#xA;fidivr&#xA;fild&#xA;fimul&#xA;fincstp&#xA;finit&#xA;fist&#xA;fistp&#xA;fisub&#xA;fisubr&#xA;fld&#xA;fld1&#xA;fldcw&#xA;fldenv&#xA;fldl2e&#xA;fldl2t&#xA;fldlg2&#xA;fldln2&#xA;fldpi&#xA;fldz&#xA;fmul&#xA;fmulp&#xA;fnop&#xA;fpatan&#xA;fprem&#xA;fprem1&#xA;fptan&#xA;frndint&#xA;frstor&#xA;fsave&#xA;fscale&#xA;fsin&#xA;fsincos&#xA;fsqrt&#xA;fst&#xA;fstcw&#xA;fstenv&#xA;fstp&#xA;fstsw&#xA;fsub&#xA;fsubp&#xA;fsubr&#xA;fsubrp&#xA;ftst&#xA;fucom&#xA;fucomp&#xA;fucompp&#xA;fwait&#xA;fxam&#xA;fxch&#xA;fxtract&#xA;fyl2x&#xA;fyl2xp1&#xA;idiv&#xA;imod&#xA;imul&#xA;inc&#xA;insb&#xA;insd&#xA;insw&#xA;int&#xA;intmul&#xA;into&#xA;iret&#xA;iretd&#xA;ja&#xA;jae&#xA;jb&#xA;jbe&#xA;jc&#xA;jcxz&#xA;je&#xA;jecxz&#xA;jg&#xA;jge&#xA;jl&#xA;jle&#xA;jmp&#xA;jna&#xA;jnae&#xA;jnb&#xA;jnbe&#xA;jnc&#xA;jne&#xA;jng&#xA;jnge&#xA;jnl&#xA;jnle&#xA;jno&#xA;jnp&#xA;jns&#xA;jnz&#xA;jo&#xA;jp&#xA;jpe&#xA;jpo&#xA;js&#xA;jz&#xA;lahf&#xA;lds&#xA;lea&#xA;leave&#xA;les&#xA;lfs&#xA;lgs&#xA;lodsb&#xA;lodsd&#xA;lodsw&#xA;loop&#xA;loope&#xA;loopne&#xA;loopnz&#xA;loopz&#xA;lss&#xA;mov&#xA;movsb&#xA;movsd&#xA;movsw&#xA;movsx&#xA;movzx&#xA;mul&#xA;neg&#xA;nop&#xA;not&#xA;or&#xA;out&#xA;outsb&#xA;outsd&#xA;outsw&#xA;pea&#xA;pop&#xA;popa&#xA;popad&#xA;popf&#xA;popfd&#xA;push&#xA;pusha&#xA;pushad&#xA;pushd&#xA;pushf&#xA;pushfd&#xA;pushw&#xA;rcl&#xA;rcr&#xA;rdtsc&#xA;rep&#xA;repe&#xA;repne&#xA;repnz&#xA;repz&#xA;ret&#xA;rol&#xA;ror&#xA;sahf&#xA;sal&#xA;sar&#xA;sbb&#xA;scasb&#xA;scasd&#xA;scasw&#xA;set&#xA;seta&#xA;setae&#xA;setb&#xA;setbe&#xA;setc&#xA;sete&#xA;setg&#xA;setge&#xA;setl&#xA;setle&#xA;setna&#xA;setnae&#xA;setnb&#xA;setnbe&#xA;setnc&#xA;setne&#xA;setng&#xA;setnge&#xA;setnl&#xA;setnle&#xA;setno&#xA;setnp&#xA;setns&#xA;setnz&#xA;seto&#xA;setp&#xA;setpe&#xA;setpo&#xA;sets&#xA;setz&#xA;shl&#xA;shld&#xA;shr&#xA;shrd&#xA;stc&#xA;std&#xA;sti&#xA;stosb&#xA;stosd&#xA;stosw&#xA;sub&#xA;test&#xA;wait&#xA;xadd&#xA;xchg&#xA;xlat&#xA;xor&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="@a&#xA;@ae&#xA;@b&#xA;@be&#xA;@c&#xA;@e&#xA;@g&#xA;@ge&#xA;@l&#xA;@le&#xA;@na&#xA;@nae&#xA;@nb&#xA;@nbe&#xA;@nc&#xA;@ne&#xA;@nge&#xA;@nl&#xA;@nle&#xA;@no&#xA;@ns&#xA;@nz&#xA;@o&#xA;@s&#xA;@z&#xA;ah&#xA;al&#xA;ax&#xA;bh&#xA;bl&#xA;bp&#xA;bx&#xA;ch&#xA;cl&#xA;cx&#xA;dh&#xA;di&#xA;dl&#xA;dx&#xA;dx:ax&#xA;eax&#xA;ebp&#xA;ebx&#xA;ecx&#xA;edi&#xA;edx&#xA;edx:eax&#xA;esi&#xA;esp&#xA;si&#xA;sp&#xA;st0&#xA;st1&#xA;st2&#xA;st3&#xA;st4&#xA;st5&#xA;st6&#xA;st7&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Built-in Functions" Enabled="True" Style="" Words="@abs&#xA;@addofs1st&#xA;@arity&#xA;@bound&#xA;@byte&#xA;@ceil&#xA;@class&#xA;@cos&#xA;@curdir&#xA;@curlex&#xA;@curobject&#xA;@curoffset&#xA;@date&#xA;@defined&#xA;@delete&#xA;@dim&#xA;@elements&#xA;@elementsize&#xA;@enumsize&#xA;@eos&#xA;@eval&#xA;@exactlynchar&#xA;@exactlyncset&#xA;@exactlynichar&#xA;@exactlyntomchar&#xA;@exactlyntomcset&#xA;@exactlyntomichar&#xA;@exp&#xA;@extract&#xA;@firstnchar&#xA;@firstncset&#xA;@firstnichar&#xA;@floor&#xA;@index&#xA;@insert&#xA;@into&#xA;@isalpha&#xA;@isalphanum&#xA;@isclass&#xA;@isconst&#xA;@isdigit&#xA;@IsExternal&#xA;@isfreg&#xA;@islower&#xA;@ismem&#xA;@isreg&#xA;@isreg16&#xA;@isreg32&#xA;@isreg8&#xA;@isspace&#xA;@istype&#xA;@isupper&#xA;@isxdigit&#xA;@lastobject&#xA;@length&#xA;@lex&#xA;@linenumber&#xA;@localoffset&#xA;@log&#xA;@log10&#xA;@lowercase&#xA;@matchintconst&#xA;@matchistr&#xA;@matchrealconst&#xA;@matchstr&#xA;@matchstrconst&#xA;@matchtoistr@matchid&#xA;@matchtostr&#xA;@max&#xA;@min&#xA;@minparmsize&#xA;@name&#xA;@norlesschar&#xA;@norlesscset&#xA;@norlessichar&#xA;@normorechar&#xA;@normorecset&#xA;@normoreichar&#xA;@ntomchar&#xA;@ntomcset&#xA;@ntomichar&#xA;@odd&#xA;@offset&#xA;@onechar&#xA;@onecset&#xA;@oneichar&#xA;@oneormorechar&#xA;@oneormorecset&#xA;@oneormoreichar&#xA;@oneormorews&#xA;@parmoffset&#xA;@pclass&#xA;@peekchar&#xA;@peekcset&#xA;@peekichar&#xA;@peekws&#xA;@ptype&#xA;@random&#xA;@randomize&#xA;@rindex&#xA;@section&#xA;@sin&#xA;@size&#xA;@sqrt&#xA;@staticname&#xA;@strbrk&#xA;@string:identifier&#xA;@strset&#xA;@strspan&#xA;@substr&#xA;@tan&#xA;@text&#xA;@time&#xA;@tokenize&#xA;@tostring:identifier&#xA;@trim&#xA;@type&#xA;@typename&#xA;@uppercase&#xA;@uptochar&#xA;@uptocset&#xA;@uptoichar&#xA;@uptoistr&#xA;@uptostr&#xA;@wsoreos&#xA;@wstheneos&#xA;@zeroormorechar&#xA;@zeroormorecset&#xA;@zeroormoreichar&#xA;@zeroormorews&#xA;@zerooronechar&#xA;@zerooronecset&#xA;@zerooroneichar&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

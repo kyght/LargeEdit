@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="HTML(JScript+VBScript+ASP)" FileType="" Extensions="htm html asp" Version="1" Revision="0" Sample="&lt;!doctype html public &quot;-//w3c//dtd html 4.0 transitional//en&quot;&gt;&#xA;&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt;&#xA;&lt;/head&gt;&#xA;&lt;!-- Styles example: --&gt;&#xA;&lt;style&gt;&#xA; H1 {&#xA;  background-color :black;&#xA;  color : White;&#xA;  font-family : Arial, Helvetica, sans-serif;&#xA;  font : 9pt Arial;&#xA;  font-size : 9pt;}&#xA;&lt;/style&gt;&#xA;&lt;body bgcolor=&quot;#DDDDDD&quot; onLoad =&quot;checkowner()&quot;&gt;&#xA;&lt;form method=&quot;POST&quot; name=&quot;Form1&quot;&gt;&amp;nbsp;&#xA;    &lt;div align=&quot;center&quot;&gt;&lt;center&gt;&lt;table border=&quot;0&quot; width=&quot;100%&quot;&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;&lt;font size=&quot;1&quot;&gt;&lt;/font&gt;&lt;/td&gt;&#xA;            &lt;script type=&quot;text/javascript&quot; src=&quot;coolmenu.js&quot;&gt;&lt;/script&gt;&#xA;            &lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;input&#xA;            type=&quot;button&quot; name=&quot;b2&quot; value=&quot;&amp;lt;&amp;lt;?????&quot;&#xA;            onclick=&quot;previous(Form1)&quot;&gt; &lt;input type=&quot;button&quot;&#xA;            name=&quot;b1&quot; value=&quot;?????&amp;gt;&amp;gt;&quot;&#xA;            onclick=&quot;next(Form1)&quot;&gt; &lt;/font&gt;&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;&lt;!-- Javascript --&gt;&#xA;&lt;script language=&quot;JavaScript&quot;&gt;&#xA;function checkowner()&#xA;{&#xA; try&#xA; {&#xA;  if (parent.window.frames[1].name !=&quot;main&quot;)&#xA;   {&#xA;    window.document.location =&quot;start.htm&quot;&#xA;   }&#xA; }&#xA; catch(errorObject)&#xA;  /*from page1*/&#xA;  _child = new String;&#xA;   if (parent.window.frames[0].name==&quot;f1&quot;)&#xA;   {&#xA;    return&#xA;   }//if (parent.window.frames[0].name==&quot;f1&quot;)&#xA;    if (parseInt(_child) &gt; _chcount)&#xA;    {&#xA;     _chcount = _chcount+1&#xA;     return&#xA;    }//if (_child != &quot;0&quot;)&#xA;    else&#xA;  &lt;/script&gt;&#xA;&lt;html&gt;&#xA;&lt;!-- VBscript --&gt;&#xA;&lt;SCRIPT LANGUAGE=&quot;VBScript&quot;&gt;&#xA;&lt;!--&#xA;   Function CanDeliver(Dt)&#xA;      CanDeliver = (CDate(Dt) - Now()) &gt; 2&#xA;   End Function&#xA;--&gt;&#xA;&lt;/SCRIPT&gt;&#xA;&lt;TITLE&gt;Place Your Order&lt;/TITLE&gt;&#xA;&lt;SCRIPT LANGUAGE=&quot;VBScript&quot;&gt;&#xA;&lt;!--&#xA;   Function CanDeliver(Dt)&#xA;      CanDeliver = (CDate(Dt) - Now()) &gt; 2&#xA;   End Function&#xA;//Copyright© 1998 Microsoft Corporation. All Rights Reserved.&#xA;//**Start Encode**&#xA;function verifyCorrectBrowser(){&#xA;  if(navigator.appName == &quot;Microsoft Internet Explorert&quot;)&#xA;    if (navigator.appVersion.indexOf (&quot;5.&quot;) &gt;= 0)&#xA;      return(true);&#xA;    else&#xA;      return(false);&#xA;}&#xA;function getAppropriatePage(){&#xA;  var str4 = &quot;would have been loaded.&quot;;&#xA;  if (verifyCorrectBrowser())&#xA;    document.write(str1 + str3 + str4);&#xA;  else&#xA;    document.write(str1 + str2 + str3 + str4);&#xA;}&#xA;--&gt;&#xA;&lt;/SCRIPT&gt;&#xA;&#xA;&lt;!-- ASP (VB Script) --&gt;&#xA;&lt;%&#xA;Option Explicit&#xA;Dim sql,rsRoot&#xA;username = Request.Cookies(&quot;pb_username&quot;)&#xA;'repliesdisplay alters amount of replies to display on page&#xA;if recordnum = &quot;&quot; then recordnum = 0 end if&#xA;id = Request.QueryString(&quot;id&quot;)&#xA;%&gt;&#xA;&lt;!--#include file=&quot;conn.asp&quot;--&gt;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <Range Name="HTML Tag" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Standard Tags" Enabled="True" Style="" Words="html&#xA;head&#xA;meta&#xA;body&#xA;form&#xA;div&#xA;tr&#xA;td&#xA;center&#xA;table&#xA;font&#xA;a&#xA;abbr&#xA;acronym&#xA;address&#xA;applet&#xA;area&#xA;b&#xA;base&#xA;basefont&#xA;bdo&#xA;big&#xA;blockquote&#xA;button&#xA;cite&#xA;br&#xA;caption&#xA;code&#xA;dd&#xA;dfn&#xA;col&#xA;colgroup&#xA;dir&#xA;dl&#xA;dt&#xA;em&#xA;fieldset&#xA;h2&#xA;iframe&#xA;h1&#xA;i&#xA;frame&#xA;frameset&#xA;h3&#xA;h4&#xA;h5&#xA;h6&#xA;hr&#xA;ilayer&#xA;img&#xA;input&#xA;isindex&#xA;kbd&#xA;label&#xA;legend&#xA;li&#xA;link&#xA;map&#xA;noframes&#xA;object&#xA;p&#xA;menu&#xA;ol&#xA;noscript&#xA;optgroup&#xA;option&#xA;param&#xA;pre&#xA;q&#xA;s&#xA;samp&#xA;select&#xA;small&#xA;span&#xA;strike&#xA;strong&#xA;sub&#xA;sup&#xA;tbody&#xA;text&#xA;textarea&#xA;tfoot&#xA;th&#xA;thead&#xA;title&#xA;tt&#xA;ul&#xA;u&#xA;var&#xA;">
+              <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+            </KeyList>
+            <KeyList Name="Attributes" Enabled="True" Style="" Words="abbr&#xA;&#xA;accept-charset&#xA;accept&#xA;accesskey&#xA;action&#xA;align&#xA;alink&#xA;alt&#xA;archive&#xA;axis&#xA;background&#xA;bgcolor&#xA;border&#xA;cellpadding&#xA;cellspacing&#xA;char&#xA;charoff&#xA;charset&#xA;checked&#xA;cite=&#xA;class&#xA;classid&#xA;clear&#xA;code=&#xA;codebase&#xA;codetype&#xA;color&#xA;cols&#xA;colspan&#xA;compact&#xA;content&#xA;coords&#xA;data&#xA;datetime&#xA;declare&#xA;defer&#xA;dir=&#xA;disabled&#xA;enctype&#xA;face&#xA;for&#xA;frame=&#xA;frameborder&#xA;headers&#xA;height&#xA;href&#xA;hreflang&#xA;hspace&#xA;http-equiv&#xA;id&#xA;ismap&#xA;label=&#xA;lang&#xA;language&#xA;link&#xA;longdesc&#xA;mailto&#xA;marginheight&#xA;marginwidth&#xA;maxlength&#xA;media&#xA;method&#xA;multiple&#xA;name&#xA;nohref&#xA;noresize&#xA;noshade&#xA;nowrap&#xA;object=&#xA;profile&#xA;prompt&#xA;readonly&#xA;rel&#xA;rev&#xA;rows&#xA;rowspan&#xA;rules&#xA;scheme&#xA;scope&#xA;scrolling&#xA;selected&#xA;shape&#xA;size&#xA;span=&#xA;src&#xA;standby&#xA;start&#xA;style=&#xA;summary&#xA;tabindex&#xA;target&#xA;text=&#xA;title=&#xA;type&#xA;usemap&#xA;valign&#xA;value&#xA;valuetype&#xA;version&#xA;vlink&#xA;vspace&#xA;width&#xA;=&#xA;">
+              <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+            </KeyList>
+            <KeyList Name="Standard Events" Enabled="True" Style="" Words="onblur&#xA;onchange&#xA;onclick&#xA;ondblclick&#xA;onfocus&#xA;onkeydown&#xA;onkeypress&#xA;onkeyup&#xA;onload&#xA;onmousedown&#xA;onmousemove&#xA;onmouseout&#xA;onmouseover&#xA;onmouseup&#xA;onreset&#xA;onselect&#xA;onsubmit&#xA;onunload&#xA;">
+              <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+            </KeyList>
+            <Range Name="Values" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules>
+                <Range Name="Color" Enabled="True" Style="">
+                  <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+                  <Attributes Foreground="$000000C6" Background="clWhite" Style=""/>
+                  <Properties CloseOnTerm="True" CloseOnEol="True"/>
+                  <OpenToken/>
+                  <CloseToken/>
+                  <MultiTokens>
+                    <Tokens Open="#"/>
+                  </MultiTokens>
+                  <SubRules/>
+                </Range>
+                <Range Name="Special Symbols" Enabled="True" Style="">
+                  <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+                  <Attributes Foreground="$00800040" Background="clWhite" Style=""/>
+                  <Properties/>
+                  <OpenToken/>
+                  <CloseToken/>
+                  <MultiTokens>
+                    <Tokens Open="&amp;" Close=";"/>
+                  </MultiTokens>
+                  <SubRules/>
+                </Range>
+              </SubRules>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Java Script" Enabled="True" Style="">
+          <Delimiters Value="!$%&amp;'()*+,./;&lt;=&gt;?@[\]^{|}~"/>
+          <Attributes Foreground="clBlack" Background="$00E9E9E9" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;script language=&quot;J" Close="&lt;/script&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Key words" Enabled="True" Style="" Words="boolean&#xA;break&#xA;byte&#xA;case&#xA;catch&#xA;char&#xA;class&#xA;const&#xA;continue&#xA;debugger&#xA;default&#xA;delete&#xA;do&#xA;double&#xA;else&#xA;enum&#xA;export&#xA;extends&#xA;false&#xA;final&#xA;finally&#xA;float&#xA;for&#xA;function&#xA;goto&#xA;if&#xA;implements&#xA;import&#xA;in&#xA;instanceof&#xA;int&#xA;interface&#xA;long&#xA;native&#xA;new&#xA;null&#xA;package&#xA;private&#xA;protected&#xA;public&#xA;return&#xA;short&#xA;static&#xA;super&#xA;switch&#xA;synchronized&#xA;this&#xA;throw&#xA;throws&#xA;transient&#xA;true&#xA;try&#xA;typeof&#xA;var&#xA;void&#xA;volatile&#xA;while&#xA;with&#xA;">
+              <Attributes Foreground="clGreen" Background="$00E9E9E9" Style=""/>
+            </KeyList>
+            <KeyList Name="Objects" Enabled="True" Style="" Words="Anchor&#xA;Applet&#xA;Area&#xA;Array&#xA;Boolean&#xA;Button&#xA;Checkbox&#xA;Date&#xA;document&#xA;event&#xA;FileUpload&#xA;Form&#xA;Frame&#xA;Function&#xA;Hidden&#xA;History&#xA;Image&#xA;java&#xA;JavaArray&#xA;JavaClass&#xA;JavaObject&#xA;JavaPackage&#xA;Layer&#xA;Link&#xA;Location&#xA;Math&#xA;MimeType&#xA;navigator&#xA;netscape&#xA;Number&#xA;Object&#xA;Option&#xA;Packages&#xA;Password&#xA;Plugin&#xA;Radio&#xA;RegExp&#xA;Reset&#xA;screen&#xA;Select&#xA;String&#xA;Style&#xA;Submit&#xA;sun&#xA;Text&#xA;Textarea&#xA;window&#xA;">
+              <Attributes Foreground="$00FF0080" Background="$00E9E9E9" Style=""/>
+            </KeyList>
+            <KeyList Name="Methods" Enabled="True" Style="" Words="abs&#xA;acos&#xA;alert&#xA;anchor&#xA;apply&#xA;asin&#xA;atan&#xA;atan2&#xA;atob&#xA;attachEvent&#xA;back&#xA;big&#xA;blink&#xA;blur&#xA;bold&#xA;borderWidths&#xA;btoa&#xA;call&#xA;captureEvents&#xA;ceil&#xA;charAt&#xA;charCodeAt&#xA;clear&#xA;clearInterval&#xA;clearTimeout&#xA;click&#xA;close&#xA;compile&#xA;concat&#xA;confirm&#xA;contextual&#xA;cos&#xA;createElement&#xA;createEventObject&#xA;createPopup&#xA;createStyleSheet&#xA;createTextNode&#xA;detachEvent&#xA;disableExternalCapture&#xA;dump&#xA;elementFromPoint&#xA;enableExternalCapture&#xA;escape&#xA;eval&#xA;exec&#xA;execCommand&#xA;execScript&#xA;exp&#xA;fileCreatedDate&#xA;fileModifiedDate&#xA;fileSize&#xA;fileUpdatedDate&#xA;find&#xA;firstChild&#xA;fixed&#xA;floor&#xA;focus&#xA;fontcolor&#xA;fontsize&#xA;forward&#xA;fromCharCode&#xA;getAttention&#xA;getDate&#xA;getDay&#xA;getElementById&#xA;getElementsByName&#xA;getElementsByTagName&#xA;getFullYear&#xA;getHours&#xA;getMilliseconds&#xA;getMinutes&#xA;getMonth&#xA;getSeconds&#xA;getSelection&#xA;getTime&#xA;getTimezoneOffset&#xA;getUTCDate&#xA;getUTCDay&#xA;getUTCFullYear&#xA;getUTCHours&#xA;getUTCMilliseconds&#xA;getUTCMinutes&#xA;getUTCMonth&#xA;getUTCSeconds&#xA;getYear&#xA;go&#xA;handleEvent&#xA;home&#xA;indexOf&#xA;isFinite&#xA;isNaN&#xA;italics&#xA;javaEnabled&#xA;join&#xA;lastIndexOf&#xA;link&#xA;load&#xA;log&#xA;margins&#xA;match&#xA;max&#xA;mergeAttributes&#xA;min&#xA;moveAbove&#xA;moveBelow&#xA;moveBy&#xA;moveTo&#xA;moveToAbsolute&#xA;navigate&#xA;open&#xA;paddings&#xA;parse&#xA;parseFloat&#xA;parseInt&#xA;plugins.refresh&#xA;pop&#xA;pow&#xA;preference&#xA;print&#xA;prompt&#xA;push&#xA;queryCommandEnabled&#xA;queryCommandIndeterm&#xA;queryCommandState&#xA;queryCommandValue&#xA;random&#xA;recalc&#xA;releaseCapture&#xA;releaseEvents&#xA;reload&#xA;replace&#xA;reset&#xA;resizeBy&#xA;resizeTo&#xA;returnValue&#xA;reverse&#xA;round&#xA;routeEvents&#xA;savePreferences&#xA;scroll&#xA;scrollBy&#xA;scrollByLines&#xA;scrollByPages&#xA;scrollTo&#xA;scrollX&#xA;scrollY&#xA;search&#xA;select&#xA;setActive&#xA;setCursor&#xA;setDate&#xA;setFullYear&#xA;setHotKeys&#xA;setHours&#xA;setInterval&#xA;setMilliseconds&#xA;setMinutes&#xA;setMonth&#xA;setResizable&#xA;setSeconds&#xA;setTime&#xA;setTimeout&#xA;setUTCDate&#xA;setUTCFullYear&#xA;setUTCHours&#xA;setUTCMilliseconds&#xA;setUTCMinutes&#xA;setUTCMonth&#xA;setUTCSeconds&#xA;setYear&#xA;setZOptions&#xA;shift&#xA;showHelp&#xA;showModalDialog&#xA;showModelessDialog&#xA;sidebar&#xA;signText&#xA;sin&#xA;sizeToContent&#xA;slice&#xA;small&#xA;sort&#xA;splice&#xA;split&#xA;sqrt&#xA;stop&#xA;strike&#xA;sub&#xA;submit&#xA;substr&#xA;substring&#xA;sup&#xA;taint&#xA;taintEnabled&#xA;tan&#xA;test&#xA;toGMTString&#xA;toLocaleString&#xA;toLowerCase&#xA;toSource&#xA;toString&#xA;toUpperCase&#xA;toUTCString&#xA;unescape&#xA;unshift&#xA;untaint&#xA;unwatch&#xA;updateCommands&#xA;UTC&#xA;valueOf&#xA;watch&#xA;write&#xA;writeln&#xA;">
+              <Attributes Foreground="clBlue" Background="$00E9E9E9" Style=""/>
+            </KeyList>
+            <KeyList Name="Properties" Enabled="True" Style="" Words="_content&#xA;above&#xA;action&#xA;align&#xA;aLinkcolor&#xA;all&#xA;anchors&#xA;appCodeName&#xA;appCore&#xA;appMinorVersion&#xA;appName&#xA;applets&#xA;appVersion&#xA;arguments&#xA;arguments.callee&#xA;arguments.caller&#xA;arguments.length&#xA;arity&#xA;attributes&#xA;availHeight&#xA;availLeft&#xA;availTop&#xA;availWidth&#xA;background&#xA;backgroundColor&#xA;backgroundImage&#xA;below&#xA;bgColor&#xA;body&#xA;border&#xA;borderBottomWidth&#xA;borderColor&#xA;borderLeftWidth&#xA;borderRightWidth&#xA;borderStyle&#xA;borderTopWidth&#xA;bottom&#xA;bufferDepth&#xA;characterSet&#xA;checked&#xA;childNodes&#xA;classes&#xA;className&#xA;clientInformation&#xA;clip&#xA;clipboardData&#xA;closed&#xA;colorDepth&#xA;complete&#xA;components&#xA;constructor&#xA;controllers&#xA;cookie&#xA;cookieEnabled&#xA;cpuClass&#xA;crypto&#xA;current&#xA;data&#xA;defaultCharset&#xA;defaultChecked&#xA;defaultStatus&#xA;defaultValue&#xA;defaultView&#xA;description&#xA;dialogArguments&#xA;dialogHeight&#xA;dialogLeft&#xA;dialogTop&#xA;dialogWidth&#xA;dir&#xA;directories&#xA;display&#xA;doctype&#xA;documentElement&#xA;domain&#xA;E&#xA;elements&#xA;embeds&#xA;enabledPlugin&#xA;encoding&#xA;expando&#xA;external&#xA;fgColor&#xA;filename&#xA;fontFamily&#xA;fontSize&#xA;fontWeight&#xA;form&#xA;formName&#xA;forms&#xA;frameElement&#xA;frames&#xA;global&#xA;hasFocus&#xA;hash&#xA;height&#xA;history&#xA;host&#xA;hostname&#xA;href&#xA;hspace&#xA;Infinity&#xA;ids&#xA;ignoreCase&#xA;images&#xA;implementation&#xA;input&#xA;innerHeight&#xA;innerWidth&#xA;index&#xA;LN10&#xA;LN2&#xA;LOG10E&#xA;LOG2E&#xA;language&#xA;lastChild&#xA;lastIndex&#xA;lastMatch&#xA;lastModified&#xA;lastParen&#xA;layers&#xA;layerX&#xA;left&#xA;leftContext&#xA;length&#xA;lineHeight&#xA;linkColor&#xA;links&#xA;listStyleType&#xA;localName&#xA;location&#xA;locationbar&#xA;lowsrc&#xA;MAX_VALUE&#xA;MIN_VALUE&#xA;marginBottom&#xA;marginLeft&#xA;marginRight&#xA;marginTop&#xA;media&#xA;method&#xA;menubar&#xA;mimeTypes&#xA;multiline&#xA;NaN&#xA;NEGATIVE_INFINITY&#xA;name&#xA;nameProp&#xA;namespaces&#xA;namespaceURI&#xA;next&#xA;nextSibling&#xA;nodeName&#xA;nodeType&#xA;nodeValue&#xA;offscreenBuffering&#xA;onLine&#xA;opener&#xA;opsProfile&#xA;oscpu&#xA;options&#xA;outerHeight&#xA;outerWidth&#xA;ownerDocument&#xA;POSITIVE_INFINITY&#xA;PI&#xA;paddingBottom&#xA;paddingLeft&#xA;paddingRight&#xA;paddingTop&#xA;pageX&#xA;pageY&#xA;pageXOffset&#xA;pageYOffset&#xA;parent&#xA;parentLayer&#xA;parentNode&#xA;parentWindow&#xA;pathname&#xA;personalbar&#xA;pixelDepth&#xA;platform&#xA;plugins&#xA;pkcs11&#xA;port&#xA;prefix&#xA;previous&#xA;previousSibling&#xA;product&#xA;productSub&#xA;prompter&#xA;protocol&#xA;prototype&#xA;readyState&#xA;referrer&#xA;right&#xA;rightContext&#xA;SQRT1_2&#xA;SQRT2&#xA;screenLeft&#xA;screenTop&#xA;screenX&#xA;screenY&#xA;scripts&#xA;scrollbars&#xA;security&#xA;securityPolicy&#xA;selected&#xA;selection&#xA;selectedIndex&#xA;self&#xA;siblingAbove&#xA;siblingBelow&#xA;src&#xA;source&#xA;status&#xA;statusbar&#xA;styleSheets&#xA;suffixes&#xA;systemLanguage&#xA;tags&#xA;target&#xA;text&#xA;textAlign&#xA;textDecoration&#xA;textIndent&#xA;textTransform&#xA;title&#xA;toolbar&#xA;top&#xA;type&#xA;URL&#xA;URLUnencoded&#xA;undefined&#xA;uniqueID&#xA;updateInterval&#xA;userAgent&#xA;userLanguage&#xA;userProfile&#xA;value&#xA;vendor&#xA;vendorSub&#xA;visibility&#xA;vLinkcolor&#xA;vspace&#xA;whiteSpace&#xA;width&#xA;XMLDocument&#xA;XSLDocument&#xA;x&#xA;y&#xA;zIndex&#xA;">
+              <Attributes Foreground="$000080FF" Background="$00E9E9E9" Style=""/>
+            </KeyList>
+            <KeyList Name="Events" Enabled="True" Style="" Words="onAbort&#xA;onActivate&#xA;onAfterprint&#xA;onAfterupdate&#xA;onBeforeactivate&#xA;onBeforecut&#xA;onBeforedeactivate&#xA;onBeforeeditfocus&#xA;onBeforepaste&#xA;onBeforeprint&#xA;onBeforeunload&#xA;onBeforeupdate&#xA;onBlur&#xA;onCellchange&#xA;onChange&#xA;onClick&#xA;onClose&#xA;onContextmenu&#xA;onControlselect&#xA;onCut&#xA;onDataavailable&#xA;onDatasetchanged&#xA;onDatasetcomplete&#xA;onDblclick&#xA;onDeactivate&#xA;onDrag&#xA;onDragdrop&#xA;onDragend&#xA;onDragenter&#xA;onDragleave&#xA;onDragover&#xA;onDragstart&#xA;onDrop&#xA;onError&#xA;onErrorupdate&#xA;onFocus&#xA;onHelp&#xA;onKeydown&#xA;onKeypress&#xA;onKeyup&#xA;onLoad&#xA;onMousedown&#xA;onMousemove&#xA;onMouseout&#xA;onMouseover&#xA;onMouseup&#xA;onPaste&#xA;onPropertychange&#xA;onReadystatechange&#xA;onReset&#xA;onResize&#xA;onResizeend&#xA;onResizestart&#xA;onRowenter&#xA;onRowexit&#xA;onRowsdelete&#xA;onRowsinserted&#xA;onScroll&#xA;onSelect&#xA;onSelectionchange&#xA;onSelectstart&#xA;onStop&#xA;onSubmit&#xA;onUnload&#xA;">
+              <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+            </KeyList>
+            <KeyList Name="Fake" Enabled="True" Style="" Words="t&quot;&gt;&#xA;">
+              <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+            </KeyList>
+            <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="$00E9E9E9" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Strings '..'" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="$00E9E9E9" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="'" Close="'"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Remarks //" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00E9E9E9" Style=""/>
+              <Properties CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="//"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Remarks /*..*/" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00E9E9E9" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="/*" Close="*/"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="HTML Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Doc Type" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FFFF" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Styles" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;style&gt;" Close="&lt;/style&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="{..}" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00C08080" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="{" Close="}"/>
+              </MultiTokens>
+              <SubRules>
+                <Range Name="Values" Enabled="True" Style="">
+                  <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+                  <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+                  <Properties/>
+                  <OpenToken/>
+                  <CloseToken/>
+                  <MultiTokens>
+                    <Tokens Open=":" Close=";"/>
+                  </MultiTokens>
+                  <SubRules/>
+                </Range>
+              </SubRules>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="VB Script" Enabled="True" Style="">
+          <Delimiters Value="!$%&amp;'()*+,./;&lt;=&gt;?@[\]^{|}~"/>
+          <Attributes Foreground="clBlack" Background="$00E9FFE9" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;SCRIPT LANGUAGE=&quot;V" Close="&lt;/script&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Key words" Enabled="True" Style="" Words="And&#xA;As&#xA;Call&#xA;Case&#xA;Class&#xA;Const&#xA;Dim&#xA;Do&#xA;Each&#xA;Else&#xA;ElseIf&#xA;Empty&#xA;End&#xA;Eqv&#xA;Erase&#xA;Error&#xA;Execute&#xA;Exit&#xA;Explicit&#xA;For&#xA;Function&#xA;Get&#xA;Goto&#xA;If&#xA;Imp&#xA;Is&#xA;Let&#xA;Loop&#xA;Mod&#xA;New&#xA;Next&#xA;Not&#xA;Nothing&#xA;Null&#xA;On&#xA;Option&#xA;Or&#xA;Private&#xA;Property&#xA;Public&#xA;Randomize&#xA;ReDim&#xA;Rem&#xA;Resume&#xA;Select&#xA;Set&#xA;Stop&#xA;Sub&#xA;Then&#xA;To&#xA;Until&#xA;Wend&#xA;While&#xA;With&#xA;">
+              <Attributes Foreground="clGreen" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Objects" Enabled="True" Style="" Words="Dictionary&#xA;Err&#xA;File&#xA;FileSystemObject&#xA;Folder&#xA;Match&#xA;RegExp&#xA;TextStream&#xA;Wscript&#xA;WshNetwork&#xA;WshShell&#xA;">
+              <Attributes Foreground="$00FF0080" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Methods" Enabled="True" Style="" Words="Add&#xA;AddPrinterConnection&#xA;AddWindowsPrinterConnection&#xA;AppActivate&#xA;BuildPath&#xA;Clear&#xA;Close&#xA;ConnectObject&#xA;Copy&#xA;CopyFile&#xA;CopyFolder&#xA;CreateFolder&#xA;CreateObject&#xA;CreateShortcut&#xA;CreateTextFile&#xA;Delete&#xA;DeleteFile&#xA;DeleteFolder&#xA;DisconnectObject&#xA;DriveExists&#xA;Echo&#xA;EnumNetworkDrives&#xA;EnumPrinterConnections&#xA;Exists&#xA;ExpandEnvironmentStrings&#xA;FileExists&#xA;FolderExists&#xA;GetAbsolutePathName&#xA;GetBaseName&#xA;GetDrive&#xA;GetDriveName&#xA;GetExtensionName&#xA;GetFile&#xA;GetFileName&#xA;GetFolder&#xA;GetParentFolderName&#xA;GetResource&#xA;GetSpecialFolder&#xA;GetTempName&#xA;Items&#xA;Keys&#xA;LogEvent&#xA;MapNetworkDrive&#xA;Move&#xA;MoveFile&#xA;MoveFolder&#xA;OpenAsTextStream&#xA;OpenTextFile&#xA;Popup&#xA;Put&#xA;Quit&#xA;Raise&#xA;Read&#xA;ReadAll&#xA;ReadLine&#xA;RegDelete&#xA;RegRead&#xA;RegWrite&#xA;RemoveAll&#xA;RemoveNetworkDrive&#xA;RemovePrinterConnection&#xA;Replace&#xA;Run&#xA;Save&#xA;SendKeys&#xA;SetDefaultPrinter&#xA;Skip&#xA;SkipLine&#xA;Sleep&#xA;SetInfo&#xA;Test&#xA;Write&#xA;WriteBlankLines&#xA;WriteLine&#xA;">
+              <Attributes Foreground="clBlue" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Properties" Enabled="True" Style="" Words="AccountDisabled&#xA;AccountExpirationDate&#xA;Application&#xA;Arguments&#xA;AtEndOfLine&#xA;AtEndOfStream&#xA;Attributes&#xA;AutoUnlockInterval&#xA;AvailableSpace&#xA;BadPasswordAttempts&#xA;Column&#xA;CompareMode&#xA;ComputerName&#xA;Count&#xA;DateCreated&#xA;DateLastAccessed&#xA;DateLastModified&#xA;Description&#xA;Drive&#xA;DriveLetter&#xA;DriveType&#xA;Drives&#xA;Environment&#xA;FileSystem&#xA;Files&#xA;FirstIndex&#xA;FreeSpace&#xA;FullName&#xA;Global&#xA;HelpContext&#xA;HelpFile&#xA;HomeDirDrive&#xA;HomeDirectory&#xA;HotKey&#xA;IconLocation&#xA;IgnoreCase&#xA;Interactive&#xA;IsAccountLocked&#xA;IsReady&#xA;IsRootFolder&#xA;Item&#xA;Key&#xA;LastLogin&#xA;LastLogoff&#xA;Length&#xA;Line&#xA;LockoutObservationInterval&#xA;LoginHours&#xA;LoginScript&#xA;LoginWorkstations&#xA;MaxBadPasswordsAllowed&#xA;MaxLogins&#xA;MaxPasswordAge&#xA;MaxStorage&#xA;MinPasswordAge&#xA;MinPasswordLength&#xA;Name&#xA;Number&#xA;ObjectSid&#xA;Parameters&#xA;ParentFolder&#xA;PasswordAge&#xA;PasswordExpirationDate&#xA;PasswordExpired&#xA;PasswordHistoryLength&#xA;Path&#xA;Pattern&#xA;PrimaryGroupID&#xA;Profile&#xA;Remove&#xA;RootFolder&#xA;ScriptFullName&#xA;ScriptName&#xA;SerialNumber&#xA;ShareName&#xA;ShortName&#xA;ShortPath&#xA;Size&#xA;Source&#xA;SpecialFolders&#xA;Subfolders&#xA;TargetPath&#xA;TotalSize&#xA;Type&#xA;UserDomain&#xA;UserFlags&#xA;UserName&#xA;Value&#xA;Version&#xA;VolumeName&#xA;WindowStyle&#xA;WorkingDirectory&#xA;">
+              <Attributes Foreground="$000080FF" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Constants" Enabled="True" Style="" Words="False&#xA;FALSE&#xA;True&#xA;TRUE&#xA;vbAbort&#xA;vbAbortRetryIgnore&#xA;vbApplicationModal&#xA;vbArray&#xA;vbBinaryCompare&#xA;vbBlack&#xA;vbBlue&#xA;vbBoolean&#xA;vbByte&#xA;vbCancel&#xA;vbCr&#xA;vbCritical&#xA;vbCrLf&#xA;vbCurrency&#xA;vbCyan&#xA;vbDataObject&#xA;vbDate&#xA;vbDecimal&#xA;vbDefaultButton1&#xA;vbDefaultButton2&#xA;vbDefaultButton3&#xA;vbDefaultButton4&#xA;vbDouble&#xA;vbEmpty&#xA;vbError&#xA;vbExclamation&#xA;vbFirstFourDays&#xA;vbFirstFullWeek&#xA;vbFirstJan1&#xA;vbFormFeed&#xA;vbFriday&#xA;vbGeneralDate&#xA;vbGreen&#xA;vbIgnore&#xA;vbInformation&#xA;vbInteger&#xA;vbLf&#xA;vbLong&#xA;vbLongDate&#xA;vbLongTime&#xA;vbMagenta&#xA;vbMonday&#xA;vbNewLine&#xA;vbNo&#xA;vbNull&#xA;vbNullChar&#xA;vbNullString&#xA;vbObject&#xA;vbObjectError&#xA;vbOK&#xA;vbOKCancel&#xA;vbOKOnly&#xA;vbQuestion&#xA;vbRed&#xA;vbRetry&#xA;vbRetryCancel&#xA;vbSaturday&#xA;vbShortDate&#xA;vbShortTime&#xA;vbSingle&#xA;vbString&#xA;vbSunday&#xA;vbSystemModal&#xA;vbTab&#xA;vbTextCompare&#xA;vbThursday&#xA;vbTuesday&#xA;vbUseSystem&#xA;vbUseSystemDayOfWeek&#xA;vbVariant&#xA;vbVerticalTab&#xA;vbWednesday&#xA;vbWhite&#xA;vbYellow&#xA;vbYes&#xA;vbYesNo&#xA;vbYesNoCancel&#xA;">
+              <Attributes Foreground="$00FF8000" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Functions" Enabled="True" Style="" Words="Abs&#xA;Array&#xA;Asc&#xA;Atn&#xA;CBool&#xA;CByte&#xA;CCur&#xA;CDate&#xA;CDbl&#xA;Chr&#xA;CInt&#xA;CLng&#xA;Cos&#xA;CSng&#xA;CStr&#xA;Date&#xA;DateAddFunction&#xA;DateDiff&#xA;DatePart&#xA;DateSerial&#xA;DateValue&#xA;Day&#xA;Eval&#xA;Exp&#xA;Filter&#xA;Fix&#xA;FormatCurrency&#xA;FormatDateTime&#xA;FormatNumber&#xA;FormatPercent&#xA;GetObject&#xA;GetRef&#xA;Hex&#xA;Hour&#xA;InputBox&#xA;InStr&#xA;InStrRev&#xA;Int&#xA;IsArray&#xA;IsDate&#xA;IsEmpty&#xA;IsNull&#xA;IsNumeric&#xA;IsObject&#xA;Join&#xA;LBound&#xA;LCase&#xA;Left&#xA;Len&#xA;LoadPicture&#xA;Log&#xA;LTrim&#xA;Mid&#xA;Minute&#xA;Month&#xA;MonthName&#xA;MsgBox&#xA;Now&#xA;Oct&#xA;Replace&#xA;RGB&#xA;Right&#xA;Rnd&#xA;Round&#xA;RTrim&#xA;ScriptEngine&#xA;ScriptEngineBuildVersion&#xA;ScriptEngineMajorVersion&#xA;ScriptEngineMinorVersion&#xA;Second&#xA;Sgn&#xA;Sin&#xA;Space&#xA;Split&#xA;Sqr&#xA;StrComp&#xA;String&#xA;StrReverse&#xA;Tan&#xA;Time&#xA;Timer&#xA;TimeSerial&#xA;TimeValue&#xA;Trim&#xA;TypeName&#xA;UBound&#xA;UCase&#xA;VarType&#xA;Weekday&#xA;WeekdayName&#xA;Year&#xA;">
+              <Attributes Foreground="clPurple" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Fake" Enabled="True" Style="" Words="t&quot;&gt;&#xA;">
+              <Attributes Foreground="clBlack" Background="$00E9FFE9" Style=""/>
+            </KeyList>
+            <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="$00E9FFE9" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Remarks '" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00E9FFE9" Style=""/>
+              <Properties CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="'"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Remarks //" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00E9FFE9" Style=""/>
+              <Properties CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="//"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="HTML Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Doc Type" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$0080FFFF" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Styles" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;style&gt;" Close="&lt;/style&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="{..}" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00C08080" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="{" Close="}"/>
+              </MultiTokens>
+              <SubRules>
+                <Range Name="Values" Enabled="True" Style="">
+                  <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+                  <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+                  <Properties/>
+                  <OpenToken/>
+                  <CloseToken/>
+                  <MultiTokens>
+                    <Tokens Open=":" Close=";"/>
+                  </MultiTokens>
+                  <SubRules/>
+                </Range>
+              </SubRules>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="ASP (VBScript)" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="$00FFFFE9" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;%" Close="%&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Functions" Enabled="True" Style="" Words="Abs&#xA;Array&#xA;Asc&#xA;AscB&#xA;AscW&#xA;Atn&#xA;Avg&#xA;CBool&#xA;CByte&#xA;CCur&#xA;CDate&#xA;CDbl&#xA;Cdec&#xA;Choose&#xA;Chr&#xA;ChrB&#xA;ChrW&#xA;CInt&#xA;CLng&#xA;Command&#xA;Cos&#xA;Count&#xA;CreateObject&#xA;CSng&#xA;CStr&#xA;CurDir&#xA;CVar&#xA;CVDate&#xA;CVErr&#xA;Date&#xA;DateAdd&#xA;DateDiff&#xA;DatePart&#xA;DateSerial&#xA;DateValue&#xA;Day&#xA;DDB&#xA;Dir&#xA;DoEvents&#xA;Environ&#xA;EOF&#xA;Error&#xA;Exp&#xA;FileAttr&#xA;FileDateTime&#xA;FileLen&#xA;Fix&#xA;Format&#xA;FreeFile&#xA;FV&#xA;GetAllStrings&#xA;GetAttr&#xA;GetAutoServerSettings&#xA;GetObject&#xA;GetSetting&#xA;Hex&#xA;Hour&#xA;IIf&#xA;IMEStatus&#xA;Input&#xA;InputB&#xA;InputBox&#xA;InstB&#xA;InStr&#xA;Int&#xA;IPmt&#xA;IsArray&#xA;IsDate&#xA;IsEmpty&#xA;IsError&#xA;IsMissing&#xA;IsNull&#xA;IsNumeric&#xA;IsObject&#xA;LBound&#xA;LCase&#xA;Left&#xA;LeftB&#xA;Len&#xA;LenB&#xA;LoadPicture&#xA;Loc&#xA;LOF&#xA;Log&#xA;LTrim&#xA;Max&#xA;Mid&#xA;MidB&#xA;Min&#xA;Minute&#xA;MIRR&#xA;Month&#xA;MsgBox&#xA;Now&#xA;NPer&#xA;NPV&#xA;Oct&#xA;Partition&#xA;Pmt&#xA;PPmt&#xA;PV&#xA;QBColor&#xA;Rate&#xA;RGB&#xA;Right&#xA;RightB&#xA;Rnd&#xA;RTrim&#xA;Second&#xA;Seek&#xA;Sgn&#xA;Shell&#xA;Sin&#xA;SLN&#xA;Space&#xA;Spc&#xA;Sqr&#xA;StDev&#xA;StDevP&#xA;Str&#xA;StrComp&#xA;StrConv&#xA;String&#xA;Sum&#xA;Switch&#xA;SYD&#xA;Tab&#xA;Tan&#xA;Time&#xA;Timer&#xA;TimeSerial&#xA;TimeValue&#xA;Trim&#xA;TypeName&#xA;UBound&#xA;UCase&#xA;Val&#xA;Var&#xA;VarP&#xA;VarType&#xA;Weekday&#xA;Year&#xA;">
+              <Attributes Foreground="clPurple" Background="$00FFFFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Methods" Enabled="True" Style="" Words="Accept&#xA;Activate&#xA;Add&#xA;AddCustom&#xA;AddFile&#xA;AddFromFile&#xA;AddFromTemplate&#xA;AddItem&#xA;AddNew&#xA;AddToAddInToolbar&#xA;AddToolboxProgID&#xA;Append&#xA;AppendChunk&#xA;Arrange&#xA;Assert&#xA;AsyncRead&#xA;BatchUpdate&#xA;BeginTrans&#xA;Bind&#xA;Cancel&#xA;CancelAsyncRead&#xA;CancelBatch&#xA;CancelUpdate&#xA;CanPropertyChange&#xA;CaptureImage&#xA;CellText&#xA;CellValue&#xA;Circle&#xA;Clear&#xA;ClearFields&#xA;ClearSel&#xA;ClearSelCols&#xA;Clone&#xA;Close&#xA;Cls&#xA;ColContaining&#xA;ColumnSize&#xA;CommitTrans&#xA;CompactDatabase&#xA;Compose&#xA;Connect&#xA;Copy&#xA;CopyQueryDef&#xA;CreateDatabase&#xA;CreateDragImage&#xA;CreateEmbed&#xA;CreateField&#xA;CreateGroup&#xA;CreateIndex&#xA;CreateLink&#xA;CreatePreparedStatement&#xA;CreatePropery&#xA;CreateQuery&#xA;CreateQueryDef&#xA;CreateRelation&#xA;CreateTableDef&#xA;CreateUser&#xA;CreateWorkspace&#xA;Customize&#xA;Delete&#xA;DeleteColumnLabels&#xA;DeleteColumns&#xA;DeleteRowLabels&#xA;DeleteRows&#xA;DoVerb&#xA;Drag&#xA;Draw&#xA;Edit&#xA;EditCopy&#xA;EditPaste&#xA;EndDoc&#xA;EnsureVisible&#xA;EstablishConnection&#xA;Execute&#xA;ExtractIcon&#xA;Fetch&#xA;FetchVerbs&#xA;Files&#xA;FillCache&#xA;Find&#xA;FindFirst&#xA;FindItem&#xA;FindLast&#xA;FindNext&#xA;FindPrevious&#xA;Forward&#xA;GetBookmark&#xA;GetChunk&#xA;GetClipString&#xA;GetData&#xA;GetFirstVisible&#xA;GetFormat&#xA;GetHeader&#xA;GetLineFromChar&#xA;GetNumTicks&#xA;GetRows&#xA;GetSelectedPart&#xA;GetText&#xA;GetVisibleCount&#xA;GoBack&#xA;GoForward&#xA;Hide&#xA;HitTest&#xA;HoldFields&#xA;Idle&#xA;InitializeLabels&#xA;InsertColumnLabels&#xA;InsertColumns&#xA;InsertObjDlg&#xA;InsertRowLabels&#xA;InsertRows&#xA;Item&#xA;KillDoc&#xA;Layout&#xA;Line&#xA;LinkExecute&#xA;LinkPoke&#xA;LinkRequest&#xA;LinkSend&#xA;Listen&#xA;LoadFile&#xA;LoadResData&#xA;LoadResPicture&#xA;LoadResString&#xA;LogEvent&#xA;MakeCompileFile&#xA;MakeReplica&#xA;MoreResults&#xA;Move&#xA;MoveData&#xA;MoveFirst&#xA;MoveLast&#xA;MoveNext&#xA;MovePrevious&#xA;NavigateTo&#xA;NewPage&#xA;NewPassword&#xA;NextRecordset&#xA;OLEDrag&#xA;OnAddinsUpdate&#xA;OnConnection&#xA;OnDisconnection&#xA;OnStartupComplete&#xA;Open&#xA;OpenConnection&#xA;OpenDatabase&#xA;OpenQueryDef&#xA;OpenRecordset&#xA;OpenResultset&#xA;OpenURL&#xA;Overlay&#xA;PaintPicture&#xA;Paste&#xA;PastSpecialDlg&#xA;PeekData&#xA;Play&#xA;Point&#xA;PopulatePartial&#xA;PopupMenu&#xA;Print&#xA;PrintForm&#xA;PropertyChanged&#xA;PSet&#xA;Quit&#xA;Raise&#xA;RandomDataFill&#xA;RandomFillColumns&#xA;RandomFillRows&#xA;rdoCreateEnvironment&#xA;rdoRegisterDataSource&#xA;ReadFromFile&#xA;ReadProperty&#xA;Rebind&#xA;ReFill&#xA;Refresh&#xA;RefreshLink&#xA;RegisterDatabase&#xA;Reload&#xA;Remove&#xA;RemoveAddInFromToolbar&#xA;RemoveItem&#xA;Render&#xA;RepairDatabase&#xA;Reply&#xA;ReplyAll&#xA;Requery&#xA;ResetCustom&#xA;ResetCustomLabel&#xA;ResolveName&#xA;RestoreToolbar&#xA;Resync&#xA;Rollback&#xA;RollbackTrans&#xA;RowBookmark&#xA;RowContaining&#xA;RowTop&#xA;Save&#xA;SaveAs&#xA;SaveFile&#xA;SaveToFile&#xA;SaveToolbar&#xA;SaveToOle1File&#xA;Scale&#xA;ScaleX&#xA;ScaleY&#xA;Scroll&#xA;Select&#xA;SelectAll&#xA;SelectPart&#xA;SelPrint&#xA;Send&#xA;SendData&#xA;Set&#xA;SetAutoServerSettings&#xA;SetData&#xA;SetFocus&#xA;SetOption&#xA;SetSize&#xA;SetText&#xA;SetViewport&#xA;Show&#xA;ShowColor&#xA;ShowFont&#xA;ShowHelp&#xA;ShowOpen&#xA;ShowPrinter&#xA;ShowSave&#xA;ShowWhatsThis&#xA;SignOff&#xA;SignOn&#xA;Size&#xA;Span&#xA;SplitContaining&#xA;StartLabelEdit&#xA;StartLogging&#xA;Stop&#xA;Synchronize&#xA;TextHeight&#xA;TextWidth&#xA;ToDefaults&#xA;TwipsToChartPart&#xA;TypeByChartType&#xA;Update&#xA;UpdateControls&#xA;UpdateRecord&#xA;UpdateRow&#xA;Upto&#xA;WhatsThisMode&#xA;WriteProperty&#xA;ZOrder&#xA;">
+              <Attributes Foreground="clBlue" Background="$00FFFFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Events" Enabled="True" Style="" Words="AccessKeyPress&#xA;AfterAddFile&#xA;AfterChangeFileName&#xA;AfterCloseFile&#xA;AfterColEdit&#xA;AfterColUpdate&#xA;AfterDelete&#xA;AfterInsert&#xA;AfterLabelEdit&#xA;AfterRemoveFile&#xA;AfterUpdate&#xA;AfterWriteFile&#xA;AmbienChanged&#xA;ApplyChanges&#xA;Associate&#xA;AsyncReadComplete&#xA;AxisActivated&#xA;AxisLabelActivated&#xA;AxisLabelSelected&#xA;AxisLabelUpdated&#xA;AxisSelected&#xA;AxisTitleActivated&#xA;AxisTitleSelected&#xA;AxisTitleUpdated&#xA;AxisUpdated&#xA;BeforeClick&#xA;BeforeColEdit&#xA;BeforeColUpdate&#xA;BeforeConnect&#xA;BeforeDelete&#xA;BeforeInsert&#xA;BeforeLabelEdit&#xA;BeforeLoadFile&#xA;BeforeUpdate&#xA;ButtonClick&#xA;ButtonCompleted&#xA;ButtonGotFocus&#xA;ButtonLostFocus&#xA;Change&#xA;ChartActivated&#xA;ChartSelected&#xA;ChartUpdated&#xA;Click&#xA;ColEdit&#xA;Collapse&#xA;ColResize&#xA;ColumnClick&#xA;Compare&#xA;ConfigChageCancelled&#xA;ConfigChanged&#xA;ConnectionRequest&#xA;DataArrival&#xA;DataChanged&#xA;DataUpdated&#xA;DblClick&#xA;Deactivate&#xA;DeviceArrival&#xA;DeviceOtherEvent&#xA;DeviceQueryRemove&#xA;DeviceQueryRemoveFailed&#xA;DeviceRemoveComplete&#xA;DeviceRemovePending&#xA;DevModeChange&#xA;Disconnect&#xA;DisplayChanged&#xA;Dissociate&#xA;DoGetNewFileName&#xA;Done&#xA;DonePainting&#xA;DownClick&#xA;DragDrop&#xA;DragOver&#xA;DropDown&#xA;EditProperty&#xA;EnterCell&#xA;EnterFocus&#xA;ExitFocus&#xA;Expand&#xA;FootnoteActivated&#xA;FootnoteSelected&#xA;FootnoteUpdated&#xA;GotFocus&#xA;HeadClick&#xA;InfoMessage&#xA;IniProperties&#xA;Initialize&#xA;ItemActivated&#xA;ItemAdded&#xA;ItemCheck&#xA;ItemClick&#xA;ItemReloaded&#xA;ItemRemoved&#xA;ItemRenamed&#xA;ItemSeletected&#xA;KeyDown&#xA;KeyPress&#xA;KeyUp&#xA;LeaveCell&#xA;LegendActivated&#xA;LegendSelected&#xA;LegendUpdated&#xA;LinkClose&#xA;LinkError&#xA;LinkNotify&#xA;LinkOpen&#xA;Load&#xA;LostFocus&#xA;MouseDown&#xA;MouseMove&#xA;MouseUp&#xA;NodeClick&#xA;ObjectMove&#xA;OLECompleteDrag&#xA;OLEDragDrop&#xA;OLEDragOver&#xA;OLEGiveFeedback&#xA;OLESetData&#xA;OLEStartDrag&#xA;OnAddNew&#xA;OnComm&#xA;Paint&#xA;PanelClick&#xA;PanelDblClick&#xA;PathChange&#xA;PatternChange&#xA;PlotActivated&#xA;PlotSelected&#xA;PlotUpdated&#xA;PointActivated&#xA;PointLabelActivated&#xA;PointLabelSelected&#xA;PointLabelUpdated&#xA;PointSelected&#xA;PointUpdated&#xA;PowerQuerySuspend&#xA;PowerResume&#xA;PowerStatusChanged&#xA;PowerSuspend&#xA;QueryChangeConfig&#xA;QueryComplete&#xA;QueryCompleted&#xA;QueryTimeout&#xA;QueryUnload&#xA;ReadProperties&#xA;Reposition&#xA;RequestChangeFileName&#xA;RequestWriteFile&#xA;Resize&#xA;ResultsChanged&#xA;RowColChange&#xA;RowCurrencyChange&#xA;RowResize&#xA;RowStatusChanged&#xA;SelChange&#xA;SelectionChanged&#xA;SendComplete&#xA;SendProgress&#xA;SeriesActivated&#xA;SeriesSelected&#xA;SeriesUpdated&#xA;SettingChanged&#xA;SplitChange&#xA;StateChanged&#xA;StatusUpdate&#xA;SysColorsChanged&#xA;Terminate&#xA;TimeChanged&#xA;TitleActivated&#xA;TitleSelected&#xA;UnboundAddData&#xA;UnboundDeleteRow&#xA;UnboundGetRelativeBookmark&#xA;UnboundReadData&#xA;UnboundWriteData&#xA;Unload&#xA;UpClick&#xA;Updated&#xA;Validate&#xA;ValidationError&#xA;WillAssociate&#xA;WillChangeData&#xA;WillDissociate&#xA;WillExecute&#xA;WillUpdateRows&#xA;WriteProperties&#xA;">
+              <Attributes Foreground="$00FF8000" Background="$00FFFFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Statements" Enabled="True" Style="" Words="AppActivate&#xA;Base&#xA;Beep&#xA;Call&#xA;Case&#xA;ChDir&#xA;ChDrive&#xA;Const&#xA;DefBool&#xA;DefByte&#xA;DefCur&#xA;DefDate&#xA;DefDbl&#xA;DefDec&#xA;DefInt&#xA;DefLng&#xA;DefObj&#xA;DefSng&#xA;DefStr&#xA;Deftype&#xA;DefVar&#xA;DeleteSetting&#xA;Dim&#xA;Do&#xA;Else&#xA;ElseIf&#xA;End&#xA;Enum&#xA;Erase&#xA;Event&#xA;Exit&#xA;Explicit&#xA;FileCopy&#xA;For&#xA;ForEach&#xA;Function&#xA;Get&#xA;GoSub&#xA;GoTo&#xA;If&#xA;Implements&#xA;Kill&#xA;Let&#xA;LineInput&#xA;Lock&#xA;LSet&#xA;MkDir&#xA;Name&#xA;Next&#xA;On&#xA;OnError&#xA;Option&#xA;Private&#xA;Property&#xA;Public&#xA;Put&#xA;RaiseEvent&#xA;Randomize&#xA;ReDim&#xA;Reset&#xA;Resume&#xA;Return&#xA;RmDir&#xA;RSet&#xA;SavePicture&#xA;SaveSetting&#xA;SendKeys&#xA;SetAttr&#xA;Static&#xA;Sub&#xA;Then&#xA;Type&#xA;Unlock&#xA;Wend&#xA;While&#xA;Width&#xA;With&#xA;Write&#xA;">
+              <Attributes Foreground="clGreen" Background="$00FFFFE9" Style=""/>
+            </KeyList>
+            <KeyList Name="Request&amp;amp;Responce" Enabled="True" Style="" Words="Request&#xA;Response&#xA;">
+              <Attributes Foreground="$00FF0080" Background="$00FFFFE9" Style=""/>
+            </KeyList>
+            <Range Name="Remarks '" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00FFFFE9" Style=""/>
+              <Properties CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="'"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Strings" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="$00FFFFE9" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <Range Name="Remarks REM" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="$00FFFFE9" Style=""/>
+              <Properties CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="REM"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Include" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlue" Background="$00FFFF80" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--#include" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="Name" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$008000FF" Background="$00FFFF80" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Special Symbols" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00800040" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&amp;" Close=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

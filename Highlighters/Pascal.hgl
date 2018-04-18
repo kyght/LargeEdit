@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Pascal" FileType="" Extensions="PAS INC DEF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:pascal.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="AND&#xA;ARRAY&#xA;BEGIN&#xA;CASE&#xA;CONST&#xA;DIV&#xA;DO&#xA;DOWNTO&#xA;ELSE&#xA;END&#xA;FILE&#xA;FOR&#xA;FUNCTION&#xA;GOTO&#xA;IF&#xA;IN&#xA;LABEL&#xA;MOD&#xA;NOT&#xA;OF&#xA;OR&#xA;PACKED&#xA;PROCEDURE&#xA;PROGRAM&#xA;RECORD&#xA;REPEAT&#xA;SET&#xA;THEN&#xA;TO&#xA;TYPE&#xA;UNTIL&#xA;VAR&#xA;WHILE&#xA;WITH&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Redefinable reserved words" Enabled="True" Style="" Words="AND_THEN&#xA;MODULE&#xA;OR_ELSE&#xA;OTHERWISE&#xA;REM&#xA;VALUE&#xA;VARYING&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Predeclared identifiers" Enabled="True" Style="" Words="ABS&#xA;ADD_INTERLOCKED&#xA;ADDRESS&#xA;ARCTAN&#xA;ARGUMENT&#xA;ARGUMENT_LIST_LENGTH&#xA;BIN&#xA;BITNEXT&#xA;BIT_OFFSET&#xA;BITSIZE&#xA;BOOLEAN&#xA;BYTE_OFFSET&#xA;CARD&#xA;CHAR&#xA;CHR&#xA;CLEAR_INTERLOCKED&#xA;CLOCK&#xA;CLOSE&#xA;COS&#xA;CREATE_DIRECTORY&#xA;DATE&#xA;DBLE&#xA;DEC&#xA;DELETE&#xA;DELETE_FILE&#xA;DISPOSE&#xA;DOUBLE&#xA;EOF&#xA;EOLN&#xA;EPSDOUBLE&#xA;EPSQUADRUPLE&#xA;EPSREAL&#xA;EQ&#xA;ESTABLISH&#xA;EXP&#xA;EXPO&#xA;EXTEND&#xA;FALSE&#xA;FIND&#xA;FIND_FIRST_BIT_CLEAR&#xA;FIND_FIRST_BIT_SET&#xA;FIND_MEMBER&#xA;FIND_NONMEMBER&#xA;FINDK&#xA;GE&#xA;GET&#xA;GETTIMESTAMP&#xA;GT&#xA;HALT&#xA;HEX&#xA;IADDRESS&#xA;INDEX&#xA;INPUT&#xA;INT&#xA;INTEGER&#xA;LE&#xA;LENGTH&#xA;LINELIMIT&#xA;LN&#xA;LOCATE&#xA;LOWER&#xA;LT&#xA;MAX&#xA;MAXCHAR&#xA;MAXDOUBLE&#xA;MAXINT&#xA;MAXQUADRUPLE&#xA;MAXREAL&#xA;MAXUNSIGNED&#xA;MIN&#xA;MINDOUBLE&#xA;MINQUADRUPLE&#xA;MINREAL&#xA;NE&#xA;NEW&#xA;NEXT&#xA;NIL&#xA;OCT&#xA;ODD&#xA;OPEN&#xA;ORD&#xA;OUTPUT&#xA;PACK&#xA;PAD&#xA;PAGE&#xA;PRED&#xA;PRESENT&#xA;PUT&#xA;QUAD&#xA;QUADRUPLE&#xA;READ&#xA;READLN&#xA;READV&#xA;REAL&#xA;RENAME_FILE&#xA;RESET&#xA;RESETK&#xA;REVERT&#xA;REWRITE&#xA;ROUND&#xA;SET_INTERLOCKED&#xA;SIN&#xA;SINGLE&#xA;SIZE&#xA;SNGL&#xA;SQR&#xA;SQRT&#xA;STATUS&#xA;STATUSV&#xA;STRING&#xA;SUBSTR&#xA;SUCC&#xA;TEXT&#xA;TIME&#xA;TIMESTAMP&#xA;TRUE&#xA;TRUNC&#xA;TRUNCATE&#xA;UAND&#xA;UDEC&#xA;UFB&#xA;UINT&#xA;UNDEFINED&#xA;UNLOCK&#xA;UNOT&#xA;UNPACK&#xA;UNSIGNED&#xA;UOR&#xA;UPDATE&#xA;UPPER&#xA;UROUND&#xA;UTRUNC&#xA;UXOR&#xA;WRITE&#xA;WRITELN&#xA;WRITEV&#xA;XOR&#xA;ZERO&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="ASYNCHRONOUS&#xA;EXTERNAL&#xA;GLOBAL&#xA;INHERIT&#xA;LOCAL&#xA;READONLY&#xA;STATIC&#xA;UNBOUND&#xA;UNSAFE&#xA;VOLATILE&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;&gt;&#xA;&lt;&#xA;^&#xA;:&#xA;=&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks (*..*)" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="(*" Close="*)"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks {..}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

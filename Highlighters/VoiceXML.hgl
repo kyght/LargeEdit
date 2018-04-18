@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VoiceXML" FileType="" Extensions="VXML" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:voicexml.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Tags" Enabled="True" Style="" Words="&lt;assign&#xA;&lt;audio&#xA;&lt;audio&gt;&#xA;&lt;/audio&gt;&#xA;&lt;block&#xA;&lt;block&gt;&#xA;&lt;/block&gt;&#xA;&lt;break&#xA;&lt;catch&#xA;&lt;catch&gt;&#xA;&lt;/catch&gt;&#xA;&lt;choice&#xA;&lt;choice&gt;&#xA;&lt;/choice&gt;&#xA;&lt;clear&#xA;&lt;disconnect/&gt;&#xA;&lt;div&#xA;&lt;div&gt;&#xA;&lt;/div&gt;&#xA;&lt;dtmf&#xA;&lt;dtmf&gt;&#xA;&lt;/dmtf&gt;&#xA;&lt;else&#xA;&lt;elseif&#xA;&lt;emp&#xA;&lt;emp&gt;&#xA;&lt;/emp&gt;&#xA;&lt;enumerate&#xA;&lt;enumerate&gt;&#xA;&lt;/enumerate&gt;&#xA;&lt;enumerate/&gt;&#xA;&lt;error&#xA;&lt;error&gt;&#xA;&lt;/error&gt;&#xA;&lt;exit&#xA;&lt;field&#xA;&lt;field&gt;&#xA;&lt;/field&gt;&#xA;&lt;filled&#xA;&lt;filled&gt;&#xA;&lt;/filled&gt;&#xA;&lt;form&#xA;&lt;form&gt;&#xA;&lt;/form&gt;&#xA;&lt;goto&#xA;&lt;grammar&#xA;&lt;grammar&gt;&#xA;&lt;/grammar&gt;&#xA;&lt;help&#xA;&lt;help&gt;&#xA;&lt;/help&gt;&#xA;&lt;if&#xA;&lt;if&gt;&#xA;&lt;/if&gt;&#xA;&lt;initial&#xA;&lt;initial&gt;&#xA;&lt;/initial&gt;&#xA;&lt;link&#xA;&lt;link&gt;&#xA;&lt;/link&gt;&#xA;&lt;menu&#xA;&lt;menu&gt;&#xA;&lt;/menu&gt;&#xA;&lt;meta&#xA;&lt;meta&gt;&#xA;&lt;/meta&gt;&#xA;&lt;meta/&gt;&#xA;&lt;noinput&#xA;&lt;noinput&gt;&#xA;&lt;/noinput&gt;&#xA;&lt;nomatch&#xA;&lt;nomatch&gt;&#xA;&lt;/nomatch&gt;&#xA;&lt;object&#xA;&lt;object&gt;&#xA;&lt;/object&gt;&#xA;&lt;option&#xA;&lt;option&gt;&#xA;&lt;/option&gt;&#xA;&lt;param&#xA;&lt;prompt&#xA;&lt;prompt&gt;&#xA;&lt;/prompt&gt;&#xA;&lt;property&#xA;&lt;pros&#xA;&lt;pros&gt;&#xA;&lt;/pros&gt;&#xA;&lt;record&#xA;&lt;record&gt;&#xA;&lt;/record&gt;&#xA;&lt;reprompt/&gt;&#xA;&lt;return&#xA;&lt;sayas&#xA;&lt;sayas&gt;&#xA;&lt;/sayas&gt;&#xA;&lt;script&#xA;&lt;script&gt;&#xA;&lt;/script&gt;&#xA;&lt;subdialog&#xA;&lt;subdialog&gt;&#xA;&lt;/subdialog&gt;&#xA;&lt;submit&#xA;&lt;throw&#xA;&lt;transfehr&#xA;&lt;transfehr&gt;&#xA;&lt;/transfehr&gt;&#xA;&lt;value&#xA;&lt;var&#xA;&lt;vxml&#xA;&lt;vxml&gt;&#xA;&lt;/vxml&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="=&#xA;bargein=&#xA;cond=&#xA;count=&#xA;enctype=&#xA;event=&#xA;expr=&#xA;id=&#xA;method=&#xA;mode=&#xA;name=&#xA;namelist=&#xA;next=&#xA;nextexpr=&#xA;nextitem=&#xA;scope=&#xA;src=&#xA;type=&#xA;version=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!--..--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

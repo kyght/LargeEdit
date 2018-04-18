@@ -1,0 +1,6 @@
+<XML>
+  <SAMPLE TYPE="xmldocument">
+    <VALUE><![CDATA[ Sample value for <XML>]]></VALUE>
+    <INFO TYPE="text" name="sample"/>
+  </SAMPLE>
+</XML>

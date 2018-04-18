@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Inform 6" FileType="" Extensions="H INF INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:inform6.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statemts/Routines" Enabled="True" Style="" Words="AfterLife&#xA;AfterPrompt&#xA;Amusing&#xA;Achieved&#xA;AddToScope&#xA;AllowPushDir&#xA;AfterRoutines&#xA;box&#xA;break&#xA;bold&#xA;BeforeParsing&#xA;class&#xA;continue&#xA;child&#xA;children&#xA;ChangePlayer&#xA;ChangeDefault&#xA;ChooseObjects&#xA;CDefArt&#xA;do&#xA;DeathMessage&#xA;DarkToDark&#xA;DoMenu&#xA;DefArt&#xA;else&#xA;EnglishNumber&#xA;font&#xA;for&#xA;fixed&#xA;give&#xA;GamePostRoutine&#xA;GamePreRoutine&#xA;has&#xA;hasnt&#xA;HasLightSource&#xA;if&#xA;in&#xA;indirect&#xA;inversion&#xA;InScope&#xA;InDefArt&#xA;Initialise&#xA;jump&#xA;LookRoutine&#xA;Locale&#xA;LoopOverScope&#xA;metaclass&#xA;move&#xA;new_line&#xA;near&#xA;notin&#xA;nothing&#xA;NextWord&#xA;NextWordStopped&#xA;NounDomain&#xA;NewRoom&#xA;objectloop&#xA;ofclass&#xA;or&#xA;ObjectIsUntouchable&#xA;OffersLight&#xA;print&#xA;print_ret&#xA;print_to_array&#xA;parent&#xA;provides&#xA;PlayerTo&#xA;PrintRank&#xA;PrintTaskName&#xA;ParseNoun&#xA;ParseNumber&#xA;PlaceInScope&#xA;PrononValue&#xA;PronounNotice&#xA;ParserError&#xA;PrintShortName&#xA;PrintVerb&#xA;quit&#xA;random&#xA;read&#xA;remove&#xA;restore&#xA;return&#xA;rfalse&#xA;rtrue&#xA;roman&#xA;reverse&#xA;RunRoutines&#xA;save&#xA;spaces&#xA;string&#xA;style&#xA;switch&#xA;sibling&#xA;sender&#xA;StartDaemon&#xA;StopDaemon&#xA;StartTimer&#xA;StopTimer&#xA;Statusline&#xA;SetTime&#xA;ScopeWithin&#xA;SetPronoun&#xA;to&#xA;the&#xA;The&#xA;TestScope&#xA;TryNumber&#xA;TimePasses&#xA;until&#xA;underline&#xA;UnknownVerb&#xA;UnsignedCompare&#xA;ValueOrRun&#xA;while&#xA;with&#xA;WriteListFrom&#xA;WordAddress&#xA;WordLength&#xA;YesOrNo&#xA;ZRegion&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="Abbreviate&#xA;Array&#xA;Attribute&#xA;Class&#xA;Constant&#xA;Default&#xA;Dictionary&#xA;End&#xA;Endif&#xA;Extend&#xA;endif&#xA;Fake_action&#xA;Global&#xA;Ifdef&#xA;Ifndef&#xA;Ifnot&#xA;Iftrue&#xA;Iffalse&#xA;Import&#xA;Include&#xA;Ifv3&#xA;Ifv5&#xA;ifdef&#xA;ifndef&#xA;ifnot&#xA;iftrue&#xA;iffalse&#xA;ifv3&#xA;ifv5&#xA;Link&#xA;Lowstring&#xA;Message&#xA;Nearby&#xA;Object&#xA;Property&#xA;Release&#xA;Replace&#xA;Routine&#xA;Serial&#xA;Switches&#xA;System_file&#xA;Stub&#xA;String&#xA;Trace&#xA;Verb&#xA;Version&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="absent&#xA;animate&#xA;creature&#xA;clothing&#xA;concealed&#xA;container&#xA;edible&#xA;enterable&#xA;female&#xA;general&#xA;held&#xA;light&#xA;lockable&#xA;locked&#xA;male&#xA;moved&#xA;neuter&#xA;on&#xA;open&#xA;openable&#xA;pluralname&#xA;proper&#xA;scenery&#xA;scored&#xA;static&#xA;supporter&#xA;switchable&#xA;talkable&#xA;transparent&#xA;visited&#xA;workflag&#xA;worn&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties/Ops" Enabled="True" Style="" Words="~&#xA;.&#xA;:&#xA;;&#xA;,&#xA;-&#xA;=&#xA;&gt;&#xA;&lt;&#xA;&amp;&#xA;|&#xA;(&#xA;)&#xA;[&#xA;]&#xA;{&#xA;}&#xA;+&#xA;*&#xA;//&#xA;/&#xA;add_to_scope&#xA;after&#xA;article&#xA;articles&#xA;before&#xA;cant_go&#xA;capacity&#xA;create&#xA;copy&#xA;call&#xA;door&#xA;daemon&#xA;describe&#xA;description&#xA;door_dir&#xA;door_to&#xA;d_to&#xA;destroy&#xA;each_turn&#xA;e_to&#xA;found_in&#xA;initial&#xA;inside_description&#xA;invent&#xA;in_to&#xA;grammar&#xA;life&#xA;list_together&#xA;name&#xA;number&#xA;n_to&#xA;nw_to&#xA;ne_to&#xA;orders&#xA;out_to&#xA;parse_name&#xA;plural&#xA;private&#xA;react_after&#xA;react_before&#xA;recreate&#xA;remaining&#xA;short_name&#xA;short_name_indef&#xA;s_to&#xA;se_to&#xA;sw_to&#xA;time_left&#xA;time_out&#xA;u_to&#xA;when_closed&#xA;when_open&#xA;when_off&#xA;when_on&#xA;with_key&#xA;w_to&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Verb Actions" Enabled="True" Style="" Words="ActionsOn&#xA;ActionsOff&#xA;Attack&#xA;Answer&#xA;Ask&#xA;AskFor&#xA;Burn&#xA;Blow&#xA;Buy&#xA;CommandsOn&#xA;CommandsOff&#xA;CommandsRead&#xA;Close&#xA;Consult&#xA;Cut&#xA;Climb&#xA;Drop&#xA;Disrobe&#xA;Dig&#xA;Drink&#xA;default&#xA;Empty&#xA;Enter&#xA;Exit&#xA;Examine&#xA;Eat&#xA;Fullscore&#xA;Fill&#xA;Goto&#xA;Gonear&#xA;GetOff&#xA;Go&#xA;GoIn&#xA;Give&#xA;Inv&#xA;InvTall&#xA;InvWide&#xA;Insert&#xA;Jump&#xA;JumpOver&#xA;Kiss&#xA;LMode1&#xA;LMode2&#xA;LMode3&#xA;Look&#xA;Lock&#xA;Listen&#xA;LookUnder&#xA;LetGo&#xA;Mild&#xA;Miscellany&#xA;NotifyOn&#xA;NotifyOff&#xA;No&#xA;NotUnderstood&#xA;Objects&#xA;Open&#xA;Order&#xA;Pronouns&#xA;Places&#xA;Predictable&#xA;PutOn&#xA;Pray&#xA;Pull&#xA;Push&#xA;PushDir&#xA;PluralFound&#xA;Prompt&#xA;Quit&#xA;Restart&#xA;Restore&#xA;RoutinesOn&#xA;RoutinesOff&#xA;Read&#xA;Remove&#xA;Rub&#xA;Receive&#xA;Save&#xA;SciptOn&#xA;ScriptOff&#xA;Score&#xA;Scope&#xA;Search&#xA;Show&#xA;SwitchOn&#xA;SwitchOff&#xA;Smell&#xA;Sorry&#xA;Strong&#xA;Swim&#xA;Swing&#xA;Set&#xA;SetTo&#xA;Squeeze&#xA;Sing&#xA;Sleep&#xA;TraceOn&#xA;TraceOff&#xA;TraceLevel&#xA;TimersOn&#xA;TimersOff&#xA;Transfer&#xA;Think&#xA;Taste&#xA;Touch&#xA;Tie&#xA;Turn&#xA;ThrowAt&#xA;ThrownAt&#xA;TheSame&#xA;Take&#xA;Tell&#xA;Unlock&#xA;VagueGo&#xA;VagueSay&#xA;Verify&#xA;Wear&#xA;Wake&#xA;WakeOther&#xA;Wave&#xA;WaveHands&#xA;Wait&#xA;Xpurloin&#xA;Xabstract&#xA;Xtree&#xA;Yes&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Grammar" Enabled="True" Style="" Words="first&#xA;last&#xA;multi&#xA;multiheld&#xA;multiexcept&#xA;multiinside&#xA;meta&#xA;noun&#xA;only&#xA;replace&#xA;scope&#xA;special&#xA;second&#xA;topic&#xA;the&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Miscellaneous" Enabled="True" Style="" Words="action&#xA;AMUSING_PROVIDED&#xA;ALWAYS_BIT&#xA;ANIMA_PE&#xA;ASKSCOPE_PE&#xA;compass&#xA;CONCEAL_BIT&#xA;CANTSEE_PE&#xA;d_obj&#xA;deadflag&#xA;DEFART_BIT&#xA;DEBUG&#xA;e_obj&#xA;ENGLISH_BIT&#xA;EACHTURN_REASON&#xA;EXCEPT_PE&#xA;FULLINV_BIT&#xA;Headline&#xA;in_obj&#xA;inventory_stage&#xA;item_name&#xA;item_width&#xA;INDENT_BIT&#xA;ISARE_BIT&#xA;ITGONE_PE&#xA;InformLibrary&#xA;InformParser&#xA;JUNKAFTER_PE&#xA;LibraryMessages&#xA;LOOPOVERSCOPE_REASON&#xA;moves&#xA;menu_item&#xA;MAX_CARRIED&#xA;MAX_SCORE&#xA;MAX_TIMERS&#xA;MANUAL_PRONOUNS&#xA;MULTI_PE&#xA;MMULTI_PE&#xA;n_obj&#xA;ne_obj&#xA;nw_obj&#xA;NULL&#xA;NUMBER_TASKS&#xA;NO_PLACES&#xA;NEWLINE_BIT&#xA;NUMBER_PE&#xA;NOTHELD_PE&#xA;NOTHING_PE&#xA;out_obj&#xA;OBJECT_SCORE&#xA;player&#xA;parser_action&#xA;parser_one&#xA;parser_two&#xA;parsed_number&#xA;PARTINV_BIT&#xA;PARSING_REASON&#xA;real_location&#xA;ROOM_SCORE&#xA;RECURSE_BIT&#xA;REACT_BEFORE_REASON&#xA;REACT_AFTER_REASON&#xA;s_obj&#xA;sw_obj&#xA;se_obj&#xA;score&#xA;self&#xA;selfobj&#xA;SACK_OBJECT&#xA;STUCK_PE&#xA;SCENERY_PE&#xA;Story&#xA;time&#xA;thedark&#xA;TASKS_PROVIDED&#xA;TERSE_BIT&#xA;TALKING_REASON&#xA;TESTSCOPE_REASON&#xA;TOOLIT_PE&#xA;TOOFEW_PE&#xA;u_obj&#xA;UPTO_PE&#xA;VAGUE_PE&#xA;VERB_PE&#xA;w_obj&#xA;WORKFLAG_BIT&#xA;WITHOUT_DIRECTIONS&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ..&amp;amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MS DOS Batch" FileType="" Extensions="bat" Version="1" Revision="0" Sample="rem MS-DOS batch file&#xA;;remark!&#xA;@echo off&#xA;cls&#xA;echo The command line is: %1 %2 %3 %4 %5&#xA;copy %1 %2&#xA;rem&#xA;rem now wait for the user ...&#xA;pause&#xA;copy c:\*.pas d:\&#xA;if errorlevel 1 echo Error in copy action!&#xA;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="DOS Commands" Enabled="True" Style="" Words="ansi&#xA;append&#xA;assign&#xA;attrib&#xA;autofail&#xA;backup&#xA;basedev&#xA;Beep&#xA;boot&#xA;break&#xA;buffers&#xA;cache&#xA;cd&#xA;chcp&#xA;chdir&#xA;chkdsk&#xA;choice&#xA;cmd&#xA;codepage&#xA;command&#xA;comp&#xA;compact&#xA;convert&#xA;copy&#xA;country&#xA;date&#xA;ddinstal&#xA;debug&#xA;del&#xA;Delete&#xA;deltree&#xA;detach&#xA;device&#xA;devicehigh&#xA;devinfo&#xA;dir&#xA;diskcoache&#xA;diskcomp&#xA;diskcopy&#xA;doskey&#xA;dpath&#xA;dumpprocess&#xA;eautil&#xA;edit&#xA;edlin&#xA;endlocal&#xA;Erase&#xA;Error&#xA;exit_vdm&#xA;expand&#xA;extproc&#xA;fc&#xA;fcbs&#xA;fdisk&#xA;fdiskpm&#xA;FileAttr&#xA;FileDateTime&#xA;files&#xA;find&#xA;format&#xA;fsaccess&#xA;fsfilter&#xA;ftp&#xA;graftabl&#xA;graphics&#xA;help&#xA;IIf&#xA;interlnk&#xA;intersvr&#xA;iopl&#xA;join&#xA;keyb&#xA;keys&#xA;label&#xA;lastdrive&#xA;lh&#xA;libpath&#xA;loadfix&#xA;loadhigh&#xA;makeini&#xA;maxwait&#xA;md&#xA;mem&#xA;memman&#xA;mkdir&#xA;mode&#xA;more&#xA;move&#xA;msav&#xA;msbackup&#xA;msd&#xA;net&#xA;nslfunc&#xA;patch&#xA;path&#xA;pauseonerror&#xA;picview&#xA;pmrexx&#xA;print&#xA;printmonbufsize&#xA;priority&#xA;priority_disk_io&#xA;prompt&#xA;protectonly&#xA;protshell&#xA;pstat&#xA;qbasic&#xA;rd&#xA;recover&#xA;reipl&#xA;Ren&#xA;Rename&#xA;replace&#xA;restore&#xA;rmdir&#xA;rmsize&#xA;run&#xA;scandisk&#xA;setboot&#xA;setlocal&#xA;setver&#xA;share&#xA;shell&#xA;smartdrv&#xA;sort&#xA;spool&#xA;subst&#xA;suppresspopups&#xA;swappath&#xA;sys&#xA;syslevel&#xA;syslog&#xA;threads&#xA;time&#xA;timeslice&#xA;trace&#xA;tracebuf&#xA;tracefmt&#xA;trapdump&#xA;tree&#xA;type&#xA;undelete&#xA;unformat&#xA;unpack&#xA;use&#xA;ver&#xA;verify&#xA;view&#xA;vmdisk&#xA;vol&#xA;vsafe&#xA;xcopy&#xA;xcopy32&#xA;xdfcopy&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Batch Statements" Enabled="True" Style="" Words="if&#xA;do&#xA;in&#xA;off&#xA;call&#xA;on&#xA;cls&#xA;for&#xA;set&#xA;not&#xA;goto&#xA;shift&#xA;pause&#xA;title&#xA;exist&#xA;start&#xA;errorlevel&#xA;else&#xA;end&#xA;exit&#xA;return&#xA;say select&#xA;then&#xA;when&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Output" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="echo"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="Variables" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+              <Properties CloseOnTerm="True" CloseOnEol="True"/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="%"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Invisible" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$008080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark Rem" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="rem"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Variables" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

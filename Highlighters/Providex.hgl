@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Providex" FileType="" Extensions="PVX" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:providex.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;&amp;()*+,-/:;&lt;=&gt;?@[\]^{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ACCEPT&#xA;ADDR&#xA;ALL&#xA;AND&#xA;AUTO&#xA;AUTO_LOCK&#xA;BEGIN&#xA;BREAK&#xA;BYE&#xA;BUTTON&#xA;CALL&#xA;CASE&#xA;CHECK_BOX&#xA;CLEAR&#xA;CLIP_BOARD&#xA;CLOSE&#xA;CONTINUE&#xA;CONTROL&#xA;CUSTOM_VBX&#xA;CWDIR&#xA;DATA&#xA;DAY_FORMAT&#xA;DEF&#xA;DEFAULT&#xA;DEFCTL&#xA;DEFPRT&#xA;DEFTTY&#xA;DELETE&#xA;DICTIONARY&#xA;DIM&#xA;DIRECT&#xA;DIRECTORY&#xA;DISABLE&#xA;DROP&#xA;DROP_BOX&#xA;DUMP&#xA;EDIT&#xA;ELSE&#xA;ENABLE&#xA;END&#xA;END_IF&#xA;ENDTRACE&#xA;ENTER&#xA;ERASE&#xA;ERROR_HANDLER&#xA;ESCAPE&#xA;EXCEPT&#xA;EXECUTE&#xA;EXIT&#xA;EXITTO&#xA;EXTRACT&#xA;FI&#xA;FILE&#xA;FIND&#xA;FLOATING&#xA;FLOATINGPOINT&#xA;FN&#xA;FOR&#xA;FROM&#xA;GET_FILE_BOX&#xA;GOTO&#xA;GOSUB&#xA;H_SCROLLBAR&#xA;HIDE&#xA;IF&#xA;INDEXED&#xA;INPUT&#xA;INVOKE&#xA;IOLIST&#xA;KEYED&#xA;LET&#xA;LINE_SWITCH&#xA;LIST&#xA;LIST_BOX&#xA;LOAD&#xA;LOCAL&#xA;LOCK&#xA;LONG_FORM&#xA;MENU_BAR&#xA;MERGE&#xA;MESSAGE_LIB&#xA;MNEMONIC&#xA;MSGBOX&#xA;MULTI_LINE&#xA;MULTI_MEDIA&#xA;NEXT&#xA;OBTAIN&#xA;OFF&#xA;ON&#xA;OPEN&#xA;OR&#xA;PASSWORD&#xA;PERFORM&#xA;POINT&#xA;PRECISION&#xA;PREFIX&#xA;PREINPUT&#xA;PRINT&#xA;PROGRAM&#xA;PROCEED&#xA;PROCESS&#xA;PROPERTIES&#xA;PURGE&#xA;QUIT&#xA;RADIO_BUTTON&#xA;RANDOM&#xA;RANDOMIZE&#xA;READ&#xA;RECORD&#xA;REFILE&#xA;RELEASE&#xA;REM&#xA;REMOVE&#xA;RENAME&#xA;RENUMBER&#xA;REPEAT&#xA;RESET&#xA;RESTORE&#xA;RETRY&#xA;RETURN&#xA;ROUND&#xA;RUN&#xA;SAME&#xA;SAVE&#xA;SECURITY_MASK&#xA;SELECT&#xA;SERIAL&#xA;SERVER&#xA;SETMOUSE&#xA;SETCTL&#xA;SETDAY&#xA;SETDEV&#xA;SETDRIVE&#xA;SETERR&#xA;SETESC&#xA;SETFID&#xA;SETMOUSE&#xA;SETTIME&#xA;SETTRACE&#xA;SET_FOCUS&#xA;SET_NBF&#xA;SET_PARAM&#xA;SHORT_FORM&#xA;SHOW&#xA;SORT&#xA;START&#xA;STEP&#xA;STOP&#xA;SWAP&#xA;SWITCH&#xA;SYSTEM_HELP&#xA;SYSTEM_JRNL&#xA;TABLE&#xA;THEN&#xA;TO&#xA;TRANSLATE&#xA;TRISTATE_BOX&#xA;UNLOCK&#xA;UNTIL&#xA;USER_LEX&#xA;VARDROP_BOX&#xA;VARLIST_BOX&#xA;VIA&#xA;VIDEO_PALETTE&#xA;V_SCROLLBAR&#xA;WAIT&#xA;WEND&#xA;WHERE&#xA;WHILE&#xA;WINDOW&#xA;WINPRT_SETUP&#xA;WRITE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="ABS&#xA;ACS&#xA;ARG&#xA;ASC&#xA;ASN&#xA;ATH&#xA;ATN&#xA;BIN&#xA;BSZ&#xA;CHG&#xA;CHR&#xA;COS&#xA;CPL&#xA;CRC&#xA;CSE&#xA;CTL&#xA;CVS&#xA;DEC&#xA;DIM&#xA;DIR&#xA;DLL&#xA;DLX&#xA;DSK&#xA;DTE&#xA;ENV&#xA;EPT&#xA;ERR&#xA;EVN&#xA;EVS&#xA;EXP&#xA;FFN&#xA;FIB&#xA;FID&#xA;FIN&#xA;FPT&#xA;GAP&#xA;GBL&#xA;GEP&#xA;HSA&#xA;HSH&#xA;HTA&#xA;HWN&#xA;I3E&#xA;I86&#xA;IND&#xA;INT&#xA;IOL&#xA;IOR&#xA;JUL&#xA;KEC&#xA;KEF&#xA;KEL&#xA;KEN&#xA;KEP&#xA;KEY&#xA;KGN&#xA;LCS&#xA;LEN&#xA;LOG&#xA;LRC&#xA;LST&#xA;MAX&#xA;MEM&#xA;MID&#xA;MIN&#xA;MNM&#xA;MOD&#xA;MSG&#xA;MSK&#xA;MXC&#xA;MXL&#xA;NOT&#xA;NUL&#xA;NUM&#xA;OBJ&#xA;OPT&#xA;PAD&#xA;PCK&#xA;PFX&#xA;PGM&#xA;POS&#xA;PRC&#xA;PRM&#xA;PTH&#xA;PUB&#xA;RCD&#xA;RDX&#xA;REC&#xA;RND&#xA;RNO&#xA;SGN&#xA;SIN&#xA;SQR&#xA;SRT&#xA;SSZ&#xA;STK&#xA;STP&#xA;STR&#xA;SWP&#xA;SYS&#xA;TAN&#xA;TBL&#xA;TCB&#xA;TRX&#xA;TSK&#xA;TXH&#xA;TXW&#xA;UCS&#xA;UPK&#xA;VAL&#xA;VIN&#xA;VIS&#xA;XEQ&#xA;XFA&#xA;XOR&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="ADD&#xA;BKG&#xA;BSZ&#xA;CHN&#xA;CTL&#xA;DAY&#xA;DLM&#xA;DSZ&#xA;DIR&#xA;DOM&#xA;EOM&#xA;ERR&#xA;ERS&#xA;ESC&#xA;END&#xA;ERR&#xA;FLG&#xA;FMT&#xA;FNT&#xA;GFN&#xA;GID&#xA;HFN&#xA;HLP&#xA;HWD&#xA;IND&#xA;ISZ&#xA;KNO&#xA;LFA&#xA;LFO&#xA;LIP&#xA;LPG&#xA;LWD&#xA;MDE&#xA;MSE&#xA;MSL&#xA;MSG&#xA;NAR&#xA;NID&#xA;NBF&#xA;PFX&#xA;PGN&#xA;PRC&#xA;PRM&#xA;PSZ&#xA;QUO&#xA;OPT&#xA;OWN&#xA;RET&#xA;RND&#xA;REC&#xA;RNO&#xA;RSZ&#xA;RTY&#xA;SEP&#xA;SID&#xA;SSN&#xA;SYS&#xA;SEP&#xA;SIZ&#xA;TIM&#xA;TME&#xA;TMS&#xA;TSM&#xA;TBL&#xA;TIM&#xA;TIP&#xA;UID&#xA;UNT&#xA;WHO&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="'&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

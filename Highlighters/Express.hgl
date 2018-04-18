@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Express" FileType="" Extensions="EXP PRG FUN" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:express.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="ABS&#xA;AGGINDEX&#xA;AGGMAP&#xA;AGGMAPINFO&#xA;AGGREGATE&#xA;AGGREGATE&#xA;ALLCOMPILE&#xA;ALLSTAT&#xA;ANTILOG&#xA;ANTILOG10&#xA;ANY&#xA;ARCCOS&#xA;ARCSIN&#xA;ARCTAN&#xA;ARGCOUNT&#xA;ARGFR&#xA;ARGS&#xA;AVERAGE&#xA;BACK&#xA;BADLINE&#xA;BEGINDATE&#xA;BLANK&#xA;BLANKSTRIP&#xA;BREAK&#xA;CACHE&#xA;CACHEHITS&#xA;CACHEMISSES&#xA;CACHETRIES&#xA;CALENDARWEEK&#xA;CALL&#xA;CALLTYPE&#xA;CATEGORIZE&#xA;CHANGECHARS&#xA;CHARLIST&#xA;CHARSET&#xA;CHDIR&#xA;CHDRIVE&#xA;CHGDFN&#xA;COLVAL&#xA;COLWIDTH&#xA;COMMAS&#xA;COMPILE&#xA;COMPILEMESSAGE&#xA;COMPILEWARN&#xA;COMQUERY&#xA;COMSET&#xA;COMSET&#xA;COMUNIT&#xA;CONNECT&#xA;CONSIDER&#xA;CONTEXT&#xA;CONTEXT&#xA;CONTINUE&#xA;CONVERT&#xA;COPYDFN&#xA;CORRELATION&#xA;COS&#xA;COSH&#xA;COUNT&#xA;CUMSUM&#xA;DATABASE&#xA;DATEFORMAT&#xA;DATEORDER&#xA;DAYABBRLEN&#xA;DAYNAMES&#xA;DAYOF&#xA;DBDESCRIBE&#xA;DBGOUTFILE&#xA;DBGSESSION&#xA;DBREPORT&#xA;DBWAITTIME&#xA;DDOF&#xA;DECIMALOVERFLOW&#xA;DECIMALS&#xA;DEFINE&#xA;DELETE&#xA;DEPRDECL&#xA;DEPRDECLSW&#xA;DEPRSL&#xA;DEPRSOYD&#xA;DESCRIBE&#xA;DIMENSION&#xA;DIR&#xA;DISCONNECT&#xA;DIVIDEBYZERO&#xA;DO&#xA;DOEND&#xA;DSECONDS&#xA;ECHOPROMPT&#xA;EIFBYTES&#xA;ELSE&#xA;ENDDATE&#xA;ENDOF&#xA;EPRODUCT&#xA;ERELEASE&#xA;ERRNAMES&#xA;ESCAPEBASE&#xA;EVERSION&#xA;EVERY&#xA;EXECBREAK&#xA;EXECSTART&#xA;EXECSTATUS&#xA;EXECUTE&#xA;EXECWAIT&#xA;EXISTS&#xA;EXPORT&#xA;EXPTRACE&#xA;EXTARGS&#xA;EXTCHARS&#xA;EXTCOLS&#xA;EXTLINES&#xA;FCCLOSE&#xA;FCEXEC&#xA;FCOPEN&#xA;FCQUERY&#xA;FCSET&#xA;FETCH&#xA;FILECLOSE&#xA;FILECOPY&#xA;FILEDELETE&#xA;FILEERROR&#xA;FILEGET&#xA;FILEMODEMASK&#xA;FILEMOVE&#xA;FILENEXT&#xA;FILEOPEN&#xA;FILEPAGE&#xA;FILEPUT&#xA;FILEQUERY&#xA;FILEREAD&#xA;FILESET&#xA;FILEVIEW&#xA;FILTERLINES&#xA;FINDCHARS&#xA;FINDLINES&#xA;FINTSCHED&#xA;FOR&#xA;FORECAST&#xA;FPMTSCHED&#xA;FULLDSC&#xA;GET&#xA;GOTO&#xA;GROWRATE&#xA;HEADING&#xA;HIDE&#xA;HIERCHECK&#xA;IF&#xA;IFCOPY&#xA;IMPORT&#xA;INCLUDE&#xA;INFILE&#xA;INFO&#xA;INLIST&#xA;INSCHARS&#xA;INSCOLS&#xA;INSLINES&#xA;INSTAT&#xA;INTPART&#xA;IRR&#xA;ISDATE&#xA;ISVALUE&#xA;JOINCHARS&#xA;JOINCOLS&#xA;JOINLINES&#xA;KEY&#xA;LAG&#xA;LAGABSPCT&#xA;LAGDIF&#xA;LAGPCT&#xA;LARGEST&#xA;LCOLWIDTH&#xA;LD&#xA;LEAD&#xA;LIKECASE&#xA;LIKENL&#xA;LIKEESCAPE&#xA;LIMIT&#xA;LINENUM&#xA;LINESLEFT&#xA;LISTBY&#xA;LISTFILES&#xA;LISTNAMES&#xA;LOAD&#xA;LOG&#xA;LOG10&#xA;LONGOBJNAMES&#xA;LOWCASE&#xA;LSIZE&#xA;MAINTAIN&#xA;MAKEDATE&#xA;MAX&#xA;MAXCHARS&#xA;MAXFETCH&#xA;MEDIAN&#xA;MIN&#xA;MKDIR&#xA;MMOF&#xA;MODDAMP&#xA;MODE&#xA;MODEL&#xA;MODERROR&#xA;MODGAMMA&#xA;MODINPUTORDER&#xA;MODMAXITERS&#xA;MODOVERFLOW&#xA;MODSIMULTYPE&#xA;MODTOLERANCE&#xA;MODTRACE&#xA;MONITOR&#xA;MONTHABBRLEN&#xA;MONTHNAMES&#xA;MOVE&#xA;MOVINGAVERAGE&#xA;MOVINGMAX&#xA;MOVINGMIN&#xA;MOVINGTOTAL&#xA;NAFILL&#xA;NAME&#xA;NAPAGEFREE&#xA;NASKIP&#xA;NASKIP2&#xA;NASPELL&#xA;NONE&#xA;NOPRINT&#xA;NORMAL&#xA;NOSPELL&#xA;NPV&#xA;NUMCHARS&#xA;NUMLINES&#xA;OBJ&#xA;OBJLIST&#xA;OBSCURE&#xA;OFF&#xA;OKFORLIMIT&#xA;ON&#xA;OUTFILE&#xA;OUTFILEUNIT&#xA;PAGE&#xA;PAGEPAUSE&#xA;PAGEPROMPT&#xA;PARENS&#xA;PARSE&#xA;PAUSE&#xA;PERCENTAGE&#xA;PERMIT&#xA;PERMITERROR&#xA;PERMITRESET&#xA;PGCACHEHITS&#xA;PGCACHEMISSES&#xA;POP&#xA;POPLEVEL&#xA;PROGRAM&#xA;PROPERTY&#xA;PUSH&#xA;PUSHLEVEL&#xA;QUAL&#xA;RANDOM&#xA;RANK&#xA;RECAP&#xA;RECNO&#xA;RECURSIVE&#xA;REDO&#xA;REEDIT&#xA;REGRESS&#xA;RELATION&#xA;REM&#xA;REMCHARS&#xA;REMCOLS&#xA;REMLINES&#xA;RENAME&#xA;REPLCHARS&#xA;REPLCOLS&#xA;REPLLINES&#xA;REPORT&#xA;RESERVED&#xA;RETRIEVE&#xA;RETURN&#xA;RMDIR&#xA;ROLLUP&#xA;ROOTOFNEGATIVE&#xA;ROUND&#xA;ROW&#xA;ROW&#xA;RPR&#xA;RUNTOTAL&#xA;SECONDS&#xA;SESSIONQUERY&#xA;SET&#xA;SHARESESSION&#xA;SHELL&#xA;SHOW&#xA;SHW&#xA;SIGNAL&#xA;SIN&#xA;SINH&#xA;SLEEP&#xA;SMALLEST&#xA;SMOOTH&#xA;SORT&#xA;SORTCOMPOSITE&#xA;SORTLINES&#xA;SPARSEINDEX&#xA;SQL&#xA;SQLBLOCKMAX&#xA;SQLMESSAGES&#xA;SQRT&#xA;STARTOF&#xA;STATALL&#xA;STATFIRST&#xA;STATLAST&#xA;STATLEN&#xA;STATLIST&#xA;STATMAX&#xA;STATMIN&#xA;STATRANK&#xA;STATUS&#xA;STATVAL&#xA;STDDEV&#xA;STDHDR&#xA;STRIP&#xA;SUBTOTAL&#xA;SWITCH&#xA;SYSINFO&#xA;SYSTEM&#xA;TALLY&#xA;TAN&#xA;TANH&#xA;TCONVERT&#xA;TEMPSTAT&#xA;TEXTFILL&#xA;THEN&#xA;THOUSANDSCHAR&#xA;THREADEXTCALL&#xA;TOD&#xA;TODAY&#xA;TOTAL&#xA;TRACE&#xA;TRACKPRG&#xA;TRANSLATE&#xA;TRANSPORT&#xA;TRAP&#xA;TRIGGERMAXDEPTH&#xA;TRIGGERSTOREOK&#xA;UNHIDE&#xA;UNIQUELINES&#xA;UNRAVEL&#xA;UPCASE&#xA;UPDATE&#xA;UPD&#xA;VALSPERPAGE&#xA;VALUES&#xA;VINTSCHED&#xA;VNF&#xA;VPMTSCHED&#xA;WATCH&#xA;WEEKDAYSNEWYEAR&#xA;WEEKOF&#xA;WHILE&#xA;WKSDATA&#xA;XABORT&#xA;XCAPORTNUMBER&#xA;XCLOSE&#xA;XOPEN&#xA;XOPEN&#xA;YESSPELL&#xA;YRABSTART&#xA;YYOF&#xA;ZEROROW&#xA;ZEROTOTAL&#xA;ZSPELL&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Variables" Enabled="True" Style="" Words="ARG&#xA;ARGUMENT&#xA;BMARGIN&#xA;BOOL&#xA;BOOLEAN&#xA;DBEXTENDPATH&#xA;DBSEARCHPATH&#xA;DBTEMPPATH&#xA;DECIMALCHAR&#xA;EIFEXTENSIONPATH&#xA;EIFNAMES&#xA;EIFSHORTNAMES&#xA;EIFTYPES&#xA;EIFUPDBYTES&#xA;ERRORNAME&#xA;ERRORTEXT&#xA;INT&#xA;INTEGER&#xA;OKNULLSTATUS&#xA;PAGENUM&#xA;PAGEPRG&#xA;PAGESIZE&#xA;PAGING&#xA;PRGTRACE&#xA;SQLCODE&#xA;SQLERRM&#xA;TEXT&#xA;TMARGIN&#xA;VARIABLE&#xA;VRB&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;^&#xA;!&#xA;|&#xA;:&#xA;AND&#xA;EQ&#xA;GE&#xA;GT&#xA;LE&#xA;LT&#xA;NE&#xA;NOT&#xA;OR&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

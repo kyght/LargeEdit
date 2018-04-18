@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQL" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ingres" Enabled="True" Style="" Words="ABORT&#xA;ACTIVATE&#xA;ADD&#xA;ADDFORM&#xA;AFTER&#xA;AGGREGATE&#xA;ALL&#xA;ALTER&#xA;AND&#xA;APPEND&#xA;ARRAY&#xA;AS&#xA;ASC&#xA;AT&#xA;AUDIT_LOG&#xA;AUTHORIZATION&#xA;AUTOCOMMIT&#xA;AVGU&#xA;BEFORE&#xA;BEGIN&#xA;BETWEEN&#xA;BREAKDISPLAY&#xA;BY&#xA;BYREF&#xA;CACHE&#xA;CALL&#xA;CALLFRAME&#xA;CALLPROC&#xA;CASCADE&#xA;CHECK&#xA;CLEAR&#xA;CLEARROW&#xA;CLOSE&#xA;COLUMN&#xA;COMMAND&#xA;COMMENT&#xA;COMMIT&#xA;CONNECT&#xA;CONSTRAINT&#xA;CONTINUE&#xA;COPY&#xA;COUNTU&#xA;CPUFACTOR&#xA;CREATE&#xA;CURRENT&#xA;CURRENT_USER&#xA;CURSOR&#xA;DATA&#xA;DATAHANDLER&#xA;DATE_FORMAT&#xA;DBEVENT&#xA;DDL_CONCURRENCY&#xA;DEADLOCK&#xA;DECLARE&#xA;DEFAULT&#xA;DEFERRED&#xA;DEFINE&#xA;DELETE&#xA;DELETEROW&#xA;DESC&#xA;DESCRIBE&#xA;DESCRIPTOR&#xA;DESTROY&#xA;DIRECT&#xA;DISABLE&#xA;DISCONNECT&#xA;DISPLAY&#xA;DISTINCT&#xA;DISTRIBUTE&#xA;DO&#xA;DOWN&#xA;DROP&#xA;ELSE&#xA;ELSEIF&#xA;ENABLE&#xA;END&#xA;ENDDATA&#xA;ENDDISPLAY&#xA;ENDFORMS&#xA;ENDIF&#xA;ENDLOOP&#xA;ENDRETRIEVE&#xA;ENDSELECT&#xA;ENDWHILE&#xA;ERROR&#xA;ESCAPE&#xA;EXCLUDE&#xA;EXCLUDING&#xA;EXEC&#xA;EXECUTE&#xA;EXISTS&#xA;EXIT&#xA;FETCH&#xA;FIELD&#xA;FINALIZE&#xA;FOR&#xA;FOREIGN&#xA;FORMDATA&#xA;FORMINIT&#xA;FORMS&#xA;FROM&#xA;FULL&#xA;GET&#xA;GETFORM&#xA;GETOPER&#xA;GETROW&#xA;GLOBAL&#xA;GOTO&#xA;GRANT&#xA;GRANTED&#xA;HAVING&#xA;HELP&#xA;HELP_FORMS&#xA;HELP_FRS&#xA;HELPFILE&#xA;IDENTIFIED&#xA;IF&#xA;IIMESSAGE&#xA;IIPRINTF&#xA;IIPROMPT&#xA;IISTATEMENT&#xA;IMMEDIATE&#xA;IMPORT&#xA;IN&#xA;INCLUDE&#xA;INDEX&#xA;INDICATOR&#xA;INGRES&#xA;INITIALIZE&#xA;INITTABLE&#xA;INNER&#xA;INQUIRE_EQUEL&#xA;INQUIRE_FORMS&#xA;INQUIRE_FRS&#xA;INQUIRE_INGRES&#xA;INSERT&#xA;INSERTROW&#xA;INSTALLATION&#xA;INTEGRITY&#xA;INTO&#xA;IO_TRACE&#xA;IS&#xA;J_FREESZ1&#xA;J_FREESZ2&#xA;J_FREESZ3&#xA;J_FREESZ4&#xA;J_SORTBUFSZ&#xA;JCPUFACTOR&#xA;JOIN&#xA;JOINOP&#xA;JOURNALING&#xA;KEY&#xA;LEVEL&#xA;LIKE&#xA;LINK&#xA;LOADTABLE&#xA;LOCAL&#xA;LOCATION&#xA;LOCK_TRACE&#xA;LOG_TRACE&#xA;LOGDBEVENTS&#xA;LOGGING&#xA;MAXCOST&#xA;MAXCPU&#xA;MAXPAGE&#xA;MENUITEM&#xA;MESSAGE&#xA;MODE&#xA;MODIFY&#xA;MODULE&#xA;MONEY_FORMAT&#xA;MONEY_PREC&#xA;MOVE&#xA;NATURAL&#xA;NEXT&#xA;NODEADLOCK&#xA;NOECHO&#xA;NOIO_TRACE&#xA;NOJIONOP&#xA;NOJOURNALING&#xA;NOLOCK_TRACE&#xA;NOLOG_TRACE&#xA;NOLOGDBEVENTS&#xA;NOLOGGING&#xA;NOMAXCOST&#xA;NOMAXCPU&#xA;NOMAXIO&#xA;NOMAXPAGE&#xA;NOMAXQUERY&#xA;NOMAXROW&#xA;NOOPTIMIZEONLY&#xA;NOPRINTDBEVENTS&#xA;NOPRINTQRY&#xA;NOPRINTRULES&#xA;NOQEP&#xA;NORULES&#xA;NOSQL&#xA;NOSTATISTICS&#xA;NOT&#xA;NOTRACE&#xA;NULL&#xA;OF&#xA;ON&#xA;ONLY&#xA;OPEN&#xA;OPTIMIZEONLY&#xA;OPTION&#xA;OR&#xA;ORDER&#xA;OUT&#xA;PARAM&#xA;PERMIT&#xA;PREPARE&#xA;PRESERVE&#xA;PRIMARY&#xA;PRINT&#xA;PRINTDBEVENTS&#xA;PRINTQRY&#xA;PRINTSCREEN&#xA;PRIVILEGES&#xA;PROCEDURE&#xA;PROMPT&#xA;PUBLIC&#xA;PUT&#xA;PUTFORM&#xA;PUTOPER&#xA;PUTROW&#xA;QBUFSIZE&#xA;QEP&#xA;QRY&#xA;QUALIFICATION&#xA;QUERY_SIZE&#xA;RAISE&#xA;RANGE&#xA;READONLY&#xA;REDISPLAY&#xA;REFERENCES&#xA;REFERENCING&#xA;REGISTER&#xA;RELOCATE&#xA;REMOVE&#xA;RENAME&#xA;REPEAT&#xA;REPEATED&#xA;REPLACE&#xA;REPLICATE&#xA;RESTRICT&#xA;RESULT_STRUCTURE&#xA;RESUME&#xA;RET_INTO&#xA;RETRIEVE&#xA;RETURN&#xA;RETURNING&#xA;REVOKE&#xA;ROLLBACK&#xA;ROWS&#xA;RULE&#xA;RUN&#xA;SAVE&#xA;SAVEPOINT&#xA;SCHEMA&#xA;SCREEN&#xA;SCROLL&#xA;SCROLLDOWN&#xA;SCROLLUP&#xA;SECTION&#xA;SECURITY_ALARM&#xA;SECURITY_AUDIT&#xA;SELECT&#xA;SESSION&#xA;SET&#xA;SET_4GL&#xA;SET_EQUAL&#xA;SET_FORMS&#xA;SET_FRS&#xA;SET_INGRES&#xA;SET_SQL&#xA;SHORT_REMARK&#xA;SLEEP&#xA;SOME&#xA;SORT&#xA;SORTBUFSIZE&#xA;SQL&#xA;STATISTICS&#xA;STOP&#xA;SUBMENU&#xA;SUMU&#xA;SYNONYM&#xA;SYSTEM&#xA;TABLE&#xA;TABLEDATA&#xA;TEWMPORARY&#xA;THEN&#xA;TO&#xA;TRACE&#xA;TRANSACTION&#xA;TYPE&#xA;UNION&#xA;UNIQUE&#xA;UNLOADTABLE&#xA;UNTIL&#xA;UP&#xA;UPDATE&#xA;USER&#xA;USING&#xA;VALIDATE&#xA;VALIDROW&#xA;VALUES&#xA;VIEW&#xA;WHEN&#xA;WHENEVER&#xA;WHERE&#xA;WHILE&#xA;WITH&#xA;WORK&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ingres Types" Enabled="True" Style="" Words="BYTE&#xA;C&#xA;CHAR&#xA;CHARACTER&#xA;DATE&#xA;DECIMAL&#xA;FLOAT&#xA;FLOAT4&#xA;FLOAT8&#xA;INTEGER&#xA;INTEGER1&#xA;INTEGER2&#xA;INTEGER4&#xA;LONG&#xA;MONEY&#xA;OBJECT_KEY&#xA;SECURITY_LABEL&#xA;SHORT&#xA;SMALLINT&#xA;TABLE_KEY&#xA;TEXT&#xA;VARCHAR&#xA;VARYING&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ingres Functions" Enabled="True" Style="" Words="_BINTIM&#xA;_CPU_MS&#xA;_DATE&#xA;_DIO_CNT&#xA;_ET_SEC&#xA;_PFAULT_CNT&#xA;_TIME&#xA;_VERSION&#xA;ABS&#xA;ANY&#xA;ATAN&#xA;AUTOCOMMIT_STATE&#xA;AVG&#xA;BIOCNT&#xA;CHAREXTRACT&#xA;COLLATION&#xA;CONCAT&#xA;CONNECT_TIME_LIMIT&#xA;COS&#xA;COUNT&#xA;CREATE_PROCEDURE&#xA;CREATE_TABLE&#xA;DATABASE&#xA;DATE_GMT&#xA;DATE_PART&#xA;DATE_TRUNC&#xA;DB_ADMIN&#xA;DB_DELIMITED_CASE&#xA;DB_NAME_CASE&#xA;DBA&#xA;DBMS_BIO&#xA;DBMS_CPU&#xA;DBMS_DIO&#xA;DBMSINFO&#xA;DOW&#xA;EXP&#xA;FLATTEN_AGGREGATE&#xA;FLATTEN_NONE&#xA;FLATTEN_OPTIMIZE&#xA;FLATTEN_SINGLETON&#xA;GROUP&#xA;HEX&#xA;IDLE_TIME_LIMIT&#xA;IFNULL&#xA;INITIAL_USER&#xA;INQUIRE_SQL&#xA;INT1&#xA;INT2&#xA;INT4&#xA;INTERVAL&#xA;LANGUAGE&#xA;LEFT&#xA;LENGTH&#xA;LOCATE&#xA;LOCKMODE&#xA;LOG&#xA;LONG_BYTE&#xA;LONG_VARCHAR&#xA;LOWERCASE&#xA;MAX&#xA;MAXCONNECT&#xA;MAXIDLE&#xA;MAXIO&#xA;MAXQUERY&#xA;MAXROW&#xA;MIN&#xA;MOD&#xA;NOTRIM&#xA;ON_ERROR_STATE&#xA;PAD&#xA;QUERY_IO_LIMIT&#xA;QUERY_LANGUAGE&#xA;QUERY_ROW_LIMIT&#xA;RIGHT&#xA;ROLE&#xA;SECURITY_AUDIT_LOG&#xA;SECURITY_AUDIT_STATE&#xA;SECURITY_PRIV&#xA;SELECT_SYSCAT&#xA;SERVER_CLASS&#xA;SESSION_ID&#xA;SESSION_PRIORITY&#xA;SESSION_PRIORITY_LIMIT&#xA;SESSION_PRIV&#xA;SESSION_SECLABEL&#xA;SESSION_USER&#xA;SHIFT&#xA;SIN&#xA;SIZE&#xA;SQRT&#xA;SQUEEZE&#xA;SUM&#xA;SYSTEM_USER&#xA;TABLE_STATISTICS&#xA;TERMINAL&#xA;TRANSACTION_STATE&#xA;TRIM&#xA;UPDATE_ROWCNT&#xA;UPDATE_SYSCAT&#xA;UPPERCASE&#xA;USERNAME&#xA;VARBYTE&#xA;">
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Parameters" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

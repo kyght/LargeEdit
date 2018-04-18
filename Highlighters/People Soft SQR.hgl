@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQR" FileType="" Extensions="SQR SQC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:peoplesoftsqr.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!()"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="SQR Loops" Enabled="True" Style="" Words="BEGIN-DOCUMENT&#xA;BEGIN-FOOTING&#xA;BEGIN-PROCEDURE&#xA;BEGIN-SQL&#xA;BEGIN-SELECT&#xA;BEGIN-REPORT&#xA;BEGIN-SETUP&#xA;BEGIN-HEADING&#xA;END-DOCUMENT&#xA;END-FOOTING&#xA;END-PROCEDURE&#xA;END-SQL&#xA;END-SELECT&#xA;END-REPORT&#xA;END-SETUP&#xA;END-HEADING&#xA;END-IF&#xA;END-WHILE&#xA;IF&#xA;WHILE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SQR Keywords" Enabled="True" Style="" Words="#DEBUG&#xA;#DEFINE&#xA;#ELSE&#xA;#END&#xA;#END-IF&#xA;#ENDIF&#xA;#IF&#xA;#IFDEF&#xA;#IFNDEF&#xA;#INCLUDE&#xA;ADD&#xA;ARRAY&#xA;ALTER&#xA;ARRAY&#xA;ASK&#xA;AND&#xA;ALTER-LOCAL&#xA;ALTER-PRINTER&#xA;ARRAY-ADD&#xA;ARRAY-DIVIDE&#xA;ARRAY-MULTIPLY&#xA;ARRAY-SUBTRACT&#xA;BREAK&#xA;BAR&#xA;BOX&#xA;BEGIN&#xA;BOTTOM-MARGIN&#xA;CALL&#xA;COMMIT&#xA;CLEAR&#xA;CONCAT&#xA;CLOSE&#xA;CONNECT&#xA;COLUMNS&#xA;CREATE&#xA;CHART&#xA;CODE&#xA;COLUMN&#xA;CLEAR-ARRAY&#xA;CREATE-ARRAY&#xA;CHAR&#xA;CHAR-WIDTH&#xA;COLOR&#xA;DIVIDE&#xA;DOCUMENT&#xA;DECLARE&#xA;DIVIDE&#xA;DO&#xA;DISPLAY&#xA;DOLLAR&#xA;DIRECT&#xA;DEINIT&#xA;DECIMAL&#xA;DATE&#xA;DEBUG&#xA;DECLARE-CHART&#xA;DECLARE-IMAGE&#xA;DECLARE-LAYOUT&#xA;DECLARE-PRINTER&#xA;DECLARE-PROCEDURE&#xA;DECLARE-REPORT&#xA;DECLARE-VARIABLE&#xA;DATE-EDIT-MASK&#xA;DECIMAL-SEPARATOR&#xA;DATE-SEPARATOR&#xA;DISTINCT&#xA;DAY-OF-WEEK-CASE&#xA;DAY-OF-WEEK-FULL&#xA;DAY-OF-WEEK-SHORT&#xA;ELSE&#xA;ENCODE&#xA;EVALUATE&#xA;END-DECLARE&#xA;END-EVALUATE&#xA;END-PROGRAM&#xA;EXIT-SELECT&#xA;EXECUTE&#xA;EXIT&#xA;EXTRACT&#xA;END&#xA;FOOTING&#xA;FORMFEED&#xA;FIND&#xA;FONT&#xA;FROM&#xA;FONT-TYPE&#xA;FLOAT&#xA;FOR-REPORTS&#xA;FIELD&#xA;FILL&#xA;FORMFEED&#xA;GET&#xA;GRAPHIC&#xA;GOTO&#xA;GRAPHIC&#xA;BOX&#xA;GRAPHIC&#xA;HORZ-LINE&#xA;HORZ&#xA;HEADING&#xA;IMAGE&#xA;INPUT&#xA;INIT&#xA;INPUT-DATE-EDIT-MASK&#xA;INTO&#xA;INTEGER&#xA;IMAGE-SIZE&#xA;INIT-STRING&#xA;LOOKUP&#xA;LET&#xA;LOWERCASE&#xA;LOAD&#xA;LAYOUT&#xA;LINE&#xA;LAST&#xA;LISTING&#xA;LAST-PAGE&#xA;LOWER&#xA;LOAD-LOOKUP&#xA;LOCALE&#xA;LOCAL&#xA;LOOPS&#xA;LEFT-MARGIN&#xA;LINE-WIDTH&#xA;LINE-HEIGHT&#xA;LANDSCAPE&#xA;MULTIPLY&#xA;MONEY&#xA;MOVE&#xA;MATCH&#xA;MONEY-SIGN&#xA;MONEY-SIGN-LOCATION&#xA;MONTHS-CASE&#xA;MONTHS-FULL&#xA;MONTHS-SHORT&#xA;MONEY-EDIT-MASK&#xA;MAX-COLUMNS&#xA;MAX-LINES&#xA;NEW-PAGE&#xA;NEW-REPORT&#xA;NEXT-COLUMN&#xA;NEWLINE&#xA;NEWPAGE&#xA;NEXT-LISTING&#xA;NOP&#xA;NUMBER&#xA;NUMBER-EDIT-MASK&#xA;NVL&#xA;NOWAIT&#xA;NAME&#xA;OPEN&#xA;ON-BREAK&#xA;ON-ERROR&#xA;ORIENTATION&#xA;PRINT&#xA;PRINTER&#xA;PROCEDURE&#xA;PROGRAM&#xA;PAGE&#xA;PRINT&#xA;POSITION&#xA;PUT&#xA;PAGE-NUMBER&#xA;PRINT-BAR-CODE&#xA;PRINT-CHART&#xA;PRINT-DIRECT&#xA;PRINT-IMAGE&#xA;POINT-SIZE&#xA;PITCH&#xA;PAPER-SIZE&#xA;PAGE-DEPTH&#xA;REPORT&#xA;READ&#xA;ROLLBACK&#xA;ROUND&#xA;RIGHT-MARGIN&#xA;SELECT&#xA;SETUP&#xA;SUBTRACT&#xA;SQL&#xA;SYMBOL&#xA;SIZE&#xA;SHOW&#xA;STRING&#xA;STOP&#xA;SOURCE&#xA;STARTUP-FILE&#xA;TYPE&#xA;TO&#xA;THOUSAND-SEPARATOR&#xA;TIME-SEPARATOR&#xA;TIMES&#xA;TEXT&#xA;TOP-MARGIN&#xA;USE&#xA;UPPERCASE&#xA;USE-COLUMN&#xA;USE-PRINTER-TYPE&#xA;USE-PROCEDURE&#xA;USE-REPORT&#xA;USING&#xA;VERT&#xA;WRITE&#xA;WAIT&#xA;WITH&#xA;WHERE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SQR Func" Enabled="True" Style="" Words="DATEADD&#xA;DATEDIFF&#xA;DATENOW&#xA;DATETOSTR&#xA;DELETE&#xA;EDIT&#xA;EXISTS&#xA;INSTR&#xA;ISBLANK&#xA;ISNULL&#xA;LENGTH&#xA;LPAD&#xA;LTRIM&#xA;MOD&#xA;RENAME&#xA;RPAD&#xA;RTRIM&#xA;STRTODATE&#xA;SUBSTR&#xA;TO_CHAR&#xA;TO_NUMBER&#xA;TRANSLATE&#xA;UNSTRING&#xA;UPPER&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

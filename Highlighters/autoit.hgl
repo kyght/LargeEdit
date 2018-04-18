@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AutoIT" FileType="" Extensions="AUT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:autoit.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="AdlibOff&#xA;AdlibOn&#xA;BlockInput&#xA;Break&#xA;DetectHiddenT&#xA;e&#xA;EndRepeat&#xA;EnvAdd&#xA;EnvSub&#xA;Exit&#xA;ext&#xA;FileAppend&#xA;FileReadLine&#xA;Gosub&#xA;Goto&#xA;HideAutoItWin&#xA;IfEqual&#xA;IfExist&#xA;IfGreater&#xA;IfGreaterOrEqua&#xA;IfInString&#xA;IfLess&#xA;IfLessOrEqual&#xA;IfMsgBox&#xA;IfNotEqual&#xA;IfNotExist&#xA;IfNotInString&#xA;IfWinActive&#xA;IfWinExist&#xA;IfWinNotActive&#xA;IfWinNotExist&#xA;IniDelete&#xA;IniRead&#xA;IniWrite&#xA;InputBox&#xA;l&#xA;LeftClick&#xA;LeftClickDrag&#xA;MouseGetPos&#xA;MouseMove&#xA;MsgBox&#xA;ode&#xA;Random&#xA;RegDelete&#xA;RegRead&#xA;RegWrite&#xA;Repeat&#xA;Return&#xA;RightClick&#xA;RightClickDrag&#xA;Run&#xA;RunWait&#xA;Send&#xA;SetEnv&#xA;SetKeyDelay&#xA;SetTitleMatchM&#xA;SetWinDelay&#xA;Shutdown&#xA;Sleep&#xA;SplashTextOff&#xA;SplashTextOn&#xA;StringCaseSens&#xA;StringLeft&#xA;StringLen&#xA;StringMid&#xA;StringReplace&#xA;StringRight&#xA;StringTrimLeft&#xA;StringTrimRight&#xA;tle&#xA;ve&#xA;WinActivate&#xA;WinClose&#xA;WinGetActiveTi&#xA;WinHide&#xA;WinKill&#xA;WinMaximize&#xA;WinMinimize&#xA;WinMinimizeAll&#xA;WinMove&#xA;WinRestore&#xA;WinSetTitle&#xA;WinShow&#xA;WinWait&#xA;WinWaitActive&#xA;WinWaitClose&#xA;WinWaitNotActi&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

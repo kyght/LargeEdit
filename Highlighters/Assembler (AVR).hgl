@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AVR assembler" FileType="" Extensions="ASM" Version="1" Revision="0" Sample="/L20&quot;AVR assembler&quot; Nocase Line Comment = ; File Extensions = ASM &#xA;/Delimiters = ~!@$%^&amp;*()_=|\/{}	[]:&quot;'&lt;&gt; ,?/&#xA;/C1&quot;Arithmetic &amp; Logic&quot; &#xA;add adc adiw and andi&#xA;cbr clr com cp cpc cpi&#xA;dec&#xA;eor&#xA;fmul fmuls fmulsu&#xA;inc&#xA;mul muls mulsu&#xA;neg&#xA;or ori&#xA;sub subi sbc sbci sbiw sbr ser&#xA;tst&#xA;&#xA;/C2&quot;Branches&quot;&#xA;brbs brbc breq brne brcs brcc brsh brlo brmi brpl brge brlt brhs brhc brts brtc brvs brvc brie brid&#xA;call cpse &#xA;eicall eijmp&#xA;ijmp icall&#xA;jmp  &#xA;rjmp rcall ret reti&#xA;sbrc sbrs sbic sbis &#xA;&#xA;/C3&quot;Data Transfer&quot;&#xA;elpm espm&#xA;in&#xA;ldi lds ld ldd lpm&#xA;mov movw&#xA;out&#xA;push pop&#xA;st sts std spm&#xA;x x+ &#xA;y y+ y+q &#xA;z z+ z+q&#xA;-x -y -z &#xA;&#xA;/C4&quot;Bit &amp; Bit-Test&quot;&#xA;asr &#xA;cbi clc cln clz cli cls clv clt clh&#xA;lsl lsr&#xA;nop &#xA;ror rol &#xA;sbi sec sen sez sei ses sev set seh swap sleep&#xA;bst bld bset bclr&#xA;wdr&#xA;&#xA;/C5&quot;Directives&quot;&#xA;.org .equ .include .macro .endmacro .set .byte .cseg .db .def .device .dseg .dw .eseg .exit .list .nolist .listmac &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmavr.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*,/:&lt;=&gt;?@[\]^_{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Arithmetic &amp; Logic" Enabled="True" Style="" Words="adc&#xA;add&#xA;adiw&#xA;and&#xA;andi&#xA;cbr&#xA;clr&#xA;com&#xA;cp&#xA;cpc&#xA;cpi&#xA;dec&#xA;eor&#xA;fmul&#xA;fmuls&#xA;fmulsu&#xA;inc&#xA;mul&#xA;muls&#xA;mulsu&#xA;neg&#xA;or&#xA;ori&#xA;sbc&#xA;sbci&#xA;sbiw&#xA;sbr&#xA;ser&#xA;sub&#xA;subi&#xA;tst&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Branches" Enabled="True" Style="" Words="brbc&#xA;brbs&#xA;brcc&#xA;brcs&#xA;breq&#xA;brge&#xA;brhc&#xA;brhs&#xA;brid&#xA;brie&#xA;brlo&#xA;brlt&#xA;brmi&#xA;brne&#xA;brpl&#xA;brsh&#xA;brtc&#xA;brts&#xA;brvc&#xA;brvs&#xA;call&#xA;cpse&#xA;eicall&#xA;eijmp&#xA;icall&#xA;ijmp&#xA;jmp&#xA;rcall&#xA;ret&#xA;reti&#xA;rjmp&#xA;sbic&#xA;sbis&#xA;sbrc&#xA;sbrs&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Data Transfer" Enabled="True" Style="" Words="elpm&#xA;espm&#xA;in&#xA;ld&#xA;ldd&#xA;ldi&#xA;lds&#xA;lpm&#xA;mov&#xA;movw&#xA;out&#xA;pop&#xA;push&#xA;spm&#xA;st&#xA;std&#xA;sts&#xA;x&#xA;-x&#xA;x+&#xA;y&#xA;-y&#xA;y+&#xA;y+q&#xA;z&#xA;-z&#xA;z+&#xA;z+q&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Bit &amp; Bit-Test" Enabled="True" Style="" Words="asr&#xA;bclr&#xA;bld&#xA;bset&#xA;bst&#xA;cbi&#xA;clc&#xA;clh&#xA;cli&#xA;cln&#xA;cls&#xA;clt&#xA;clv&#xA;clz&#xA;lsl&#xA;lsr&#xA;nop&#xA;rol&#xA;ror&#xA;sbi&#xA;sec&#xA;seh&#xA;sei&#xA;sen&#xA;ses&#xA;set&#xA;sev&#xA;sez&#xA;sleep&#xA;swap&#xA;wdr&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words=".byte&#xA;.cseg&#xA;.db&#xA;.def&#xA;.device&#xA;.dseg&#xA;.dw&#xA;.endmacro&#xA;.equ&#xA;.eseg&#xA;.exit&#xA;.include&#xA;.list&#xA;.listmac&#xA;.macro&#xA;.nolist&#xA;.org&#xA;.set&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

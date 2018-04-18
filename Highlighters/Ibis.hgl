@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="IBIS" FileType="" Extensions="IBS PKG EBD" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ibis.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*,.:;&lt;=&gt;?@\^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="Board&#xA;Char]&#xA;Clamp&#xA;Clamp]&#xA;Current]&#xA;Data]&#xA;Description]&#xA;Designator&#xA;Groups]&#xA;List]&#xA;MOSFET]&#xA;Map]&#xA;Mapping]&#xA;Matrix]&#xA;Model&#xA;Model]&#xA;Name]&#xA;Numbers]&#xA;Of&#xA;Package&#xA;Pin&#xA;Pin]&#xA;Pins]&#xA;Pulse&#xA;Range]&#xA;Reference]&#xA;Rev]&#xA;Schedule]&#xA;Sections]&#xA;Selector]&#xA;Series]&#xA;Spec]&#xA;Submodel]&#xA;Switch&#xA;Table]&#xA;Ver]&#xA;Waveform]&#xA;[Add&#xA;[Bandwidth]&#xA;[Begin&#xA;[C&#xA;[Cac]&#xA;[Capacitance&#xA;[Comment&#xA;[Component]&#xA;[Copyright]&#xA;[Date]&#xA;[Define&#xA;[Description]&#xA;[Diff&#xA;[Disclaimer]&#xA;[Driver&#xA;[End&#xA;[End]&#xA;[Falling&#xA;[File&#xA;[GND&#xA;[IBIS&#xA;[Inductance&#xA;[L&#xA;[Lc&#xA;[Manufacturer]&#xA;[Model&#xA;[Model]&#xA;[Notes]&#xA;[Number&#xA;[OEM]&#xA;[Off]&#xA;[On]&#xA;[POWER&#xA;[Package&#xA;[Package]&#xA;[Path&#xA;[Pin&#xA;[Pin]&#xA;[Pulldown&#xA;[Pulldown]&#xA;[Pullup&#xA;[Pullup]&#xA;[R&#xA;[Rac]&#xA;[Ramp]&#xA;[Rc&#xA;[Reference&#xA;[Resistance&#xA;[Rgnd]&#xA;[Rising&#xA;[Rl&#xA;[Row]&#xA;[Rpower]&#xA;[Series&#xA;[Source]&#xA;[Submodel&#xA;[Submodel]&#xA;[TTgnd]&#xA;[TTpower]&#xA;[Temperature&#xA;[Voltage&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sub-Params" Enabled="True" Style="" Words="Banded_matrix&#xA;C&#xA;C_comp&#xA;C_dut&#xA;C_fixture&#xA;C_pin&#xA;C_pkg&#xA;Cref&#xA;D_overshoot_high&#xA;D_overshoot_low&#xA;D_overshoot_time&#xA;Enable&#xA;Endfork&#xA;Fall_off_dly&#xA;Fall_on_dly&#xA;Fork&#xA;Full_matrix&#xA;L&#xA;L_dut&#xA;L_fixture&#xA;L_pin&#xA;L_pkg&#xA;Len&#xA;Model_type&#xA;Node&#xA;Off&#xA;Off_delay&#xA;On&#xA;Polarity&#xA;Pulse_high&#xA;Pulse_low&#xA;Pulse_time&#xA;R&#xA;R_dut&#xA;R_fixture&#xA;R_load&#xA;R_pin&#xA;R_pkg&#xA;Rise_off_dly&#xA;Rise_on_dly&#xA;Rref&#xA;S_overshoot_high&#xA;S_overshoot_low&#xA;Si_location&#xA;Sparse_matrix&#xA;Submodel_type&#xA;Timing_location&#xA;V_fixture&#xA;V_fixture_max&#xA;V_fixture_min&#xA;V_trigger_f&#xA;V_trigger_r&#xA;Vinh&#xA;Vinh+&#xA;Vinh-&#xA;Vinl&#xA;Vinl+&#xA;Vinl-&#xA;Vmeas&#xA;Vref&#xA;dV/dt_f&#xA;dV/dt_r&#xA;function_table_group&#xA;gnd_clamp_ref&#xA;inv_pin&#xA;model_name&#xA;pin_2&#xA;power_clamp_ref&#xA;pulldown_ref&#xA;pullup_ref&#xA;signal_name&#xA;tdelay_max&#xA;tdelay_min&#xA;tdelay_typ&#xA;vdiff&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Model Types" Enabled="True" Style="" Words="3-state&#xA;3-state_ECL&#xA;I/O&#xA;I/O_ECL&#xA;I/O_open_drain&#xA;I/O_open_sink&#xA;I/O_open_source&#xA;Input&#xA;Input_ECL&#xA;Open_drain&#xA;Open_sink&#xA;Open_source&#xA;Output&#xA;Output_ECL&#xA;Series&#xA;Series_switch&#xA;Terminator&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks |" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="|"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

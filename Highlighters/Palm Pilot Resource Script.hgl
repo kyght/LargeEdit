@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Palm Pilot Resource Script" FileType="" Extensions="RC RCP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:palmrsc.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%'()*+,-.?\"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="ALERT&#xA;APPLICATION&#xA;APPLICATIONICONNAME&#xA;AT&#xA;BEGIN&#xA;BITMAP&#xA;BITMAPCOLOR&#xA;BITMAPFAMILY&#xA;BITMAPGREY&#xA;BITMAPGREY16&#xA;CATEGORIES&#xA;END&#xA;FONT&#xA;FORM&#xA;ICON&#xA;ICONFAMILY&#xA;ID&#xA;MENU&#xA;SMALLICON&#xA;SMALLICONFAMILY&#xA;STRING&#xA;TRANSLATION&#xA;TRAP&#xA;VERSION&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="BUTTON&#xA;BUTTONS&#xA;CHECKBOX&#xA;FIELD&#xA;FORMBITMAP&#xA;GADGET&#xA;GRAFFITISTATEINDICATOR&#xA;LABEL&#xA;LIST&#xA;MESSAGE&#xA;POPUPLIST&#xA;POPUPTRIGGER&#xA;PUSHBUTTON&#xA;REPEATBUTTON&#xA;SCROLLBAR&#xA;SELECTORTRIGGER&#xA;TABLE&#xA;TITLE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="AUTO&#xA;AUTOSHIFT&#xA;BOLDFRAME&#xA;BOTTOM&#xA;CENTER&#xA;CHECKED&#xA;COLUMNS&#xA;COLUMNWIDTHS&#xA;DISABLED&#xA;DYNAMICSIZE&#xA;DEFAULTBUTTON&#xA;EDITABLE&#xA;ERROR&#xA;FONT&#xA;FRAME&#xA;GROUP&#xA;HASSCROLLBAR&#xA;LEFTALIGN&#xA;LEFTANCHOR&#xA;MAX&#xA;MAXCHARS&#xA;MIN&#xA;MULTIPLELINES&#xA;MODAL&#xA;NOFRAME&#xA;NONEDITABLE&#xA;NONUSABLE&#xA;NUMERIC&#xA;PAGESIZE&#xA;PREVBOTTOM&#xA;PREVHEIGHT&#xA;PREVLEFT&#xA;PREVRIGHT&#xA;PREVTOP&#xA;PREVWIDTH&#xA;RIGHT@&#xA;RIGHTALIGN&#xA;RIGHTANCHOR&#xA;ROWS&#xA;SINGLELINE&#xA;TRANSPARENCY&#xA;UNDERLINED&#xA;USABLE&#xA;VALUE&#xA;VISIBLEITEMS&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="MENUID&#xA;HELPID&#xA;AUTOID&#xA;@&#xA;+&#xA;-&#xA;*&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

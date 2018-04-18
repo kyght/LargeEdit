@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="C#" FileType="" Extensions="CS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:csharp.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="as&#xA;auto&#xA;base&#xA;break&#xA;case&#xA;catch&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;else&#xA;event&#xA;explicit&#xA;extern&#xA;false&#xA;finally&#xA;fixed&#xA;for&#xA;foreach&#xA;goto&#xA;if&#xA;implicit&#xA;in&#xA;internal&#xA;lock&#xA;namespace&#xA;null&#xA;operator&#xA;out&#xA;override&#xA;params&#xA;private&#xA;protected&#xA;public&#xA;readonly&#xA;ref&#xA;return&#xA;sealed&#xA;stackalloc&#xA;static&#xA;switch&#xA;this&#xA;throw&#xA;true&#xA;try&#xA;unsafe&#xA;using&#xA;virtual&#xA;void&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="C# Data Types" Enabled="True" Style="" Words="bool&#xA;byte&#xA;char&#xA;class&#xA;decimal&#xA;delegate&#xA;double&#xA;enum&#xA;float&#xA;int&#xA;interface&#xA;long&#xA;object&#xA;sbyte&#xA;short&#xA;string&#xA;struct&#xA;uint&#xA;ulong&#xA;ushort&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="C# Preprocessor Directives" Enabled="True" Style="" Words="#elif&#xA;#endif&#xA;#endregion&#xA;#else&#xA;#error&#xA;#define&#xA;#if&#xA;#line&#xA;#region&#xA;#undef&#xA;#warning&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;*&#xA;?&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;:&#xA;checked&#xA;is&#xA;new&#xA;sizeof&#xA;typeof&#xA;unchecked&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

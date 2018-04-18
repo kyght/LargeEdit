@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Cobol" FileType="" Extensions="CBL cbl COB cob CPY cpy" Version="1" Revision="0" Sample="000100 IDENTIFICATION DIVISION.&#xA;000200  PROGRAM-ID. SAMPLE1.&#xA;000300*&#xA;000400 DATA DIVISION.&#xA;000500  WORKING-STORAGE SECTION.&#xA;000600  01  WORD-VALUES.&#xA;000700      02     PIC X(10) VALUE &quot;apple&quot;.&#xA;003400 01  WORD-TABLE REDEFINES  WORD-VALUES.&#xA;003500     02  WORD-ITEM OCCURS 27 TIMES.&#xA;003600         03  FIRST-CHARACTER PIC X.&#xA;003700         03                  PIC X(9).&#xA;003800 01  WORD-INDEX          PIC 9(3).&#xA;003900 01  INPUT-CHARACTER     PIC X.&#xA;004000 01  REQUEST-MESSAGE     PIC X(42)&#xA;004100     VALUE  &quot;ENTER ONE CHARACTER OF ALPHABETIC-LOWER.=&gt;&quot;.&#xA;004200*&#xA;004300 PROCEDURE DIVISION.&#xA;004400  DATA-INPUT  SECTION.&#xA;004500**(1)DISPLAY REQUESTED MESSAGE&#xA;004600       DISPLAY REQUEST-MESSAGE WITH NO 'ADVANCING.'&#xA;004700**(2)GET ONE CHARACTER&#xA;004800       ACCEPT  INPUT-CHARACTER.&#xA;004900*&#xA;005000  SEARCH-WORD  SECTION.&#xA;005100**(3)WORD IS SEARCHED CORRESPONDING INPUT CHARACTER&#xA;005200       PERFORM TEST BEFORE&#xA;005300               VARYING WORD-INDEX FROM 1 BY 1&#xA;005400               UNTIL WORD-INDEX &gt; 26&#xA;005500          IF INPUT-CHARACTER = FIRST-CHARACTER (WORD-INDEX)&#xA;005600            THEN EXIT PERFORM&#xA;005700           END-IF&#xA;005800        END-PERFORM.&#xA;005900*&#xA;006000  WORD-OUTPUT  SECTION.&#xA;006100**(4) DISPLAY SEARCHED WORD&#xA;006200       DISPLAY WORD-ITEM (WORD-INDEX).&#xA;006300*&#xA;006400       EXIT PROGRAM.&#xA;006500   END PROGRAM SAMPLE1.&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="accept&#xA;access&#xA;acquire&#xA;actual&#xA;add&#xA;address&#xA;advancing&#xA;after&#xA;all&#xA;allowing&#xA;alphabet&#xA;alphabetic&#xA;alphabetic-lower&#xA;alphabetic-upper&#xA;alphanumeric&#xA;alphanumeric-edited&#xA;also&#xA;alter&#xA;alternate&#xA;and&#xA;any&#xA;apply&#xA;are&#xA;area&#xA;areas&#xA;as&#xA;ascending&#xA;assign&#xA;at&#xA;attribute&#xA;author&#xA;auto&#xA;auto-hyphen-skip&#xA;auto-skip&#xA;automatic&#xA;autoterminate&#xA;background-color&#xA;background-colour&#xA;backward&#xA;basis&#xA;beep&#xA;before&#xA;beginning&#xA;bell&#xA;binary&#xA;blank&#xA;blink&#xA;blinking&#xA;block&#xA;bold&#xA;bottom&#xA;box&#xA;boxed&#xA;by&#xA;c01&#xA;c02&#xA;c02&#xA;c04&#xA;c05&#xA;c06&#xA;c07&#xA;c08&#xA;c09&#xA;c10&#xA;c11&#xA;c12&#xA;cancel&#xA;cbl&#xA;cd&#xA;centered&#xA;cf&#xA;ch&#xA;chain&#xA;chaining&#xA;changed&#xA;character&#xA;characters&#xA;chart&#xA;class&#xA;clock-units&#xA;close&#xA;cobol&#xA;code&#xA;code-set&#xA;col&#xA;collating&#xA;color&#xA;colour&#xA;column&#xA;com-reg&#xA;comma&#xA;command-line&#xA;commit&#xA;commitment&#xA;common&#xA;communication&#xA;comp&#xA;comp-0&#xA;comp-1&#xA;comp-2&#xA;comp-3&#xA;comp-4&#xA;comp-5&#xA;comp-6&#xA;comp-x&#xA;compression&#xA;computational&#xA;computational-1&#xA;computational-2&#xA;computational-3&#xA;computational-4&#xA;computational-5&#xA;computational-6&#xA;computational-x&#xA;computational&#xA;compute&#xA;configuration&#xA;console&#xA;contains&#xA;content&#xA;continue&#xA;control&#xA;control-area&#xA;controls&#xA;conversion&#xA;convert&#xA;converting&#xA;core-index&#xA;corr&#xA;corresponding&#xA;count&#xA;crt&#xA;crt-under&#xA;csp&#xA;currency&#xA;current-date&#xA;cursor&#xA;cycle&#xA;cyl-index&#xA;cyl-overflow&#xA;data&#xA;date&#xA;date-compiled&#xA;date-written&#xA;day&#xA;day-of-week&#xA;dbcs&#xA;de&#xA;debug&#xA;debug-contents&#xA;debug-item&#xA;debug-line&#xA;debug-name&#xA;debug-sub-1&#xA;debug-sub-2&#xA;debug-sub-3&#xA;debugging&#xA;decimal-point&#xA;declaratives&#xA;default&#xA;delete&#xA;delimited&#xA;delimiter&#xA;depending&#xA;descending&#xA;destination&#xA;detail&#xA;disable&#xA;disk&#xA;disp&#xA;display&#xA;display-1&#xA;display-st&#xA;divide&#xA;division&#xA;down&#xA;draw&#xA;drop&#xA;duplicates&#xA;dynamic&#xA;echo&#xA;egcs&#xA;egi&#xA;eject&#xA;emi&#xA;empty-check&#xA;enable&#xA;encryption&#xA;end&#xA;end-accept&#xA;end-add&#xA;end-call&#xA;end-chain&#xA;end-compute&#xA;end-delete&#xA;end-display&#xA;end-divide&#xA;end-invoke&#xA;end-multiply&#xA;end-of-page&#xA;end-perform&#xA;end-read&#xA;end-receive&#xA;end-return&#xA;end-rewrite&#xA;end-search&#xA;end-start&#xA;end-string&#xA;end-subtract&#xA;end-unstring&#xA;end-write&#xA;ending&#xA;enter&#xA;entry&#xA;environment&#xA;environment-division&#xA;eol&#xA;eop&#xA;eos&#xA;equal&#xA;equals&#xA;erase&#xA;error&#xA;escape&#xA;esi&#xA;every&#xA;examine&#xA;exceeds&#xA;exception&#xA;excess-3&#xA;exclusive&#xA;exec&#xA;execute&#xA;exhibit&#xA;extend&#xA;extended-search&#xA;external&#xA;externally-described-key&#xA;factory&#xA;false&#xA;fd&#xA;fh--fcd&#xA;fh--keydef&#xA;file&#xA;file-control&#xA;file-id&#xA;file-limit&#xA;file-limits&#xA;file-prefix&#xA;filler&#xA;final&#xA;first&#xA;fixed&#xA;footing&#xA;for&#xA;foreground-color&#xA;foreground-colour&#xA;footing&#xA;format&#xA;from&#xA;full&#xA;function&#xA;generate&#xA;giving&#xA;global&#xA;go&#xA;goback&#xA;greater&#xA;grid&#xA;group&#xA;heading&#xA;high&#xA;high-value&#xA;high-values&#xA;highlight&#xA;i-o&#xA;i-o-control&#xA;id&#xA;identification&#xA;ignore&#xA;in&#xA;index&#xA;indexed&#xA;indic&#xA;indicate&#xA;indicator&#xA;indicators&#xA;inheriting&#xA;initial&#xA;initialize&#xA;initiate&#xA;input&#xA;input-output&#xA;insert&#xA;inspect&#xA;installation&#xA;into&#xA;invalid&#xA;invoke&#xA;invoked&#xA;is&#xA;japanese&#xA;just&#xA;justified&#xA;kanji&#xA;kept&#xA;key&#xA;keyboard&#xA;label&#xA;last&#xA;leading&#xA;leave&#xA;left&#xA;lrft-justify&#xA;leftline&#xA;length&#xA;length-check&#xA;less&#xA;limit&#xA;limits&#xA;lin&#xA;linage&#xA;linage-counter&#xA;line&#xA;line-counter&#xA;lines&#xA;linkage&#xA;local-storage&#xA;lock&#xA;lock-holding&#xA;locking&#xA;low&#xA;low-value&#xA;low-values&#xA;lower&#xA;lowlight&#xA;manual&#xA;mass-update&#xA;master-index&#xA;memory&#xA;merge&#xA;message&#xA;method&#xA;mode&#xA;modified&#xA;modules&#xA;more-labels&#xA;move&#xA;&#xA;multiple&#xA;multiply&#xA;name&#xA;named&#xA;national&#xA;national-edited&#xA;native&#xA;nchar&#xA;negative&#xA;next&#xA;no&#xA;no-echo&#xA;nominal&#xA;not&#xA;note&#xA;nstd-reels&#xA;null&#xA;nulls&#xA;number&#xA;numeric&#xA;numeric-edited&#xA;numeric-fill&#xA;o-fill&#xA;object&#xA;object-computer&#xA;object-storage&#xA;occurs&#xA;of&#xA;off&#xA;omitted&#xA;on&#xA;oostackptr&#xA;open&#xA;optional&#xA;or&#xA;order&#xA;organization&#xA;other&#xA;others&#xA;otherwise&#xA;output&#xA;overflow&#xA;overline&#xA;packed-decimal&#xA;padding&#xA;page&#xA;page-counter&#xA;packed-decimal&#xA;paragraph&#xA;password&#xA;pf&#xA;ph&#xA;pic&#xA;picture&#xA;plus&#xA;pointer&#xA;pop-up&#xA;pos&#xA;position&#xA;positioning&#xA;positive&#xA;previous&#xA;print&#xA;print-control&#xA;print-switch&#xA;printer&#xA;printer-1&#xA;printing&#xA;prior&#xA;private&#xA;procedure&#xA;procedure-pointer&#xA;procedures&#xA;proceed&#xA;process&#xA;processing&#xA;program&#xA;program-id&#xA;prompt&#xA;protected&#xA;public&#xA;purge&#xA;queue&#xA;quote&#xA;quotes&#xA;random&#xA;range&#xA;rd&#xA;read&#xA;readers&#xA;ready&#xA;receive&#xA;record&#xA;record-overflow&#xA;recording&#xA;records&#xA;redefines&#xA;reel&#xA;reference&#xA;references&#xA;relative&#xA;release&#xA;reload&#xA;remainder&#xA;remarks&#xA;removal&#xA;renames&#xA;reorg-criteria&#xA;repeated&#xA;replace&#xA;replacing&#xA;report&#xA;reporting&#xA;reports&#xA;required&#xA;reread&#xA;rerun&#xA;reserve&#xA;reset&#xA;resident&#xA;return&#xA;return-code&#xA;returning&#xA;reverse&#xA;reverse-video&#xA;reversed&#xA;&#xA;rewind&#xA;rewrite&#xA;rf&#xA;rh&#xA;right&#xA;right-justify&#xA;rollback&#xA;rolling&#xA;rounded&#xA;run&#xA;s01&#xA;s02&#xA;s03&#xA;s04&#xA;s05&#xA;same&#xA;screen&#xA;scroll&#xA;sd&#xA;search&#xA;section&#xA;secure&#xA;security&#xA;seek&#xA;segment&#xA;segment-limit&#xA;select&#xA;selective&#xA;self&#xA;selfclass&#xA;send&#xA;sentence&#xA;separate&#xA;sequence&#xA;sequential&#xA;service&#xA;set&#xA;setshadow&#xA;shift-in&#xA;shift-out&#xA;sign&#xA;size&#xA;skip1&#xA;skip2&#xA;skip3&#xA;sort&#xA;sort-control&#xA;sort-core-size&#xA;sort-file-size&#xA;sort-merge&#xA;sort-message&#xA;sort-mode-size&#xA;sort-option&#xA;sort-return&#xA;source&#xA;source-computer&#xA;space&#xA;spaces&#xA;space-fill&#xA;spaces&#xA;special-names&#xA;standard&#xA;standard-1&#xA;standard-2&#xA;start&#xA;starting&#xA;status&#xA;stop&#xA;store&#xA;string&#xA;sub-queue-1&#xA;sub-queue-2&#xA;sub-queue-3&#xA;subfile&#xA;subtract&#xA;sum&#xA;&#xA;super&#xA;supress&#xA;symbolic&#xA;sync&#xA;synchronized&#xA;sysin&#xA;sysipt&#xA;syslst&#xA;sysout&#xA;syspch&#xA;syspunch&#xA;system-info&#xA;tab&#xA;tallying&#xA;tape&#xA;terminal&#xA;terminal-info&#xA;terminate&#xA;test&#xA;text&#xA;than&#xA;through&#xA;thru&#xA;time&#xA;time-of-day&#xA;time-out&#xA;timeout&#xA;times&#xA;title&#xA;to&#xA;top&#xA;totaled&#xA;totaling&#xA;trace&#xA;track-area&#xA;track-limit&#xA;tracks&#xA;trailing&#xA;trailing-sign&#xA;transaction&#xA;transform&#xA;true&#xA;type&#xA;typedef&#xA;underline&#xA;underlined&#xA;unequal&#xA;unit&#xA;unlock&#xA;unstring&#xA;until&#xA;up&#xA;update&#xA;updaters&#xA;upon&#xA;upper&#xA;upsi-0&#xA;upsi-1&#xA;upsi-2&#xA;upsi-3&#xA;upsi-4&#xA;upsi-5&#xA;upsi-6&#xA;upsi-7&#xA;usage&#xA;use&#xA;user&#xA;using&#xA;value&#xA;values&#xA;variable&#xA;varying&#xA;wait&#xA;when-compiled&#xA;window&#xA;with&#xA;words&#xA;working-storage&#xA;wrap&#xA;write&#xA;write-only&#xA;write-verify&#xA;writerszero&#xA;zero&#xA;zero-fill&#xA;zeros&#xA;zeroes&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="call&#xA;exit&#xA;else&#xA;end-if&#xA;end-evaluate&#xA;evaluate&#xA;if&#xA;perform&#xA;then&#xA;when&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="01" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=" 01"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="02" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=" 02"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="03" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=" 03"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="04" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=" 04"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="05" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=" 05"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

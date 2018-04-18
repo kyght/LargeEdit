@@ -1,0 +1,13 @@
+[CodeProposal]
+InsertList=C:\NSFiles\LargeEdit6\syntax\ComProVBScript.cin
+ItemList=C:\NSFiles\LargeEdit6\syntax\ComProVBScript.cit
+Title=MS VBScript Code Completion
+Match=1
+CaseSen=0
+Triggers=.
+Timer=2000
+Tokens=()[].
+UseTriggerLength=0
+TriggerLength=3
+Language=MS VBScript
+UseTimer=0

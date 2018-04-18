@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Verity Style File" FileType="" Extensions="CFG DDD DDD DID DFT LEX NGM PDD PLC PRM SFL SID UFL UNI VGW WLD" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:VerityStyle.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="$$&#xA;$control:&#xA;$define&#xA;$endif&#xA;$include&#xA;$ifdef&#xA;$subst:&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="BulkLoad&#xA;default&#xA;false&#xA;FastSearch&#xA;guess&#xA;NewsFeedIdx&#xA;NewsFeedOpt&#xA;no&#xA;none&#xA;ReadOnly&#xA;skip&#xA;true&#xA;yes&#xA;8859&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="agents:&#xA;agt:&#xA;autorec:&#xA;autoval:&#xA;collection:&#xA;config:&#xA;constant:&#xA;copy:&#xA;data-table:&#xA;dda:&#xA;default:&#xA;define:&#xA;descriptor:&#xA;dft:&#xA;dlv:&#xA;drivers:&#xA;dispatch:&#xA;field:&#xA;fixwidth:&#xA;gateway:&#xA;lex:&#xA;mode:&#xA;policy:&#xA;repository:&#xA;session:&#xA;table:&#xA;token:&#xA;type:&#xA;types:&#xA;user:&#xA;varwidth:&#xA;vdkwatch:&#xA;worm:&#xA;zone-begin:&#xA;zone-end:&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="date&#xA;EOS&#xA;multiRow&#xA;multiRowOrderBy&#xA;multiRowCol&#xA;multiRowFormat&#xA;NEWLINE&#xA;PARA&#xA;PUNCT&#xA;signed-integer&#xA;sirepath&#xA;TAB&#xA;text&#xA;unsigned-integer&#xA;WHITE&#xA;WORD&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="_hexdata&#xA;_implied_size&#xA;action&#xA;alias&#xA;batch&#xA;charset&#xA;collection&#xA;config&#xA;createok&#xA;def-charset&#xA;disk_free_interval&#xA;fill&#xA;filter&#xA;format-filter&#xA;globalstyle&#xA;goaldocs&#xA;gwkey&#xA;gwtable&#xA;hidden&#xA;housekeeping_interval&#xA;indexed&#xA;inherit&#xA;instance_ceiling&#xA;instance_floor&#xA;lock_retry_count&#xA;maintenance_interval&#xA;maxdocs&#xA;max_new_docs&#xA;max_new_work&#xA;max-records&#xA;merge_fully&#xA;merge_parts&#xA;minmax&#xA;minparts&#xA;ngram_index&#xA;num-records&#xA;offset&#xA;outlevel&#xA;packed&#xA;partition_max_size&#xA;pidfile&#xA;post&#xA;regular&#xA;spanning_index&#xA;startupKB&#xA;statefile&#xA;xor&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

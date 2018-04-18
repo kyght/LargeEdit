@@ -1,0 +1,13 @@
+[CodeProposal]
+InsertList=C:\Program Files\Netlegger\LargeEdit\syntax\ComProBatch.cin
+ItemList=C:\Program Files\Netlegger\LargeEdit\syntax\ComProBatch.cit
+Title=MS-DOS batch language Code Completion
+Match=1
+CaseSen=0
+Triggers=.
+Timer=1000
+Tokens=()[].
+UseTriggerLength=0
+UseTimer=0
+TriggerLength=3
+Language=MS-DOS batch language

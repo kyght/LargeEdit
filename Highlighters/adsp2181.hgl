@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ADSP  2181" FileType="" Extensions="DSP" Version="1" Revision="0" Sample=".const fs = 0;&#xA;.include &lt;c:\adi_dsp\macros\init.dsp&gt;;&#xA;userInit:&#xA;.const a = 0x4000;&#xA;.const D = 3000;&#xA;.var/dm/circ queue[D+1];&#xA;    i0 = ^queue;  L0 = %queue;        {buffer pointer and length}&#xA;    clearQueue(i0, m0, L0);           {clear queue}&#xA;rts;&#xA;idleLoop:&#xA;    kbhit(ar);&#xA;    none = pass ar;&#xA;    if ne jump idleLoop;&#xA;    rts;                              {else return to monitor}&#xA;    inL(ax1);                         {left input sample}&#xA;    inR(mx1);                         {right input sample}&#xA;    my1 = a;&#xA;    tapQueue(i0, m0, D, mx1);&#xA;    mr = mr + mx1 * my1 (rnd);&#xA;interrupt: ena sec_reg;&#xA;    toggle fl1;&#xA;    rti;&#xA;.endmod;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="and&#xA;ashift&#xA;by&#xA;call&#xA;clrbit&#xA;dis&#xA;do&#xA;ena&#xA;exp&#xA;expadj&#xA;if&#xA;jump&#xA;lo&#xA;lshift&#xA;modify&#xA;none&#xA;nop&#xA;norm&#xA;of&#xA;or&#xA;pass&#xA;pop&#xA;push&#xA;reset&#xA;rnd&#xA;rti&#xA;rts&#xA;sat&#xA;sec_regset&#xA;setbit&#xA;ss&#xA;su&#xA;tglbit&#xA;toggle&#xA;toppcstack&#xA;tstbit&#xA;until&#xA;us&#xA;uu&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Control" Enabled="True" Style="" Words=".adsp2181&#xA;.const&#xA;.endmod&#xA;.endsys&#xA;.entry&#xA;.external&#xA;.global&#xA;.include&#xA;.init&#xA;.mmap0&#xA;.module&#xA;.seg&#xA;.system&#xA;.var&#xA;abs&#xA;circ&#xA;code&#xA;data&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Register" Enabled="True" Style="" Words="af&#xA;ar&#xA;astat&#xA;ax0&#xA;ax1&#xA;ay0&#xA;ay1&#xA;cntr&#xA;divq&#xA;divs&#xA;i0&#xA;i1&#xA;i2&#xA;i3&#xA;i4&#xA;i5&#xA;i6&#xA;i7&#xA;icntl&#xA;ifc&#xA;imask&#xA;l0&#xA;l1&#xA;l2&#xA;l3&#xA;l4&#xA;l5&#xA;l6&#xA;l7&#xA;loop&#xA;m0&#xA;m1&#xA;m2&#xA;m3&#xA;m4&#xA;m5&#xA;m6&#xA;m7&#xA;mf&#xA;mf&#xA;mr&#xA;mr0&#xA;mr1&#xA;mr2&#xA;mstat&#xA;mx0&#xA;mx1&#xA;my0&#xA;my1&#xA;pc&#xA;sb&#xA;sesi&#xA;sr&#xA;sr0&#xA;sr1&#xA;sts&#xA;su&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Memory" Enabled="True" Style="" Words="bm&#xA;dm&#xA;im&#xA;io&#xA;pm&#xA;ram&#xA;rom&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Condition" Enabled="True" Style="" Words="ac&#xA;av&#xA;eq&#xA;ge&#xA;gt&#xA;le&#xA;lt&#xA;mv&#xA;ne&#xA;neg&#xA;not&#xA;pos&#xA;/C6&quot;Bits&quot;&#xA;c&#xA;ce&#xA;fl0&#xA;fl1&#xA;fl2&#xA;flag_in&#xA;flag_out&#xA;m_mode&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks {..}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="^" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="^"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="%" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00004080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="&lt;..&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

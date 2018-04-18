@@ -1,0 +1,30 @@
+<helpsystems>
+  <help lang="JScript">
+    <locale type="CHM" file="js56.chm" hint="PROGDIR"/>
+    <download name="Microsoft" web="www.microsoft.com" type="CHM" file="Script56.chm" download="http://download.microsoft.com/download/7/c/b/7cbde286-799e-4d83-bf5b-a9a0d8c9df84/scrdoc56en.exe" url="http://msdn.microsoft.com/library/default.asp?url=/downloads/list/webdev.asp"/>
+  </help>
+  <help lang="VBScript">
+    <locale type"CHM" file="vbs56.chm" hint="PROGDIR"/>
+    <download name="Microsoft" web="www.microsoft.com" type="CHM" file="Script56.chm" download="http://download.microsoft.com/download/7/c/b/7cbde286-799e-4d83-bf5b-a9a0d8c9df84/scrdoc56en.exe" url="http://msdn.microsoft.com/library/default.asp?url=/downloads/list/webdev.asp"/>
+  </help>
+  <help lang="PHP">
+    <download name="easyDNS" web="ca.php.net" type="CHM" file="php_manual_en.chm" download="http://ca.php.net/get/php_manual_en.chm/from/this/mirror" url="http://ca.php.net/get/php_manual_en.chm/from/a/mirror"/>
+  </help>
+  <help lang="CSS">
+    <download name="WDG" web="www.htmlhelp.com" type="HLP" file="css.hlp" download="http://www.htmlhelp.com/distribution/css.zip" url="http://www.htmlhelp.com/distribution/"/>
+    <download name="Code-Genie" type="CHM" file="css.chm" download="http://www.code-genie.com/ufiles/help_css.zip"/>
+  </help>
+  <help lang="HTML">
+    <download name="WDG" web="www.htmlhelp.com" type="CHM" file="css.chm" download="http://www.htmlhelp.com/distribution/html40.chm" url="http://www.htmlhelp.com/distribution/"/>
+  </help>
+  <help lang="XML">
+    <locale type="CHM" file="xmlsdk.Chm" hint="PROGDIR"/>
+    <download name="Microsoft" web="www.microsoft.com" type="CHM" file="xmlsdk.Chm" download="http://download.microsoft.com/download/9/8/b/98b7efee-20c6-4cab-9ce0-6587280644d5/xmlsdk.msi" url="http://msdn.microsoft.com/XML/XMLDownloads/default.aspx"/>
+  </help>
+  <help lang="OBJECTPACAL">
+    <locale type="HLP" file="obpascal.hlp"/>
+  </help>
+  <help lang="BATCH">
+    <locale type="CHM" file="windows.chm" hint="WINDIR"/>
+  </help>
+</helpsystems>

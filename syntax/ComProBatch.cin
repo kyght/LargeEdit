@@ -1,0 +1,13 @@
+CALL [drive:][path]filename [batch-parameters]
+CHOICE [/C[:]keys] [/N] [/S] [/T[:]c,nn] [text]
+ECHO ON
+ECHO OFF
+ECHO [message]
+FOR %%variable IN (set) DO command [command-parameters]
+GOTO label
+IF [NOT] string1==string2 command
+IF [NOT] ERRORLEVEL number command
+IF [NOT] EXIST filename command
+PAUSE
+REM [string]
+SHIFT

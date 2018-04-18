@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="6502" FileType="" Extensions=" S ASM" Version="1" Revision="0" Sample=""/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="adc&#xA;and&#xA;asl&#xA;bcc&#xA;bcs&#xA;beq&#xA;bit&#xA;bmi&#xA;bne&#xA;bpl&#xA;brk&#xA;bvc&#xA;bvs&#xA;clc&#xA;cld&#xA;cli&#xA;clv&#xA;cmp&#xA;cpx&#xA;cpy&#xA;dec&#xA;dex&#xA;dey&#xA;eor&#xA;inc&#xA;inx&#xA;iny&#xA;jmp&#xA;jsr&#xA;lda&#xA;ldx&#xA;ldy&#xA;lsr&#xA;nop&#xA;ora&#xA;pha&#xA;php&#xA;pla&#xA;plp&#xA;rol&#xA;ror&#xA;rti&#xA;rts&#xA;sbc&#xA;sec&#xA;sed&#xA;sei&#xA;sta&#xA;stx&#xA;sty&#xA;tax&#xA;tay&#xA;tsx&#xA;txa&#xA;txs&#xA;tya&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="." Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

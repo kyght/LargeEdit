@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MAP File" FileType="" Extensions="MAP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:map.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value=",.:"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Section/symbol typ" Enabled="True" Style="" Words="BIT&#xA;BTW&#xA;BYT&#xA;CODE&#xA;D16&#xA;DATA&#xA;DT3&#xA;DT4&#xA;DT8&#xA;FAR&#xA;HDAT&#xA;INT&#xA;LDAT&#xA;NEA&#xA;PDAT&#xA;REG&#xA;TSK&#xA;WOR&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Align type" Enabled="True" Style="" Words="BITA&#xA;BYTE&#xA;DWORD&#xA;IRAM&#xA;PAGE&#xA;PECA&#xA;SEGM&#xA;WORD&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="COMBINE TYPE" Enabled="True" Style="" Words="AT&#xA;COMM&#xA;GLOB&#xA;GUSK&#xA;PRIV&#xA;PUBL&#xA;SSTK&#xA;USTK&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="ABS/RAM" Enabled="True" Style="" Words="ABS&#xA;RAM&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Reserved/ROM" Enabled="True" Style="" Words="ROM&#xA;Reserved&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Symbol location" Enabled="True" Style="" Words="?FI&#xA;?LI&#xA;?SY&#xA;EXT&#xA;GLB&#xA;LOC&#xA;PUB&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="C-classes" Enabled="True" Style="" Words="CBITS&#xA;CBITWORDS&#xA;CFAR&#xA;CFARROM&#xA;CHUGE&#xA;CHUGEROM&#xA;CINITIRAM&#xA;CINITROM&#xA;CIRAM&#xA;CNEAR&#xA;CNEAR2&#xA;CPROGRAM&#xA;CROM&#xA;CSHUGE&#xA;CSHUGEROM&#xA;CSYSTEM&#xA;CUSTACK&#xA;C_INIT&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Library-classes" Enabled="True" Style="" Words="CLIBRARY&#xA;RTLIBRARY&#xA;SHAREDCLIB&#xA;SHAREDRTLIB&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

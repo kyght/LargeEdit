@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Acknex WDL V3.9" FileType="" Extensions="wdl WDL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wdl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="KEYWORDS" Enabled="True" Style="" Words="albedo&#xA;ambient&#xA;angle&#xA;aspeed&#xA;attach&#xA;below&#xA;bmaps&#xA;bullet&#xA;button&#xA;ceil_angle&#xA;ceil_hgt&#xA;ceil_texclip_dist&#xA;cycle&#xA;cycles&#xA;delay&#xA;default&#xA;digits&#xA;dist&#xA;distance&#xA;each_cycle&#xA;each_tick&#xA;flags&#xA;floor_angle&#xA;floor_hgt&#xA;floor_offs_x&#xA;floor_offs_y&#xA;floor_tex&#xA;follow&#xA;font&#xA;frame&#xA;genius&#xA;global&#xA;hbar&#xA;height&#xA;here&#xA;hit&#xA;hold&#xA;hslider&#xA;if_arise&#xA;if_arived&#xA;if_dive&#xA;if_enter&#xA;if_far&#xA;if_hit&#xA;if_klick&#xA;if_leave&#xA;if_near&#xA;if_touch&#xA;if_release&#xA;index&#xA;layer&#xA;left&#xA;length&#xA;local&#xA;map_color&#xA;max&#xA;min&#xA;mirror&#xA;move&#xA;msprite&#xA;my&#xA;node1&#xA;node2&#xA;null&#xA;offset_x&#xA;offset_y&#xA;ovlys&#xA;palfile&#xA;player&#xA;pan_map&#xA;picture&#xA;pos_x&#xA;pos_y&#xA;position&#xA;radiance&#xA;random&#xA;range&#xA;rel_angle&#xA;rel_dist&#xA;repel&#xA;right&#xA;scale_x&#xA;scale_y&#xA;scycles&#xA;sdist&#xA;sides&#xA;size_x&#xA;size_y&#xA;skill1&#xA;skill2&#xA;skill3&#xA;skill4&#xA;skill5&#xA;skill6&#xA;skill7&#xA;skill8&#xA;speed&#xA;stick&#xA;strings&#xA;svdist&#xA;svol&#xA;target&#xA;target_x&#xA;target_y&#xA;there&#xA;title&#xA;top&#xA;touch&#xA;touch_tex&#xA;touch_text&#xA;touch_reg&#xA;touched&#xA;type&#xA;val&#xA;vbar&#xA;vertex&#xA;view&#xA;vslider&#xA;vspeed&#xA;waypoint&#xA;window&#xA;x1&#xA;x2&#xA;y1&#xA;y2&#xA;z1&#xA;z2&#xA;.x&#xA;.y&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="ACTION_KEYWORDS" Enabled="True" Style="" Words="abs&#xA;accel&#xA;acos&#xA;add&#xA;addt&#xA;add_string&#xA;and&#xA;asin&#xA;beep&#xA;branch&#xA;break&#xA;call&#xA;continue&#xA;cos&#xA;drop&#xA;else&#xA;end&#xA;exclusive&#xA;exit&#xA;exp&#xA;explode&#xA;fade_pal&#xA;find&#xA;freeze&#xA;getmidi&#xA;goto&#xA;if&#xA;if_start&#xA;if_load&#xA;if_left&#xA;if_middle&#xA;if_right&#xA;if_mstop&#xA;if_anykey&#xA;if_f1&#xA;if_f2&#xA;if_f3&#xA;if_f4&#xA;if_f5&#xA;if_f6&#xA;if_f7&#xA;if_f8&#xA;if_f9&#xA;if_f10&#xA;if_f11&#xA;if_f12&#xA;if_esc&#xA;if_tab&#xA;if_ctrl&#xA;if_alt&#xA;if_space&#xA;if_bksp&#xA;if_cuu&#xA;if_cud&#xA;if_cur&#xA;if_cul&#xA;if_pgup&#xA;if_pgdn&#xA;if_home&#xA;if_end&#xA;if_ins&#xA;if_del&#xA;if_pause&#xA;if_car&#xA;if_cal&#xA;if_plus&#xA;if_minus&#xA;if_0&#xA;if_1&#xA;if_2&#xA;if_3&#xA;if_4&#xA;if_5&#xA;if_6&#xA;if_7&#xA;if_8&#xA;if_9&#xA;if_a&#xA;if_b&#xA;if_c&#xA;if_d&#xA;if_e&#xA;if_f&#xA;if_g&#xA;if_h&#xA;if_i&#xA;if_j&#xA;if_k&#xA;if_l&#xA;if_m&#xA;if_n&#xA;if_o&#xA;if_p&#xA;if_q&#xA;if_r&#xA;if_s&#xA;if_t&#xA;if_u&#xA;if_v&#xA;if_w&#xA;if_x&#xA;if_y&#xA;if_z&#xA;if_above&#xA;if_below&#xA;if_equal&#xA;if_min&#xA;if_max&#xA;inkey&#xA;inport&#xA;int&#xA;level&#xA;lift&#xA;load&#xA;load_info&#xA;locate&#xA;log&#xA;log2&#xA;log10&#xA;map&#xA;midicom&#xA;next_my&#xA;next_there&#xA;next_my_there&#xA;outport&#xA;play_cd&#xA;play_demo&#xA;play_flic&#xA;play_flicfile&#xA;play_sound&#xA;play_song&#xA;play_song_once&#xA;play_soundfile&#xA;print_string&#xA;print_value&#xA;printfile&#xA;push&#xA;rotate&#xA;rule&#xA;save_demo&#xA;save_info&#xA;screenshot&#xA;set&#xA;set_all&#xA;set_info&#xA;set_skill&#xA;set_string&#xA;setmidi&#xA;shake&#xA;shift&#xA;shoot&#xA;sign&#xA;sin&#xA;sqrt&#xA;stop_demo&#xA;stop_flic&#xA;stop_sound&#xA;tan&#xA;tilt&#xA;to_string&#xA;wait&#xA;waitt&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FLAGS" Enabled="True" Style="" Words="abspos&#xA;autorange&#xA;base&#xA;behind&#xA;berkeley&#xA;blur&#xA;candelaber&#xA;carefully&#xA;ceil_ascend&#xA;ceil_descend&#xA;center_x&#xA;center_y&#xA;clip&#xA;cluster&#xA;condensed&#xA;curtain&#xA;diaphanous&#xA;far&#xA;fence&#xA;flag1&#xA;flag2&#xA;flag3&#xA;flag4&#xA;flag5&#xA;flag6&#xA;flag7&#xA;flag8&#xA;floor_ascend&#xA;floor_descend&#xA;fragile&#xA;ghost&#xA;ground&#xA;hard&#xA;immaterial&#xA;impassable&#xA;invisible&#xA;liber&#xA;lightmap&#xA;master&#xA;moved&#xA;narrow&#xA;no_clip&#xA;oneshot&#xA;passable&#xA;play&#xA;portcullis&#xA;refresh&#xA;relpos&#xA;save&#xA;save_all&#xA;seen&#xA;sensitive&#xA;shadow&#xA;sky&#xA;sloop&#xA;sticky&#xA;transparent&#xA;visible&#xA;wire&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SKILLS" Enabled="True" Style="" Words="acceleration&#xA;active_nexus&#xA;active_targets&#xA;actor_ceil_hgt&#xA;actor_climb&#xA;actor_dist&#xA;actor_floor_hgt&#xA;actor_impact_vx&#xA;actor_impact_vy&#xA;actor_impact_vz&#xA;actor_width&#xA;aspect&#xA;blur_mode&#xA;bounce_vx&#xA;bounce_vy&#xA;cd_track&#xA;cdaudio_vol&#xA;channel&#xA;channel_0&#xA;channel_1&#xA;channel_2&#xA;channel_3&#xA;channel_4&#xA;channel_5&#xA;channel_6&#xA;channel_7&#xA;clipping&#xA;color_actors&#xA;color_border&#xA;color_player&#xA;color_things&#xA;color_walls&#xA;dark_dist&#xA;debug_mode&#xA;delta_angle&#xA;error&#xA;eye_dist&#xA;flic_frame&#xA;force_ahead&#xA;force_rot&#xA;force_strafe&#xA;force_tilt&#xA;force_up&#xA;friction&#xA;hit_dist&#xA;hit_mindist&#xA;hit_x&#xA;hit_y&#xA;impact_vx&#xA;impact_vy&#xA;impact_vz&#xA;impact_vrot&#xA;inertia&#xA;joy_4&#xA;joy_sense&#xA;joystick_x&#xA;joystick_y&#xA;key_any&#xA;key_sense&#xA;key_f1&#xA;key_f2&#xA;key_f3&#xA;key_f4&#xA;key_f5&#xA;key_f6&#xA;key_f7&#xA;key_f8&#xA;key_f9&#xA;key_f10&#xA;key_f11&#xA;key_f12&#xA;key_esc&#xA;key_tab&#xA;key_shift&#xA;key_ctrl&#xA;key_alt&#xA;key_space&#xA;key_bksp&#xA;key_cuu&#xA;key_cud&#xA;key_cur&#xA;key_cul&#xA;key_pgup&#xA;key_pgdn&#xA;key_home&#xA;key_end&#xA;key_ins&#xA;key_del&#xA;key_pause&#xA;key_car&#xA;key_cal&#xA;key_plus&#xA;key_minus&#xA;key_enter&#xA;key_1&#xA;key_2&#xA;key_3&#xA;key_4&#xA;key_5&#xA;key_6&#xA;key_7&#xA;key_8&#xA;key_9&#xA;key_0&#xA;key_a&#xA;key_b&#xA;key_c&#xA;key_d&#xA;key_e&#xA;key_f&#xA;key_g&#xA;key_h&#xA;key_i&#xA;key_j&#xA;key_k&#xA;key_l&#xA;key_m&#xA;key_n&#xA;key_o&#xA;key_p&#xA;key_q&#xA;key_r&#xA;key_s&#xA;key_t&#xA;key_u&#xA;key_v&#xA;key_w&#xA;key_x&#xA;key_y&#xA;key_z&#xA;&#xA;light_dist&#xA;lines&#xA;load_mode&#xA;map_centerx&#xA;map_centery&#xA;map_edge_x1&#xA;map_edge_x2&#xA;map_edge_y1&#xA;map_edge_y2&#xA;map_layer&#xA;map_maxx&#xA;map_maxy&#xA;map_minx&#xA;map_miny&#xA;map_mode&#xA;map_offsx&#xA;map_offsy&#xA;map_rot&#xA;map_scale&#xA;max_dist&#xA;mickey_x&#xA;mickey_y&#xA;motion_blur&#xA;mouse_angle&#xA;mouse_calm&#xA;mouse_left&#xA;mouse_middle&#xA;mouse_mode&#xA;mouse_moving&#xA;mouse_right&#xA;mouse_sense&#xA;mouse_time&#xA;mouse_x&#xA;mouse_y&#xA;move_angle&#xA;move_mode&#xA;music_vol&#xA;player_angle&#xA;player_arc&#xA;player_climb&#xA;player_cos&#xA;player_depth&#xA;player_hgt&#xA;player_last_x&#xA;player_last_y&#xA;player_light&#xA;player_sin&#xA;player_size&#xA;player_speed&#xA;player_tilt&#xA;player_vrot&#xA;player_vx&#xA;player_vy&#xA;player_vz&#xA;player_width&#xA;player_x&#xA;player_y&#xA;player_z&#xA;psound_tone&#xA;psound_vol&#xA;remode_0&#xA;remode_1&#xA;render_mode&#xA;result&#xA;screen_hgt&#xA;screen_width&#xA;screen_x&#xA;screen_y&#xA;secs&#xA;shift_sense&#xA;shoot_angle&#xA;shoot_fac&#xA;shoot_range&#xA;shoot_sector&#xA;shoot_x&#xA;shoot_y&#xA;skip_frames&#xA;sky_offs_x&#xA;sky_offs_y&#xA;slope_ahead&#xA;slope_side&#xA;slope_x&#xA;slope_y&#xA;sound_vol&#xA;steps&#xA;str_len&#xA;ticks&#xA;time_corr&#xA;time_fac&#xA;thing_dist&#xA;thing_width&#xA;touch_dist&#xA;touch_mode&#xA;touch_state&#xA;walk&#xA;walk_period&#xA;walk_time&#xA;wave&#xA;wave_period&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="KEYWORD_TYPES" Enabled="True" Style="" Words="action&#xA;actor&#xA;bmap&#xA;flic&#xA;mapfile&#xA;model&#xA;music&#xA;overlay&#xA;ovly&#xA;panel&#xA;region&#xA;skill&#xA;sound&#xA;string&#xA;synonym&#xA;text&#xA;texture&#xA;thing&#xA;wall&#xA;way&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="METAKEYWORDS" Enabled="True" Style="" Words="define&#xA;endif&#xA;ifdef&#xA;ifelse&#xA;ifndef&#xA;undefine&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PREDEFINED_KEYWORDS" Enabled="True" Style="" Words="bind&#xA;clip_dist&#xA;dither&#xA;drumbank&#xA;ibank&#xA;include&#xA;light_angle&#xA;mabfile&#xA;midi_pitch&#xA;nexus&#xA;path&#xA;savedir&#xA;video&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATORS" Enabled="True" Style="" Words="+&#xA;-&#xA;=&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;*&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

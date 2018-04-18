@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="LDAP" FileType="" Extensions="LDIF LDF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ldap.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value=",:="/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="accountUnlockTime&#xA;administratorContactInfo&#xA;adminUrl&#xA;audio&#xA;binary&#xA;businesscategory&#xA;carlicense&#xA;changeLogMaximumAge&#xA;changeLogMaximumSize&#xA;changeNumber&#xA;changes&#xA;changeTime&#xA;changetype&#xA;cirBeginORC&#xA;cirBindCredentials&#xA;cirBindDn&#xA;cirHost&#xA;cirLastUpdateApplied&#xA;cirPort&#xA;cirReplicaRoot&#xA;cirSyncInterval&#xA;cirUpdateFailedat&#xA;cirUpdateSchedule&#xA;cirUsePersistentSearch&#xA;cirUseSsl&#xA;cn&#xA;commonname&#xA;deleteOldRdn&#xA;departmentNumber&#xA;description&#xA;destinationIndicator&#xA;dn&#xA;employeenumber&#xA;employeeType&#xA;facsimileTelephoneNumber&#xA;filterInfo&#xA;generation&#xA;givenname&#xA;homePhone&#xA;homePostalAddress&#xA;idxno&#xA;indexnumber&#xA;initials&#xA;installationTimeStamp&#xA;internationalIsdnNumber&#xA;jpegPhoto&#xA;l&#xA;labeledURI&#xA;locality&#xA;mail&#xA;mailAccessDomain&#xA;mailalternateaddress&#xA;mailAutoReplyMode&#xA;mailAutoReplyText&#xA;maildeliveryoption&#xA;mailEnhancedUniqueMember&#xA;mailForwardingAddress&#xA;mailhost&#xA;mailMessageStore&#xA;mailProgramDeliveryInfo&#xA;mailQuota&#xA;manager&#xA;member&#xA;memberCertificateDescription&#xA;memberURL&#xA;mgrpAllowedBroadcaster&#xA;mgrpAllowedDomain&#xA;mgrpDeliverTo&#xA;mgrpErrorsTo&#xA;mgrpModerator&#xA;mgrpMsgMaxSize&#xA;mgrpMsgRejectAction&#xA;mgrpMsgRejectText&#xA;mgrpRFC822MailMember&#xA;mobile&#xA;multiLineDescription&#xA;newRdn&#xA;newSuperior&#xA;nsLicensedFor&#xA;nsLicenseEndTime&#xA;nsLicenseStartTime&#xA;ntGroupAttributes&#xA;ntGroupCreateNewGroup&#xA;ntGroupDeleteGroup&#xA;ntGroupDomainId&#xA;ntGroupId&#xA;ntUserDomainId&#xA;ntUserAcctExpires&#xA;ntUserAuthFlags&#xA;ntUserBadPwCount&#xA;ntUserCodePage&#xA;ntUserComment&#xA;ntUserCountryCode&#xA;ntUserCreateNewAccount&#xA;ntUserDeleteAccount&#xA;ntUserFlags&#xA;ntUserHomeDir&#xA;ntUserHomeDirDrive&#xA;ntUserLastLogoff&#xA;ntUserLastLogon&#xA;ntUserLogonHours&#xA;ntUserLogonServer&#xA;ntUserMaxStorage&#xA;ntUserNumLogons&#xA;ntUserParms&#xA;ntUserPasswordExpired&#xA;ntUserPrimaryGroupId&#xA;ntUserPriv&#xA;ntUserProfile&#xA;ntUserScriptPath&#xA;ntUserUniqueId&#xA;ntUserUnitsPerWeek&#xA;ntUserUsrComment&#xA;ntUserWorkstations&#xA;objectclass&#xA;owner&#xA;pager&#xA;passwordChange&#xA;passwordCheckSyntax&#xA;passwordExp&#xA;passwordExpirationTime&#xA;passwordExpWarned&#xA;passwordHistory&#xA;passwordInHistory&#xA;passwordKeepHistory&#xA;passwordLockout&#xA;passwordLockoutDuration&#xA;passwordMaxAge&#xA;passwordMaxFailure&#xA;passwordMinLength&#xA;passwordResetDuration&#xA;passwordRetryCount&#xA;passwordUnlock&#xA;passwordWarning&#xA;photo&#xA;physicaldeliveryofficename&#xA;postaladdress&#xA;postalcode&#xA;postOfficeBox&#xA;preferredDeliveryMethod&#xA;preferredLanguage&#xA;ref&#xA;registeredAddress&#xA;replicaBeginOrc&#xA;replicaBindDn&#xA;replicaBindMethod&#xA;replicaCredentials&#xA;replicaEntryFilter&#xA;replicaHost&#xA;replicaNickName&#xA;replicaPort&#xA;replicaRoot&#xA;replicatedAttributeList&#xA;replicaUpdateFailedAt&#xA;replicaUpdateReplayed&#xA;replicaUpdateSchedule&#xA;replicaUseSSL&#xA;retryCountResetTime&#xA;roleOccupant&#xA;roomnumber&#xA;searchGuide&#xA;secretary&#xA;seeAlso&#xA;serverHostName&#xA;serverProductName&#xA;serverRoot&#xA;serverVersionNumber&#xA;sn&#xA;st&#xA;stateOrProvinceName&#xA;street&#xA;surname&#xA;targetDn&#xA;telephonenumber&#xA;teletexTerminalIdentifier&#xA;telexNumber&#xA;title&#xA;uid&#xA;uniqueMember&#xA;userpassword&#xA;userCertificate&#xA;userCertificate&#xA;userCertificate;binary&#xA;userSMIMECertificate&#xA;userSMIMECertificate;binary&#xA;x121Address&#xA;x500UniqueIdentifier&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="aci&#xA;add&#xA;c&#xA;dc&#xA;delete&#xA;ftp&#xA;ftps&#xA;http&#xA;https&#xA;ldap&#xA;ldaps&#xA;modify&#xA;nntp&#xA;nntps&#xA;o&#xA;ou&#xA;URL&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="changeLogEntry&#xA;cirReplicaSource&#xA;crypt&#xA;dcObject&#xA;epsbranch&#xA;groupOfCertificates&#xA;groupOfMailEnhancedUniqueNames&#xA;groupOfNames&#xA;groupOfUniqueNames&#xA;httpd&#xA;inetOrgPerson&#xA;LDAPReplica&#xA;LDAPServer&#xA;mailGroup&#xA;mailRecipient&#xA;netscapeServer&#xA;nsLicenseUser&#xA;ntGroup&#xA;ntUser&#xA;organization&#xA;organizationalPerson&#xA;organizationalRole&#xA;organizationalUnit&#xA;passwordObject&#xA;passwordPolicy&#xA;person&#xA;referral&#xA;residentialPerson&#xA;SHA&#xA;slapd&#xA;top&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

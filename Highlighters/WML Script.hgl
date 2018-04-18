@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WML Script" FileType="" Extensions="WMLS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wmlscript.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="access&#xA;agent&#xA;break&#xA;continue&#xA;div&#xA;domain&#xA;else&#xA;equiv&#xA;extern&#xA;for&#xA;function&#xA;header&#xA;http&#xA;if&#xA;isvalid&#xA;meta&#xA;name&#xA;path&#xA;return&#xA;typeof&#xA;url&#xA;use&#xA;user&#xA;var&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="case&#xA;catch&#xA;class&#xA;const&#xA;charAt&#xA;compare&#xA;debugger&#xA;default&#xA;delete&#xA;do&#xA;enum&#xA;export&#xA;extends&#xA;elementAt&#xA;elements&#xA;finally&#xA;format&#xA;import&#xA;in&#xA;insertAt&#xA;isEmpty&#xA;lib&#xA;length&#xA;new&#xA;null&#xA;private&#xA;public&#xA;removeAt&#xA;replace&#xA;replaceAt&#xA;sizeof&#xA;subString&#xA;struct&#xA;super&#xA;switch&#xA;this&#xA;throw&#xA;try&#xA;toString&#xA;trim&#xA;void&#xA;with&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abort&#xA;abs&#xA;alert&#xA;characterSet&#xA;ceil&#xA;confirm&#xA;exit&#xA;escapeString&#xA;float&#xA;floor&#xA;getBase&#xA;getFragment&#xA;getHost&#xA;getParameters&#xA;getPath&#xA;getPort&#xA;getQuery&#xA;getReferer&#xA;getScheme&#xA;getCurrentCard&#xA;getVar&#xA;go&#xA;isFloat&#xA;isInt&#xA;int&#xA;isValid&#xA;loadString&#xA;max&#xA;maxInt&#xA;min&#xA;minInt&#xA;maxFloat&#xA;minFloat&#xA;newContext&#xA;parseFloat&#xA;parseInt&#xA;pow&#xA;prev&#xA;prompt&#xA;random&#xA;round&#xA;resolve&#xA;refresh&#xA;seed&#xA;sqrt&#xA;setVar&#xA;unescapeString&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="Float&#xA;Dialogs&#xA;Lang&#xA;String&#xA;URL&#xA;WMLBrowser&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

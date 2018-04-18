@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SDL-PR Files" FileType="" Extensions="PR SDL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sdl-pr.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="stuctural types" Enabled="True" Style="" Words="CALL&#xA;DCL&#xA;DECISION&#xA;ELSE&#xA;ENDCONNECTION&#xA;ENDDECISION&#xA;ENDNEWTYPE&#xA;ENDPROCESS&#xA;ENDSTATE&#xA;ENDSYNTYPE&#xA;GATE&#xA;INPUT&#xA;JOIN&#xA;NEWTYPE&#xA;NEXTSTATE&#xA;OUTPUT&#xA;PROCEDURE&#xA;PROCESS&#xA;SAVE&#xA;SIGNAL&#xA;SIGNALLIST&#xA;START&#xA;STATE&#xA;STRUCT&#xA;SYNTYPE&#xA;TASK&#xA;TYPE&#xA;call&#xA;connection&#xA;dcl&#xA;decision&#xA;else&#xA;endconnection&#xA;enddecision&#xA;endnewtype&#xA;endprocess&#xA;endstate&#xA;endsyntype&#xA;gate&#xA;input&#xA;join&#xA;newtype&#xA;nextstate&#xA;out&#xA;output&#xA;procedure&#xA;process&#xA;save&#xA;signal&#xA;signallist&#xA;start&#xA;state&#xA;struct&#xA;syntype&#xA;task&#xA;type&#xA;{&#xA;}&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="values" Enabled="True" Style="" Words="FALSE&#xA;TRUE&#xA;false&#xA;true&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="modifiers" Enabled="True" Style="" Words="CHOICE&#xA;CONSTANTS&#xA;DEFAULT&#xA;IN&#xA;OPTIONAL&#xA;OUT&#xA;REFERENCED&#xA;RESET&#xA;SET&#xA;VIA&#xA;WITH&#xA;choice&#xA;constants&#xA;default&#xA;in&#xA;optional&#xA;referenced&#xA;reset&#xA;set&#xA;via&#xA;with&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="baseDataTypes" Enabled="True" Style="" Words="Array&#xA;Bit_string&#xA;Boolean&#xA;INTEGER&#xA;Integer&#xA;NULL&#xA;Octet_string&#xA;PId&#xA;TIMER&#xA;size&#xA;timer&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ids" Enabled="True" Style="" Words="CHILD&#xA;PARENT&#xA;SELF&#xA;SENDER&#xA;child&#xA;parent&#xA;self&#xA;sender&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

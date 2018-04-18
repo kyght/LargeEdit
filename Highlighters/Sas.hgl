@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SAS" FileType="" Extensions="SAS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sas.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="_null_&#xA;abort&#xA;array&#xA;attrib&#xA;and&#xA;by&#xA;call&#xA;cards&#xA;cards4&#xA;center&#xA;data&#xA;delete&#xA;do&#xA;drop&#xA;dim&#xA;else&#xA;end&#xA;eof&#xA;file&#xA;format&#xA;formchar&#xA;footenote&#xA;footenote1&#xA;footenote2&#xA;footenote3&#xA;footenote4&#xA;footenote5&#xA;footenote6&#xA;footenote7&#xA;footenote8&#xA;footenote9&#xA;footenote10&#xA;firstobs&#xA;filename&#xA;go&#xA;if&#xA;infile&#xA;informat&#xA;input&#xA;in&#xA;keep&#xA;label&#xA;length&#xA;link&#xA;lostcard&#xA;ls&#xA;libname&#xA;left&#xA;lrecl&#xA;lastobs&#xA;merge&#xA;missing&#xA;mtrace&#xA;mprint&#xA;min&#xA;max&#xA;mlogic&#xA;missover&#xA;mdy&#xA;nonumber&#xA;nobs&#xA;nomprint&#xA;nomtrace&#xA;nosymbolgen&#xA;noovp&#xA;null&#xA;over&#xA;output&#xA;out&#xA;options&#xA;or&#xA;otherwise&#xA;put&#xA;ps&#xA;pad&#xA;rename&#xA;retain&#xA;return&#xA;run&#xA;rank&#xA;select&#xA;set&#xA;skip&#xA;stop&#xA;symbolgen&#xA;sum&#xA;source2&#xA;symput&#xA;same&#xA;sum&#xA;substr&#xA;then&#xA;to&#xA;title&#xA;title1&#xA;title2&#xA;title3&#xA;title4&#xA;title5&#xA;title6&#xA;title7&#xA;title8&#xA;title9&#xA;title10&#xA;trim&#xA;time&#xA;until&#xA;update&#xA;where&#xA;while&#xA;window&#xA;when&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="as&#xA;after&#xA;append&#xA;break&#xA;calender&#xA;catalog&#xA;chart&#xA;cimport&#xA;class&#xA;contents&#xA;compare&#xA;contents&#xA;copy&#xA;corr&#xA;cport&#xA;create&#xA;column&#xA;datasets&#xA;define&#xA;display&#xA;ERROR&#xA;endsas&#xA;format&#xA;forms&#xA;freq&#xA;from&#xA;group&#xA;headline&#xA;headskip&#xA;id&#xA;intervals&#xA;into&#xA;lifetest&#xA;list&#xA;line&#xA;lsmeans&#xA;method&#xA;means&#xA;model&#xA;new&#xA;noobs&#xA;noprint&#xA;n&#xA;NOTE&#xA;options&#xA;out&#xA;order&#xA;obs&#xA;outsurv&#xA;proc&#xA;print&#xA;plots&#xA;plot&#xA;pmenu&#xA;printto&#xA;pageby&#xA;rank&#xA;report&#xA;repeated&#xA;sort&#xA;spell&#xA;strata&#xA;standard&#xA;summary&#xA;sql&#xA;split&#xA;skip&#xA;sumby&#xA;tables&#xA;tabulate&#xA;test&#xA;timeplot&#xA;ttest&#xA;table&#xA;transpose&#xA;uniform&#xA;univariate&#xA;var&#xA;value&#xA;v5tov6&#xA;width&#xA;WARNING&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="aceclus&#xA;anova&#xA;calis&#xA;cancorr&#xA;candisc&#xA;catmod&#xA;cluster&#xA;corresp&#xA;discrim&#xA;factor&#xA;fastclus&#xA;freq&#xA;genmod&#xA;glm&#xA;glmmod&#xA;inbreed&#xA;lattice&#xA;lifereg&#xA;lifetest&#xA;logistic&#xA;mds&#xA;mixed&#xA;modeclus&#xA;multtest&#xA;nested&#xA;nlin&#xA;npar1way&#xA;output&#xA;orthoreg&#xA;phreg&#xA;plan&#xA;princomp&#xA;prinqual&#xA;reg&#xA;rsreg&#xA;score&#xA;stepdisc&#xA;template&#xA;transreg&#xA;tree&#xA;ttest&#xA;varclus&#xA;varcomp&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="%bquote&#xA;%display&#xA;%do&#xA;%end&#xA;%else&#xA;%eval&#xA;%goto&#xA;%global&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;%if&#xA;%include&#xA;%input&#xA;%keydef&#xA;%label&#xA;%let&#xA;%local&#xA;%macro&#xA;%mend&#xA;%put&#xA;%str&#xA;%scan&#xA;%syscall&#xA;%sysexec&#xA;%sysrput&#xA;%symget&#xA;%symput&#xA;%then&#xA;%to&#xA;%upcase&#xA;%until&#xA;%while&#xA;%window&#xA;MPRINT&#xA;MLOGIC&#xA;MTRACE&#xA;SYMBOLGEN&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

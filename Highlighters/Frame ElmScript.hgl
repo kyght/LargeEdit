@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Frame-/ElmScript" FileType="" Extensions="FSL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:framescript.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMANDS" Enabled="True" Style="" Words="Add&#xA;Apply&#xA;Clear&#xA;Close&#xA;Copy&#xA;Cut&#xA;Delete&#xA;DialogBox&#xA;Display&#xA;Else&#xA;EndEvent&#xA;EndIf&#xA;EndLoop&#xA;EndSub&#xA;Event&#xA;Execute&#xA;Find&#xA;Generate&#xA;Get&#xA;If&#xA;Import&#xA;Install&#xA;LeaveLoop&#xA;LeaveSub&#xA;Loop&#xA;MsgBox&#xA;New&#xA;Open&#xA;Paste&#xA;Print&#xA;Quit&#xA;Read&#xA;Remove&#xA;Replace&#xA;Return&#xA;Run&#xA;Save&#xA;Select&#xA;Session&#xA;Straddle&#xA;Sub&#xA;Uninstall&#xA;Update&#xA;Write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="EXTENDED COMMANDS" Enabled="True" Style="" Words="Book&#xA;BookFiles&#xA;ChangeBars&#xA;CommandObject&#xA;Document&#xA;File&#xA;Formats&#xA;FrameCommand&#xA;HyperText&#xA;Integer&#xA;Member&#xA;Menu&#xA;MenuItemSeparator&#xA;MenuObject&#xA;MenuSepObject&#xA;Metric&#xA;MetricList&#xA;Object&#xA;PageLayout&#xA;Property&#xA;PropertyList&#xA;QuickKeys&#xA;Real&#xA;Script&#xA;String&#xA;StringList&#xA;Table&#xA;TableCells&#xA;TableCols&#xA;TableColumns&#xA;TableRows&#xA;Text&#xA;TextFile&#xA;TextInsetContents&#xA;TextList&#xA;TextLoc&#xA;TextProperties&#xA;TextRange&#xA;UIntList&#xA;Var&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPTIONS" Enabled="True" Style="" Words="AddTo&#xA;Backward&#xA;BodyRows&#xA;BookObject&#xA;BottomMargin&#xA;BottomRow&#xA;Button&#xA;Button3Label&#xA;Button4Label&#xA;Cancel&#xA;CellObject&#xA;CharFmt&#xA;CheckBox1&#xA;CheckBox1Label&#xA;CheckBox2&#xA;CheckBox2Label&#xA;CheckBox3&#xA;CheckBox3Label&#xA;CheckBox4&#xA;CheckBox4Label&#xA;Color&#xA;ColumnGap&#xA;Command&#xA;CutTblCells&#xA;Destpage&#xA;Direction&#xA;Directory&#xA;DocObject&#xA;DontApplyAllRows&#xA;DontDeleteHiddenText&#xA;Edit1&#xA;Edit2&#xA;Edit3&#xA;EndPos&#xA;EventProc&#xA;FooterRows&#xA;ForEach&#xA;Format&#xA;From&#xA;FromDocObject&#xA;FromString&#xA;HeaderRows&#xA;Height&#xA;IgnoreMods&#xA;In&#xA;Incr&#xA;Init&#xA;InitVal&#xA;InitValue&#xA;InObject&#xA;InRange&#xA;InsertBelowRight&#xA;InString&#xA;Interactive&#xA;Invisible&#xA;IOType&#xA;Label&#xA;Label1&#xA;Label2&#xA;Label3&#xA;Landscape&#xA;LeftCol&#xA;LeftInsideMargin&#xA;List&#xA;LoopVar&#xA;LowerCase&#xA;MarkerType&#xA;MasterPage&#xA;Mode&#xA;Name&#xA;NewVar&#xA;NoCase&#xA;Number&#xA;NumCols&#xA;NumRows&#xA;Offset&#xA;ParentObject&#xA;Portrait&#xA;Prefix&#xA;PrevObject&#xA;Prompt&#xA;PropertyName&#xA;Properties&#xA;PropertyValue&#xA;RemoveChars&#xA;RemoveLeading&#xA;RemoveTrailing&#xA;ReplaceCells&#xA;ReturnPos&#xA;ReturnStatus&#xA;ReturnString&#xA;ReturnRange&#xA;Returns&#xA;Reverse&#xA;Rewind&#xA;RightCol&#xA;RightOutsideMargin&#xA;RowObject&#xA;ScrollTo&#xA;SelectTable&#xA;ShortCut&#xA;SidedNess&#xA;SkipStep&#xA;Sourcepage&#xA;Start&#xA;StartCol&#xA;StartPos&#xA;Suffix&#xA;TableObject&#xA;Template&#xA;Title&#xA;Title2&#xA;To&#xA;TopMargin&#xA;TopRow&#xA;Type&#xA;UnanchoredFrame&#xA;Units&#xA;Until&#xA;UpperCase&#xA;Value&#xA;Visible&#xA;VisibleOnly&#xA;When&#xA;While&#xA;WholeWord&#xA;Width&#xA;With&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="TYPES" Enabled="True" Style="" Words="AFrame&#xA;AlertUserAboutFailure&#xA;Append&#xA;Arc&#xA;AutoBackupOnSave&#xA;BeefyDoc&#xA;BodyPage&#xA;BookComponent&#xA;BookFileMenu&#xA;BookIsInUse&#xA;CharacterFormat&#xA;CharPropsChange&#xA;Cell&#xA;CellSeparator&#xA;ClosedDocs&#xA;CombinedFonts&#xA;Cond&#xA;CondFmt&#xA;ConditionFormat&#xA;DisallowBookDoc&#xA;DisallowBookMif&#xA;DisallowDoc&#xA;DisallowFilterTypes&#xA;DisallowGraphicTypes&#xA;DisallowMacEditions&#xA;DisallowMif&#xA;DisallowPlainText&#xA;DisallowSgml&#xA;Doc&#xA;DontNotifyApiClients&#xA;EditMenu&#xA;Ellipse&#xA;Everything&#xA;FileIsGraphic&#xA;FileIsInUse&#xA;FileIsMakerDoc&#xA;FileIsOldVersion&#xA;FileIsSgmlDoc&#xA;FileIsStructured&#xA;FileIsText&#xA;FileMenu&#xA;FilterFormatId&#xA;FitGraphicInSelectedRect&#xA;Flow&#xA;FlowBegin&#xA;FlowEnd&#xA;Fn&#xA;FnAnchor&#xA;Font&#xA;FontChangedMetric&#xA;FontNotFoundInCatalog&#xA;FontNotFoundInDoc&#xA;ForceImportAsText&#xA;ForceOpenAsText&#xA;ForceUpdate&#xA;FormatImportedText&#xA;FormatMenu&#xA;Formatting&#xA;FrameAnchor&#xA;GraphicDpi&#xA;Group&#xA;HowToImport&#xA;Hyphenating&#xA;ImportFlowPageSpace&#xA;ImportFlowTag&#xA;ImportTblTag&#xA;Inset&#xA;Internal&#xA;LanguageNotAvailable&#xA;LeaveHeadingRowsEmpty&#xA;Line&#xA;LineBegin&#xA;LineEnd&#xA;LockCantBeReset&#xA;MakeIconic&#xA;MakePageCount&#xA;MakeVisible&#xA;ManualUpdate&#xA;Marker&#xA;MarkerAnchor&#xA;Math&#xA;ModDateChanged&#xA;NameStripe&#xA;NumCellSeparators&#xA;NumColumns&#xA;OpenDocs&#xA;OpenDocViewOnly&#xA;OpenFileNotWritable&#xA;OpenId&#xA;Page&#xA;PageBegin&#xA;PageEnd&#xA;ParagraphFormat&#xA;Pgf&#xA;PgfBegin&#xA;PgfEnd&#xA;PgfFmt&#xA;Polygon&#xA;Polyline&#xA;ReadOnly&#xA;Rectangle&#xA;ReferencePage&#xA;RefFileNotFound&#xA;RefPage&#xA;RemoveExceptions&#xA;RemoveManualPageBreaks&#xA;RemoveOverrides&#xA;RemovePageBreaks&#xA;ResetEquationSettings&#xA;ResetRefFrames&#xA;RestartPgfNums&#xA;RetainNameStripe&#xA;RoundRect&#xA;Row&#xA;RulingFmt&#xA;RulingFormat&#xA;SaveFileNotWritable&#xA;SaveTextExtraBlankLineAtEOP&#xA;SaveTextTblSetting&#xA;ShowBrowser&#xA;ShowSaveTextDialog&#xA;SubCol&#xA;SubColBegin&#xA;SubColEnd&#xA;TableFormat&#xA;Tbl&#xA;TblAnchor&#xA;TblFmt&#xA;TblNumHeadingRows&#xA;TextFrameBegin&#xA;TextFrameEnd&#xA;TextInsetBegin&#xA;TextInsetEnd&#xA;TextInsetName&#xA;TextFrame&#xA;Textline&#xA;TextInset&#xA;TiApiClient&#xA;TreatParaAsRow&#xA;UNIXpermissions&#xA;UpdateBrowserDirectory&#xA;UpdateFRVList&#xA;UpdateXRefs&#xA;UseAutoSaveFile&#xA;UseDefaultUNIXpermissions&#xA;UseMainFlow&#xA;UseRecoverFile&#xA;VarBegin&#xA;VarEnd&#xA;VarFmt&#xA;Variable&#xA;Variables&#xA;VariableFormat&#xA;WriteOnly&#xA;XRef&#xA;XRefBegin&#xA;XRefEnd&#xA;XRefFmt&#xA;XRefFormat&#xA;XRefs&#xA;!BookMainMenu&#xA;!MakerMainMenu&#xA;!QuickMakerMainMenu&#xA;!ViewOnlyMenu&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATORS" Enabled="True" Style="" Words="+&#xA;-&#xA;*&#xA;//&#xA;/&#xA;=&#xA;&gt;&#xA;&lt;&#xA;and&#xA;not&#xA;or&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL VARIABLES" Enabled="True" Style="" Words="BackSlash&#xA;CHARCR&#xA;CHARLF&#xA;CHARTAB&#xA;ClientDir&#xA;ErrorCode&#xA;ErrorMsg&#xA;fslVersionMajor&#xA;fslVersionMinor&#xA;MainScript&#xA;QUOTE&#xA;ThisScript&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

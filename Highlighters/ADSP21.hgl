@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ADSP 21" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Register" Enabled="True" Style="" Words="ac&#xA;af&#xA;i0&#xA;i1&#xA;i2&#xA;i3&#xA;i4&#xA;i5&#xA;i6&#xA;i7&#xA;l0&#xA;l1&#xA;l2&#xA;l3&#xA;l4&#xA;l5&#xA;l6&#xA;l7&#xA;m0&#xA;m1&#xA;m2&#xA;m3&#xA;m4&#xA;m5&#xA;m6&#xA;m7&#xA;bm&#xA;dm&#xA;hi&#xA;ifc&#xA;fl0&#xA;fl1&#xA;fl2&#xA;pc&#xA;ar&#xA;sb&#xA;abs&#xA;av&#xA;io&#xA;ax0&#xA;ax1&#xA;ay0&#xA;ay1&#xA;lo&#xA;si&#xA;pm&#xA;seg&#xA;mr&#xA;mr0&#xA;mr1&#xA;mr2&#xA;ram&#xA;circ&#xA;mx0&#xA;mx1&#xA;sr&#xA;sr0&#xA;sr1&#xA;my0&#xA;my1&#xA;su&#xA;emode&#xA;rx0&#xA;rx1&#xA;tx0&#xA;tx1&#xA;exp&#xA;divq&#xA;imask&#xA;divs&#xA;cntr&#xA;icntl&#xA;timer&#xA;mstat&#xA;flag_in&#xA;segment&#xA;sec_reg&#xA;DMOVLAY&#xA;flag_out&#xA;topofpcstack&#xA;astat&#xA;mf&#xA;mf&#xA;sesi&#xA;sts&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Condition" Enabled="True" Style="" Words="ge&#xA;le&#xA;ne&#xA;mf&#xA;eq&#xA;gt&#xA;lt&#xA;mv&#xA;ss&#xA;us&#xA;uu&#xA;not&#xA;forever&#xA;pos&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="If&#xA;Do&#xA;and&#xA;ena&#xA;cache&#xA;Of&#xA;In&#xA;neg&#xA;by&#xA;call&#xA;idle&#xA;ifdef&#xA;dis&#xA;Or&#xA;name&#xA;clr&#xA;rnd&#xA;endif&#xA;for&#xA;shl&#xA;clear&#xA;sat&#xA;var&#xA;else&#xA;local&#xA;define&#xA;set&#xA;ifndef&#xA;Shr&#xA;nop&#xA;rom&#xA;aux&#xA;rti&#xA;pop&#xA;cntl&#xA;global&#xA;macro&#xA;undef&#xA;init&#xA;boot&#xA;endmod&#xA;pass&#xA;trap&#xA;xor&#xA;rts&#xA;loop&#xA;regbank&#xA;sts&#xA;jump&#xA;expadj&#xA;norm&#xA;astat&#xA;shift&#xA;ashift&#xA;push&#xA;test&#xA;true&#xA;clrbit&#xA;toggle&#xA;reset&#xA;include&#xA;port&#xA;module&#xA;tglbit&#xA;const&#xA;newpage&#xA;static&#xA;modify&#xA;endmacro&#xA;lshift&#xA;setbit&#xA;Until&#xA;sstat&#xA;m_mode&#xA;entry&#xA;abstract&#xA;ar_sat&#xA;go_mode&#xA;alt_reg&#xA;testbit&#xA;av_latch&#xA;external&#xA;bit_rev&#xA;adsp2181&#xA;endsys&#xA;mmap0&#xA;system&#xA;code&#xA;data&#xA;if&#xA;do&#xA;none&#xA;of&#xA;or&#xA;sec_regset&#xA;toppcstack&#xA;tstbit&#xA;until&#xA;sesi&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Number" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Integer" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark /*..*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark {..}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

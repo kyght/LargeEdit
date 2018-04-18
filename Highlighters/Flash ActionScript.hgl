@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Flash ActionScript" FileType="" Extensions="FAS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:fas.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./;&lt;&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="actions" Enabled="True" Style="" Words="all&#xA;begin&#xA;&#xA;Comment&#xA;Call&#xA;Clip&#xA;Command&#xA;Duplicate&#xA;Drag&#xA;&#xA;End&#xA;Else&#xA;&#xA;FS&#xA;Frame&#xA;get&#xA;go&#xA;Getproperty&#xA;High&#xA;If&#xA;Loop&#xA;Load&#xA;Loaded&#xA;Movie&#xA;Next&#xA;Play&#xA;Property&#xA;Previous&#xA;Quality&#xA;Remove&#xA;Set&#xA;Start&#xA;Stop&#xA;Sounds&#xA;sp&#xA;sv&#xA;Trace&#xA;Toggle&#xA;tell&#xA;Target&#xA;to&#xA;URL&#xA;Variable&#xA;While&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="values" Enabled="True" Style="" Words="Alpha&#xA;B=&#xA;buffer&#xA;Drag&#xA;Over&#xA;Drag&#xA;Out&#xA;focus&#xA;High&#xA;Key:&#xA;L=&#xA;lockcenter&#xA;Name&#xA;Outside&#xA;Over&#xA;Out&#xA;Press&#xA;Position&#xA;Rotation&#xA;R&#xA;Release&#xA;Roll&#xA;rectangle&#xA;Show&#xA;Sound&#xA;Scale&#xA;T=&#xA;time&#xA;vars&#xA;visibility&#xA;window&#xA;X&#xA;Y&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="expression" Enabled="True" Style="" Words="_currentframe&#xA;_x&#xA;_y&#xA;_width&#xA;_height&#xA;_rotation&#xA;_target&#xA;_name&#xA;_xscale&#xA;_yscale&#xA;_droptarget&#xA;_visible&#xA;_alpha&#xA;_framesloaded&#xA;_totalframes&#xA;and&#xA;Chr&#xA;Eval&#xA;eq&#xA;False&#xA;GetTimer&#xA;ge&#xA;gt&#xA;Int&#xA;Length&#xA;le&#xA;lt&#xA;Newline&#xA;ne&#xA;not&#xA;Ord&#xA;or&#xA;Random&#xA;Substring&#xA;True&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

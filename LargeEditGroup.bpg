@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = LargeEdit.exe DNL.dll nsftpclient.exe TestRExp.exe regexpress.dll
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+LargeEdit.exe: LargeEdit.dpr
+  $(DCC)
+
+DNL.dll: dnlCom\DNL.dpr
+  $(DCC)
+
+nsftpclient.exe: FTPClient\nsftpclient.dpr
+  $(DCC)
+
+TestRExp.exe: DevTools\regexpr\TestRExp.dpr
+  $(DCC)
+
+regexpress.dll: plugins\regexpress\regexpress.dpr
+  $(DCC)
+
+

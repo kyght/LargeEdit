@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DiBoL" FileType="" Extensions="DBL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:dibol.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'()*+,-/:&lt;=&gt;?@[\]{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="KEYWORDS" Enabled="True" Style="" Words=".align&#xA;.define&#xA;.else&#xA;.end&#xA;.endc&#xA;.function&#xA;.ifdef&#xA;.ifndef&#xA;.include&#xA;.proc&#xA;.subroutine&#xA;accept&#xA;begin&#xA;begincase&#xA;byte&#xA;call&#xA;case&#xA;clear&#xA;close&#xA;common&#xA;decr&#xA;delet&#xA;delete&#xA;display&#xA;do&#xA;else&#xA;end&#xA;endcase&#xA;endglobal&#xA;endgroup&#xA;endusing&#xA;exit&#xA;exitloop&#xA;find&#xA;flush&#xA;for&#xA;forever&#xA;forms&#xA;freturn&#xA;from&#xA;function&#xA;get&#xA;gets&#xA;global&#xA;goto&#xA;group&#xA;if&#xA;incr&#xA;locase&#xA;long&#xA;lpque&#xA;merge&#xA;nextloop&#xA;nop&#xA;of&#xA;offerror&#xA;on&#xA;onerror&#xA;open&#xA;proc&#xA;purge&#xA;put&#xA;puts&#xA;quad&#xA;range&#xA;read&#xA;reads&#xA;record&#xA;renam&#xA;repeat&#xA;return&#xA;send&#xA;set&#xA;sleep&#xA;sort&#xA;stop&#xA;store&#xA;subroutine&#xA;then&#xA;thru&#xA;unlock&#xA;until&#xA;upcase&#xA;using&#xA;while&#xA;word&#xA;write&#xA;writes&#xA;xcall&#xA;xreturn&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATORS" Enabled="True" Style="" Words=".and.&#xA;.band.&#xA;.bnand.&#xA;.bnot.&#xA;.bor.&#xA;.bxor.&#xA;.eq.&#xA;.eqs.&#xA;.ge.&#xA;.ges.&#xA;.gt.&#xA;.gts.&#xA;.le.&#xA;.les.&#xA;.lt.&#xA;.lts.&#xA;.ne.&#xA;.nes.&#xA;.not.&#xA;.or.&#xA;.xor.&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="COMPILER LIBRARY" Enabled="True" Style="" Words="%abs&#xA;%atrim&#xA;%bkstr&#xA;%char&#xA;%chopen&#xA;%date&#xA;%datecompiled&#xA;%datetime&#xA;%decml&#xA;%erlin&#xA;%ernum&#xA;%error&#xA;%false&#xA;%instr&#xA;%int&#xA;%integer&#xA;%len&#xA;%line&#xA;%rdlen&#xA;%recnum&#xA;%round&#xA;%rsize&#xA;%rvstr&#xA;%string&#xA;%syserr&#xA;%tnmbr&#xA;%trim&#xA;%true&#xA;%zoned&#xA;ascii&#xA;atrim&#xA;cmdlin&#xA;date&#xA;decml&#xA;delet&#xA;envrn&#xA;error&#xA;ertxt&#xA;exec&#xA;execute&#xA;fatal&#xA;fill&#xA;filnm&#xA;flags&#xA;free&#xA;getlog&#xA;instr&#xA;isamc&#xA;isclr&#xA;iskey&#xA;issts&#xA;len&#xA;randm&#xA;renam&#xA;shell&#xA;size&#xA;spawn&#xA;time&#xA;tnmbr&#xA;trim&#xA;versn&#xA;wait&#xA;wkday&#xA;w_area&#xA;w_brdr&#xA;w_caption&#xA;w_disp&#xA;w_exit&#xA;w_flds&#xA;w_info&#xA;w_init&#xA;w_proc&#xA;w_restore&#xA;w_save&#xA;w_updt&#xA;^a&#xA;^d&#xA;^defined&#xA;^i&#xA;^len&#xA;^passed&#xA;^size&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="UofI LIBRARY" Enabled="True" Style="" Words="input&#xA;lpoff&#xA;lpon&#xA;lpout&#xA;mesag&#xA;outpt&#xA;rdate&#xA;terid&#xA;vim_bad_stknum_ok&#xA;vim_close&#xA;vim_comp_id&#xA;vim_delete&#xA;vim_find&#xA;vim_get_file&#xA;vim_get_stknum&#xA;vim_init&#xA;vim_open&#xA;vim_override_cost&#xA;vim_read&#xA;vim_reads&#xA;vim_set_prompt&#xA;vim_squeeze_key&#xA;vim_store&#xA;vim_unlock&#xA;vim_vendor&#xA;vim_write&#xA;vim_writes&#xA;wate&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

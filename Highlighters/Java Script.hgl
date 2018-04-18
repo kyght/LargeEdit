@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Java script" FileType="" Extensions="js" Version="1" Revision="0" Sample="// Syntax highlighting&#xA;function printNumber()&#xA;{&#xA;  var number = 1234;&#xA;  var x;&#xA;  document.write(&quot;The number is &quot; + number);&#xA;  for (var i = 0; i &lt;= number; i++)&#xA;  {&#xA;    x++;&#xA;    x--;&#xA;    x += 1.0;&#xA;  }&#xA;  i += @; // illegal character&#xA;}&#xA;body.onLoad = printNumber;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Functions and key words" Enabled="True" Style="" Words="E&#xA;back&#xA;big&#xA;abs&#xA;go&#xA;Area&#xA;PI&#xA;All&#xA;all&#xA;LN10&#xA;LN2&#xA;call&#xA;Embed&#xA;ceil&#xA;Date&#xA;bold&#xA;name&#xA;find&#xA;log&#xA;java&#xA;Image&#xA;tan&#xA;min&#xA;hash&#xA;atan2&#xA;atan&#xA;href&#xA;cos&#xA;click&#xA;acos&#xA;max&#xA;LOG10E&#xA;LOG2E&#xA;checked&#xA;clear&#xA;eval&#xA;src&#xA;home&#xA;self&#xA;Math&#xA;sin&#xA;sub&#xA;asin&#xA;Frame&#xA;left&#xA;align&#xA;Hidden&#xA;UTC&#xA;exp&#xA;match&#xA;Link&#xA;link&#xA;body&#xA;Radio&#xA;tags&#xA;join&#xA;embeds&#xA;blink&#xA;fixed&#xA;slice&#xA;escape&#xA;Global&#xA;open&#xA;charAt&#xA;top&#xA;URL&#xA;caller&#xA;Form&#xA;form&#xA;hspace&#xA;blur&#xA;pageX&#xA;pow&#xA;close&#xA;search&#xA;images&#xA;Float&#xA;pageY&#xA;reload&#xA;Object&#xA;watch&#xA;alert&#xA;sup&#xA;domain&#xA;index&#xA;concat&#xA;isNaN&#xA;small&#xA;height&#xA;cookie&#xA;closed&#xA;parse&#xA;Anchor&#xA;anchor&#xA;replace&#xA;value&#xA;Layer&#xA;action&#xA;getDate&#xA;getDay&#xA;border&#xA;host&#xA;frames&#xA;right&#xA;Array&#xA;next&#xA;Packages&#xA;logon&#xA;color&#xA;Select&#xA;select&#xA;Boolean&#xA;taint&#xA;focus&#xA;width&#xA;screen&#xA;filename&#xA;links&#xA;method&#xA;random&#xA;vspace&#xA;length&#xA;title&#xA;type&#xA;appName&#xA;floor&#xA;event&#xA;reset&#xA;Reset&#xA;port&#xA;Text&#xA;text&#xA;Applet&#xA;stop&#xA;target&#xA;Checkbox&#xA;encoding&#xA;forms&#xA;round&#xA;sort&#xA;bgColor&#xA;italics&#xA;Number&#xA;opener&#xA;selected&#xA;sqrt&#xA;SQRT2&#xA;parent&#xA;setDate&#xA;menubar&#xA;write&#xA;RegExp&#xA;fgColor&#xA;split&#xA;javaEnabled&#xA;indexOf&#xA;print&#xA;anchors&#xA;confirm&#xA;pathname&#xA;charCodeAt&#xA;Plugin&#xA;getTime&#xA;refresh&#xA;scroll&#xA;layers&#xA;input&#xA;getYear&#xA;style&#xA;strike&#xA;valueOf&#xA;moveBy&#xA;zIndex&#xA;Undefined&#xA;undefined&#xA;netscape&#xA;toolbar&#xA;Submit&#xA;submit&#xA;unescape&#xA;forward&#xA;bottom&#xA;display&#xA;String&#xA;Window&#xA;window&#xA;Location&#xA;location&#xA;complete&#xA;applets&#xA;Option&#xA;lowsrc&#xA;moveTo&#xA;unwatch&#xA;setTime&#xA;isFinite&#xA;Button&#xA;reverse&#xA;appCodeName&#xA;setYear&#xA;referrer&#xA;elements&#xA;Textarea&#xA;hostname&#xA;document&#xA;background&#xA;prompt&#xA;plugins&#xA;current&#xA;untaint&#xA;substr&#xA;status&#xA;FileUpload&#xA;writeln&#xA;platform&#xA;getMonth&#xA;Function&#xA;parseInt&#xA;SQRT1_2&#xA;MimeType&#xA;Infinity&#xA;scrollBy&#xA;getUTCDate&#xA;getUTCDay&#xA;taintEnabled&#xA;Navigator&#xA;navigator&#xA;defaultChecked&#xA;options&#xA;suffixes&#xA;linkColor&#xA;resizeBy&#xA;fromCharCode&#xA;userAgent&#xA;alinkColor&#xA;locationbar&#xA;handleEvent&#xA;getSeconds&#xA;parseFloat&#xA;getHours&#xA;fontsize&#xA;History&#xA;history&#xA;setMonth&#xA;protocol&#xA;scrollTo&#xA;Password&#xA;toSource&#xA;lastModified&#xA;resizeTo&#xA;innerHeight&#xA;fontcolor&#xA;Arguments&#xA;arguments&#xA;setUTCDate&#xA;scrollbars&#xA;personalbar&#xA;statusbar&#xA;toString&#xA;enabledPlugin&#xA;setSeconds&#xA;innerWidth&#xA;pageXOffset&#xA;previous&#xA;setHours&#xA;mimeTypes&#xA;pageYOffset&#xA;MIN_VALUE&#xA;lastIndexOf&#xA;substring&#xA;selectedIndex&#xA;defaultValue&#xA;MAX_VALUE&#xA;vlinkColor&#xA;description&#xA;getFullYear&#xA;getMinutes&#xA;appVersion&#xA;toLowerCase&#xA;outerHeight&#xA;visibility&#xA;toUpperCase&#xA;clearInterval&#xA;defaultSelected&#xA;clearTimeout&#xA;outerWidth&#xA;setFullYear&#xA;setMinutes&#xA;setInterval&#xA;routeEvent&#xA;getUTCMonth&#xA;getElementById&#xA;setTimeout&#xA;releaseEvents&#xA;getUTCSeconds&#xA;getUTCHours&#xA;setUTCMonth&#xA;toGMTString&#xA;getMilliseconds&#xA;toUTCString&#xA;setUTCSeconds&#xA;defaultStatus&#xA;captureEvents&#xA;setUTCHours&#xA;toLocaleString&#xA;getUTCFullYear&#xA;getUTCMinutes&#xA;setMilliseconds&#xA;setUTCFullYear&#xA;setUTCMinutes&#xA;getTimezoneOffset&#xA;getUTCMilliseconds&#xA;NEGATIVE_INFINITY&#xA;setUTCMilliseconds&#xA;POSITIVE_INFINITY&#xA;above&#xA;activeElement&#xA;altKey&#xA;apply&#xA;arity&#xA;availWidth&#xA;availTop&#xA;availLeft&#xA;availHeight&#xA;atob&#xA;assign&#xA;btoa&#xA;cancelBubble&#xA;borderWidths&#xA;below&#xA;charset&#xA;className&#xA;classes&#xA;children&#xA;clientInformation&#xA;clientX&#xA;clientY&#xA;colorDepth&#xA;compile&#xA;crypto&#xA;ctrlKey&#xA;contextual&#xA;contains&#xA;constructir&#xA;data&#xA;defaultCharset&#xA;disableExternalCapture&#xA;disablePrivilege&#xA;element&#xA;enableExternalCapture&#xA;exec&#xA;expando&#xA;FromPoint&#xA;enablePrivilege&#xA;getAttribute&#xA;fromElement&#xA;getClass&#xA;get&#xA;getMember&#xA;getSlot&#xA;getSelection&#xA;getWindow&#xA;id&#xA;ids&#xA;ignoreCase&#xA;inner&#xA;innerHTML&#xA;innerText&#xA;insertAdjacentText&#xA;insertAdjacentHTML&#xA;keyCode&#xA;lang&#xA;language&#xA;lastIndex&#xA;lastMatch&#xA;lastParen&#xA;leftContext&#xA;layerY&#xA;layerX&#xA;margins&#xA;modifiers&#xA;multiline&#xA;moveToAbsolute&#xA;moveAbove&#xA;moveBelow&#xA;navigate&#xA;offscreenBuffering&#xA;offset&#xA;offsetHeight&#xA;offsetLeft&#xA;offsetParent&#xA;offsetTop&#xA;offsetWidth&#xA;&#xA;offsetY&#xA;offsetX&#xA;outerHTML&#xA;outerText&#xA;paddings&#xA;parentElement&#xA;parentLayer&#xA;parentWindow&#xA;preference&#xA;pop&#xA;pixelDepth&#xA;readyState&#xA;reason&#xA;push&#xA;returnValue&#xA;rightcontext&#xA;removeMember&#xA;removeAttribute&#xA;screenY&#xA;screenX&#xA;scrollIntoView&#xA;setAttribute&#xA;setDay&#xA;setMember&#xA;setSlot&#xA;setResizable&#xA;setHotkeys&#xA;setUTCMillseconds&#xA;siblingAbove&#xA;shiftKey&#xA;siblingBelow&#xA;setZOptions&#xA;shift&#xA;sourceIndex&#xA;splice&#xA;smallsort&#xA;source&#xA;sun&#xA;systemLanguage&#xA;srcFilter&#xA;srcElement&#xA;signText&#xA;tagName&#xA;toElement&#xA;test&#xA;userLanguage&#xA;unshift&#xA;which&#xA;x&#xA;y&#xA;HTMLElement&#xA;JavaArray&#xA;JavaClass&#xA;JavaObject&#xA;JavaPackage&#xA;JSObject&#xA;PrivilegeManager&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="if&#xA;do&#xA;in&#xA;case&#xA;NaN&#xA;char&#xA;catch&#xA;break&#xA;callee&#xA;for&#xA;else&#xA;var&#xA;new&#xA;false&#xA;int&#xA;package&#xA;long&#xA;void&#xA;delete&#xA;byte&#xA;enum&#xA;class&#xA;float&#xA;this&#xA;while&#xA;goto&#xA;double&#xA;Null&#xA;null&#xA;with&#xA;try&#xA;public&#xA;boolean&#xA;true&#xA;default&#xA;debugger&#xA;const&#xA;native&#xA;static&#xA;start&#xA;finally&#xA;super&#xA;short&#xA;interface&#xA;switch&#xA;throw&#xA;abstract&#xA;typeof&#xA;import&#xA;extends&#xA;private&#xA;return&#xA;export&#xA;continue&#xA;function&#xA;throws&#xA;instanceof&#xA;protected&#xA;transient&#xA;implements&#xA;prototype&#xA;synchronized&#xA;constructor&#xA;final&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Common Events" Enabled="True" Style="" Words="onLoad&#xA;onClick&#xA;onChange&#xA;onBlur&#xA;onAbort&#xA;onDblClick&#xA;onFocus&#xA;onSelect&#xA;onUnload&#xA;onReset&#xA;onError&#xA;onKeyUp&#xA;onSubmit&#xA;onKeyDown&#xA;onMouseUp&#xA;onKeyPress&#xA;onMouseMove&#xA;onMouseOut&#xA;onMouseDown&#xA;onMouseOver&#xA;ondragdrop&#xA;onHelp&#xA;onmove&#xA;onresize&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark //" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark /*...*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

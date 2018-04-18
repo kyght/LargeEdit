@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MATLAB 6" FileType="" Extensions="m M" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:matlab6.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="break&#xA;case&#xA;catch&#xA;else&#xA;elseif&#xA;end&#xA;for&#xA;function&#xA;global&#xA;if&#xA;otherwise&#xA;persistent&#xA;return&#xA;switch&#xA;try&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="abs&#xA;acos&#xA;acosh&#xA;add_annotation&#xA;add_block&#xA;add_line&#xA;add_param&#xA;all&#xA;and&#xA;any&#xA;asin&#xA;asinh&#xA;assignin&#xA;atan&#xA;atan2&#xA;atanh&#xA;balance&#xA;beep&#xA;bitand&#xA;bitcmp&#xA;bitget&#xA;bitor&#xA;bitset&#xA;bitshift&#xA;bitxor&#xA;builtin&#xA;callstats&#xA;cat&#xA;cd&#xA;ceil&#xA;cell&#xA;cell2struct&#xA;cellhorzcat&#xA;cells&#xA;char&#xA;chdir&#xA;check_system&#xA;chol&#xA;cholinc&#xA;cholupdate&#xA;class&#xA;clc&#xA;clear&#xA;clock&#xA;close_system&#xA;colon&#xA;compare_system&#xA;computer&#xA;conj&#xA;contourc&#xA;conv2&#xA;copyobj&#xA;cos&#xA;cosh&#xA;cputime&#xA;ctranspose&#xA;cumprod&#xA;cumsum&#xA;dbclear&#xA;dbcont&#xA;dbdown&#xA;dbquit&#xA;dbstack&#xA;dbstatus&#xA;dbstep&#xA;dbstop&#xA;dbtype&#xA;dbup&#xA;delete&#xA;delete_annotation&#xA;delete_block&#xA;delete_line&#xA;delete_param&#xA;det&#xA;diag&#xA;diary&#xA;diff&#xA;disp&#xA;display&#xA;dongarra&#xA;dos&#xA;double&#xA;dragrect&#xA;drawnow&#xA;echo&#xA;eig&#xA;eps&#xA;eq&#xA;error&#xA;errortrap&#xA;eval&#xA;evalc&#xA;evalin&#xA;exist&#xA;exit&#xA;exp&#xA;expm&#xA;eye&#xA;fclose&#xA;feature&#xA;feof&#xA;ferror&#xA;feval&#xA;fft&#xA;fftn&#xA;fftw&#xA;fgets&#xA;fieldnames&#xA;fields&#xA;filesep&#xA;fill&#xA;fill3&#xA;filter&#xA;find&#xA;find_system&#xA;findpackage&#xA;findstr&#xA;findtype&#xA;finite&#xA;fix&#xA;floor&#xA;fopen&#xA;format&#xA;fprintf&#xA;frame2im&#xA;fread&#xA;fscanf&#xA;fschange&#xA;fseek&#xA;ftell&#xA;full&#xA;func2str&#xA;functions&#xA;functionscalled&#xA;fwrite&#xA;ge&#xA;getenv&#xA;getframe&#xA;gs_get_buttonmotion&#xA;gt&#xA;handle&#xA;handle2struct&#xA;hardcopy&#xA;hcreate&#xA;help&#xA;hess&#xA;hittest&#xA;home&#xA;horzcat&#xA;hregister&#xA;i&#xA;ieee&#xA;ifft&#xA;ifftn&#xA;im2frame&#xA;imag&#xA;import&#xA;inf&#xA;Inf&#xA;inferiorto&#xA;inmem&#xA;input&#xA;inputname&#xA;int16&#xA;int32&#xA;int8&#xA;inv&#xA;isa&#xA;iscell&#xA;ischar&#xA;isempty&#xA;isequal&#xA;isfinite&#xA;isglobal&#xA;ishandle&#xA;isieee&#xA;isinf&#xA;isjava&#xA;isletter&#xA;islogical&#xA;isnan&#xA;isreal&#xA;isruntime&#xA;isspace&#xA;issparse&#xA;isstr&#xA;isstudent&#xA;j&#xA;java&#xA;javaArray&#xA;javaMethod&#xA;javaObject&#xA;java_array&#xA;java_method&#xA;java_object&#xA;keyboard&#xA;lasterr&#xA;lastwarn&#xA;ldivide&#xA;le&#xA;length&#xA;license&#xA;load&#xA;log&#xA;log2&#xA;logical&#xA;loglog&#xA;lookfor&#xA;lower&#xA;lt&#xA;ltitr&#xA;lu&#xA;luinc&#xA;magic&#xA;matlabpath&#xA;matlabroot&#xA;max&#xA;methods&#xA;mexext&#xA;mfilename&#xA;mimofr&#xA;min&#xA;minus&#xA;mislocked&#xA;mldivide&#xA;mlock&#xA;mod&#xA;more&#xA;movie&#xA;mpower&#xA;mrdivide&#xA;mtimes&#xA;munlock&#xA;nan&#xA;NaN&#xA;nargin&#xA;nargout&#xA;ndims&#xA;ne&#xA;new_system&#xA;norm&#xA;not&#xA;numel&#xA;ones&#xA;open_system&#xA;or&#xA;pack&#xA;pause&#xA;permute&#xA;pfile&#xA;pi&#xA;plot&#xA;plot3&#xA;plus&#xA;pow2&#xA;power&#xA;prod&#xA;qr&#xA;qrupdate&#xA;quit&#xA;qz&#xA;rand&#xA;randn&#xA;rbbox&#xA;rcond&#xA;rdivide&#xA;real&#xA;rehash&#xA;rem&#xA;reset&#xA;reshape&#xA;rmappdata&#xA;round&#xA;rtwgen&#xA;runtime&#xA;save&#xA;save_system&#xA;schur&#xA;selectmoveresize&#xA;semilogx&#xA;semilogy&#xA;setappdata&#xA;setstr&#xA;sign&#xA;sim&#xA;simulink&#xA;simver&#xA;sin&#xA;single&#xA;sinh&#xA;size&#xA;sldebug&#xA;sort&#xA;sparse&#xA;sparsfun&#xA;sprintf&#xA;sqrt&#xA;sscanf&#xA;str2func&#xA;strcmp&#xA;strcmpi&#xA;strfind&#xA;string&#xA;strncmp&#xA;strncmpi&#xA;strrep&#xA;struct&#xA;struct2cell&#xA;struct2handle&#xA;subsasgn&#xA;subsindex&#xA;subsref&#xA;sum&#xA;superiorto&#xA;svd&#xA;system&#xA;system_dependent&#xA;tan&#xA;tanh&#xA;tic&#xA;times&#xA;toc&#xA;transpose&#xA;tril&#xA;triu&#xA;trmginput&#xA;type&#xA;u_convert_to_gobject&#xA;uigetfile&#xA;uimenufcn&#xA;uint16&#xA;uint32&#xA;uint8&#xA;uipushtool&#xA;uiputfile&#xA;uisetcolor&#xA;uisetfont&#xA;uitoggletool&#xA;uitoolbar&#xA;uminus&#xA;unix&#xA;uplus&#xA;upper&#xA;version&#xA;vertcat&#xA;vms&#xA;waitfor&#xA;waitforbuttonpress&#xA;warning&#xA;what&#xA;which&#xA;who&#xA;whos&#xA;xlate&#xA;zeros&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="axes&#xA;dir&#xA;figure&#xA;findobj&#xA;gcbf&#xA;gcbo&#xA;gcf&#xA;gco&#xA;get&#xA;get_param&#xA;gcbh&#xA;image&#xA;light&#xA;line&#xA;patch&#xA;pwd&#xA;rectangle&#xA;set&#xA;set_param&#xA;sf&#xA;surface&#xA;text&#xA;uicontrol&#xA;uimenu&#xA;uicontextmenu&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;\&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;{&#xA;}&#xA;|&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

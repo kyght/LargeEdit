@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Cascading Style Sheets" FileType="" Extensions="css" Version="1" Revision="0" Sample="BODY&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   FONT-SIZE: 10pt&#xA;}&#xA;.TABLE&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   FONT-SIZE: 10pt&#xA;}&#xA;.feedbackbutton&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   COLOR: white;&#xA;   CURSOR: hand;&#xA;   FONT-SIZE: 8pt;&#xA;   PADDING-LEFT:12px;&#xA;   PADDING-RIGHT:12px;&#xA;   vertical-align: middle;&#xA;}&#xA;.labelText&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   FONT-SIZE: 10t;&#xA;   FONT-WEIGHT: bold;&#xA;   COLOR: black&#xA;}&#xA;.regularText&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   FONT-SIZE: 10pt;&#xA;   COLOR: black&#xA;}&#xA;.banner&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   font-weight: normal;&#xA;   font-size: 10pt;&#xA;   letter-spacing: 2px;&#xA;   background-color: white;&#xA;   border-color:black;&#xA;   border-style: solid;&#xA;   border-width: 1px;&#xA;   width: 200&#xA;}&#xA;.subtitle&#xA;{&#xA;   FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica;&#xA;   FONT-SIZE: 14pt;&#xA;   FONT-WEIGHT: bold;&#xA;}&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <Range Name="Body" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="BODY"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Value" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Param" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

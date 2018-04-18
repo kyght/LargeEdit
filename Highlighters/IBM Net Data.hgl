@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="IBM Net.Data" FileType="" Extensions="D2W" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ibmnetdata.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'()*+,.:;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="%html_report&#xA;%html_input&#xA;%function&#xA;%html&#xA;%envvar&#xA;%report&#xA;%if&#xA;%endif&#xA;%elif&#xA;%include&#xA;%define&#xA;%message&#xA;%row&#xA;%else&#xA;%list&#xA;%include_url&#xA;%exec&#xA;%table&#xA;%sql&#xA;&#xA;%sql_message&#xA;%sql_report&#xA;%sql_code&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="align&#xA;database&#xA;db2plan&#xA;db2ssid&#xA;db_case&#xA;default&#xA;dtw_applet&#xA;dtw_applet_alttext&#xA;dtw_current_filename&#xA;dtw_current_last_modified&#xA;dtw_default&#xA;dtw_default_report&#xA;dtw_ffi&#xA;dtw_html_table&#xA;dtw_javapps&#xA;dtw_macro_filename&#xA;dtw_macro_last_modified&#xA;dtw_mp_path&#xA;dtw_mp_version&#xA;dtw_odbc&#xA;dtw_ora&#xA;dtw_perl&#xA;dtw_print_header&#xA;dtw_rexx&#xA;dtw_save_table_in&#xA;dtw_set_total_rows&#xA;dtw_sql&#xA;dtw_syb&#xA;dtw_system&#xA;dtw_webreg&#xA;in&#xA;inout&#xA;location&#xA;login&#xA;nlist&#xA;num_columns&#xA;password&#xA;return_code&#xA;row_num&#xA;rpt_max_rows&#xA;showsql&#xA;total_rows&#xA;transaction_scope&#xA;out&#xA;vlist&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="@dtw_addquote&#xA;@dtw_raddquote&#xA;@dtw_maddquote&#xA;@dtw_date&#xA;@dtw_rdate&#xA;@dtw_getenv&#xA;@dtw_rgetenv&#xA;@dtw_getinidata&#xA;@dtw_rgetinidata&#xA;@dtw_htmlencode&#xA;@dtw_rhtmlencode&#xA;@dtw_qhtmlencode&#xA;@dtw_rqhtmlencode&#xA;@dtw_setenv&#xA;@dtw_rsetenv&#xA;@dtw_time&#xA;@dtw_rtime&#xA;@dtw_urlescseq&#xA;@dtw_rurlescseq&#xA;@dtw_add&#xA;@dtw_radd&#xA;@dtw_divide&#xA;@dtw_rdivide&#xA;@dtw_divrem&#xA;@dtw_rdivrem&#xA;@dtw_format&#xA;@dtw_rformat&#xA;@dtw_intdiv&#xA;@dtw_rintdiv&#xA;@dtw_multiply&#xA;@dtw_rmultiply&#xA;@dtw_power&#xA;@dtw_rpower&#xA;@dtw_subtract&#xA;@dtw_rsubtract&#xA;@dtw_assign&#xA;@dtw_concat&#xA;@dtw_rconcat&#xA;@dtw_delstr&#xA;@dtw_rdelstr&#xA;@dtw_insert&#xA;@dtw_rinsert&#xA;@dtw_lastpos&#xA;@dtw_rlastpos&#xA;@dtw_length&#xA;@dtw_rlength&#xA;@dtw_lowercase&#xA;@dtw_rlowercase&#xA;@dtw_mlowercase&#xA;@dtw_pos&#xA;@dtw_rpos&#xA;@dtw_reverse&#xA;@dtw_rreverse&#xA;@dtw_strip&#xA;@dtw_rstrip&#xA;@dtw_substr&#xA;@dtw_rsubstr&#xA;@dtw_translate&#xA;@dtw_rtranslate&#xA;@dtw_uppercase&#xA;@dtw_ruppercase&#xA;@dtw_muppercase&#xA;@dtw_delword&#xA;@dtw_rdelword&#xA;@dtw_subword&#xA;@dtw_rsubword&#xA;@dtw_word&#xA;@dtw_rword&#xA;@dtw_wordindex&#xA;@dtw_rwordindex&#xA;@dtw_wordlength&#xA;@dtw_rwordlength&#xA;@dtw_wordpos&#xA;@dtw_rwordpos&#xA;@dtw_words&#xA;@dtw_rwords&#xA;@dtw_tb_dlist&#xA;@dtw_tb_dumph&#xA;@dtw_tb_dumpv&#xA;@dtw_tb_htmlencode&#xA;@dtw_tb_input_checkbox&#xA;@dtw_tb_input_radio&#xA;@dtw_tb_input_text&#xA;@dtw_tb_list&#xA;@dtw_tb_select&#xA;@dtw_tb_table&#xA;@dtw_tb_textarea&#xA;@dtwf_append&#xA;@dtwf_close&#xA;@dtwf_delete&#xA;@dtwf_insert&#xA;@dtwf_open&#xA;@dtwf_read&#xA;@dtwf_remove&#xA;@dtwf_search&#xA;@dtwf_update&#xA;@dtwf_write&#xA;@dtwr_addentry&#xA;@dtwr_clearreg&#xA;@dtwr_createreg&#xA;@dtwr_delentry&#xA;@dtwr_delreg&#xA;@dtwr_listreg&#xA;@dtwr_listsub&#xA;@dtwr_rtventry&#xA;@dtwr_rrtventry&#xA;@dtwr_updateentry&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="and&#xA;as&#xA;asc&#xA;avg&#xA;all&#xA;any&#xA;by&#xA;begin&#xA;between&#xA;count&#xA;create&#xA;cross&#xA;desc&#xA;distinct&#xA;drop&#xA;exists&#xA;escape&#xA;from&#xA;group&#xA;having&#xA;inner&#xA;insert&#xA;into&#xA;join&#xA;like&#xA;lower&#xA;max&#xA;min&#xA;null&#xA;not&#xA;or&#xA;order&#xA;outer&#xA;select&#xA;sum&#xA;table&#xA;to&#xA;unique&#xA;update&#xA;union&#xA;values&#xA;view&#xA;where&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="&lt;A&#xA;&lt;/A&gt;&#xA;&lt;ABBR&gt;&#xA;&lt;ABBR&#xA;&lt;/ABBR&gt;&#xA;&lt;ABOVE&gt;&#xA;&lt;ACRONYM&gt;&#xA;&lt;ACRONYM&#xA;&lt;/ACRONYM&gt;&#xA;&lt;ADDRESS&gt;&#xA;&lt;ADDRESS&#xA;&lt;/ADDRESS&gt;&#xA;&lt;APPLET&#xA;&lt;/APPLET&gt;&#xA;&lt;ARRAY&gt;&#xA;&lt;AREA&#xA;&lt;/AREA&#xA;&lt;B&gt;&#xA;&lt;B&#xA;&lt;/B&gt;&#xA;&lt;BASE&#xA;&lt;BASEFONT&#xA;&lt;BDO&gt;&#xA;&lt;BDO&#xA;&lt;/BDO&gt;&#xA;&lt;BGSOUND&#xA;&lt;BIG&gt;&#xA;&lt;BIG&#xA;&lt;/BIG&gt;&#xA;&lt;BLINK&gt;&#xA;&lt;/BLINK&gt;&#xA;&lt;BLOCKQUOTE&gt;&#xA;&lt;BLOCKQUOTE&#xA;&lt;/BLOCKQUOTE&gt;&#xA;&lt;BODY&#xA;&lt;BODY&gt;&#xA;&lt;/BODY&gt;&#xA;&lt;BOX&gt;&#xA;&lt;BR&#xA;&lt;BR&gt;&#xA;&lt;BIG&#xA;&lt;BLINK&#xA;&lt;BUTTON&gt;&#xA;&lt;/BUTTON&gt;&#xA;&lt;CAPTION&gt;&#xA;&lt;CAPTION&#xA;&lt;/CAPTION&gt;&#xA;&lt;CENTER&gt;&#xA;&lt;CENTER&#xA;&lt;/CENTER&gt;&#xA;&lt;CITE&gt;&#xA;&lt;CITE&#xA;&lt;/CITE&gt;&#xA;&lt;CODE&gt;&#xA;&lt;CODE&#xA;&lt;/CODE&gt;&#xA;&lt;COL&gt;&#xA;&lt;/COL&gt;&#xA;&lt;COLGROUP&gt;&#xA;&lt;/COLGROUP&gt;&#xA;&lt;COMMENT&gt;&#xA;&lt;/COMMENT&gt;&#xA;&lt;DD&gt;&#xA;&lt;DD&#xA;&lt;/DD&gt;&#xA;&lt;DEL&gt;&#xA;&lt;DEL&#xA;&lt;/DEL&gt;&#xA;&lt;DFN&gt;&#xA;&lt;DFN&#xA;&lt;/DFN&gt;&#xA;&lt;DIR&gt;&#xA;&lt;DIR&#xA;&lt;/DIR&gt;&#xA;&lt;DIV&gt;&#xA;&lt;DIV&#xA;&lt;/DIV&gt;&#xA;&lt;DL&gt;&#xA;&lt;DL&#xA;&lt;/DL&gt;&#xA;&lt;DT&gt;&#xA;&lt;DT&#xA;&lt;/DT&gt;&#xA;&lt;EM&gt;&#xA;&lt;EM&#xA;&lt;/EM&gt;&#xA;&lt;EMBED&#xA;&lt;FIELDSET&gt;&#xA;&lt;FIELDSET&#xA;&lt;/FIELDSET&gt;&#xA;&lt;FIG&gt;&#xA;&lt;FONT&#xA;&lt;/FONT&gt;&#xA;&lt;FORM&gt;&#xA;&lt;FORM&#xA;&lt;/FORM&gt;&#xA;&lt;FRAME&#xA;&lt;FRAMESET&#xA;&lt;/FRAMESET&gt;&#xA;&lt;H1&gt;&#xA;&lt;H1&#xA;&lt;/H1&gt;&#xA;&lt;H2&gt;&#xA;&lt;H2&#xA;&lt;/H2&gt;&#xA;&lt;H3&gt;&#xA;&lt;H3&#xA;&lt;/H3&gt;&#xA;&lt;H4&gt;&#xA;&lt;H4&#xA;&lt;/H4&gt;&#xA;&lt;H5&gt;&#xA;&lt;H5&#xA;&lt;/H5&gt;&#xA;&lt;H6&gt;&#xA;&lt;H6&#xA;&lt;/H6&gt;&#xA;&lt;HEAD&gt;&#xA;&lt;HEAD&#xA;&lt;/HEAD&gt;&#xA;&lt;HR&gt;&#xA;&lt;HR&#xA;&lt;HTML&gt;&#xA;&lt;HTML&#xA;&lt;/HTML&gt;&#xA;&lt;I&gt;&#xA;&lt;I&#xA;&lt;/I&gt;&#xA;&lt;IFRAME&gt;&#xA;&lt;/IFRAME&gt;&#xA;&lt;ILAYER&gt;&#xA;&lt;/ILAYER&gt;&#xA;&lt;IMG&#xA;&lt;INPUT&gt;&#xA;&lt;INPUT&#xA;&lt;INS&gt;&#xA;&lt;INS&#xA;&lt;/INS&gt;&#xA;&lt;ISINDEX&gt;&#xA;&lt;ISINDEX&#xA;&lt;KBD&gt;&#xA;&lt;KBD&#xA;&lt;/KBD&gt;&#xA;&lt;LABEL&gt;&#xA;&lt;LABEL&#xA;&lt;/LABEL&gt;&#xA;&lt;LAYER&gt;&#xA;&lt;LEGEND&gt;&#xA;&lt;LEGEND&#xA;&lt;/LEGEND&gt;&#xA;&lt;LI&gt;&#xA;&lt;LI&#xA;&lt;/LI&gt;&#xA;&lt;LINK&#xA;&lt;LISTING&gt;&#xA;&lt;/LISTING&gt;&#xA;&lt;MAP&#xA;&lt;/MAP&gt;&#xA;&lt;MARQUEE&#xA;&lt;/MARQUEE&gt;&#xA;&lt;MENU&gt;&#xA;&lt;MENU&#xA;&lt;/MENU&gt;&#xA;&lt;META&#xA;&lt;MULTICOL&gt;&#xA;&lt;/MULTICOL&gt;&#xA;&lt;NEXTID&#xA;&lt;NOBR&gt;&#xA;&lt;/NOBR&gt;&#xA;&lt;NOFRAMES&gt;&#xA;&lt;/NOFRAMES&gt;&#xA;&lt;NOLAYER&gt;&#xA;&lt;/NOLAYER&gt;&#xA;&lt;NOTE&gt;&#xA;&lt;/NOTE&gt;&#xA;&lt;NOSCRIPT&gt;&#xA;&lt;/NOSCRIPT&gt;&#xA;&lt;OBJECT&gt;&#xA;&lt;OBJECT&#xA;&lt;OL&gt;&#xA;&lt;OL&#xA;&lt;/OL&gt;&#xA;&lt;OPTION&gt;&#xA;&lt;OPTION&#xA;&lt;OPTGROUP&gt;&#xA;&lt;OPTGROUP&#xA;&lt;/OPTGROUP&gt;&#xA;&lt;P&#xA;&lt;P&gt;&#xA;&lt;/P&gt;&#xA;&lt;PARAM&#xA;&lt;PRE&gt;&#xA;&lt;PRE&#xA;&lt;/PRE&gt;&#xA;&lt;Q&gt;&#xA;&lt;Q&#xA;&lt;/Q&gt;&#xA;&lt;QUOTE&gt;&#xA;&lt;RANGE&gt;&#xA;&lt;ROOT&gt;&#xA;&lt;S&gt;&#xA;&lt;S&#xA;&lt;/S&gt;&#xA;&lt;SAMP&gt;&#xA;&lt;SAMP&#xA;&lt;/SAMP&gt;&#xA;&lt;SCRIPT&#xA;&lt;SCRIPT&gt;&#xA;&lt;/SCRIPT&gt;&#xA;&lt;SELECT&#xA;&lt;/SELECT&gt;&#xA;&lt;SMALL&gt;&#xA;&lt;SMALL&#xA;&lt;/SMALL&gt;&#xA;&lt;SOUND&#xA;&lt;SPACER&gt;&#xA;&lt;SPAN&gt;&#xA;&lt;SPAN&#xA;&lt;/SPAN&gt;&#xA;&lt;SQRT&gt;&#xA;&lt;STRIKE&gt;&#xA;&lt;STRIKE&#xA;&lt;/STRIKE&gt;&#xA;&lt;STRONG&gt;&#xA;&lt;STRONG&#xA;&lt;/STRONG&gt;&#xA;&lt;STYLE&gt;&#xA;&lt;STYLE&#xA;&lt;/STYLE&gt;&#xA;&lt;SUB&gt;&#xA;&lt;SUB&#xA;&lt;/SUB&gt;&#xA;&lt;SUP&gt;&#xA;&lt;SUP&#xA;&lt;/SUP&gt;&#xA;&lt;TABLE&gt;&#xA;&lt;TABLE&#xA;&lt;/TABLE&gt;&#xA;&lt;TBODY&gt;&#xA;&lt;TBODY&#xA;&lt;/TBODY&gt;&#xA;&lt;TD&#xA;&lt;TD&gt;&#xA;&lt;/TD&gt;&#xA;&lt;TEXT&gt;&#xA;&lt;TEXTAREA&#xA;&lt;TEXTAREA&gt;&#xA;&lt;/TEXTAREA&gt;&#xA;&lt;TFOOT&gt;&#xA;&lt;TFOOT&#xA;&lt;/TFOOT&gt;&#xA;&lt;TH&#xA;&lt;TH&gt;&#xA;&lt;/TH&gt;&#xA;&lt;THEAD&gt;&#xA;&lt;THEAD&#xA;&lt;/THEAD&gt;&#xA;&lt;TITLE&gt;&#xA;&lt;/TITLE&gt;&#xA;&lt;TR&#xA;&lt;TR&gt;&#xA;&lt;/TR&gt;&#xA;&lt;TT&gt;&#xA;&lt;/TT&gt;&#xA;&lt;TT&#xA;&lt;U&gt;&#xA;&lt;U&#xA;&lt;/U&gt;&#xA;&lt;UL&gt;&#xA;&lt;UL&#xA;&lt;/UL&gt;&#xA;&lt;VAR&gt;&#xA;&lt;/VAR&gt;&#xA;&lt;VAR&#xA;&lt;WBR&gt;&#xA;&lt;XMP&gt;&#xA;&lt;/XMP&gt;&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="ABBR=&#xA;ACCEPT-CHARSET=&#xA;ACCEPT=&#xA;ACCESSKEY=&#xA;ACTION=&#xA;ALIGN=&#xA;ALINK=&#xA;ALT=&#xA;ARCHIVE=&#xA;AXIS=&#xA;BACKGROUND=&#xA;BEHAVIOR&#xA;BELOW&#xA;BGCOLOR=&#xA;BORDER=&#xA;CELLPADDING=&#xA;CELLSPACING=&#xA;CHAR=&#xA;CHAROFF=&#xA;CHARSET=&#xA;CHECKED&#xA;CITE=&#xA;CLASS=&#xA;CLASSID=&#xA;CLEAR=&#xA;CODE=&#xA;CODEBASE=&#xA;CODETYPE=&#xA;COLOR=&#xA;COLS=&#xA;COLSPAN=&#xA;COMPACT&#xA;CONTENT=&#xA;COORDS=&#xA;DATA=&#xA;DATETIME=&#xA;DECLARE&#xA;DEFER&#xA;DIR=&#xA;DISABLED&#xA;ENCTYPE=&#xA;FACE=&#xA;FOR=&#xA;FRAME=&#xA;FRAMEBORDER=&#xA;FRAMESPACING=&#xA;HEADERS=&#xA;HEIGHT=&#xA;HIDDEN=&#xA;HREF=&#xA;HREFLANG=&#xA;HSPACE=&#xA;HTTP-EQUIV=&#xA;ID=&#xA;ISMAP=&#xA;LABEL=&#xA;LANG=&#xA;LANGUAGE=&#xA;LINK=&#xA;LOOP=&#xA;LONGDESC=&#xA;MAILTO=&#xA;MARGINHEIGHT=&#xA;MARGINWIDTH=&#xA;MAXLENGTH=&#xA;MEDIA=&#xA;METHOD=&#xA;MULTIPLE&#xA;NAME=&#xA;NOHREF&#xA;NORESIZE&#xA;NOSHADE&#xA;OBJECT=&#xA;ONBLUR=&#xA;ONCHANGE=&#xA;ONFOCUS=&#xA;ONKEYDOWN=&#xA;ONKEYPRESS=&#xA;ONKEYUP=&#xA;ONLOAD=&#xA;ONRESET=&#xA;ONSELECT=&#xA;ONSUBMIT=&#xA;ONUNLOAD=&#xA;ONCLICK=&#xA;ONDBLCLICK=&#xA;ONMOUSEDOWN=&#xA;ONMOUSEMOVE=&#xA;ONMOUSEOUT=&#xA;ONMOUSEOVER=&#xA;ONMOUSEUP=&#xA;PROFILE=&#xA;PROMPT=&#xA;READONLY&#xA;REL=&#xA;REV=&#xA;ROWS=&#xA;ROWSPAN=&#xA;RULES=&#xA;SCHEME=&#xA;SCOPE=&#xA;SCROLLING=&#xA;SELECTED&#xA;SHAPE=&#xA;SIZE=&#xA;SPAN=&#xA;SRC=&#xA;STANDBY=&#xA;START=&#xA;STYLE=&#xA;SUMMARY=&#xA;TABINDEX=&#xA;TARGET=&#xA;TEXT=&#xA;TITLE=&#xA;TOPMARGIN=&#xA;TYPE=&#xA;URL=&#xA;USEMAP=&#xA;VALIGN=&#xA;VALUE=&#xA;VALUETYPE=&#xA;VERSION=&#xA;VLINK=&#xA;VSPACE=&#xA;WIDTH=&#xA;=&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks %{..%}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%{" Close="%}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

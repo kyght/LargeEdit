@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Ampl" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="and&#xA;arc&#xA;by&#xA;check&#xA;cross&#xA;close&#xA;diff&#xA;difference&#xA;div&#xA;data&#xA;display&#xA;drop&#xA;else&#xA;exists&#xA;end&#xA;forall&#xA;fix&#xA;function&#xA;if&#xA;in&#xA;inter&#xA;intersection&#xA;interval&#xA;include&#xA;less&#xA;let&#xA;maximize&#xA;minimize&#xA;min&#xA;max&#xA;mod&#xA;model&#xA;node&#xA;not&#xA;or&#xA;objective&#xA;option&#xA;param&#xA;prod&#xA;product&#xA;print&#xA;printf&#xA;quit&#xA;reset&#xA;restore&#xA;set&#xA;setof&#xA;subject&#xA;subj&#xA;s.t.&#xA;symdiff&#xA;sum&#xA;shell&#xA;solution&#xA;then&#xA;to&#xA;union&#xA;update&#xA;unfix&#xA;var&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Parameters" Enabled="True" Style="" Words="binary&#xA;circular&#xA;coeff&#xA;coef&#xA;cover&#xA;dimen&#xA;dimension&#xA;default&#xA;display_1col&#xA;display_eps&#xA;display_max_2d_cols&#xA;display_precison&#xA;display_round&#xA;display_transpose&#xA;display_width&#xA;from&#xA;gutter_width&#xA;integer&#xA;Infinity&#xA;ordered&#xA;obj&#xA;objective_precision&#xA;omit_zero_cols&#xA;omit_zero_rows&#xA;output_precision&#xA;print_precision&#xA;print_round&#xA;print_seperator&#xA;symbolic&#xA;within&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="abs&#xA;acos&#xA;acosh&#xA;alias&#xA;asin&#xA;asinh&#xA;atan&#xA;atan2&#xA;atanh&#xA;Beta&#xA;ceil&#xA;cos&#xA;card&#xA;Cauchy&#xA;exp&#xA;Exponential&#xA;floor&#xA;first&#xA;Gamma&#xA;Irand224&#xA;int&#xA;log&#xA;log10&#xA;last&#xA;member&#xA;Normal&#xA;next&#xA;nextw&#xA;ord&#xA;ord0&#xA;Poisson&#xA;precision&#xA;prev&#xA;prevw&#xA;round&#xA;sin&#xA;sinh&#xA;sqrt&#xA;tan&#xA;tanh&#xA;trunc&#xA;Uniform&#xA;Uniform01&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

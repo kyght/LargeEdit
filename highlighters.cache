@@ -1,0 +1,312 @@
+µC:\NSFiles\LargeEdit6\Highlighters\4DOS&4NT.hgl
+*.S;*.ASMµC:\NSFiles\LargeEdit6\Highlighters\6502.hgl
+*.TXT;*.SRCµC:\NSFiles\LargeEdit6\Highlighters\6809.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\ABB Rapid command.hgl
+*.wdl;*.WDLµC:\NSFiles\LargeEdit6\Highlighters\Acknex WDL V3.9.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\acpi.hgl
+*.ASµC:\NSFiles\LargeEdit6\Highlighters\Action Script.hgl
+*.AS;*.JSµC:\NSFiles\LargeEdit6\Highlighters\Actionscript-JS.hgl
+*.ADA;*.ADB;*.ADS;*.AµC:\NSFiles\LargeEdit6\Highlighters\Ada 95.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\ADEPT Command Language.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\ADSP21.hgl
+*.DSPµC:\NSFiles\LargeEdit6\Highlighters\adsp2181.hgl
+*.TDF;*.TDO;*.INCµC:\NSFiles\LargeEdit6\Highlighters\ahdl.hgl
+*.AASµC:\NSFiles\LargeEdit6\Highlighters\Alpha Script.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Ampl.hgl
+*.S4;*.S4T;*.S4H;*.HND;*.T4µC:\NSFiles\LargeEdit6\Highlighters\Amtrix.hgl
+*.MAC;*.AML;*.DAT;*.PRNµC:\NSFiles\LargeEdit6\Highlighters\ANSYS Parametric Design.hgl
+*.MAC;*.INP;*.LOG;*.DESµC:\NSFiles\LargeEdit6\Highlighters\ansys.hgl
+*.HTACCESS;*.CONF;*.TYPESµC:\NSFiles\LargeEdit6\Highlighters\Apache Web Server.hgl
+*.AML;*.SMLµC:\NSFiles\LargeEdit6\Highlighters\Arc Macro Language.hgl
+*.ASNµC:\NSFiles\LargeEdit6\Highlighters\asn.1.hgl
+*.WAS;*.INC;*.WUDµC:\NSFiles\LargeEdit6\Highlighters\aspect.hgl
+*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (2106x).hgl
+*.DSP;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Assembler (21xx).hgl
+*.S;*.ASM;*.LSTµC:\NSFiles\LargeEdit6\Highlighters\assembler (6502).hgl
+*.68K;*.H68;*.X68;*.SAµC:\NSFiles\LargeEdit6\Highlighters\Assembler (68 000).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Assembler (68HC11).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Assembler (68HC908).hgl
+*.A75µC:\NSFiles\LargeEdit6\Highlighters\Assembler (75x).hgl
+*.S03;*.A51µC:\NSFiles\LargeEdit6\Highlighters\Assembler (8051).hgl
+*.S;*.sµC:\NSFiles\LargeEdit6\Highlighters\Assembler (86gnu).hgl
+*.S;*.H;*.Line;*.Comment;*.=;*.//;*.Line;*.Comment;*.Alt;*.=;*.;;*./Block;*.Comment;*.On;*.=;*./*;*.Block;*.Comment;*.Off;*.=;*.*/;*.String;*.Chars;*.=;*.'"µC:\NSFiles\LargeEdit6\Highlighters\Assembler (8xx).hgl
+*.s;*.armµC:\NSFiles\LargeEdit6\Highlighters\Assembler (ARM).hgl
+*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (AVR).hgl
+*.ASM;*.LST;*.S66;*.S67;*.SRCµC:\NSFiles\LargeEdit6\Highlighters\Assembler (C167 v.7.0).hgl
+*.ASM;*.LST;*.S66;*.S67;*.SRCµC:\NSFiles\LargeEdit6\Highlighters\Assembler (C167).hgl
+*.ASM;*.LSTµC:\NSFiles\LargeEdit6\Highlighters\Assembler (c515c).hgl
+*.ASM;*.CALMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (CALM).hgl
+*.ASM;*.INC;*.LSTµC:\NSFiles\LargeEdit6\Highlighters\Assembler (DSP 56k).hgl
+*.A;*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (F240).hgl
+*.S;*.ASM;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Assembler (H8S).hgl
+*.HLAµC:\NSFiles\LargeEdit6\Highlighters\Assembler (High Level).hgl
+*.ASM;*.COD;*.INB;*.INC;*.MACµC:\NSFiles\LargeEdit6\Highlighters\Assembler (Masm).hgl
+*.ASM;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Assembler (MicroChip PIC).hgl
+*.sx;*.s;*.SµC:\NSFiles\LargeEdit6\Highlighters\Assembler (MIPS).hgl
+*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (RDS-500).hgl
+*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Assembler (S&370).hgl
+*.ASM;*.DBG;*.SRC;*.lnk;*.lin;*.lstµC:\NSFiles\LargeEdit6\Highlighters\Assembler (TEAK).hgl
+*.800;*.850;*.ASM;*.A;*.S;*.S85;*.RC;*.LNK;*.LSTµC:\NSFiles\LargeEdit6\Highlighters\Assembler (V850).hgl
+*.asmµC:\NSFiles\LargeEdit6\Highlighters\Assembler (x86).hgl
+*.asm;*.dzm;*.defµC:\NSFiles\LargeEdit6\Highlighters\Assembler (z80).hgl
+*.AUTµC:\NSFiles\LargeEdit6\Highlighters\autoit.hgl
+*.AUTµC:\NSFiles\LargeEdit6\Highlighters\autoit261.hgl
+*.al;*.AL;*.all;*.ALLµC:\NSFiles\LargeEdit6\Highlighters\autolev.hgl
+*.LSP;*.MNLµC:\NSFiles\LargeEdit6\Highlighters\autolisp.hgl
+*.AVE;*.APRµC:\NSFiles\LargeEdit6\Highlighters\avenue.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\AWK.hgl
+*.CLNµC:\NSFiles\LargeEdit6\Highlighters\Baan 3&4-GL3.hgl
+*.bc;*.clnµC:\NSFiles\LargeEdit6\Highlighters\Baan C.hgl
+*.cln;*.bc;*.txt;*.codµC:\NSFiles\LargeEdit6\Highlighters\Baan ERP 3&4-GL.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Baan.hgl
+*.SH;*.CSHµC:\NSFiles\LargeEdit6\Highlighters\Bash.hgl
+*.BIB;*.BSTµC:\NSFiles\LargeEdit6\Highlighters\BibTeX.hgl
+*.BBµC:\NSFiles\LargeEdit6\Highlighters\Blitz Basic 3D.hgl
+*.BMS;*.SCPµC:\NSFiles\LargeEdit6\Highlighters\BM Scripts.hgl
+*.sh;*.kshµC:\NSFiles\LargeEdit6\Highlighters\Bourne & Korn Shell.hgl
+*.JSP;*.JSµC:\NSFiles\LargeEdit6\Highlighters\Broad Vision JavaScript.hgl
+*.ANTµC:\NSFiles\LargeEdit6\Highlighters\Bullant.hgl
+*.NC;*.HµC:\NSFiles\LargeEdit6\Highlighters\C (Neuron-MC3150,3120 chips).hgl
+*.C;*.HµC:\NSFiles\LargeEdit6\Highlighters\C for C167.hgl
+*.CSµC:\NSFiles\LargeEdit6\Highlighters\C#.hgl
+*.C;*.CPP;*.HµC:\NSFiles\LargeEdit6\Highlighters\C++ (Turbo).hgl
+*.HPPµC:\NSFiles\LargeEdit6\Highlighters\C++ Header.hgl
+*.CPPµC:\NSFiles\LargeEdit6\Highlighters\C++ Source.hgl
+*.C;*.CPP;*.H;*.HPP;*.AWKµC:\NSFiles\LargeEdit6\Highlighters\C-Win API.hgl
+*.PRG;*.UDC;*.CHµC:\NSFiles\LargeEdit6\Highlighters\CA Visual Objects.hgl
+*.PRGµC:\NSFiles\LargeEdit6\Highlighters\CA-Clipper.hgl
+*.RLZ;*.RFDµC:\NSFiles\LargeEdit6\Highlighters\Carealizer 20.hgl
+*.cssµC:\NSFiles\LargeEdit6\Highlighters\Cascading Style Sheets.hgl
+*.confµC:\NSFiles\LargeEdit6\Highlighters\Cisco IOS Config.hgl
+*.CLW;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Clarion Plus.hgl
+*.TPL;*.TPWµC:\NSFiles\LargeEdit6\Highlighters\Clarion Template.hgl
+*.CBS;*.BASµC:\NSFiles\LargeEdit6\Highlighters\Clear Basic.hgl
+*.CLPµC:\NSFiles\LargeEdit6\Highlighters\CLIPS.hgl
+*.CBL;*.cbl;*.COB;*.cob;*.CPY;*.cpyµC:\NSFiles\LargeEdit6\Highlighters\Cobol.hgl
+*.HTM;*.HTML;*.DBM;*.CFMµC:\NSFiles\LargeEdit6\Highlighters\Cold Fusion (4.31).hgl
+*.CFMµC:\NSFiles\LargeEdit6\Highlighters\Cold Fusion (4.5).hgl
+*.CFG;*.INIµC:\NSFiles\LargeEdit6\Highlighters\Config Files.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Corba IDL.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\CPM.hgl
+*.tab;*.tgµC:\NSFiles\LargeEdit6\Highlighters\Cron Scripts.hgl
+*.csdµC:\NSFiles\LargeEdit6\Highlighters\CSound CSD.hgl
+*.orcµC:\NSFiles\LargeEdit6\Highlighters\CSound Orchestra.hgl
+*.scoµC:\NSFiles\LargeEdit6\Highlighters\CSound Score.hgl
+*.CUEµC:\NSFiles\LargeEdit6\Highlighters\Cue Sheets.hgl
+*.SRC;*.PKGµC:\NSFiles\LargeEdit6\Highlighters\Data Flex.hgl
+*.HTM;*.HTML;*.JS;*.DB4;*.INC;*.D4W;*."*"µC:\NSFiles\LargeEdit6\Highlighters\DB4web.hgl
+*.ERR;*.I6;*.I7;*.I8;*.R6;*.R7;*.R8;*.S6;*.S7;*.S8;*.TXTµC:\NSFiles\LargeEdit6\Highlighters\dbc.hgl
+*.DCS;*.INCµC:\NSFiles\LargeEdit6\Highlighters\dcal.hgl
+*.dfmµC:\NSFiles\LargeEdit6\Highlighters\Delphi&CBuilder Form.hgl
+*.pas,;*.dpr,;*.dpkµC:\NSFiles\LargeEdit6\Highlighters\Delphi.hgl
+*.DBLµC:\NSFiles\LargeEdit6\Highlighters\DiBoL.hgl
+*.COM;*.comµC:\NSFiles\LargeEdit6\Highlighters\Digital Command Language.hgl
+*.XµC:\NSFiles\LargeEdit6\Highlighters\Direct X Mesh.hgl
+*.DIR;*.ARCµC:\NSFiles\LargeEdit6\Highlighters\Directives.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\DML.hgl
+*.DTDµC:\NSFiles\LargeEdit6\Highlighters\dtd.hgl
+*.TRG;*.INC;*.DXL;*.PAT;*.OLD;*.BAK;*.DAT;*.IDXµC:\NSFiles\LargeEdit6\Highlighters\dxl.hgl
+*.eµC:\NSFiles\LargeEdit6\Highlighters\Eiffel.hgl
+*.CFµC:\NSFiles\LargeEdit6\Highlighters\Empire SystemEdge.hgl
+*.abl;*.abvµC:\NSFiles\LargeEdit6\Highlighters\epld.hgl
+*.SRC;*.INC;*.CFG;*.EMµC:\NSFiles\LargeEdit6\Highlighters\EScript 088.hgl
+*.SRC;*.INC;*.EMµC:\NSFiles\LargeEdit6\Highlighters\EScript 092.hgl
+*.ASCµC:\NSFiles\LargeEdit6\Highlighters\Esprit Post.hgl
+*.AVE;*.APR;*.AVXµC:\NSFiles\LargeEdit6\Highlighters\ESRI Avenue(DBa 2.1).hgl
+*.EX;*.EXW;*.EXU;*.E;*.EW;*.EUµC:\NSFiles\LargeEdit6\Highlighters\Euphoria.hgl
+*.EXP;*.PRG;*.FUNµC:\NSFiles\LargeEdit6\Highlighters\Express.hgl
+*.inp;*.proµC:\NSFiles\LargeEdit6\Highlighters\fame.hgl
+*.PRG;*.H;*.CH;*.FHµC:\NSFiles\LargeEdit6\Highlighters\FlagShip&Clipper.hgl
+*.FAS;*.ASµC:\NSFiles\LargeEdit6\Highlighters\Flash 5.hgl
+*.FASµC:\NSFiles\LargeEdit6\Highlighters\Flash ActionScript.hgl
+*.DCL;*.LSPµC:\NSFiles\LargeEdit6\Highlighters\FLisp.hgl
+*.FEXµC:\NSFiles\LargeEdit6\Highlighters\Focus.hgl
+*.CMD;*.cmdµC:\NSFiles\LargeEdit6\Highlighters\Formida.hgl
+*.Fortran;*.filesµC:\NSFiles\LargeEdit6\Highlighters\Fortran.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\FoxPro 26.hgl
+*.prgµC:\NSFiles\LargeEdit6\Highlighters\FoxPro 6.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\FoxPro.hgl
+*.FSLµC:\NSFiles\LargeEdit6\Highlighters\Frame ElmScript.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Galaxy.hgl
+*.GDLµC:\NSFiles\LargeEdit6\Highlighters\GDL Scripts.hgl
+*.g2hµC:\NSFiles\LargeEdit6\Highlighters\GED2HTML.hgl
+*.GEDµC:\NSFiles\LargeEdit6\Highlighters\gedcom.hgl
+*.HSCµC:\NSFiles\LargeEdit6\Highlighters\Hamster Scripts.hgl
+*.DDL;*.HµC:\NSFiles\LargeEdit6\Highlighters\Hart DDL.hgl
+*.HS;*.LHS;*.XHSµC:\NSFiles\LargeEdit6\Highlighters\Haskell.hgl
+*.htm;*.html;*.aspµC:\NSFiles\LargeEdit6\Highlighters\HTML(JScript+VBScript+ASP).hgl
+*.H;*.G;*.HUGµC:\NSFiles\LargeEdit6\Highlighters\Hugo.hgl
+*.IBS;*.PKG;*.EBDµC:\NSFiles\LargeEdit6\Highlighters\Ibis.hgl
+*.BKMµC:\NSFiles\LargeEdit6\Highlighters\IBM Bookmaster.hgl
+*.ST;*.PRµC:\NSFiles\LargeEdit6\Highlighters\IBM DirectTalk.hgl
+*.D2WµC:\NSFiles\LargeEdit6\Highlighters\IBM Net Data.hgl
+*.H;*.INF;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Inform 6.hgl
+*.iniµC:\NSFiles\LargeEdit6\Highlighters\ini.hgl
+*.RUL;*.HµC:\NSFiles\LargeEdit6\Highlighters\InstallShield.hgl
+*.VM;*.vmµC:\NSFiles\LargeEdit6\Highlighters\Jakarta Velocity.hgl
+*.JµC:\NSFiles\LargeEdit6\Highlighters\Jamagic Script.hgl
+*.JµC:\NSFiles\LargeEdit6\Highlighters\Jasmin.hgl
+*.JAV;*.JAVAµC:\NSFiles\LargeEdit6\Highlighters\Java (1.3).hgl
+*.JAVA;*.JAVµC:\NSFiles\LargeEdit6\Highlighters\Java (2 version 1.22).hgl
+*.jsµC:\NSFiles\LargeEdit6\Highlighters\Java Script.hgl
+*.JSP;*.JSP10µC:\NSFiles\LargeEdit6\Highlighters\JSP.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\KixTart Script.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\LargeEdit Script.hgl
+*.LULLµC:\NSFiles\LargeEdit6\Highlighters\Laser Scan User Language.hgl
+*.LAT;*.TEX;*.LEXµC:\NSFiles\LargeEdit6\Highlighters\Latex.hgl
+*.LDIF;*.LDFµC:\NSFiles\LargeEdit6\Highlighters\ldap.hgl
+*.LDIF;*.LDFµC:\NSFiles\LargeEdit6\Highlighters\LDIF for Netscape Directory.hgl
+*.LGO;*.LINGOµC:\NSFiles\LargeEdit6\Highlighters\Lingo.hgl
+*.ILO;*.JOBµC:\NSFiles\LargeEdit6\Highlighters\Linker File V6.0.hgl
+*.ILO;*.JOBµC:\NSFiles\LargeEdit6\Highlighters\Linker File V7.0.hgl
+*.ILO;*.JOBµC:\NSFiles\LargeEdit6\Highlighters\Linker File.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Lisp.hgl
+*.DCBµC:\NSFiles\LargeEdit6\Highlighters\Logic.hgl
+*.LSµC:\NSFiles\LargeEdit6\Highlighters\Lotus Script.hgl
+*.C;*.HµC:\NSFiles\LargeEdit6\Highlighters\lpc.hgl
+*.luaµC:\NSFiles\LargeEdit6\Highlighters\lua.hgl
+*.LUM;*.PU1;*.SEFµC:\NSFiles\LargeEdit6\Highlighters\Lumonics GCode.hgl
+*.MAK;*.MKµC:\NSFiles\LargeEdit6\Highlighters\MakeFile.hgl
+*.MAPµC:\NSFiles\LargeEdit6\Highlighters\Map.hgl
+*.MB;*.DEF;*.MBP;*.WORµC:\NSFiles\LargeEdit6\Highlighters\MapBasic.hgl
+*.MAP;*.SYM;*.LISTµC:\NSFiles\LargeEdit6\Highlighters\MapServer.hgl
+*.HTM;*.HTML;*.ASP;*.SHTML;*.HTT;*.JSP;*.MHTMLµC:\NSFiles\LargeEdit6\Highlighters\Mason.hgl
+*.m;*.MµC:\NSFiles\LargeEdit6\Highlighters\Mat Lab 5.hgl
+*.m;*.MµC:\NSFiles\LargeEdit6\Highlighters\Mat Lab 6.hgl
+*.htmlµC:\NSFiles\LargeEdit6\Highlighters\MathML.hgl
+*.ms;*.mseµC:\NSFiles\LargeEdit6\Highlighters\Max Script.hgl
+*.MELµC:\NSFiles\LargeEdit6\Highlighters\Maya Embedded Language (MEL).hgl
+*.MELµC:\NSFiles\LargeEdit6\Highlighters\Maya Script.hgl
+*.M;*.MACµC:\NSFiles\LargeEdit6\Highlighters\Me10 Macro.hgl
+*.s4;*.s4t;*.s4i;*.s4o;*.s4m;*.s4hµC:\NSFiles\LargeEdit6\Highlighters\MessageBuilder 4edi.hgl
+*.BASµC:\NSFiles\LargeEdit6\Highlighters\MicroStation Basic.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Millg.hgl
+*.SRC;*.PI;*.STM;*.OPI;*.NPI;*.SIMµC:\NSFiles\LargeEdit6\Highlighters\Minc DSL.hgl
+*.MV;*.HTSµC:\NSFiles\LargeEdit6\Highlighters\Miva.hgl
+*.mo;*.mosµC:\NSFiles\LargeEdit6\Highlighters\Modelica.hgl
+*.MOD;*.DEFµC:\NSFiles\LargeEdit6\Highlighters\Modula 2.hgl
+*.M3;*.I3µC:\NSFiles\LargeEdit6\Highlighters\Modula 3.hgl
+*.MOFµC:\NSFiles\LargeEdit6\Highlighters\Mof.hgl
+*.MCMµC:\NSFiles\LargeEdit6\Highlighters\Motive Maps.hgl
+*.cfgµC:\NSFiles\LargeEdit6\Highlighters\MRTG Config.hgl
+*.batµC:\NSFiles\LargeEdit6\Highlighters\MSDOS Batch.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Msg.hgl
+*.MMµC:\NSFiles\LargeEdit6\Highlighters\Mud Master Script.hgl
+*.sct;*.sqlµC:\NSFiles\LargeEdit6\Highlighters\Multi Base.hgl
+*.DAT;*.RTN;*.MµC:\NSFiles\LargeEdit6\Highlighters\Mumps.hgl
+*.ISO;*.NC;*.CNCµC:\NSFiles\LargeEdit6\Highlighters\Nc.hgl
+*.CDLµC:\NSFiles\LargeEdit6\Highlighters\netCDF CDL 3.3.hgl
+*.NFLµC:\NSFiles\LargeEdit6\Highlighters\Notes Formula Language.hgl
+*.ML;*.MLIµC:\NSFiles\LargeEdit6\Highlighters\ocaml.hgl
+*.INFµC:\NSFiles\LargeEdit6\Highlighters\Oemsetup Script.hgl
+*.XOMµC:\NSFiles\LargeEdit6\Highlighters\Omnimark.hgl
+*.e0*;*.e1*;*.e2*;*.e3*;*.e4*;*.e5*;*.e6*;*.e7*;*.e8*;*.e9*µC:\NSFiles\LargeEdit6\Highlighters\Open ROAD 401.hgl
+*.e0*;*.e1*;*.e2*;*.e3*;*.e4*;*.e5*;*.e6*;*.e7*;*.e8*;*.e9*;*.TXT;*.expµC:\NSFiles\LargeEdit6\Highlighters\Open Road.hgl
+*.opl;*.o32µC:\NSFiles\LargeEdit6\Highlighters\opl.hgl
+*.RC;*.RCPµC:\NSFiles\LargeEdit6\Highlighters\Palm Pilot Resource Script.hgl
+*.SCµC:\NSFiles\LargeEdit6\Highlighters\Paradox.hgl
+*.PAS;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Pascal (Turbo).hgl
+*.PAS;*.INC;*.DEFµC:\NSFiles\LargeEdit6\Highlighters\Pascal.hgl
+*.pd;*.opn;*.ovl;*.blk;*.scn;*.pl;*.pro;*.men;*.tmpµC:\NSFiles\LargeEdit6\Highlighters\Passport.hgl
+*.psl;*.PSLµC:\NSFiles\LargeEdit6\Highlighters\Patrol Scripting.hgl
+*.PRL;*.P80;*.P90µC:\NSFiles\LargeEdit6\Highlighters\Pearl.hgl
+*.SQR;*.SQCµC:\NSFiles\LargeEdit6\Highlighters\People Soft SQR.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Perl.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\PerlCGI.hgl
+*.PHP3;*.PHP4;*.PHP;*.PHTML;*.INCµC:\NSFiles\LargeEdit6\Highlighters\PHP.hgl
+*.PSHµC:\NSFiles\LargeEdit6\Highlighters\Pixel Shader 1.4.hgl
+*.FF;*.FP;*.FPP;*.RPP;*.SF;*.SP;*.SPB;*.SPP;*.SPS;*.SQL;*.WP;*.WF;*.WPP;*.WPS;*.WPB;*.BDY;*.SPEµC:\NSFiles\LargeEdit6\Highlighters\PL-1 (IBM).hgl
+*.PL1;*.pl1µC:\NSFiles\LargeEdit6\Highlighters\PL-1 (VOS).hgl
+*.PL1;*.PLIµC:\NSFiles\LargeEdit6\Highlighters\PL-i.hgl
+*.PLMµC:\NSFiles\LargeEdit6\Highlighters\plm.hgl
+*.PS;*.EPSµC:\NSFiles\LargeEdit6\Highlighters\PostScript.hgl
+*.POV;*.INCµC:\NSFiles\LargeEdit6\Highlighters\PovRay.hgl
+*.BAS;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Power Basic.hgl
+*.SCR;*.SRA;*.SRD;*.SRF;*.SRJ;*.SRM;*.SRP;*.SRQ;*.SRS;*.SRU;*.SRWµC:\NSFiles\LargeEdit6\Highlighters\PowerBuilder 7.0.hgl
+*.PSLµC:\NSFiles\LargeEdit6\Highlighters\PowerTerm Scripts.hgl
+*.P;*.I;*.W;*.LIB;*.VµC:\NSFiles\LargeEdit6\Highlighters\Progress (version 8.3).hgl
+*.p;*.i;*.w;*.v;*.f;*.$1$µC:\NSFiles\LargeEdit6\Highlighters\Progress (version 9.1b).hgl
+*.pl;*.proµC:\NSFiles\LargeEdit6\Highlighters\Prolog Sisctus.hgl
+*.PVXµC:\NSFiles\LargeEdit6\Highlighters\Providex.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Python.hgl
+*.q;*.basµC:\NSFiles\LargeEdit6\Highlighters\qBasic.hgl
+*.CFGµC:\NSFiles\LargeEdit6\Highlighters\Quake2 Config.hgl
+*.RPµC:\NSFiles\LargeEdit6\Highlighters\RealPix.hgl
+*.RTµC:\NSFiles\LargeEdit6\Highlighters\RealText.hgl
+*.RµC:\NSFiles\LargeEdit6\Highlighters\Rebol.hgl
+*.rexµC:\NSFiles\LargeEdit6\Highlighters\Rexx.hgl
+*.RIBµC:\NSFiles\LargeEdit6\Highlighters\Rman Interface.hgl
+*.SL;*.SLC;*.SLOµC:\NSFiles\LargeEdit6\Highlighters\Rman Shader.hgl
+*.RTFµC:\NSFiles\LargeEdit6\Highlighters\RTF.hgl
+*.rb;*.rbwµC:\NSFiles\LargeEdit6\Highlighters\Ruby.hgl
+*.s;*.ssc;*.scr;*.obj;*.tmpµC:\NSFiles\LargeEdit6\Highlighters\S&S+.hgl
+*.INPµC:\NSFiles\LargeEdit6\Highlighters\SACS IV.hgl
+*.ABPµC:\NSFiles\LargeEdit6\Highlighters\SAP ABAP-4.hgl
+*.SASµC:\NSFiles\LargeEdit6\Highlighters\Sas.hgl
+*.SRC;*.LST;*.ASMµC:\NSFiles\LargeEdit6\Highlighters\Scenix.hgl
+*.XSDµC:\NSFiles\LargeEdit6\Highlighters\Schema.hgl
+*.SCMµC:\NSFiles\LargeEdit6\Highlighters\Scheme.hgl
+*.PR;*.SDLµC:\NSFiles\LargeEdit6\Highlighters\SDL-PR Files.hgl
+*.SGM;*.SGML;*.XML;*.NRM;*.ENT;*.HDR;*.HUBµC:\NSFiles\LargeEdit6\Highlighters\SGML.hgl
+*.mdl;*.MDLµC:\NSFiles\LargeEdit6\Highlighters\Simulink.hgl
+*.SMA;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Small.hgl
+*.SMI;*.SMIL;*.RAMµC:\NSFiles\LargeEdit6\Highlighters\Smil.hgl
+*.SPIN;*.SPNµC:\NSFiles\LargeEdit6\Highlighters\Spin.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Informix ESQL&C).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Informix).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Ingres).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (InterBase).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (MS SQL 2000).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (MS SQL 7).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (MySQL).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Oracle).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Standard).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (SyBase).hgl
+µC:\NSFiles\LargeEdit6\Highlighters\SQL (Teradata).hgl
+*.SQR;*.SQC;*.INC;*.sqr;*.sqc;*.incµC:\NSFiles\LargeEdit6\Highlighters\SQR.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Standard ML.hgl
+*.DO;*.DCT;*.ADOµC:\NSFiles\LargeEdit6\Highlighters\Stata 7.hgl
+*.ADMµC:\NSFiles\LargeEdit6\Highlighters\System Policies.hgl
+*.TL;*.TLLµC:\NSFiles\LargeEdit6\Highlighters\Tivoli TLL.hgl
+*.tclµC:\NSFiles\LargeEdit6\Highlighters\Tool Command Language(Tcl&Tk).hgl
+*.UEM;*.uemµC:\NSFiles\LargeEdit6\Highlighters\UE MACRO.hgl
+*.CLS;*.GRSµC:\NSFiles\LargeEdit6\Highlighters\UG&APT Source.hgl
+*.txtµC:\NSFiles\LargeEdit6\Highlighters\UltraEdit.hgl
+*.BAS;*.INCµC:\NSFiles\LargeEdit6\Highlighters\Unidata.hgl
+*.uv6µC:\NSFiles\LargeEdit6\Highlighters\Uniface V6.hgl
+*.uv71µC:\NSFiles\LargeEdit6\Highlighters\Uniface V7.1.hgl
+*.uv72µC:\NSFiles\LargeEdit6\Highlighters\Uniface V7.2.hgl
+*.sh;*.ksh;*.csh;*.SH;*.KSH;*.CSHµC:\NSFiles\LargeEdit6\Highlighters\UNIX Shell Scripts.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Unreal.hgl
+*.VBSµC:\NSFiles\LargeEdit6\Highlighters\VBScript.hgl
+*.V;*.VTµC:\NSFiles\LargeEdit6\Highlighters\Verity Log File.hgl
+*.CFG;*.DDD;*.DDD;*.DID;*.DFT;*.LEX;*.NGM;*.PDD;*.PLC;*.PRM;*.SFL;*.SID;*.UFL;*.UNI;*.VGW;*.WLDµC:\NSFiles\LargeEdit6\Highlighters\Verity Style File.hgl
+*.OTLµC:\NSFiles\LargeEdit6\Highlighters\Verity Topic File.hgl
+*.VSHµC:\NSFiles\LargeEdit6\Highlighters\Vertex Shader 1.1.hgl
+*.VHDµC:\NSFiles\LargeEdit6\Highlighters\vhdl.hgl
+*.BAS;*.FRM;*.CLS;*.VBS;*.ASP;*.INC;*.VBµC:\NSFiles\LargeEdit6\Highlighters\Visual Basic (.net).hgl
+*.Visual;*.Basic;*.Files;*.(BAS;*.FRM;*.CLS;*.VBS;*.ASP;*.INC)µC:\NSFiles\LargeEdit6\Highlighters\Visual Basic.hgl
+*.DSCµC:\NSFiles\LargeEdit6\Highlighters\Visual Dialog Script.hgl
+*.Fortran;*.filesµC:\NSFiles\LargeEdit6\Highlighters\Visual Fortran.hgl
+*.PRG;*.UDC;*.CHµC:\NSFiles\LargeEdit6\Highlighters\Visual Objects.hgl
+*.BBTµC:\NSFiles\LargeEdit6\Highlighters\Visual PRO5 Basic.hgl
+*.vbprojµC:\NSFiles\LargeEdit6\Highlighters\Visual Studio Project.hgl
+µC:\NSFiles\LargeEdit6\Highlighters\Visual Studio Solution File.hgl
+*.VXMLµC:\NSFiles\LargeEdit6\Highlighters\VoiceXML.hgl
+*.wrlµC:\NSFiles\LargeEdit6\Highlighters\vrml.hgl
+*.wrlµC:\NSFiles\LargeEdit6\Highlighters\vrml97.hgl
+*.VTMLµC:\NSFiles\LargeEdit6\Highlighters\vtml.hgl
+*.wmlµC:\NSFiles\LargeEdit6\Highlighters\wap.hgl
+*.wmlsµC:\NSFiles\LargeEdit6\Highlighters\WAPScript.hgl
+*.WBT;*.WILµC:\NSFiles\LargeEdit6\Highlighters\wil.hgl
+*.WBT;*.WED;*.MNUµC:\NSFiles\LargeEdit6\Highlighters\WinBatch.hgl
+*.CMD;*.BATµC:\NSFiles\LargeEdit6\Highlighters\Windows NT Command.hgl
+*.regµC:\NSFiles\LargeEdit6\Highlighters\Windows Registry Files.hgl
+*.CMD;*.REX;*.REXXµC:\NSFiles\LargeEdit6\Highlighters\WinRexx.hgl
+*.WMLSµC:\NSFiles\LargeEdit6\Highlighters\WML Script.hgl
+*.WML;*.wmlµC:\NSFiles\LargeEdit6\Highlighters\WML.hgl
+*.X;*.DECµC:\NSFiles\LargeEdit6\Highlighters\XBasic.hgl
+*.XMLµC:\NSFiles\LargeEdit6\Highlighters\xml.hgl
+*.XSL;*.XSLTµC:\NSFiles\LargeEdit6\Highlighters\XSL stylesheet.hgl
+*.ZRFµC:\NSFiles\LargeEdit6\Highlighters\Zillions of Games.hgl
+*.ZSCµC:\NSFiles\LargeEdit6\Highlighters\zMUD Script.hgl

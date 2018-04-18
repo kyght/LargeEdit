@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Microchip PIC Asm" FileType="" Extensions="ASM INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:microchp.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,-.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="ASSEMBLER DIRECTIVES" Enabled="True" Style="" Words="#DEFINE&#xA;#INCLUDE&#xA;#UNDEFINE&#xA;BANKISEL&#xA;BANKSEL&#xA;CBLOCK&#xA;CODE&#xA;CONSTANT&#xA;DATA&#xA;DB&#xA;DE&#xA;DT&#xA;DW&#xA;ELSE&#xA;END&#xA;ENDC&#xA;ENDIF&#xA;ENDM&#xA;ENDW&#xA;EQU&#xA;ERROR&#xA;ERRORLEVEL&#xA;EXITM&#xA;EXPAND&#xA;EXTERN&#xA;FILL&#xA;GLOBAL&#xA;IDATA&#xA;IF&#xA;IFDEF&#xA;IFNDEF&#xA;LIST&#xA;LOCAL&#xA;MACRO&#xA;MESSG&#xA;NOEXPAND&#xA;NOLIST&#xA;ORG&#xA;PAGE&#xA;PAGESEL&#xA;PROCESSOR&#xA;RADIX&#xA;RES&#xA;SET&#xA;SPACE&#xA;SUBTITLE&#xA;TITLE&#xA;UDATA&#xA;UDATA_OVR&#xA;UDATA_SHR&#xA;VARIABLE&#xA;WHILE&#xA;__BADRAM&#xA;__CONFIG&#xA;__IDLOCS&#xA;__MAXRAM&#xA;=&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PIC16C5X INSTRUCTION SET" Enabled="True" Style="" Words="addwf&#xA;andlw&#xA;andwf&#xA;bcf&#xA;bsf&#xA;btfsc&#xA;btfss&#xA;call&#xA;clrf&#xA;clrw&#xA;clrwdt&#xA;comf&#xA;decf&#xA;decfsz&#xA;goto&#xA;incf&#xA;incfsz&#xA;iorlw&#xA;iorwf&#xA;movf&#xA;movlw&#xA;movwf&#xA;nop&#xA;option&#xA;retlw&#xA;rlf&#xA;rrf&#xA;sleep&#xA;subwf&#xA;swapf&#xA;tris&#xA;xorlw&#xA;xorwf&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PIC16CXX INSTRUCTION SET" Enabled="True" Style="" Words="addlw&#xA;retfie&#xA;return&#xA;sublw&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PIC17CXXX INSTRUCTION SET" Enabled="True" Style="" Words="addwfc&#xA;btg&#xA;cpfseq&#xA;cpfsgt&#xA;cpfslt&#xA;daw&#xA;dcfsnz&#xA;infsnz&#xA;lcall&#xA;movfp&#xA;movlb&#xA;movlr&#xA;movpf&#xA;mullw&#xA;mulwf&#xA;negw&#xA;rlcf&#xA;rlncf&#xA;rrcf&#xA;rrncf&#xA;setf&#xA;subwfb&#xA;tablrd&#xA;tablwt&#xA;tlrd&#xA;tlwt&#xA;tstfsz&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PRE-DEFINED REGISTER LABELS" Enabled="True" Style="" Words="ADCON0&#xA;ADCON1&#xA;ADRES&#xA;CCP1CON&#xA;CCP2CON&#xA;CCPR1H&#xA;CCPR1L&#xA;CCPR2H&#xA;CCPR2L&#xA;CMCON&#xA;EEADR&#xA;EECON1&#xA;EECON2&#xA;EEDATA&#xA;F&#xA;FSR&#xA;GPIO&#xA;INDF&#xA;INTCON&#xA;LCDCON&#xA;LCDD00&#xA;LCDD01&#xA;LCDD02&#xA;LCDD03&#xA;LCDD04&#xA;LCDD05&#xA;LCDD06&#xA;LCDD07&#xA;LCDD08&#xA;LCDD09&#xA;LCDD10&#xA;LCDD11&#xA;LCDD12&#xA;LCDD13&#xA;LCDD14&#xA;LCDD15&#xA;LCDPS&#xA;LCDSE&#xA;OSCCAL&#xA;PCL&#xA;PCLATH&#xA;PCON&#xA;PIE1&#xA;PIE2&#xA;PIR1&#xA;PIR2&#xA;PORTA&#xA;PORTB&#xA;PORTC&#xA;PORTD&#xA;PORTE&#xA;PORTF&#xA;PORTG&#xA;PR2&#xA;RCREG&#xA;RCSTA&#xA;RTCC&#xA;SPBRG&#xA;SSPADD&#xA;SSPBUF&#xA;SSPCON&#xA;SSPSTAT&#xA;STATUS&#xA;T1CON&#xA;T2CON&#xA;TMR0&#xA;TMR1H&#xA;TMR1L&#xA;TMR2&#xA;TRISA&#xA;TRISB&#xA;TRISC&#xA;TRISD&#xA;TRISE&#xA;TRISF&#xA;TRISG&#xA;TXREG&#xA;TXSTA&#xA;VRCON&#xA;W&#xA;WREG&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PRE-DEFINED BIT LABELS" Enabled="True" Style="" Words="ADCS0&#xA;ADCS1&#xA;ADIE&#xA;ADIF&#xA;ADON&#xA;BF&#xA;BO&#xA;BRGH&#xA;C&#xA;C1OUT&#xA;C2OUT&#xA;CAL0&#xA;CAL1&#xA;CAL2&#xA;CAL3&#xA;CAL4&#xA;CAL5&#xA;CCP1IE&#xA;CCP1IF&#xA;CCP1M0&#xA;CCP1M1&#xA;CCP1M2&#xA;CCP1M3&#xA;CCP1X&#xA;CCP1Y&#xA;CCP2IE&#xA;CCP2IF&#xA;CCP2M0&#xA;CCP2M1&#xA;CCP2M2&#xA;CCP2M3&#xA;CCP2X&#xA;CCP2Y&#xA;CHS0&#xA;CHS1&#xA;CHS2&#xA;CKE&#xA;CKP&#xA;CM0&#xA;CM1&#xA;CM2&#xA;CIS&#xA;CMIE&#xA;CMIF&#xA;CREN&#xA;CS0&#xA;CS1&#xA;CSRC&#xA;DA&#xA;DC&#xA;EEIE&#xA;EEIF&#xA;FERR&#xA;GIE&#xA;GO_DONE&#xA;IBF&#xA;IBOV&#xA;INTE&#xA;INTEDG&#xA;INTF&#xA;IRP&#xA;LCDEN&#xA;LCDIE&#xA;LCDIF&#xA;LMUX0&#xA;LMUX1&#xA;LP0&#xA;LP1&#xA;LP2&#xA;LP3&#xA;NOT_PD&#xA;NOT_RBPU&#xA;NOT_RBWU&#xA;NOT_TO&#xA;OBF&#xA;OERR&#xA;P&#xA;PA0&#xA;PA1&#xA;PCFG0&#xA;PCFG1&#xA;PCFG2&#xA;PEIE&#xA;POR&#xA;PS0&#xA;PS1&#xA;PS2&#xA;PSA&#xA;PSPIE&#xA;PSPIF&#xA;PSPMODE&#xA;RBIE&#xA;RBIF&#xA;RBWUF&#xA;RCIE&#xA;RCIF&#xA;RD&#xA;RP0&#xA;RP1&#xA;RW&#xA;RX9&#xA;RX9D&#xA;S&#xA;SE0&#xA;SE5&#xA;SE9&#xA;SE12&#xA;SE16&#xA;SE20&#xA;SE27&#xA;SE29&#xA;SLPEN&#xA;SMP&#xA;SPEN&#xA;SREN&#xA;SSPEN&#xA;SSPIE&#xA;SSPIF&#xA;SSPM0&#xA;SSPM1&#xA;SSPM2&#xA;SSPM3&#xA;SSPOV&#xA;SYNC&#xA;T0CS&#xA;T0IE&#xA;T0IF&#xA;T0SE&#xA;T1CKPS0&#xA;T1CKPS1&#xA;T1OSCEN&#xA;T2CKPS0&#xA;T2CKPS1&#xA;TMR1CS&#xA;TMR1IE&#xA;TMR1IF&#xA;TMR1ON&#xA;TMR2IE&#xA;TMR2IF&#xA;TMR2ON&#xA;TOUTPS3&#xA;TOUTPS2&#xA;TOUTPS1&#xA;TOUTPS0&#xA;TRISE0&#xA;TRISE1&#xA;TRISE2&#xA;TRMT&#xA;TX89&#xA;TX9&#xA;TX9D&#xA;TXD8&#xA;TXEN&#xA;TXIE&#xA;TXIF&#xA;UA&#xA;VGEN&#xA;VR0&#xA;VR1&#xA;VR2&#xA;VR3&#xA;VREN&#xA;VROE&#xA;VRR&#xA;WCOL&#xA;WR&#xA;WREN&#xA;WRERR&#xA;Z&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SYMBOLS" Enabled="True" Style="" Words="+&#xA;,&#xA;-&#xA;/&#xA;&lt;&#xA;&gt;&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Matlab 5" FileType="" Extensions="m M" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:matlab5.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="assignin&#xA;break&#xA;case&#xA;catch&#xA;cell&#xA;char&#xA;class&#xA;dbclear&#xA;dbcont&#xA;dbdown&#xA;dbquit&#xA;dbstack&#xA;dbstatus&#xA;dbstep&#xA;dbstop&#xA;dbtype&#xA;dbup&#xA;debug&#xA;double&#xA;else&#xA;elseif&#xA;end&#xA;error&#xA;eval&#xA;evalin&#xA;feval&#xA;fieldnames&#xA;for&#xA;function&#xA;getfield&#xA;global&#xA;if&#xA;input&#xA;isa&#xA;iscell&#xA;ischar&#xA;isempty&#xA;isequal&#xA;isfield&#xA;isnumeric&#xA;isstruct&#xA;keyboard&#xA;lasterr&#xA;logical&#xA;length&#xA;long&#xA;menu&#xA;mexdebug&#xA;nargchk&#xA;nargin&#xA;nargout&#xA;ones&#xA;otherwise&#xA;pause&#xA;persistent&#xA;return&#xA;rmfield&#xA;script&#xA;setfield&#xA;sparse&#xA;speye&#xA;struct&#xA;switch&#xA;try&#xA;varargin&#xA;varargout&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="acsl&#xA;binpatch&#xA;cd&#xA;cedit&#xA;clc&#xA;clear&#xA;computer&#xA;delete&#xA;diary&#xA;dir&#xA;disp&#xA;doc&#xA;dos&#xA;echo&#xA;fileparts&#xA;format&#xA;fullfile&#xA;getenv&#xA;help&#xA;home&#xA;hostid&#xA;info&#xA;inquire&#xA;load&#xA;lookfor&#xA;ls&#xA;matlabro&#xA;memory&#xA;mlock&#xA;more&#xA;munlock&#xA;mislocked&#xA;pack&#xA;path&#xA;pwd&#xA;quit&#xA;readme&#xA;save&#xA;size&#xA;subscrib&#xA;type&#xA;unix&#xA;ver&#xA;version&#xA;vms&#xA;what&#xA;whatsnew&#xA;which&#xA;who&#xA;whos&#xA;why&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abs&#xA;acos&#xA;acosh&#xA;acot&#xA;acoth&#xA;acsc&#xA;acsch&#xA;angle&#xA;asec&#xA;asech&#xA;asin&#xA;asinh&#xA;atan&#xA;atan2&#xA;atanh&#xA;ceil&#xA;conj&#xA;cos&#xA;cosh&#xA;cot&#xA;coth&#xA;csc&#xA;csch&#xA;exp&#xA;fix&#xA;floor&#xA;imag&#xA;log&#xA;log10&#xA;real&#xA;rem&#xA;round&#xA;sec&#xA;sech&#xA;sign&#xA;sin&#xA;sinh&#xA;sqrt&#xA;tan&#xA;tanh&#xA;+&#xA;-&#xA;*&#xA;/&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="auread&#xA;auwright&#xA;axes&#xA;axis&#xA;blt&#xA;capture&#xA;cinvert&#xA;cla&#xA;clf&#xA;clg&#xA;close&#xA;colstyle&#xA;dc2sc&#xA;dialog&#xA;drawnow&#xA;errordlg&#xA;figflag&#xA;figure&#xA;findobj&#xA;gca&#xA;gcf&#xA;gco&#xA;get&#xA;getframe&#xA;ginput&#xA;graymon&#xA;hardcopy&#xA;helpdlg&#xA;hold&#xA;image&#xA;imagesc&#xA;imfinfo&#xA;imread&#xA;imwright&#xA;ishold&#xA;layout&#xA;meta&#xA;movie&#xA;moviein&#xA;newplot&#xA;orient&#xA;patch&#xA;print&#xA;questdlg&#xA;rbbox&#xA;refresh&#xA;reset&#xA;rotate&#xA;sc2dc&#xA;set&#xA;shg&#xA;sound&#xA;soundsc&#xA;subplot&#xA;swapprev&#xA;terminal&#xA;uicontrol&#xA;uigetfile&#xA;uiguide&#xA;uimenu&#xA;uiputfile&#xA;uisetcolor&#xA;uisetfont&#xA;waitforbuttonpress&#xA;warndlg&#xA;wavread&#xA;wavwright&#xA;whitebg&#xA;zoom&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="all&#xA;any&#xA;arith&#xA;balance&#xA;bar&#xA;blanks&#xA;bone&#xA;brighten&#xA;caxis&#xA;cdf2rdf&#xA;chol&#xA;clabel&#xA;cmdmatch&#xA;colon&#xA;colorbar&#xA;colormap&#xA;comet&#xA;comet3&#xA;compass&#xA;cond&#xA;contour&#xA;contour3&#xA;contourc&#xA;contrast&#xA;conv&#xA;conv2&#xA;cool&#xA;copper&#xA;corrcoef&#xA;cov&#xA;cplxpair&#xA;cross&#xA;csvread&#xA;csvwrite&#xA;cumprod&#xA;cumsum&#xA;cylinder&#xA;deblank&#xA;dec2hex&#xA;deconv&#xA;del2&#xA;delstext&#xA;det&#xA;diff&#xA;diffuse&#xA;dlmread&#xA;dlmwrite&#xA;dot&#xA;eig&#xA;errorbar&#xA;exist&#xA;expm&#xA;expm1&#xA;expm2&#xA;expm3&#xA;fclose&#xA;feather&#xA;feof&#xA;ferror&#xA;fft&#xA;fft2&#xA;fftshift&#xA;fgetl&#xA;fgets&#xA;filesep&#xA;fill&#xA;fill3&#xA;filter&#xA;filter2&#xA;find&#xA;findstr&#xA;finite&#xA;fixstext&#xA;flag&#xA;fmin&#xA;fmins&#xA;fopen&#xA;foptions&#xA;fplot&#xA;fprintf&#xA;fread&#xA;frewind&#xA;fscanf&#xA;fseek&#xA;ftell&#xA;funm&#xA;fwrite&#xA;fzero&#xA;getcargs&#xA;getstext&#xA;gradient&#xA;gray&#xA;grid&#xA;griddata&#xA;gtext&#xA;hess&#xA;hex2dec&#xA;hex2num&#xA;hdf&#xA;hidden&#xA;hist&#xA;hk&#xA;hot&#xA;hsv&#xA;hsv2rgb&#xA;icubic&#xA;ifft&#xA;ifft2&#xA;int2str&#xA;interp1&#xA;interp2&#xA;interp3&#xA;interp4&#xA;interp5&#xA;interp6&#xA;interpft&#xA;inv&#xA;isglobal&#xA;isinf&#xA;isletter&#xA;isnan&#xA;isreal&#xA;isspace&#xA;isstr&#xA;jet&#xA;kron&#xA;legend&#xA;line&#xA;loglog&#xA;logm&#xA;lower&#xA;lscan&#xA;lscov&#xA;lu&#xA;mat2str&#xA;matlabroot&#xA;max&#xA;mean&#xA;median&#xA;mesh&#xA;meshc&#xA;meshz&#xA;mexext&#xA;min&#xA;mkpp&#xA;move1sto&#xA;moveaxis&#xA;nextpow2&#xA;nnls&#xA;norm&#xA;null&#xA;num2str&#xA;ode23&#xA;ode23p&#xA;ode45&#xA;orth&#xA;paren&#xA;partialpath&#xA;pathsep&#xA;pcolor&#xA;pink&#xA;pinv&#xA;planerot&#xA;plot&#xA;plot3&#xA;polar&#xA;poly&#xA;polyder&#xA;polyeig&#xA;polyfit&#xA;polyline&#xA;polymark&#xA;polyval&#xA;polyvalm&#xA;ppval&#xA;printsto&#xA;prism&#xA;prod&#xA;punct&#xA;qr&#xA;qrdelete&#xA;qrinsert&#xA;quad&#xA;quad8&#xA;quad8stp&#xA;quadstp&#xA;quiver&#xA;qz&#xA;rank&#xA;rcond&#xA;readstfm&#xA;relop&#xA;resi2&#xA;residue&#xA;rgb2hsv&#xA;rgbplot&#xA;roots&#xA;rose&#xA;rref&#xA;rsf2csf&#xA;schur&#xA;semilogx&#xA;semilogy&#xA;setstext&#xA;setstr&#xA;shading&#xA;slash&#xA;slegend&#xA;slice&#xA;sort&#xA;specular&#xA;sphere&#xA;spinmap&#xA;spline&#xA;spreview&#xA;sprintf&#xA;sqrtm&#xA;sscanf&#xA;stairs&#xA;std&#xA;stem&#xA;stext&#xA;stextbox&#xA;stfixps&#xA;stitle&#xA;stodemo&#xA;str2mat&#xA;str2num&#xA;str2rng&#xA;strcmp&#xA;strings&#xA;strrep&#xA;strtok&#xA;subspace&#xA;sum&#xA;surf&#xA;surface&#xA;surfc&#xA;surfl&#xA;surfnorm&#xA;svd&#xA;sxlabel&#xA;sylabel&#xA;szlabel&#xA;table1&#xA;table2&#xA;tempdir&#xA;tempname&#xA;text&#xA;title&#xA;trace&#xA;trapz&#xA;unmkpp&#xA;unwrap&#xA;upper&#xA;view&#xA;viewmtx&#xA;waterfall&#xA;white&#xA;wk1const&#xA;wk1read&#xA;wk1wrec&#xA;wk1write&#xA;xlabel&#xA;xor&#xA;xyzchk&#xA;ylabel&#xA;zlabel&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

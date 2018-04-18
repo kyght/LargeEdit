@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Autolisp" FileType="" Extensions="LSP MNL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;()"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="append&#xA;caddr&#xA;cadr&#xA;cal&#xA;car&#xA;cdddr&#xA;cdr&#xA;cons&#xA;length&#xA;list&#xA;listp&#xA;member&#xA;nth&#xA;reverse&#xA;subst&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="cond&#xA;foreach&#xA;if&#xA;progn&#xA;repeat&#xA;while&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Constants" Enabled="True" Style="" Words="*error*&#xA;alert&#xA;exit&#xA;nil&#xA;NIL&#xA;pi&#xA;quit&#xA;setq setvar&#xA;t&#xA;T&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Math" Enabled="True" Style="" Words="*&#xA;+&#xA;-&#xA;//&#xA;/&#xA;//&#xA;/=&#xA;1+&#xA;1-&#xA;&lt;&#xA;&lt;=&#xA;=&#xA;&gt;&#xA;&gt;=&#xA;abs&#xA;and&#xA;angle&#xA;angtof&#xA;angtos&#xA;atan&#xA;atof&#xA;atoi&#xA;boundp&#xA;cos&#xA;distance&#xA;eq&#xA;equal&#xA;exp&#xA;expt&#xA;fix&#xA;float&#xA;log&#xA;logand&#xA;logior&#xA;lsh&#xA;max&#xA;min&#xA;minusp&#xA;not&#xA;null&#xA;or&#xA;sqrt&#xA;zerop&#xA;~&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Misc" Enabled="True" Style="" Words="acad_colordlg&#xA;acad_helpdlg&#xA;acad_strlsort&#xA;action_tile&#xA;add_list&#xA;ads&#xA;alloc&#xA;apply&#xA;arx&#xA;arxload&#xA;ascii&#xA;atom&#xA;atoms-family&#xA;autoarxload&#xA;autoload&#xA;autoxload&#xA;boole&#xA;client_data_tile&#xA;close&#xA;command&#xA;cvunit&#xA;dictadd&#xA;dictnext&#xA;dictremove&#xA;dictrename&#xA;dictsearch&#xA;dimxtile&#xA;dimytile&#xA;done_dialog&#xA;end_image&#xA;end_list&#xA;eval&#xA;expand&#xA;fill_image&#xA;findfile&#xA;gc&#xA;gcd&#xA;get_attr&#xA;get_tile&#xA;getangle&#xA;getcfg&#xA;getcorner&#xA;getdist&#xA;getenv&#xA;getfiled&#xA;getint&#xA;getkword&#xA;getorient&#xA;getpoint&#xA;getreal&#xA;getstring&#xA;getvar&#xA;graphscr&#xA;grclear&#xA;grdraw&#xA;grread&#xA;grtext&#xA;grvecs&#xA;handent&#xA;help&#xA;initget&#xA;inters&#xA;lambda&#xA;last&#xA;load&#xA;load_dialog&#xA;mapcar&#xA;mem&#xA;menucmd&#xA;menugroup&#xA;mode_tile&#xA;namedobjdict&#xA;new_dialog&#xA;numberp&#xA;open&#xA;osnap&#xA;pause&#xA;polar&#xA;prin1&#xA;princ&#xA;print&#xA;prompt&#xA;quote&#xA;read&#xA;read-char&#xA;read-line&#xA;redraw&#xA;regapp&#xA;rem&#xA;rtos&#xA;set&#xA;set_tile&#xA;setcfg&#xA;setfunhelp&#xA;setview&#xA;sin&#xA;slide_image&#xA;snvalid&#xA;start_app&#xA;start_dialog&#xA;start_image&#xA;start_list&#xA;tablet&#xA;term_dialog&#xA;terpri&#xA;textbox&#xA;textpage&#xA;textscr&#xA;trace&#xA;trans&#xA;type&#xA;unload_dialog&#xA;untrace&#xA;vector_image&#xA;ver&#xA;vmon&#xA;vports&#xA;wcmatch&#xA;write-char&#xA;write-line&#xA;xdroom&#xA;xdsize&#xA;xload&#xA;xunload&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="assoc&#xA;chr&#xA;distof&#xA;entdel&#xA;entget&#xA;entlast&#xA;entmake&#xA;entmakex&#xA;entmod&#xA;entnext&#xA;entsel&#xA;entupd&#xA;itoa&#xA;nentsel&#xA;nentselp&#xA;ssadd&#xA;ssdel&#xA;ssget&#xA;ssgetfirst&#xA;sslength&#xA;ssmemb&#xA;ssname&#xA;ssnamex&#xA;sssetfirst&#xA;strcase&#xA;strcat&#xA;strlen&#xA;substr&#xA;tblnext&#xA;tblobjname&#xA;tblsearch&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

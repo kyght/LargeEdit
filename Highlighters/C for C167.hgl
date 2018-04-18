@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="'C' for C167" FileType="" Extensions="C H" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:c167complink.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="#define&#xA;#else&#xA;#endif&#xA;#if&#xA;#ifdef&#xA;#ifndef&#xA;#include&#xA;#pragma&#xA;#undef&#xA;alias&#xA;align&#xA;asm&#xA;asm_noflush&#xA;automatic&#xA;class&#xA;clear&#xA;combine&#xA;cse&#xA;default_attributes&#xA;define&#xA;endasm&#xA;eramdata&#xA;fix_byte_write&#xA;global&#xA;include&#xA;iramdata&#xA;macro&#xA;noalias&#xA;noclear&#xA;nofix_byte_write&#xA;noframe&#xA;nomacro&#xA;nosource&#xA;public&#xA;regdef&#xA;restore_attributes&#xA;romdata&#xA;save_attributes&#xA;size&#xA;source&#xA;speed&#xA;static&#xA;switch_force_table&#xA;switch_smart&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="_at&#xA;_atbit&#xA;bit&#xA;bita&#xA;bitword&#xA;break&#xA;case&#xA;char&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;esfr&#xA;esfrbit&#xA;extern&#xA;far&#xA;float&#xA;for&#xA;goto&#xA;huge&#xA;if&#xA;int&#xA;iram&#xA;long&#xA;near&#xA;register&#xA;return&#xA;sfr&#xA;sfrbit&#xA;signed&#xA;size_t&#xA;struct&#xA;switch&#xA;system&#xA;typedef&#xA;unsigned&#xA;void&#xA;volatile&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions/library" Enabled="True" Style="" Words="_fstrcat&#xA;_fstrchr&#xA;_fstrcmp&#xA;_fstrcpy&#xA;_fstrcspn&#xA;_fstrlen&#xA;_fstrncat&#xA;_fstrncmp&#xA;_fstrncpy&#xA;_fstrpbrk&#xA;_fstrrchr&#xA;_fstrspn&#xA;_fstrstr&#xA;_fstrtok&#xA;_hstrcat&#xA;_hstrchr&#xA;_hstrcmp&#xA;_hstrcpy&#xA;_hstrcspn&#xA;_hstrlen&#xA;_hstrncat&#xA;_hstrncmp&#xA;_hstrncpy&#xA;_hstrpbrk&#xA;_hstrrchr&#xA;_hstrspn&#xA;_hstrstr&#xA;_hstrtok&#xA;_ioread&#xA;_iowrite&#xA;_stime&#xA;_time&#xA;_tolower&#xA;_toupper&#xA;_tzset&#xA;abort&#xA;abs&#xA;acos&#xA;asctime&#xA;asin&#xA;assert&#xA;assert.h&#xA;atan&#xA;atan2&#xA;atexit&#xA;atof&#xA;atoi&#xA;atol&#xA;bsearch&#xA;c166.h&#xA;calloc&#xA;ceil&#xA;clearerr&#xA;clock&#xA;cos&#xA;cosh&#xA;ctime&#xA;ctype.h&#xA;difftime&#xA;div&#xA;errno.h&#xA;exit&#xA;exp&#xA;fabs&#xA;fclose&#xA;feof&#xA;ferror&#xA;fflush&#xA;fgetc&#xA;fgets&#xA;float.h&#xA;floor&#xA;fmod&#xA;fopen&#xA;fprintf&#xA;fputc&#xA;fputs&#xA;fread&#xA;free&#xA;freopen&#xA;frexp&#xA;fscanf&#xA;fwrite&#xA;getc&#xA;getchar&#xA;gets&#xA;gmtime&#xA;isalnum&#xA;isalpha&#xA;isascii&#xA;iscntrl&#xA;isdigit&#xA;isgraph&#xA;islower&#xA;isprint&#xA;ispunct&#xA;isspace&#xA;isupper&#xA;isxdigit&#xA;labs&#xA;ldexp&#xA;ldiv&#xA;limits.h&#xA;locale.h&#xA;localtime&#xA;log&#xA;log10&#xA;longjmp&#xA;malloc&#xA;malloc.h&#xA;math.h&#xA;memchr&#xA;memcmp&#xA;memcpffb&#xA;memcpffw&#xA;memcpfhb&#xA;memcpfhw&#xA;memcpfnb&#xA;memcpfnw&#xA;memcphfb&#xA;memcphfw&#xA;memcphhb&#xA;memcphhw&#xA;memcphnb&#xA;memcphnw&#xA;memcpnnb&#xA;memcpnnw&#xA;memcpy&#xA;memmove&#xA;memset&#xA;mktime&#xA;modf&#xA;offsetof&#xA;pow&#xA;printf&#xA;putc&#xA;putchar&#xA;puts&#xA;qsort&#xA;rand&#xA;realloc&#xA;reg163.h&#xA;reg165.h&#xA;reg166.h&#xA;reg167.h&#xA;scanf&#xA;setbuf&#xA;setjmp&#xA;setjmp.h&#xA;setvbuf&#xA;signal.h&#xA;sin&#xA;sinh&#xA;sprintf&#xA;sqrt&#xA;srand&#xA;sscanf&#xA;stdarg.h&#xA;stddef.h&#xA;stdio.h&#xA;stdlib.h&#xA;strcat&#xA;strchr&#xA;strcmp&#xA;strcpy&#xA;strcspn&#xA;strftime&#xA;string.h&#xA;strlen&#xA;strncat&#xA;strncmp&#xA;strncpy&#xA;strpbrk&#xA;strrchr&#xA;strspn&#xA;strstr&#xA;strtod&#xA;strtok&#xA;strtol&#xA;strtoul&#xA;tan&#xA;tanh&#xA;time&#xA;time.h&#xA;toascii&#xA;tolower&#xA;toupper&#xA;ungetc&#xA;va_arg&#xA;va_end&#xA;va_start&#xA;vfprintf&#xA;vprintf&#xA;vsprintf&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Standard defines" Enabled="True" Style="" Words="ASSERT_INC&#xA;C166_INC&#xA;CTYPE_INC&#xA;EOF&#xA;ERRNO_INC&#xA;FLOAT_INC&#xA;LIMITS_INC&#xA;LOCALE_INC&#xA;MATH_INC&#xA;NDEBUG&#xA;NULL&#xA;REG163_INC&#xA;REG163_NOADINT&#xA;REG163_NOCPU&#xA;REG163_NOEXTINT&#xA;REG163_NOPEC&#xA;REG163_NOPORT&#xA;REG163_NORS232&#xA;REG163_NOTIMER&#xA;REG165_INC&#xA;REG165_NOADINT&#xA;REG165_NOCPU&#xA;REG165_NOEXTINT&#xA;REG165_NOPEC&#xA;REG165_NOPORT&#xA;REG165_NORS232&#xA;REG165_NOTIMER&#xA;REG166_INC&#xA;REG166_NOADC&#xA;REG166_NOCAPCOM&#xA;REG166_NOCPU&#xA;REG166_NOPEC&#xA;REG166_NOPORT&#xA;REG166_NORS232&#xA;REG166_NOTIMER&#xA;REG167_INC&#xA;REG167_NOADC&#xA;REG167_NOADINT&#xA;REG167_NOCAPCOM&#xA;REG167_NOCPU&#xA;REG167_NOPEC&#xA;REG167_NOPORT&#xA;REG167_NOPWM&#xA;REG167_NORS232&#xA;REG167_NOTIMER&#xA;SETJMP_INC&#xA;SIGNAL_INC&#xA;STDARG_INC&#xA;STDDEF_INC&#xA;STDIO_INC&#xA;STDLIB_INC&#xA;STRING_INC&#xA;TIME_INC&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiter" Enabled="True" Style="" Words="!&#xA;$&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;+&#xA;,&#xA;-&#xA;.&#xA;//&#xA;/&#xA;:&#xA;;&#xA;&lt;&#xA;=&#xA;&gt;&#xA;[&#xA;]&#xA;{&#xA;|&#xA;}&#xA;~&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

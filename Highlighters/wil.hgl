@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WIL" FileType="" Extensions="WBT WIL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wil.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="About&#xA;Abs&#xA;Acos&#xA;AddExtender&#xA;AppExist&#xA;AppWaitClose&#xA;Asin&#xA;AskDirectory&#xA;AskFileName&#xA;AskFileText&#xA;AskItemList&#xA;AskLine&#xA;AskPassword&#xA;AskYesNo&#xA;Atan&#xA;Average&#xA;Beep&#xA;BinaryAlloc&#xA;BinaryAnd&#xA;BinaryClipGet&#xA;BinaryClipPut&#xA;BinaryCompare&#xA;BinaryConvert&#xA;BinaryCopy&#xA;BinaryEodGet&#xA;BinaryEodSet&#xA;BinaryFree&#xA;BinaryHashRec&#xA;BinaryIncr&#xA;BinaryIncr2&#xA;BinaryIncr4&#xA;BinaryIncrFlt&#xA;BinaryIndex&#xA;BinaryIndexEx&#xA;BinaryOleType&#xA;BinaryOr&#xA;BinaryPeek&#xA;BinaryPeek2&#xA;BinaryPeek4&#xA;BinaryPeekFlt&#xA;BinaryPeekStr&#xA;BinaryPoke&#xA;BinaryPoke2&#xA;BinaryPoke4&#xA;BinaryPokeFlt&#xA;BinaryPokeStr&#xA;BinaryRead&#xA;BinaryReadEx&#xA;BinarySort&#xA;BinaryStrCnt&#xA;BinaryTagExtr&#xA;BinaryTagFind&#xA;BinaryTagInit&#xA;BinaryTagRepl&#xA;BinaryWrite&#xA;BinaryWriteEx&#xA;BinaryXor&#xA;Break&#xA;ButtonNames&#xA;Call&#xA;Ceiling&#xA;Char2Num&#xA;ClipAppend&#xA;ClipGet&#xA;ClipGetEx&#xA;ClipPut&#xA;Continue&#xA;Cos&#xA;Cosh&#xA;CurrentFile&#xA;CurrFilePath&#xA;CurrentPath&#xA;DDEExecute&#xA;DDEInitiate&#xA;DDEPoke&#xA;DDERequest&#xA;DDETerminate&#xA;DDETimeout&#xA;Debug&#xA;DebugData&#xA;DebugTrace&#xA;Decimals&#xA;Dialog&#xA;DirAttrGet&#xA;DirAttrSet&#xA;DirChange&#xA;DirExist&#xA;DirGet&#xA;DirHome&#xA;DirItemize&#xA;DirMake&#xA;DirRemove&#xA;DirRename&#xA;DirSize&#xA;DirWindows&#xA;DiskExist&#xA;DiskFree&#xA;DiskInfo&#xA;DiskScan&#xA;DiskSize&#xA;DiskVolInfo&#xA;Display&#xA;DllCall&#xA;DllFree&#xA;DllHinst&#xA;DllHwnd&#xA;DllLoad&#xA;DOSVersion&#xA;Drop&#xA;DropWild&#xA;Else&#xA;Endif&#xA;EndSession&#xA;Environment&#xA;EnvironSet&#xA;EnvItemize&#xA;ErrorMode&#xA;Exclusive&#xA;Executestatement&#xA;ExeTypeInfo&#xA;Exit&#xA;Exp&#xA;Fabs&#xA;FileAppend&#xA;FileAttrGet&#xA;FileAttrSet&#xA;FileClose&#xA;FileCompare&#xA;FileCopy&#xA;FileCopyAttr&#xA;FileDelete&#xA;FileExist&#xA;FileExtension&#xA;FileFullName&#xA;FileItemize&#xA;FileLocate&#xA;FileMapName&#xA;FileMove&#xA;FileMoveAttr&#xA;FileNameLong&#xA;FileNameShort&#xA;FileOpen&#xA;FilePath&#xA;FileRead&#xA;FileRename&#xA;FileRoot&#xA;FileSize&#xA;FileTimeCode&#xA;FileTimeGet&#xA;FileTimeGetEx&#xA;FileTimeSet&#xA;FileTimeSetEx&#xA;FileTimeTouch&#xA;FileVerInfo&#xA;FileWrite&#xA;FileYmdHms&#xA;FindWindow&#xA;Floor&#xA;For&#xA;GetExactTime&#xA;GetTickCount&#xA;GoSub&#xA;Gotolabel&#xA;IconReplace&#xA;If&#xA;IniDelete&#xA;IniDeletePvt&#xA;IniItemize&#xA;IniItemizePvt&#xA;IniRead&#xA;IniReadPvt&#xA;IniWrite&#xA;IniWritePvt&#xA;InstallFile&#xA;Int&#xA;IntControl&#xA;IsDefined&#xA;IsFloat&#xA;IsInt&#xA;IsKeyDown&#xA;IsLicensed&#xA;IsMenuChecked&#xA;IsMenuEnabled&#xA;IsNumber&#xA;ItemCount&#xA;ItemExtract&#xA;ItemInsert&#xA;ItemLocate&#xA;ItemRemove&#xA;ItemSort&#xA;KeyToggleGet&#xA;KeyToggleSet&#xA;LastError&#xA;Log10&#xA;LogDisk&#xA;LogE&#xA;Max&#xA;MenuChange&#xA;Message&#xA;Min&#xA;MouseClick&#xA;MouseClickBtn&#xA;MouseCoords&#xA;MouseInfo&#xA;MouseMove&#xA;MsgTextGet&#xA;NetInfo&#xA;Num2Char&#xA;ParseData&#xA;Pause&#xA;PlayMedia&#xA;PlayMidi&#xA;PlayWaveForm&#xA;Print&#xA;Random&#xA;RegApp&#xA;RegCloseKey&#xA;RegConnect&#xA;RegCreateKey&#xA;RegDeleteKey&#xA;RegDelValue&#xA;RegEntryType&#xA;RegExistKey&#xA;RegExistValue&#xA;RegLoadHive&#xA;RegOpenKey&#xA;RegQueryBin&#xA;RegQueryDword&#xA;RegQueryEx&#xA;RegQueryExpSz&#xA;RegQueryItem&#xA;RegQueryKey&#xA;RegQueryKeys&#xA;RegQueryMulSz&#xA;RegQueryValue&#xA;RegSetBin&#xA;RegSetDword&#xA;RegSetEx&#xA;RegSetExpSz&#xA;RegSetMulSz&#xA;RegSetValue&#xA;RegUnloadHive&#xA;Reload&#xA;Return&#xA;Run&#xA;RunEnviron&#xA;RunHide&#xA;RunHideWait&#xA;RunIcon&#xA;RunIconWait&#xA;RunShell&#xA;RunWait&#xA;RunZoom&#xA;RunZoomWait&#xA;Selectvarname&#xA;SendKey&#xA;SendKeysChild&#xA;SendKeysTo&#xA;SendMenusTo&#xA;ShellExecute&#xA;ShortcutDir&#xA;ShortcutEdit&#xA;ShortcutExtra&#xA;ShortcutInfo&#xA;ShortcutMake&#xA;Sin&#xA;Sinh&#xA;SnapShot&#xA;Sounds&#xA;Sqrt&#xA;StrCat&#xA;StrCharCount&#xA;StrCmp&#xA;StrFill&#xA;StrFix&#xA;StrFixChars&#xA;StrFixCharsL&#xA;StrFixLeft&#xA;StriCmp&#xA;StrIndex&#xA;StrIndexNc&#xA;StrIndexWild&#xA;StrLen&#xA;StrLenWild&#xA;StrLower&#xA;StrReplace&#xA;StrScan&#xA;StrSub&#xA;StrSubWild&#xA;StrTrim&#xA;StrUpper&#xA;Switchvarname&#xA;Tan&#xA;Tanh&#xA;Terminate&#xA;TimeAdd&#xA;TimeDate&#xA;TimeDayofWeek&#xA;TimeDayofYear&#xA;TimeDelay&#xA;TimeDiff&#xA;TimeDiffDays&#xA;TimeDiffSecs&#xA;TimeJulianDay&#xA;TimeJulToYmd&#xA;TimeSubtract&#xA;TimeWait&#xA;TimeYmdHms&#xA;to&#xA;Version&#xA;VersionDLL&#xA;WaitForKey&#xA;WallPaper&#xA;While&#xA;WinActivate&#xA;WinActivChild&#xA;WinArrange&#xA;WinClose&#xA;WinExeName&#xA;WinExist&#xA;WinExistChild&#xA;WinGetActive&#xA;WinHelp&#xA;WinHide&#xA;WinIconize&#xA;WinIdGet&#xA;WinIsDOS&#xA;WinItemChild&#xA;WinItemize&#xA;WinItemizeEx&#xA;WinItemNameId&#xA;WinItemProcID&#xA;WinMetrics&#xA;WinName&#xA;WinParmGet&#xA;WinParmSet&#xA;WinPlace&#xA;WinPlaceGet&#xA;WinPlaceSet&#xA;WinPosition&#xA;WinResources&#xA;WinShow&#xA;WinState&#xA;WinSysInfo&#xA;WinTitle&#xA;WinVersion&#xA;WinWaitChild&#xA;WinWaitClose&#xA;WinWaitExist&#xA;WinZoom&#xA;Yield&#xA;Yields&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

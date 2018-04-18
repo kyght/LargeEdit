@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="FLISP" FileType="" Extensions="DCL LSP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:flisp.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,-./:;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="boxed_column&#xA;boxed_radio_column&#xA;boxed_radio_row&#xA;boxed_row&#xA;button&#xA;column&#xA;concatenation&#xA;dialog&#xA;edit_box&#xA;errtile&#xA;image&#xA;image_button&#xA;list_box&#xA;ok_only&#xA;ok_cancel&#xA;ok_cancel_help&#xA;ok_cancel_help_errtile&#xA;ok_cancel_help_info&#xA;paragraph&#xA;popup_list&#xA;radio_button&#xA;radio_column&#xA;radio_row&#xA;row&#xA;slider&#xA;spacer&#xA;spacer_0&#xA;spacer_1&#xA;text&#xA;text_part&#xA;toggle&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="@include&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="action&#xA;alignment&#xA;allow_accept&#xA;aspect_ratio&#xA;big_increment&#xA;children_alignment&#xA;children_fixed_height&#xA;children_fixed_width&#xA;color&#xA;edit_limit&#xA;edit_width&#xA;fixed_height&#xA;fixed_width&#xA;height&#xA;initial_focus&#xA;is_bold&#xA;is_cancel&#xA;is_default&#xA;is_enabled&#xA;is_tab_stop&#xA;key&#xA;label&#xA;layout&#xA;list&#xA;max_value&#xA;min_value&#xA;mnemonic&#xA;multiple_select&#xA;small_increment&#xA;tabs&#xA;value&#xA;width&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="abs&#xA;acad_colordlg&#xA;acad_helpdlg&#xA;acad_strlsort&#xA;action_tile&#xA;add_list&#xA;ads&#xA;alert&#xA;alloc&#xA;and&#xA;angle&#xA;angtof&#xA;angtos&#xA;append&#xA;apply&#xA;arx&#xA;arxload&#xA;arxunload&#xA;ascii&#xA;assoc&#xA;atan&#xA;atof&#xA;atoi&#xA;atom&#xA;atoms_family&#xA;autoarxload&#xA;autoload&#xA;autoxload&#xA;boole&#xA;boundp&#xA;car&#xA;cdr&#xA;caar&#xA;cadr&#xA;cddr&#xA;caaar&#xA;caadr&#xA;cadar&#xA;caddr&#xA;cdaar&#xA;cdadr&#xA;cddar&#xA;cdddr&#xA;caaadr&#xA;caadar&#xA;cadaar&#xA;cdaaar&#xA;caaddr&#xA;caddar&#xA;cddaar&#xA;cadadr&#xA;caaaar&#xA;cdadar&#xA;cdaadr&#xA;cadddr&#xA;cdaddr&#xA;cddadr&#xA;cdddar&#xA;cddddr&#xA;chr&#xA;client_data_tile&#xA;close&#xA;command&#xA;cond&#xA;cons&#xA;cos&#xA;cvunit&#xA;dictnext&#xA;dictsearch&#xA;dimx_tile&#xA;dimy_tile&#xA;distance&#xA;distof&#xA;done_dialog&#xA;end_image&#xA;end_list&#xA;entdel&#xA;entget&#xA;entlast&#xA;entmake&#xA;entmod&#xA;entnext&#xA;entsel&#xA;entupd&#xA;eq&#xA;equal&#xA;eval&#xA;exit&#xA;exp&#xA;expand&#xA;expt&#xA;fill_image&#xA;findfile&#xA;fix&#xA;float&#xA;foreach&#xA;gc&#xA;gcd&#xA;get_attr&#xA;get_tile&#xA;getangle&#xA;getcfg&#xA;getcorner&#xA;getdist&#xA;getenv&#xA;getfiled&#xA;getint&#xA;getkword&#xA;getorient&#xA;getpoint&#xA;getreal&#xA;getstring&#xA;getvar&#xA;graphscr&#xA;grclear&#xA;grdraw&#xA;grread&#xA;grtext&#xA;grvecs&#xA;handent&#xA;help&#xA;if&#xA;initget&#xA;inters&#xA;itoa&#xA;lambda&#xA;last&#xA;length&#xA;listp&#xA;load_dialog&#xA;load&#xA;log&#xA;logand&#xA;logior&#xA;lsh&#xA;mapcar&#xA;max&#xA;mem&#xA;member&#xA;menucmd&#xA;min&#xA;minusp&#xA;mode_tile&#xA;namedobjdict&#xA;nentsel&#xA;nentselp&#xA;new_dialog&#xA;not&#xA;nth&#xA;null&#xA;numberp&#xA;open&#xA;or&#xA;osnap&#xA;polar&#xA;prin1&#xA;princ&#xA;print&#xA;progn&#xA;prompt&#xA;quit&#xA;quote&#xA;read&#xA;read_char&#xA;read_line&#xA;redraw&#xA;regapp&#xA;rem&#xA;repeat&#xA;reverse&#xA;rtos&#xA;set&#xA;set_tile&#xA;setcfg&#xA;setfunhelp&#xA;setq&#xA;setvar&#xA;sin&#xA;slide_image&#xA;snvalid&#xA;sqrt&#xA;ssadd&#xA;ssdel&#xA;ssget&#xA;sslength&#xA;ssmemb&#xA;ssname&#xA;startapp&#xA;start_dialog&#xA;start_image&#xA;start_list&#xA;strcase&#xA;strcat&#xA;strlen&#xA;subst&#xA;substr&#xA;tablet&#xA;tblnext&#xA;tblobjname&#xA;tblsearch&#xA;term_dialog&#xA;terpri&#xA;textbox&#xA;textpage&#xA;textscr&#xA;trace&#xA;trans&#xA;type&#xA;unload_dialog&#xA;untrace&#xA;vector_image&#xA;ver&#xA;vmon&#xA;vports&#xA;wcmatch&#xA;while&#xA;write_char&#xA;write_line&#xA;xdroom&#xA;xdsize&#xA;xload&#xA;xunload&#xA;zerop&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="defun&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks :" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks ;|..|;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";|" Close="|;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

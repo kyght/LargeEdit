@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Haskell" FileType="" Extensions="HS LHS XHS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:haskell.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="(),;[]`{}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="(&#xA;)&#xA;Addr&#xA;EQ&#xA;EmptyRec&#xA;EmptyRow&#xA;Either&#xA;False&#xA;FilePath&#xA;GT&#xA;Hugs_Error&#xA;Hugs_ExitWith&#xA;Hugs_Return&#xA;Hugs_SuspendThread&#xA;IO&#xA;IOError&#xA;IOResult&#xA;Just&#xA;LT&#xA;Left&#xA;Maybe&#xA;Nothing&#xA;Ordering&#xA;Rec&#xA;Right&#xA;Ratio&#xA;Rational&#xA;ST&#xA;True&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="_&#xA;=&#xA;=&gt;&#xA;|&#xA;&lt;-&#xA;-&gt;&#xA;,&#xA;..&#xA;:&#xA;::&#xA;class&#xA;case&#xA;data&#xA;deriving&#xA;do&#xA;else&#xA;import&#xA;instance&#xA;if&#xA;in&#xA;let&#xA;module&#xA;newtype&#xA;of&#xA;primitive&#xA;type&#xA;then&#xA;where&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="&amp;&amp;&#xA;||&#xA;//&#xA;/=&#xA;/&#xA;==&#xA;!&#xA;!!&#xA;+&#xA;++&#xA;-&#xA;*&#xA;**&#xA;&lt;&#xA;&lt;=&#xA;&gt;&#xA;&gt;&gt;&#xA;&gt;&gt;=&#xA;&gt;=&#xA;abs&#xA;absReal&#xA;accumulate&#xA;acos&#xA;acosh&#xA;all&#xA;and&#xA;any&#xA;appendFile&#xA;applyM&#xA;approxRational&#xA;asTypeOf&#xA;asciiTab&#xA;asin&#xA;asinh&#xA;atan&#xA;atan2&#xA;atanh&#xA;break&#xA;catch&#xA;ceiling&#xA;chr&#xA;compare&#xA;concat&#xA;concatMap&#xA;const&#xA;cos&#xA;cosh&#xA;curry&#xA;cycle&#xA;decodeFloat&#xA;denominator&#xA;digitToInt&#xA;div&#xA;divMod&#xA;doubleToFloat&#xA;doubleToRatio&#xA;doubleToRational&#xA;drop&#xA;dropWhile&#xA;either&#xA;elem&#xA;encodeFloat&#xA;enumFrom&#xA;enumFromThen&#xA;enumFromThenTo&#xA;enumFromTo&#xA;error&#xA;even&#xA;exp&#xA;exponent&#xA;fail&#xA;filter&#xA;flip&#xA;floatDigits&#xA;floatProperFraction&#xA;floatRadix&#xA;floatRange&#xA;floatToRational&#xA;floor&#xA;foldl&#xA;foldl'&#xA;foldl1&#xA;foldr&#xA;foldr1&#xA;fromDouble&#xA;fromEnum&#xA;fromInt&#xA;fromInteger&#xA;fromIntegral&#xA;fromRational&#xA;fromRealFrac&#xA;fst&#xA;gcd&#xA;getChar&#xA;getContents&#xA;getLine&#xA;guard&#xA;head&#xA;hugsIORun&#xA;hugsPutStr&#xA;id&#xA;inRange&#xA;index&#xA;init&#xA;intToDigit&#xA;intToRatio&#xA;interact&#xA;ioeGetErrorString&#xA;isAlpha&#xA;isAlphanum&#xA;isAscii&#xA;isControl&#xA;isDenormalized&#xA;isDigit&#xA;isHexDigit&#xA;isIEEE&#xA;isInfinite&#xA;isLower&#xA;isNaN&#xA;isNegativeZero&#xA;isOctDigit&#xA;isPrint&#xA;isSpace&#xA;isUpper&#xA;iterate&#xA;last&#xA;lcm&#xA;length&#xA;lex&#xA;lexDigits&#xA;lexLitChar&#xA;lexmatch&#xA;lines&#xA;log&#xA;logBase&#xA;lookup&#xA;map&#xA;mapM&#xA;mapM_&#xA;max&#xA;maxBound&#xA;maximum&#xA;maybe&#xA;min&#xA;minBound&#xA;minimum&#xA;mod&#xA;negate&#xA;nonnull&#xA;not&#xA;notElem&#xA;null&#xA;numerator&#xA;numericEnumFrom&#xA;numericEnumFromThen&#xA;numericEnumFromThenTo&#xA;numericEnumFromTo&#xA;odd&#xA;or&#xA;ord&#xA;otherwise&#xA;pi&#xA;pred&#xA;primAcosDouble&#xA;primAcosFloat&#xA;primAsinDouble&#xA;primAsinFloat&#xA;primAtanDouble&#xA;primAtanFloat&#xA;primCharToInt&#xA;primCmpChar&#xA;primCmpDouble&#xA;primCmpFloat&#xA;primCmpInt&#xA;primCmpInteger&#xA;primCompAux&#xA;primCosDouble&#xA;primCosFloat&#xA;primDivDouble&#xA;primDivFloat&#xA;primDivInt&#xA;primDoubleDecode&#xA;primDoubleDigits&#xA;primDoubleEncode&#xA;primDoubleMaxExp&#xA;primDoubleMinExp&#xA;primDoubleRadix&#xA;primEqChar&#xA;primEqDouble&#xA;primEqFloat&#xA;primEqInt&#xA;primEqInteger&#xA;primEvenInt&#xA;primEvenInteger&#xA;primExitWith&#xA;primExpDouble&#xA;primExpFloat&#xA;primFloatDecode&#xA;primFloatDigits&#xA;primFloatEncode&#xA;primFloatMaxExp&#xA;primFloatMinExp&#xA;primFloatRadix&#xA;primIntToChar&#xA;primIntToDouble&#xA;primIntToFloat&#xA;primIntToInteger&#xA;primIntegerToDouble&#xA;primIntegerToFloat&#xA;primIntegerToInt&#xA;primLogDouble&#xA;primLogFloat&#xA;primMaxInt&#xA;primMinInt&#xA;primMinusDouble&#xA;primMinusFloat&#xA;primMinusInt&#xA;primMinusInteger&#xA;primModInt&#xA;primMulDouble&#xA;primMulFloat&#xA;primMulInt&#xA;primMulInteger&#xA;primNegDouble&#xA;primNegFloat&#xA;primNegInt&#xA;primNegInteger&#xA;primPiDouble&#xA;primPiFloat&#xA;primPlusDouble&#xA;primPlusFloat&#xA;primPlusInt&#xA;primPlusInteger&#xA;primPmFlt&#xA;primPmInt&#xA;primPmInteger&#xA;primPmNpk&#xA;primPmSub&#xA;primQrmInt&#xA;primQrmInteger&#xA;primQuotInt&#xA;primRationalToDouble&#xA;primRationalToFloat&#xA;primRemInt&#xA;primShowsDouble&#xA;primShowsFloat&#xA;primShowsInt&#xA;primShowsInteger&#xA;primSinDouble&#xA;primSinFloat&#xA;primSqrtDouble&#xA;primSqrtFloat&#xA;primTanDouble&#xA;primTanFloat&#xA;primbindIO&#xA;primretIO&#xA;print&#xA;product&#xA;properFraction&#xA;protectEsc&#xA;putChar&#xA;putStr&#xA;putStrLn&#xA;quot&#xA;quotRem&#xA;range&#xA;rangeSize&#xA;rationalToDouble&#xA;rationalToFloat&#xA;rationalToRealFloat&#xA;read&#xA;readDec&#xA;readField&#xA;readFile&#xA;readFloat&#xA;readHex&#xA;readIO&#xA;readInt&#xA;readList&#xA;readLitChar&#xA;readLn&#xA;readOct&#xA;readParen&#xA;readSigned&#xA;reads&#xA;readsPrec&#xA;realFloatToRational&#xA;recip&#xA;reduce&#xA;rem&#xA;repeat&#xA;replicate&#xA;return&#xA;reverse&#xA;round&#xA;scaleFloat&#xA;scanl&#xA;scanl1&#xA;scanr&#xA;scanr1&#xA;seq&#xA;sequence&#xA;show&#xA;showChar&#xA;showField&#xA;showInt&#xA;showList&#xA;showLitChar&#xA;showParen&#xA;showSigned&#xA;showString&#xA;shows&#xA;showsPrec&#xA;significand&#xA;signum&#xA;signumReal&#xA;sin&#xA;sinh&#xA;snd&#xA;span&#xA;splitAt&#xA;sqrt&#xA;strict&#xA;subtract&#xA;succ&#xA;sum&#xA;tail&#xA;take&#xA;takeWhile&#xA;tan&#xA;tanh&#xA;toEnum&#xA;toInt&#xA;toInteger&#xA;toLower&#xA;toRational&#xA;toUpper&#xA;truncate&#xA;uncurry&#xA;undefined&#xA;unlines&#xA;until&#xA;unwords&#xA;unzip&#xA;unzip3&#xA;userError&#xA;words&#xA;writeFile&#xA;zero&#xA;zip&#xA;zip3&#xA;zipWith&#xA;zipWith3&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="Bool&#xA;Char&#xA;Float&#xA;Int&#xA;Integer&#xA;Long&#xA;String&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="Bounded&#xA;Double&#xA;Enum&#xA;Eq&#xA;Eval&#xA;Functor&#xA;Fractional&#xA;Floating&#xA;Ix&#xA;Integral&#xA;Monad&#xA;MonadZero&#xA;MonadPlus&#xA;Num&#xA;Ord&#xA;Read&#xA;Real&#xA;RealFrac&#xA;RealFloat&#xA;Show&#xA;Void&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks {-..-}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{-" Close="-}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

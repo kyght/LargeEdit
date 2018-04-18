@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Mapserver Files" FileType="" Extensions="MAP SYM LIST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:mapserver.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="class&#xA;end&#xA;feature&#xA;fontset&#xA;join&#xA;label&#xA;layer&#xA;legend&#xA;lineset&#xA;markerset&#xA;points&#xA;projection&#xA;query&#xA;querymap&#xA;reference&#xA;scalebar&#xA;shadeset&#xA;style&#xA;symbol&#xA;symbolset&#xA;web&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties" Enabled="True" Style="" Words="antialias&#xA;backgroundcolor&#xA;backgroundshadowcolor&#xA;backgroundshadowsize&#xA;buffer&#xA;character&#xA;classitem&#xA;color&#xA;connection&#xA;connectiontype&#xA;data&#xA;description&#xA;embed&#xA;empty&#xA;error&#xA;expression&#xA;extent&#xA;filled&#xA;font&#xA;footer&#xA;force&#xA;from&#xA;group&#xA;header&#xA;image&#xA;imagecolor&#xA;imagepath&#xA;imageurl&#xA;interlace&#xA;intervals&#xA;labelangleitem&#xA;labelcache&#xA;labelitem&#xA;labelmaxscale&#xA;labelminscale&#xA;log&#xA;maxfeatures&#xA;maxscale&#xA;maxsize&#xA;maxtemplate&#xA;mindistance&#xA;minfeaturesize&#xA;minscale&#xA;minsize&#xA;mintemplate&#xA;name&#xA;offset&#xA;outlinecolor&#xA;partials&#xA;position&#xA;postlabelcache&#xA;scale&#xA;shapepath&#xA;size&#xA;spacing&#xA;status&#xA;styled&#xA;symbolscale&#xA;table&#xA;template&#xA;text&#xA;tiletileindex&#xA;tileitem&#xA;to&#xA;tolerance&#xA;toleranceunits&#xA;transformtransparent&#xA;transparent&#xA;type&#xA;units&#xA;wrap&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="annotation&#xA;auto&#xA;bitmap&#xA;cc&#xA;cl&#xA;cr&#xA;dd&#xA;default&#xA;ellipse&#xA;false&#xA;feet&#xA;giant&#xA;hilite&#xA;inches&#xA;kilometers&#xA;large&#xA;lc&#xA;line&#xA;ll&#xA;local&#xA;lr&#xA;medium&#xA;meters&#xA;miles&#xA;multiple&#xA;normal&#xA;off&#xA;on&#xA;pixmap&#xA;pixels&#xA;point&#xA;polygon&#xA;polyline&#xA;queryonly&#xA;raster&#xA;sde&#xA;selected&#xA;single&#xA;small&#xA;tiny&#xA;true&#xA;truetype&#xA;uc&#xA;ul&#xA;ur&#xA;vector&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="UNIX Shell Scripts" FileType="" Extensions="sh ksh csh SH KSH CSH" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:unixshell.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%'+,./:;\^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMAND" Enabled="True" Style="" Words="alias&#xA;admin&#xA;apropos&#xA;ar&#xA;as&#xA;at&#xA;atq&#xA;atrm&#xA;awk&#xA;banner&#xA;basename&#xA;batch&#xA;bc&#xA;bdiff&#xA;bfs&#xA;bg&#xA;break&#xA;cal&#xA;calendar&#xA;cancel&#xA;cat&#xA;cb&#xA;cc&#xA;cd&#xA;cdc&#xA;cflow&#xA;chgrp&#xA;chmod&#xA;chown&#xA;clear&#xA;cmp&#xA;col&#xA;comb&#xA;comm&#xA;compress&#xA;continue&#xA;cp&#xA;cpio&#xA;crontab&#xA;crypt&#xA;cscope&#xA;csh&#xA;csplit&#xA;ctags&#xA;ctrace&#xA;cu&#xA;cut&#xA;cxref&#xA;date&#xA;dbx&#xA;dc&#xA;dd&#xA;delta&#xA;deroff&#xA;df&#xA;diff&#xA;diff3&#xA;dircmp&#xA;dirname&#xA;dis&#xA;download&#xA;dpost&#xA;du&#xA;echo&#xA;ed&#xA;edit&#xA;egrep&#xA;env&#xA;ed&#xA;edpr&#xA;eval&#xA;exec&#xA;exstr&#xA;exit&#xA;export&#xA;face&#xA;factor&#xA;false&#xA;fg&#xA;fgrep&#xA;file&#xA;find&#xA;finger&#xA;fmli&#xA;fmt&#xA;fmtmsg&#xA;fold&#xA;ftp&#xA;function&#xA;gcore&#xA;gencat&#xA;get&#xA;getopts&#xA;gettxt&#xA;gprof&#xA;grep&#xA;groups&#xA;hash&#xA;head&#xA;help&#xA;hostid&#xA;hostname&#xA;iconv&#xA;id&#xA;install&#xA;ipcrm&#xA;ipcs&#xA;ismpx&#xA;join&#xA;jsh&#xA;jterm&#xA;jobs&#xA;jwin&#xA;keylogin&#xA;keylogout&#xA;kill&#xA;ksh&#xA;layers&#xA;ld&#xA;ldd&#xA;lex&#xA;line&#xA;lint&#xA;ln&#xA;login&#xA;logname&#xA;lorder&#xA;lp&#xA;lpq&#xA;lpr&#xA;lprm&#xA;lprof&#xA;lpstat&#xA;lptest&#xA;ls&#xA;lsm4&#xA;mail&#xA;mailalias&#xA;mailx&#xA;make&#xA;makekey&#xA;man&#xA;mcs&#xA;mesg&#xA;mkdir&#xA;mkmsgs&#xA;more&#xA;mv&#xA;nawk&#xA;newform&#xA;newgrp&#xA;news&#xA;nice&#xA;nl&#xA;nm&#xA;nohup&#xA;notify&#xA;nroff&#xA;od&#xA;openwin&#xA;pack&#xA;page&#xA;passwd&#xA;paste&#xA;pcat&#xA;pg&#xA;pic&#xA;pr&#xA;printenv&#xA;printf&#xA;prof&#xA;prs&#xA;ps&#xA;ptx&#xA;pwd&#xA;rcp&#xA;read&#xA;readonly&#xA;red&#xA;regcmp&#xA;relogin&#xA;reset&#xA;return&#xA;rksh&#xA;rlogin&#xA;rm&#xA;rmdel&#xA;rmdir&#xA;rsh&#xA;ruptime&#xA;rwho&#xA;sact&#xA;sccs&#xA;sccsdiff&#xA;sdb&#xA;sdiff&#xA;sed&#xA;select&#xA;set&#xA;sh&#xA;shl&#xA;shift&#xA;shutdown&#xA;size&#xA;sleep&#xA;soelim&#xA;sort&#xA;spell&#xA;split&#xA;srchtxt&#xA;strings&#xA;strip&#xA;stop&#xA;stty&#xA;su&#xA;sum&#xA;suspend&#xA;tabs&#xA;tail&#xA;talk&#xA;tar&#xA;tbl&#xA;tee&#xA;telnet&#xA;test&#xA;time&#xA;timex&#xA;touch&#xA;tput&#xA;tr&#xA;trap&#xA;troff&#xA;true&#xA;truss&#xA;tset&#xA;tsort&#xA;tty&#xA;type&#xA;typeset&#xA;ulimit&#xA;umask&#xA;uname&#xA;uncompress&#xA;unget&#xA;uniq&#xA;unit&#xA;unpack&#xA;unset&#xA;uptime&#xA;users&#xA;uucp&#xA;uudecode&#xA;uuencode&#xA;uuglist&#xA;uulog&#xA;uunmae&#xA;uupick&#xA;uustat&#xA;uuto&#xA;uux&#xA;vacation&#xA;val&#xA;vc&#xA;vedit&#xA;vi&#xA;view&#xA;w&#xA;wait&#xA;wall&#xA;wc&#xA;what&#xA;whatis&#xA;which&#xA;who&#xA;whoami&#xA;write&#xA;xargs&#xA;yacc&#xA;zcat&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL VARIABLES" Enabled="True" Style="" Words="CDPATH&#xA;DEBUG&#xA;DIR&#xA;DIR_LIST&#xA;EDITOR&#xA;FILE_NAME&#xA;FILENAME&#xA;HOME&#xA;IFS&#xA;LANG&#xA;MAIL&#xA;MAILCHECK&#xA;MAILPATH&#xA;OLDPWD&#xA;PATH&#xA;PPID&#xA;PS1&#xA;PS2&#xA;PS3&#xA;REPLY&#xA;SAVE_STS&#xA;SAVE_LST&#xA;SHACCT&#xA;SHELL&#xA;SOURCE&#xA;SOURCE_LIST&#xA;TERM&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="CONTROL COMMANDS" Enabled="True" Style="" Words="case&#xA;do&#xA;done&#xA;elif&#xA;else&#xA;esac&#xA;endif&#xA;fi&#xA;for&#xA;if&#xA;in&#xA;then&#xA;until&#xA;while&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="!&#xA;!=&#xA;%&#xA;&amp;&#xA;&amp;&amp;&#xA;((&#xA;))&#xA;+&#xA;-&#xA;//&#xA;/&#xA;&lt;=&#xA;=&#xA;=&gt;&#xA;[[&#xA;]]&#xA;^&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="I/O REDIRECTION OPERATORS" Enabled="True" Style="" Words="&gt;&#xA;&gt;&gt;&#xA;&gt;&amp;&#xA;&lt;&#xA;&lt;&lt;&#xA;&lt;&amp;&#xA;|&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL PARAMETERS" Enabled="True" Style="" Words="$#&#xA;$-&#xA;$?&#xA;$!&#xA;$*&#xA;$@&#xA;$$&#xA;$0&#xA;$1&#xA;$2&#xA;$3&#xA;$4&#xA;$5&#xA;$6&#xA;$7&#xA;$8&#xA;$9&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="CONDITIONAL PARAMETER" Enabled="True" Style="" Words="-a&#xA;-o&#xA;-eq&#xA;-ne&#xA;-le&#xA;-lt&#xA;-ge&#xA;-gt&#xA;-b&#xA;-c&#xA;-d&#xA;-f&#xA;-g&#xA;-k&#xA;-l&#xA;-p&#xA;-r&#xA;-s&#xA;-S&#xA;-t&#xA;-u&#xA;-w&#xA;-x&#xA;-n&#xA;-z&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings `..`" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="`" Close="`"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

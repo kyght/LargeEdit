@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="XSL stylesheet" FileType="" Extensions="XSL XSLT" Version="1" Revision="0" Sample="&lt;?xml version=&quot;1.0&quot;?&gt;&#xA;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; version=&quot;1.0&quot;&gt;&#xA;&lt;!--xsl:output method=&quot;html&quot; indent=&quot;yes&quot;/--&gt;&#xA;&lt;xsl:template match=&quot;/&quot;&gt;&#xA;  &lt;html&gt;&lt;body&gt;&lt;xsl:apply-templates/&gt;&lt;/body&gt;&lt;/html&gt;&lt;/xsl:template&gt;&#xA;&lt;xsl:template match=&quot;portfolio&quot;&gt;&#xA;   &lt;table border=&quot;2&quot; width=&quot;50%&quot;&gt;&#xA;     &lt;xsl:for-each select=&quot;stock&quot;&gt;&#xA;       &lt;tr&gt;&#xA;         &lt;td&gt;&#xA;           &lt;i&gt;&lt;xsl:value-of select=&#xA;           &quot;symbol&quot;/&gt;&lt;/i&gt;&#xA;         &lt;/td&gt;&#xA;       &lt;td&gt;&#xA;          &lt;xsl:value-of select=&quot;name&quot;/&gt;&#xA;        &lt;/td&gt;&#xA;       &lt;td&gt;&#xA;          &lt;xsl:value-of select=&quot;price&quot;/&gt;&#xA;       &lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;      &lt;/xsl:for-each&gt;&#xA;    &lt;/table&gt;&#xA;  &lt;/xsl:template&gt;&#xA;&lt;/xsl:stylesheet&gt;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.;&lt;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="HTML" Enabled="True" Style="" Words="&lt;a&gt;&#xA;&lt;a&#xA;&lt;/a&gt;&#xA;&lt;abbr&gt;&#xA;&lt;abbr&#xA;&lt;/abbr&gt;&#xA;&lt;above&gt;&#xA;&lt;acronym&gt;&#xA;&lt;acronym&#xA;&lt;/acronym&gt;&#xA;&lt;address&gt;&#xA;&lt;address&#xA;&lt;/address&gt;&#xA;&lt;area&#xA;&lt;b&gt;&#xA;&lt;b&#xA;&lt;/b&gt;&#xA;&lt;base&#xA;&lt;bdo&gt;&#xA;&lt;bdo&#xA;&lt;/bdo&gt;&#xA;&lt;big&gt;&#xA;&lt;big&#xA;&lt;/big&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;blockquote&#xA;&lt;/blockquote&gt;&#xA;&lt;body&#xA;&lt;body&gt;&#xA;&lt;/body&gt;&#xA;&lt;br&#xA;&lt;button&gt;&#xA;&lt;/button&gt;&#xA;&lt;caption&gt;&#xA;&lt;caption&#xA;&lt;/caption&gt;&#xA;&lt;cite&gt;&#xA;&lt;cite&#xA;&lt;/cite&gt;&#xA;&lt;code&gt;&#xA;&lt;code&#xA;&lt;/code&gt;&#xA;&lt;col&#xA;&lt;colgroup&gt;&#xA;&lt;/colgroup&gt;&#xA;&lt;dd&gt;&#xA;&lt;dd&#xA;&lt;/dd&gt;&#xA;&lt;del&gt;&#xA;&lt;del&#xA;&lt;/del&gt;&#xA;&lt;dfn&gt;&#xA;&lt;dfn&#xA;&lt;/dfn&gt;&#xA;&lt;div&gt;&#xA;&lt;div&#xA;&lt;/div&gt;&#xA;&lt;dl&gt;&#xA;&lt;dl&#xA;&lt;/dl&gt;&#xA;&lt;dt&gt;&#xA;&lt;dt&#xA;&lt;/dt&gt;&#xA;&lt;em&gt;&#xA;&lt;em&#xA;&lt;/em&gt;&#xA;&lt;fieldset&gt;&#xA;&lt;fieldset&#xA;&lt;/fieldset&gt;&#xA;&lt;font&#xA;&lt;/font&gt;&#xA;&lt;form&gt;&#xA;&lt;form&#xA;&lt;/form&gt;&#xA;&lt;frame&#xA;&lt;frameset&#xA;&lt;/frameset&gt;&#xA;&lt;h1&gt;&#xA;&lt;h1&#xA;&lt;/h1&gt;&#xA;&lt;h2&gt;&#xA;&lt;h2&#xA;&lt;/h2&gt;&#xA;&lt;h3&gt;&#xA;&lt;h3&#xA;&lt;/h3&gt;&#xA;&lt;h4&gt;&#xA;&lt;h4&#xA;&lt;/h4&gt;&#xA;&lt;h5&gt;&#xA;&lt;h5&#xA;&lt;/h5&gt;&#xA;&lt;h6&gt;&#xA;&lt;h6&#xA;&lt;/h6&gt;&#xA;&lt;head&gt;&#xA;&lt;head&#xA;&lt;/head&gt;&#xA;&lt;hr&#xA;&lt;html&gt;&#xA;&lt;html&#xA;&lt;/html&gt;&#xA;&lt;i&gt;&#xA;&lt;i&#xA;&lt;/i&gt;&#xA;&lt;iframe&gt;&#xA;&lt;/iframe&gt;&#xA;&lt;ilayer&gt;&#xA;&lt;/ilayer&gt;&#xA;&lt;img&#xA;&lt;input&#xA;&lt;ins&gt;&#xA;&lt;ins&#xA;&lt;/ins&gt;&#xA;&lt;isindex&#xA;&lt;kbd&gt;&#xA;&lt;kbd&#xA;&lt;/kbd&gt;&#xA;&lt;label&gt;&#xA;&lt;label&#xA;&lt;/label&gt;&#xA;&lt;legend&gt;&#xA;&lt;legend&#xA;&lt;/legend&gt;&#xA;&lt;li&gt;&#xA;&lt;li&#xA;&lt;/li&gt;&#xA;&lt;link&#xA;&lt;map&#xA;&lt;/map&gt;&#xA;&lt;meta&#xA;&lt;noframes&gt;&#xA;&lt;/noframes&gt;&#xA;&lt;noscript&gt;&#xA;&lt;/noscript&gt;&#xA;&lt;object&gt;&#xA;&lt;object&#xA;&lt;ol&gt;&#xA;&lt;ol&#xA;&lt;/ol&gt;&#xA;&lt;optgroup&gt;&#xA;&lt;optgroup&#xA;&lt;/optgroup&gt;&#xA;&lt;option&gt;&#xA;&lt;option&#xA;&lt;/option&gt;&#xA;&lt;p&#xA;&lt;p&gt;&#xA;&lt;/p&gt;&#xA;&lt;param&#xA;&lt;pre&gt;&#xA;&lt;pre&#xA;&lt;/pre&gt;&#xA;&lt;q&gt;&#xA;&lt;q&#xA;&lt;/q&gt;&#xA;&lt;samp&gt;&#xA;&lt;samp&#xA;&lt;/samp&gt;&#xA;&lt;script&#xA;&lt;script&gt;&#xA;&lt;/script&gt;&#xA;&lt;select&#xA;&lt;/select&gt;&#xA;&lt;small&gt;&#xA;&lt;small&#xA;&lt;/small&gt;&#xA;&lt;span&gt;&#xA;&lt;span&#xA;&lt;/span&gt;&#xA;&lt;strong&gt;&#xA;&lt;strong&#xA;&lt;/strong&gt;&#xA;&lt;style&gt;&#xA;&lt;style&#xA;&lt;/style&gt;&#xA;&lt;sub&gt;&#xA;&lt;sub&#xA;&lt;/sub&gt;&#xA;&lt;sup&gt;&#xA;&lt;sup&#xA;&lt;/sup&gt;&#xA;&lt;table&gt;&#xA;&lt;table&#xA;&lt;/table&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tbody&#xA;&lt;/tbody&gt;&#xA;&lt;td&#xA;&lt;td&gt;&#xA;&lt;/td&gt;&#xA;&lt;textarea&#xA;&lt;textarea&gt;&#xA;&lt;/textarea&gt;&#xA;&lt;tfoot&gt;&#xA;&lt;tfoot&#xA;&lt;/tfoot&gt;&#xA;&lt;th&#xA;&lt;th&gt;&#xA;&lt;/th&gt;&#xA;&lt;thead&gt;&#xA;&lt;thead&#xA;&lt;/thead&gt;&#xA;&lt;title&gt;&#xA;&lt;/title&gt;&#xA;&lt;tr&#xA;&lt;tr&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tt&gt;&#xA;&lt;/tt&gt;&#xA;&lt;tt&#xA;&lt;ul&gt;&#xA;&lt;ul&#xA;&lt;/ul&gt;&#xA;&lt;var&gt;&#xA;&lt;/var&gt;&#xA;&lt;var&#xA;//&#xA;/&gt;&#xA;&gt;&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks &lt;!--..--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="XSL Header" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="$0080FF80" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;?xml" Close="?&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="XSL" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;xsl" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Properties" Enabled="True" Style="" Words="apply-word-spacing&#xA;auto-restore&#xA;azimuth&#xA;background&#xA;background-attachment&#xA;background-color&#xA;background-image&#xA;background-position&#xA;background-repeat&#xA;baseline-shift&#xA;blank-page&#xA;block-progression-dimension&#xA;border&#xA;border-after-color&#xA;border-after-style&#xA;border-after-width&#xA;border-before-color&#xA;border-before-style&#xA;border-before-width&#xA;border-bottom&#xA;border-bottom-color&#xA;border-bottom-style&#xA;border-bottom-width&#xA;border-collapse&#xA;border-color&#xA;border-end-color&#xA;border-end-style&#xA;border-end-width&#xA;border-left&#xA;border-left-color&#xA;border-left-style&#xA;border-left-width&#xA;border-right&#xA;border-right-color&#xA;border-right-style&#xA;border-right-width&#xA;border-spacing&#xA;border-start-color&#xA;border-start-style&#xA;border-start-width&#xA;border-style&#xA;border-top&#xA;border-top-color&#xA;border-top-style&#xA;border-top-width&#xA;border-width&#xA;bottom&#xA;break-after&#xA;break-before&#xA;caption-side&#xA;case-name&#xA;case-title&#xA;character&#xA;clear&#xA;clip&#xA;color&#xA;column-count&#xA;column-gap&#xA;column-number&#xA;column-width&#xA;country&#xA;cue&#xA;cue-after&#xA;cue-before&#xA;destination-placement-offset&#xA;direction&#xA;dom-state&#xA;elevation&#xA;empty-cells&#xA;end-indent&#xA;ends-row&#xA;extent&#xA;external-destination&#xA;float&#xA;flow-name&#xA;font&#xA;font-family&#xA;font-height-override-after&#xA;font-height-override-before&#xA;font-size&#xA;font-size-adjust&#xA;font-stretch&#xA;font-style&#xA;font-variant&#xA;font-weight&#xA;force-page-count&#xA;format&#xA;glyph-orientation-horizontal&#xA;glyph-orientation-vertical&#xA;grouping-separator&#xA;grouping-size&#xA;height&#xA;href&#xA;hyphenate&#xA;hyphenation-character&#xA;hyphenation-keep&#xA;hyphenation-ladder-count&#xA;hyphenation-push-character-count&#xA;hyphenation-remain-character-count&#xA;id&#xA;indicate-destination&#xA;inhibit-line-breaks&#xA;initial-page-number&#xA;inline-progression-dimension&#xA;internal-destination&#xA;keep&#xA;keep-with-next&#xA;keep-with-previous&#xA;language&#xA;last-line-end-indent&#xA;leader-alignment&#xA;leader-length&#xA;leader-pattern&#xA;leader-pattern-width&#xA;left&#xA;letter-spacing&#xA;letter-value&#xA;linefeed-treatment&#xA;line-height&#xA;line-height-shift-adjustment&#xA;line-stacking-strategy&#xA;margin&#xA;margin-bottom&#xA;margin-left&#xA;margin-right&#xA;margin-top&#xA;master-name&#xA;max-height&#xA;maximum-block-progression-dimension&#xA;maximum-inline-progression-dimension&#xA;maximum-repeats&#xA;max-width&#xA;may-break-after-row&#xA;may-break-before-row&#xA;min-height&#xA;minimum-block-progression-dimension&#xA;minimum-inline-progression-dimension&#xA;min-width&#xA;number-columns-repeated&#xA;number-columns-spanned&#xA;number-rows-spanned&#xA;odd-or-even&#xA;orphans&#xA;overflow&#xA;padding&#xA;padding-after&#xA;padding-before&#xA;padding-bottom&#xA;padding-end&#xA;padding-left&#xA;padding-right&#xA;padding-start&#xA;padding-top&#xA;page-break-after&#xA;page-break-before&#xA;page-break-inside&#xA;page-height&#xA;page-position&#xA;page-width&#xA;pause&#xA;pause-after&#xA;pause-before&#xA;pitch&#xA;pitch-range&#xA;play-during&#xA;position&#xA;precedence&#xA;provisional-distance-between-starts&#xA;provisional-label-separation&#xA;reference-orientation&#xA;ref-id&#xA;region-name&#xA;richness&#xA;right&#xA;role&#xA;rule-style&#xA;rule-thickness&#xA;scale&#xA;score-spaces&#xA;script&#xA;show-destination&#xA;size&#xA;source-document&#xA;space-after&#xA;space-before&#xA;space-end&#xA;space-start&#xA;space-treatment&#xA;span&#xA;speak&#xA;speak-header&#xA;speak-numeral&#xA;speak-punctuation&#xA;speech-rate&#xA;start-indent&#xA;starting-state&#xA;starts-row&#xA;stress&#xA;suppress-at-eol&#xA;switch-to&#xA;table-layout&#xA;table-omit-footer-at-break&#xA;table-omit-header-at-break&#xA;text-align&#xA;text-align-last&#xA;text-decoration&#xA;text-indent&#xA;text-shadow&#xA;text-transform&#xA;top&#xA;unicode-bidi&#xA;vertical-align&#xA;visibility&#xA;voice-family&#xA;volume&#xA;white-space&#xA;white-space-collapse&#xA;white-space-treatment&#xA;widows&#xA;width&#xA;word-spacing&#xA;wrap-option&#xA;writing-mode&#xA;xmllang&#xA;z-index&#xA;">
+              <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+            </KeyList>
+            <KeyList Name="Elements" Enabled="True" Style="" Words="apply-imports&#xA;apply-templates&#xA;attribute&#xA;attribute-set&#xA;call-template&#xA;choose&#xA;comment&#xA;copy&#xA;decimal-format&#xA;copy-of&#xA;element&#xA;fallback&#xA;for-each&#xA;if&#xA;import&#xA;include&#xA;key&#xA;message&#xA;namespace-alias&#xA;number&#xA;otherwise&#xA;output&#xA;param&#xA;preserve-space&#xA;processing-instruction&#xA;sort&#xA;strip-space&#xA;stylesheet&#xA;template&#xA;text&#xA;transform&#xA;value-of&#xA;variable&#xA;when&#xA;with-param&#xA;">
+              <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+            </KeyList>
+            <KeyList Name="Values" Enabled="True" Style="" Words="above&#xA;absolute&#xA;after&#xA;all&#xA;alpabetic&#xA;always&#xA;any&#xA;auto&#xA;avoid&#xA;backslant&#xA;baseline&#xA;before&#xA;behind&#xA;below&#xA;bidi-override&#xA;blank&#xA;blink&#xA;bold&#xA;bolder&#xA;both&#xA;bottom&#xA;capitalize&#xA;caption&#xA;center&#xA;center-left&#xA;center-right&#xA;code&#xA;collapse&#xA;column&#xA;condensed&#xA;consider-shifts&#xA;continuous&#xA;dashed&#xA;digits&#xA;disregard-shifts&#xA;dots&#xA;dotted&#xA;double&#xA;embed&#xA;end&#xA;even&#xA;even-page&#xA;expanded&#xA;extra-condensed&#xA;extra-expanded&#xA;false&#xA;far-left&#xA;far-right&#xA;fast&#xA;faster&#xA;first&#xA;fixed&#xA;font-height&#xA;groove&#xA;hidden&#xA;hide&#xA;high&#xA;higher&#xA;icon&#xA;ignore&#xA;indefinite&#xA;inherit&#xA;inside&#xA;italic&#xA;justify&#xA;landscape&#xA;last&#xA;left&#xA;left-side&#xA;leftwards&#xA;level&#xA;lighter&#xA;line-height&#xA;line-through&#xA;loud&#xA;low&#xA;lower&#xA;lowercase&#xA;lr&#xA;lr-tb&#xA;ltr&#xA;max-height&#xA;medium&#xA;menu&#xA;message-box&#xA;middle&#xA;mix?&#xA;narrower&#xA;new&#xA;no&#xA;no-force&#xA;no-limit&#xA;no-repeat&#xA;no-wrap&#xA;nonblank&#xA;none&#xA;normal&#xA;nowrap&#xA;oblique&#xA;odd&#xA;odd-page&#xA;once&#xA;outside&#xA;overline&#xA;page&#xA;portrait&#xA;pre&#xA;preserve&#xA;reference-area&#xA;relative&#xA;repeat&#xA;repeat-x&#xA;repeat-y&#xA;repeat?&#xA;replace&#xA;rest&#xA;retain&#xA;ridge&#xA;right&#xA;right-side&#xA;rightwards&#xA;rl&#xA;rl-tb&#xA;rtl&#xA;rule&#xA;scroll&#xA;semi-condensed&#xA;semi-expanded&#xA;separate&#xA;show&#xA;slow&#xA;slower&#xA;small-caps&#xA;small-caption&#xA;soft&#xA;solid&#xA;space&#xA;spell-out&#xA;spread&#xA;start&#xA;static&#xA;status-bar&#xA;sub&#xA;super&#xA;suppress&#xA;tb&#xA;tb-rl&#xA;text-bottom&#xA;text-top&#xA;top&#xA;traditional&#xA;transparent&#xA;treat-as-space&#xA;true&#xA;ultra-condensed&#xA;ultra-expanded&#xA;underline&#xA;uppercase&#xA;use-content&#xA;use-font-metrics&#xA;visible&#xA;wider&#xA;wrap&#xA;x-fast&#xA;x-high&#xA;x-loud&#xA;x-low&#xA;x-slow&#xA;x-soft&#xA;xsl-any&#xA;xsl-following&#xA;xsl-preceding&#xA;xsl-region-after&#xA;xsl-region-before&#xA;xsl-region-body&#xA;xsl-region-end&#xA;xsl-region-start&#xA;yes&#xA;">
+              <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+            </KeyList>
+            <Range Name="Strings" Enabled="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="&quot;" Close="&quot;"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="/xsl" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;/xsl" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks &lt;%..%&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;%" Close="%&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="XSLT" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;fo:" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

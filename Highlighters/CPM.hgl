@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="CPM" FileType="" Extensions="" Version="1" Revision="0" Sample="{ COAS Product Manager report (RDF) }&#xA;PARAM&#xA;  LANGUAGE;&#xA;  CONTINUE;&#xA;END; { Param }&#xA;&#xA;GLOBALS&#xA;  LANGUAGE = LOCAL;&#xA;END; { Globals }&#xA;&#xA;DEFINITION BLOCK &quot;MAIN&quot;&#xA;VARIABLES&#xA;  S_Query = &quot;&quot;;&#xA;  V_OraErr = -1;&#xA;  V_Count;&#xA;BEGIN&#xA;  ASSIGN(S_Query, &quot;SELECT * FROM DUAL&quot;);&#xA;  SQL_CREATE(V_OraErr, S_Query);&#xA;  ASSIGN(V_Count, V_NoneReal);&#xA;END;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="IF&#xA;OF&#xA;END&#xA;CASE&#xA;CHR&#xA;FOLD&#xA;BEGIN&#xA;ELSE&#xA;BLOCK&#xA;THEN&#xA;MERGE&#xA;PARAM&#xA;MEMBER&#xA;FLOW&#xA;WHILE&#xA;LOOP&#xA;CLIENT&#xA;REPEAT&#xA;GLOBALS&#xA;INCLUDE&#xA;LANGUAGE&#xA;PARENT&#xA;MATCHING&#xA;USEDBY&#xA;EXECUTE&#xA;PARSEINC&#xA;VARIABLES&#xA;PDRIVER&#xA;CATEGORY&#xA;METAFLOW&#xA;PRINTER&#xA;CONTINUE&#xA;DEFINITION&#xA;OPTIONS&#xA;SORTUP&#xA;PRINTFILE&#xA;OUTPUT&#xA;SORTKEY&#xA;GROUPUP&#xA;SUPPLIER&#xA;COUNTRY&#xA;GROUPHEADER&#xA;GROUPKEY&#xA;ENTITYCODE&#xA;CONSTANTS&#xA;ALLENTITIES&#xA;SORTDOWN&#xA;GROUPDOWN&#xA;EMPTYSHEET&#xA;GLOBALVARIABLES&#xA;ALLPRODUCTS&#xA;ORGANISATION&#xA;REPORTLEVEL&#xA;VAROPTIONS&#xA;SKIPEMTPTY&#xA;GROUPFOOTER&#xA;ALLSUPPLIERS&#xA;STROPTIONS&#xA;ALLPROPERTIES&#xA;GLOBALCONSTANTS&#xA;LOWERLEVELSTOO&#xA;PROPERTYGROUP&#xA;DISTINCT_EXECUTE&#xA;SUPPLIESOFMEMBERS&#xA;ALLQUALITYPROPERTIES&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="System" Enabled="True" Style="" Words="DECR&#xA;LOCAL&#xA;INCR&#xA;SUM&#xA;DIVIDE&#xA;RAVAL&#xA;SQR&#xA;FILEEND&#xA;FILEDATE&#xA;LENGTH&#xA;ROOT&#xA;ASSIGN&#xA;ROUND&#xA;FOREIGN&#xA;TRUNC&#xA;RASTR&#xA;FILETIME&#xA;FILEDELETE&#xA;MIDSTR&#xA;FILEREADLN&#xA;FILECLOSE&#xA;FILEAPPEND&#xA;LTRUNC&#xA;FILESIZE&#xA;COPYFILE&#xA;FILECOPY&#xA;MESSAGEDLG&#xA;FILERESET&#xA;LLENSTR&#xA;LEFTSTR&#xA;FILEASSIGN&#xA;SUBTRACT&#xA;FILESORT&#xA;RLENSTR&#xA;STRPOS&#xA;LOCASESTR&#xA;READINSTANCE&#xA;EQUALVALUE&#xA;RIGHTSTR&#xA;CENTERSTR&#xA;UPCASESTR&#xA;FILTERSTR&#xA;FILEEXISTS&#xA;MULTIPLY&#xA;FILEWRITELN&#xA;SHOWMESSAGE&#xA;CHARRLENSTR&#xA;LASTINSTANCE&#xA;REPEATCOUNT&#xA;STRIPSTR&#xA;EQUALSTRING&#xA;PREVINSTANCE&#xA;CHARREPLACESTR&#xA;NEXTINSTANCE&#xA;CHARRLLENSTR&#xA;FIRSTINSTANCE&#xA;ZERORLENSTR&#xA;READREPEATINSTANCE&#xA;PREVREPEATINSTANCE&#xA;NEXTREPEATINSTANCE&#xA;FILEREWRITE&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SQL Keys" Enabled="True" Style="" Words="SQL_ADD&#xA;SQL_EOF&#xA;SQL_MLADD&#xA;SQL_FREE&#xA;SQL_CREATE&#xA;SQL_DUMP&#xA;SQL_NEXT&#xA;SQL_ASFLOAT&#xA;SQL_EXECUTE&#xA;SQL_SETVAR&#xA;SQL_ASSTRING&#xA;SQL_MLMULTIADD&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Special Variables" Enabled="True" Style="" Words="V_FALSE&#xA;V_TIME&#xA;V_TRUE&#xA;V_NONEREAL&#xA;V_PAR_LANGUAGE&#xA;V_PAR_LANGUAGE_FIELDS&#xA;V_PAR_LANGUAGE_COUNT&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

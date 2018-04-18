@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Lingo" FileType="" Extensions="LGO LINGO" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:lingo.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abort&#xA;after&#xA;and&#xA;before&#xA;case&#xA;do&#xA;else&#xA;end&#xA;FALSE&#xA;global&#xA;halt&#xA;if&#xA;ilk&#xA;into&#xA;me&#xA;new&#xA;of&#xA;on&#xA;or&#xA;otherwise&#xA;pass&#xA;property&#xA;put&#xA;repeat&#xA;result&#xA;RETURN&#xA;set&#xA;tell&#xA;the&#xA;then&#xA;to&#xA;TRUE&#xA;while&#xA;with&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="#&#xA;abbr&#xA;abbrev&#xA;abbreviated&#xA;abs&#xA;activateWindow&#xA;activeCastLib&#xA;activeWindow&#xA;actorList&#xA;add&#xA;addAt&#xA;addProp&#xA;alert&#xA;alertHook&#xA;alignment&#xA;allowCustomCaching&#xA;allowGraphicMenu&#xA;allowSaveLocal&#xA;allowTransportControl&#xA;allowVolumeControl&#xA;allowZooming&#xA;alphaThreshold&#xA;ancestor&#xA;antiAlias&#xA;append&#xA;applicationPath&#xA;atan&#xA;autoTab&#xA;backColor&#xA;BACKSPACE&#xA;beep&#xA;beepOn&#xA;beginRecording&#xA;beginSprite&#xA;bgColor&#xA;blend&#xA;blendLevel&#xA;border&#xA;bottom&#xA;boxDropShadow&#xA;boxType&#xA;buttonStyle&#xA;buttonType&#xA;call&#xA;callAncestor&#xA;cancelIdleLoad&#xA;castLib&#xA;castLibNum&#xA;center&#xA;centerRegPoint&#xA;centerStage&#xA;changeArea&#xA;channelCount&#xA;char&#xA;charPosToLoc&#xA;chars&#xA;charToNum&#xA;checkBoxAccess&#xA;checkBoxType&#xA;checkMark&#xA;chunkSize&#xA;clearFrame&#xA;clearGlobals&#xA;clickLoc&#xA;clickOn&#xA;close&#xA;closeWindow&#xA;closeXlib&#xA;color&#xA;colorDepth&#xA;commandDown&#xA;constrainH&#xA;constraint&#xA;constrainV&#xA;continue&#xA;controlDown&#xA;controller&#xA;copyToClipBoard&#xA;cos&#xA;count&#xA;cpuHogTicks&#xA;crop&#xA;cuePassed&#xA;cuePointNames&#xA;cuePointTimes&#xA;currentSpriteNum&#xA;currentTime&#xA;cursor&#xA;date&#xA;deactivateWindow&#xA;delay&#xA;delete&#xA;deleteAll&#xA;deleteAt&#xA;deleteFrame&#xA;deleteOne&#xA;deleteProp&#xA;depth&#xA;deskTopRectList&#xA;digitalVideoTimeScale&#xA;digitalVideoType&#xA;directToStage&#xA;dither&#xA;done&#xA;doubleClick&#xA;drawRect&#xA;dropShadow&#xA;duplicate&#xA;duplicate&#xA;member&#xA;duplicateFrame&#xA;duration&#xA;editable&#xA;EMPTY&#xA;emulateMultiButtonMouse&#xA;enabled&#xA;endFrame&#xA;endRecording&#xA;endSprite&#xA;ENTER&#xA;enterFrame&#xA;environment&#xA;erase&#xA;member&#xA;exit&#xA;exitFrame&#xA;exitLock&#xA;exp&#xA;externalParamCount&#xA;externalParamName&#xA;externalParamValue&#xA;fadeIn&#xA;fadeOut&#xA;field&#xA;fileName&#xA;filled&#xA;findEmpty&#xA;findPos&#xA;findPosNear&#xA;finishIdleLoad&#xA;fixStageSize&#xA;flipH&#xA;flipV&#xA;float&#xA;floatP&#xA;floatPrecision&#xA;font&#xA;fontSize&#xA;fontStyle&#xA;foreColor&#xA;forget&#xA;frame&#xA;frameLabel&#xA;framePalette&#xA;frameRate&#xA;frameReady&#xA;frameScript&#xA;frameSound1&#xA;frameSound2&#xA;framesToHMS&#xA;frameTempo&#xA;frameTransition&#xA;freeBlock&#xA;freeBytes&#xA;frontWindow&#xA;getaProp&#xA;getAt&#xA;getBehaviorDescription&#xA;getBehaviorTooltip&#xA;getLast&#xA;getNthFileNameInFolder&#xA;getOne&#xA;getPos&#xA;getPref&#xA;getProp&#xA;getPropAt&#xA;getPropertyDescriptionList&#xA;globals&#xA;go&#xA;height&#xA;hilite&#xA;hitTest&#xA;HMStoFrames&#xA;idle&#xA;idleHandlerPeriod&#xA;idleLoadDone&#xA;idleLoadMode&#xA;idleLoadPeriod&#xA;idleLoadTag&#xA;idleReadChunkSize&#xA;importFileInto&#xA;in&#xA;inflate&#xA;ink&#xA;insertFrame&#xA;inside&#xA;installMenu&#xA;integer&#xA;integerP&#xA;interface&#xA;intersect&#xA;intersects&#xA;isPastCuePoint&#xA;item&#xA;itemDelimiter&#xA;key&#xA;keyboardFocusSprite&#xA;keyCode&#xA;keyDown&#xA;keyDownScript&#xA;keyPressed&#xA;keyUp&#xA;keyUpScript&#xA;label&#xA;labelList&#xA;last&#xA;lastChannel&#xA;lastClick&#xA;lastEvent&#xA;lastFrame&#xA;lastKey&#xA;lastRoll&#xA;left&#xA;length&#xA;line&#xA;lineCount&#xA;lineDirection&#xA;lineHeight&#xA;linePosToLocV&#xA;lines&#xA;lineSize&#xA;list&#xA;listP&#xA;loaded&#xA;loc&#xA;locH&#xA;locToCharPos&#xA;locV&#xA;locVToLinePos&#xA;locZ&#xA;log&#xA;long&#xA;loop&#xA;map&#xA;mapMemberToStage&#xA;mapStageToMember&#xA;margin&#xA;marker&#xA;max&#xA;maxInteger&#xA;mci&#xA;media&#xA;mediaReady&#xA;member&#xA;memberNum&#xA;members&#xA;memorySize&#xA;menu&#xA;milliseconds&#xA;min&#xA;modal&#xA;modified&#xA;mostRecentCuePoint&#xA;mouseChar&#xA;mouseDown&#xA;mouseDown&#xA;mouseDownScript&#xA;mouseItem&#xA;mouseLeave&#xA;mouseLine&#xA;mouseLoc&#xA;mouseMember&#xA;mouseUp&#xA;mouseUpOutside&#xA;mouseUpScript&#xA;mouseV&#xA;mouseWithin&#xA;mouseWord&#xA;move&#xA;moveableSprite&#xA;moveToBack&#xA;moveToFront&#xA;moveWindow&#xA;movie&#xA;movieAboutInfo&#xA;movieCopyrightInfo&#xA;movieFileFreeSize&#xA;movieFileSize&#xA;movieName&#xA;moviePath&#xA;movieRate&#xA;movieTime&#xA;movieXtraList&#xA;multiSound&#xA;name&#xA;netPresent&#xA;netThrottleTicks&#xA;next&#xA;nothing&#xA;number&#xA;numToChar&#xA;objectP&#xA;offset&#xA;open&#xA;openResFile&#xA;openWindow&#xA;openXlib&#xA;optionDown&#xA;organizationName&#xA;pageHeight&#xA;palette&#xA;paletteMapping&#xA;paletteRef&#xA;paragraph&#xA;param&#xA;paramCount&#xA;pasteClipBoardInto&#xA;pathName&#xA;pattern&#xA;pause&#xA;pausedAtStart&#xA;pauseState&#xA;PI&#xA;picture&#xA;pictureP&#xA;platform&#xA;play&#xA;playFile&#xA;playing&#xA;point&#xA;power&#xA;preLoad&#xA;preLoadEventAbort&#xA;preLoadMember&#xA;preLoadMode&#xA;preLoadMovie&#xA;preLoadRAM&#xA;prepareFrame&#xA;prepareMovie&#xA;previous&#xA;printFrom&#xA;puppet&#xA;puppetPalette&#xA;puppetSound&#xA;puppetSprite&#xA;puppetTempo&#xA;puppetTransition&#xA;purgePriority&#xA;quad&#xA;quit&#xA;QUOTE&#xA;ramNeeded&#xA;random&#xA;randomSeed&#xA;rect&#xA;regPoint&#xA;resizeWindow&#xA;restart&#xA;right&#xA;rightMouseDown&#xA;rightMouseUp&#xA;rollOver&#xA;romanLingo&#xA;rotation&#xA;runMode&#xA;runPropertyDialog&#xA;safePlayer&#xA;sampleRate&#xA;sampleSize&#xA;save&#xA;saveMovie&#xA;score&#xA;scoreColor&#xA;scoreSelection&#xA;script&#xA;scriptInstanceList&#xA;scriptNum&#xA;scriptsEnabled&#xA;scriptText&#xA;scriptType&#xA;scrollByLine&#xA;scrollByPage&#xA;scrollTop&#xA;searchCurrentFolder&#xA;searchPath&#xA;searchPaths&#xA;selection&#xA;selEnd&#xA;selStart&#xA;sendAllSprites&#xA;sendSprite&#xA;serialNumber&#xA;setaProp&#xA;setAt&#xA;setPref&#xA;setProp&#xA;setTrackEnabled&#xA;shapeType&#xA;shiftDown&#xA;short&#xA;showGlobals&#xA;showLocals&#xA;showResFile&#xA;showXlib&#xA;shutDown&#xA;sin&#xA;size&#xA;skew&#xA;sort&#xA;sound&#xA;soundBusy&#xA;soundDevice&#xA;soundDeviceList&#xA;soundEnabled&#xA;soundKeepDevice&#xA;soundLevel&#xA;sourceRect&#xA;SPACE&#xA;sprite&#xA;spriteNum&#xA;sqrt&#xA;stage&#xA;stageBottom&#xA;stageColor&#xA;stageLeft&#xA;stageRight&#xA;stageTop&#xA;startFrame&#xA;startMovie&#xA;startTime&#xA;startTimer&#xA;stepFrame&#xA;stillDown&#xA;stop&#xA;stopEvent&#xA;stopMovie&#xA;stopTime&#xA;string&#xA;stringP&#xA;switchColorDepth&#xA;symbol&#xA;symbolP&#xA;systemDate&#xA;TAB&#xA;tan&#xA;text&#xA;thumbnail&#xA;ticks&#xA;time&#xA;timeOut&#xA;timeoutKeyDown&#xA;timeoutLapsed&#xA;timeoutLength&#xA;timeoutMouse&#xA;timeoutPlay&#xA;timeoutScript&#xA;timer&#xA;timeScale&#xA;title&#xA;titleVisible&#xA;top&#xA;trace&#xA;traceLoad&#xA;traceLogFile&#xA;trackCount&#xA;trackEnabled&#xA;trackNextKeyTime&#xA;trackNextSampleTime&#xA;trackPreviousKeyTime&#xA;trackPreviousSampleTime&#xA;trackStartTime&#xA;trackStopTime&#xA;trackText&#xA;trails&#xA;transitionType&#xA;tweened&#xA;type&#xA;union&#xA;unLoad&#xA;unLoadMember&#xA;unloadMovie&#xA;updateFrame&#xA;updateLock&#xA;updateMovieEnabled&#xA;updateStage&#xA;useAlpha&#xA;userName&#xA;value&#xA;version&#xA;video&#xA;videoForWindowsPresent&#xA;visible&#xA;VOID&#xA;voidP&#xA;volume&#xA;width&#xA;window&#xA;windowList&#xA;windowPresent&#xA;windowType&#xA;word&#xA;wordWrap&#xA;xtra&#xA;xtraList&#xA;xtras&#xA;zoomBox&#xA;zoomWindow&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

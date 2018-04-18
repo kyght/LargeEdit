@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Oemsetup Script" FileType="" Extensions="INF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:oemsetup.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'*+,./:;&lt;=&gt;?@\^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="addfiletodeletelist&#xA;closeregkey&#xA;createregkey&#xA;debug-output&#xA;debug_output&#xA;deleteregkey&#xA;deleteregtree&#xA;deleteregvalue&#xA;else-ifcontains&#xA;else-ifcontains(i)&#xA;else-ifint&#xA;else-ifstr&#xA;else-ifstr(i)&#xA;endforlistdo&#xA;endif&#xA;endwait&#xA;enumregkey&#xA;enumregvalue&#xA;flushinf&#xA;flushregkey&#xA;forlistdo&#xA;freelibrary&#xA;getdriveinpath&#xA;getregvalue&#xA;getsystemdate&#xA;goto&#xA;ifcontains&#xA;ifcontaints(i)&#xA;ifint&#xA;ifstr&#xA;ifstr(i)&#xA;libraryprocedure&#xA;loadlibrary&#xA;openregkey&#xA;querylistsize&#xA;set&#xA;set-add&#xA;set-and&#xA;set-dectohex&#xA;set-div&#xA;set-hextodec&#xA;set-mul&#xA;set-or&#xA;set-sub&#xA;set-subst&#xA;setregvalue&#xA;sleep&#xA;split-string&#xA;startwait&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="addsectionfilestocopylist&#xA;addsectionkeyfiletocopylist&#xA;addnthsectionfiletocopylist&#xA;copyfilesincopylist&#xA;clearcopylist&#xA;createdir&#xA;detect&#xA;exit&#xA;install&#xA;read-syms&#xA;removedir&#xA;return&#xA;shell&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="[]&#xA;$)&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="+&#xA;=&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="NO_ERROR&#xA;STATUS_SUCCESSFUL&#xA;STATUS_FAILED&#xA;STATUS_USERCANCEL&#xA;STATUS_REBIND&#xA;STATUS_REBOOT&#xA;STATUS_NO_EFFECT&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQR" FileType="" Extensions="SQR SQC INC sqr sqc inc" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sqr.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="begin-footing&#xA;begin-heading&#xA;begin-procedure&#xA;begin-program&#xA;begin-report&#xA;begin-setup&#xA;end-footing&#xA;end-heading&#xA;end-procedure&#xA;end-program&#xA;end-report&#xA;end-setup&#xA;Input&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="alter-printer&#xA;begin-document&#xA;begin-select&#xA;begin-sql&#xA;declare-chart&#xA;declare-image&#xA;declare-layout&#xA;declare-printer&#xA;declare-procedure&#xA;declare-report&#xA;end-declare&#xA;end-declare&#xA;end-document&#xA;end-select&#xA;end-sql&#xA;load-lookup&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="#debug&#xA;#define&#xA;#else&#xA;#end-if&#xA;#endif&#xA;#if&#xA;#ifdef&#xA;#ifndef&#xA;#include&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="add&#xA;array-add&#xA;array-divide&#xA;array-multiply&#xA;array-subtract&#xA;ask&#xA;break&#xA;call&#xA;clear-array&#xA;close&#xA;columns&#xA;commit&#xA;concat&#xA;connect&#xA;create-array&#xA;date-time&#xA;display&#xA;divide&#xA;do&#xA;dollar-symbol&#xA;else&#xA;encode&#xA;end-evaluate&#xA;end-if&#xA;end-while&#xA;evaluate&#xA;execute&#xA;extract&#xA;find&#xA;font&#xA;get&#xA;goto&#xA;graphic&#xA;if&#xA;last-page&#xA;let&#xA;lookup&#xA;lowercase&#xA;money-symbol&#xA;move&#xA;multiply&#xA;new-page&#xA;new-report&#xA;next-column&#xA;next-listing&#xA;no-formfeed&#xA;open&#xA;page-number&#xA;page-size&#xA;position&#xA;print&#xA;print-bar-code&#xA;print-chart&#xA;print-direct&#xA;print-image&#xA;printer-deinit&#xA;printer-init&#xA;put&#xA;read&#xA;rollback&#xA;show&#xA;stop&#xA;string&#xA;subtract&#xA;unstring&#xA;uppercase&#xA;use&#xA;use-column&#xA;use-printer-type&#xA;use-procedure&#xA;use-report&#xA;use-report&#xA;while&#xA;write&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="#current-column&#xA;#current-line&#xA;#end-file&#xA;#page-count&#xA;#return-status&#xA;#sql-count&#xA;#sql-status&#xA;#sqr-pid&#xA;$sql-error&#xA;$sqr-database&#xA;$sqr-platform&#xA;$sqr-program&#xA;$sqr-report&#xA;$sqr-ver&#xA;$username&#xA;3d-effects&#xA;abs&#xA;acos&#xA;after-bold&#xA;after-page&#xA;after-report&#xA;and&#xA;array&#xA;as&#xA;ascii&#xA;asin&#xA;at-end&#xA;atan&#xA;beep&#xA;before-bold&#xA;before-page&#xA;before-report&#xA;blink&#xA;bold&#xA;bottom-margin&#xA;box&#xA;by&#xA;ceil&#xA;center&#xA;char&#xA;char-size&#xA;char-width&#xA;chars-inch&#xA;chart-size&#xA;cl&#xA;clear-line&#xA;clear-screen&#xA;cond&#xA;cos&#xA;cosh&#xA;cs&#xA;date&#xA;deg&#xA;delete&#xA;distinct&#xA;e10&#xA;edit&#xA;erase-page&#xA;exists&#xA;exp&#xA;extent&#xA;field&#xA;fill&#xA;fixed&#xA;fixed_nolf&#xA;floor&#xA;font-type&#xA;for-append&#xA;for-reading&#xA;for-reports&#xA;for-writing&#xA;formfeed&#xA;from&#xA;getenv&#xA;goto-top&#xA;group&#xA;having&#xA;horz-line&#xA;image-size&#xA;in&#xA;insert&#xA;instr&#xA;integer&#xA;into&#xA;isblank&#xA;isnull&#xA;is&#xA;key&#xA;layout&#xA;left-margin&#xA;legend&#xA;legend-placement&#xA;legend-presentation&#xA;legend-title&#xA;length&#xA;line-height&#xA;line-size&#xA;line-width&#xA;lines-inch&#xA;local&#xA;log10&#xA;loops&#xA;lower&#xA;lpad&#xA;ltrim&#xA;max-columns&#xA;max-lines&#xA;maxlen&#xA;mod&#xA;name&#xA;need&#xA;newline&#xA;newpage&#xA;no-advance&#xA;noprompt&#xA;normal&#xA;not&#xA;number&#xA;nvl&#xA;null&#xA;on-error&#xA;or&#xA;order&#xA;orientation&#xA;page-depth&#xA;paper-size&#xA;pie-segment-explode&#xA;pie-segment-percent-display&#xA;pie-segment-quantity-display&#xA;pitch&#xA;point-markers&#xA;point-size&#xA;power&#xA;printer-type&#xA;quiet&#xA;rad&#xA;range&#xA;record&#xA;rename&#xA;return_value&#xA;reverse&#xA;right-margin&#xA;round&#xA;rows&#xA;rpad&#xA;rtrim&#xA;select&#xA;sign&#xA;sin&#xA;sinh&#xA;size&#xA;skip&#xA;skiplines&#xA;sort&#xA;source&#xA;sqr-database&#xA;sqr-platform&#xA;sqrt&#xA;startup-file&#xA;status&#xA;sub-title&#xA;substr&#xA;symbol-set&#xA;table&#xA;tan&#xA;tanh&#xA;times&#xA;title&#xA;to&#xA;to_char&#xA;to_date&#xA;to_number&#xA;top-margin&#xA;translate&#xA;trunc&#xA;type&#xA;underline&#xA;update&#xA;upper&#xA;using&#xA;vary&#xA;vert-line&#xA;warn&#xA;when&#xA;when-other&#xA;where&#xA;with&#xA;x-axis-grid&#xA;x-axis-label&#xA;x-axis-major-increment&#xA;x-axis-major-tick-marks&#xA;x-axis-max-value&#xA;x-axis-min-value&#xA;x-axis-minor-increment&#xA;x-axis-minor-tick-marks&#xA;x-axis-scale&#xA;x-axis-tick-mark-placement&#xA;xor&#xA;y-axis-grid&#xA;y-axis-label&#xA;y-axis-major-increment&#xA;y-axis-major-tick-marks&#xA;y-axis-max-value&#xA;y-axis-min-value&#xA;y-axis-minor-increment&#xA;y-axis-minor-tick-marks&#xA;y-axis-scale&#xA;y-axis-tick-mark-placement&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks !..!" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!" Close="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

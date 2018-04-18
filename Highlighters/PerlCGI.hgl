@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PerlCGI" FileType="" Extensions="" Version="1" Revision="0" Sample="#!/bin/perl&#xA;require &quot;cgi-lib.pl&quot;;&#xA;use sigtrap;&#xA;do 'envars.pl';&#xA;$_ = $password1;&#xA;sub WriteBack {&#xA;        while ($_ ne &quot;fred&quot;)    {&#xA;                sleep 5;&#xA;        }&#xA;}&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="__DATA__&#xA;__END__&#xA;__FILE__&#xA;__LINE__&#xA;continue&#xA;do&#xA;else&#xA;elsif&#xA;for&#xA;foreach&#xA;goto&#xA;if&#xA;last&#xA;local&#xA;my&#xA;next&#xA;no&#xA;package&#xA;redo&#xA;return&#xA;require&#xA;sub&#xA;until&#xA;unless&#xA;use&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="@" Enabled="True" Style="" Words="$@&#xA;@&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="accept&#xA;alarm&#xA;atan2&#xA;bind&#xA;binmode&#xA;bless&#xA;caller&#xA;chdir&#xA;chmod&#xA;chomp&#xA;chop&#xA;chown&#xA;chr&#xA;chroot&#xA;close&#xA;closedir&#xA;connect&#xA;cos&#xA;crypt&#xA;dbmclose&#xA;dbmopen&#xA;defined&#xA;delete&#xA;die&#xA;dump&#xA;each&#xA;endgrent&#xA;endhostent&#xA;endnetent&#xA;endprotoent&#xA;endpwent&#xA;endservent&#xA;eof&#xA;eval&#xA;exec&#xA;exit&#xA;exp&#xA;exists&#xA;fcntl&#xA;fileno&#xA;flock&#xA;fork&#xA;formline&#xA;format&#xA;getc&#xA;getgrent&#xA;getgrgid&#xA;getgrname&#xA;gethostbyaddr&#xA;gethostbyname&#xA;gethostent&#xA;getlogin&#xA;getnetbyaddr&#xA;getnetbyname&#xA;getnetent&#xA;getpeername&#xA;getpgrp&#xA;getppid&#xA;getpriority&#xA;getprotobyname&#xA;getprotobynumber&#xA;getprotoent&#xA;getpwent&#xA;getpwnam&#xA;getpwuid&#xA;getservbyname&#xA;getservbyport&#xA;getservent&#xA;getsockname&#xA;getsockopt&#xA;glob&#xA;gmtime&#xA;grep&#xA;hex&#xA;index&#xA;int&#xA;ioctl&#xA;join&#xA;keys&#xA;kill&#xA;lc&#xA;lcfirst&#xA;length&#xA;link&#xA;listen&#xA;localtime&#xA;log&#xA;lstat&#xA;map&#xA;mkdir&#xA;msgctl&#xA;msgget&#xA;msgrcv&#xA;msgsnd&#xA;oct&#xA;open&#xA;opendir&#xA;ord&#xA;pack&#xA;pipe&#xA;pop&#xA;pos&#xA;print&#xA;printf&#xA;push&#xA;quotemeta&#xA;rand&#xA;read&#xA;readdir&#xA;readline&#xA;readlink&#xA;recv&#xA;ref&#xA;rename&#xA;reset&#xA;reverse&#xA;rewinddir&#xA;rindex&#xA;rmdir&#xA;scalar&#xA;seek&#xA;seekdir&#xA;select&#xA;semctl&#xA;semgett&#xA;semop&#xA;send&#xA;setgrent&#xA;sethostent&#xA;setnetent&#xA;setpgrp&#xA;setpriority&#xA;setprotoent&#xA;setpwent&#xA;setservent&#xA;setsockopt&#xA;shift&#xA;shmctl&#xA;shmget&#xA;shmread&#xA;shmwrite&#xA;shutdown&#xA;sin&#xA;sleep&#xA;socket&#xA;socketpair&#xA;sort&#xA;splice&#xA;split&#xA;sprintf&#xA;sqrt&#xA;srand&#xA;stat&#xA;study&#xA;substr&#xA;symlink&#xA;syscall&#xA;sysopen&#xA;sysread&#xA;system&#xA;syswrite&#xA;tell&#xA;telldir&#xA;tie&#xA;tied&#xA;time&#xA;times&#xA;truncate&#xA;uc&#xA;ucfirst&#xA;umask&#xA;undef&#xA;unlink&#xA;unpack&#xA;unshift&#xA;utime&#xA;values&#xA;vec&#xA;wait&#xA;waitpid&#xA;wantarray&#xA;warn&#xA;write&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ident" Enabled="True" Style="" Words="a&#xA;autoEscape&#xA;auth_type&#xA;address&#xA;button&#xA;br&#xA;b&#xA;caption&#xA;checkbox_group&#xA;checkbox&#xA;compile&#xA;cookie&#xA;defaults&#xA;delete_all&#xA;div&#xA;end_html&#xA;em&#xA;endform&#xA;escape&#xA;escape_HTML&#xA;end_h1&#xA;end_table&#xA;end_ul&#xA;filefield&#xA;font&#xA;header&#xA;hr&#xA;h1&#xA;h2&#xA;h3&#xA;h4&#xA;h5&#xA;hidden&#xA;http&#xA;https&#xA;img&#xA;isindex&#xA;image_button&#xA;li&#xA;multipart_init&#xA;multipart_start&#xA;multipart_end&#xA;ol&#xA;p&#xA;param&#xA;param_fetch&#xA;password_field&#xA;popup_menu&#xA;path_info&#xA;pre&#xA;query_string&#xA;radio_group&#xA;redirect&#xA;raw_cookie&#xA;referer&#xA;remote_addr&#xA;remote_indent&#xA;remote_host&#xA;remote_user&#xA;request_method&#xA;start_html&#xA;self_url&#xA;strong&#xA;startform&#xA;start_form&#xA;start_multipart_form&#xA;scrolling_list&#xA;submit&#xA;script_name&#xA;server_name&#xA;server_software&#xA;server_port&#xA;span&#xA;start_h1&#xA;start_table&#xA;start_ul&#xA;textfield&#xA;table&#xA;td&#xA;th&#xA;textarea&#xA;tmpFileName&#xA;Tr&#xA;url&#xA;url_param&#xA;use_named_parameters&#xA;ul&#xA;upload&#xA;uploadInfo&#xA;unescape&#xA;unescapeHTML&#xA;user_agent&#xA;user_name&#xA;virtual_host&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Core" Enabled="True" Style="" Words="AUTOLOAD&#xA;and&#xA;BEGIN&#xA;CORE&#xA;cmp&#xA;DESTROY&#xA;eq&#xA;END&#xA;ge&#xA;gt&#xA;le&#xA;lt&#xA;ne&#xA;not&#xA;m&#xA;or&#xA;q&#xA;qq&#xA;qw&#xA;qx&#xA;SUPER&#xA;s&#xA;tr&#xA;UNIVERSAL&#xA;x&#xA;xor&#xA;y&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Params" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="-" Close="=&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

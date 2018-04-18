@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Sisctus Prolog" FileType="" Extensions="pl pro" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sisctus.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!(),;[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="[&#xA;]&#xA;(&#xA;)&#xA;_&#xA;add_breakpoint&#xA;breakpoint&#xA;current_breakpoint&#xA;debug&#xA;debugging&#xA;disable_breakpoints&#xA;debugger_command_hook&#xA;enable_breakpoints&#xA;execution_state&#xA;error_exception&#xA;leash&#xA;nodebug&#xA;notrace&#xA;nozip&#xA;nospy&#xA;nospyall&#xA;profile_data&#xA;profile_reset&#xA;remove&#xA;spy&#xA;trace&#xA;unkown&#xA;zip&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="consult&#xA;compile&#xA;catch&#xA;context_error&#xA;consistency_error&#xA;current_atom&#xA;current_predicate&#xA;current_module&#xA;current_prolog_flag&#xA;domain_error&#xA;ensure_loaded&#xA;existence_error&#xA;evaluation_error&#xA;fcompile&#xA;instantiation_error&#xA;load_files&#xA;load&#xA;listing&#xA;module&#xA;on_exeption&#xA;print_message&#xA;portray_message&#xA;permission_error&#xA;predicate_property&#xA;prolog_flag&#xA;prolog_load_context&#xA;raise_exception&#xA;reconsult&#xA;require&#xA;representation_error&#xA;resource_error&#xA;source_file&#xA;syntax_error&#xA;system_error&#xA;set_prolog_flag&#xA;statistics&#xA;throw&#xA;type_error&#xA;trimcore&#xA;use_module&#xA;unkown_predicate_handler&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="absolute_file_name&#xA;at_end_of_stream&#xA;at_end_of_line&#xA;byte_count&#xA;cycles&#xA;char_conversion&#xA;current_char_conversion&#xA;close&#xA;current_input&#xA;current_output&#xA;current_stream&#xA;character_count&#xA;display&#xA;expand_term&#xA;format&#xA;file_search_path&#xA;flush_output&#xA;fileerrors&#xA;goal_expansion&#xA;get_code&#xA;get_char&#xA;get_byte&#xA;get0&#xA;get&#xA;garbage_collect&#xA;garbage_collect_atom&#xA;gc&#xA;help&#xA;layout&#xA;library_directory&#xA;line_count&#xA;line_position&#xA;nl&#xA;nofileerrors&#xA;nogc&#xA;open&#xA;open_null_stream&#xA;print&#xA;portray&#xA;portray_clause&#xA;peek_code&#xA;peek_char&#xA;peek_byte&#xA;put_code&#xA;put_char&#xA;put_byte&#xA;put&#xA;phrase&#xA;prompt&#xA;read&#xA;read_term&#xA;restore&#xA;reinitialise&#xA;syntax_errors&#xA;singletons&#xA;skip&#xA;skip_line&#xA;set_input&#xA;set_output&#xA;stream_position&#xA;stream_property&#xA;singletons&#xA;see&#xA;seeing&#xA;seen&#xA;syntax_errors&#xA;stream_select&#xA;set_stream_position&#xA;seek&#xA;stream_interrupt&#xA;save_files&#xA;save_modules&#xA;save_predicates&#xA;save_program&#xA;term_expansion&#xA;tab&#xA;ttynl&#xA;ttyflush&#xA;ttyget0&#xA;ttyget&#xA;ttyput&#xA;ttyskip&#xA;ttytab&#xA;tell&#xA;telling&#xA;told&#xA;user_help&#xA;variables&#xA;varible_names&#xA;version&#xA;write&#xA;write_canonical&#xA;write_term&#xA;writeq&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="+&#xA;-&#xA;/&#xA;//&#xA;/\&#xA;\/&#xA;\==&#xA;#&#xA;&lt;&#xA;&lt;&lt;&#xA;&gt;&#xA;&gt;=&#xA;&gt;&gt;&#xA;=&lt;&#xA;==&#xA;=\=&#xA;=:=&#xA;@&lt;&#xA;@&gt;&#xA;@=&lt;&#xA;@&gt;=&#xA;?=&#xA;abs&#xA;asin&#xA;acos&#xA;atan&#xA;acot&#xA;acot2&#xA;asinh&#xA;acosh&#xA;atanh&#xA;acoth&#xA;ceiling&#xA;cos&#xA;cot&#xA;cosh&#xA;coth&#xA;compare&#xA;exp&#xA;float_integer_part&#xA;float_fractional_part&#xA;float&#xA;floor&#xA;gcd&#xA;inf&#xA;is&#xA;integer&#xA;keysort&#xA;log&#xA;max&#xA;min&#xA;mod&#xA;msb&#xA;nan&#xA;round&#xA;rem&#xA;sin&#xA;sign&#xA;sinh&#xA;sqrt&#xA;sort&#xA;tan&#xA;truncate&#xA;tanh&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words=",&#xA;:-&#xA;;&#xA;.&#xA;!&#xA;\+&#xA;-&gt;&#xA;^:&#xA;bagof&#xA;call&#xA;call_cleanup&#xA;call_residue&#xA;dif&#xA;false&#xA;fail&#xA;findall&#xA;freeze&#xA;frozen&#xA;if&#xA;incore&#xA;once&#xA;otherwise&#xA;repeat&#xA;setof&#xA;true&#xA;when&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="=..&#xA;=&#xA;\=&#xA;atom_codes&#xA;atomic&#xA;atom&#xA;arg&#xA;atom_length&#xA;atom_concat&#xA;atom_chars&#xA;abort&#xA;assert&#xA;asserta&#xA;assertz&#xA;abolish&#xA;break&#xA;bb_put&#xA;bb_get&#xA;bb_delete&#xA;bb_update&#xA;copy_term&#xA;callable&#xA;compound&#xA;char_code&#xA;create_mutable&#xA;current_op&#xA;clause&#xA;current_key&#xA;erase&#xA;functor&#xA;ground&#xA;get_mutable&#xA;halt&#xA;is_mutable&#xA;instance&#xA;length&#xA;nonvar&#xA;name&#xA;number&#xA;number_codes&#xA;number_chars&#xA;numbervars&#xA;op&#xA;retract&#xA;retractcall&#xA;recorded&#xA;recorda&#xA;recordz&#xA;simple&#xA;sub_atom&#xA;update_mutable&#xA;unify_with_occurs_check&#xA;var&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 7" Enabled="True" Style="" Words="append&#xA;delete&#xA;is_list&#xA;last&#xA;max_list&#xA;member&#xA;memberchk&#xA;min_list&#xA;nextto&#xA;no_doubles&#xA;non_member&#xA;nth&#xA;nth0&#xA;permutation&#xA;prefix&#xA;remove_duplicates&#xA;reverse&#xA;same_lenght&#xA;select&#xA;sublist&#xA;substitute&#xA;sum_list&#xA;suffix&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

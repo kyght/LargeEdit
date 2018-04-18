@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual PRO5 Basic" FileType="" Extensions="BBT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:visualpro5basic.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="abs&#xA;adjn&#xA;and&#xA;argv&#xA;asc&#xA;ath&#xA;atn&#xA;bin&#xA;bsz&#xA;chanopt&#xA;chr&#xA;clipisformat&#xA;clipregformat&#xA;cliptostr&#xA;cos&#xA;cpl&#xA;crc&#xA;crc16&#xA;ctrl&#xA;cvs&#xA;cvt&#xA;date&#xA;dec&#xA;dims&#xA;dir&#xA;dsk&#xA;ept&#xA;err&#xA;errmes&#xA;fattr&#xA;fbin&#xA;fdec&#xA;fid&#xA;field&#xA;fileopt&#xA;fill&#xA;fin&#xA;fnx&#xA;fpt&#xA;gap&#xA;hsa&#xA;hsh&#xA;hta&#xA;ind&#xA;info&#xA;int&#xA;ior&#xA;jul&#xA;key&#xA;keyf&#xA;keyl&#xA;keyn&#xA;keyp&#xA;kgen&#xA;len&#xA;log&#xA;lrc&#xA;lst&#xA;mask&#xA;max&#xA;menuinfo&#xA;min&#xA;mod&#xA;msgbox&#xA;neval&#xA;not&#xA;notice&#xA;noticetpl&#xA;num&#xA;pad&#xA;pck&#xA;pgm&#xA;pos&#xA;pub&#xA;resfirst&#xA;resget&#xA;resget&#xA;resinfo&#xA;resnext&#xA;resopen&#xA;rnd&#xA;round&#xA;scall&#xA;sendmsg&#xA;seval&#xA;sgn&#xA;sin&#xA;sqlerr&#xA;sqlfetch&#xA;sqllist&#xA;sqltables&#xA;sqltables&#xA;sqltmpl&#xA;sqr&#xA;ssort&#xA;ssz&#xA;stbl&#xA;str&#xA;swap&#xA;tbl&#xA;tcb&#xA;tmpl&#xA;tsk&#xA;upk&#xA;winfirst&#xA;wininfo&#xA;wininfo&#xA;winnext&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Variables" Enabled="True" Style="" Words="argc&#xA;chn&#xA;ctl&#xA;day&#xA;dsz&#xA;opts&#xA;pfx&#xA;psz&#xA;rev&#xA;sqlchn&#xA;sqlunt&#xA;ssn&#xA;sys&#xA;tim&#xA;unt&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Verbs" Enabled="True" Style="" Words="addr&#xA;auto&#xA;background&#xA;begin&#xA;break&#xA;case&#xA;call&#xA;chdir&#xA;cisam&#xA;clear&#xA;clipclear&#xA;clipfromfile&#xA;clipfromstr&#xA;cliplock&#xA;cliptofile&#xA;clipunlock&#xA;close&#xA;continue&#xA;data&#xA;def&#xA;delete&#xA;dim&#xA;direct&#xA;disable&#xA;dread&#xA;drop&#xA;dump&#xA;edit&#xA;else&#xA;enable&#xA;end&#xA;endtrace&#xA;enter&#xA;erase&#xA;escape&#xA;escoff&#xA;esconexecute&#xA;exit&#xA;exitto&#xA;extract&#xA;file&#xA;find&#xA;floatingpoint&#xA;for&#xA;gosub&#xA;goto&#xA;if&#xA;indexed&#xA;initfile&#xA;input&#xA;inpute&#xA;inputn&#xA;iolist&#xA;let&#xA;list&#xA;load&#xA;lock&#xA;merge&#xA;mkdir&#xA;mkeyed&#xA;next&#xA;open&#xA;precision&#xA;prefix&#xA;print&#xA;program&#xA;read&#xA;record&#xA;release&#xA;rem&#xA;remove&#xA;rename&#xA;renum&#xA;repeatresclose&#xA;reserve&#xA;reset&#xA;restore&#xA;retry&#xA;return&#xA;rmdir&#xA;run&#xA;save&#xA;select&#xA;serial&#xA;setday&#xA;setdrive&#xA;seterr&#xA;setesc&#xA;setopts&#xA;settime&#xA;settrace&#xA;single&#xA;step&#xA;sort&#xA;sqlclose&#xA;sqlexec&#xA;sqlopen&#xA;sqlprep&#xA;sqlset&#xA;start&#xA;stop&#xA;string&#xA;swendswitchtable&#xA;then&#xA;unlockuntilwait&#xA;wend&#xA;write&#xA;while&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

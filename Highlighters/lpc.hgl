@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="LPC" FileType="" Extensions="C H" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:lpc.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Types/Methods" Enabled="True" Style="" Words="array&#xA;class&#xA;double&#xA;float&#xA;function&#xA;int&#xA;mixed&#xA;mapping&#xA;nomask&#xA;object&#xA;public&#xA;private&#xA;static&#xA;string&#xA;void&#xA;varargs&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="C commands" Enabled="True" Style="" Words="break&#xA;case&#xA;continue&#xA;default&#xA;do&#xA;else&#xA;for&#xA;foreach&#xA;if&#xA;in&#xA;return&#xA;switch&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sefuns" Enabled="True" Style="" Words="abs&#xA;absolute_path&#xA;adlog_file&#xA;adminlist&#xA;adminp&#xA;arch&#xA;assure_save_dir&#xA;assure_user_save_dir&#xA;base_name&#xA;cat&#xA;clone_object&#xA;creator_file&#xA;data_dir&#xA;data_file&#xA;debug_info&#xA;directory_exists&#xA;exclude_array&#xA;exclude_element&#xA;exec&#xA;expand&#xA;export_uid&#xA;extract&#xA;file_exists&#xA;filter&#xA;find_items&#xA;find_short&#xA;first_inventory&#xA;format_string&#xA;format_time&#xA;get_logdir&#xA;get_logdir_logname&#xA;get_logfile&#xA;get_object&#xA;get_objects&#xA;getoid&#xA;gettype&#xA;hiddenp&#xA;identify&#xA;int_string&#xA;intl_date_stamp&#xA;log_file&#xA;max&#xA;maxelt&#xA;min&#xA;minelt&#xA;mkdirs&#xA;mud_name&#xA;mud_port&#xA;mudlib_name&#xA;mudlib_version&#xA;next_inventory&#xA;objective&#xA;possessive&#xA;ppossessive&#xA;previous_living&#xA;process_string&#xA;process_value&#xA;query_snoop&#xA;query_snooping&#xA;reduce_to_tilde_path&#xA;seniorlist&#xA;seniorp&#xA;set_default_fail_msg&#xA;set_eval_limit&#xA;shadowp&#xA;shutdown&#xA;snoop&#xA;sorted_inventory&#xA;strtype&#xA;subjective&#xA;sumofarr&#xA;tail&#xA;temp_file&#xA;testcharp&#xA;transfer&#xA;trim_spaces&#xA;trimpath&#xA;uniq_array&#xA;update_file&#xA;user_data_dir&#xA;user_data_file&#xA;user_path&#xA;userp&#xA;version&#xA;wizardp&#xA;wrap&#xA;write_log_file&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Efuns" Enabled="True" Style="" Words="allocate&#xA;allocate_buffer&#xA;acos&#xA;asin&#xA;atan&#xA;add_action&#xA;allocate_mapping&#xA;arrayp&#xA;author_stats&#xA;all_inventory&#xA;all_previous_objects&#xA;bind&#xA;bufferp&#xA;crc32&#xA;call_other&#xA;call_out&#xA;call_stack&#xA;catch&#xA;cp&#xA;ceil&#xA;cos&#xA;copy&#xA;command&#xA;commands&#xA;cache_stats&#xA;classp&#xA;children&#xA;clone_object&#xA;clonep&#xA;capitalize&#xA;clear_bit&#xA;crypt&#xA;call_out_info&#xA;check_memory&#xA;ctime&#xA;disable_commands&#xA;disable_wizard&#xA;debug_info&#xA;debugmalloc&#xA;dump_file_descriptors&#xA;dump_prog&#xA;dump_socket_status&#xA;dumpallobj&#xA;domain_stats&#xA;deep_inventory&#xA;destruct&#xA;deep_inherit_list&#xA;evaluate&#xA;exp&#xA;ed&#xA;ed_cmd&#xA;ed_start&#xA;enable_commands&#xA;enable_wizard&#xA;export_uid&#xA;environment&#xA;explode&#xA;error&#xA;eval_cost&#xA;external_start&#xA;filter_array&#xA;file_length&#xA;file_name&#xA;file_size&#xA;floor&#xA;function_owner&#xA;fetch_variable&#xA;filter&#xA;find_player&#xA;filter_mapping&#xA;floatp&#xA;functionp&#xA;find_living&#xA;find_object&#xA;find_call_out&#xA;flush_messages&#xA;function_exists&#xA;function_profile&#xA;functions&#xA;generate_source&#xA;get_dir&#xA;get_char&#xA;get_config&#xA;geteuid&#xA;getuid&#xA;heart_beat_info&#xA;heart_beats&#xA;in_edit&#xA;in_input&#xA;input_to&#xA;interactive&#xA;intp&#xA;implode&#xA;inherit_list&#xA;inherits&#xA;keys&#xA;link&#xA;log&#xA;living&#xA;livings&#xA;load_object&#xA;lower_case&#xA;localtime&#xA;lpc_info&#xA;map_array&#xA;member_array&#xA;mkdir&#xA;map&#xA;message&#xA;malloc_status&#xA;memory_info&#xA;mud_status&#xA;map_delete&#xA;map_mapping&#xA;match_path&#xA;mapp&#xA;master&#xA;move_object&#xA;max_eval_cost&#xA;memory_summary&#xA;new&#xA;notify_fail&#xA;named_livings&#xA;origin&#xA;opcprof&#xA;objectp&#xA;objects&#xA;previous_object&#xA;pow&#xA;printf&#xA;pointerp&#xA;present&#xA;pluralize&#xA;program_info&#xA;query_shadowing&#xA;query_ed_mode&#xA;query_host_name&#xA;query_idle&#xA;query_ip_name&#xA;query_ip_number&#xA;query_ip_port&#xA;query_notify_fail&#xA;query_verb&#xA;query_load_average&#xA;query_privs&#xA;query_heart_beat&#xA;read_buffer&#xA;remove_call_out&#xA;remove_shadow&#xA;read_bytes&#xA;read_file&#xA;rename&#xA;rm&#xA;rmdir&#xA;restore_variable&#xA;receive&#xA;remove_action&#xA;remove_interactive&#xA;resolve&#xA;refs&#xA;rusage&#xA;random&#xA;reload_object&#xA;restore_object&#xA;reg_assoc&#xA;regexp&#xA;repeat_string&#xA;replace_string&#xA;reclaim_objects&#xA;replace_program&#xA;replaceable&#xA;reset_eval_cost&#xA;sort_array&#xA;shadow&#xA;stat&#xA;sin&#xA;sqrt&#xA;save_variable&#xA;sizeof&#xA;store_variable&#xA;say&#xA;set_this_player&#xA;shout&#xA;set_debug_level&#xA;set_malloc_mask&#xA;swap&#xA;stringp&#xA;set_author&#xA;set_light&#xA;set_living_name&#xA;set_privs&#xA;seteuid&#xA;save_object&#xA;set_heart_beat&#xA;set_hide&#xA;socket_accept&#xA;socket_acquire&#xA;socket_address&#xA;socket_bind&#xA;socket_close&#xA;socket_create&#xA;socket_error&#xA;socket_listen&#xA;socket_release&#xA;socket_write&#xA;set_bit&#xA;sprintf&#xA;sscanf&#xA;strcmp&#xA;strlen&#xA;strsrch&#xA;set_eval_limit&#xA;set_reset&#xA;shallow_inherit_list&#xA;this_object&#xA;throw&#xA;tan&#xA;to_float&#xA;to_int&#xA;typeof&#xA;this_interactive&#xA;this_player&#xA;this_user&#xA;time_expression&#xA;trace&#xA;traceprefix&#xA;tell_object&#xA;tell_room&#xA;terminal_colour&#xA;test_bit&#xA;time&#xA;unique_array&#xA;users&#xA;unique_mapping&#xA;undefinedp&#xA;upper_case&#xA;uptime&#xA;values&#xA;virtualp&#xA;variables&#xA;write_buffer&#xA;write_bytes&#xA;write_file&#xA;write&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Preprocess" Enabled="True" Style="" Words="inherit&#xA;#define&#xA;#include&#xA;#if&#xA;#else&#xA;#ifdef&#xA;#pragma&#xA;#endif&#xA;#ifndef&#xA;#undef//&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Block delimiters" Enabled="True" Style="" Words="{&#xA;}&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Lfuns" Enabled="True" Style="" Words="attack&#xA;add_boost&#xA;add_hp&#xA;add_sp&#xA;add_money&#xA;add_extra_attack&#xA;add_name&#xA;create&#xA;clear_opponents&#xA;do_command&#xA;evade_attack&#xA;get_weapon&#xA;heart_beat&#xA;hit_player&#xA;hold_attack&#xA;init&#xA;load_chat&#xA;load_a_chat&#xA;move_living&#xA;move&#xA;move_or_destruct&#xA;notify_died&#xA;notify_killed&#xA;notify_softkilled&#xA;notify_got_hit&#xA;notify_sold&#xA;notify_softdied&#xA;notify_moved&#xA;query_guild_data&#xA;query_objective&#xA;query_opponents&#xA;query_possessive&#xA;query_name&#xA;query_pronoun&#xA;query_short&#xA;query_long&#xA;query_fightable&#xA;query_use&#xA;query_ac&#xA;query_sc&#xA;query_wc&#xA;query_hp&#xA;query_sp&#xA;query_no_get&#xA;query_no_drop&#xA;query_opponent&#xA;query_npc&#xA;query_living&#xA;query_vis&#xA;query_value&#xA;query_light&#xA;query_total_boost&#xA;query_origin&#xA;query_level&#xA;query_str&#xA;query_dex&#xA;query_con&#xA;query_int&#xA;query_wis&#xA;query_cha&#xA;query_protection&#xA;query_location&#xA;remove_object&#xA;receive_object&#xA;remove_item_boost&#xA;reset&#xA;remove_boost&#xA;remove_extra_short&#xA;register_notify&#xA;register_prevent&#xA;release_object&#xA;set_ac&#xA;set_al&#xA;set_gender&#xA;set_guild_data&#xA;set_female&#xA;set_male&#xA;set_name&#xA;set_neuter&#xA;set_race&#xA;set_sc&#xA;set_stats&#xA;set_value&#xA;set_wc&#xA;set_weight&#xA;set_type&#xA;set_long&#xA;set_short&#xA;set_softkill&#xA;set_fightable_msg&#xA;set_weapon&#xA;set_locations&#xA;set_location_prob&#xA;spell_player&#xA;stop_attack&#xA;start_attack&#xA;start_attack_allowed&#xA;set_immunity&#xA;set_humanoid&#xA;set_aggressive&#xA;second_life&#xA;set_property&#xA;set_no_drop&#xA;set_no_get&#xA;unregister_notify&#xA;unregister_prevent&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PovRay" FileType="" Extensions="POV INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:povray.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abs&#xA;absorption&#xA;acos&#xA;acosh&#xA;adaptive&#xA;adc_bailout&#xA;agate&#xA;agate_turb&#xA;all&#xA;alpha&#xA;ambient&#xA;ambient_light&#xA;angle&#xA;aperture&#xA;append&#xA;arc_angle&#xA;area_light&#xA;array&#xA;asc&#xA;asin&#xA;asinh&#xA;assumed_gamma&#xA;atan&#xA;atan2&#xA;atanh&#xA;average&#xA;background&#xA;bezier_spline&#xA;bicubic_patch&#xA;black_hole&#xA;blob&#xA;blue&#xA;blur_samples&#xA;bounded_by&#xA;box&#xA;boxed&#xA;bozo&#xA;break&#xA;brick&#xA;brick_size&#xA;brightness&#xA;brilliance&#xA;bumps&#xA;bump_map&#xA;bump_size&#xA;camera&#xA;case&#xA;caustics&#xA;ceil&#xA;checker&#xA;chr&#xA;clipped_by&#xA;clock&#xA;clock_delta&#xA;color&#xA;color_map&#xA;colour&#xA;colour_map&#xA;component&#xA;composite&#xA;concat&#xA;cone&#xA;confidence&#xA;conic_sweep&#xA;control0&#xA;control1&#xA;cos&#xA;cosh&#xA;count&#xA;crackle&#xA;crand&#xA;cube&#xA;cubic&#xA;cubic_spline&#xA;cubic_wave&#xA;cylinder&#xA;cylindrical&#xA;debug&#xA;declare&#xA;default&#xA;defined&#xA;degrees&#xA;density&#xA;density_file&#xA;density_map&#xA;dents&#xA;difference&#xA;diffuse&#xA;dimensions&#xA;dimension_size&#xA;direction&#xA;disc&#xA;distance&#xA;distance_maximum&#xA;div&#xA;eccentricity&#xA;else&#xA;emission&#xA;end&#xA;error&#xA;error_bound&#xA;exp&#xA;extinction&#xA;fade_distance&#xA;fade_power&#xA;falloff&#xA;falloff_angle&#xA;false&#xA;fclose&#xA;file_exists&#xA;filter&#xA;finish&#xA;fisheye&#xA;flatness&#xA;flip&#xA;floor&#xA;focal_point&#xA;fog&#xA;fog_alt&#xA;fog_offset&#xA;fog_type&#xA;fopen&#xA;frequency&#xA;gif&#xA;global_settings&#xA;gradient&#xA;granite&#xA;gray_threshold&#xA;green&#xA;height_field&#xA;hexagon&#xA;hf_gray_16&#xA;hierarchy&#xA;hollow&#xA;hypercomplex&#xA;if&#xA;ifdef&#xA;iff&#xA;ifndef&#xA;image_map&#xA;include&#xA;int&#xA;interior&#xA;interpolate&#xA;intersection&#xA;intervals&#xA;inverse&#xA;ior&#xA;irid&#xA;irid_wavelength&#xA;jitter&#xA;julia_fractal&#xA;lambda&#xA;lathe&#xA;leopard&#xA;light_source&#xA;linear_spline&#xA;linear_sweep&#xA;local&#xA;location&#xA;log&#xA;looks_like&#xA;look_at&#xA;low_error_factor&#xA;macro&#xA;mandel&#xA;map_type&#xA;marble&#xA;material&#xA;material_map&#xA;matrix&#xA;max&#xA;max_intersections&#xA;max_iteration&#xA;max_trace_level&#xA;media&#xA;media_attenuation&#xA;media_interaction&#xA;merge&#xA;mesh&#xA;metallic&#xA;min&#xA;minimum_reuse&#xA;mod&#xA;mortar&#xA;nearest_count&#xA;no&#xA;normal&#xA;normal_map&#xA;no_shadow&#xA;number_of_waves&#xA;object&#xA;octaves&#xA;off&#xA;offset&#xA;omega&#xA;omnimax&#xA;on&#xA;once&#xA;onion&#xA;open&#xA;orthographic&#xA;panoramic&#xA;perspective&#xA;pgm&#xA;phase&#xA;phong&#xA;phong_size&#xA;pi&#xA;pigment&#xA;pigment_map&#xA;planar&#xA;plane&#xA;png&#xA;point_at&#xA;poly&#xA;polygon&#xA;poly_wave&#xA;pot&#xA;pow&#xA;ppm&#xA;precision&#xA;prism&#xA;pwr&#xA;quadratic_spline&#xA;quadric&#xA;quartic&#xA;quaternion&#xA;quick_color&#xA;quick_colour&#xA;quilted&#xA;radial&#xA;radians&#xA;radiosity&#xA;radius&#xA;rainbow&#xA;ramp_wave&#xA;rand&#xA;range&#xA;ratio&#xA;read&#xA;reciprocal&#xA;recursion_limit&#xA;red&#xA;reflection&#xA;reflection_exponent&#xA;refraction&#xA;render&#xA;repeat&#xA;rgb&#xA;rgbf&#xA;rgbft&#xA;rgbt&#xA;right&#xA;ripples&#xA;rotate&#xA;roughness&#xA;samples&#xA;scale&#xA;scallop_wave&#xA;scattering&#xA;seed&#xA;shadowless&#xA;sin&#xA;sine_wave&#xA;sinh&#xA;sky&#xA;sky_sphere&#xA;slice&#xA;slope_map&#xA;smooth&#xA;smooth_triangle&#xA;sor&#xA;specular&#xA;sphere&#xA;spherical&#xA;spiral1&#xA;spiral2&#xA;spotlight&#xA;spotted&#xA;sqr&#xA;sqrt&#xA;statistics&#xA;str&#xA;strcmp&#xA;strength&#xA;strlen&#xA;strlwr&#xA;strupr&#xA;sturm&#xA;substr&#xA;superellipsoid&#xA;switch&#xA;sys&#xA;t&#xA;tan&#xA;tanh&#xA;text&#xA;texture&#xA;texture_map&#xA;tga&#xA;thickness&#xA;threshold&#xA;tightness&#xA;tile2&#xA;tiles&#xA;torus&#xA;track&#xA;transform&#xA;translate&#xA;transmit&#xA;triangle&#xA;triangle_wave&#xA;true&#xA;ttf&#xA;turbulence&#xA;turb_depth&#xA;type&#xA;u&#xA;ultra_wide_angle&#xA;undef&#xA;union&#xA;up&#xA;use_color&#xA;use_colour&#xA;use_index&#xA;u_steps&#xA;v&#xA;val&#xA;variance&#xA;vaxis_rotate&#xA;vcross&#xA;vdot&#xA;version&#xA;vlength&#xA;vnormalize&#xA;vrotate&#xA;v_steps&#xA;warning&#xA;warp&#xA;water_level&#xA;waves&#xA;while&#xA;width&#xA;wood&#xA;wrinkles&#xA;write&#xA;x&#xA;y&#xA;yes&#xA;z&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="&lt;&gt;&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="{&#xA;}&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="&lt;&#xA;&gt;&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

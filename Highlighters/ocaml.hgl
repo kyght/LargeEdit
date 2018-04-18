@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ocaml" FileType="" Extensions="ML MLI" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ocaml.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="and&#xA;as&#xA;asr&#xA;begin&#xA;class&#xA;closed&#xA;constraint&#xA;do&#xA;done&#xA;downto&#xA;else&#xA;end&#xA;exception&#xA;external&#xA;&#xA;failwith&#xA;false&#xA;flush&#xA;for&#xA;fun&#xA;function&#xA;functor&#xA;if&#xA;in&#xA;include&#xA;inherit&#xA;incr&#xA;land&#xA;let&#xA;lor&#xA;lsl&#xA;lsr&#xA;lxor&#xA;match&#xA;method&#xA;mod&#xA;module&#xA;mutable&#xA;new&#xA;not&#xA;of&#xA;open&#xA;option&#xA;or&#xA;parser&#xA;private&#xA;ref&#xA;rec&#xA;raise&#xA;regexp&#xA;sig&#xA;struct&#xA;stdout&#xA;stdin&#xA;stderr&#xA;then&#xA;to&#xA;true&#xA;try&#xA;type&#xA;val&#xA;virtual&#xA;when&#xA;while&#xA;with&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="Hashtbl&#xA;Array&#xA;Data&#xA;Util&#xA;Printf&#xA;Str&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="array&#xA;bool&#xA;dummy&#xA;float&#xA;int&#xA;list&#xA;string&#xA;unit&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks (*..*)" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="(*" Close="*)"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

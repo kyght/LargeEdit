@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Asm V850" FileType="" Extensions="800 850 ASM A S S85 RC LNK LST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmv850.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="add&#xA;addi&#xA;and&#xA;andi&#xA;bc&#xA;be&#xA;bge&#xA;bgt&#xA;bh&#xA;bhl&#xA;bl&#xA;ble&#xA;blt&#xA;bn&#xA;bnc&#xA;bne&#xA;bnh&#xA;bnl&#xA;bnv&#xA;bnz&#xA;bp&#xA;br&#xA;bsa&#xA;bsh&#xA;bsw&#xA;bv&#xA;bz&#xA;callt&#xA;clr1&#xA;cmp&#xA;ctret&#xA;di&#xA;dispose&#xA;div&#xA;divh&#xA;divhu&#xA;divu&#xA;ei&#xA;halt&#xA;hsw&#xA;jarl&#xA;jbr&#xA;jc&#xA;je&#xA;jge&#xA;jgt&#xA;jh&#xA;jhl&#xA;jl&#xA;jle&#xA;jlt&#xA;jmp&#xA;jn&#xA;jnc&#xA;jne&#xA;jnh&#xA;jnl&#xA;jnv&#xA;jnz&#xA;jp&#xA;jr&#xA;jsa&#xA;jsh&#xA;jsw&#xA;jv&#xA;jz&#xA;ld.b&#xA;ld.bu&#xA;ld.h&#xA;ld.hu&#xA;ld.w&#xA;ldsr&#xA;mov&#xA;movea&#xA;movhi&#xA;mul&#xA;mulh&#xA;mulhi&#xA;mulu&#xA;nop&#xA;not&#xA;not1&#xA;or&#xA;ori&#xA;prepare&#xA;reti&#xA;sar&#xA;satadd&#xA;satsub&#xA;satsubr&#xA;set1&#xA;setf&#xA;shl&#xA;shr&#xA;sld.b&#xA;sld.bu&#xA;sld.h&#xA;sld.hu&#xA;sld.w&#xA;sst.h&#xA;sst.w&#xA;st.b&#xA;st.h&#xA;st.w&#xA;stsr&#xA;sub&#xA;subr&#xA;switch&#xA;sxb&#xA;sxh&#xA;trap&#xA;tst&#xA;tst1&#xA;xor&#xA;xori&#xA;zxb&#xA;zxh&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR,Register" Enabled="True" Style="" Words="-&#xA;!&#xA;%&#xA;&amp;&#xA;/&#xA;//&#xA;^&#xA;|&#xA;+&#xA;&lt;&#xA;=&#xA;&gt;&#xA;CTBP&#xA;CTPC&#xA;CTPSW&#xA;DBPC&#xA;DBPSW&#xA;ECR&#xA;EIPC&#xA;EIPSW&#xA;EP&#xA;FEPC&#xA;FEPSW&#xA;GP&#xA;LP&#xA;PC&#xA;PSW&#xA;R0&#xA;R1&#xA;R10&#xA;R11&#xA;R12&#xA;R13&#xA;R14&#xA;R15&#xA;R16&#xA;R17&#xA;R18&#xA;R19&#xA;R2&#xA;R20&#xA;R21&#xA;R22&#xA;R23&#xA;R24&#xA;R25&#xA;R26&#xA;R27&#xA;R28&#xA;R29&#xA;R3&#xA;R30&#xA;R31&#xA;R4&#xA;R5&#xA;R6&#xA;R7&#xA;R8&#xA;R9&#xA;SP&#xA;TP&#xA;ZERO&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Preprocessor" Enabled="True" Style="" Words=".&#xA;.align&#xA;.bss&#xA;.byte&#xA;.comm&#xA;.data&#xA;.def&#xA;.dim&#xA;.double&#xA;.eject&#xA;.else&#xA;.elseif&#xA;.endef&#xA;.endif&#xA;.endm&#xA;.endr&#xA;.equ&#xA;.exitm&#xA;.file&#xA;.gen&#xA;.globl&#xA;.ident&#xA;.if&#xA;.include&#xA;.line&#xA;.list&#xA;.ln&#xA;.macro&#xA;.nogen&#xA;.nolist&#xA;.nowarning&#xA;.offset&#xA;.org&#xA;.previous&#xA;.rept&#xA;.sbttl&#xA;.scl&#xA;.section&#xA;.set&#xA;.single&#xA;.size&#xA;.skip&#xA;.space&#xA;.str&#xA;.subtitle&#xA;.text&#xA;.title&#xA;.using&#xA;.warning&#xA;.weak&#xA;.word&#xA;hi&#xA;hword&#xA;lo&#xA;sdaoff&#xA;zdaoff&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

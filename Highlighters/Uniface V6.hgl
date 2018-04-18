@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Uniface V6" FileType="" Extensions="uv6" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:uniface6.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMANDS" Enabled="True" Style="" Words="addmonths&#xA;apexit&#xA;askmess&#xA;blockdata&#xA;break&#xA;by&#xA;call&#xA;clear&#xA;close&#xA;clrmess&#xA;commit&#xA;compare&#xA;compute&#xA;creocc&#xA;debug&#xA;delete&#xA;delitem&#xA;discard&#xA;display&#xA;done&#xA;edit&#xA;eject&#xA;else&#xA;end&#xA;endif&#xA;endwhile&#xA;entry&#xA;erase&#xA;exit&#xA;field_syntax&#xA;field_video&#xA;filebox&#xA;filedump&#xA;file_dump&#xA;fileload&#xA;file_load&#xA;from&#xA;getitem&#xA;getlistitems&#xA;goto&#xA;help&#xA;if&#xA;length&#xA;lock&#xA;lookup&#xA;lowercase&#xA;macro&#xA;message&#xA;nodebug&#xA;numgen&#xA;numset&#xA;open&#xA;order&#xA;perform&#xA;pragma&#xA;previous&#xA;print&#xA;print_break&#xA;pulldown&#xA;putitem&#xA;putlistitems&#xA;putmess&#xA;read&#xA;refresh&#xA;release&#xA;reload&#xA;remocc&#xA;repeat&#xA;reset&#xA;retrieve&#xA;return&#xA;rollback&#xA;run&#xA;scan&#xA;selectdb&#xA;set&#xA;setocc&#xA;skip&#xA;sort&#xA;spawn&#xA;sql&#xA;store&#xA;to&#xA;u_where&#xA;until&#xA;uppercase&#xA;using&#xA;where&#xA;while&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="append&#xA;ask&#xA;complete&#xA;desc&#xA;dump&#xA;e&#xA;error&#xA;field&#xA;global&#xA;hint&#xA;id&#xA;image&#xA;info&#xA;init&#xA;list&#xA;load&#xA;local&#xA;menu&#xA;mod&#xA;net&#xA;next&#xA;nobeep&#xA;noborder&#xA;nolock&#xA;noterm&#xA;nowander&#xA;o&#xA;occ&#xA;query&#xA;raw&#xA;save&#xA;truncate&#xA;warning&#xA;x&#xA;:a&#xA;:ascending&#xA;:d&#xA;:descending&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FUNCTIONS" Enabled="True" Style="" Words="$applname&#xA;$batch&#xA;$char&#xA;$check&#xA;$clock&#xA;$curline&#xA;$curocc&#xA;$currhits&#xA;$curword&#xA;$date&#xA;$datim&#xA;$dberror&#xA;$dbocc&#xA;$direction&#xA;$disable&#xA;$display&#xA;$empty&#xA;$entname&#xA;$error&#xA;$fieldcheck&#xA;$fieldendmod&#xA;$fieldmod&#xA;$fieldname&#xA;$fieldprofile&#xA;$fieldproperties&#xA;$fieldvalrep&#xA;$format&#xA;$formdb&#xA;$formdbmod&#xA;$formmod&#xA;$formname&#xA;$formtitle&#xA;$framedepth&#xA;$gui&#xA;$hide&#xA;$hits&#xA;$ioprint&#xA;$keyboard&#xA;$language&#xA;$lines&#xA;$next&#xA;$number&#xA;$occcheck&#xA;$occdel&#xA;$occdepth&#xA;$occmod&#xA;$oprsys&#xA;$page&#xA;$password&#xA;$previous&#xA;$printing&#xA;$prompt&#xA;$properties&#xA;$putmess&#xA;$relation&#xA;$result&#xA;$rettype&#xA;$selblk&#xA;$status&#xA;$storetype&#xA;$syntax&#xA;$text&#xA;$time&#xA;$totdbocc&#xA;$totlines&#xA;$totocc&#xA;$user&#xA;$valrep&#xA;$variation&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="!&#xA;$&#xA;%&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;+&#xA;,&#xA;-&#xA;.&#xA;/&#xA;:&#xA;;&#xA;&lt;&#xA;=&#xA;&gt;&#xA;[&#xA;\&#xA;]&#xA;^&#xA;|&#xA;\&#xA;$$&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

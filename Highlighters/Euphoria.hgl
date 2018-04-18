@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Euphoria" FileType="" Extensions="EX EXW EXU E EW EU" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:euphoria.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,-:;&lt;&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Reserved Words" Enabled="True" Style="" Words="and&#xA;by&#xA;constant&#xA;do&#xA;else&#xA;elsif&#xA;end&#xA;exit&#xA;for&#xA;function&#xA;global&#xA;if&#xA;include&#xA;not&#xA;or&#xA;procedure&#xA;return&#xA;then&#xA;to&#xA;type&#xA;while&#xA;with&#xA;without&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Types" Enabled="True" Style="" Words="atom&#xA;integer&#xA;object&#xA;sequence&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Library Routines" Enabled="True" Style="" Words="?&#xA;append&#xA;arcsin&#xA;arccos&#xA;arctan&#xA;and_bits&#xA;allow_break&#xA;abort&#xA;all_palette&#xA;allocate&#xA;allocate_low&#xA;allocate_string&#xA;atom_to_float64&#xA;atom_to_float32&#xA;bk_color&#xA;bytes_to_int&#xA;bits_to_int&#xA;compare&#xA;custom_sort&#xA;cos&#xA;close&#xA;current_dir&#xA;chdir&#xA;check_break&#xA;command_line&#xA;clear_screen&#xA;cursor&#xA;call&#xA;crash_file&#xA;crash_message&#xA;call_proc&#xA;call_func&#xA;c_proc&#xA;c_func&#xA;call_back&#xA;dir&#xA;date&#xA;display_text_image&#xA;draw_line&#xA;display_image&#xA;dos_interrupt&#xA;define_c_proc&#xA;define_c_func&#xA;define_c_var&#xA;equal&#xA;ellipse&#xA;find&#xA;floor&#xA;flush&#xA;free&#xA;free_low&#xA;float64_to_atom&#xA;float32_to_atom&#xA;free_console&#xA;get&#xA;getc&#xA;gets&#xA;get_bytes&#xA;get_key&#xA;get_mouse&#xA;getenv&#xA;get_position&#xA;graphics_mode&#xA;get_all_palette&#xA;get_active_page&#xA;get_display_page&#xA;get_screen_char&#xA;get_pixel&#xA;get_vector&#xA;int_to_bytes&#xA;int_to_bits&#xA;instance&#xA;length&#xA;lower&#xA;log&#xA;lock_file&#xA;lock_memory&#xA;match&#xA;mouse_events&#xA;mouse_pointer&#xA;machine_func&#xA;machine_proc&#xA;mem_copy&#xA;mem_set&#xA;message_box&#xA;not_bits&#xA;or_bits&#xA;open&#xA;open_dll&#xA;PI&#xA;prepend&#xA;power&#xA;print&#xA;printf&#xA;puts&#xA;prompt_string&#xA;prompt_number&#xA;platform&#xA;profile&#xA;position&#xA;palette&#xA;put_screen_char&#xA;pixel&#xA;polygon&#xA;peek&#xA;peek4s&#xA;peek4u&#xA;poke&#xA;poke4&#xA;rand&#xA;repeat&#xA;reverse&#xA;remainder&#xA;read_bitmap&#xA;register_block&#xA;routine_id&#xA;sin&#xA;sort&#xA;sqrt&#xA;sprintf&#xA;seek&#xA;system&#xA;system_exec&#xA;sleep&#xA;scroll&#xA;save_bitmap&#xA;set_active_page&#xA;set_display_page&#xA;sound&#xA;save_text_image&#xA;save_screen&#xA;save_image&#xA;set_vector&#xA;set_rand&#xA;tan&#xA;time&#xA;tick_rate&#xA;trace&#xA;text_color&#xA;text_rows&#xA;upper&#xA;unlock_file&#xA;unregister_block&#xA;use_vesa&#xA;value&#xA;video_config&#xA;wildcard_match&#xA;wildcard_file&#xA;wait_key&#xA;where&#xA;walk_dir&#xA;wrap&#xA;xor_bits&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="&lt;&#xA;&lt;=&#xA;&gt;&#xA;&gt;=&#xA;=&#xA;!=&#xA;+&#xA;+=&#xA;-&#xA;-=&#xA;*&#xA;*=&#xA;//&#xA;/&#xA;/=&#xA;..&#xA;&amp;&#xA;&amp;=&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

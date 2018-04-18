@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Amtrix" FileType="" Extensions="S4 S4T S4H HND T4" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="ARGUMENT&#xA;AMTRIX_LOGID&#xA;AND&#xA;APPEND&#xA;ARG_LIST&#xA;ARG_OPT&#xA;ARGUMENTCOUNT&#xA;ARRAYSIZE&#xA;AS&#xA;ASSIGNMENT&#xA;BEGIN&#xA;BINARY&#xA;BIT_AND&#xA;BIT_NOT&#xA;BIT_OR&#xA;BIT_SHIFT&#xA;BIT_XOR&#xA;BLOCK&#xA;BOUNDED&#xA;BREAK&#xA;BY&#xA;CALL&#xA;CASE&#xA;CATCH&#xA;CENTER&#xA;CHAR&#xA;CHARSET&#xA;CLOSE&#xA;COMMENTS&#xA;COMMIT&#xA;COMPOSITE&#xA;CONDITIONAL&#xA;CONSTANT&#xA;CONSTANTS&#xA;CONTINUE&#xA;CONTROL&#xA;CONVERT&#xA;COPY&#xA;COUNT&#xA;CURRENTDATE&#xA;DATA&#xA;DATABASE&#xA;DATE&#xA;DEBUG&#xA;DECLARE&#xA;DELETE&#xA;DESTINATION&#xA;DIR_CLOSE&#xA;DIR_OPEN&#xA;DIR_READ&#xA;DIR_REWIND&#xA;EDI&#xA;EDI_CHARSET&#xA;EDI_READ_CHARSET&#xA;EDI_READ_INTERCHANGE&#xA;EDI_TRUNCATE&#xA;ELEMENT&#xA;ELSE&#xA;ERROR&#xA;EXEC&#xA;EXECUTE&#xA;EXIT&#xA;EXPORT&#xA;EXPRESSIONS&#xA;FILE&#xA;FLOAT&#xA;FOR&#xA;FORMAT&#xA;FROM&#xA;FROM_ISO8859&#xA;FUNCTION&#xA;GETOPT&#xA;GROUP&#xA;IF&#xA;IMPORT&#xA;INCLUDE&#xA;INPUT&#xA;INSERT&#xA;INTEGER&#xA;INTO&#xA;LEFT&#xA;LOCK&#xA;LOG&#xA;LOGID&#xA;LOOP&#xA;MANDATORY&#xA;MODULE&#xA;MOVE&#xA;NDEC&#xA;NOLOG&#xA;ON&#xA;OPEN&#xA;OPTDTA_READ&#xA;OPTDTA_WRITE&#xA;OPTIONAL&#xA;OR&#xA;ORDER&#xA;OTHERS&#xA;OUTPUT&#xA;PRAGMA&#xA;PRINT&#xA;RAW_CLOSE&#xA;RAW_FLUSH&#xA;RAW_OPEN&#xA;RAW_READ&#xA;RAW_SEEK&#xA;RAW_TELL&#xA;RAW_WRITE&#xA;READ&#xA;READTAG&#xA;RECEIVE&#xA;REGEXP&#xA;RELATION&#xA;RELEASE&#xA;REPEAT&#xA;RESERVED&#xA;RETURN&#xA;RIGHT&#xA;ROLLBACK&#xA;SCAN&#xA;SEGMENT&#xA;SELECT&#xA;SEND&#xA;SEQUENCE&#xA;SET&#xA;SLEEP&#xA;SOURCE&#xA;SOURCEFILE&#xA;SOURCELINE&#xA;SOURCEMODULE&#xA;SOURCEPROCEDURE&#xA;SPLIT&#xA;SQL&#xA;STATEMENT&#xA;STR_FIELD&#xA;STR_FIELDS&#xA;STR_LOWER&#xA;STR_UPPER&#xA;STRCNV&#xA;STRFIELD&#xA;STRFIELDS&#xA;STRING&#xA;STRLEN&#xA;STRMID&#xA;SUB&#xA;SWITCH&#xA;SYSTEM&#xA;TABLE&#xA;TEXT&#xA;THROW&#xA;TO&#xA;TO_ISO8859&#xA;TRUNC&#xA;TRUNCATE&#xA;TRY&#xA;TYPE&#xA;TYPES&#xA;UNBOUNDED&#xA;UNIQUE_ID&#xA;UNIQUE_NAME&#xA;UNLOCK&#xA;UPDATE&#xA;VALUES&#xA;VARIABLE&#xA;VARIABLES&#xA;WHILE&#xA;WHEN&#xA;WHERE&#xA;WORK&#xA;WRITETAG&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00800040" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

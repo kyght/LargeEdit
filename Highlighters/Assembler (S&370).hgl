@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="S/370 Assembler" FileType="" Extensions="ASM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asms370.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;'(),.:;"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="a&#xA;ad&#xA;adr&#xA;ae&#xA;aer&#xA;ah&#xA;al&#xA;alr&#xA;ap&#xA;ar&#xA;au&#xA;aur&#xA;aw&#xA;awr&#xA;b&#xA;bakr&#xA;bal&#xA;balr&#xA;bas&#xA;bassm&#xA;bc&#xA;bcr&#xA;bct&#xA;bctr&#xA;be&#xA;bh&#xA;bl&#xA;bm&#xA;bne&#xA;bnh&#xA;bnl&#xA;bnm&#xA;bno&#xA;bnp&#xA;bnz&#xA;bo&#xA;bp&#xA;br&#xA;bsm&#xA;bxh&#xA;bxle&#xA;bz&#xA;c&#xA;call&#xA;cd&#xA;cdr&#xA;ce&#xA;cer&#xA;ch&#xA;cl&#xA;clc&#xA;cli&#xA;clr&#xA;cp&#xA;cr&#xA;cvb&#xA;cvd&#xA;d&#xA;dc&#xA;dd&#xA;ddr&#xA;de&#xA;delete&#xA;der&#xA;dp&#xA;dr&#xA;ds&#xA;ed&#xA;edmk&#xA;ex&#xA;hdr&#xA;her&#xA;hio&#xA;ic&#xA;icm&#xA;isk&#xA;l&#xA;la&#xA;lcdr&#xA;lcer&#xA;lcr&#xA;ld&#xA;ldr&#xA;le&#xA;ler&#xA;lh&#xA;link&#xA;lm&#xA;lndr&#xA;lner&#xA;lnr&#xA;lnsw&#xA;load&#xA;lr&#xA;ltdr&#xA;lter&#xA;ltr&#xA;m&#xA;md&#xA;mdr&#xA;me&#xA;mer&#xA;mh&#xA;mp&#xA;mr&#xA;mvc&#xA;mvcl&#xA;mvcp&#xA;mvi&#xA;mvn&#xA;mvo&#xA;mvz&#xA;n&#xA;nc&#xA;ni&#xA;nop&#xA;nopr&#xA;nr&#xA;o&#xA;oc&#xA;oi&#xA;or&#xA;pack&#xA;pc&#xA;rdd&#xA;s&#xA;sd&#xA;sdr&#xA;se&#xA;ser&#xA;sh&#xA;si&#xA;sio&#xA;sla&#xA;slda&#xA;sldl&#xA;sll&#xA;slr&#xA;sp&#xA;spm&#xA;sr&#xA;sra&#xA;srda&#xA;srdl&#xA;srl&#xA;ssk&#xA;ssm&#xA;st&#xA;stc&#xA;std&#xA;ste&#xA;sth&#xA;stm&#xA;su&#xA;svc&#xA;sw&#xA;swr&#xA;tch&#xA;tio&#xA;tm&#xA;tr&#xA;trt&#xA;ts&#xA;unpk&#xA;x&#xA;x1&#xA;xc&#xA;xr&#xA;zap&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="amode&#xA;csect&#xA;drop&#xA;dsect&#xA;eject&#xA;end&#xA;equ&#xA;ltorg&#xA;org&#xA;print&#xA;requate&#xA;rmode&#xA;space&#xA;start&#xA;title&#xA;using&#xA;yregs&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="r&#xA;r0&#xA;r1&#xA;r10&#xA;r11&#xA;r12&#xA;r13&#xA;r14&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;r8&#xA;r9&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

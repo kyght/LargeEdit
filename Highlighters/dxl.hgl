@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DXL" FileType="" Extensions="TRG INC DXL PAT OLD BAK DAT IDX" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:dxl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="break&#xA;by&#xA;change&#xA;const&#xA;continue&#xA;do&#xA;else&#xA;for&#xA;if&#xA;in&#xA;return&#xA;then&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="AccessRec&#xA;Array&#xA;AttrDef&#xA;AttrType&#xA;Baseline&#xA;Bitmap&#xA;Buffer&#xA;bool&#xA;Column&#xA;char&#xA;Date&#xA;DB&#xA;DBE&#xA;Filter&#xA;History&#xA;HistoryType&#xA;int&#xA;InPlaceEditEvent&#xA;IPC&#xA;Link&#xA;Linkset&#xA;Module&#xA;Object&#xA;OleAutoArgs&#xA;OleAutoObj&#xA;Permission&#xA;Project&#xA;real&#xA;Regexp&#xA;ScrollEvent&#xA;ScrollSide&#xA;Sensitivity&#xA;Skip&#xA;Sort&#xA;Stat&#xA;Stream&#xA;string&#xA;Template&#xA;ToolType&#xA;Trigger&#xA;void&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="above&#xA;accept&#xA;ack&#xA;activateURL&#xA;active&#xA;addToolTip&#xA;addUser&#xA;addMenu&#xA;after&#xA;all&#xA;alternative&#xA;alternatives&#xA;ancestors&#xA;append&#xA;apply&#xA;arrow&#xA;attribute&#xA;attributeValue&#xA;attributes&#xA;background&#xA;before&#xA;below&#xA;beside&#xA;block&#xA;box&#xA;button&#xA;canDelete&#xA;canRead&#xA;canvas&#xA;canWrite&#xA;centered&#xA;charOf&#xA;changeBars&#xA;checkBox&#xA;choice&#xA;clear&#xA;clearClipboard&#xA;clearToolTips&#xA;client&#xA;clipboardIsEmpty&#xA;clipboardIsTransient&#xA;close&#xA;closeProject&#xA;color&#xA;confirm&#xA;confAppend&#xA;confDeleteFile&#xA;confMkdir&#xA;confRead&#xA;confRenameFile&#xA;confWrite&#xA;contents&#xA;copyFile&#xA;copyFlat&#xA;copyHier&#xA;cos&#xA;create&#xA;createString&#xA;current&#xA;cut&#xA;database&#xA;default&#xA;delete&#xA;deleteFile&#xA;deselect&#xA;destroyBitmap&#xA;directory&#xA;disconnect&#xA;display&#xA;doorsname&#xA;double&#xA;down&#xA;downgrade&#xA;draw&#xA;drawBitmap&#xA;du&#xA;dxl&#xA;edit&#xA;editor&#xA;ellipse&#xA;end&#xA;eval_&#xA;exists&#xA;exit_&#xA;false&#xA;field&#xA;fileExists_&#xA;fileOverwriteOK_&#xA;fileReadable_&#xA;fileWriteable_&#xA;fileName&#xA;filtering&#xA;find&#xA;first&#xA;flushDeletions&#xA;font&#xA;formal&#xA;full&#xA;get&#xA;getenv&#xA;getSelection&#xA;getSize&#xA;goodFileName&#xA;graphics&#xA;halt&#xA;hardDelete&#xA;hasInPlace&#xA;hasScrollbars&#xA;height&#xA;hide&#xA;home&#xA;identifier&#xA;inactive&#xA;info&#xA;inherit&#xA;inPlaceChoiceAdd&#xA;inPlaceCopy&#xA;inPlaceCut&#xA;inPlaceGet&#xA;inPlaceMove&#xA;inPlacePaste&#xA;inPlaceReset&#xA;inPlaceSet&#xA;inPlaceShow&#xA;inPlaceTextHeight&#xA;insert&#xA;intOf&#xA;isAdmin&#xA;isBatch&#xA;isDeleted&#xA;isEdit&#xA;isLocked&#xA;isLockedByUser&#xA;isNull&#xA;isRead&#xA;isSelected&#xA;isShare&#xA;isValidName&#xA;isVisible&#xA;isVisibleAttribute&#xA;justify&#xA;key&#xA;label&#xA;last&#xA;lastError&#xA;leaf&#xA;left&#xA;leftAligned&#xA;length&#xA;level&#xA;line&#xA;linkIndicators&#xA;list&#xA;load&#xA;loadBitmap&#xA;lock&#xA;lower&#xA;main&#xA;manyToMany&#xA;manyToOne&#xA;margins&#xA;match&#xA;matches&#xA;menuBar&#xA;mkdir&#xA;modified&#xA;move&#xA;multiList&#xA;name&#xA;next&#xA;noElems&#xA;noError&#xA;notNull&#xA;null&#xA;number&#xA;of&#xA;off&#xA;ok&#xA;oleCloseAutoObject&#xA;oleCopy&#xA;oleCreateAutoObject&#xA;oleCut&#xA;oleGet&#xA;oleInsert&#xA;oleIsObject&#xA;oleMethod&#xA;olePaste&#xA;olePut&#xA;on&#xA;oneToMany&#xA;oneToOne&#xA;open&#xA;openProject&#xA;opposite&#xA;outline&#xA;outlining&#xA;pageBottomMargin&#xA;pageBreakLevel&#xA;pageChangeBars&#xA;pageColumns&#xA;pageFormat&#xA;pageHeaderFooter&#xA;pageHeight&#xA;pageLayout&#xA;pageLeftMargin&#xA;pageName&#xA;pagePortrait&#xA;pageRepeatTitles&#xA;pageRightMargin&#xA;pageSize&#xA;pageTitlePage&#xA;pageTOCLevel&#xA;pageTopMargin&#xA;pageWidth&#xA;parent&#xA;parentOf&#xA;pasteDown&#xA;pasteSame&#xA;pi&#xA;platform&#xA;polygon&#xA;previous&#xA;print&#xA;progressCancelled&#xA;progressMessage&#xA;progressRange&#xA;progressStart&#xA;progressStep&#xA;progressStop&#xA;purgeObjects_&#xA;put&#xA;query&#xA;radioBox&#xA;radioButton&#xA;raise&#xA;random&#xA;read&#xA;readFile&#xA;realise&#xA;realize&#xA;realOf&#xA;rectangle&#xA;recv&#xA;refresh&#xA;reject&#xA;release&#xA;renameFile&#xA;return_&#xA;richText&#xA;right&#xA;runLim&#xA;save&#xA;scroll&#xA;scrollSet&#xA;selected&#xA;send&#xA;separator&#xA;server&#xA;set&#xA;setDef&#xA;setDefaultViewForModule&#xA;setempty&#xA;setFocus&#xA;setPos&#xA;setSelection&#xA;setSize&#xA;setVal&#xA;share&#xA;show&#xA;showDeletedModules&#xA;showDeletedObjects&#xA;showDeletedProjects&#xA;showing&#xA;sibling&#xA;sin&#xA;sizeof&#xA;slider&#xA;softDelete&#xA;sorting&#xA;source&#xA;spell&#xA;stacked&#xA;start&#xA;static&#xA;statusBar&#xA;stringOf&#xA;switch&#xA;sync&#xA;tan&#xA;target&#xA;tempFileName&#xA;text&#xA;title&#xA;today&#xA;toggle&#xA;toolBar&#xA;toolBarComboAdd&#xA;toolBarComboCount&#xA;toolBarComboEmpty&#xA;toolBarComboGetItem&#xA;toolBarComboGetSelection&#xA;toolBarComboSelect&#xA;toolButton&#xA;toolCombo&#xA;toolSpacer&#xA;toolToggle&#xA;top&#xA;topMost&#xA;true&#xA;type&#xA;undelete&#xA;unload&#xA;unlockSaveSection&#xA;unlockSaveAll&#xA;unlockDiscardSection&#xA;unlockDiscardAll&#xA;up&#xA;updateToolBars&#xA;upper&#xA;useraccess&#xA;varchar&#xA;verticalCheckBox&#xA;verticalRadioBox&#xA;view&#xA;width&#xA;write&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="attrDate&#xA;attrEnumeration&#xA;attrInteger&#xA;attrReal&#xA;attrString&#xA;attrText&#xA;colorBlack&#xA;colorBlue&#xA;colorBrown&#xA;colorCyan&#xA;colorDarkTurquoise&#xA;colorGreen&#xA;colorGrey&#xA;colorGrey77&#xA;colorGrey82&#xA;colorLightBlue&#xA;colorMagenta&#xA;colorMaroon&#xA;colorMediumLightBlue&#xA;colorOrange&#xA;colorPink&#xA;colorRed&#xA;colorRedGrey&#xA;colorWhite&#xA;colorYellow&#xA;ddbAvailable&#xA;ddbChecked&#xA;ddbNone&#xA;ddbUnavailable&#xA;ICD_DECREASE_LEVEL&#xA;ICD_INCREASE_LEVEL&#xA;ICD_LEVEL1&#xA;ICD_LEVEL2&#xA;ICD_LEVEL3&#xA;ICD_LEVEL4&#xA;ICD_LEVEL5&#xA;ICD_LEVEL6&#xA;ICD_LEVEL7&#xA;ICD_LEVEL8&#xA;ICD_LEVEL10&#xA;ICD_LEVELALL&#xA;ICD_OPEN_MODULE&#xA;ICD_OPEN_PROJ&#xA;inPlaceChoice&#xA;inPlaceString&#xA;inPlaceText&#xA;inPlaceTextChange&#xA;inPlaceTextFilled&#xA;keyDelete&#xA;keyDown&#xA;keyEnd&#xA;keyF1&#xA;keyF2&#xA;keyF3&#xA;keyF4&#xA;keyF5&#xA;keyF6&#xA;keyF7&#xA;keyF8&#xA;keyF9&#xA;keyF10&#xA;keyF11&#xA;keyF12&#xA;keyHelp&#xA;keyHome&#xA;keyInsert&#xA;keyLeft&#xA;keyPageDown&#xA;keyPageUp&#xA;keyRight&#xA;keyUp&#xA;logicalDefaultColor&#xA;logical0IndicatorColor&#xA;logical11IndicatorColor&#xA;logical22IndicatorColor&#xA;logical33IndicatorColor&#xA;logical44IndicatorColor&#xA;logical55IndicatorColor&#xA;logical66IndicatorColor&#xA;logical77IndicatorColor&#xA;logical88IndicatorColor&#xA;logical100IndicatorColor&#xA;logicalCurrentBackgroundColor&#xA;logicalDataTextColor&#xA;logicalDeletedTextColor&#xA;logicalHighIndicatorColor&#xA;logicalInPlaceBackgroundColor&#xA;logicalLinksInIndicatorColor&#xA;logicalLowIndicatorColor&#xA;logicalMediumIndicatorColor&#xA;logicalPageBackgroundColor&#xA;logicalReadOnlyTextColor&#xA;logicalSelectedTextColor&#xA;logicalTextBackgroundColor&#xA;logicalTitleBackgroundColor&#xA;logicalTitleTextColor&#xA;scrollDown&#xA;scrollPageDown&#xA;scrollPageUp&#xA;scrollToEnd&#xA;scrollToHome&#xA;scrollToPos&#xA;scrollUp&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="#include&#xA;pragma&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="H8S Assembler" FileType="" Extensions="S ASM INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmh8s.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words=".&#xA;adc&#xA;add&#xA;adds&#xA;addx&#xA;adiw&#xA;and&#xA;andc&#xA;andi&#xA;asr&#xA;b&#xA;band&#xA;bcc&#xA;bclr&#xA;bcs&#xA;beq&#xA;bge&#xA;bgt&#xA;bhi&#xA;bhs&#xA;biand&#xA;bild&#xA;bior&#xA;bist&#xA;bixor&#xA;bld&#xA;ble&#xA;blo&#xA;bls&#xA;blt&#xA;bmi&#xA;bne&#xA;bnot&#xA;bor&#xA;bpl&#xA;br&#xA;bra&#xA;brbc&#xA;brbs&#xA;brcc&#xA;brcs&#xA;breq&#xA;brge&#xA;brhc&#xA;brhs&#xA;brid&#xA;brie&#xA;brlo&#xA;brlt&#xA;brmi&#xA;brn&#xA;brne&#xA;brpl&#xA;brsh&#xA;brtc&#xA;brts&#xA;brvc&#xA;brvs&#xA;bset&#xA;bsr&#xA;bst&#xA;btst&#xA;bvc&#xA;bvs&#xA;bxor&#xA;cbi&#xA;cc&#xA;clc&#xA;clh&#xA;cli&#xA;cln&#xA;clr&#xA;cls&#xA;clt&#xA;clz&#xA;cmp&#xA;com&#xA;cp&#xA;cpc&#xA;cpi&#xA;cpse&#xA;daa&#xA;das&#xA;dec&#xA;divxs&#xA;divxu&#xA;eepmov&#xA;eor&#xA;exts&#xA;extu&#xA;high&#xA;icall&#xA;ijmp&#xA;in&#xA;inc&#xA;jmp&#xA;jsr&#xA;l&#xA;ld&#xA;ldc&#xA;ldd&#xA;ldi&#xA;ldm&#xA;lds&#xA;low&#xA;lpm&#xA;lsl&#xA;lsr&#xA;mov&#xA;movfpe&#xA;movtpe&#xA;mulxs&#xA;mulxu&#xA;neg&#xA;nop&#xA;not&#xA;or&#xA;orc&#xA;ori&#xA;out&#xA;pop&#xA;push&#xA;rcall&#xA;ret&#xA;reti&#xA;rjmp&#xA;rol&#xA;ror&#xA;rotl&#xA;rotr&#xA;rotxl&#xA;rotxr&#xA;rte&#xA;rts&#xA;sbc&#xA;sbci&#xA;sbi&#xA;sbic&#xA;sbis&#xA;sbiw&#xA;sbrc&#xA;sbrs&#xA;sec&#xA;seh&#xA;sei&#xA;sen&#xA;ser&#xA;set&#xA;sev&#xA;shal&#xA;shar&#xA;shll&#xA;shlr&#xA;sleep&#xA;st&#xA;stc&#xA;std&#xA;stm&#xA;sts&#xA;sub&#xA;subi&#xA;subs&#xA;subx&#xA;swap&#xA;tas&#xA;trapa&#xA;vlv&#xA;w&#xA;wdr&#xA;xcorc&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="align&#xA;ascii&#xA;asciz&#xA;bss&#xA;comm&#xA;cseg&#xA;def&#xA;device&#xA;dim&#xA;dseg&#xA;end&#xA;endef&#xA;equ&#xA;eseg&#xA;extern&#xA;file&#xA;global&#xA;h8300h&#xA;include&#xA;int&#xA;list&#xA;long&#xA;nolist&#xA;org&#xA;rodata&#xA;scl&#xA;section&#xA;size&#xA;text&#xA;type&#xA;val&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="#&#xA;@&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="ccr&#xA;e0&#xA;e1&#xA;e2&#xA;e3&#xA;e4&#xA;e5&#xA;e6&#xA;e7&#xA;e8&#xA;e9&#xA;er0&#xA;er1&#xA;er2&#xA;er3&#xA;er4&#xA;er5&#xA;er6&#xA;er7&#xA;exr&#xA;r0&#xA;r0h&#xA;r0l&#xA;r1&#xA;r10&#xA;r11&#xA;r12&#xA;r13&#xA;r14&#xA;r15&#xA;r16&#xA;r17&#xA;r18&#xA;r19&#xA;r1h&#xA;r1l&#xA;r2&#xA;r20&#xA;r21&#xA;r22&#xA;r23&#xA;r24&#xA;r25&#xA;r26&#xA;r27&#xA;r28&#xA;r29&#xA;r2h&#xA;r2l&#xA;r3&#xA;r30&#xA;r31&#xA;r3h&#xA;r3l&#xA;r4&#xA;r4h&#xA;r4l&#xA;r5&#xA;r5h&#xA;r5l&#xA;r6&#xA;r6h&#xA;r6l&#xA;r7&#xA;r7h&#xA;r7l&#xA;r8&#xA;r9&#xA;sp&#xA;x&#xA;xh&#xA;xl&#xA;y&#xA;yh&#xA;yl&#xA;z&#xA;zh&#xA;zl&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="acd&#xA;aci&#xA;acic&#xA;acie&#xA;acis0&#xA;acis1&#xA;aco&#xA;acsr&#xA;adch&#xA;adcl&#xA;adcsr&#xA;aden&#xA;aden	adsc&#xA;adfr&#xA;adie&#xA;adif&#xA;admux&#xA;adps0&#xA;adps1&#xA;adps2&#xA;adsc&#xA;as2&#xA;assr&#xA;chr9&#xA;com1a&#xA;com1a0&#xA;com1a1&#xA;com1b&#xA;com1b0&#xA;com1b1&#xA;com20&#xA;com21&#xA;cpha&#xA;cpol&#xA;cs00&#xA;cs01&#xA;cs02&#xA;cs10	com1a&#xA;cs11&#xA;cs12&#xA;cs20&#xA;cs21&#xA;cs22&#xA;ctc1&#xA;ctc2&#xA;ddra&#xA;ddrb&#xA;ddrc&#xA;ddrd&#xA;dord&#xA;e2end&#xA;eear&#xA;eearh&#xA;eearl&#xA;eecr&#xA;eedr&#xA;eemwe&#xA;eere&#xA;eerie&#xA;eewe&#xA;extrf&#xA;fe&#xA;flashend&#xA;gifr&#xA;gimsk&#xA;ices1&#xA;icf1&#xA;icnc1&#xA;icr1h&#xA;icr1l&#xA;int0&#xA;int1&#xA;intf0&#xA;intf1&#xA;isc00&#xA;isc01&#xA;isc10&#xA;isc11&#xA;mcucr&#xA;mcusr&#xA;mstr&#xA;mux0&#xA;mux1&#xA;mux2&#xA;ocf1a&#xA;ocf1b&#xA;ocf2&#xA;ocie1&#xA;ocie1a&#xA;ocie1b&#xA;ocie2&#xA;ocr1ah&#xA;ocr1al&#xA;ocr1bh&#xA;ocr1bl&#xA;ocr2&#xA;ocr2ub&#xA;or&#xA;pina&#xA;pinb&#xA;pinc&#xA;pind&#xA;porf&#xA;porta&#xA;portb&#xA;portc&#xA;portd&#xA;pwm10&#xA;pwm11&#xA;pwm2&#xA;rxb8&#xA;rxc&#xA;rxcie&#xA;rxen&#xA;se&#xA;sm&#xA;sm0&#xA;sm1&#xA;spcr&#xA;spdr&#xA;spe&#xA;sph&#xA;spie&#xA;spif&#xA;spl&#xA;spr0&#xA;spr1&#xA;spsr&#xA;sre&#xA;sreg&#xA;srw&#xA;tccr0&#xA;tccr1a&#xA;tccr1b&#xA;tccr2&#xA;tccra&#xA;tcn2ub&#xA;tcnt0&#xA;tcnt1h&#xA;tcnt1l&#xA;tcnt2&#xA;tcr2ub&#xA;ticie&#xA;ticie1&#xA;tifr&#xA;timsk&#xA;toie0&#xA;toie1&#xA;toie2&#xA;tov0&#xA;tov1&#xA;tov2&#xA;txb8&#xA;txc&#xA;txcie&#xA;txen&#xA;ubrr&#xA;ucr&#xA;udr&#xA;udre&#xA;udrie&#xA;usr&#xA;usr	ucr	ubrr&#xA;wcol&#xA;wde&#xA;wdp0&#xA;wdp1&#xA;wdp2&#xA;wdtcr&#xA;wdtoe&#xA;xramend&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQL" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Teradata" Enabled="True" Style="" Words="ABORT&#xA;ABORTSESSION&#xA;ABS&#xA;ACCESS_LOCK&#xA;ACCOUNT&#xA;ADD&#xA;ADD_MONTHS&#xA;ALIAS&#xA;AMP&#xA;ANSIDATE&#xA;ASCII&#xA;ATOMIC&#xA;AUTHORIZATION&#xA;AVE&#xA;AVERAGE&#xA;AVG&#xA;BACKUP&#xA;BOTH&#xA;BT&#xA;BUT&#xA;BYTE&#xA;BYTEINT&#xA;BYTES&#xA;CASE&#xA;CASESPECIFIC&#xA;CD&#xA;CHAR&#xA;CHAR2HEXINT&#xA;CHARACTER&#xA;CHARACTERS&#xA;CHARACTER_LENGTH&#xA;CHARS&#xA;CHAR_LENGTH&#xA;CHECKPOINT&#xA;CHECKSUM&#xA;CLUSTER&#xA;CM&#xA;COALESCE&#xA;COLLATION&#xA;COLLECT&#xA;COMMENT&#xA;COMPRESS&#xA;CONVERT&#xA;CONVERT_TABLE_HEADER&#xA;CROSS&#xA;CS&#xA;CSUM&#xA;CT&#xA;CURRENT_DATE&#xA;CURRENT_TIME&#xA;CURRENT_TIMESTAMP&#xA;CV&#xA;DATABLOCKSIZE&#xA;DATE&#xA;DATEFORM&#xA;DAY&#xA;DEC&#xA;DECIMAL&#xA;DEL&#xA;DESCRIPTOR&#xA;DIAGNOSTIC&#xA;DISABLED&#xA;DOUBLE&#xA;DUAL&#xA;DUMP&#xA;EACH&#xA;EBCDIC&#xA;ECHO&#xA;ENABLED&#xA;EQ&#xA;ERROR&#xA;ERRORFILES&#xA;ERRORTABLES&#xA;ET&#xA;EXCEPT&#xA;EXCL&#xA;EXCLUSIVE&#xA;EXEC&#xA;EXP&#xA;EXPLAIN&#xA;FALLBACK&#xA;FASTEXPORT&#xA;FIRST&#xA;FLOAT&#xA;FORMAT&#xA;FREESPACE&#xA;GE&#xA;GIVE&#xA;GLOBAL&#xA;GO&#xA;GOTO&#xA;GRAPHIC&#xA;GT&#xA;HASH&#xA;HASHAMP&#xA;HASHBAKAMP&#xA;HASHBUCKET&#xA;HASHROW&#xA;HELP&#xA;HOUR&#xA;IMMEDIATE&#xA;INCONSISTENT&#xA;INDICATOR&#xA;INITIATE&#xA;INS&#xA;INSTEAD&#xA;INT&#xA;INTEGER&#xA;INTEGERDATE&#xA;INTERSECT&#xA;INTERVAL&#xA;JOURNAL&#xA;KANJI1&#xA;KANJISJIS&#xA;KBYTES&#xA;KILOBYTES&#xA;LAST&#xA;LATIN&#xA;LE&#xA;LEADING&#xA;LN&#xA;LOADING&#xA;LOCAL&#xA;LOCK&#xA;LOCKING&#xA;LOG&#xA;LOGGING&#xA;LOGON&#xA;LONG&#xA;LOWER&#xA;LT&#xA;MACRO&#xA;MAVG&#xA;MAX&#xA;MAXIMUM&#xA;MCHARACTERS&#xA;MDIFF&#xA;MIN&#xA;MINDEX&#xA;MINIMUM&#xA;MINUS&#xA;MINUTE&#xA;MLINREG&#xA;MLOAD&#xA;MOD&#xA;MODE&#xA;MODIFY&#xA;MONITOR&#xA;MONRESOURCE&#xA;MONSESSION&#xA;MONTH&#xA;MSUBSTR&#xA;MSUM&#xA;MULTISET&#xA;NAMED&#xA;NATURAL&#xA;NE&#xA;NEW&#xA;NEW_TABLE&#xA;NOWAIT&#xA;NULLIF&#xA;NULLIFZERO&#xA;NUMERIC&#xA;OCTET_LENGTH&#xA;OFF&#xA;OLD&#xA;OLD_TABLE&#xA;OPTION&#xA;OVERLAP&#xA;OVERLAPS&#xA;OVERRIDE&#xA;PERCENT&#xA;PERM&#xA;PERMANENT&#xA;PN&#xA;PRECISION&#xA;PRESERVE&#xA;PRIVATE&#xA;PROTECTION&#xA;PUBLIC&#xA;QUALIFY&#xA;QUANTILE&#xA;RANK&#xA;REAL&#xA;REFERENCES&#xA;REFERENCING&#xA;RELEASE&#xA;RENAME&#xA;REPLACE&#xA;REPLICATION&#xA;REPOVERRIDE&#xA;REQUEST&#xA;RESTART&#xA;RESTORE&#xA;RESUME&#xA;RET&#xA;RETRIEVE&#xA;REVALIDATE&#xA;RIGHTS&#xA;ROLE&#xA;ROLLFORWARD&#xA;ROW&#xA;ROWID&#xA;SAMPLE&#xA;SAMPLEID&#xA;SECOND&#xA;SEL&#xA;SESSION&#xA;SETRESRATE&#xA;SETSESSRATE&#xA;SHARE&#xA;SHOW&#xA;SMALLINT&#xA;SPOOL&#xA;SQRT&#xA;SS&#xA;STARTUP&#xA;STATEMENT&#xA;STATISTICS&#xA;STRING_CHK&#xA;STRING_CS&#xA;SUBSCRIBER&#xA;SUBSTR&#xA;SUBSTRING&#xA;SUM&#xA;SYS_CALENDAR&#xA;TBL_CS&#xA;TEMPORARY&#xA;TERMINATE&#xA;TIME&#xA;TIMESTAMP&#xA;TIMEZONE_HOUR&#xA;TIMEZONE_MINUTE&#xA;TITLE&#xA;TRAILING&#xA;TRANSLATE&#xA;TRANSLATE_CHK&#xA;TRIM&#xA;TYPE&#xA;UC&#xA;UNDEFINED&#xA;UNICODE&#xA;UPD&#xA;UPPER&#xA;UPPERCASE&#xA;VARBYTE&#xA;VARCHAR&#xA;VARGRAPHIC&#xA;VARYING&#xA;VOLATILE&#xA;WRITE&#xA;YEAR&#xA;ZEROIFNULL&#xA;ZONE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="BTEQ&#xA;CHARSET&#xA;CMS&#xA;CONTROLS&#xA;DEFAULTS&#xA;ECHOREQ&#xA;ERRORLEVEL&#xA;ERROROUT&#xA;EXECUTION&#xA;EXIT&#xA;EXPORT&#xA;FOLDLINE&#xA;FOOTING&#xA;FORMCHAR&#xA;HALT&#xA;HANG&#xA;HEADING&#xA;IF&#xA;IMPORT&#xA;INDICDATA&#xA;LABEL&#xA;LOGOFF&#xA;MAXERROR&#xA;OMIT&#xA;PAGEBREAK&#xA;PAGELENGTH&#xA;QUIET&#xA;QUIT&#xA;RECORDMODE&#xA;REMARK&#xA;REPEAT&#xA;RETCANCEL&#xA;RETLIMIT&#xA;RETRY&#xA;RTITLE&#xA;RUN&#xA;SEPARATOR&#xA;SESSIONS&#xA;SIDETITLES&#xA;SKIPDOUBLE&#xA;SKIPLINE&#xA;SQLFLAG&#xA;SUPPRESS&#xA;TDP&#xA;TITLEDASHES&#xA;TSO&#xA;UNDERLINE&#xA;VERSIONS&#xA;WIDTH&#xA;">
+          <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Parameters" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="REBOL" FileType="" Extensions="R" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:rebol.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,./:;&lt;=&gt;@[\]^{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="alias&#xA;all&#xA;any&#xA;arccosine&#xA;arcsine&#xA;arctangent&#xA;bind&#xA;break&#xA;browse&#xA;call&#xA;caret-to-offset&#xA;catch&#xA;checksum&#xA;close&#xA;comment&#xA;compose&#xA;compress&#xA;connected?&#xA;cosine&#xA;crypt-strength?&#xA;debase&#xA;decompress&#xA;dehex&#xA;detab&#xA;dh-compute-key&#xA;dh-generate-key&#xA;dh-make-key&#xA;difference&#xA;disarm&#xA;do&#xA;dsa-generate-key&#xA;dsa-make-key&#xA;dsa-make-signature&#xA;dsa-verify-signature&#xA;either&#xA;else&#xA;enbase&#xA;entab&#xA;exclude&#xA;exists-key?&#xA;exit&#xA;exp&#xA;foreach&#xA;form&#xA;free&#xA;get&#xA;get-modes&#xA;halt&#xA;hide&#xA;if&#xA;in&#xA;input?&#xA;intersect&#xA;launch&#xA;load&#xA;log-10&#xA;log-2&#xA;log-e&#xA;loop&#xA;lowercase&#xA;maximum-of&#xA;minimum-of&#xA;mold&#xA;not&#xA;now&#xA;offset-to-caret&#xA;open&#xA;parse&#xA;prin&#xA;print&#xA;protect&#xA;q&#xA;query&#xA;quit&#xA;read&#xA;read-io&#xA;recycle&#xA;reduce&#xA;repeat&#xA;return&#xA;reverse&#xA;rsa-encrypt&#xA;rsa-generate-key&#xA;rsa-make-key&#xA;save&#xA;script?&#xA;secure&#xA;set&#xA;set-modes&#xA;show&#xA;sine&#xA;size-text&#xA;square-root&#xA;tangent&#xA;textinfo&#xA;throw&#xA;to-hex&#xA;to-local-file&#xA;to-rebol-file&#xA;trace&#xA;try&#xA;type?&#xA;union&#xA;unique&#xA;unprotect&#xA;unset&#xA;until&#xA;update&#xA;uppercase&#xA;use&#xA;value?&#xA;wait&#xA;while&#xA;write&#xA;write-io&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="action!&#xA;any-block!&#xA;any-function!&#xA;any-string!&#xA;any-type!&#xA;any-word!&#xA;binary!&#xA;bitset!&#xA;block!&#xA;char!&#xA;datatype!&#xA;date!&#xA;decimal!&#xA;email!&#xA;error!&#xA;event!&#xA;file!&#xA;function!&#xA;get-word!&#xA;hash!&#xA;image!&#xA;integer!&#xA;issue!&#xA;library!&#xA;list!&#xA;lit-path!&#xA;lit-word!&#xA;logic!&#xA;money!&#xA;native!&#xA;none!&#xA;number!&#xA;object!&#xA;op!&#xA;pair!&#xA;paren!&#xA;path!&#xA;port!&#xA;refinement!&#xA;routine!&#xA;series!&#xA;set-path!&#xA;set-word!&#xA;string!&#xA;struct!&#xA;symbol!&#xA;tag!&#xA;time!&#xA;tuple!&#xA;unset!&#xA;url!&#xA;word!&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abs&#xA;absolute&#xA;action?&#xA;add&#xA;and~&#xA;any-block?&#xA;any-function?&#xA;any-string?&#xA;any-type?&#xA;any-word?&#xA;at&#xA;back&#xA;binary?&#xA;bitset?&#xA;block?&#xA;change&#xA;char?&#xA;clear&#xA;complement&#xA;copy&#xA;cp&#xA;datatype?&#xA;date?&#xA;decimal?&#xA;divide&#xA;email?&#xA;empty?&#xA;equal?&#xA;error?&#xA;even?&#xA;event?&#xA;fifth&#xA;file?&#xA;find&#xA;first&#xA;fourth&#xA;function?&#xA;get-word?&#xA;greater-or-equal?&#xA;greater?&#xA;hash?&#xA;head&#xA;head?&#xA;image?&#xA;index?&#xA;insert&#xA;integer?&#xA;issue?&#xA;last&#xA;length?&#xA;lesser-or-equal?&#xA;lesser?&#xA;library?&#xA;list?&#xA;lit-path?&#xA;lit-word?&#xA;logic?&#xA;make&#xA;max&#xA;maximum&#xA;min&#xA;minimum&#xA;money?&#xA;multiply&#xA;native?&#xA;negate&#xA;negative?&#xA;next&#xA;none?&#xA;not-equal?&#xA;number?&#xA;object?&#xA;odd?&#xA;op?&#xA;or~&#xA;pair?&#xA;paren?&#xA;path?&#xA;pick&#xA;poke&#xA;port?&#xA;positive?&#xA;power&#xA;random&#xA;refinement?&#xA;remainder&#xA;remove&#xA;routine?&#xA;same?&#xA;second&#xA;select&#xA;series?&#xA;set-path?&#xA;set-word?&#xA;skip&#xA;sort&#xA;strict-equal?&#xA;strict-not-equal?&#xA;string?&#xA;struct?&#xA;subtract&#xA;tag?&#xA;tail&#xA;tail?&#xA;third&#xA;time?&#xA;to&#xA;trim&#xA;tuple?&#xA;unset?&#xA;url?&#xA;word?&#xA;xor~&#xA;zero?&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="about&#xA;alert&#xA;alter&#xA;append&#xA;array&#xA;ask&#xA;boot-prefs&#xA;build-port&#xA;build-tag&#xA;center-face&#xA;change-dir&#xA;charset&#xA;choose&#xA;clean-path&#xA;clear-fields&#xA;confine&#xA;confirm&#xA;context&#xA;continue-post&#xA;create-request&#xA;crypt&#xA;cvs-date&#xA;cvs-version&#xA;decode-cgi&#xA;decode-url&#xA;deflag-face&#xA;delete&#xA;demo&#xA;desktop&#xA;dir?&#xA;dirize&#xA;dispatch&#xA;do-boot&#xA;do-events&#xA;do-face&#xA;do-face-alt&#xA;does&#xA;dump-face&#xA;dump-pane&#xA;echo&#xA;editor&#xA;emailer&#xA;exists-thru?&#xA;exists?&#xA;extract&#xA;find-key-face&#xA;find-window&#xA;flag-face&#xA;flag-face?&#xA;flash&#xA;focus&#xA;for&#xA;forall&#xA;forever&#xA;forskip&#xA;found?&#xA;func&#xA;function&#xA;get-net-info&#xA;get-style&#xA;has&#xA;help&#xA;hide-popup&#xA;import-email&#xA;in-window?&#xA;info?&#xA;inform&#xA;input&#xA;insert-event-func&#xA;inside?&#xA;join&#xA;launch-thru&#xA;layout&#xA;license&#xA;link-app?&#xA;link?&#xA;list-dir&#xA;load-image&#xA;load-prefs&#xA;load-thru&#xA;make-dir&#xA;make-face&#xA;modified?&#xA;net-error&#xA;offset?&#xA;open-events&#xA;outside?&#xA;parse-email-addrs&#xA;parse-header&#xA;parse-header-date&#xA;parse-xml&#xA;path-thru&#xA;probe&#xA;protect-system&#xA;read-net&#xA;read-thru&#xA;reboot&#xA;reform&#xA;rejoin&#xA;remold&#xA;remove-event-func&#xA;rename&#xA;repend&#xA;replace&#xA;request&#xA;request-color&#xA;request-date&#xA;request-download&#xA;request-file&#xA;request-list&#xA;request-pass&#xA;request-text&#xA;resend&#xA;save-prefs&#xA;save-user&#xA;screen-offset?&#xA;scroll-para&#xA;send&#xA;send-and-check&#xA;set-font&#xA;set-net&#xA;set-para&#xA;set-style&#xA;set-user&#xA;set-user-name&#xA;show-popup&#xA;size?&#xA;source&#xA;span?&#xA;split-path&#xA;stylize&#xA;switch&#xA;throw-on-error&#xA;to-binary&#xA;to-bitset&#xA;to-block&#xA;to-char&#xA;to-date&#xA;to-decimal&#xA;to-email&#xA;to-event&#xA;to-file&#xA;to-get-word&#xA;to-hash&#xA;to-idate&#xA;to-image&#xA;to-integer&#xA;to-issue&#xA;to-list&#xA;to-lit-path&#xA;to-lit-word&#xA;to-logic&#xA;to-money&#xA;to-none&#xA;to-pair&#xA;to-paren&#xA;to-path&#xA;to-refinement&#xA;to-set-path&#xA;to-set-word&#xA;to-string&#xA;to-tag&#xA;to-time&#xA;to-tuple&#xA;to-url&#xA;to-word&#xA;unfocus&#xA;uninstall&#xA;unview&#xA;upgrade&#xA;Usage&#xA;vbug&#xA;view&#xA;view-install&#xA;view-prefs&#xA;view?&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

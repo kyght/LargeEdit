@@ -1,0 +1,127 @@
+Abs
+Array
+Asc
+Atn
+CBool
+CByte
+CCur
+CDate
+CDbl
+Chr
+CInt
+CLng
+Conversions
+Cos
+CreateObject
+CSng
+Date
+DateAdd
+DateDiff
+DatePart
+DateSerial
+DateValue
+Day
+Eval
+Exp
+Filter
+FormatCurrency
+FormatDateTime
+FormatNumber
+FormatPercent
+GetLocale
+GetObject
+GetRef
+Hex
+Hour
+InputBox
+InStr
+InStrRev
+Int
+Fixs
+IsArray
+IsDate
+IsEmpty
+IsNull
+IsNumeric
+IsObject
+Join
+LBound
+LCase
+Left
+Len
+LoadPicture
+Log
+LTrim
+RTrim
+Trims
+Maths
+Mid
+Minute
+Month
+MonthName
+MsgBox
+Now
+Oct
+Replace
+RGB
+Right
+Rnd
+Round
+ScriptEngine
+ScriptEngineBuildVersion
+ScriptEngineMajorVersion
+ScriptEngineMinorVersion
+Second
+SetLocale
+Sgn
+Sin
+Space
+Split
+Sqr
+StrComp
+String
+Tan
+Time
+Timer
+TimeSerial
+TimeValue
+TypeName
+UBound
+UCase
+VarType
+Weekday
+WeekdayName
+Year
+Empty
+False
+Nothing
+Null
+True
+Call
+Class
+Const
+Dim
+Do While [condition] Loop
+Erase
+Execute
+ExecuteGlobal
+Exit
+For Each [Element] In [Group] Next
+For [i] To [Count] Next
+Function
+If [Condition] Then [Statement] Else [Statement] End If
+On Error Resume Next
+Option Explicit
+Private
+Property Get
+Property Let
+Property Set
+Public
+Randomize [number]
+ReDim
+Rem
+Select Case [expression] Case [list] Case Else [statement] End Select
+Set [object] = [object]
+Sub [name] (arglist) End Sub
+While [condition] [statement] Wend
+With [object] End With

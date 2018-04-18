@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Apache Web Server" FileType="" Extensions="HTACCESS CONF TYPES" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:apache.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Runtime" Enabled="True" Style="" Words="AccessConfig&#xA;AccessFileName&#xA;Action&#xA;AddAlt&#xA;AddAltByEncoding&#xA;AddAltByType&#xA;AddCharset&#xA;AddDefaultCharset&#xA;AddDescription&#xA;AddEncoding&#xA;AddHandler&#xA;AddIcon&#xA;AddIconByEncoding&#xA;AddIconByType&#xA;AddLanguage&#xA;AddModule&#xA;AddModuleInfo&#xA;AddType&#xA;AgentLog&#xA;Alias&#xA;AliasMatch&#xA;Allow&#xA;AllowCONNECT&#xA;AllowOverride&#xA;Anonymous&#xA;Anonymous_Authoritative&#xA;Anonymous_LogEmail&#xA;Anonymous_MustGiveEmail&#xA;Anonymous_NoUserID&#xA;Anonymous_VerifyEmail&#xA;AuthAuthoritative&#xA;AuthDBAuthoritative&#xA;AuthDBGroupFile&#xA;AuthDBMAuthoritative&#xA;AuthDBMGroupFile&#xA;AuthDBMGroupFile&#xA;AuthDBMUserFile&#xA;AuthDBUserFile&#xA;AuthDigestFile&#xA;AuthGroupFile&#xA;AuthName&#xA;AuthType&#xA;AuthUserFile&#xA;BindAddress&#xA;BrowserMatch&#xA;BrowserMatchNoCase&#xA;BS2000Account&#xA;CacheDefaultExpire&#xA;CacheDirLength&#xA;CacheDirLevels&#xA;CacheForceCompletion&#xA;CacheGcInterval&#xA;CacheLastModifiedFactor&#xA;CacheMaxExpire&#xA;CacheNegotiatedDocs&#xA;CacheRoot&#xA;CacheSize&#xA;CheckSpelling&#xA;ClearModuleList&#xA;ContentDigest&#xA;CookieExpires&#xA;CookieLogCookieLog&#xA;CookieTracking&#xA;CoreDumpDirectory&#xA;CustomLog&#xA;DefaultIcon&#xA;DefaultLanguage&#xA;DefaultType&#xA;Deny&#xA;DirectoryIndex&#xA;DocumentRoot&#xA;ErrorDocument&#xA;ErrorLog&#xA;Example&#xA;ExpiresActive&#xA;ExpiresByType&#xA;ExpiresDefault&#xA;ExtendedStatus&#xA;FancyIndexing&#xA;ForceType&#xA;Group&#xA;Header&#xA;HeaderName&#xA;HostNameLookups&#xA;IdentityCheck&#xA;ImapBase&#xA;ImapDefault&#xA;ImapMenu&#xA;Include&#xA;IndexIgnore&#xA;IndexOptions&#xA;IndexOrderDefault&#xA;ISAPIAppendLogToErrors&#xA;ISAPIAppendLogToQuery&#xA;ISAPILogNotSupported&#xA;ISAPIReadAheadBuffer&#xA;KeepAlive&#xA;KeepAliveTimeout&#xA;LanguagePriority&#xA;LimitRequestBody&#xA;LimitRequestFields&#xA;LimitRequestFieldsize&#xA;LimitRequestLine&#xA;Listen&#xA;ListenBacklog&#xA;LoadFile&#xA;LoadModule&#xA;LockFile&#xA;LogFormat&#xA;LogLevel&#xA;MaxClients&#xA;MaxKeepAliveRequests&#xA;MaxRequestsPerChild&#xA;MaxSpareServers&#xA;MetaDir&#xA;MetaFiles&#xA;MetaSuffix&#xA;MimeMagicFile&#xA;MinSpareServers&#xA;MMapFile&#xA;NameVirtualHost&#xA;NoCache&#xA;Options&#xA;Order&#xA;PassEnv&#xA;PidFile&#xA;Port&#xA;ProxyBlock&#xA;ProxyDomain&#xA;ProxyPass&#xA;ProxyPassReverse&#xA;ProxyReceiveBufferSize&#xA;ProxyRemote&#xA;ProxyRequests&#xA;ProxyVia&#xA;ReadmeName&#xA;Redirect&#xA;RedirectMatch&#xA;RedirectPermanent&#xA;RedirectTemp&#xA;RefererIgnore&#xA;RefererLog&#xA;RemoveEncoding&#xA;RemoveHandler&#xA;RemoveType&#xA;Require&#xA;ResourceConfig&#xA;RewriteBase&#xA;RewriteCond&#xA;RewriteEngine&#xA;RewriteLock&#xA;RewriteLog&#xA;RewriteLogLevel&#xA;RewriteMap&#xA;RewriteOptions&#xA;RewriteRule&#xA;RLimitCPU&#xA;RLimitMEM&#xA;RLimitNPROC&#xA;Satisfy&#xA;ScoreBoardFile&#xA;Script&#xA;ScriptAlias&#xA;ScriptAliasMatch&#xA;ScriptInterpreterSource&#xA;ScriptLog&#xA;ScriptLogBuffer&#xA;ScriptLogLength&#xA;SendBufferSize&#xA;ServerAdmin&#xA;ServerAlias&#xA;ServerName&#xA;ServerPath&#xA;ServerRoot&#xA;ServerSignature&#xA;ServerTokens&#xA;ServerType&#xA;SetEnv&#xA;SetEnvIf&#xA;SetEnvIfNoCase&#xA;SetHandler&#xA;StartServers&#xA;ThreadsPerChild&#xA;TimeOut&#xA;TransferLog&#xA;TypesConfig&#xA;UnsetEnv&#xA;UseCanonicalName&#xA;User&#xA;UserDir&#xA;VirtualDocumentRoot&#xA;VirtualDocumentRootIP&#xA;VirtualScriptAlias&#xA;VirtualScriptAliasIP&#xA;XBitHack&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Tags" Enabled="True" Style="" Words="&lt;Directory&#xA;&lt;/Directory&gt;&#xA;&lt;DirectoryMatch&#xA;&lt;/DirectoryMatch&gt;&#xA;&lt;Files&#xA;&lt;/Files&gt;&#xA;&lt;FilesMatch&#xA;&lt;/FilesMatch&gt;&#xA;&lt;IfDefine&#xA;&lt;/IfDefine&gt;&#xA;&lt;IfModule&#xA;&lt;/IfModule&gt;&#xA;&lt;Limit&#xA;&lt;/Limit&gt;&#xA;&lt;LimitExcept&#xA;&lt;/LimitExcept&gt;&#xA;&lt;Location&#xA;&lt;/Location&gt;&#xA;&lt;LocationMatch&#xA;&lt;/LocationMatch&gt;&#xA;&lt;VirtualHost&#xA;&lt;/VirtualHost&gt;&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Special" Enabled="True" Style="" Words="alert&#xA;All&#xA;any&#xA;Ascending&#xA;AuthConfig&#xA;Basic&#xA;block&#xA;cgi-script&#xA;CONNECT&#xA;COPY&#xA;crit&#xA;Date&#xA;debug&#xA;DELETE&#xA;Descending&#xA;Description&#xA;Digest&#xA;dns&#xA;double&#xA;EMail&#xA;emerg&#xA;error&#xA;ExecCGI&#xA;FileInfo&#xA;FollowSymLinks&#xA;formatted&#xA;from&#xA;Full&#xA;GET&#xA;Host&#xA;imap-file&#xA;Includes&#xA;IncludesNOEXEC&#xA;Indexes&#xA;inetd&#xA;info&#xA;isapi-isa&#xA;Limit&#xA;LOCK&#xA;map&#xA;max&#xA;Minimal&#xA;MKCOL&#xA;MOVE&#xA;MultiViews&#xA;Name&#xA;nocontent&#xA;None&#xA;notice&#xA;Off&#xA;On&#xA;OS&#xA;PATCH&#xA;POST&#xA;ProductOnly&#xA;PROPFIND&#xA;PROPPATCH&#xA;PUT&#xA;referer&#xA;Remote_Addr&#xA;Remote_Host&#xA;Remote_User&#xA;Request_Method&#xA;Request_Protocol&#xA;Request_URI&#xA;semiformatted&#xA;send-as-is&#xA;server-parsed&#xA;server-status&#xA;Size&#xA;standalone&#xA;SymLinksIfOwnerMatch&#xA;TRACE&#xA;type-map&#xA;unformatted&#xA;UNLOCK&#xA;valid-user&#xA;warn&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;amp;qt;..&amp;amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Modules" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="mod_"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

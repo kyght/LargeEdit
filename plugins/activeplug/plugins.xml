@@ -1,0 +1,14 @@
+<plugins>
+  <visual>
+    <plugin>
+      <type>action</type>
+      <menu>Capitalize</menu>
+      <object>LargeAction.ComplexAction</object>
+    </plugin>
+    <plugin>
+      <type>action</type>
+      <menu>Word Count</menu>
+      <object>LargeAction.ComplexAction</object>
+    </plugin>
+  </visual>
+</plugins>

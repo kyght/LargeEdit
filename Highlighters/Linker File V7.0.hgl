@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Linker File V7.0" FileType="" Extensions="ILO JOB" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:linker7.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="()+,-:;?\"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Print/listing" Enabled="True" Style="" Words="HD&#xA;HEADER&#xA;LISTREGISTERS&#xA;LISTSYMBOLS&#xA;LRG&#xA;LSY&#xA;MA&#xA;MAP&#xA;NOHD&#xA;NOHEADER&#xA;NOLISTREGISTERS&#xA;NOLISTSYMBOLS&#xA;NOLRG&#xA;NOLSY&#xA;NOMA&#xA;NOMAP&#xA;NOPR&#xA;NOPRINT&#xA;PR&#xA;PRINT&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Symbol table" Enabled="True" Style="" Words="AS&#xA;ASSIGN&#xA;CM&#xA;COMMENTS&#xA;DB&#xA;DEBUG&#xA;EC&#xA;EX&#xA;EXCEPT&#xA;EXTERNS&#xA;GL&#xA;GLOBALS&#xA;GR&#xA;GROUPS&#xA;IN&#xA;INTNRS&#xA;LC&#xA;LINES&#xA;LN&#xA;LOCALS&#xA;NOCM&#xA;NOCOMMENTS&#xA;NODB&#xA;NODEBUG&#xA;NOGL&#xA;NOGLOBALS&#xA;NOLC&#xA;NOLINES&#xA;NOLN&#xA;NOLOCALS&#xA;NOPB&#xA;NOPU&#xA;NOPUBLICS&#xA;NOPURGE&#xA;NOSB&#xA;NOSM&#xA;NOSYMB&#xA;OBJECTCONTROLS&#xA;OC&#xA;PB&#xA;PC&#xA;PRINTCONTROLS&#xA;PU&#xA;PUBLICS&#xA;PURGE&#xA;RENAMESYMBOLS&#xA;RS&#xA;SB&#xA;SC&#xA;SM&#xA;SYMB&#xA;SYMBOLCOLUMNS&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Print file format" Enabled="True" Style="" Words="DA&#xA;DATE&#xA;NOPA&#xA;NOPAGING&#xA;PA&#xA;PAGELENGTH&#xA;PAGEWIDTH&#xA;PAGING&#xA;PL&#xA;PW&#xA;TITLE&#xA;TT&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Section location" Enabled="True" Style="" Words="AD&#xA;ADDRESSES&#xA;CL&#xA;CLASSES&#xA;HEAPSIZE&#xA;HP&#xA;HS&#xA;INTTBL&#xA;IR&#xA;IRAM&#xA;IRAMSIZE&#xA;IS&#xA;IT&#xA;LINEAR&#xA;LR&#xA;ME&#xA;MEMORY&#xA;NOIR&#xA;NOIRAM&#xA;NOSAL&#xA;NOSORTALIGN&#xA;NOVECINIT&#xA;NOVECTAB&#xA;NOVI&#xA;NOVT&#xA;OR&#xA;ORDER&#xA;OVERLAY&#xA;OVL&#xA;PECPTR&#xA;PP&#xA;RAM&#xA;RB&#xA;RBANK&#xA;RE&#xA;RESERVE&#xA;ROM&#xA;SAL&#xA;SE&#xA;SECSIZE&#xA;SECTIONS&#xA;SETNOSGDPP&#xA;SND&#xA;SORTALIGN&#xA;SS&#xA;SY&#xA;SYSSTACK&#xA;VECINIT&#xA;VECTAB&#xA;VI&#xA;VT&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiters" Enabled="True" Style="" Words="(&#xA;)&#xA;+&#xA;,&#xA;-&#xA;?&#xA;to&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Linker controls" Enabled="True" Style="" Words="CA&#xA;CASE&#xA;CC&#xA;CHECKCLASSES&#xA;EXTEND2&#xA;EXTEND2_SEGEMENT191&#xA;GENERAL&#xA;GLOBALSONLY&#xA;GN&#xA;GO&#xA;INT&#xA;INTERRUPT&#xA;LIBPATH&#xA;LINK&#xA;LNK&#xA;LOC&#xA;LOCATE&#xA;LP&#xA;MODPATH&#xA;MP&#xA;NA&#xA;NAME&#xA;NOCA&#xA;NOCASE&#xA;NOCC&#xA;NOCHECKCLASSES&#xA;NOEXTEND2&#xA;NOST&#xA;NOSTRICTTASK&#xA;NOTY&#xA;NOTYPE&#xA;NOWA&#xA;NOWARNING&#xA;NOX2&#xA;PO&#xA;PTOG&#xA;PUBLICSONLY&#xA;PUBTOGLB&#xA;SET&#xA;ST&#xA;STRICTTASK&#xA;TY&#xA;TYPE&#xA;VECSCALE&#xA;VS&#xA;WA&#xA;WARNING&#xA;X2&#xA;X2191&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="C-classes" Enabled="True" Style="" Words="CBITS&#xA;CBITWORDS&#xA;CFAR&#xA;CFARROM&#xA;CHUGE&#xA;CHUGEROM&#xA;CINITIRAM&#xA;CINITROM&#xA;CIRAM&#xA;CNEAR&#xA;CNEAR2&#xA;CPROGRAM&#xA;CROM&#xA;CSHUGE&#xA;CSHUGEROM&#xA;CSYSTEM&#xA;CUSTACK&#xA;C_INIT&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Library-classes" Enabled="True" Style="" Words="CLIBRARY&#xA;RTLIBRARY&#xA;SHAREDCLIB&#xA;SHAREDRTLIB&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

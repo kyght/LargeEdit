@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Delphi/CBuilder Form" FileType="" Extensions="dfm" Version="1" Revision="0" Sample="object AFMain: TAFMain&#xA;  HelpContext = 1&#xA;  BorderIcons = [biSystemMenu]&#xA;  BorderStyle = bsDialog&#xA;  Font.Name = 'System'&#xA;  Font.Style = []&#xA;  OldCreateOrder = True&#xA;  Position = poScreenCenter&#xA;  OnActivate = FormActivate&#xA;  OnCloseQuery = FormCloseQuery&#xA;  OnCreate = FormCreate&#xA;  OnDestroy = FormDestroy&#xA;  PixelsPerInch = 96&#xA;  TextHeight = 16&#xA;  object MainPanel: TPanel&#xA;    Left = 0&#xA;    Top = 0&#xA;    Width = 333&#xA;    Height = 45&#xA;    Align = alTop&#xA;    BevelOuter = bvLowered&#xA;    TabOrder = 0&#xA;    Glyph.Data = {&#xA;        36060000424D3606000000000000360400002800000010000000200000000100&#xA;        0800000000000002000000000000000000000001000000000000000000000000&#xA;        BF0000BF000000BFBF00BF000000BF00BF00BFBF0000C0C0C000C0DCC000F0C8&#xA;        0303030303030303030303030303030303030303030303030303}&#xA;    ParentShowHint = False&#xA;    ShowHint = True&#xA;    OnClick = AutoBtnClick&#xA;  end&#xA;  object Gauge: TStatusGauge&#xA;    Left = 0&#xA;    Top = 218&#xA;    Width = 333&#xA;    Height = 19&#xA;    Panels = &lt;&#xA;      item&#xA;        Width = 0&#xA;      end&#xA;      item&#xA;        Width = -2&#xA;      end&gt;&#xA;    SimplePanel = False&#xA;    SizeGrip = False&#xA;    separator = 150&#xA;    gaugecolor = clNavy&#xA;  end&#xA;  object q: TADOQuery&#xA;    CursorType = ctStatic&#xA;    Parameters = &lt;&gt;&#xA;    SQL.Strings = (&#xA;      'Select * from mytable where work=''Mine''')&#xA;    Left = 220&#xA;    Top = 138&#xA;  end&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="object&#xA;end&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Logical" Enabled="True" Style="" Words="True&#xA;False&#xA;">
+          <Attributes Foreground="$006A6A35" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Enumerate" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00800040" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="[" Close="]"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Binary" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="List" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

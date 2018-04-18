@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Rman Interface" FileType="" Extensions="RIB" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:rmanint.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="GRAPHICS_STATE" Enabled="True" Style="" Words="AreaLightSource&#xA;Attribute&#xA;AttributeBegin&#xA;AttributeEnd&#xA;Begin&#xA;Bound&#xA;Clipping&#xA;Color&#xA;ColorSamples&#xA;ConcatTransform&#xA;CoordinateSystem&#xA;CropWindow&#xA;Declare&#xA;DepthOfField&#xA;Detail&#xA;DetailRange&#xA;Displacement&#xA;Display&#xA;End&#xA;Exterior&#xA;Format&#xA;FrameAspectRatio&#xA;FrameBegin&#xA;FrameEnd&#xA;GeometricApproximation&#xA;Hider&#xA;Identity&#xA;Illuminance&#xA;Illuminate&#xA;Interior&#xA;LightSource&#xA;Matte&#xA;Opacity&#xA;Option&#xA;Orientation&#xA;Perspective&#xA;PixelFilter&#xA;PixelSamples&#xA;PixelVariance&#xA;Projection&#xA;Quantize&#xA;RelativeDetail&#xA;RiAreaLightSource&#xA;RiAttribute&#xA;RiAttributeEnd&#xA;RiBegin&#xA;RiBound&#xA;RiClipping&#xA;RiColor&#xA;RiColorSamples&#xA;RiConcatTransform&#xA;RiCoordinateSystem&#xA;RiCropWindow&#xA;RiDepthOfField&#xA;RiDetail&#xA;RiDetailRange&#xA;RiDisplacement&#xA;RiDisplay&#xA;RiEnd&#xA;RiExterior&#xA;RiFormat&#xA;RiFrameAspectRatio&#xA;RiFrameBegin&#xA;RiFrameEnd&#xA;RiGeometricApproximation&#xA;RiHider&#xA;RiIdentity&#xA;RiIlluminate&#xA;RiInterior&#xA;RiLightSource&#xA;RiMatte&#xA;RiOpacity&#xA;RiOption&#xA;RiOrientation&#xA;RiPerspective&#xA;RiPixelFilter&#xA;RiPixelSamples&#xA;RiPixelVariance&#xA;RiProjection&#xA;RiQuantize&#xA;RiRelativeDetail&#xA;RiRotate&#xA;RiScreenWindow&#xA;RiShadingInterpolation&#xA;RiShadingRate&#xA;RiShutter&#xA;RiSides&#xA;RiSkew&#xA;RiSurface&#xA;RiTextureCoordinates&#xA;RiTransform&#xA;RiTransformBegin&#xA;RiTransformEnd&#xA;RiTransformPoints&#xA;RiTranslate&#xA;RiWorldBegin&#xA;RiWorldEnd&#xA;Rotate&#xA;Scale&#xA;ScreenWindow&#xA;ShadingInterpolation&#xA;ShadingRate&#xA;Shutter&#xA;Sides&#xA;Skew&#xA;Surface&#xA;TextureCoordinates&#xA;Transform&#xA;TransformBegin&#xA;TransformEnd&#xA;TransformPoints&#xA;Translate&#xA;version&#xA;WorldBegin&#xA;WorldEnd&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="GEOMETRIC PRIMITIVES" Enabled="True" Style="" Words="Basis&#xA;Cylinder&#xA;Disk&#xA;GeneralPolygon&#xA;Geometry&#xA;Hyperboloid&#xA;NuPatch&#xA;ObjectBegin&#xA;ObjectEnd&#xA;ObjectInstance&#xA;Patch&#xA;Paraboloid&#xA;PointsPolygons&#xA;PointsGeneralPolygons&#xA;Polygon&#xA;Procedural&#xA;SolidBegin&#xA;SolidEnd&#xA;Sphere&#xA;Torus&#xA;RiBasis&#xA;RiCylinder&#xA;RiGeneralPolygon&#xA;RiGeometry&#xA;RiHyperboloid&#xA;RiNuPatch&#xA;RiObjectBegin&#xA;RiObjectEnd&#xA;RiObjectInstance&#xA;RiPatch&#xA;RiParaboloid&#xA;RiPointsPolygons&#xA;RiPointsGeneralPolygons&#xA;RiPolygon&#xA;RiProcedural&#xA;RiSolidBegin&#xA;RiSolidEnd&#xA;RiSphere&#xA;RiTorus&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MOTION" Enabled="True" Style="" Words="MotionBegin&#xA;MotionEnd&#xA;RiMotionBegin&#xA;RiMotionEnd&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="TEXTURE MAP UTILITIES" Enabled="True" Style="" Words="MakeBump&#xA;MakeCubeFaceEnvironment&#xA;MakeLatLongEnvironment&#xA;MakeTexture&#xA;RiMakeBump&#xA;RiMakeCubeFaceEnvironment&#xA;RiMakeLatLongEnvironment&#xA;RiMakeTexture&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="EXTERNAL RESOURCES" Enabled="True" Style="" Words="ArchiveRecord&#xA;ErrorHandler&#xA;RiArchiveRecord&#xA;RiErrorHandler&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OTHER_RESERVED_WORDS" Enabled="True" Style="" Words="Ci&#xA;Cl&#xA;Cs&#xA;E&#xA;I&#xA;L&#xA;N&#xA;Ng&#xA;Oi&#xA;Ol&#xA;Os&#xA;P&#xA;dPdu&#xA;dPdv&#xA;du&#xA;dv&#xA;ncomps&#xA;s&#xA;t&#xA;time&#xA;u&#xA;v&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

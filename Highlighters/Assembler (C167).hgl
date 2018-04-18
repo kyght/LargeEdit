@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ASM for C167" FileType="" Extensions="ASM LST S66 S67 SRC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;#'()+,-:;?[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="ADD&#xA;ADDB&#xA;ADDC&#xA;ADDCB&#xA;AND&#xA;ANDB&#xA;ASHR&#xA;ATOMIC&#xA;BAND&#xA;BCLR&#xA;BCMP&#xA;BFLDH&#xA;BFLDL&#xA;BMOV&#xA;BMOVN&#xA;BOR&#xA;BSET&#xA;BXOR&#xA;CALL&#xA;CALLA&#xA;CALLI&#xA;CALLR&#xA;CALLS&#xA;CMP&#xA;CMPB&#xA;CMPD1&#xA;CMPD2&#xA;CMPI1&#xA;CMPI2&#xA;CPL&#xA;CPLB&#xA;DISWDT&#xA;DISWDT&#xA;DIV&#xA;DIVL&#xA;DIVLU&#xA;DIVU&#xA;EINIT&#xA;EXTP&#xA;EXTPR&#xA;EXTR&#xA;EXTS&#xA;EXTSR&#xA;IDLE&#xA;JB&#xA;JBC&#xA;JMP&#xA;JMPA&#xA;JMPI&#xA;JMPR&#xA;JMPS&#xA;JNB&#xA;JNBS&#xA;MOV&#xA;MOVB&#xA;MOVBS&#xA;MOVBZ&#xA;MUL&#xA;MULU&#xA;NEG&#xA;NEGB&#xA;NOP&#xA;OR&#xA;ORB&#xA;PCALL&#xA;POP&#xA;PRIOR&#xA;PUSH&#xA;PWRDN&#xA;RET&#xA;RETI&#xA;RETP&#xA;RETS&#xA;RETV&#xA;ROL&#xA;ROR&#xA;SCXT&#xA;SHL&#xA;SHR&#xA;SRST&#xA;SRVWDT&#xA;SUB&#xA;SUBB&#xA;SUBC&#xA;SUBCB&#xA;TRAP&#xA;XOR&#xA;XORB&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Registers" Enabled="True" Style="" Words="ADCIC&#xA;ADCON&#xA;ADDAT&#xA;ADDAT2&#xA;ADDRSEL1&#xA;ADDRSEL2&#xA;ADDRSEL3&#xA;ADDRSEL4&#xA;ADEIC&#xA;BUSCON0&#xA;BUSCON1&#xA;BUSCON2&#xA;BUSCON3&#xA;BUSCON4&#xA;C1BTR&#xA;C1CSR&#xA;C1GMS&#xA;C1IR&#xA;C1LGML&#xA;C1LMLM&#xA;C1UGML&#xA;CAPREL&#xA;CC0&#xA;CC0IC&#xA;CC1&#xA;CC10&#xA;CC10IC&#xA;CC11&#xA;CC11IC&#xA;CC12&#xA;CC12IC&#xA;CC13&#xA;CC13IC&#xA;CC14&#xA;CC14IC&#xA;CC15&#xA;CC15IC&#xA;CC16&#xA;CC16IC&#xA;CC17&#xA;CC17IC&#xA;CC18&#xA;CC18IC&#xA;C19&#xA;CC19IC&#xA;CC1IC&#xA;CC2&#xA;CC20&#xA;CC20IC&#xA;CC21&#xA;CC21IC&#xA;CC22&#xA;CC22IC&#xA;CC23&#xA;CC23IC&#xA;CC24&#xA;CC24IC&#xA;CC25&#xA;CC25IC&#xA;CC26&#xA;CC26IC&#xA;CC27&#xA;CC27IC&#xA;CC28&#xA;CC28IC&#xA;CC29&#xA;CC29IC&#xA;CC2IC&#xA;CC3&#xA;CC30&#xA;CC30IC&#xA;CC31&#xA;CC31IC&#xA;CC3IC&#xA;CC4&#xA;CC4IC&#xA;CC5&#xA;CC5IC&#xA;CC6&#xA;CC6IC&#xA;CC7&#xA;CC7IC&#xA;CC8&#xA;CC8IC&#xA;CC9&#xA;CC9IC&#xA;CCM0&#xA;CCM1&#xA;CCM2&#xA;CCM3&#xA;CCM4&#xA;CCM5&#xA;CCM6&#xA;CCM7&#xA;CP&#xA;CRIC&#xA;CSP&#xA;DP0H&#xA;DP0L&#xA;DP1H&#xA;DP1L&#xA;DP2&#xA;DP3&#xA;DP4&#xA;DP6&#xA;DP7&#xA;DP8&#xA;DPP0&#xA;DPP1&#xA;DPP2&#xA;DPP3&#xA;DSTP0&#xA;DSTP1&#xA;DSTP2&#xA;DSTP3&#xA;DSTP4&#xA;DSTP5&#xA;DSTP6&#xA;DSTP7&#xA;EMUCON&#xA;EXICON&#xA;EXISEL&#xA;IDCHIP&#xA;IDMANUF&#xA;IDMEM&#xA;IDPROG&#xA;IDX1&#xA;IDX2&#xA;IDX3&#xA;ISNC&#xA;LAR&#xA;MCFG&#xA;MCR&#xA;MDC&#xA;MDH&#xA;MDL&#xA;ODP2&#xA;ODP3&#xA;ODP4&#xA;ODP6&#xA;ODP7&#xA;ODP8&#xA;ONES&#xA;P0H&#xA;P0L&#xA;P1DAIS&#xA;P1H&#xA;P1L&#xA;P2&#xA;P3&#xA;P4&#xA;P5&#xA;P5DIDIS&#xA;P6&#xA;P7&#xA;P8&#xA;PECC0&#xA;PECC1&#xA;PECC2&#xA;PECC3&#xA;PECC4&#xA;PECC5&#xA;PECC6&#xA;PECC7&#xA;PICON&#xA;POCON0H&#xA;POCON0L&#xA;POCON1H&#xA;POCON1L&#xA;POCON2&#xA;POCON20&#xA;POCON3&#xA;POCON4&#xA;POCON6&#xA;POCON7&#xA;POCON8&#xA;PP0&#xA;PP1&#xA;PP2&#xA;PP3&#xA;PSW&#xA;PT0&#xA;PT1&#xA;PT2&#xA;PT3&#xA;PTCR&#xA;PW0&#xA;PW1&#xA;PW2&#xA;PW3&#xA;PWMCON0&#xA;PWMCON1&#xA;PWMIC&#xA;R0&#xA;R1&#xA;R10&#xA;R11&#xA;R12&#xA;R13&#xA;R14&#xA;R15&#xA;R2&#xA;R3&#xA;R4&#xA;R5&#xA;R6&#xA;R7&#xA;R8&#xA;R9&#xA;RH0&#xA;RH1&#xA;RH2&#xA;RH3&#xA;RH4&#xA;RH5&#xA;RH6&#xA;RH7&#xA;RL0&#xA;RL1&#xA;RL2&#xA;RL3&#xA;RL4&#xA;RL5&#xA;RL6&#xA;RL7&#xA;RP0H&#xA;RTCH&#xA;RTCL&#xA;S0BG&#xA;S0CON&#xA;S0EIC&#xA;S0RBUF&#xA;S0RIC&#xA;S0TBIC&#xA;S0TBUF&#xA;S0TIC&#xA;SP&#xA;SRCP0&#xA;SRCP1&#xA;SRCP2&#xA;SRCP3&#xA;SRCP4&#xA;SRCP5&#xA;SRCP6&#xA;SRCP7&#xA;SSCBR&#xA;SSCCON&#xA;SSCEIC&#xA;SSCRB&#xA;SSCRIC&#xA;SSCTB&#xA;SSCTIC&#xA;STKOV&#xA;STKUN&#xA;SYSCON&#xA;SYSCON2&#xA;SYSCON3&#xA;T0&#xA;T01CON&#xA;T0IC&#xA;T0REL&#xA;T1&#xA;T14&#xA;T14REL&#xA;T1IC&#xA;T1REL&#xA;T2&#xA;T2CON&#xA;T2IC&#xA;T3&#xA;T3CON&#xA;T3IC&#xA;T4&#xA;T4CON&#xA;T4IC&#xA;T5&#xA;T5CON&#xA;T5IC&#xA;T6&#xA;T6CON&#xA;T6IC&#xA;T7&#xA;T78CON&#xA;T7IC&#xA;T7REL&#xA;T8&#xA;T8IC&#xA;T8REL&#xA;TFR&#xA;TRCON&#xA;WDT&#xA;WDTCON&#xA;XP0IC&#xA;XP1IC&#xA;XP2IC&#xA;XP3IC&#xA;XPERCON&#xA;ZEROS&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Bits" Enabled="True" Style="" Words="A0&#xA;A16&#xA;A17&#xA;A18&#xA;A19&#xA;A1&#xA;A20&#xA;A21&#xA;A22&#xA;A23&#xA;A2&#xA;A3&#xA;A4&#xA;A5&#xA;A6&#xA;A7&#xA;ACC0&#xA;ACC10&#xA;ACC11&#xA;ACC12&#xA;ACC13&#xA;ACC14&#xA;ACC15&#xA;ACC16&#xA;ACC17&#xA;ACC18&#xA;ACC19&#xA;ACC1&#xA;ACC20&#xA;ACC21&#xA;ACC22&#xA;ACC23&#xA;ACC24&#xA;ACC25&#xA;ACC26&#xA;ACC27&#xA;ACC28&#xA;ACC29&#xA;ACC2&#xA;ACC30&#xA;ACC31&#xA;ACC3&#xA;ACC4&#xA;ACC5&#xA;ACC6&#xA;ACC7&#xA;ACC8&#xA;ACC9&#xA;ADBSY&#xA;ADCDIS&#xA;ADCIE&#xA;ADCIN&#xA;ADCIR&#xA;ADCRQ&#xA;ADEIE&#xA;ADEIR&#xA;ADST&#xA;ADWR&#xA;ADX&#xA;ALECTL0&#xA;ALECTL1&#xA;ALECTL2&#xA;ALECTL3&#xA;ALECTL4&#xA;AN0&#xA;AN10&#xA;AN11&#xA;AN12&#xA;AN13&#xA;AN14&#xA;AN15&#xA;AN1&#xA;AN2&#xA;AN3&#xA;AN4&#xA;AN5&#xA;AN6&#xA;AN7&#xA;AN8&#xA;AN9&#xA;ASC0DIS&#xA;BDRSTEN&#xA;BHE&#xA;BREQ&#xA;BSWC0&#xA;BSWC1&#xA;BSWC2&#xA;BSWC3&#xA;BSWC4&#xA;BUSACT0&#xA;BUSACT1&#xA;BUSACT2&#xA;BUSACT3&#xA;BUSACT4&#xA;BYTDIS&#xA;C&#xA;CAN1DIS&#xA;CAN2DIS&#xA;CAPIN&#xA;CC0IE&#xA;CC0IO&#xA;CC0IR&#xA;CC10IE&#xA;CC10IO&#xA;CC10IR&#xA;CC11IE&#xA;CC11IO&#xA;CC11IR&#xA;CC12IE&#xA;CC12IO&#xA;CC12IR&#xA;CC13IE&#xA;CC13IO&#xA;CC13IR&#xA;CC14IE&#xA;CC14IO&#xA;CC14IR&#xA;CC15IE&#xA;CC15IO&#xA;CC15IR&#xA;CC16IE&#xA;CC16IO&#xA;CC16IR&#xA;CC17IE&#xA;CC17IO&#xA;CC17IR&#xA;CC18IE&#xA;CC18IO&#xA;CC18IR&#xA;CC19IE&#xA;CC19IO&#xA;CC19IR&#xA;CC1DIS&#xA;CC1IE&#xA;CC1IO&#xA;CC1IR&#xA;CC20IE&#xA;CC20IO&#xA;CC20IR&#xA;CC21IE&#xA;CC21IO&#xA;CC21IR&#xA;CC22IE&#xA;CC22IO&#xA;CC22IR&#xA;CC23IE&#xA;CC23IO&#xA;CC23IR&#xA;CC24IE&#xA;CC24IO&#xA;CC24IR&#xA;CC25IE&#xA;CC25IO&#xA;CC25IR&#xA;CC26IE&#xA;CC26IO&#xA;CC26IR&#xA;CC27IE&#xA;CC27IO&#xA;CC27IR&#xA;CC28IE&#xA;CC28IO&#xA;CC28IR&#xA;CC29IE&#xA;CC29IO&#xA;CC29IR&#xA;CC2DIS&#xA;CC2IE&#xA;CC2IO&#xA;CC2IR&#xA;CC30IE&#xA;CC30IO&#xA;CC30IR&#xA;CC31IE&#xA;CC31IO&#xA;CC31IR&#xA;CC3IE&#xA;CC3IO&#xA;CC3IR&#xA;CC4IE&#xA;CC4IO&#xA;CC4IR&#xA;CC5IE&#xA;CC5IO&#xA;CC5IR&#xA;CC6IE&#xA;CC6IO&#xA;CC6IR&#xA;CC7IE&#xA;CC7IO&#xA;CC7IR&#xA;CC8IE&#xA;CC8IO&#xA;CC8IR&#xA;CC9IE&#xA;CC9IO&#xA;CC9IR&#xA;CLKEN&#xA;CLKLOCK&#xA;CLKOUT&#xA;CRIE&#xA;CRIR&#xA;CS0&#xA;CS1CS2&#xA;CS3&#xA;CS4&#xA;CSCFG&#xA;CSREN0&#xA;CSREN1&#xA;CSREN2&#xA;CSREN3&#xA;CSREN4&#xA;CSWEN0&#xA;CSWEN1&#xA;CSWEN2&#xA;CSWEN3&#xA;CSWEN4&#xA;D0&#xA;D10&#xA;D11&#xA;D12&#xA;D13&#xA;D14&#xA;D15&#xA;D1&#xA;D2&#xA;D3&#xA;D4&#xA;D5&#xA;D6&#xA;D7&#xA;D8&#xA;D9&#xA;E&#xA;EWEN0&#xA;EWEN1&#xA;EWEN2&#xA;EWEN3&#xA;EWEN4&#xA;FMDIS&#xA;GPTDIS&#xA;HLDA&#xA;HLDEN&#xA;HOLD&#xA;IEN&#xA;ILLBUS&#xA;ILLINA&#xA;ILLOPA&#xA;LHWR&#xA;MDRIU&#xA;MON&#xA;MRST&#xA;MTSR&#xA;MTTC0&#xA;MTTC1&#xA;MTTC2&#xA;MTTC3&#xA;MTTC4&#xA;MULIP&#xA;N&#xA;NMI&#xA;OWDDIS&#xA;P2HIN&#xA;P2LIN&#xA;P3HIN&#xA;P3LIN&#xA;P7LIN&#xA;P8LIN&#xA;PB01&#xA;PCDDIS&#xA;PEN0&#xA;PEN1&#xA;PEN2&#xA;PEN3&#xA;PIE0&#xA;PIE1&#xA;PIE2&#xA;PIE3&#xA;PIR0&#xA;PIR1&#xA;PIR2&#xA;PIR3&#xA;PLLIE&#xA;PLLIR&#xA;PM0&#xA;PM1&#xA;PM2&#xA;PM3&#xA;PONR&#xA;POUT0&#xA;POUT1&#xA;POUT2&#xA;POUT3&#xA;PRTFLT&#xA;PS2&#xA;PS3&#xA;PTI0&#xA;PTI1&#xA;PTI2&#xA;PTI3&#xA;PTR0&#xA;PTR1&#xA;PTR2&#xA;PTR3&#xA;PWMDIS&#xA;PWMIE&#xA;PWMIR&#xA;RCS&#xA;RDYEN0&#xA;RDYEN1&#xA;RDYEN2&#xA;RDYEN3&#xA;RDYEN4&#xA;ROMEN&#xA;ROMS1&#xA;RTCIE&#xA;RTCIR&#xA;RWDC0&#xA;RWDC1&#xA;RWDC2&#xA;RWDC3&#xA;RWDC4&#xA;RXD0&#xA;S0BRS&#xA;S0EIE&#xA;S0EIR&#xA;S0FE&#xA;S0FEN&#xA;S0LB&#xA;S0ODD&#xA;S0OE&#xA;S0OEN&#xA;S0PE&#xA;S0PEN&#xA;S0R&#xA;S0REN&#xA;S0RIE&#xA;S0RIR&#xA;S0STP&#xA;S0TBIE&#xA;S0TBIR&#xA;S0TIE&#xA;S0TIR&#xA;SCLK&#xA;SCS&#xA;SGTDIS&#xA;SHWR&#xA;SSCAREN&#xA;SSCBEN&#xA;SSCDIS&#xA;SSCEIE&#xA;SSCEIR&#xA;SSCEN&#xA;SSCHB&#xA;SSCMS&#xA;SSCPEN&#xA;SSCPH&#xA;SSCPO&#xA;SSCREN&#xA;SSCRIE&#xA;SSCRIR&#xA;SSCTEN&#xA;SSCTIE&#xA;SSCTIR&#xA;STKOF&#xA;STKUF&#xA;SWR&#xA;T0IE&#xA;T0IN&#xA;T0IR&#xA;T0M&#xA;T0R&#xA;T1IE&#xA;T1IR&#xA;T1M&#xA;T1R&#xA;T2IE&#xA;T2IN&#xA;T2IR&#xA;T2R&#xA;T2UD&#xA;T2UDE&#xA;T3EUD&#xA;T3IE&#xA;T3IN&#xA;T3IR&#xA;T3OE&#xA;T3OTL&#xA;T3OUT&#xA;T3R&#xA;T3UD&#xA;T3UDE&#xA;T4IE&#xA;T4IN&#xA;T4IR&#xA;T4R&#xA;T4UD&#xA;T4UDE&#xA;T5CLR&#xA;T5IE&#xA;T5IR&#xA;T5R&#xA;T5SC&#xA;T5UD&#xA;T5UDE&#xA;T6IE&#xA;T6IR&#xA;T6OE&#xA;T6OTL&#xA;T6OUT&#xA;T6R&#xA;T6SR&#xA;T6UD&#xA;T6UDE&#xA;T7IE&#xA;T7IR&#xA;T7M&#xA;T7R&#xA;T8IE&#xA;T8IR&#xA;T8M&#xA;T8R&#xA;TXD0&#xA;UNDOPC&#xA;USR0&#xA;V&#xA;VIS&#xA;WDTIN&#xA;WDTR&#xA;WRCFG&#xA;XP0IE&#xA;XP0IR&#xA;XP1IE&#xA;XP1IR&#xA;XP2IE&#xA;XP2IR&#xA;XP3IE&#xA;XP3IR&#xA;XPEN&#xA;Z&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="ASSUME&#xA;AT&#xA;BIT&#xA;BITADDRESSABLE&#xA;BITWORD&#xA;BYTE&#xA;CGROUP&#xA;CODE&#xA;COMMON&#xA;COMREG&#xA;DATA&#xA;DB&#xA;DBIT&#xA;DDW&#xA;DEFA&#xA;DEFB&#xA;DEFR&#xA;DGROUP&#xA;DS&#xA;DSB&#xA;DSDW&#xA;DSW&#xA;DW&#xA;DWORD&#xA;END&#xA;ENDP&#xA;ENDS&#xA;EQU&#xA;EVEN&#xA;EXTERN&#xA;EXTRN&#xA;FAR&#xA;FILE&#xA;GLBUSRSTACK&#xA;GLOBAL&#xA;HDAT&#xA;INTNO&#xA;IRAMADDRESSABLE&#xA;LABEL&#xA;LINE&#xA;LIT&#xA;NAME&#xA;NEAR&#xA;NOTHING&#xA;ORG&#xA;PDAT&#xA;PECADDRESSABLE&#xA;PECDEF&#xA;PRIVATE&#xA;PROC&#xA;PUBLIC&#xA;REGBANK&#xA;REGDEF&#xA;SECTION&#xA;SEGMENT&#xA;SET&#xA;SSKDEF&#xA;SYMB&#xA;SYSSTACK&#xA;SYSTEM&#xA;TASK&#xA;TYPEDEC&#xA;USRSTACK&#xA;WORD&#xA;">
+          <Attributes Foreground="clTeal" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Logical operators" Enabled="True" Style="" Words="BOF&#xA;EQ&#xA;GE&#xA;GT&#xA;HIGH&#xA;LE&#xA;LOW&#xA;LT&#xA;MOD&#xA;NE&#xA;NOT&#xA;PAG&#xA;POF&#xA;SEG&#xA;SHL&#xA;SHORT&#xA;SHR&#xA;SOF&#xA;UGE&#xA;UGT&#xA;ULE&#xA;ULT&#xA;">
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="@" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Condition Codes" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="cc_"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

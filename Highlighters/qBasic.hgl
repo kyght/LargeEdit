@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="QBasic" FileType="" Extensions="q bas" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:qbasic.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="$DYNAMIC&#xA;$INCLUDE&#xA;$STATIC&#xA;BLOAD&#xA;BSAVE&#xA;BYVAL&#xA;CALL&#xA;CASE&#xA;CDECL&#xA;CHAIN&#xA;CHR$&#xA;CIRCLE&#xA;CLOSE&#xA;CLS&#xA;COLOR&#xA;COM&#xA;COMMAND&#xA;COMMAND$&#xA;COMMON&#xA;CONST&#xA;CTRL&#xA;DAT&#xA;DATA&#xA;DATE$&#xA;DECLARE&#xA;DEF&#xA;DEFINT&#xA;DEFtype&#xA;DGROUP&#xA;DIM&#xA;DOS&#xA;DOUBLE&#xA;DRAW&#xA;EGA&#xA;ELSE&#xA;ELSEIF&#xA;END&#xA;ENVIRON$&#xA;ERASE&#xA;ERDEV&#xA;ERDEV$&#xA;ERROR&#xA;EXIT&#xA;FIELD&#xA;FILEATTR&#xA;FOR&#xA;FUNCTION&#xA;GET&#xA;GOSUB&#xA;GOTO&#xA;IBM&#xA;INKEY$&#xA;INPUT&#xA;INPUT$&#xA;INSTR&#xA;INTEGER&#xA;INTERRUPT&#xA;IOCTL&#xA;IOCTL$&#xA;LBOUND&#xA;LEFT&#xA;LEN&#xA;LINE&#xA;LOCATE&#xA;LOCK&#xA;LONG&#xA;LOOP&#xA;LPRINT&#xA;LSET&#xA;MCGA&#xA;MID$&#xA;NAME&#xA;NEXT&#xA;NOT&#xA;OFF&#xA;OPEN&#xA;OPTION&#xA;OUTPUT&#xA;PALETTE&#xA;PEN&#xA;PLAY&#xA;PRINT&#xA;PSET&#xA;PUT&#xA;RANDOM&#xA;RANDOMIZE&#xA;READ&#xA;README&#xA;REDIM&#xA;RESTORE&#xA;RESUME&#xA;RETURN&#xA;RIGHT&#xA;RIGHT$&#xA;RSET&#xA;SCREEN&#xA;SEEK&#xA;SEG&#xA;SELECT&#xA;SETMEM&#xA;SHARED&#xA;SHIFT&#xA;SINGLE&#xA;STATIC&#xA;STEP&#xA;STICK&#xA;STOP&#xA;STRIG&#xA;STRING&#xA;STRING$&#xA;SUB&#xA;THEN&#xA;TIME$&#xA;TIMER&#xA;TYPE&#xA;UBOUND&#xA;UCASE$&#xA;UEVENT&#xA;UNLOCK&#xA;UNTIL&#xA;USING&#xA;VARPTR&#xA;VARPTR$&#xA;VARSEG&#xA;VGA&#xA;VIEW&#xA;WEND&#xA;WHILE&#xA;WIDTH&#xA;WINDOW&#xA;WRITE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

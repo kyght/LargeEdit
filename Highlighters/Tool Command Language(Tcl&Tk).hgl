@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Tool Command Language" FileType="" Extensions="tcl" Version="1" Revision="0" Sample="# All rights reserved.&#xA;#!/usr/local/tclsh8.0&#xA;if {$argc &lt; 2} {&#xA;	puts stderr &quot;Usage: $argv0 parameter&quot;&#xA;        exit 1}&#xA;package require Tcl 8.3		;# uses [glob -directory]&#xA;proc AcceptAll {value} {&#xA;return $value    }&#xA;proc AcceptDirectory { directory } {&#xA;set directory [AcceptAbsolutePath $directory]&#xA;if {![file exists $directory]} {&#xA;    return -code error &quot;\&quot;$directory\&quot; does not exist&quot;&#xA;}&#xA;if {![file isdir $directory]} {&#xA;    return -code error &quot;\&quot;$directory\&quot; is not a directory&quot;&#xA;}&#xA;return [AcceptReadable $directory]}&#xA;set Option($option) $msg&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="after&#xA;append&#xA;array&#xA;auto_execok&#xA;auto_load&#xA;auto_mkindex&#xA;auto_reset&#xA;bgerror&#xA;break&#xA;case&#xA;catch&#xA;cd&#xA;clock&#xA;close&#xA;concat&#xA;continue&#xA;eof&#xA;error&#xA;eval&#xA;exec&#xA;exit&#xA;expr&#xA;else&#xA;elseif&#xA;fblocked&#xA;fconfigure&#xA;file&#xA;fileevent&#xA;flush&#xA;for&#xA;foreach&#xA;format&#xA;gets&#xA;glob&#xA;global&#xA;history&#xA;if&#xA;incr&#xA;info&#xA;interp&#xA;join&#xA;lappend&#xA;lindex&#xA;linsert&#xA;list&#xA;llength&#xA;load&#xA;lrange&#xA;lreplace&#xA;lsearch&#xA;lsort&#xA;open&#xA;package&#xA;parray&#xA;pid&#xA;proc&#xA;puts&#xA;pwd&#xA;read&#xA;regexp&#xA;regsub&#xA;rename&#xA;return&#xA;scan&#xA;seek&#xA;set&#xA;socket&#xA;source&#xA;split&#xA;string&#xA;subst&#xA;switch&#xA;tell&#xA;time&#xA;trace&#xA;tcl_endOfWord&#xA;tcl_startOfNextWord&#xA;tcl_startOfPreviousWord&#xA;tcl_wordBreakAfter&#xA;tcl_wordBreakBefore&#xA;unknown&#xA;unset&#xA;update&#xA;uplevel&#xA;upvar&#xA;vwait&#xA;while&#xA;exit&#xA;BINDIDPROC&#xA;BINDPROC&#xA;BINARY&#xA;FILENAME&#xA;HTTP&#xA;FCOPY&#xA;FONT&#xA;LIBRARY&#xA;LOADTK&#xA;NAMESPACE&#xA;RESOURCE&#xA;THEN&#xA;OPTIONS&#xA;REGISTRY&#xA;SAFEBASE&#xA;TCLVARS&#xA;TCL&#xA;SENDOUT&#xA;RGB&#xA;PKG_MKINDEX&#xA;NAMESPUPD&#xA;VARIABLE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Ident" Enabled="True" Style="" Words="auto_execs&#xA;auto_index&#xA;auto_noexec&#xA;auto_noload&#xA;auto_path&#xA;env&#xA;ErrorCode&#xA;ErrorInfo&#xA;tcl_library&#xA;tcl_patchLevel&#xA;tcl_pkgPath&#xA;tcl_platform&#xA;tcl_precision&#xA;tcl_rcFileName&#xA;tcl_rcRsrcName&#xA;tcl_version&#xA;tcl_nonwordchars&#xA;tcl_wordchars&#xA;unknown_active&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="bell&#xA;bind&#xA;bindtags&#xA;bitmap&#xA;button&#xA;canvas&#xA;checkbutton&#xA;clipboard&#xA;destroy&#xA;entry&#xA;event&#xA;focus&#xA;frame&#xA;grab&#xA;grid&#xA;image&#xA;label&#xA;listbox&#xA;lower&#xA;menu&#xA;menubutton&#xA;message&#xA;option&#xA;pack&#xA;photo&#xA;place&#xA;radiobutton&#xA;raise&#xA;scale&#xA;scrollbar&#xA;selection&#xA;send&#xA;text&#xA;tk&#xA;tk_bindForTraversal&#xA;tk_bisque&#xA;tk_chooseColor&#xA;tk_dialog&#xA;tk_focusFollowsMouse&#xA;tk_focusNext&#xA;tk_focusPrev&#xA;tk_getOpenFile&#xA;tk_getSaveFile&#xA;tk_menuBar&#xA;tk_messageBox&#xA;tk_optionMenu&#xA;tk_popup&#xA;tk_setPalette&#xA;tkerror&#xA;tkvars&#xA;tkwait&#xA;toplevel&#xA;winfo&#xA;wm&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Param" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

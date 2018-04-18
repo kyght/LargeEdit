@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="carealizer20" FileType="" Extensions="RLZ RFD" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:carealizer20.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value=":"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="Abs&#xA;ACos&#xA;AddSys&#xA;AddToDate&#xA;AddToTime&#xA;And&#xA;AnimateCells&#xA;AnimateControl&#xA;AnimateFrame&#xA;AnimateSelect&#xA;AnimateSpecialFrame&#xA;AppSetProc&#xA;AS&#xA;Asc&#xA;ASin&#xA;ATan2&#xA;ATn&#xA;BASE&#xA;BEEP&#xA;Bin$&#xA;BinToNum&#xA;BitAnd&#xA;BitClear&#xA;BitLShift&#xA;BitNot&#xA;BitOr&#xA;BitRShift&#xA;BitSet&#xA;BitTest&#xA;BitXor&#xA;BoardControl&#xA;BoardNew&#xA;BoardQ&#xA;BoardQUnique&#xA;BoardSelect&#xA;BoardSetProc&#xA;BoardUpdate&#xA;Bool&#xA;CARET&#xA;Case&#xA;CDBL&#xA;Ceil&#xA;CHAIN&#xA;ChartBar&#xA;ChartControl&#xA;ChartControlGrid&#xA;ChartControlKey&#xA;ChartControlLabels&#xA;ChartControlPane&#xA;ChartHBar&#xA;ChartLine&#xA;ChartMark&#xA;ChartNew&#xA;ChartPie&#xA;ChartQ&#xA;ChartQPtInfo&#xA;ChartQUnique&#xA;ChartQXAxis&#xA;ChartQYAxis&#xA;ChartRemove&#xA;ChartSelect&#xA;ChartSelectPane&#xA;ChartSetColor&#xA;ChartSetFont&#xA;ChartSetKey&#xA;ChartSetLineStyle&#xA;ChartSetMark&#xA;ChartSetProc&#xA;ChartSetTitle&#xA;ChartSetXAxis&#xA;ChartSetXAxis2&#xA;ChartSetXGrid&#xA;ChartSetXLabels&#xA;ChartSetXView&#xA;ChartSetYAxis&#xA;ChartSetYGrid&#xA;ChartSetYLabels&#xA;ChartText&#xA;ChartUpdate&#xA;ChartXYLine&#xA;ChartXYMark&#xA;CHDIR&#xA;Chr$&#xA;CINT&#xA;CLEAR&#xA;ClipGet&#xA;ClipSet&#xA;CLNG&#xA;ColorNames&#xA;CommClose&#xA;CommOpen&#xA;CommQ&#xA;CommRead&#xA;CommWrite&#xA;Cos&#xA;CSNG&#xA;CVD&#xA;CVDMBF&#xA;CVI&#xA;CVL&#xA;CVS&#xA;CVSMBF&#xA;CUSTOMCONTROLS&#xA;DATE$&#xA;DateInfo&#xA;DateToNum&#xA;DayOfWeek&#xA;DDEControl&#xA;DDENew&#xA;DDEQ&#xA;DDEQUnique&#xA;DDESelect&#xA;DDESetProc&#xA;DDEWait&#xA;DIM&#xA;DWord&#xA;EndValid&#xA;END&#xA;EOF&#xA;Eqv&#xA;ERASE&#xA;ERF&#xA;ERL&#xA;ERR&#xA;ERROR&#xA;EXECUTE&#xA;EXIT&#xA;Exp&#xA;Exp10&#xA;EXPORT&#xA;EXTERNAL&#xA;Else&#xA;FileClose&#xA;FileDB&#xA;FileDelete&#xA;FileEOF&#xA;FileExport&#xA;FileImport&#xA;FileMakeName&#xA;FileOpen&#xA;FilePos&#xA;FileQ&#xA;FileQUnique&#xA;FileRead&#xA;FILES&#xA;FileSeek&#xA;FileWrite&#xA;FirstMatch&#xA;Fix&#xA;Floor&#xA;FontControl&#xA;FontNew&#xA;FontQ&#xA;FontQUnique&#xA;FontSelect&#xA;FOR&#xA;FormControl&#xA;FormModifyObject&#xA;FormNew&#xA;FormQ&#xA;FormQNum&#xA;FormQObject&#xA;FormQStr&#xA;FormQUnique&#xA;FormSelect&#xA;FormSetColor&#xA;FormSetGrid&#xA;FormSetObject&#xA;FormSetProc&#xA;FormWait&#xA;FREEFILE&#xA;FUNC&#xA;GOTO&#xA;Help&#xA;HelpSetProc&#xA;Hex$&#xA;HexToNum&#xA;IDLE&#xA;IF&#xA;Imp&#xA;Index&#xA;INPUT&#xA;InStr&#xA;INT&#xA;INTEGER&#xA;KILL&#xA;LBound&#xA;LCase$&#xA;Left$&#xA;Len&#xA;LFLUSH&#xA;LOCAL&#xA;LOF&#xA;Log&#xA;Log10&#xA;LogControl&#xA;LogNew&#xA;LogQ&#xA;LogQData&#xA;LogQSize&#xA;LogQStr&#xA;LogQUnique&#xA;LogSelect&#xA;LogSetData&#xA;LogSetProc&#xA;Long&#xA;LOOP&#xA;LPRINT&#xA;LROWPRINT&#xA;LTrim$&#xA;Mask&#xA;MatInvert&#xA;MatMult&#xA;MatTranspose&#xA;Max&#xA;MenuControl&#xA;MenuDoCmd&#xA;MenuNew&#xA;MenuQ&#xA;MenuQUnique&#xA;MenuSelect&#xA;MenuSetCmd&#xA;MenuSetProc&#xA;MessageBox&#xA;Mid$&#xA;Min&#xA;MKD$&#xA;MKDIR&#xA;MKDMBF$&#xA;MKI$&#xA;MKL$&#xA;MKS$&#xA;MKSMBF$&#xA;Mod&#xA;Not&#xA;NumToDate&#xA;NumToStr&#xA;Oct$&#xA;OctToNum&#xA;ON&#xA;OPTION&#xA;Or&#xA;PictureClipGet&#xA;PictureClipSet&#xA;PictureControl&#xA;PictureNew&#xA;PictureQ&#xA;PictureQUnique&#xA;PictureSelect&#xA;Pointer&#xA;PRINT&#xA;PrinterControl&#xA;PROC&#xA;Product&#xA;QDate&#xA;QDir&#xA;QFormat&#xA;QNOptMods&#xA;QNOptParams&#xA;QOptMod&#xA;QOptParam&#xA;QSys&#xA;QVar&#xA;RANDOMIZE&#xA;RENAME&#xA;RESET&#xA;ResetHourglass&#xA;RESUME&#xA;RETURN&#xA;Reverse$&#xA;Right$&#xA;RMDIR&#xA;Rnd&#xA;Round&#xA;ROWPRINT&#xA;RTrim$&#xA;RUN&#xA;RunTot&#xA;SchedControl&#xA;SchedNew&#xA;SchedQ&#xA;SchedQData&#xA;SchedRemove&#xA;SchedSet&#xA;ScreenEGA&#xA;SEEK&#xA;SELECT&#xA;SetAppName&#xA;SetDir&#xA;SetFormat&#xA;SetHourglass&#xA;SetSys&#xA;SetSystemDate&#xA;SetSystemTime&#xA;Sgn&#xA;SheetControl&#xA;SheetControlLabels&#xA;SheetNew&#xA;SheetQ&#xA;SheetQInfo&#xA;SheetQUnique&#xA;SheetSelect&#xA;SheetSetColLabels&#xA;SheetSetProc&#xA;SheetSetRowLabels&#xA;SheetUpdate&#xA;SHELL&#xA;Sin&#xA;SLEEP&#xA;Space$&#xA;Spc$&#xA;Sprint&#xA;Sqr&#xA;Sqrt&#xA;StartValid&#xA;StatMovAvg&#xA;StatMovMax&#xA;StatMovMin&#xA;StatMovTot&#xA;StatNorm&#xA;StatPack&#xA;StatPercent&#xA;StatRank&#xA;StatRegress&#xA;StatSort&#xA;StatSwitch&#xA;StatUnPack&#xA;StdColor&#xA;StdFont&#xA;StdOpen&#xA;StdPrintConfig&#xA;StdSaveAs&#xA;STOP&#xA;StrDelete$&#xA;String$&#xA;StrInsert$&#xA;StrKeyword&#xA;StrToDate&#xA;StrTok&#xA;StrToNum&#xA;SUB&#xA;SubStr$&#xA;Sum&#xA;SWAP&#xA;TabletArc&#xA;TabletBitmap&#xA;TabletBrush&#xA;TabletChord&#xA;TabletControl&#xA;TabletEllipse&#xA;TabletGetPixel&#xA;TabletLine&#xA;TabletLineTo&#xA;TabletMouseX&#xA;TabletMouseY&#xA;TabletMoveTo&#xA;TabletPen&#xA;TabletPie&#xA;TabletPolygon&#xA;TabletPolyLine&#xA;TabletPolyPolygon&#xA;TabletRectangle&#xA;TabletRoundRect&#xA;TabletSelect&#xA;TabletSetColor&#xA;TabletSetPixel&#xA;TabletText&#xA;TabletTextColor&#xA;TabletUndo&#xA;Tan&#xA;TIME$&#xA;TIMER&#xA;TYPE&#xA;Then&#xA;UBound&#xA;UCase$&#xA;Val&#xA;VectSet&#xA;WHILE&#xA;WRITE&#xA;Word&#xA;Xor&#xA;ZeroFill&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

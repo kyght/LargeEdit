@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="AWK" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="System Variable" Enabled="True" Style="" Words="ARGC&#xA;ARGIND&#xA;ARGV&#xA;CONVFMT&#xA;ENVIRON&#xA;ERRNO&#xA;FIELDWIDTH&#xA;FILENAME&#xA;FNR&#xA;FS&#xA;IGNORECASE&#xA;NF&#xA;NR&#xA;OFMT&#xA;OFS&#xA;ORS&#xA;RLENGTH&#xA;RS&#xA;RSTART&#xA;SUBSEP&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Function" Enabled="True" Style="" Words="atan2&#xA;close&#xA;cos&#xA;delete&#xA;exp&#xA;gsub&#xA;index&#xA;int&#xA;jindex&#xA;jlength&#xA;jsubstr&#xA;length&#xA;log&#xA;match&#xA;printf&#xA;rand&#xA;sin&#xA;split&#xA;sprintf&#xA;sqrt&#xA;srand&#xA;strftime&#xA;sub&#xA;substr&#xA;system&#xA;systime&#xA;tolower&#xA;toupper&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="BEGIN&#xA;break&#xA;continue&#xA;do&#xA;else&#xA;END&#xA;exit&#xA;for&#xA;function&#xA;getline&#xA;if&#xA;next&#xA;print&#xA;return&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

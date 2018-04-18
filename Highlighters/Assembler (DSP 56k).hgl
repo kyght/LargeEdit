@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DSP56K asm" FileType="" Extensions="ASM INC LST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmdsp56k.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#%&amp;'()*+,-/;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abs&#xA;adc&#xA;add&#xA;addl&#xA;addr&#xA;and&#xA;andi&#xA;asl&#xA;asr&#xA;bchg&#xA;bclr&#xA;bset&#xA;btst&#xA;clr&#xA;cmp&#xA;cmpm&#xA;debug&#xA;debugcc&#xA;debugcs&#xA;debugec&#xA;debugeq&#xA;debuges&#xA;debugge&#xA;debuggt&#xA;debughs&#xA;debuglc&#xA;debugle&#xA;debuglo&#xA;debugls&#xA;debuglt&#xA;debugmi&#xA;debugne&#xA;debugnn&#xA;debugnr&#xA;debugpl&#xA;dec&#xA;div&#xA;do&#xA;enddo&#xA;eor&#xA;illegal&#xA;inc&#xA;jcc&#xA;jclr&#xA;jcs&#xA;jec&#xA;jeq&#xA;jes&#xA;jge&#xA;jgt&#xA;jhs&#xA;jlc&#xA;jle&#xA;jlo&#xA;jls&#xA;jlt&#xA;jmi&#xA;jmp&#xA;jne&#xA;jnn&#xA;jnr&#xA;jpl&#xA;jscc&#xA;jsclr&#xA;jscs&#xA;jsec&#xA;jseq&#xA;jses&#xA;jset&#xA;jsge&#xA;jsgt&#xA;jshs&#xA;jslc&#xA;jsle&#xA;jslo&#xA;jsls&#xA;jslt&#xA;jsmi&#xA;jsne&#xA;jsnn&#xA;jsnr&#xA;jspl&#xA;jsr&#xA;jsset&#xA;lsl&#xA;lsr&#xA;lua&#xA;mac&#xA;macr&#xA;move&#xA;movec&#xA;movem&#xA;movep&#xA;mpy&#xA;mpyr&#xA;neg&#xA;nop&#xA;norm&#xA;not&#xA;or&#xA;ori&#xA;rep&#xA;reset&#xA;rnd&#xA;rol&#xA;ror&#xA;rti&#xA;rts&#xA;sbc&#xA;stop&#xA;sub&#xA;subl&#xA;subr&#xA;swi&#xA;tcc&#xA;tcs&#xA;tec&#xA;teq&#xA;tes&#xA;tfr&#xA;tge&#xA;tgt&#xA;ths&#xA;tlc&#xA;tle&#xA;tlo&#xA;tls&#xA;tlt&#xA;tmi&#xA;tne&#xA;tnn&#xA;tnr&#xA;tpl&#xA;tst&#xA;wait&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words=".break&#xA;.continue&#xA;.else&#xA;.endf&#xA;.endi&#xA;.endl&#xA;.endw&#xA;.for&#xA;.if&#xA;.loop&#xA;.repeat&#xA;.until&#xA;.while&#xA;by&#xA;downto&#xA;then&#xA;to&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="baddr&#xA;bsb&#xA;bsc&#xA;buffer&#xA;cobj&#xA;comment&#xA;dc&#xA;dcb&#xA;define&#xA;ds&#xA;dsm&#xA;dsr&#xA;dup&#xA;dupa&#xA;dupc&#xA;dupf&#xA;else&#xA;end&#xA;endbuf&#xA;endif&#xA;endm&#xA;endsec&#xA;equ&#xA;exitm&#xA;fail&#xA;force&#xA;global&#xA;himem&#xA;ident&#xA;if&#xA;include&#xA;list&#xA;local&#xA;lomem&#xA;lstcol&#xA;maclib&#xA;macro&#xA;mode&#xA;msg&#xA;nolist&#xA;opt&#xA;org&#xA;page&#xA;pmacro&#xA;prctl&#xA;radix&#xA;rdirect&#xA;scsjmp&#xA;scsreg&#xA;section&#xA;set&#xA;stitle&#xA;symobj&#xA;tabs&#xA;title&#xA;undef&#xA;warn&#xA;xdef&#xA;xref&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="(r0)&#xA;-(r0)&#xA;(r0)-&#xA;(r0)+&#xA;(r0)+n0&#xA;(r0)-n0&#xA;(r1)&#xA;-(r1)&#xA;(r1)-&#xA;(r1)+&#xA;(r1)+n1&#xA;(r1)-n1&#xA;(r2)&#xA;-(r2)&#xA;(r2)-&#xA;(r2)+&#xA;(r2)+n2&#xA;(r2)-n2&#xA;(r3)&#xA;-(r3)&#xA;(r3)-&#xA;(r3)+&#xA;(r3)+n3&#xA;(r3)-n3&#xA;(r4)&#xA;-(r4)&#xA;(r4)-&#xA;(r4)+&#xA;(r4)+n4&#xA;(r4)-n4&#xA;(r5)&#xA;-(r5)&#xA;(r5)-&#xA;(r5)+&#xA;(r5)+n5&#xA;(r5)-n5&#xA;(r6)&#xA;-(r6)&#xA;(r6)-&#xA;(r6)+&#xA;(r6)+n6&#xA;(r6)-n6&#xA;(r7)&#xA;-(r7)&#xA;(r7)-&#xA;(r7)+&#xA;(r7)+n7&#xA;(r7)-n7&#xA;+x0&#xA;+x1&#xA;+y0&#xA;+y1&#xA;a&#xA;a0&#xA;a1&#xA;a2&#xA;b&#xA;b0&#xA;b1&#xA;b2&#xA;ccr&#xA;la&#xA;lc&#xA;m0&#xA;m1&#xA;m2&#xA;m3&#xA;m4&#xA;m5&#xA;m6&#xA;m7&#xA;mr&#xA;n0&#xA;n1&#xA;n2&#xA;n3&#xA;n4&#xA;n5&#xA;n6&#xA;n7&#xA;omr&#xA;pc&#xA;r0&#xA;r1&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;sp&#xA;sr&#xA;ssh&#xA;ssl&#xA;x&#xA;x0&#xA;-x0&#xA;x1&#xA;-x1&#xA;y&#xA;y0&#xA;-y0&#xA;y1&#xA;-y1&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="@" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

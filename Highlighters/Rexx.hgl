@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Rexx" FileType="" Extensions="rex" Version="1" Revision="0" Sample="/* Dec2Hex.rex,  Version 1.01 */&#xA;parse arg number dummy .&#xA;if dummy &lt;&gt; &quot;&quot; then call Syntax&#xA;if Pos( &quot;?&quot;, number )      &gt; 0 then call Syntax&#xA;if DataType( number, &quot;W&quot; ) = 0 then call Syntax&#xA;say number||&quot; = 0x&quot;||Right( D2X( number ), 8, &quot;0&quot; )&#xA;Exit 0&#xA;Syntax:&#xA;say &quot;Dec2Hex.rex,  Version 1.01&quot;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="ADDRESS&#xA;ADDITIONAL&#xA;ANY&#xA;ARG&#xA;ARGUMENTS&#xA;ARRAY&#xA;BY&#xA;CALL&#xA;CASELESS&#xA;CONTINUE&#xA;CLASS&#xA;DESCRIPTION&#xA;DIGITS&#xA;DO&#xA;DROP&#xA;END&#xA;ENGINEERING&#xA;ERROR&#xA;EXIT&#xA;EXPOSE&#xA;ELSE&#xA;FAILURE&#xA;FOR&#xA;FOREVER&#xA;FORM&#xA;FORWARD&#xA;FUZZ&#xA;GUARD&#xA;HALT&#xA;IF&#xA;INTERPRET&#xA;ITERATE&#xA;LEAVE&#xA;LOWER&#xA;LOSTDIGITS&#xA;MESSAGE&#xA;NAME&#xA;NOP&#xA;NOMETHOD&#xA;NOSTRING&#xA;NOTREADY&#xA;NOVALUE&#xA;NUMERIC&#xA;ON&#xA;OFF&#xA;OTHERWISE&#xA;PARSE&#xA;PROCEDURE&#xA;PULL&#xA;PUSH&#xA;PROPAGATE&#xA;QUEUE&#xA;RAISE&#xA;REPLY&#xA;RETURN&#xA;RET&#xA;RC&#xA;SAY&#xA;SCIENTIFIC&#xA;SELECT&#xA;SIGL&#xA;SIGNAL&#xA;SOURCE&#xA;SYNTAX&#xA;THEN&#xA;TO&#xA;TRACE&#xA;UPPER&#xA;UNTIL&#xA;USE&#xA;USER&#xA;VERSION&#xA;WHEN&#xA;WHILE&#xA;WITH&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ABBREV&#xA;ABS&#xA;APPEND&#xA;BEEP&#xA;BINARY&#xA;BITAND&#xA;BITOR&#xA;BITXOR&#xA;BOTH&#xA;B2X&#xA;CENTER&#xA;CHANGESTR&#xA;CHAR&#xA;CHARIN&#xA;CHAROUT&#xA;CHARS&#xA;COMPARE&#xA;CONDITION&#xA;COPIES&#xA;COUNTSTR&#xA;CLOSE&#xA;C2D&#xA;C2X&#xA;DATETIME&#xA;DATATYPE&#xA;DATE&#xA;DELSTR&#xA;DELWORD&#xA;DIRECTORY&#xA;D2C&#xA;D2X&#xA;ERRORTEXT&#xA;EXISTS&#xA;FILESPEC&#xA;FLUSH&#xA;FORMAT&#xA;HANDLE&#xA;INSERT&#xA;LASTPOS&#xA;LEFT&#xA;LENGTH&#xA;LINE&#xA;LINEIN&#xA;LINEOUT&#xA;LINES&#xA;MAX&#xA;MIN&#xA;NOBUFFER&#xA;OPEN&#xA;OVERLAY&#xA;POS&#xA;POSITION&#xA;QUEUED&#xA;QUERY&#xA;RANDOM&#xA;RECLENGTH&#xA;READ&#xA;REPLACE&#xA;REVERSE&#xA;RIGHT&#xA;SEEK&#xA;SIGN&#xA;SIZE&#xA;SHARED&#xA;SHAREREAD&#xA;SHAREWRITE&#xA;SOURCELINE&#xA;SPACE&#xA;STREAM&#xA;STREAMTYPE&#xA;STRIP&#xA;SUBWORD&#xA;SUBSTR&#xA;SYMBOL&#xA;SYS&#xA;TIME&#xA;TIMESTAMP&#xA;TRANSLATE&#xA;TRUNC&#xA;VAR&#xA;VALUE&#xA;VERIFY&#xA;WORD&#xA;WORDINDEX&#xA;WORDLENGTH&#xA;WORDPOS&#xA;WORDS&#xA;WRITE&#xA;XRANGE&#xA;X2B&#xA;X2C&#xA;X2D&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Utilities" Enabled="True" Style="" Words="PID&#xA;PPRIO&#xA;PTIME&#xA;RxFuncAdd&#xA;RxFuncDrop&#xA;RxFuncQuery&#xA;RxQueue&#xA;RxMessageBox&#xA;RxWinExec&#xA;SysAddRexxMacro&#xA;SysBootDrive&#xA;SysClearRexxMacroSpace&#xA;SysCloseEventSem&#xA;SysCloseMutexSem&#xA;SysCls&#xA;SysCreateEventSem&#xA;SysCreateMutexSem&#xA;SysCurPos&#xA;SysCurState&#xA;SysDriveInfo&#xA;SysDriveMap&#xA;SysDropFuncs&#xA;SysDropRexxMacro&#xA;SysDumpVariables&#xA;SysFileDelete&#xA;SysFileSearch&#xA;SysFileSystemType&#xA;SysGetFileDateTime&#xA;SysFileTree&#xA;SysGetKey&#xA;SysIni&#xA;SysLoadFuncs&#xA;SysLoadRexxMacroSpace&#xA;SysMkDir&#xA;SysOpenEventSem&#xA;SysOpenMutexSem&#xA;SysPostEventSem&#xA;SysPulseEventSem&#xA;SysQueryProcess&#xA;SysQueryRexxMacro&#xA;SysReleaseMutexSem&#xA;SysReorderRexxMacro&#xA;SysRequestMutexSem&#xA;SysResetEventSem&#xA;SysRmDir&#xA;SysSaveRexxMacroSpace&#xA;SysSearchPath&#xA;SysSetFileDateTime&#xA;SysSetPriority&#xA;SysSleep&#xA;SysStemCopy&#xA;SysStemDelete&#xA;SysStemInsert&#xA;SysStemSort&#xA;SysSwitchSession&#xA;SysSystemDirectory&#xA;SysTempFileName&#xA;SysTextScreenRead&#xA;SysTextScreenSize&#xA;SysUtilVersion&#xA;SysVolumeLabel&#xA;SysWaitEventSem&#xA;SysWaitNamedPipe&#xA;SysVersion&#xA;SysWinVer&#xA;TID&#xA;TPRIO&#xA;TTIME&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

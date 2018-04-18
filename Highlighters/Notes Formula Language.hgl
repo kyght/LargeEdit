@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Notes Formula Language" FileType="" Extensions="NFL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:nfl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="DEFAULT&#xA;ENVIRONMENT&#xA;FIELD&#xA;SELECT&#xA;@Abs&#xA;@Abstract&#xA;@Accessed&#xA;@Acos&#xA;@Adjust&#xA;@All&#xA;@AllChildren&#xA;@AllDescendants&#xA;@Ascii&#xA;@Asin&#xA;@Atan&#xA;@Atan2&#xA;@AttachmentLengths&#xA;@AttachmentNames&#xA;@Attachments&#xA;@Author&#xA;@Begins&#xA;@Certificate&#xA;@Char&#xA;@CheckAlarms&#xA;@ClientType&#xA;@Command&#xA;@Contains&#xA;@Cos&#xA;@Created&#xA;@Date&#xA;@Day&#xA;@DbColumn&#xA;@DbCommand&#xA;@DbExists&#xA;@DbLookup&#xA;@DbManager&#xA;@DbName&#xA;@DbTitle&#xA;@DDEExecute&#xA;@DDEInitiate&#xA;@DDEPoke&#xA;@DDETerminate&#xA;@DeleteDocument&#xA;@DeleteField&#xA;@DialogBox&#xA;@Do&#xA;@DocChildren&#xA;@DocDescendants&#xA;@DocFields&#xA;@DocLength&#xA;@DocLevel&#xA;@DocMark&#xA;@DocNumber&#xA;@DocParentNumber&#xA;@DocSiblings&#xA;@DocumentUniqueID&#xA;@Domain&#xA;@EditECL&#xA;@EditUserECL&#xA;@Elements&#xA;@EnableAlarms&#xA;@Ends&#xA;@Environment&#xA;@Error&#xA;@Exp&#xA;@Explode&#xA;@Failure&#xA;@False&#xA;@GetDocField&#xA;@GetPortsList&#xA;@GetProfileField&#xA;@Hour&#xA;@If&#xA;@Implode&#xA;@InheritedDocumentUniqueID&#xA;@Integer&#xA;@IsAgentEnabled&#xA;@IsAvailable&#xA;@IsCategory&#xA;@IsDocBeingEdited&#xA;@IsDocBeingLoaded&#xA;@IsDocBeingMailed&#xA;@IsDocBeingRecalculated&#xA;@IsDocBeingSaved&#xA;@IsDocTruncated&#xA;@IsError&#xA;@IsExpandable&#xA;@IsMember&#xA;@IsModalHelp&#xA;@IsNewDoc&#xA;@IsNotMember&#xA;@IsNumber&#xA;@IsResponseDoc&#xA;@IsText&#xA;@IsTime&#xA;@IsUnavailable&#xA;@IsValid&#xA;@Keywords&#xA;@Left&#xA;@LeftBack&#xA;@Length&#xA;@Like&#xA;@Ln&#xA;@Log&#xA;@LowerCase&#xA;@MailDbName&#xA;@MailEncryptSavedPreference&#xA;@MailEncryptSentPreference&#xA;@MailSavePreference&#xA;@MailSend&#xA;@MailSignPreference&#xA;@Matches&#xA;@Max&#xA;@Member&#xA;@Middle&#xA;@MiddleBack&#xA;@Min&#xA;@Minute&#xA;@Modified&#xA;@Modulo&#xA;@Month&#xA;@Name&#xA;@NewLine&#xA;@No&#xA;@NoteID&#xA;@Now&#xA;@OptimizeMailAddress&#xA;@Password&#xA;@Pi&#xA;@PickList&#xA;@Platform&#xA;@PostedCommand&#xA;@Power&#xA;@Prompt&#xA;@ProperCase&#xA;@Random&#xA;@RefreshECL&#xA;@Repeat&#xA;@Replace&#xA;@ReplaceSubstring&#xA;@Responses&#xA;@Return&#xA;@Right&#xA;@RightBack&#xA;@Round&#xA;@Second&#xA;@Select&#xA;@Set&#xA;@SetDocField&#xA;@SetEnvironment&#xA;@SetField&#xA;@SetProfileField&#xA;@Sign&#xA;@Sin&#xA;@Soundex&#xA;@Sqrt&#xA;@Subset&#xA;@Success&#xA;@Sum&#xA;@Tan&#xA;@Text&#xA;@TextToNumber&#xA;@TextToTime&#xA;@Time&#xA;@Today&#xA;@Tomorrow&#xA;@Trim&#xA;@True&#xA;@Unavailable&#xA;@Unique&#xA;@UpperCase&#xA;@URLGetHeader&#xA;@URLHistory&#xA;@URLOpen&#xA;@UserAccess&#xA;@UserName&#xA;@UserPrivileges&#xA;@UserRoles&#xA;@V2If&#xA;@V3UserName&#xA;@Version&#xA;@ViewTitle&#xA;@Weekday&#xA;@Word&#xA;@Year&#xA;@Yes&#xA;@Yesterday&#xA;@Zone&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words=":&#xA;=&#xA;&amp;&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks REM" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="REM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,35 @@
+<plugins>
+  <visual>
+    <plugin>
+      <type>viewer</type>
+      <menu>Main Frame</menu>
+      <object>{B47EE948-7D01-4ABB-A1F3-F62575A911BB}</object>
+      <location>plugins\mainframeviewer</location>
+      <filename>MainFrameControl.ocx</filename>
+    </plugin>
+    <plugin>
+      <type>viewer</type>
+      <menu>HL7 Viewer</menu>
+      <object>{94F209B0-3832-4D1F-ACC1-1D28282A64F9}</object>
+      <location>plugins\hl7viewer</location>
+      <filename>interXHL7Viewer.dll</filename>
+      <image>plugins\hl7viewer\hl7viewer.ico</image>
+      <events>true</events>
+      <align>left</align>
+    </plugin>
+    <plugin>
+      <type>tool</type>
+      <width>450</width>
+      <height>225</height>
+      <menu>Online Repository</menu>
+      <object>{B47EE948-7D01-4ABB-A1F3-F62575A911BB}</object>
+      <location>plugins\mainframeviewer</location>
+      <filename>MainFrameControl.ocx</filename>
+    </plugin>
+    <plugin>
+      <type>action</type>
+      <menu>Large Action</menu>
+      <object>LargeAction.ComplexAction</object>
+    </plugin>
+  </visual>
+</plugins>

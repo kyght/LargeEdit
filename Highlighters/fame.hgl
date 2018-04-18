@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="FAME" FileType="" Extensions="inp pro" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:fame.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ABORT&#xA;ACCELERATOR&#xA;ACCESS&#xA;ALIAS&#xA;ALMON&#xA;APPEND&#xA;AREA&#xA;ARGUMENTS&#xA;ARIMACONSTANT&#xA;ARROW&#xA;ASSIST&#xA;ASTIME&#xA;AXIS&#xA;BACKGROUND&#xA;BAND&#xA;BASE&#xA;BASIS&#xA;BATCH&#xA;BEHAVIORAL&#xA;BOOLEAN&#xA;BOTTOM&#xA;BOX&#xA;BRING&#xA;BROWN&#xA;BUTTON&#xA;CACHE&#xA;CALENDAR&#xA;CAPTION&#xA;CASE&#xA;CELL&#xA;CENTURY&#xA;CHANNEL&#xA;CHARACTER&#xA;CHSET&#xA;CLASS&#xA;COLOR&#xA;COLUMN&#xA;COMMAS&#xA;CONFIRM&#xA;CONSTRAIN&#xA;CONTENTS&#xA;CONVERT&#xA;CRITERION&#xA;DATE&#xA;DECIMAL&#xA;DEPIC&#xA;DEPICT&#xA;DESCRIPTION&#xA;DEVICE&#xA;DIMENSION&#xA;DISABLE&#xA;DIVISION&#xA;ECHO&#xA;EJECT&#xA;ERROR&#xA;EXPAND&#xA;EXPLODE&#xA;FETCH&#xA;FIELD&#xA;FINISH&#xA;FON&#xA;FORCE&#xA;FORECAST&#xA;FORMS&#xA;FRACTION&#xA;FRAME&#xA;FRDB&#xA;FREQUENCY&#xA;FUTURE&#xA;GENERATE&#xA;GLUE&#xA;GRID&#xA;HISTORY&#xA;HOLDOUT&#xA;HOLIDAY&#xA;IGNORE&#xA;IMAGE&#xA;INDENT&#xA;INDEX&#xA;INFLUENCE&#xA;INFOBAR&#xA;INTERCEPT&#xA;INTERRUPT&#xA;ITEM&#xA;JUSTIFY&#xA;KEEP&#xA;KIND&#xA;LABEL&#xA;LANGUAGE&#xA;LEFT&#xA;LEFTMARGIN&#xA;LEGEND&#xA;LENGTH&#xA;LIMIT&#xA;LINES&#xA;LINK&#xA;LPREFIX&#xA;MAP&#xA;MARGINS&#xA;MARK&#xA;MATCH&#xA;MEMORY&#xA;METHOD&#xA;MISSINGVALUES&#xA;NAME&#xA;NEGATIVE&#xA;NUMBER&#xA;OBJECT&#xA;OBSERVED&#xA;OFFSET&#xA;ORDER&#xA;OVERWRITE&#xA;PACK&#xA;PAGE&#xA;PARTIAL&#xA;PAST&#xA;PAUSE&#xA;PGCELL&#xA;PIERCE&#xA;PLACEMENT&#xA;PLOT&#xA;POSITION&#xA;POSITIVE&#xA;PREFIX&#xA;RANGE&#xA;REMARKS&#xA;RENDER&#xA;REORDER&#xA;REPLACE&#xA;REPORT&#xA;RESPONSE&#xA;RESTORE&#xA;REVIEW&#xA;RIGHT&#xA;ROBITERLIMIT&#xA;SCALAR&#xA;SCATTER&#xA;SEASONAL&#xA;SEE&#xA;SERIES&#xA;SHILLER&#xA;SHOW&#xA;SIZE&#xA;SPEED&#xA;SQUEEZE&#xA;STORE&#xA;STRINGLENGTH&#xA;STYLE&#xA;SUFFIX&#xA;SUSPEND&#xA;SYMBOLIZE&#xA;TAG&#xA;TECHNIQUE&#xA;TEXT&#xA;THICKNESS&#xA;THREED&#xA;TICK&#xA;TIME&#xA;TITLE&#xA;TOP&#xA;TRACE&#xA;TRANSFORM&#xA;TRIGGER&#xA;TRIMVALUE&#xA;TUNE&#xA;TURN&#xA;TYPE&#xA;UCHARACTER&#xA;UNDERLINE&#xA;UNIT&#xA;VERIFY&#xA;VIEW&#xA;WEDGE&#xA;WEIGHTS&#xA;WIDTH&#xA;WINDOW&#xA;XYSET&#xA;YEAR&#xA;ZEROVALUES&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="ABS&#xA;ACF&#xA;AGGR&#xA;AGR&#xA;ALL&#xA;ALPHA&#xA;AMORT&#xA;ANNPCT&#xA;ANY&#xA;AR&#xA;ARIMA&#xA;ARMA&#xA;ATAN&#xA;AVE&#xA;BIWK&#xA;BOOLFMT&#xA;CASEORDER&#xA;CAVE&#xA;CHANNELS&#xA;CHANNELTYPE&#xA;CHECKACCESS&#xA;CMAX&#xA;CMIN&#xA;CONNAME&#xA;CORR&#xA;COS&#xA;CPROD&#xA;CREATED&#xA;CROSSLIST&#xA;CSUM&#xA;CTOT&#xA;DATEFMT&#xA;DATEOF&#xA;DATEORDER&#xA;DAY&#xA;DB&#xA;DBCREATED&#xA;DBUPDATED&#xA;DIFF&#xA;DTY&#xA;EOF&#xA;ERRORTEXT&#xA;EVAL&#xA;EXISTS&#xA;EXP&#xA;EXTRACT&#xA;FILE&#xA;FILESPEC&#xA;FIRST&#xA;FIRSTCASE&#xA;FIRSTDATE&#xA;FIRSTVALUE&#xA;FONT&#xA;FPERIOD&#xA;FYEAR&#xA;GETENV&#xA;GETID&#xA;GROWTH&#xA;HOUR&#xA;ID&#xA;INISCAN&#xA;INTERP&#xA;IRR&#xA;LARGEST&#xA;LAST&#xA;LASTCASE&#xA;LASTDATE&#xA;LASTERROR&#xA;LASTVALUE&#xA;LAVE&#xA;LENGTHCASE&#xA;LENGTHDATE&#xA;LIST&#xA;LISTACCESS&#xA;LMAX&#xA;LMEDIAN&#xA;LMIN&#xA;LOCATION&#xA;LOG&#xA;LOG10&#xA;LOOKUP&#xA;LOWER&#xA;LPROD&#xA;LSTDDEV&#xA;LSUM&#xA;LTRIM&#xA;LVAR&#xA;MA&#xA;MAGIC&#xA;MAKE&#xA;MAKEDATE&#xA;MAVE&#xA;MAVEC&#xA;MAX&#xA;MAXCASE&#xA;MAXDATE&#xA;MCORR&#xA;MEAN&#xA;MEDIAN&#xA;MERGE&#xA;MIN&#xA;MINCASE&#xA;MINDATE&#xA;MINUTE&#xA;MIRROR&#xA;MISSING&#xA;MMAX&#xA;MMEDIAN&#xA;MMIN&#xA;MONTH&#xA;MPROD&#xA;MSTDDEV&#xA;MSUM&#xA;MVAR&#xA;NAMELOC&#xA;NL&#xA;NORMAL&#xA;NOW&#xA;NPV&#xA;NUMFMT&#xA;OVERLAY&#xA;PACF&#xA;PAD&#xA;PAYBACK&#xA;PCT&#xA;PENDING&#xA;PERIOD&#xA;PIXELS&#xA;POINTS&#xA;PRECFMT&#xA;PROD&#xA;REALNAME&#xA;REMEVAL&#xA;REPEAT&#xA;REVERSE&#xA;ROBLOC&#xA;ROBVAR&#xA;ROUND&#xA;RTRIM&#xA;SANNPCT&#xA;SARIMA&#xA;SCAN&#xA;SCREENINFO&#xA;SCRIPT&#xA;SECOND&#xA;SELECTNAMES&#xA;SHIFT&#xA;SHIFTMTN&#xA;SHIFTYR&#xA;SIGN&#xA;SIN&#xA;SL&#xA;SLICE&#xA;SMALLEST&#xA;SORTDATA&#xA;SORTINDEX&#xA;SORTNAME&#xA;SOURCE&#xA;SPECIAL&#xA;SQRT&#xA;STDDEV&#xA;STRING&#xA;STUFF&#xA;SUBSTRING&#xA;SUM&#xA;SYSTEM&#xA;SYSTEMERROR&#xA;THISDAY&#xA;TODAY&#xA;TRIM&#xA;TRUNC&#xA;UNIFORM&#xA;UNIQUE&#xA;UPDATED&#xA;UPPER&#xA;VAR&#xA;WEEKDAY&#xA;WILDLIST&#xA;WILDNAMES&#xA;WINFRAMEINFO&#xA;WININFO&#xA;WRITEACCT&#xA;YTD&#xA;YTYDIFF&#xA;YTYPCT&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="ACCEPT&#xA;ACTIVATE&#xA;ADJUST&#xA;APPLY&#xA;ARGUMENT&#xA;ASSOCIATE&#xA;ATTRIBUTE&#xA;BACKTO&#xA;BEST&#xA;BLANK&#xA;BLOCK&#xA;BUFFER&#xA;CANCEL&#xA;CATALOG&#xA;CATCH&#xA;CD&#xA;CHECK&#xA;CLEAR&#xA;CLOSE&#xA;COMPILE&#xA;CONCEAL&#xA;CONNECT&#xA;COPY&#xA;CORRELATE&#xA;CREATE&#xA;DATA&#xA;DBSTATUS&#xA;DEACTIVATED&#xA;DELETE&#xA;DISCONNECT&#xA;DISPLAY&#xA;DOCUMENTATION&#xA;DOWN&#xA;DRAW&#xA;EDIT&#xA;ELSE&#xA;END&#xA;ENDOGENIZE&#xA;ENTER&#xA;ENTRY&#xA;ESCAPE&#xA;EXECUTE&#xA;EXHIBIT&#xA;EXIT&#xA;EXOGENIZE&#xA;EXTRADOTS&#xA;EXTRAPOLATE&#xA;FIND&#xA;FIT&#xA;FOOTING&#xA;FORM&#xA;FORMULA&#xA;FUNCTION&#xA;GET&#xA;GHOST&#xA;GLFORMULA&#xA;GLNAME&#xA;GOTO&#xA;GRAPH&#xA;HEADING&#xA;HELP&#xA;HIDE&#xA;IF&#xA;INCLUDE&#xA;INFO&#xA;INITIALIZE&#xA;INPUT&#xA;INSERT&#xA;LEAVE&#xA;LINE&#xA;LOAD&#xA;LOCAL&#xA;LOOP&#xA;MARKING&#xA;MENU&#xA;MESSAGE&#xA;MODEL&#xA;MODIFY&#xA;MOVE&#xA;NEW&#xA;NEWPAGE&#xA;NEXT&#xA;NOTE&#xA;OPEN&#xA;OUTPUT&#xA;OTHERWISE&#xA;PICTURE&#xA;PIE&#xA;POST&#xA;PRINT&#xA;PROCEDURE&#xA;PROMPT&#xA;QUIT&#xA;RABORT&#xA;RASSERT&#xA;RATTRIBUTE&#xA;RCOMMIT&#xA;RCOPY&#xA;RDELETE&#xA;READ&#xA;RECALCULATE&#xA;REDO&#xA;REENTER&#xA;REFILE&#xA;REFRESH&#xA;REGION&#xA;RENAME&#xA;REOPEN&#xA;RESET&#xA;RESIGNAL&#xA;RETURN&#xA;REVEAL&#xA;RRENAME&#xA;RSET&#xA;RUN&#xA;SAVE&#xA;SCORE&#xA;SEARCH&#xA;SELECT&#xA;SET&#xA;SETENV&#xA;SIGNAL&#xA;SLEEP&#xA;STEST&#xA;STROKE&#xA;SUBSTITUTE&#xA;SUMMARIZE&#xA;TERMINATE&#xA;TRY&#xA;THEN&#xA;UNGHOST&#xA;UNLOAD&#xA;UNSAVE&#xA;UNSETENV&#xA;UP&#xA;UPDATE&#xA;VALIDATE&#xA;VALPRINT&#xA;WHATS&#xA;WHICH&#xA;WRITE&#xA;XYGET&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="ALIAS&#xA;ASSOCIATE&#xA;BASIS&#xA;DESCRIPTION&#xA;DIMENSION&#xA;DOCUMENTATION&#xA;EXTRADOTS&#xA;OBSERVED&#xA;STRINGLENGTH&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="AMRT&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="AND&#xA;DIV&#xA;EQ&#xA;EQL&#xA;EXCEPT&#xA;GT&#xA;GE&#xA;INTERSECT&#xA;LT&#xA;LE&#xA;MOD&#xA;NE&#xA;NEL&#xA;NOT&#xA;OR&#xA;SUBSET&#xA;UNION&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 7" Enabled="True" Style="" Words="FALSE&#xA;NO&#xA;OFF&#xA;ON&#xA;TRUE&#xA;YES&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 8" Enabled="True" Style="" Words="AS&#xA;ANNUAL&#xA;APRIL&#xA;AUGUST&#xA;ASUNDAY&#xA;AMONDAY&#xA;ATUESDAY&#xA;AWEDNESDAY&#xA;ATHURSDAY&#xA;AFRIDAY&#xA;ASATURDAY&#xA;AUTO&#xA;BUSINESS&#xA;BIWEEKLY&#xA;BSUNDAY&#xA;BMONDAY&#xA;BTUESDAY&#xA;BWEDNESDAY&#xA;BTHURSDAY&#xA;BFRIDAY&#xA;BSATURDAY&#xA;BIMONTHLY&#xA;BY&#xA;BREAK&#xA;CIRCLE&#xA;COMPLETE&#xA;DAILY&#xA;DOT&#xA;DECEMBER&#xA;DASH&#xA;DIALOG&#xA;DMAX&#xA;DMIN&#xA;FEBURARY&#xA;FOR&#xA;FULL&#xA;HOURLY&#xA;HORIZONTAL&#xA;INDEXED&#xA;IN&#xA;INFINITY&#xA;JANUARY&#xA;JUNE&#xA;JULY&#xA;KEYBOARD&#xA;MAJOR&#xA;MONTHLY&#xA;MARCH&#xA;MAY&#xA;MINUTELY&#xA;NOVEMBER&#xA;NC&#xA;NA&#xA;ND&#xA;NEWLINE&#xA;NUMERIC&#xA;NAMELIST&#xA;N&#xA;NEGINFINITY&#xA;NOARG&#xA;NONE&#xA;NOTHING&#xA;NULL&#xA;NUMERIC&#xA;OCTOBER&#xA;PPY&#xA;PRECISION&#xA;QUARTERLY&#xA;QUOTE&#xA;SEMIANNUAL&#xA;SEPTEMBER&#xA;SECONDLY&#xA;SHARED&#xA;STARMAGICDATE&#xA;TENDAY&#xA;TWICEMONTH&#xA;TO&#xA;TRIANGLE&#xA;TERMINAL&#xA;WARNING&#xA;WEEKLY(MONDAY)&#xA;WEEKLY(TUESDAY)&#xA;WEEKLY(WEDNESDAY)&#xA;WEEKLY(THURSDAY)&#xA;WEEKLY(FRIDAY)&#xA;WEEKLY(SATURDAY)&#xA;WEEKLY(SUNDAY)&#xA;WORK&#xA;YPP&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

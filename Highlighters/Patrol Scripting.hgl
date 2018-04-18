@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Patrol Scripting" FileType="" Extensions="psl PSL" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:patrol.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^|~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="KEYWORDS" Enabled="True" Style="" Words="{&#xA;else&#xA;elsif&#xA;exit&#xA;export&#xA;foreach&#xA;function&#xA;if&#xA;last&#xA;local&#xA;main&#xA;next&#xA;requires&#xA;return&#xA;switch&#xA;while&#xA;}&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FUNCTIONS" Enabled="True" Style="" Words="acos&#xA;annotate&#xA;annotate_get&#xA;asctime&#xA;asin&#xA;atan&#xA;blackout&#xA;cat&#xA;ceil&#xA;chan_exists&#xA;change_state&#xA;close&#xA;cond_signal&#xA;cond_wait&#xA;console_type&#xA;convert_date&#xA;cos&#xA;cosh&#xA;create&#xA;date&#xA;debugger&#xA;destroy&#xA;destroy_lock&#xA;difference&#xA;event_archive&#xA;event_catalog_get&#xA;event_check&#xA;event_query&#xA;event_range_manage&#xA;event_range_query&#xA;event_report&#xA;event_schedule&#xA;event_trigger&#xA;event_trigger2&#xA;execute&#xA;exists&#xA;exp&#xA;fabs&#xA;file&#xA;floor&#xA;fmod&#xA;fopen&#xA;fseek&#xA;ftell&#xA;full_discovery&#xA;get&#xA;get_chan_info&#xA;getenv&#xA;getpid&#xA;get_ranges&#xA;get_vars&#xA;grep&#xA;history&#xA;history_get_retention&#xA;index&#xA;int&#xA;internal&#xA;intersection&#xA;in_transition&#xA;isnumber&#xA;is_var&#xA;kill&#xA;length&#xA;lines&#xA;lock&#xA;log&#xA;loge&#xA;log10&#xA;ntharg&#xA;nthargf&#xA;nthline&#xA;nthlinef&#xA;num_consoles&#xA;pconfig&#xA;popen&#xA;pow&#xA;print&#xA;printf&#xA;proc_exists&#xA;process&#xA;Pslexecute&#xA;random&#xA;read&#xA;readln&#xA;refresh_parameters&#xA;remote_close&#xA;remote_event_query&#xA;remote_event_trigger&#xA;remote_file_send&#xA;remote_open&#xA;response&#xA;response_get_value&#xA;rindex&#xA;set&#xA;share&#xA;sin&#xA;sinh&#xA;sleep&#xA;snmp_agent_config&#xA;snmp_agent_stop&#xA;snmp_close&#xA;snmp_config&#xA;_snmp_debug&#xA;snmp_get&#xA;snmp_get_next&#xA;snmp_h_get&#xA;snmp__h_get_next&#xA;snmp_h_set&#xA;snmp_open&#xA;snmp_set&#xA;snmp_trap_ignore&#xA;snmp_trap_listen&#xA;snmp_trap_raise_std_trap&#xA;snmp_trap_receive&#xA;snmp_trap_register_im&#xA;snmp_trap_send&#xA;snmp_walk&#xA;sort&#xA;sprintf&#xA;sqrt&#xA;srandom&#xA;subset&#xA;substr&#xA;system&#xA;tail&#xA;tanh&#xA;time&#xA;tmpnam&#xA;tolower&#xA;toupper&#xA;trim&#xA;union&#xA;unique&#xA;unlock&#xA;unset&#xA;va_arg&#xA;va_start&#xA;write&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

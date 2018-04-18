@@ -1,0 +1,54 @@
+<toolbar name="HTML Toolbar" highlighters="HTML(JScript+VBScript+ASP)\HTML" showcaptions="False">
+	<button name="Frame" hint="HTML Frame" image="frames.ico"><![CDATA[
+  LargeEdit.SelectedText = "<frameset>\n<frame>\n\t</frame>\n</frameset>"
+  ]]></button>
+	<button name="Table" hint="HTML Table" image="table.ico"><![CDATA[
+  LargeEdit.SelectedText = "<table>\n<tr>\n\t<td></td>\n<tr>\n</table>"
+  ]]></button>
+	<button name="Bold" hint="Bold Text" image="bold.ico"><![CDATA[
+  LargeEdit.SelectedText = "<b></b>"
+  ]]></button>
+	<button name="Italic" hint="Italic Text" image="italic.ico"><![CDATA[
+  LargeEdit.SelectedText = "<i></i>"
+  ]]></button>
+	<button name="Underline" hint="Underline Text" image="underline.ico"><![CDATA[
+  LargeEdit.SelectedText = "<u></u>"
+  ]]></button>
+	<button name="Font" hint="HTML Font" image="font.ico"><![CDATA[
+  LargeEdit.SelectedText = '<font color="#000000"></font>'
+  ]]></button>
+	<button name="LeftAlign" hint="Left Align Text" image="left.ico"><![CDATA[
+  LargeEdit.SelectedText = '<p align="left"></p>'
+  ]]></button>
+	<button name="CenterAlign" hint="Center Align Text" image="center.ico"><![CDATA[
+  LargeEdit.SelectedText = '<p align="center"></p>'
+  ]]></button>
+	<button name="RightAlign" hint="Right Align Text" image="right.ico"><![CDATA[
+  LargeEdit.SelectedText = '<p align="right"></p>'
+  ]]></button>
+	<button name="JustifyText" hint="Justify Text" image="justify.ico"><![CDATA[
+  LargeEdit.SelectedText = '<p align="justify"></p>'
+  ]]></button>
+	<button name="Indent" hint="Indent Paragraph" image="indent.ico"><![CDATA[
+  LargeEdit.SelectedText = '<p dir="ltr" style="margin-left: 20px; margin-right: 0px"></p>'
+  ]]></button>
+	<button name="Link" hint="HTML Link" image="link.ico"><![CDATA[
+  LargeEdit.SelectedText = '<a href="' + LargeEdit.SelectedText + '">' + LargeEdit.SelectedText + '</a>'
+  ]]></button>
+	<button name="List" hint="HTML List" image="list.ico"><![CDATA[
+	var items = 1
+	var outtxt = '<ul>\n';
+  items = LargeEdit.InputBox('HTML List', 'Enter the number of items:', items.toString())
+  for (var i = 0; i < items; i++) {
+    outtxt += '<li></li>\n'
+  }
+  outtxt += '</ul>';
+  LargeEdit.SelectedText = outtxt
+  ]]></button>
+	<button name="HTMLForm" hint="HTML Form" image="form.ico"><![CDATA[
+  LargeEdit.SelectedText = '<form>\n</form>'
+  ]]></button>
+	<button name="HTMLCheckbox" hint="HTML Checkbox" image="checkbox_xp.ico"><![CDATA[
+  LargeEdit.SelectedText = '<input type="checkbox" checked="true">Checkbox</input>'
+  ]]></button>
+</toolbar>

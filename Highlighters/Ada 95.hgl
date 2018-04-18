@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Ada 95" FileType="" Extensions="ADA ADB ADS A" Version="1" Revision="0" Sample=" -- make output stream unbuffered&#xA;Write (Spout, &quot;Connected&quot; &amp; Onions.OS.New_Line);&#xA;procedure Connect is&#xA;   Shutdown     : Boolean := False;&#xA;   Default_Port : constant Interfaces.C.unsigned_short := 80;&#xA;   Sperr := Open (new File_Output_Stream, Stderr);&#xA;with Ada.Command_Line;&#xA;   if Ada.Command_Line.Argument_Count = 2 then&#xA;      Host_Port := Interfaces.C.unsigned_short&#xA;                      (Integer'Value (Ada.Command_Line.Argument (2)));&#xA;   else&#xA;      Host_Port := Default_Port;&#xA;   end if;&#xA;   Set_Timeout (Spin, 300);&#xA; while not Shutdown loop&#xA;    begin&#xA;       Read (Incoming, Blist);&#xA;       Write (Spout, Blist);&#xA;    exception&#xA;       when Onions.Instreams.End_Error =&gt;&#xA;          Flush (Spout);&#xA;          Write (Sperr, &quot;Disconnected by host&quot; &amp; Onions.OS.New_Line);&#xA;          Shutdown := True;&#xA;       when Onions.Instreams.Timeout_Exceeded =&gt;&#xA;          null;&#xA;       when others =&gt;&#xA;          Shutdown := True;&#xA;          raise;&#xA;    end;&#xA; end loop;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="abort&#xA;abs&#xA;abstract&#xA;accept&#xA;access&#xA;aliased&#xA;all&#xA;and&#xA;array&#xA;at&#xA;begin&#xA;body&#xA;case&#xA;constant&#xA;declare&#xA;delay&#xA;delta&#xA;digits&#xA;do&#xA;else&#xA;elsif&#xA;end&#xA;entry&#xA;exception&#xA;exit&#xA;for&#xA;function&#xA;goto&#xA;generic&#xA;if&#xA;in&#xA;is&#xA;limited&#xA;loop&#xA;mod&#xA;new&#xA;not&#xA;null&#xA;of&#xA;or&#xA;others&#xA;&#xA;out&#xA;package&#xA;pragma&#xA;private&#xA;procedure&#xA;protected&#xA;raise&#xA;range&#xA;record&#xA;rem&#xA;renames&#xA;requeue&#xA;return&#xA;reverse&#xA;select&#xA;separate&#xA;subtype&#xA;tagged&#xA;task&#xA;terminate&#xA;then&#xA;type&#xA;until&#xA;use&#xA;when&#xA;while&#xA;with&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Types" Enabled="True" Style="" Words="boolean&#xA;integer&#xA;false&#xA;float&#xA;natural&#xA;positive&#xA;real&#xA;true&#xA;vector&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings &amp;amp;qt;..&amp;amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

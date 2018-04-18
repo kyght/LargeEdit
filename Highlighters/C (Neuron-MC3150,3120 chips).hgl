@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Neuron C (used in programming embedded Neuron (MC3150,3120) chips for distributed control applications)" FileType="" Extensions="NC H" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:neuronc.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="auto&#xA;break&#xA;case&#xA;char&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;enum&#xA;extern&#xA;float&#xA;float_type&#xA;for&#xA;goto&#xA;if&#xA;int&#xA;long&#xA;msg_tag&#xA;mtimer&#xA;network&#xA;quad&#xA;register&#xA;return&#xA;short&#xA;signed&#xA;sizeof&#xA;static&#xA;stimer&#xA;struct&#xA;switch&#xA;s32_type&#xA;typedef&#xA;union&#xA;unsigned&#xA;void&#xA;volatile&#xA;when&#xA;while&#xA;#define&#xA;#error&#xA;#include&#xA;#elif&#xA;#if&#xA;#line&#xA;#else&#xA;#ifdef&#xA;#pragma&#xA;#endif&#xA;#ifndef&#xA;#undef&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="addr_table_index&#xA;bcd2bin&#xA;bin2bcd&#xA;eeprom_memcpy&#xA;flush_completes&#xA;get_tick_count&#xA;high_byte&#xA;io_changes&#xA;io_change_init&#xA;io_in&#xA;io_in_ready&#xA;io_in_request&#xA;io_out&#xA;io_out_ready&#xA;io_out_request&#xA;io_preserve_input&#xA;io_select&#xA;io_set_clock&#xA;io_set_direction&#xA;io_update_occurs&#xA;is_bound&#xA;low_byte&#xA;make_long&#xA;msg_alloc&#xA;msg_alloc_priority&#xA;msg_cancel&#xA;msg_completes&#xA;msg_fails&#xA;msg_free&#xA;msg_receive&#xA;msg_send&#xA;msg_succeeds&#xA;nv_table_index&#xA;poll&#xA;propagate&#xA;reset&#xA;resp_alloc&#xA;resp_arrives&#xA;resp_cancel&#xA;resp_free&#xA;resp_receive&#xA;resp_send&#xA;sleep&#xA;swap_bytes&#xA;timer_expires&#xA;touch_bit&#xA;touch_byte&#xA;touch_first&#xA;touch_next&#xA;touch_reset&#xA;wink&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="ackd&#xA;activate_service_led&#xA;auth&#xA;authenticated&#xA;baud&#xA;bind&#xA;bit&#xA;bitshift&#xA;byte&#xA;clock&#xA;clockedge&#xA;config&#xA;config_data&#xA;ded&#xA;dualslope&#xA;eeprom&#xA;edgedivide&#xA;edgelog&#xA;far&#xA;fastaccess&#xA;frequency&#xA;infrared&#xA;input&#xA;input_is_new&#xA;input_value&#xA;invert&#xA;i2c&#xA;IO_0&#xA;IO_1&#xA;IO_2&#xA;IO_3&#xA;IO_4&#xA;IO_5&#xA;IO_6&#xA;IO_7&#xA;IO_8&#xA;IO_9&#xA;kbaud&#xA;leveldetect&#xA;magcard&#xA;magtrack1&#xA;master&#xA;max_rate_est&#xA;msg_arrives&#xA;msg_in&#xA;msg_out&#xA;msg_tag_index&#xA;mux&#xA;muxbus&#xA;neurowire&#xA;nibble&#xA;nonbind&#xA;nonconfig&#xA;nonpriority&#xA;numbits&#xA;nv_array_index&#xA;nv_in_addr&#xA;nv_in_index&#xA;offchip&#xA;offline&#xA;onchip&#xA;oneshot&#xA;output&#xA;parallel&#xA;period&#xA;polled&#xA;priority&#xA;pulsecount&#xA;pulsewidth&#xA;quadrature&#xA;ram&#xA;rate_est&#xA;read_only_data&#xA;read_only_data2&#xA;resp_in&#xA;resp_out&#xA;select&#xA;serial&#xA;slave&#xA;slave_b&#xA;sync&#xA;synchronized&#xA;system&#xA;totalcount&#xA;touch&#xA;triac&#xA;triggeredcount&#xA;unackd&#xA;unackd_rpt&#xA;uninit&#xA;wiegand&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="SNVT_address&#xA;SNVT_alarm&#xA;SNVT_amp&#xA;SNVT_amp_f&#xA;SNVT_amp_mil&#xA;SNVT_angle&#xA;SNVT_angle_deg&#xA;SNVT_angle_f&#xA;SNVT_angle_vel&#xA;SNVT_angle_vel_f&#xA;SNVT_area&#xA;SNVT_btu_f&#xA;SNVT_btu_kilo&#xA;SNVT_btu_mega&#xA;SNVT_char_ascii&#xA;SNVT_chlr_status&#xA;SNVT_color&#xA;SNVT_config_src&#xA;SNVT_count&#xA;SNVT_count_f&#xA;SNVT_count_inc&#xA;SNVT_count_inc_f&#xA;SNVT_currency&#xA;SNVT_date_cal&#xA;SNVT_date_day&#xA;SNVT_date_time&#xA;SNVT_defr_mode&#xA;SNVT_defr_state&#xA;SNVT_term&#xA;SNVT_density&#xA;SNVT_density_f&#xA;SNVT_earth_pos&#xA;SNVT_elapsed_tm&#xA;SNVT_elec_kwhr&#xA;SNVT_elec_whr&#xA;SNVT_elec_whr_f&#xA;SNVT_evap_state&#xA;SNVT_file_pos&#xA;SNVT_file_req&#xA;SNVT_file_status&#xA;SNVT_fire_indcte&#xA;SNVT_fire_init&#xA;SNVT_fire_test&#xA;SNVT_flow&#xA;SNVT_flow_f&#xA;SNVT_flow_mil&#xA;SNVT_freq_f&#xA;SNVT_freq_hz&#xA;SNVT_freq_kilohz&#xA;SNVT_freq_milhz&#xA;SNVT_grammage&#xA;SNVT_grammage_f&#xA;SNVT_hvac_emerg&#xA;SNVT_hvac_mode&#xA;SNVT_hvac_overid&#xA;SNVT_hvac_status&#xA;SNVT_ISO_7811&#xA;SNVT_length&#xA;SNVT_length_f&#xA;SNVT_length_kilo&#xA;SNVT_length_micr&#xA;SNVT_length_mil&#xA;SNVT_lev_cont&#xA;SNVT_lev_cont_f&#xA;SNVT_lev_disc&#xA;SNVT_lev_percent&#xA;SNVT_lux&#xA;SNVT_magcard&#xA;SNVT_mass&#xA;SNVT_mass_f&#xA;SNVT_mass_kilo&#xA;SNVT_mass_mega&#xA;SNVT_mass_mil&#xA;SNVT_muldiv&#xA;SNVT_multiplier&#xA;SNVT_obj_request&#xA;SNVT_obj_status&#xA;SNVT_occupancy&#xA;SNVT_override&#xA;SNVT_ph&#xA;SNVT_ph_f&#xA;SNVT_power&#xA;SNVT_power_f&#xA;SNVT_power_kilo&#xA;SNVT_ppm&#xA;SNVT_ppm_f&#xA;SNVT_preset&#xA;SNVT_press&#xA;SNVT_press_f&#xA;SNVT_press_p&#xA;SNVT_pwr_fact&#xA;SNVT_pwr_fact_f&#xA;SNVT_res&#xA;SNVT_res_f&#xA;SNVT_res_kilo&#xA;SNVT_rpm&#xA;SNVT_scene&#xA;SNVT_scene_cfg&#xA;SNVT_setting&#xA;SNVT_smo_ocscur&#xA;SNVT_sound_db&#xA;SNVT_sound_db_f&#xA;SNVT_speed&#xA;SNVT_speed_f&#xA;SNVT_speed_mil&#xA;SNVT_state&#xA;SNVT_str_asc&#xA;SNVT_str_int&#xA;SNVT_switch&#xA;SNVT_telcom&#xA;SNVT_temp&#xA;SNVT_temp_f&#xA;SNVT_temp_p&#xA;SNVT_temp_ror&#xA;SNVT_temp_setpt&#xA;SNVT_therm_mode&#xA;SNVT_time_f&#xA;SNVT_time_hour&#xA;SNVT_time_min&#xA;SNVT_time_passed&#xA;SNVT_time_sec&#xA;SNVT_time_stamp&#xA;SNVT_time_zone&#xA;SNVT_tod_event&#xA;SNVT_trans_table&#xA;SNVT_vol&#xA;SNVT_vol_f&#xA;SNVT_vol_kilo&#xA;SNVT_vol_mil&#xA;SNVT_volt&#xA;SNVT_volt_dbmv&#xA;SNVT_volt_f&#xA;SNVT_volt_kilo&#xA;SNVT_volt_mil&#xA;SNVT_zerospan&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="alarm_type_t&#xA;calendar_type_t&#xA;chiller_t&#xA;config_source_t&#xA;currency_t&#xA;days_of_week_t&#xA;defrost_mode_t&#xA;defrost_state_t&#xA;defrost_term_t&#xA;discrete_levels_t&#xA;emerg_t&#xA;evap_t&#xA;file_request_t&#xA;file_status_t&#xA;fire_indicator_t&#xA;fire_init_t&#xA;fire_test_t&#xA;hvac_override_t&#xA;hvac_t&#xA;interp_t&#xA;learn_mode_t&#xA;object_request_t&#xA;occup_t&#xA;override_t&#xA;priority_level_t&#xA;scene_config_t&#xA;scene_t&#xA;setting_t&#xA;telcom_states_t&#xA;therm_mode_t&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Assembler x86" FileType="" Extensions="asm" Version="1" Revision="0" Sample="; x86 assembly sample source&#xA;  CODE	SEGMENT	BYTE PUBLIC&#xA;    ASSUME	CS:CODE&#xA;    PUSH SS&#xA;    POP DS&#xA;    MOV AX, AABBh&#xA;    MOV BYTE PTR ES:[DI], 255&#xA;    JMP SHORT AsmEnd&#xA;    welcomeMsg DB 'Hello World', 0&#xA;    AsmEnd:&#xA;    MOV AX, 0&#xA;    CODE	ENDS&#xA;END&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words="aaa&#xA;aad&#xA;aam&#xA;aas&#xA;adc&#xA;add&#xA;and&#xA;arpl&#xA;bound&#xA;bsf&#xA;bsr&#xA;bswap&#xA;bt&#xA;btc&#xA;btr&#xA;bts&#xA;call&#xA;cbw&#xA;cdq&#xA;clc&#xA;cld&#xA;cli&#xA;clts&#xA;cmc&#xA;cmov&#xA;cmp&#xA;cmps&#xA;cmpsb&#xA;cmpsd&#xA;cmpsw&#xA;cmpxchg&#xA;cmpxchg8b&#xA;cpuid&#xA;cwd&#xA;cwde&#xA;daa&#xA;das&#xA;dec&#xA;div&#xA;emms&#xA;enter&#xA;esc&#xA;f2xm1&#xA;fabs&#xA;fadd&#xA;faddp&#xA;fbld&#xA;fbstp&#xA;fchs&#xA;fclex&#xA;fcmov&#xA;fcmovb&#xA;fcmovbe&#xA;fcmove&#xA;fcmovnb&#xA;fcmovnbe&#xA;fcmovne&#xA;fcmovnu&#xA;fcmovu&#xA;fcom&#xA;fcomi&#xA;fcomip&#xA;fcomp&#xA;fcompp&#xA;fcos&#xA;fdecstp&#xA;fdiv&#xA;fdivp&#xA;fdivr&#xA;fdivrp&#xA;femms&#xA;ffree&#xA;fiadd&#xA;ficom&#xA;ficomp&#xA;fidiv&#xA;fidivr&#xA;fild&#xA;fimul&#xA;fincstp&#xA;finit&#xA;fist&#xA;fistp&#xA;fisub&#xA;fisubr&#xA;fld&#xA;fld1&#xA;fldcw&#xA;fldenv&#xA;fldl2e&#xA;fldl2t&#xA;fldlg2&#xA;fldln2&#xA;fldpi&#xA;fldz&#xA;fmul&#xA;fmulp&#xA;fnclex&#xA;fninit&#xA;fnop&#xA;fnsave&#xA;fnstcw&#xA;fnstenv&#xA;fnstsw&#xA;fpatan&#xA;fprem1&#xA;fptan&#xA;frndint&#xA;frstor&#xA;fsave&#xA;fscale&#xA;fsin&#xA;fsincos&#xA;fsqrt&#xA;fst&#xA;fstcw&#xA;fstenv&#xA;fstp&#xA;fstsw&#xA;fsub&#xA;fsubp&#xA;fsubr&#xA;fsubrp&#xA;ftst&#xA;fucom&#xA;fucomi&#xA;fucomip&#xA;fucomp&#xA;fucompp&#xA;fwait&#xA;fxch&#xA;fxtract&#xA;fyl2xp1&#xA;hlt&#xA;idiv&#xA;imul&#xA;in&#xA;inc&#xA;ins&#xA;insb&#xA;insd&#xA;insw&#xA;int&#xA;into&#xA;invd&#xA;invlpg&#xA;iret&#xA;iretd&#xA;iretw&#xA;ja&#xA;jae&#xA;jb&#xA;jbe&#xA;jc&#xA;jcxz&#xA;je&#xA;jecxz&#xA;jg&#xA;jge&#xA;jl&#xA;jle&#xA;jmp&#xA;jna&#xA;jnae&#xA;jnb&#xA;jnbe&#xA;jnc&#xA;jne&#xA;jng&#xA;jnge&#xA;jnl&#xA;jnle&#xA;jno&#xA;jnp&#xA;jns&#xA;jnz&#xA;jo&#xA;jp&#xA;jpe&#xA;jpo&#xA;js&#xA;jz&#xA;lahf&#xA;lar&#xA;lds&#xA;lea&#xA;leave&#xA;les&#xA;lfs&#xA;lgdt&#xA;lgs&#xA;lidt&#xA;lldt&#xA;lmsw&#xA;lock&#xA;lods&#xA;lodsb&#xA;lodsd&#xA;lodsw&#xA;loop&#xA;loope&#xA;loopne&#xA;loopnz&#xA;loopz&#xA;lsl&#xA;lss&#xA;ltr&#xA;mov&#xA;movd&#xA;movq&#xA;movs&#xA;movsb&#xA;movsd&#xA;movsw&#xA;movsx&#xA;movzx&#xA;msw&#xA;mul&#xA;neg&#xA;nop&#xA;not&#xA;or&#xA;out&#xA;outs&#xA;outsb&#xA;outsd&#xA;outsw&#xA;packssdw&#xA;packsswb&#xA;packuswb&#xA;paddb&#xA;paddd&#xA;paddsb&#xA;paddsw&#xA;paddusb&#xA;paddusw&#xA;paddw&#xA;pand&#xA;pandn&#xA;pavgusb&#xA;pcmpeqb&#xA;pcmpeqd&#xA;pcmpeqw&#xA;pcmpgtb&#xA;pcmpgtd&#xA;pcmpgtw&#xA;pf2id&#xA;pfacc&#xA;pfadd&#xA;pfcmpeq&#xA;pfcmpge&#xA;pfcmpgt&#xA;pfmax&#xA;pfmin&#xA;pfmul&#xA;pfrcp&#xA;pfrcpit1&#xA;pfrcpit2&#xA;pfrsqit1&#xA;pfrsqrt&#xA;pfsub&#xA;pfsubr&#xA;pi2fd&#xA;pmaddwd&#xA;pmulhrw&#xA;pmulhw&#xA;pmullw&#xA;pop&#xA;popa&#xA;popad&#xA;popaw&#xA;popf&#xA;popfd&#xA;popfw&#xA;por&#xA;prefetch&#xA;prefetchw&#xA;pslld&#xA;psllq&#xA;psllw&#xA;psrad&#xA;psraw&#xA;psrld&#xA;psrlq&#xA;psrlw&#xA;psubb&#xA;psubd&#xA;psubsb&#xA;psubsw&#xA;psubusb&#xA;psubusw&#xA;psubw&#xA;punpckhbw&#xA;punpckhdq&#xA;punpckhwd&#xA;punpcklbw&#xA;punpckldq&#xA;punpcklwd&#xA;push&#xA;pusha&#xA;pushad&#xA;pushaw&#xA;pushf&#xA;pushfd&#xA;pushfw&#xA;pxor&#xA;rcl&#xA;rcr&#xA;rdmsr&#xA;rdpmc&#xA;rdtsc&#xA;rep&#xA;repe&#xA;repne&#xA;repnz&#xA;repz&#xA;ret&#xA;retf&#xA;retn&#xA;rol&#xA;ror&#xA;rsm&#xA;sahf&#xA;sal&#xA;sar&#xA;sbb&#xA;scas&#xA;scasb&#xA;scasd&#xA;scasw&#xA;seta&#xA;setae&#xA;setb&#xA;setbe&#xA;setc&#xA;sete&#xA;setg&#xA;setge&#xA;setl&#xA;setle&#xA;setna&#xA;setnae&#xA;setnb&#xA;setnbe&#xA;setnc&#xA;setne&#xA;setng&#xA;setnge&#xA;setnl&#xA;setnle&#xA;setno&#xA;setnp&#xA;setns&#xA;setnz&#xA;seto&#xA;setp&#xA;setpe&#xA;setpo&#xA;sets&#xA;setz&#xA;sgdt&#xA;shl&#xA;shld&#xA;shr&#xA;shrd&#xA;sidt&#xA;sldt&#xA;smsw&#xA;stc&#xA;std&#xA;sti&#xA;stos&#xA;stosb&#xA;stosd&#xA;stosw&#xA;str&#xA;sub&#xA;test&#xA;verr&#xA;verw&#xA;wait&#xA;wbinvd&#xA;wrmsr&#xA;xadd&#xA;xchg&#xA;xlat&#xA;xlatb&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="ah&#xA;al&#xA;ax&#xA;bh&#xA;bl&#xA;bp&#xA;bx&#xA;ch&#xA;cl&#xA;cs&#xA;cx&#xA;dh&#xA;di&#xA;dl&#xA;ds&#xA;dx&#xA;eax&#xA;ebx&#xA;ecx&#xA;edi&#xA;edx&#xA;es&#xA;esi&#xA;ip&#xA;si&#xA;sp&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words" Enabled="True" Style="" Words="align&#xA;assume&#xA;at&#xA;b&#xA;byte&#xA;comm&#xA;comment&#xA;common&#xA;compact&#xA;d&#xA;db&#xA;dd&#xA;df&#xA;dosseg&#xA;dt&#xA;dup&#xA;dw&#xA;dword&#xA;else&#xA;end&#xA;endif&#xA;endm&#xA;endp&#xA;ends&#xA;eq&#xA;equ&#xA;even&#xA;exitm&#xA;extrn&#xA;far&#xA;fq&#xA;ge&#xA;group&#xA;h&#xA;high&#xA;huge&#xA;ifdef&#xA;include&#xA;includelib&#xA;irp&#xA;irpc&#xA;label&#xA;large&#xA;le&#xA;length&#xA;local&#xA;low&#xA;lt&#xA;macro&#xA;mask&#xA;medium&#xA;memory&#xA;name&#xA;near&#xA;o&#xA;offset&#xA;org&#xA;page&#xA;para&#xA;proc&#xA;public&#xA;purge&#xA;q&#xA;record&#xA;rept&#xA;seg&#xA;segment&#xA;short&#xA;size&#xA;small&#xA;stack&#xA;struc&#xA;subttl&#xA;this&#xA;tiny&#xA;title&#xA;type&#xA;use16&#xA;use32&#xA;width&#xA;word&#xA;">
+          <Attributes Foreground="clTeal" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="." Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="@" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

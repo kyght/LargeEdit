@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Dialog Script" FileType="" Extensions="DSC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:visdialog.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;&amp;'()*+-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="@&#xA;ALT&#xA;ASC&#xA;ASK&#xA;CHR&#xA;CLICK&#xA;COUNT&#xA;CR&#xA;CTRL&#xA;CURDIR&#xA;DATETIME&#xA;DDEITEM&#xA;DIFF&#xA;DIRDLG&#xA;DIV&#xA;DLGTEXT&#xA;ENV&#xA;EQUAL&#xA;ESC&#xA;EVENT&#xA;EXT&#xA;FILEDLG&#xA;FORMAT&#xA;GREATER&#xA;HEX&#xA;INDEX&#xA;INIREAD&#xA;INPUT&#xA;ITEM&#xA;KEY&#xA;LEN&#xA;LOWER&#xA;MATCH&#xA;MCI&#xA;MSGBOX&#xA;NAME&#xA;NEXT&#xA;NOT&#xA;NULL&#xA;NUMERIC&#xA;OK&#xA;PATH&#xA;POS&#xA;PRED&#xA;PROD&#xA;QUERY&#xA;REGREAD&#xA;RETCODE&#xA;SENDMSG&#xA;SHIFT&#xA;SHORTNAME&#xA;STRDEL&#xA;STRINS&#xA;SUBSTR&#xA;SUCC&#xA;SUM&#xA;SYSINFO&#xA;TAB&#xA;TRIM&#xA;UPPER&#xA;VERINFO&#xA;VOLINFO&#xA;WINACTIVE&#xA;WINATPOINT&#xA;WINCLASS&#xA;WINDIR&#xA;WINEXISTS&#xA;WINPOS&#xA;WINTEXT&#xA;ZERO&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="BEEP&#xA;CLIPBOARD&#xA;DDE&#xA;DIALOG&#xA;DIRECTORY&#xA;EXIT&#xA;EXITWIN&#xA;EXTERNAL&#xA;ELSE&#xA;END&#xA;GOSUB&#xA;GOTO&#xA;FILE&#xA;IF&#xA;INFO&#xA;INIFILE&#xA;LINK&#xA;LIST&#xA;OPTION&#xA;PARSE&#xA;PLAY&#xA;REGISTRY&#xA;REPEAT&#xA;RUN&#xA;RUNH&#xA;RUNM&#xA;RUNZ&#xA;SHELL&#xA;STOP&#xA;TITLE&#xA;UNTIL&#xA;WAIT&#xA;WARN&#xA;WINDOW&#xA;WINHELP&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="%&#xA;%1&#xA;%2&#xA;%3&#xA;%4&#xA;%5&#xA;%6&#xA;%7&#xA;%8&#xA;%9&#xA;%0&#xA;%10&#xA;%A&#xA;%B&#xA;%C&#xA;%D&#xA;%E&#xA;%F&#xA;%G&#xA;%H&#xA;%I&#xA;%J&#xA;%K&#xA;%L&#xA;%M&#xA;%N&#xA;%O&#xA;%P&#xA;%Q&#xA;%R&#xA;%S&#xA;%T&#xA;%U&#xA;%V&#xA;%W&#xA;%X&#xA;%Y&#xA;%Z&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="APPEND&#xA;ADD&#xA;ASSIGN&#xA;ACTIVATE&#xA;CLEAR&#xA;CLEARSEL&#xA;CLOSE&#xA;CREATE&#xA;CURSOR&#xA;CHANGE&#xA;COPY&#xA;DISABLE&#xA;DELETE&#xA;DROPFILES&#xA;EXECUTE&#xA;ENABLE&#xA;ERRORTRAP&#xA;FOCUS&#xA;FILELIST&#xA;FIELDSEP&#xA;FILENAMES&#xA;HIDE&#xA;INSERT&#xA;ICONIZE&#xA;LOADFILE&#xA;LOADTEXT&#xA;MAXIMIZE&#xA;NORMAL&#xA;OPEN&#xA;ONTOP&#xA;POKE&#xA;POPUP&#xA;POWEROFF&#xA;PASTE&#xA;PUT&#xA;PRIORITY&#xA;POSITION&#xA;REBOOT&#xA;RENAME&#xA;REGKEYS&#xA;REGVALS&#xA;REGBUF&#xA;SET&#xA;SHOW&#xA;SHUTDOWN&#xA;SETDATE&#xA;SETATTR&#xA;SEEK&#xA;SAVEFILE&#xA;SCALE&#xA;SKDELAY&#xA;SLEEPTIME&#xA;SEND&#xA;SETTEXT&#xA;TERMINATE&#xA;WRITE&#xA;WINLIST&#xA;,WAIT&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="BITMAP&#xA;BUTTON&#xA;CHECK&#xA;COMBO&#xA;DLGTYPE&#xA;EDIT&#xA;PROGRESS&#xA;RADIO&#xA;STATUS&#xA;STYLE&#xA;TASKICON&#xA;TEXT&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks REM" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="REM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

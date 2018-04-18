@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQL" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sybase" Enabled="True" Style="" Words="absolute&#xA;action&#xA;add&#xA;alias&#xA;allocate&#xA;are&#xA;arith_overflow&#xA;assertion&#xA;async&#xA;authorization&#xA;avg&#xA;bit&#xA;bit_length&#xA;boolean&#xA;both,breadth&#xA;break&#xA;browse&#xA;bulk&#xA;call&#xA;cascade&#xA;cascaded&#xA;case&#xA;catalog&#xA;char&#xA;char_convert&#xA;char_length&#xA;character&#xA;character_length&#xA;checkpoint&#xA;close&#xA;clustered&#xA;coalesce&#xA;collate&#xA;collation&#xA;completion&#xA;compute&#xA;confirm&#xA;connect&#xA;connection&#xA;constraint&#xA;constraints&#xA;continue&#xA;controlrow&#xA;convert&#xA;corresponding&#xA;count&#xA;create&#xA;cross&#xA;current&#xA;current_date&#xA;current_time&#xA;current_timestamp&#xA;current_user&#xA;cursor&#xA;cycle&#xA;data&#xA;database&#xA;date&#xA;day&#xA;dbcc&#xA;deallocate&#xA;dec&#xA;decimal&#xA;declare&#xA;default&#xA;deferrable&#xA;deferred&#xA;delete&#xA;depth&#xA;desc&#xA;describe&#xA;descriptor&#xA;diagnostics&#xA;dictionary&#xA;dis&#xA;disconnect&#xA;distinct&#xA;domain&#xA;double&#xA;drop&#xA;dummy&#xA;dump&#xA;each&#xA;else&#xA;elseif&#xA;en&#xA;end&#xA;endtran&#xA;equals&#xA;errlvl&#xA;errordata&#xA;errorexit&#xA;escape&#xA;except&#xA;exception&#xA;exclusive&#xA;exec&#xA;execute&#xA;exists&#xA;exit&#xA;exp_row_size&#xA;external&#xA;extract&#xA;false&#xA;fetch&#xA;fillfactor&#xA;first&#xA;float&#xA;for&#xA;foreign&#xA;found&#xA;from&#xA;full&#xA;general&#xA;get&#xA;global&#xA;go&#xA;goto&#xA;grant&#xA;group&#xA;having&#xA;holdlock&#xA;hour&#xA;identity&#xA;identity_gap&#xA;identity_insert&#xA;identity_start&#xA;if&#xA;ignore&#xA;immediate&#xA;in&#xA;index&#xA;indicator&#xA;initially&#xA;inner&#xA;input&#xA;insensitive&#xA;insert&#xA;install&#xA;int&#xA;integer&#xA;intersect&#xA;interval&#xA;into&#xA;is&#xA;isolation&#xA;jar&#xA;join&#xA;key&#xA;kill&#xA;language&#xA;last&#xA;leading&#xA;leave&#xA;left&#xA;less&#xA;level&#xA;like&#xA;limit&#xA;lineno&#xA;load&#xA;local&#xA;lock&#xA;loop&#xA;lower&#xA;match&#xA;max&#xA;max_rows_per_page&#xA;min&#xA;minute&#xA;mirror&#xA;mirrorexit&#xA;modify&#xA;module&#xA;month&#xA;names&#xA;national&#xA;natural&#xA;nchar&#xA;new&#xA;next&#xA;no&#xA;noholdlock&#xA;nonclustered&#xA;none&#xA;not&#xA;null&#xA;nullif&#xA;numeric&#xA;numeric_truncation&#xA;object&#xA;octet_length&#xA;of&#xA;off&#xA;offsets&#xA;oid&#xA;old&#xA;on&#xA;once&#xA;online&#xA;only&#xA;open&#xA;operation&#xA;operators&#xA;option&#xA;or&#xA;order&#xA;others&#xA;outer&#xA;output&#xA;over&#xA;overlaps&#xA;pad&#xA;parameters&#xA;partial&#xA;partition&#xA;pendant&#xA;perm&#xA;permanent&#xA;plan&#xA;position&#xA;precision&#xA;preorder&#xA;prepare&#xA;preserve&#xA;primary&#xA;print&#xA;prior&#xA;private&#xA;privileges&#xA;proc&#xA;procedure&#xA;processexit&#xA;protected&#xA;proxy_table&#xA;public&#xA;quiesce&#xA;raiserror&#xA;read&#xA;readpast&#xA;readtext&#xA;real&#xA;reconfigure&#xA;recursive&#xA;ref&#xA;reference&#xA;referencing&#xA;relative&#xA;remove&#xA;reorg&#xA;replace&#xA;replication&#xA;reservepagegap&#xA;resignal&#xA;restrict&#xA;return&#xA;returns&#xA;revoke&#xA;right&#xA;role&#xA;rollback&#xA;routine&#xA;row&#xA;rowcount&#xA;rows&#xA;rule&#xA;save&#xA;savepoint&#xA;schema&#xA;scroll&#xA;search&#xA;second&#xA;section&#xA;select&#xA;sensitive&#xA;sequence&#xA;session_user&#xA;set&#xA;setuser&#xA;shared&#xA;shutdown&#xA;signal&#xA;similar&#xA;size&#xA;smallint&#xA;some&#xA;space&#xA;sql&#xA;sqlcode&#xA;sqlerror&#xA;sqlexception&#xA;sqlstate&#xA;statistics&#xA;stripe&#xA;structure&#xA;substring&#xA;sum&#xA;syb_identity&#xA;syb_restree&#xA;system_user&#xA;table&#xA;temp&#xA;temporary&#xA;test&#xA;textsize&#xA;then&#xA;there&#xA;time&#xA;timestamp&#xA;timezone_hour&#xA;timezone_minute&#xA;to&#xA;trailing&#xA;tran&#xA;transaction&#xA;translate&#xA;translation&#xA;trigger&#xA;trim&#xA;true&#xA;truncate&#xA;tsequal&#xA;type&#xA;under&#xA;union&#xA;unique&#xA;unknown&#xA;unpartition&#xA;update&#xA;upper&#xA;usage&#xA;use&#xA;user&#xA;user_option&#xA;using&#xA;value&#xA;values&#xA;varchar&#xA;variable&#xA;varying&#xA;view&#xA;virtual&#xA;visible&#xA;wait&#xA;waitfor&#xA;when&#xA;whenever&#xA;where&#xA;while&#xA;with&#xA;without&#xA;work&#xA;write&#xA;writetext&#xA;year&#xA;zone&#xA;activation&#xA;consumers&#xA;disk&#xA;membership&#xA;numeric_transaction&#xA;references&#xA;session&#xA;passwd&#xA;proxy&#xA;both&#xA;varbinary&#xA;breadth&#xA;abs&#xA;acos&#xA;ascii&#xA;asin&#xA;atan&#xA;atn2&#xA;charindex&#xA;ceiling&#xA;col_length&#xA;col_name&#xA;cot&#xA;cos&#xA;curunreservedpgs&#xA;difference&#xA;degrees&#xA;db_name&#xA;db_id&#xA;datepart&#xA;datename&#xA;datediff&#xA;dateadd&#xA;datalength&#xA;data_pgs&#xA;exp&#xA;floor&#xA;getdate&#xA;host_id&#xA;host_name&#xA;index_col&#xA;isnull&#xA;is_sec_service_on&#xA;log10&#xA;lct_admin&#xA;log&#xA;ltrim&#xA;mut_excl_roles&#xA;object_id&#xA;object_name&#xA;pi&#xA;power&#xA;patindex&#xA;radians&#xA;rand&#xA;replicate&#xA;proc_role&#xA;ptn_data_pgs&#xA;reserved_pgs&#xA;reverse&#xA;role_contain&#xA;role_id&#xA;role_name&#xA;round&#xA;rowcnt&#xA;rtrim&#xA;suser_name&#xA;suser_id&#xA;stuff&#xA;str&#xA;sqrt&#xA;soundex&#xA;sin&#xA;sign&#xA;show_sec_services&#xA;user&#xA;user_id&#xA;textvalid&#xA;textptr&#xA;show_role&#xA;tan&#xA;used_pgs&#xA;user_name&#xA;valid_user&#xA;valid_name&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="System Objects" Enabled="True" Style="" Words="dbo&#xA;master&#xA;model&#xA;tempdb&#xA;sysalternates&#xA;sysattributes&#xA;syscharsets&#xA;syscolumns&#xA;syscomments&#xA;sysconfigures&#xA;sysconstraints&#xA;syscurconfigs&#xA;sysdatabases&#xA;sysdepends&#xA;syslogins&#xA;sysloginroles&#xA;sysprocesses&#xA;sysprotects&#xA;syssrvroles&#xA;sysservers&#xA;sysusermessages&#xA;sysusers&#xA;sybsystemprocs&#xA;sysstatistics&#xA;systestlog&#xA;sysmessages&#xA;syslogshold&#xA;syslogs&#xA;sysdevices&#xA;sysreferences&#xA;sysremotelogins&#xA;systabstats&#xA;sysengines&#xA;sysgams&#xA;sysmonitors&#xA;syspartitions&#xA;sysroles&#xA;sysresourcelimits&#xA;sysobjects&#xA;syskeys&#xA;sysindexes&#xA;syslanguages&#xA;syslocks&#xA;syslisteners&#xA;sysprocedures&#xA;syssegments&#xA;sysusages&#xA;systypes&#xA;syssecmechs&#xA;systimeranges&#xA;systhresholds&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Parameters" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Stored Procedures" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="sp_"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Global Variables" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

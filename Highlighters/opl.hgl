@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="OPL" FileType="" Extensions="opl o32" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:opl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abs&#xA;acos&#xA;addr&#xA;adjustalloc&#xA;alert&#xA;alloc&#xA;and&#xA;app&#xA;append&#xA;asc&#xA;asin&#xA;at&#xA;atan&#xA;back&#xA;beep&#xA;begintrans&#xA;bookmark&#xA;break&#xA;busy&#xA;cancel&#xA;caption&#xA;chr$&#xA;clearflags&#xA;cls&#xA;close&#xA;cmd$&#xA;committrans&#xA;compact&#xA;compress&#xA;const&#xA;continue&#xA;copy&#xA;count&#xA;cos&#xA;create&#xA;cursor&#xA;daystodate&#xA;datetosecs&#xA;datim$&#xA;day&#xA;dayname$&#xA;days&#xA;dButtons&#xA;dCheckbox&#xA;dChoice&#xA;dDate&#xA;declare&#xA;dEdit&#xA;dEditmulti&#xA;defaultwin&#xA;deg&#xA;delete&#xA;dFile&#xA;dFloat&#xA;dialog&#xA;dInit&#xA;dir$&#xA;dLong&#xA;do&#xA;dow&#xA;dPosition&#xA;dText&#xA;dTime&#xA;dXinput&#xA;else&#xA;elseif&#xA;enda&#xA;endif&#xA;endv&#xA;endp&#xA;endwh&#xA;eof&#xA;erase&#xA;err&#xA;err$&#xA;errx$&#xA;escape&#xA;eval&#xA;exist&#xA;exp&#xA;ext&#xA;external&#xA;find&#xA;findfield&#xA;first&#xA;fix$&#xA;flags&#xA;flt&#xA;font&#xA;freealloc&#xA;gAt&#xA;gBorder&#xA;gBox&#xA;gButton&#xA;gCircle&#xA;gClock&#xA;gClose&#xA;gCls&#xA;gColor&#xA;gCopy&#xA;gCreate&#xA;gCreatebit&#xA;gEllipse&#xA;gen$&#xA;get&#xA;get$&#xA;getcmd$&#xA;getdoc$&#xA;getevent&#xA;getevent32&#xA;geteventa32&#xA;geteventc&#xA;gFill&#xA;gFont&#xA;gGmode&#xA;gGrey&#xA;gHeight&#xA;gIdentity&#xA;gInfo32&#xA;gInvert&#xA;giprint&#xA;gLoadbit&#xA;gLoadfont&#xA;gLineby&#xA;gLineto&#xA;global&#xA;gMove&#xA;gOrder&#xA;gOriginx&#xA;gOriginY&#xA;goto&#xA;gotomark&#xA;gPatt&#xA;gPeekline&#xA;gPoly&#xA;gPrint&#xA;gPrintb&#xA;gPrintclip&#xA;gRank&#xA;gSavebit&#xA;gScroll&#xA;gSetpenwidth&#xA;gSetwin&#xA;gStyle&#xA;gTmode&#xA;gTwidth&#xA;gUnloadfont&#xA;gUpdate&#xA;gUse&#xA;gVisible&#xA;gWidth&#xA;gX&#xA;gXborder&#xA;gXprint&#xA;gY&#xA;hex$&#xA;hour&#xA;iabs&#xA;icon&#xA;if&#xA;include&#xA;input&#xA;insert&#xA;int&#xA;intf&#xA;intrans&#xA;ioa&#xA;ioc&#xA;iocancel&#xA;ioopen&#xA;ioclose&#xA;ioread&#xA;ioseek&#xA;iosignal&#xA;iow&#xA;iowait&#xA;iowaitstat&#xA;iowaitstat32&#xA;iowrite&#xA;ioyield&#xA;key&#xA;keya&#xA;keyc&#xA;key$&#xA;killmark&#xA;kmod&#xA;last&#xA;lclose&#xA;left$&#xA;len&#xA;lenalloc&#xA;ln&#xA;loadm&#xA;loc&#xA;local&#xA;lock&#xA;log&#xA;lopen&#xA;lower$&#xA;lprint&#xA;max&#xA;mCard&#xA;mCasc&#xA;mean&#xA;menu&#xA;mid$&#xA;min&#xA;mInit&#xA;minute&#xA;mkdir&#xA;modify&#xA;month&#xA;month$&#xA;mPopup&#xA;next&#xA;not&#xA;num$&#xA;off&#xA;on&#xA;onerr&#xA;onerr&#xA;open&#xA;openr&#xA;or&#xA;parse$&#xA;path&#xA;pause&#xA;peek&#xA;pi&#xA;pointerfilter&#xA;poke&#xA;pos&#xA;position&#xA;print&#xA;proc&#xA;put&#xA;raise&#xA;rad&#xA;randomize&#xA;realloc&#xA;recsize&#xA;rename&#xA;rept$&#xA;return&#xA;right$&#xA;rmdir&#xA;rnd&#xA;rollback&#xA;sci$&#xA;screen&#xA;screeninfo&#xA;second&#xA;secstodate&#xA;setdoc&#xA;setflags&#xA;setpath&#xA;sin&#xA;space&#xA;sqr&#xA;std&#xA;stop&#xA;style&#xA;sum&#xA;tan&#xA;testevent&#xA;trap&#xA;type&#xA;uadd&#xA;unloadm&#xA;until&#xA;update&#xA;upper$&#xA;use&#xA;usub&#xA;val&#xA;var&#xA;vector&#xA;week&#xA;while&#xA;year&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="backlighton&amp;&#xA;backupbatterystatus&amp;&#xA;bitmapdisplaymode&amp;&#xA;bitmapload&amp;&#xA;bitmapunload&#xA;cancelcapturekey&#xA;capturekey&amp;&#xA;checkuid$&#xA;claimpointergrab&#xA;createfiledialog$&#xA;DBaddfield&#xA;DBaddfieldtrunc&#xA;DBcreateindex&#xA;DBdeletekey&#xA;DBdropindex&#xA;DBgetfieldcount&amp;&#xA;DBgetfieldname$&#xA;DBgetfieldtype&amp;&#xA;DBisdamaged&amp;&#xA;DBisunique&amp;&#xA;DBmakeunique&#xA;DBnewkey&amp;&#xA;DBrecover&#xA;DBsetcomparison&#xA;DTdatetimediff&#xA;DTday&amp;&#xA;DTdaynoinweek&amp;&#xA;DTdaysdiff&amp;&#xA;DTdaysinmonth&amp;&#xA;DTdeletedatetime&#xA;DThour&amp;&#xA;DThoursdiff&amp;&#xA;DTmicro&amp;&#xA;DTmicrosdiff&amp;&#xA;DTminute&amp;&#xA;DTminutesdiff&amp;&#xA;DTmonth&amp;&#xA;DTmonthsdiff&amp;&#xA;DTnewdatetime&amp;&#xA;DTnow&amp;&#xA;DTsecond&amp;&#xA;DTsecondsdiff&amp;&#xA;DTsetday&amp;&#xA;DTsethometime&#xA;DTsethour&amp;&#xA;DTsetmicro&amp;&#xA;DTsetminute&amp;&#xA;DTsetmonth&amp;&#xA;DTsetsecond&amp;&#xA;DTsetyear&amp;&#xA;DTweeknoinyear&amp;&#xA;DTyear&amp;&#xA;DTyearsdiff&amp;&#xA;displaytasklist&#xA;endtask&amp;&#xA;false%&#xA;getfiletime&#xA;getnextwindowgroupname$&#xA;getnextwindowid&amp;&#xA;getthreadidfromappuid&amp;&#xA;getthreadidfromopendoc&amp;&#xA;initialiseparaformat&#xA;insertbitmap&#xA;insertnewpara&#xA;insertscaledbitmap&#xA;insertspecialchar&#xA;insertstring&#xA;irdaconnecttoreceive&#xA;irdaconnecttosend&amp;&#xA;irdadisconnect&#xA;irdaread$&#xA;irdareada&#xA;irdawaitfordisconnect&#xA;irdawrite&#xA;isbacklightpresent&amp;&#xA;insystem&amp;&#xA;ishidden&amp;&#xA;isreadonly&amp;&#xA;killcurrentprocess&#xA;killprocess&#xA;killtask&amp;&#xA;LCclockformat&amp;&#xA;LCcountrycode&amp;&#xA;LCdecimalseparator$&#xA;LCsetclockformat&#xA;LCstartofweek&amp;&#xA;LCthousandsseparator$&#xA;loadrsc&amp;&#xA;logontothread&#xA;machinename$&#xA;machineuniqueid&#xA;mainbatterystatus&amp;&#xA;maxdisplaycontrast&amp;&#xA;mediatype&amp;&#xA;mod&amp;&#xA;openfiledialog$&#xA;pagesetupdialog&#xA;playsound&#xA;playsounda&#xA;printdialog&#xA;printerdoclength&amp;&#xA;printpreviewdialog&#xA;printrangedialog&#xA;readrsc$&#xA;readrsclong&amp;&#xA;removespecificcharformat&#xA;removespecificparaformat&#xA;resetautoswitchofftimer&#xA;resetprinting&#xA;runapp&amp;&#xA;runexe&amp;&#xA;saveasfiledialog$&#xA;sendbitmaptoprinter&#xA;sendbuffertoprinter&#xA;sendscaledbitmaptoprinter&#xA;sendnewparatoprinter&#xA;sendrichtexttoprinter&#xA;sendspecialchartoprinter&#xA;sendstringtoprinter&#xA;setactive&#xA;setautoswitchoffbehavior&#xA;setautoswitchofftime&#xA;setalignment&#xA;setbackground&#xA;setbackgroundbythread&amp;&#xA;setbacklighton&#xA;setbacklightbehavior&#xA;setbacklightontime&#xA;setcomputemode&#xA;setdisplaycontrast&#xA;setfiletime&#xA;setfontheight&#xA;setfontname&#xA;setfontposition&#xA;setfontposture&#xA;setfontstrikethrough&#xA;setfontunderline&#xA;setfontweight&#xA;setforeground&#xA;setforegroundbythread&amp;&#xA;setglobalcharformat&#xA;setglobalparaformat&#xA;sethiddenfile&#xA;setkeyclickenabled&#xA;setlocalparaformat&#xA;setpointercapture&#xA;setpointerclickenabled&#xA;setpointergrabon&#xA;setreadonly&#xA;setsounddriverenabled&#xA;setsoundenabled&#xA;setsystemfile&#xA;spriteappend&#xA;spritechange&#xA;spritedelete&#xA;spritecreate&amp;&#xA;spritedraw&#xA;spritepos&#xA;spriteuse&#xA;stopsound&amp;&#xA;switchoff&#xA;tbarbutt&#xA;tbarhide&#xA;tbarinit&#xA;tbarlatch&#xA;tbarlink&#xA;tbaroffer%&#xA;tbarsettitle&#xA;tbarshow&#xA;terminatecurrentprocess&#xA;terminateprocess&#xA;true%&#xA;unloadrsc&#xA;volumesize&amp;&#xA;volumespacefree&amp;&#xA;volumeuniqueid&amp;&#xA;xo&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks rem" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="rem"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

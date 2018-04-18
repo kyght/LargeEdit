@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ASM for 6502" FileType="" Extensions="S ASM LST" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asm6502.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;#$%'()+,;"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="adc&#xA;and&#xA;asl&#xA;bcc&#xA;bcs&#xA;beq&#xA;bit&#xA;bmi&#xA;bne&#xA;bpl&#xA;bra&#xA;brk&#xA;bvc&#xA;bvs&#xA;clc&#xA;cld&#xA;cli&#xA;clv&#xA;cmp&#xA;cpx&#xA;cpy&#xA;dec&#xA;dex&#xA;dey&#xA;eor&#xA;inc&#xA;inx&#xA;iny&#xA;jmp&#xA;jsr&#xA;lda&#xA;ldx&#xA;ldy&#xA;lsr&#xA;nop&#xA;ora&#xA;pha&#xA;php&#xA;phx&#xA;phy&#xA;pla&#xA;plp&#xA;plx&#xA;ply&#xA;rol&#xA;ror&#xA;rti&#xA;rts&#xA;sbc&#xA;sec&#xA;sed&#xA;sei&#xA;sta&#xA;stx&#xA;sty&#xA;stz&#xA;tax&#xA;tay&#xA;tsx&#xA;txa&#xA;txs&#xA;tya&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Registers" Enabled="True" Style="" Words="a&#xA;x&#xA;y&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SFR-Bits" Enabled="True" Style="" Words="c&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiter/Operator" Enabled="True" Style="" Words="#&#xA;$&#xA;%&#xA;(&#xA;)&#xA;,&#xA;;&#xA;+&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="absolute&#xA;byte&#xA;db&#xA;drives&#xA;ds&#xA;dw&#xA;end&#xA;equ&#xA;list&#xA;mod32&#xA;off&#xA;on&#xA;org&#xA;title&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

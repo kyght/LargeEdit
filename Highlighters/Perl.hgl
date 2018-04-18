@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Perl" FileType="" Extensions="" Version="1" Revision="0" Sample="#!/bin/perl&#xA;require &quot;cgi-lib.pl&quot;;&#xA;use sigtrap;&#xA;do 'envars.pl';&#xA;$_ = $password1;&#xA;sub WriteBack {&#xA;        while ($_ ne &quot;fred&quot;)    {&#xA;                sleep 5;&#xA;        }&#xA;}&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="hex&#xA;rindex&#xA;stat&#xA;accept&#xA;exists&#xA;while&#xA;xor&#xA;warn&#xA;eof&#xA;join&#xA;msgrcv&#xA;if&#xA;rmdir&#xA;endhostent&#xA;setsockopt&#xA;CHECK&#xA;for&#xA;chroot&#xA;bless&#xA;ord&#xA;return&#xA;link&#xA;FETCHSIZE&#xA;study&#xA;no&#xA;kill&#xA;getsockopt&#xA;closedir&#xA;semget&#xA;ge&#xA;lc&#xA;CLOSE&#xA;undef&#xA;VERSION&#xA;PRINT&#xA;next&#xA;strict&#xA;STORESIZE&#xA;dbmclose&#xA;getservbyname&#xA;tell&#xA;telldir&#xA;import&#xA;setnetent&#xA;STDERR&#xA;untie&#xA;waitpid&#xA;getpwuid&#xA;splice&#xA;getpeername&#xA;getservbyport&#xA;gethostbyaddr&#xA;socketpair&#xA;reverse&#xA;truncate&#xA;gethostbyname&#xA;charnames&#xA;rand&#xA;atan2&#xA;gmtime&#xA;crypt&#xA;endpwent&#xA;pipe&#xA;eq&#xA;semop&#xA;getprotoent&#xA;GETC&#xA;package&#xA;sigtrap&#xA;index&#xA;getprotobynumber&#xA;sin&#xA;each&#xA;PUSH&#xA;quotemeta&#xA;msgsnd&#xA;BEGIN&#xA;endprotoent&#xA;WRITE&#xA;local&#xA;time&#xA;semctl&#xA;redo&#xA;fileno&#xA;scalar&#xA;getnetbyaddr&#xA;getnetbyname&#xA;overload&#xA;chr&#xA;oct&#xA;wait&#xA;or&#xA;lstat&#xA;endservent&#xA;setprotoent&#xA;cos&#xA;printf&#xA;shift&#xA;setgrent&#xA;eval&#xA;ucfirst&#xA;chdir&#xA;elsif&#xA;dump&#xA;sqrt&#xA;bind&#xA;defined&#xA;rename&#xA;END&#xA;unlink&#xA;last&#xA;use&#xA;map&#xA;syswrite&#xA;umask&#xA;format&#xA;log&#xA;sort&#xA;POP&#xA;getpgrp&#xA;autouse&#xA;fcntl&#xA;goto&#xA;listen&#xA;else&#xA;getgrnam&#xA;continue&#xA;readdir&#xA;getc&#xA;split&#xA;recv&#xA;system&#xA;isa&#xA;EXTEND&#xA;DELETE&#xA;seekdir&#xA;gt&#xA;push&#xA;getpwent&#xA;pos&#xA;utime&#xA;STDOUT&#xA;open&#xA;uc&#xA;send&#xA;setpwent&#xA;srand&#xA;symlink&#xA;setservent&#xA;delete&#xA;values&#xA;substr&#xA;unless&#xA;readlink&#xA;READ&#xA;getpwnam&#xA;PRINTF&#xA;new&#xA;SHIFT&#xA;keys&#xA;shmwrite&#xA;reset&#xA;lcfirst&#xA;rewinddir&#xA;Exporter&#xA;exec&#xA;fork&#xA;getgrent&#xA;vec&#xA;can&#xA;lt&#xA;syscall&#xA;binmode&#xA;getsockname&#xA;wantarray&#xA;ops&#xA;glob&#xA;sub&#xA;getservent&#xA;FIRSTKEY&#xA;shmctl&#xA;chown&#xA;TIEHASH&#xA;TIESCALAR&#xA;constant&#xA;msgget&#xA;READLINE&#xA;flock&#xA;length&#xA;alarm&#xA;ioctl&#xA;FETCH&#xA;socket&#xA;exit&#xA;subs&#xA;pack&#xA;read&#xA;grep&#xA;opendir&#xA;DATA&#xA;write&#xA;caller&#xA;formline&#xA;sprintf&#xA;SPLICE&#xA;vmsish&#xA;die&#xA;ne&#xA;integer&#xA;blib&#xA;chmod&#xA;mkdir&#xA;sleep&#xA;getprotobyname&#xA;endnetent&#xA;getgrgid&#xA;cmp&#xA;unpack&#xA;STORE&#xA;fields&#xA;TIEARRAY&#xA;UNSHIFT&#xA;INIT&#xA;vars&#xA;print&#xA;CLEAR&#xA;close&#xA;abs&#xA;endgrent&#xA;localtime&#xA;foreach&#xA;tie&#xA;sethostent&#xA;times&#xA;getppid&#xA;do&#xA;require&#xA;chop&#xA;getnetent&#xA;dbmopen&#xA;DESTROY&#xA;TIEHANDLE&#xA;base&#xA;shmread&#xA;setpgrp&#xA;chomp&#xA;diagnostics&#xA;getpriority&#xA;NEXTKEY&#xA;pop&#xA;connect&#xA;msgctl&#xA;ref&#xA;int&#xA;AUTOLOAD&#xA;unshift&#xA;shmget&#xA;locale&#xA;shutdown&#xA;less&#xA;EXISTS&#xA;gethostent&#xA;le&#xA;seek&#xA;sysread&#xA;not&#xA;and&#xA;my&#xA;exp&#xA;select&#xA;setpriority&#xA;STDIN&#xA;getlogin&#xA;-A&#xA;-B&#xA;-C&#xA;-M&#xA;-O&#xA;-R&#xA;-S&#xA;-T&#xA;-W&#xA;-X&#xA;-b&#xA;-c&#xA;-d&#xA;-e&#xA;-f&#xA;-g&#xA;-k&#xA;-l&#xA;-o&#xA;-p&#xA;-r&#xA;-s&#xA;-t&#xA;-u&#xA;-w&#xA;-x&#xA;-z&#xA;__DATA__&#xA;__END__&#xA;__FILE__&#xA;__LINE__&#xA;our&#xA;until&#xA;getgrname&#xA;readline&#xA;semgett&#xA;tied&#xA;CORE&#xA;m&#xA;q&#xA;qq&#xA;qw&#xA;qx&#xA;SUPER&#xA;s&#xA;tr&#xA;UNIVERSAL&#xA;x&#xA;y&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Var" Enabled="True" Style="" Words="ARG&#xA;ERRNO&#xA;FORMAT_LINE_BREAK_CHARACTERS&#xA;GID&#xA;OFS&#xA;MULTILINE_MATCHING&#xA;FORMAT_NAME&#xA;UID&#xA;PID&#xA;EXECUTABLE_NAME&#xA;INPUT_RECORD_SEPARATOR&#xA;COMPILING&#xA;EXTENDED_OS_ERROR&#xA;MATCH&#xA;SUBSCRIPT_SEPARATOR&#xA;POSTMATCH&#xA;INPUT_LINE_NUMBER&#xA;EFFECTIVE_GROUP_ID&#xA;FORMAT_LINES_PER_PAGE&#xA;OUTPUT_FIELD_SEPARATOR&#xA;ARGV&#xA;OS_ERROR&#xA;OUTPUT_AUTOFLUSH&#xA;DEBUGGING&#xA;RS&#xA;PROGRAM_NAME&#xA;PERLDB&#xA;EGID&#xA;OUTPUT_RECORD_SEPARATOR&#xA;EVAL_ERROR&#xA;REAL_USER_ID&#xA;PERL_VERSION&#xA;EUID&#xA;REAL_GROUP_ID&#xA;OFMT&#xA;SYSTEM_FD_MAX&#xA;PROCESS_ID&#xA;FORMAT_TOP_NAME&#xA;LIST_SEPARATOR&#xA;LAST_PAREN_MATCH&#xA;FORMAT_FORMFEED&#xA;FORMAT_LINES_LEFT&#xA;SUBSEP&#xA;ACCUMULATOR&#xA;OSNAME&#xA;FORMAT_PAGE_NUMBER&#xA;INPLACE_EDITORS&#xA;WARNING&#xA;NR&#xA;BASETIME&#xA;CHILD_ERROR&#xA;PREMATCH&#xA;EFFECTIVE_USER_ID&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Params" Enabled="True" Style="" Words="">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="@" Enabled="True" Style="" Words="$@&#xA;@&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

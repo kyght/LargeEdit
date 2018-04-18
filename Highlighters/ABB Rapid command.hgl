@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ABB Rapid command" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="AccSet&#xA;DOutput&#xA;ERROR&#xA;GInput&#xA;GripLoad&#xA;MoveAbsJ&#xA;MoveC&#xA;MoveJ&#xA;MoveJDO&#xA;MoveL&#xA;MoveLDO&#xA;MotionSup&#xA;OpMode&#xA;PDispOff PDispOn PulseDO&#xA;Reset&#xA;SearchL &#xA;Set &#xA;SetGO &#xA;SpotL &#xA;SpotL_P1 &#xA;SpotL_Z1 &#xA;SpotL_Z2&#xA;TPErase &#xA;TPReadFK &#xA;TPWrite &#xA;TPWriteP1 &#xA;TriggIO &#xA;TriggJ &#xA;TriggL&#xA;WaitTime &#xA;WaitUntil&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Types" Enabled="True" Style="" Words="bool&#xA;Color4&#xA;errnum&#xA;extjoint&#xA;jointtarget&#xA;loaddata&#xA;num&#xA;robjoint &#xA;robtarget&#xA;string&#xA;tooldata &#xA;triggdata&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="EXIT&#xA;GOTO&#xA;RETURN RETRY&#xA;Stop&#xA;TRYNEXT&#xA;AND&#xA;CASE &#xA;CONST&#xA;DEFAULT &#xA;DO&#xA;ELSE &#xA;ELSEIF &#xA;ENDFOR &#xA;ENDIF &#xA;ENDMODULE &#xA;ENDPROC &#xA;ENDTEST&#xA;ENDWHILE&#xA;FOR &#xA;FROM&#xA;IF&#xA;MODULE&#xA;OR&#xA;PERS &#xA;PROC&#xA;TEST &#xA;THEN &#xA;TO&#xA;VAR&#xA;WHILE&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SQL" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MS SQL 2000 " Enabled="True" Style="" Words="ADD&#xA;ALL&#xA;ALTER&#xA;AND&#xA;ANY&#xA;AS&#xA;ASC&#xA;AUTHORIZATION&#xA;BACKUP&#xA;BEGIN&#xA;BETWEEN&#xA;BREAK&#xA;BROWSE&#xA;BULK&#xA;BY&#xA;CASCADE&#xA;CASE&#xA;CHECK&#xA;CHECKPOINT&#xA;CLOSE&#xA;CLUSTERED&#xA;COLLATE&#xA;COLUMN&#xA;COMMIT&#xA;COMPUTE&#xA;CONSTRAINT&#xA;CONTAINS&#xA;CONTAINSTABLE&#xA;CONTINUE&#xA;CREATE&#xA;CROSS&#xA;CURRENT&#xA;CURSOR&#xA;DATABASE&#xA;DBCC&#xA;DEALLOCATE&#xA;DECLARE&#xA;DEFAULT&#xA;DELETE&#xA;DENY&#xA;DESC&#xA;DISK&#xA;DISTINCT&#xA;DISTRIBUTED&#xA;DOUBLE&#xA;DROP&#xA;DUMMY&#xA;DUMP&#xA;ELSE&#xA;END&#xA;ERRLVL&#xA;ESCAPE&#xA;EXCEPT&#xA;EXEC&#xA;EXECUTE&#xA;EXISTS&#xA;EXIT&#xA;FETCH&#xA;FILE&#xA;FILLFACTOR&#xA;FOR&#xA;FOREIGN&#xA;FORMSOF&#xA;FREETEXT&#xA;FREETEXTTABLE&#xA;FROM&#xA;FULL&#xA;FUNCTION&#xA;GOTO&#xA;GRANT&#xA;GROUP&#xA;HAVING&#xA;HOLDLOCK&#xA;IDENTITY&#xA;IDENTITYCOL&#xA;IDENTITY_INSERT&#xA;IF&#xA;IN&#xA;INFLECTIONAL&#xA;INDEX&#xA;INNER&#xA;INSERT&#xA;INTERSECT&#xA;INTO&#xA;IS&#xA;ISABOUT&#xA;JOIN&#xA;KEY&#xA;KILL&#xA;LEFT&#xA;LIKE&#xA;LINENO&#xA;LOAD&#xA;NATIONAL&#xA;NOCHECK&#xA;NONCLUSTERED&#xA;NOT&#xA;NULL&#xA;NULLIF&#xA;OF&#xA;OFF&#xA;OFFSETS&#xA;ON&#xA;OPEN&#xA;OPENDATASOURCE&#xA;OPENQUERY&#xA;OPENROWSET&#xA;OPENXML&#xA;OPTION&#xA;OR&#xA;ORDER&#xA;OUTER&#xA;OVER&#xA;PERCENT&#xA;PLAN&#xA;PRECISION&#xA;PRIMARY&#xA;PRINT&#xA;PROC&#xA;PROCEDURE&#xA;PUBLIC&#xA;RAISERROR&#xA;READ&#xA;READTEXT&#xA;RECONFIGURE&#xA;REFERENCES&#xA;REPLICATION&#xA;RESTORE&#xA;RESTRICT&#xA;RETURN&#xA;REVOKE&#xA;RIGHT&#xA;ROLLBACK&#xA;ROWCOUNT&#xA;ROWGUIDCOL&#xA;RULE&#xA;SAVE&#xA;SCHEMA&#xA;SELECT&#xA;SESSION_USER&#xA;SET&#xA;SETUSER&#xA;SHUTDOWN&#xA;SOME&#xA;STATISTICS&#xA;TABLE&#xA;TEXTSIZE&#xA;THEN&#xA;TO&#xA;TOP&#xA;TRAN&#xA;TRANSACTION&#xA;TRIGGER&#xA;TRUNCATE&#xA;TSEQUAL&#xA;UNION&#xA;UNIQUE&#xA;UPDATE&#xA;UPDATETEXT&#xA;USE&#xA;USER&#xA;VALUES&#xA;VARYING&#xA;VIEW&#xA;WAITFOR&#xA;WEIGHT&#xA;WHEN&#xA;WHERE&#xA;WHILE&#xA;WITH&#xA;WRITETEXT&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MS SQL 2000 Functions" Enabled="True" Style="" Words="ABS&#xA;ACOS&#xA;APP_NAME&#xA;ASCII&#xA;ASIN&#xA;ATAN&#xA;ATN2&#xA;AVG&#xA;BINARY_CHECKSUM&#xA;CAST&#xA;CEILING&#xA;CHARINDEX&#xA;CHECKSUM&#xA;CHECKSUM_AGG&#xA;COALESCE&#xA;COLLATIONPROPERTY&#xA;COLUMNPROPERTY&#xA;COL_LENGTH&#xA;COL_NAME&#xA;CONVERT&#xA;COS&#xA;COT&#xA;COUNT&#xA;COUNT_BIG&#xA;CURRENT_DATE&#xA;CURRENT_TIME&#xA;CURRENT_TIMESTAMP&#xA;CURRENT_USER&#xA;CURSOR_STATUS&#xA;DATABASEPROPERTY&#xA;DATABASEPROPERTYEX&#xA;DATALENGTH&#xA;DATEADD&#xA;DATEDIFF&#xA;DATENAME&#xA;DATEPART&#xA;DAY&#xA;DB_ID&#xA;DB_NAME&#xA;DEGREES&#xA;DIFFERENCE&#xA;EXP&#xA;FILEGROUPPROPERTY&#xA;FILEGROUP_ID&#xA;FILEGROUP_NAME&#xA;FILEPROPERTY&#xA;FILE_ID&#xA;FILE_NAME&#xA;FLOOR&#xA;fn_helpcollations&#xA;fn_listextendedproperty&#xA;fn_servershareddrives&#xA;fn_trace_geteventinfo&#xA;fn_trace_getfilterinfo&#xA;fn_trace_getinfo&#xA;fn_trace_gettable&#xA;fn_virtualfilestats&#xA;FORMATMESSAGE&#xA;FULLTEXTCATALOGPROPERTY&#xA;FULLTEXTSERVICEPROPERTY&#xA;GETANSINULL&#xA;GETDATE&#xA;GETUTCDATE&#xA;GROUPING&#xA;HAS_DBACCESS&#xA;HOST_ID&#xA;HOST_NAME&#xA;IDENT_CURRENT&#xA;IDENT_INCR&#xA;IDENT_SEED&#xA;INDEXKEY_PROPERTY&#xA;INDEXPROPERTY&#xA;INDEX_COL&#xA;ISDATE&#xA;ISNULL&#xA;ISNUMERIC&#xA;IS_MEMBER&#xA;IS_SRVROLEMEMBER&#xA;LEN&#xA;LOG&#xA;LOG10&#xA;LOWER&#xA;LTRIM&#xA;MAX&#xA;MIN&#xA;MONTH&#xA;NEWID&#xA;OBJECTPROPERTY&#xA;OBJECT_ID&#xA;OBJECT_NAME&#xA;PARSENAME&#xA;PATINDEX&#xA;PERMISSIONS&#xA;PI&#xA;POWER&#xA;QUOTENAME&#xA;RADIANS&#xA;RAND&#xA;REPLACE&#xA;REPLICATE&#xA;REVERSE&#xA;ROUND&#xA;ROWCOUNT_BIG&#xA;RTRIM&#xA;SCOPE_IDENTITY&#xA;SERVERPROPERTY&#xA;SESSIONPROPERTY&#xA;SIGN&#xA;SIN&#xA;SOUNDEX&#xA;SPACE&#xA;SQL_VARIANT_PROPERTY&#xA;SQRT&#xA;SQUARE&#xA;STATS_DATE&#xA;STDEV&#xA;STDEVP&#xA;STR&#xA;STUFF&#xA;SUBSTRING&#xA;SUM&#xA;SUSER_SID&#xA;SUSER_SNAME&#xA;SYSTEM_USER&#xA;TAN&#xA;TEXTPTR&#xA;TEXTVALID&#xA;TYPEPROPERTY&#xA;UNICODE&#xA;UPPER&#xA;USER_ID&#xA;USER_NAME&#xA;VAR&#xA;VARP&#xA;YEAR&#xA;">
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MS SQL 2000 Types" Enabled="True" Style="" Words="bigint&#xA;binary&#xA;bit&#xA;char&#xA;character&#xA;datetime&#xA;dec&#xA;decimal&#xA;float&#xA;image&#xA;int&#xA;integer&#xA;money&#xA;nchar&#xA;ntext&#xA;nvarchar&#xA;real&#xA;rowversion&#xA;smalldatetime&#xA;smallint&#xA;smallmoney&#xA;sql_variant&#xA;sysname&#xA;text&#xA;timestamp&#xA;tinyint&#xA;uniqueidentifier&#xA;varbinary&#xA;varchar&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="MS SQL 2000 System Var" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="MS SQL 2000 Vars" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Parameters" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

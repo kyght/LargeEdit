@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MOF" FileType="" Extensions="MOF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:mof.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;'()+,-./:;&lt;=&gt;[\]{|}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statement/Operator" Enabled="True" Style="" Words="as&#xA;association&#xA;alias&#xA;arraytype&#xA;aggregation&#xA;aggregate&#xA;abstract&#xA;boolean&#xA;bitvalues&#xA;bitmap&#xA;char16&#xA;class&#xA;Constructor&#xA;counter&#xA;datetime&#xA;description&#xA;dynamic&#xA;Destructor&#xA;disableoverride&#xA;displayname&#xA;delete&#xA;enableoverride&#xA;expensive&#xA;flavor&#xA;gauge&#xA;Instance&#xA;Implemented&#xA;include&#xA;instancelocale&#xA;indication&#xA;invisible&#xA;in&#xA;ifdeleted&#xA;key&#xA;Locale&#xA;large&#xA;namespace&#xA;NULL&#xA;nonlocal&#xA;nonlocaltype&#xA;nullvalue&#xA;MappingStrings&#xA;min&#xA;minvalue&#xA;max&#xA;maxvalue&#xA;modelcorrespondence&#xA;Of&#xA;Object&#xA;Override&#xA;Out&#xA;#pragma&#xA;provider&#xA;Privileges&#xA;property&#xA;propagated&#xA;qualifier&#xA;ref&#xA;real32&#xA;real64&#xA;read&#xA;restricted&#xA;reference&#xA;revision&#xA;string&#xA;sint8&#xA;sint16&#xA;sint32&#xA;sint64&#xA;Static&#xA;source&#xA;sourcetype&#xA;scope&#xA;schema&#xA;syntax&#xA;syntaxtype&#xA;ToSubClass&#xA;ToInstance&#xA;translate&#xA;terminal&#xA;triggertype&#xA;uint8&#xA;uint16&#xA;uint32&#xA;uint64&#xA;UUID&#xA;Units&#xA;unknownvalues&#xA;unsupportedvalues&#xA;valuemap&#xA;values&#xA;version&#xA;weak&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="Meta_Method&#xA;Meta_Qualifier&#xA;Meta_Property&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Constants" Enabled="True" Style="" Words="False&#xA;True&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Spin" FileType="" Extensions="SPIN SPN" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:spin.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*,./;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Types" Enabled="True" Style="" Words="bit&#xA;bool&#xA;byte&#xA;chan&#xA;int&#xA;local&#xA;mtype&#xA;short&#xA;typedef&#xA;unsigned&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Declarative keywords" Enabled="True" Style="" Words="assert&#xA;init&#xA;priority&#xA;proctype&#xA;provided&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Command keywords" Enabled="True" Style="" Words="active&#xA;break&#xA;do&#xA;else&#xA;empty&#xA;enabled&#xA;eval&#xA;fi&#xA;full&#xA;goto&#xA;if&#xA;inline&#xA;len&#xA;nempty&#xA;nfull&#xA;od&#xA;of&#xA;printf&#xA;run&#xA;skip&#xA;timeout&#xA;xr&#xA;xs&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Channel operators" Enabled="True" Style="" Words="?&#xA;??&#xA;!&#xA;!!&#xA;@&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="!=&#xA;+&#xA;-&#xA;-&gt;&#xA;::&#xA;&lt;&#xA;&lt;=&#xA;==&#xA;&gt;&#xA;&gt;=&#xA;unless&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Predefines" Enabled="True" Style="" Words="_&#xA;_last&#xA;_pid&#xA;cond_expr&#xA;false&#xA;np_&#xA;pc_value&#xA;STDIN&#xA;true&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Label headers" Enabled="True" Style="" Words="accept&#xA;end&#xA;progress&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Simulation keywords" Enabled="True" Style="" Words="atomic&#xA;d_step&#xA;hidden&#xA;ltl&#xA;never&#xA;notrace&#xA;trace&#xA;show&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

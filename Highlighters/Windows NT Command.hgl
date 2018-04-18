@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Windows NT Command" FileType="" Extensions="CMD BAT" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:nt_cmd.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="append&#xA;arp&#xA;assoc&#xA;at&#xA;attrib&#xA;backup&#xA;break&#xA;buffers&#xA;COPY&#xA;cacls&#xA;chcp&#xA;chdir&#xA;chkdsk&#xA;cls&#xA;cmd&#xA;codepage&#xA;color&#xA;comp&#xA;compact&#xA;convert&#xA;copy&#xA;country&#xA;DEL&#xA;date&#xA;debug&#xA;device&#xA;devicehigh&#xA;devinfo&#xA;dir&#xA;diskcomp&#xA;diskcopy&#xA;diskperf&#xA;dos&#xA;doskey&#xA;dosonly&#xA;driveparm&#xA;edit&#xA;edlin&#xA;erase&#xA;exe2bin&#xA;exit&#xA;expand&#xA;fastopen&#xA;fc&#xA;fcbs&#xA;files&#xA;find&#xA;findstr&#xA;finger&#xA;forcedos&#xA;format&#xA;ftp&#xA;ftype&#xA;graftabl&#xA;graphics&#xA;help&#xA;hostname&#xA;install&#xA;ipconfig&#xA;ipxroute&#xA;keyb&#xA;label&#xA;lastdrive&#xA;libpath&#xA;loadfix&#xA;loadhigh&#xA;lh&#xA;lpq&#xA;lpr&#xA;mem&#xA;mkdir&#xA;md&#xA;mode&#xA;more&#xA;move&#xA;nbtstat&#xA;netstat&#xA;net&#xA;nlsfunc&#xA;nslookup&#xA;prompt&#xA;path&#xA;pax&#xA;ping&#xA;pentnt&#xA;popd&#xA;portuas&#xA;print&#xA;protshell&#xA;pushd&#xA;qbasic&#xA;rcp&#xA;recover&#xA;rename&#xA;ren&#xA;replace&#xA;restore&#xA;rexec&#xA;rmdir&#xA;rd&#xA;route&#xA;rsh&#xA;set&#xA;setver&#xA;share&#xA;shell&#xA;sort&#xA;stacks&#xA;start&#xA;subst&#xA;TYPE&#xA;tftp&#xA;time&#xA;title&#xA;tracert&#xA;tree&#xA;ver&#xA;verify&#xA;vol&#xA;XCOPY&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="call&#xA;EXIST&#xA;echo&#xA;endlocal&#xA;for&#xA;GOTO&#xA;IF&#xA;NOT&#xA;pause&#xA;rem&#xA;setlocal&#xA;shift&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="awk&#xA;arj&#xA;cat&#xA;compress&#xA;CRCNT&#xA;datetime&#xA;DEFNCOPY&#xA;dequote&#xA;DIFF&#xA;DOAT&#xA;ERR&#xA;exitcode&#xA;filesize&#xA;FINDSTR&#xA;gawk&#xA;getdrves&#xA;getunc&#xA;GLOBAL&#xA;grep&#xA;head&#xA;IFSIZE&#xA;ls&#xA;mv&#xA;perl&#xA;PKUNZIP&#xA;PKZIP&#xA;REGFIX&#xA;sawk&#xA;sed&#xA;split&#xA;tail&#xA;TEE&#xA;tr&#xA;TRANS&#xA;uniq&#xA;unzip&#xA;unarj&#xA;VALIDATE&#xA;wc&#xA;XFRM&#xA;ZIP2EXE&#xA;zip&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks REM" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="REM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

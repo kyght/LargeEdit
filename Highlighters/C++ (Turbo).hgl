@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Turbo C++" FileType="" Extensions="C CPP H" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:turboc.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" CaseSensitive="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="#define&#xA;#elif&#xA;#else&#xA;#endif&#xA;#if&#xA;#ifdef&#xA;#ifndef&#xA;#include&#xA;#line&#xA;#pragma&#xA;#undef&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Reserved words" Enabled="True" Style="" Words="auto&#xA;break&#xA;case&#xA;cdecl&#xA;char&#xA;const&#xA;continue&#xA;default&#xA;do&#xA;double&#xA;else&#xA;enum&#xA;extern&#xA;far&#xA;float&#xA;for&#xA;fortran&#xA;goto&#xA;huge&#xA;if&#xA;int&#xA;label&#xA;long&#xA;near&#xA;pascal&#xA;register&#xA;return&#xA;short&#xA;signed&#xA;sizeof&#xA;static&#xA;struct&#xA;switch&#xA;typedef&#xA;union&#xA;unsigned&#xA;void&#xA;volatile&#xA;while&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions/library" Enabled="True" Style="" Words="FP_OFF&#xA;FP_SEG&#xA;MK_FP&#xA;_OvrInitEms&#xA;_OvrInitExt&#xA;___emit___&#xA;_chmod&#xA;_clear87&#xA;_close&#xA;_control87&#xA;_creat&#xA;_exit&#xA;_fpreset&#xA;_graphfreemem&#xA;_graphgetmem&#xA;_lrotl&#xA;_lrotr&#xA;_open&#xA;_read&#xA;_rtol&#xA;_rtor&#xA;_setcursortype&#xA;_status87&#xA;_strerror&#xA;_tolower&#xA;_toupper&#xA;_write&#xA;abort&#xA;abs&#xA;absread&#xA;abswrite&#xA;access&#xA;acos&#xA;alloc.h&#xA;allocmem&#xA;arc&#xA;arg&#xA;asctime&#xA;asin&#xA;assert&#xA;assert.h&#xA;atan&#xA;atan2&#xA;atexit&#xA;atof&#xA;atoi&#xA;atol&#xA;bar&#xA;bar3d&#xA;bcd&#xA;bcd.h&#xA;bdos&#xA;bdosptr&#xA;bios.h&#xA;bioscom&#xA;biosdisk&#xA;bioskey&#xA;biosmemory&#xA;biosprint&#xA;biostime&#xA;bisoequip&#xA;brk&#xA;bsearch&#xA;cabs&#xA;calloc&#xA;ceil&#xA;cgets&#xA;chdir&#xA;chmod&#xA;chsize&#xA;circle&#xA;cleardevice&#xA;clearerr&#xA;clearviewport&#xA;clock&#xA;close&#xA;closegraph&#xA;clreol&#xA;clrscr&#xA;complex&#xA;complex.h&#xA;conio.h&#xA;conj&#xA;coreleft&#xA;cos&#xA;cosh&#xA;country&#xA;cprintf&#xA;cputs&#xA;creat&#xA;creatnew&#xA;creattemp&#xA;cscanf&#xA;ctime&#xA;ctrlbrk&#xA;ctype.h&#xA;delay&#xA;delline&#xA;detectgraph&#xA;difftime&#xA;dir.h&#xA;disable&#xA;div&#xA;dos.h&#xA;dosexterr&#xA;dostounix&#xA;drawpoly&#xA;dup&#xA;dup2&#xA;ecvt&#xA;errno.h&#xA;execl&#xA;execle&#xA;execlp&#xA;execlpe&#xA;execv&#xA;execve&#xA;execvp&#xA;execvpe&#xA;exit&#xA;exp&#xA;fabs&#xA;farcalloc&#xA;farcoreleft&#xA;farfree&#xA;farheapcheck&#xA;farheapcheckfree&#xA;farheapchecknode&#xA;farheapfillfree&#xA;farheapwalk&#xA;farmalloc&#xA;farrealloc&#xA;fclose&#xA;fcloseall&#xA;fcntl.h&#xA;fcvt&#xA;fdopen&#xA;feof&#xA;ferror&#xA;fflush&#xA;fgetc&#xA;fgetchar&#xA;fgetpos&#xA;fgets&#xA;filelength&#xA;fileno&#xA;fillellipse&#xA;fillpoly&#xA;findfirst&#xA;findnext&#xA;float.h&#xA;floodfill&#xA;floor&#xA;flushall&#xA;fnmerge&#xA;fnsplit&#xA;fopen&#xA;fprintf&#xA;fputc&#xA;fputchar&#xA;fputs&#xA;fread&#xA;free&#xA;freemem&#xA;freopen&#xA;frexp&#xA;fscanf&#xA;fseek&#xA;fsetpos&#xA;fstat&#xA;fstream.h&#xA;ftell&#xA;ftime&#xA;fwrite&#xA;gcvt&#xA;generic.h&#xA;geninterrupt&#xA;getarccoords&#xA;getaspectratio&#xA;getbkcolor&#xA;getc&#xA;getcbrk&#xA;getch&#xA;getchar&#xA;getche&#xA;getcolor&#xA;getcurdir&#xA;getcwd&#xA;getdate&#xA;getdefaultpalette&#xA;getdfree&#xA;getdisk&#xA;getdrivername&#xA;getdta&#xA;getenv&#xA;getfat&#xA;getfatd&#xA;getfillpattern&#xA;getfillsettings&#xA;getftime&#xA;getmasy&#xA;getmaxcolor&#xA;getmaxmode&#xA;getmaxx&#xA;getmodename&#xA;getmoderange&#xA;getpalette&#xA;getpalettesize&#xA;getpass&#xA;getpid&#xA;getpixel&#xA;getpsp&#xA;gets&#xA;gettestinfo&#xA;gettext&#xA;gettextsettings&#xA;gettime&#xA;getvect&#xA;getverify&#xA;getviewsettings&#xA;getw&#xA;getx&#xA;gety&#xA;gmtime&#xA;gotoxy&#xA;graphdefaults&#xA;grapherrormsg&#xA;graphics.h&#xA;graphresult&#xA;harderr&#xA;hardresume&#xA;hardretn&#xA;heapcheck&#xA;heapcheckfree&#xA;heapchecknode&#xA;heapfillfree&#xA;heapwalk&#xA;highvideo&#xA;hypot&#xA;imag&#xA;imagesize&#xA;initgraph&#xA;inp&#xA;inport&#xA;inportb&#xA;insline&#xA;installuserdriver&#xA;installuserfont&#xA;int86&#xA;int86x&#xA;intdos&#xA;intdosx&#xA;intr&#xA;io.h&#xA;ioctl&#xA;iomanip.h&#xA;iostream.h&#xA;isalnum&#xA;isalpha&#xA;isascii&#xA;isatty&#xA;iscntrl&#xA;isdigit&#xA;isgraph&#xA;islower&#xA;isprint&#xA;ispunct&#xA;isspace&#xA;isupper&#xA;isxdigit&#xA;itoa&#xA;kbhit&#xA;keep&#xA;labs&#xA;ldexp&#xA;ldiv&#xA;lfind&#xA;limits.h&#xA;line&#xA;linerel&#xA;lineto&#xA;locale.h&#xA;localeconv&#xA;localtime&#xA;lock&#xA;log&#xA;log10&#xA;longjmp&#xA;lowvideo&#xA;lsearch&#xA;lseek&#xA;ltoa&#xA;malloc&#xA;math.h&#xA;matherr&#xA;max&#xA;mem.h&#xA;memccpy&#xA;memchr&#xA;memcmp&#xA;memcpy&#xA;memicmp&#xA;memmove&#xA;memset&#xA;min&#xA;mkdir&#xA;mktemp&#xA;mktime&#xA;modf&#xA;movedata&#xA;movemem&#xA;moverel&#xA;movetext&#xA;moveto&#xA;norm&#xA;normvideo&#xA;nosound&#xA;open&#xA;outp&#xA;outport&#xA;outportb&#xA;outtext&#xA;outtextxy&#xA;parsfnm&#xA;peek&#xA;peekb&#xA;perror&#xA;pieslice&#xA;poke&#xA;pokeb&#xA;polar&#xA;poly&#xA;pow&#xA;pow10&#xA;printf&#xA;process.h&#xA;putc&#xA;putch&#xA;putchar&#xA;putenv&#xA;putimage&#xA;putpixel&#xA;puts&#xA;puttext&#xA;putw&#xA;qsort&#xA;raise&#xA;rand&#xA;randbrd&#xA;randbwr&#xA;random&#xA;randomsize&#xA;read&#xA;real&#xA;realloc&#xA;rectangle&#xA;registerbgidriver&#xA;registerbgifont&#xA;remove&#xA;rename&#xA;restorecrtmode&#xA;rewind&#xA;rmdir&#xA;sbrk&#xA;scanf&#xA;searchpath&#xA;sector&#xA;segread&#xA;setactivepage&#xA;setallpalette&#xA;setaspectratio&#xA;setbkcolor&#xA;setblock&#xA;setbuf&#xA;setcbrk&#xA;setcolor&#xA;setdate&#xA;setdisk&#xA;setdta&#xA;setfillpattern&#xA;setfillstyle&#xA;setftime&#xA;setgraphbufsize&#xA;setgraphmode&#xA;setjmp&#xA;setjmp.h&#xA;setlinestyle&#xA;setlocale&#xA;setmem&#xA;setmode&#xA;setpalette&#xA;setrgbpalette&#xA;settextjustify&#xA;settextstyle&#xA;settime&#xA;setusercharsize&#xA;setvbuf&#xA;setvect&#xA;setverify&#xA;setviewport&#xA;setvisualpage&#xA;setwritemode&#xA;share.h&#xA;signal&#xA;signal.h&#xA;sin&#xA;sinh&#xA;sleep&#xA;sopen&#xA;spawn&#xA;spawnl&#xA;spawnle&#xA;spawnlp&#xA;spawnlpe&#xA;spawnv&#xA;spawnve&#xA;spawnvp&#xA;spawnvpe&#xA;sprintf&#xA;sqrt&#xA;srand&#xA;sscanf&#xA;stat&#xA;stat.h&#xA;stdarg.h&#xA;stddef.h&#xA;stdio.h&#xA;stdiostr.h&#xA;stdlib.h&#xA;stime&#xA;stpcpy&#xA;strcat&#xA;strchr&#xA;strcmp&#xA;strcmpi&#xA;strcoll&#xA;strcpy&#xA;strcspn&#xA;strdup&#xA;stream.h&#xA;strerror&#xA;strftime&#xA;stricmp&#xA;string.h&#xA;strlen&#xA;strlwr&#xA;strncat&#xA;strncmp&#xA;strncmpi&#xA;strncpy&#xA;strnicmp&#xA;strnset&#xA;strpbrk&#xA;strrchr&#xA;strrev&#xA;strset&#xA;strspn&#xA;strstr&#xA;strstrea.h&#xA;strtod&#xA;strtok&#xA;strtol&#xA;strtoul&#xA;strupr&#xA;strxfrm&#xA;swab&#xA;system&#xA;tan&#xA;tanh&#xA;tell&#xA;textattr&#xA;textbackground&#xA;textcolor&#xA;textheight&#xA;textmode&#xA;textwidth&#xA;time&#xA;time.h&#xA;timeb.h&#xA;tmpfile&#xA;tmpnam&#xA;toascii&#xA;tolower&#xA;toupper&#xA;types.h&#xA;tzset&#xA;ultoa&#xA;umask&#xA;ungetc&#xA;ungetch&#xA;unixtodos&#xA;unlink&#xA;unlock&#xA;va_arg&#xA;va_end&#xA;va_start&#xA;values.h&#xA;vfprintf&#xA;vfscanf&#xA;vprintf&#xA;vscanf&#xA;vsprintf&#xA;vsscanf&#xA;wherex&#xA;wherey&#xA;window&#xA;write&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Defines/Types" Enabled="True" Style="" Words="EOF&#xA;FILE&#xA;NULL&#xA;SEEK_CUR&#xA;SEEK_END&#xA;SEEK_SET&#xA;size_t&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delimiters" Enabled="True" Style="" Words="!&#xA;$&#xA;&amp;&#xA;(&#xA;)&#xA;*&#xA;+&#xA;,&#xA;-&#xA;.&#xA;//&#xA;/&#xA;:&#xA;;&#xA;&lt;&#xA;=&#xA;&gt;&#xA;[&#xA;]&#xA;{&#xA;|&#xA;}&#xA;~&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

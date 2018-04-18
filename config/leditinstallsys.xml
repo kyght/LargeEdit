@@ -1,0 +1,10 @@
+<installsystems>
+  <installer name="Nullsoft" url="http://nsis.sourceforge.net/">
+    <download name="Aleron" web="http://www.easynews.com/" download="http://cogent.dl.sourceforge.net/sourceforge/nsis/nsis205.exe"/>
+    <download name="EasyNews" web="http://www.cogent.com/" download="http://easynews.dl.sourceforge.net/sourceforge/nsis/nsis205.exe"/>
+  </installer>
+  <installer name="Inno Setup" url="http://www.jrsoftware.org/isinfo.php">
+    <download download="http://www.jrsoftware.org/download.php/is.exe?site=1"/>
+    <download download="http://www.jrsoftware.org/download.php/is.exe?site=2"/>
+  </installer>
+</installsystems>

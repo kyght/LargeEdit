@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="XBasic" FileType="" Extensions="X DEC" Version="1" Revision="0" Sample="PROGRAM &quot;File read write Demo&quot;  ' 1-8 char program/file name without .x or any .extent&#xA;IMPORT  &quot;xst&quot;   ' Standard library : required by most programs&#xA;DECLARE FUNCTION  Entry ()&#xA;FUNCTION  Entry ()&#xA;FOR X = 0 TO UBOUND(ReadArray$[])&#xA;        PRINT ReadArray$[X]&#xA;NEXT X&#xA;BitAlignment  = 32&#xA;SEEK(FileHandle, 0)             ' Reset filepointer&#xA;PRINT &quot;Reading aligned data&quot;&#xA;DO WHILE NOT EOF(FileHandle)&#xA;        REDIM ReadArray$[UBOUND(ReadArray$[])+1]&#xA;        ReadArray$[UBOUND(ReadArray$[])] = INFILE$(FileHandle)&#xA;LOOP&#xA;CLOSE (FileHandle)&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;'()*+,-./:;&lt;&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Statements" Enabled="True" Style="" Words="$$TRUE&#xA;$$FALSE&#xA;ALL&#xA;AND&#xA;ATTACH&#xA;AUTO&#xA;AUTOS&#xA;AUTOX&#xA;CASE&#xA;CFUNCTION&#xA;CLEAR&#xA;DCOMPLEX&#xA;DEC&#xA;DECLARE&#xA;DIM&#xA;DO&#xA;DOUBLE&#xA;ELSE&#xA;END&#xA;ENDIF&#xA;EXIT&#xA;EXTERNAL&#xA;FALSE&#xA;FOR&#xA;FUNCADDR&#xA;FUNCTION&#xA;GIANT&#xA;GOADDR&#xA;GOSUB&#xA;GOTO&#xA;IF&#xA;IFF&#xA;IFT&#xA;IFZ&#xA;IMPORT&#xA;INC&#xA;INTERNAL&#xA;LIBRARY&#xA;LOOP&#xA;MOD&#xA;NEXT&#xA;NOT&#xA;OPEN&#xA;OR&#xA;PRINT&#xA;PROGRAM&#xA;READ&#xA;REDIM&#xA;RETURN&#xA;SBYTE&#xA;SCOMPLEX&#xA;SELECT&#xA;SHARED&#xA;SINGLE&#xA;SLONG&#xA;SSHORT&#xA;STATIC&#xA;STEP&#xA;STOP&#xA;STRING&#xA;SUB&#xA;SUBADDR&#xA;THEN&#xA;TO&#xA;TRUE&#xA;TYPE&#xA;UBYTE&#xA;ULONG&#xA;UNION&#xA;UNTIL&#xA;USHORT&#xA;VERSION&#xA;VOID&#xA;WHILE&#xA;WRITE&#xA;XLONG&#xA;XOR&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Intrinsics" Enabled="True" Style="" Words="ABS&#xA;ASC&#xA;BIN$&#xA;BINB$&#xA;BITFIELD&#xA;CHR$&#xA;CJUST$&#xA;CLOSE&#xA;CLR&#xA;CSIZE&#xA;CSIZE$&#xA;CSTRING$&#xA;DHIGH&#xA;DLOW&#xA;DMAKE&#xA;DOUBLEAT&#xA;EOF&#xA;ERROR&#xA;ERROR$&#xA;EXTS&#xA;EXTU&#xA;FIX&#xA;FORMAT$&#xA;FUNCADDRESS&#xA;GHIGH&#xA;GIANTAT&#xA;GLOW&#xA;GMAKE&#xA;GOADDRESS&#xA;HEX$&#xA;HEXX$&#xA;HIGH0&#xA;HIGH1&#xA;INCHR&#xA;INCHRI&#xA;INFILE$&#xA;INLINE$&#xA;INSTR&#xA;INSTRI&#xA;INT&#xA;LCASE$&#xA;LCLIP$&#xA;LEFT$&#xA;LEN&#xA;LJUST$&#xA;LOF&#xA;LTRIM$&#xA;MAKE&#xA;MAX&#xA;MID$&#xA;MIN&#xA;NULL$&#xA;OCT$&#xA;OCTO$&#xA;POF&#xA;PROGRAM$&#xA;QUIT&#xA;RCLIP$&#xA;RIGHT$&#xA;RINCHR&#xA;RINCHRI&#xA;RINSTR&#xA;RINSTRI&#xA;RJUST$&#xA;ROTATER&#xA;RTRIM$&#xA;SBYTEAT&#xA;SEEK&#xA;SET&#xA;SFUNCTION&#xA;SGN&#xA;SHELL&#xA;SIGN&#xA;SIGNED$&#xA;SINGLEAT&#xA;SIZE&#xA;SLONGAT&#xA;SMAKE&#xA;SPACE$&#xA;SSHORTAT&#xA;STR$&#xA;STRING$&#xA;STUFF$&#xA;SUBADDRESS&#xA;TAB&#xA;TRIM$&#xA;UBOUND&#xA;UBYTEAT&#xA;UCASE$&#xA;ULONGAT&#xA;USHORTAT&#xA;VERSION$&#xA;XLONGAT&#xA;XMAKE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Math" Enabled="True" Style="" Words="$$DEGTORAD&#xA;$$E&#xA;$$INVPI&#xA;$$INVSQRT2&#xA;$$LOG102&#xA;$$LOG10E&#xA;$$LOG210&#xA;$$LOG2E&#xA;$$LOGE10&#xA;$$LOGE2&#xA;$$LOGESQRT2&#xA;$$NINF&#xA;$$NNAN&#xA;$$PI&#xA;$$PI3DIV2&#xA;$$PI3DIV8&#xA;$$PIDIV2&#xA;$$PIDIV4&#xA;$$PIDIV8&#xA;$$PINF&#xA;$$PNAN&#xA;$$RADTODEG&#xA;$$SQRT2&#xA;$$SQRT2DIV2&#xA;$$TWOPI&#xA;ACOS&#xA;ACOSH&#xA;ACOT&#xA;ACOTH&#xA;ACSC&#xA;ACSCH&#xA;ASEC&#xA;ASECH&#xA;ASIN&#xA;ASINH&#xA;ATAN&#xA;ATANH&#xA;COS&#xA;COSH&#xA;COT&#xA;COTH&#xA;CSC&#xA;CSCH&#xA;EXP&#xA;EXP10&#xA;EXP2&#xA;LOG&#xA;LOG10&#xA;POWER&#xA;SEC&#xA;SECH&#xA;SIN&#xA;SINH&#xA;SQRT&#xA;TAN&#xA;TANH&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

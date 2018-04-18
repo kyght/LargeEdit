@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="JamagicScript" FileType="" Extensions="J" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:jamagic.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMANDS" Enabled="True" Style="" Words="Break&#xA;Case&#xA;Copy&#xA;Default&#xA;Else&#xA;End&#xA;For&#xA;Function&#xA;If&#xA;New&#xA;Refresh&#xA;Return&#xA;This&#xA;Var&#xA;While&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PARAMETERS" Enabled="True" Style="" Words="CDROM&#xA;DESEMITRANSP&#xA;DIRECT3D&#xA;DIRECTORY_SEPARATOR&#xA;FALSE&#xA;FIXED&#xA;GLIDE&#xA;NODIRS&#xA;NOFILES&#xA;OFF&#xA;ON&#xA;OPENGL&#xA;RAMDISK&#xA;REMOTE&#xA;REMOVABLE&#xA;SHORTNAMES&#xA;SOFTWARE_DIRECTDRAW&#xA;SORT&#xA;SUBDIRS&#xA;TRUE&#xA;UNKNOWN&#xA;USEIMAGEPALETTE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SYSTEM FUNCTIONS" Enabled="True" Style="" Words="AddLine&#xA;AppendFile&#xA;Button&#xA;CheckBox&#xA;Clipboard&#xA;ComboBox&#xA;CopyFile&#xA;DebugBreak&#xA;Disable&#xA;DisableEvents&#xA;Disk&#xA;Edit&#xA;Enable&#xA;EnableEvents&#xA;File&#xA;FillArray&#xA;Flush&#xA;Font&#xA;FontColor&#xA;FontSize&#xA;GroupBox&#xA;Ini&#xA;Keyboard&#xA;ListBox&#xA;ListDrives&#xA;ListFiles&#xA;MakeDirectory&#xA;MakePath&#xA;Menu&#xA;MessageBox&#xA;OnClick&#xA;OnTimeElapsed&#xA;Printer&#xA;Process&#xA;Program&#xA;ProgressBar&#xA;RadioButton&#xA;Registry&#xA;RemoveFromDebugger&#xA;Rename&#xA;RichEdit&#xA;ScrollBar&#xA;Selector&#xA;Serial&#xA;SetCurrentDirectory&#xA;SetDir&#xA;SetDrive&#xA;SetExtension&#xA;SetName&#xA;SetText&#xA;Slider&#xA;Spin&#xA;StaticText&#xA;SysDebug&#xA;System&#xA;Timer&#xA;TrayIcon&#xA;Window&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FUNCTIONS &amp; OBJECTS" Enabled="True" Style="" Words="AddToDebugger&#xA;Animation&#xA;ApplyMaterial&#xA;AVI&#xA;BeginPolygonChange&#xA;Big&#xA;Binary&#xA;Blob&#xA;Bold&#xA;Camera&#xA;CanChangeDirectSound3DUsage&#xA;CaptureScreen&#xA;CDAudio&#xA;Continue&#xA;CreateBrick&#xA;CreatePlane&#xA;CreateSphere&#xA;Delete&#xA;DisableDirectSound3D&#xA;Editor&#xA;EnableCollision&#xA;EnableDirectSound3D&#xA;EndPolygonChange&#xA;FFDevice&#xA;GameInput&#xA;Follow&#xA;Hide&#xA;HideMouseCursor&#xA;In&#xA;Italics&#xA;Light&#xA;LoadBankString&#xA;LoadImage&#xA;Material&#xA;Matrix&#xA;MODPlayer&#xA;Moo&#xA;MooChannel&#xA;MooConnection&#xA;MooPlayer&#xA;MooServer&#xA;MooSession&#xA;MooSocket&#xA;MooUser&#xA;MoveDown&#xA;MoveToBack&#xA;MoveToFront&#xA;MPEG&#xA;Music&#xA;Object&#xA;OnCollide&#xA;Optimise&#xA;ParseEnvironmentString&#xA;Play&#xA;Point3D&#xA;PointArray&#xA;Polygon&#xA;Position&#xA;QTime&#xA;Quaternion&#xA;Restart&#xA;Rotate&#xA;Set&#xA;SetAngle&#xA;SetAutoRefresh&#xA;SetBackfaces&#xA;SetBackground&#xA;SetCollision&#xA;SetDisplayInterface&#xA;SetDrawEffect&#xA;SetEnvironmentVariable&#xA;SetFlush&#xA;SetFocus&#xA;SetFullScreenMode&#xA;SetGouraud&#xA;SetInterval&#xA;SetLoop&#xA;SetPosition&#xA;SetShadowMode&#xA;SetStatic&#xA;ShowAxis&#xA;ShowMouseCursor&#xA;ShowObjectBox&#xA;ShowZones&#xA;Small&#xA;Sound&#xA;Speaker&#xA;Sprite&#xA;Sub&#xA;SubString&#xA;Sup&#xA;Surface&#xA;Start&#xA;Strike&#xA;String&#xA;Texture&#xA;ToLowerCase&#xA;ToUpperCase&#xA;ToLowerCase&#xA;Vector&#xA;Voice&#xA;Wait&#xA;Walk&#xA;World&#xA;Write&#xA;WriteLn&#xA;Zone&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="READ OBJECT INFO" Enabled="True" Style="" Words="CharAt&#xA;CurWindow&#xA;Exist&#xA;EventsEnabled&#xA;GetArgument&#xA;GetArrayDimensionCount&#xA;GetArrayDimensionSize&#xA;GetAscii&#xA;GetBlue&#xA;GetCamera&#xA;GetChar&#xA;GetCommandLine&#xA;GetCurrentDirectory&#xA;GetDefaultGameInput&#xA;GetDir&#xA;GetDisplayDeviceCount&#xA;GetDisplayDeviceName&#xA;GetDisplayDriverCount&#xA;GetDisplayDriverName&#xA;GetDisplayInterface&#xA;GetDisplayInterfaceName&#xA;GetDrive&#xA;GetDriveType&#xA;GetElapsedTime&#xA;GetExtension&#xA;GetFileSize&#xA;GetFileTime&#xA;GetFloat&#xA;GetGreen&#xA;GetInt&#xA;GetMaterial&#xA;GetName&#xA;GetNArguments&#xA;GetNFilenames&#xA;GetNObjects&#xA;GetRed&#xA;GetRGB&#xA;GetScreenModeCount&#xA;GetScreenModeDepth&#xA;GetScreenModeHeight&#xA;GetScreenModeWidth&#xA;GetString&#xA;GetSurface&#xA;GetXMouse&#xA;IndexOf&#xA;IsApplication&#xA;IsArray&#xA;IsAutoRefresh&#xA;IsBool&#xA;IsDebug&#xA;IsDefaultValue&#xA;IsDirectory&#xA;IsDirectSound3DEnabled&#xA;IsDirectSound3DUsed&#xA;IsDisplayInterfaceAvailable&#xA;IsDouble&#xA;IsEditorMode&#xA;IsFunction&#xA;IsInitialized&#xA;IsInteger&#xA;IsNumber&#xA;IsObject&#xA;IsRelease&#xA;IsStandAlone&#xA;IsScreenSaver&#xA;IsScreenSaverControlPanel&#xA;IsScreenSaverSetupDialog&#xA;IsString&#xA;IsWindowedModeSupported&#xA;LastIndexOf&#xA;Length&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MATHEMATICS" Enabled="True" Style="" Words="Abs&#xA;Acos&#xA;Asin&#xA;Atan&#xA;Ceil&#xA;Cos&#xA;Exp&#xA;Floor&#xA;IsFloatFinite&#xA;IsNotAFloatNumber&#xA;Log&#xA;Math&#xA;Max&#xA;Min&#xA;Pi&#xA;Pow&#xA;Random&#xA;Round&#xA;Sin&#xA;Sqrt&#xA;Tan&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SYMBOLS" Enabled="True" Style="" Words=";&#xA;,&#xA;+&#xA;-&#xA;=&#xA;//&#xA;/&#xA;.&#xA;*&#xA;(&#xA;)&#xA;&amp;&#xA;^&#xA;!&#xA;[&#xA;]&#xA;{&#xA;}&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Baan" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="if&#xA;do&#xA;cdecl&#xA;case&#xA;char&#xA;catch&#xA;break&#xA;endif&#xA;for&#xA;table&#xA;else&#xA;new&#xA;false&#xA;int&#xA;bool&#xA;defined&#xA;long&#xA;void&#xA;delete&#xA;pascal&#xA;from&#xA;enum&#xA;class&#xA;float&#xA;domain&#xA;friend&#xA;this&#xA;goto&#xA;auto&#xA;while&#xA;_cdecl&#xA;signed&#xA;double&#xA;where&#xA;null&#xA;try&#xA;public&#xA;inline&#xA;true&#xA;select&#xA;default&#xA;using&#xA;stdcall&#xA;const&#xA;static&#xA;union&#xA;mutable&#xA;fastcall&#xA;namespace&#xA;&#xA;finally&#xA;typeid&#xA;sizeof&#xA;short&#xA;typedef&#xA;strip$&#xA;switch&#xA;selectdo&#xA;_pascal&#xA;throw&#xA;extern&#xA;__far&#xA;endselect&#xA;string&#xA;__cdecl&#xA;private&#xA;import&#xA;template&#xA;__based&#xA;unsigned&#xA;volatile&#xA;return&#xA;export&#xA;explicit&#xA;typename&#xA;__near&#xA;register&#xA;struct&#xA;continue&#xA;_stdcall&#xA;function&#xA;sql.close&#xA;virtual&#xA;__self&#xA;wchar_t&#xA;__int32&#xA;__int16&#xA;__int8&#xA;__int64&#xA;_fastcall&#xA;protected&#xA;static_ca&#xA;operator&#xA;__pascal&#xA;__loadds&#xA;__thread&#xA;_import&#xA;reinterpr&#xA;__fastcal&#xA;__try&#xA;__segname&#xA;__declspe&#xA;__rtti&#xA;_export&#xA;__stdcall&#xA;__except&#xA;interrupt&#xA;__segment&#xA;__import&#xA;__fortran&#xA;__export&#xA;__interrup&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Variables" Enabled="True" Style="" Words="date.num&#xA;brp.open&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

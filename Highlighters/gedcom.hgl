@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Gedcom" FileType="" Extensions="GED" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:gedcom.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!#,./&lt;&gt;?"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Tags" Enabled="True" Style="" Words="ABBR&#xA;ADDR&#xA;ADR1&#xA;ADR2&#xA;ADOP&#xA;AFN&#xA;AGE&#xA;AGNC&#xA;ALIA&#xA;ANCE&#xA;ANCI&#xA;ANUL&#xA;ASSO&#xA;AUTH&#xA;BAPL&#xA;BAPM&#xA;BARM&#xA;BASM&#xA;BIRT&#xA;BLES&#xA;BLOB&#xA;BURI&#xA;CALN&#xA;CAST&#xA;CAUS&#xA;CENS&#xA;CHAN&#xA;CHAR&#xA;CHIL&#xA;CHR&#xA;CHRA&#xA;CITY&#xA;CONC&#xA;CONF&#xA;CONL&#xA;CONT&#xA;COPR&#xA;CORP&#xA;CREM&#xA;CTRY&#xA;DATA&#xA;DATE&#xA;DEAT&#xA;DESC&#xA;DESI&#xA;DEST&#xA;DIV&#xA;DIVF&#xA;DSCR&#xA;EDUC&#xA;EMIG&#xA;ENDL&#xA;ENGA&#xA;EVEN&#xA;FAM&#xA;FAMC&#xA;FAMF&#xA;FAMS&#xA;FCOM&#xA;FILE&#xA;FORM&#xA;GEDC&#xA;GIVN&#xA;GRAD&#xA;HEAD&#xA;HUSB&#xA;IDNO&#xA;IMMI&#xA;INDI&#xA;LANG&#xA;LEGA&#xA;MARB&#xA;MARC&#xA;MARL&#xA;MARR&#xA;MARS&#xA;MEDI&#xA;NAME&#xA;NATI&#xA;NATU&#xA;NCHI&#xA;NICK&#xA;NMR&#xA;NOTE&#xA;NPFX&#xA;NSFX&#xA;OBJE&#xA;OCCU&#xA;ORDI&#xA;ORDN&#xA;PAGE&#xA;PEDI&#xA;PHON&#xA;PLAC&#xA;POST&#xA;PROB&#xA;PROP&#xA;PUBL&#xA;QUAY&#xA;REFN&#xA;RELA&#xA;RELI&#xA;REPO&#xA;RESI&#xA;RESN&#xA;RETI&#xA;RFN&#xA;RIN&#xA;ROLE&#xA;SEX&#xA;SLGC&#xA;SLGS&#xA;SOUR&#xA;SPFX&#xA;SSN&#xA;STAE&#xA;STAT&#xA;SUBM&#xA;SUBN&#xA;SURN&#xA;TEMP&#xA;TEXT&#xA;TIME&#xA;TITL&#xA;TRLR&#xA;TYPE&#xA;VERS&#xA;WIFE&#xA;WILL&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="APR&#xA;AUG&#xA;bmp&#xA;DEC&#xA;FEB&#xA;gif&#xA;jpeg&#xA;JAN&#xA;JUL&#xA;JUN&#xA;MAR&#xA;MAY&#xA;NOV&#xA;OCT&#xA;ole&#xA;pcx&#xA;SEP&#xA;tiff&#xA;wav&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modifiers" Enabled="True" Style="" Words="adopted&#xA;birth&#xA;foster&#xA;sealing&#xA;ABT&#xA;AFT&#xA;AND&#xA;BEF&#xA;BET&#xA;BIC&#xA;BOTH&#xA;CAL&#xA;CANCELED&#xA;CHILD&#xA;CLEARED&#xA;COMPLETED&#xA;EST&#xA;FROM&#xA;INFANT&#xA;INT&#xA;PRE-1970&#xA;QUALIFIED&#xA;STILLBORN&#xA;SUBMITTED&#xA;TO&#xA;UNCLEARED&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings @..@" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@" Close="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

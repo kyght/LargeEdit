@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Bourne &amp; Korn Shell" FileType="" Extensions="sh ksh" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:bkshell.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()+,./:;&lt;=&gt;[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMMAND" Enabled="True" Style="" Words="bg&#xA;break&#xA;cd&#xA;continue&#xA;echo&#xA;eval&#xA;exec&#xA;exit&#xA;export&#xA;fg&#xA;function&#xA;getopts&#xA;hash&#xA;jobs&#xA;kill&#xA;newgrp&#xA;pwd&#xA;read&#xA;readonly&#xA;return&#xA;select&#xA;set&#xA;shift&#xA;stop&#xA;stty&#xA;suspend&#xA;test&#xA;times&#xA;trap&#xA;type&#xA;ulimit&#xA;umask&#xA;unset&#xA;wait&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL VARIABLES" Enabled="True" Style="" Words="CDPATH&#xA;EDITOR&#xA;HOME&#xA;IFS&#xA;LANG&#xA;MAIL&#xA;MAILCHECK&#xA;MAILPATH&#xA;OLDPWD&#xA;PATH&#xA;PPID&#xA;PS1&#xA;PS2&#xA;REPLY&#xA;SHACCT&#xA;SHELL&#xA;TERM&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="CONTROL COMMANDS" Enabled="True" Style="" Words="case&#xA;do&#xA;done&#xA;elif&#xA;else&#xA;esac&#xA;fi&#xA;for&#xA;if&#xA;then&#xA;while&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MISC" Enabled="True" Style="" Words="-&#xA;!&#xA;%&#xA;&amp;&#xA;/&#xA;//&#xA;^&#xA;|&#xA;+&#xA;=&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="I/O REDIRECTION OPERATORS" Enabled="True" Style="" Words="&lt;&#xA;&lt;&amp;&#xA;&lt;&lt;&#xA;&gt;&#xA;&gt;&amp;&#xA;&gt;&gt;&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SPECIAL PARAMETERS" Enabled="True" Style="" Words="$-&#xA;$!&#xA;$#&#xA;$$&#xA;$*&#xA;$?&#xA;$@&#xA;$0&#xA;$1&#xA;$2&#xA;$3&#xA;$4&#xA;$5&#xA;$6&#xA;$7&#xA;$8&#xA;$9&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="CONDITIONAL PARAMETER" Enabled="True" Style="" Words="-a&#xA;-b&#xA;-c&#xA;-d&#xA;-eq&#xA;-f&#xA;-g&#xA;-ge&#xA;-gt&#xA;-k&#xA;-l&#xA;-le&#xA;-lt&#xA;-n&#xA;-ne&#xA;-o&#xA;-p&#xA;-r&#xA;-s&#xA;-t&#xA;-u&#xA;-w&#xA;-x&#xA;-z&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

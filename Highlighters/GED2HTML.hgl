@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="GED2HTML" FileType="" Extensions="g2h" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ged2html.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="%&amp;()*+,-./;&lt;=&gt;[]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="define&#xA;do&#xA;else&#xA;elseif&#xA;end&#xA;for&#xA;if&#xA;in&#xA;include&#xA;local&#xA;print&#xA;set&#xA;then&#xA;to&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="do_families&#xA;do_gendex&#xA;do_index&#xA;do_individuals&#xA;do_initialize&#xA;do_notes&#xA;do_sources&#xA;do_surnames&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abbreviation&#xA;address&#xA;adoption&#xA;afn&#xA;age&#xA;agency&#xA;aliases&#xA;anci&#xA;associations&#xA;attributes&#xA;author&#xA;birth&#xA;caln&#xA;cause&#xA;change&#xA;children&#xA;conc&#xA;cont&#xA;copr&#xA;data&#xA;date&#xA;day&#xA;death&#xA;description&#xA;desi&#xA;event&#xA;events&#xA;exact&#xA;families&#xA;family&#xA;father&#xA;filename&#xA;first&#xA;fullname&#xA;gedcom&#xA;husband&#xA;index&#xA;isfemale&#xA;ismale&#xA;last&#xA;living&#xA;lower&#xA;marriages&#xA;month&#xA;mother&#xA;name&#xA;names&#xA;nchildren&#xA;next&#xA;note&#xA;notes&#xA;number&#xA;objects&#xA;ordinances&#xA;page&#xA;parent&#xA;phone&#xA;place&#xA;pred&#xA;prev&#xA;publication&#xA;quay&#xA;refns&#xA;repository&#xA;rfn&#xA;rin&#xA;serial&#xA;sources&#xA;status&#xA;string&#xA;submitters&#xA;succ&#xA;surname&#xA;tagcode&#xA;tagname&#xA;temple&#xA;text&#xA;texts&#xA;title&#xA;type&#xA;upper&#xA;url&#xA;value&#xA;wife&#xA;xref&#xA;year&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="HEADER&#xA;NUMBER_OF_FAMILIES&#xA;NUMBER_OF_NOTES&#xA;NUMBER_OF_SOURCES&#xA;OSTYPE&#xA;PATH_TO_ROOT&#xA;PERSONS_URL&#xA;SURNAMES_URL&#xA;TODAY&#xA;VERSION&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="CASE_FOLD_LINKS&#xA;CHARACTER_SET&#xA;DESTINATION_DIRECTORY&#xA;DOS_CODE_PAGE&#xA;ERROR_FILE&#xA;FILENAME_TEMPLATE&#xA;FILES_PER_DIRECTORY&#xA;GENERATE_GENDEX&#xA;GENERATE_INDEX&#xA;GENERATE_INDIVIDUALS&#xA;GENERATE_NOTES&#xA;GENERATE_SOURCES&#xA;INDEX_WIDTH&#xA;INDIVIDUALS_PER_FILE&#xA;LANGUAGE&#xA;LIVING_CUTOFF_YEAR&#xA;LIVING_IGNORE_DEATH&#xA;LOCALE&#xA;NOTES_PER_FILE&#xA;NUMBER_OF_DIRECTORIES&#xA;OUTPUT_PROGRAM&#xA;PEDIGREE_DEPTH&#xA;SOURCES_PER_FILE&#xA;STABLE_FILENAMESSURNAME_WIDTH&#xA;UPPER_CASE_SURNAMES&#xA;USE_LOCAL_TIME&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="BACKGROUND_COLOR&#xA;BACKGROUND_IMAGE&#xA;CONT_MEANS_BREAK&#xA;FAMILY_GROUPS&#xA;HOMEPAGE&#xA;INLINE_NOTES&#xA;INLINE_SOURCES&#xA;LINK_COLOR&#xA;MAILTO&#xA;NO_ALPHABET_TABS&#xA;OMIT_META&#xA;TEXT_COLOR&#xA;VISITED_COLOR&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

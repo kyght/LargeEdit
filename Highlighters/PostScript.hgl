@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PostScript" FileType="" Extensions="PS EPS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:postscript.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="()/[\]{}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="control" Enabled="True" Style="" Words="(&#xA;)&#xA;begin&#xA;bind&#xA;def&#xA;defineresource&#xA;defineuserobject&#xA;echo&#xA;end&#xA;exec&#xA;execuserobject&#xA;executive&#xA;executeonly&#xA;exit&#xA;filenameforall&#xA;for&#xA;forall&#xA;if&#xA;ifelse&#xA;loop&#xA;noaccess&#xA;pathforall&#xA;pdfmark&#xA;prompt&#xA;quit&#xA;readonly&#xA;repeat&#xA;resourceforall&#xA;restore&#xA;run&#xA;save&#xA;setglobal&#xA;start&#xA;startjob&#xA;stop&#xA;stopped&#xA;undef&#xA;undefineresource&#xA;undefineuserobject&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="graphics,font" Enabled="True" Style="" Words="arc&#xA;arcn&#xA;arct&#xA;arcto&#xA;ashow&#xA;awidthshow&#xA;charpath&#xA;clip&#xA;clippath&#xA;cliprestore&#xA;clipsave&#xA;closepath&#xA;colorimage&#xA;concat&#xA;concatmatrix&#xA;copypage&#xA;currentblackgeneration&#xA;currentcmykcolor&#xA;currentcolor&#xA;currentcolorrendering&#xA;currentcolorscreen&#xA;currentcolorspace&#xA;currentcolortransfer&#xA;currentdash&#xA;currentflat&#xA;currentgray&#xA;currentgstate&#xA;currenthalftone&#xA;currenthsbcolor&#xA;currentlinecap&#xA;currentlinejoin&#xA;currentlinewidth&#xA;currentmiterlimit&#xA;currentoverprint&#xA;currentpagedevice&#xA;currentpoint&#xA;currentrgbcolor&#xA;currentscreen&#xA;currentsmoothness&#xA;currentstrokeadjust&#xA;currenttransfer&#xA;currentundercolorremoval&#xA;curveto&#xA;composefont&#xA;cshow&#xA;currentfont&#xA;defaultmatrix&#xA;dtransform&#xA;definefont&#xA;eoclip&#xA;eofill&#xA;erasepage&#xA;execform&#xA;fill&#xA;flattenpath&#xA;findencoding&#xA;findfont&#xA;FontDirectory&#xA;grestore&#xA;grestoreall&#xA;gsave&#xA;glyphshow&#xA;GlobalFontDirectory&#xA;idtransform&#xA;ineofill&#xA;infill&#xA;initclip&#xA;initgraphics&#xA;identmatrix&#xA;initmatrix&#xA;instroke&#xA;inueofill&#xA;inufill&#xA;inustroke&#xA;invertmatrix&#xA;image&#xA;imagemask&#xA;ISOLatin1Encoding&#xA;kshow&#xA;lineto&#xA;makepattern&#xA;moveto&#xA;makefont&#xA;newpath&#xA;nulldevice&#xA;pathbox&#xA;rcurveto&#xA;rectclip&#xA;rectfill&#xA;rectstroke&#xA;reversepath&#xA;rlineto&#xA;rmoveto&#xA;rotate&#xA;rootfont&#xA;scale&#xA;setblackgeneration&#xA;setbox&#xA;setcmykcolor&#xA;setcolor&#xA;setcolorrendering&#xA;setcolorscreen&#xA;setcolorspace&#xA;setcolortransfer&#xA;setdash&#xA;setflat&#xA;setgray&#xA;setgstate&#xA;sethalftone&#xA;sethsbcolor&#xA;setlinecap&#xA;setlinejoin&#xA;setlinewidth&#xA;setmatrix&#xA;setmiterlimit&#xA;setoverprint&#xA;setpagedevice&#xA;setpattern&#xA;setrgbcolor&#xA;setscreen&#xA;setsmoothness&#xA;setstrokeadjust&#xA;settransfer&#xA;shfill&#xA;showpage&#xA;stroke&#xA;strokepath&#xA;scalefont&#xA;selectfont&#xA;setcachedevice&#xA;setcachedevice2&#xA;setcharwidth&#xA;setfont&#xA;show&#xA;StandardEncoding&#xA;stringwidth&#xA;transform&#xA;translate&#xA;uappend&#xA;ucache&#xA;ueofill&#xA;ufill&#xA;upath&#xA;ustroke&#xA;ustrokepath&#xA;widthshow&#xA;xshow&#xA;xyshow&#xA;yshow&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="operators,construct,stack,math" Enabled="True" Style="" Words="[&#xA;]&#xA;&lt;&lt;&#xA;&gt;&gt;&#xA;$error&#xA;aload&#xA;anchorsearch&#xA;astore&#xA;array&#xA;abs&#xA;add&#xA;and&#xA;atan&#xA;bitshift&#xA;copy&#xA;currentglobal&#xA;currentobjectformat&#xA;currentpacking&#xA;cvi&#xA;cvlit&#xA;cvn&#xA;cvr&#xA;cvrs&#xA;cvs&#xA;cvx&#xA;currentdict&#xA;currentfile&#xA;currentmatrix&#xA;clear&#xA;cleardictstack&#xA;cleartomark&#xA;copy&#xA;count&#xA;countdictstack&#xA;countexecstack&#xA;counttomark&#xA;ceiling&#xA;cos&#xA;dict&#xA;dictstack&#xA;dup&#xA;div&#xA;errordict&#xA;execstack&#xA;exch&#xA;eq&#xA;exp&#xA;findcolorrendering&#xA;false&#xA;file&#xA;filter&#xA;findresource&#xA;floor&#xA;gcheck&#xA;get&#xA;getinterval&#xA;globaldict&#xA;gstate&#xA;ge&#xA;gt&#xA;index&#xA;idiv&#xA;known&#xA;languagelevel&#xA;length&#xA;load&#xA;le&#xA;ln&#xA;log&#xA;lt&#xA;maxlength&#xA;matrix&#xA;mark&#xA;mod&#xA;mul&#xA;null&#xA;ne&#xA;neg&#xA;not&#xA;product&#xA;put&#xA;putinterval&#xA;packedarray&#xA;pop&#xA;pstack&#xA;rcheck&#xA;realtime&#xA;resourcestatus&#xA;revision&#xA;roll&#xA;rand&#xA;rrand&#xA;round&#xA;search&#xA;serialnumber&#xA;setobjectformat&#xA;setpacking&#xA;store&#xA;statusdict&#xA;string&#xA;systemdict&#xA;stack&#xA;sin&#xA;sqrt&#xA;srand&#xA;sub&#xA;token&#xA;type&#xA;true&#xA;truncate&#xA;usertime&#xA;userdict&#xA;UserObjects&#xA;version&#xA;wcheck&#xA;where&#xA;xcheck&#xA;xor&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="file" Enabled="True" Style="" Words="=&#xA;==&#xA;bytesavailable&#xA;closefile&#xA;deletefile&#xA;fileposition&#xA;flush&#xA;flushfile&#xA;print&#xA;printobject&#xA;read&#xA;readhexstring&#xA;readline&#xA;readstring&#xA;renamefile&#xA;resetfile&#xA;status&#xA;write&#xA;writehexstring&#xA;writeobject&#xA;writestring&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks %%" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings %..%" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%" Close="%"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

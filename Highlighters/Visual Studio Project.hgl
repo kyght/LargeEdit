@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Studio Project" FileType="" Extensions="vbproj" Version="1" Revision="0" Sample=" &lt;VisualStudioProject&gt;&#xA;    &lt;VisualBasic&#xA;        ProjectType = &quot;Local&quot;&#xA;        ProductVersion = &quot;7.0.9254&quot;&#xA;        SchemaVersion = &quot;1.0&quot;&#xA;    &gt;&#xA;        &lt;Build&gt;&#xA;            &lt;Settings&#xA;                ApplicationIcon = &quot;&quot;&#xA;                AssemblyKeyContainerName = &quot;&quot;&#xA;                AssemblyName = &quot;VehicleDemoBaseClient&quot;&#xA;                AssemblyOriginatorKeyFile = &quot;&quot;&#xA;                AssemblyOriginatorKeyMode = &quot;None&quot;&#xA;                DefaultClientScript = &quot;JScript&quot;&#xA;                DefaultHTMLPageLayout = &quot;Flow&quot;&#xA;                DefaultTargetSchema = &quot;IE32Nav30&quot;&#xA;                DelaySign = &quot;false&quot;&#xA;                OutputType = &quot;WinExe&quot;&#xA;                OptionCompare = &quot;Binary&quot;&#xA;                OptionExplicit = &quot;On&quot;&#xA;                OptionStrict = &quot;Off&quot;&#xA;                RootNamespace = &quot;VehicleDemoBaseClient&quot;&#xA;                StartupObject = &quot;VehicleDemoBaseClient.Form1&quot;&#xA;            &gt;&#xA;                &lt;Config&#xA;                    Name = &quot;Debug&quot;&#xA;                    BaseAddress = &quot;0&quot;&#xA;                    ConfigurationOverrideFile = &quot;&quot;&#xA;                    DefineConstants = &quot;&quot;&#xA;                    DefineDebug = &quot;true&quot;&#xA;                    DefineTrace = &quot;true&quot;&#xA;                    DebugSymbols = &quot;true&quot;&#xA;                    IncrementalBuild = &quot;true&quot;&#xA;                    Optimize = &quot;false&quot;&#xA;                    OutputPath = &quot;bin\&quot;&#xA;                    RegisterForComInterop = &quot;false&quot;&#xA;                    RemoveIntegerChecks = &quot;false&quot;&#xA;                    TreatWarningsAsErrors = &quot;false&quot;&#xA;                    WarningLevel = &quot;1&quot;&#xA;                /&gt;&#xA;                &lt;Config&#xA;                    Name = &quot;Release&quot;&#xA;                    BaseAddress = &quot;0&quot;&#xA;                    ConfigurationOverrideFile = &quot;&quot;&#xA;                    DefineConstants = &quot;&quot;&#xA;                    DefineDebug = &quot;false&quot;&#xA;                    DefineTrace = &quot;true&quot;&#xA;                    DebugSymbols = &quot;false&quot;&#xA;                    IncrementalBuild = &quot;true&quot;&#xA;                    Optimize = &quot;false&quot;&#xA;                    OutputPath = &quot;bin\&quot;&#xA;                    RegisterForComInterop = &quot;false&quot;&#xA;                    RemoveIntegerChecks = &quot;false&quot;&#xA;                    TreatWarningsAsErrors = &quot;false&quot;&#xA;                    WarningLevel = &quot;1&quot;&#xA;                /&gt;&#xA;            &lt;/Settings&gt;&#xA;            &lt;References&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;System&quot;&#xA;                    AssemblyName = &quot;System&quot;&#xA;                /&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;System.Drawing&quot;&#xA;                    AssemblyName = &quot;System.Drawing&quot;&#xA;                /&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;System.Data&quot;&#xA;                    AssemblyName = &quot;System.Data&quot;&#xA;                /&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;VehicleDemoBO&quot;&#xA;                    Project = &quot;{79FD7157-F603-4570-8C03-64A887F4728B}&quot;&#xA;                    Package = &quot;{F184B08F-C81C-45F6-A57F-5ABD9991F28F}&quot;&#xA;                /&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;SYSTEM.WINDOWS.FORMS&quot;&#xA;                    AssemblyName = &quot;System.Windows.Forms&quot;&#xA;                /&gt;&#xA;                &lt;Reference&#xA;                    Name = &quot;System.XML&quot;&#xA;                    AssemblyName = &quot;System.Xml&quot;&#xA;                /&gt;&#xA;            &lt;/References&gt;&#xA;            &lt;Imports&gt;&#xA;                &lt;Import Namespace = &quot;Microsoft.VisualBasic&quot; /&gt;&#xA;                &lt;Import Namespace = &quot;System&quot; /&gt;&#xA;                &lt;Import Namespace = &quot;System.Data&quot; /&gt;&#xA;                &lt;Import Namespace = &quot;System.Collections&quot; /&gt;&#xA;                &lt;Import Namespace = &quot;System.Configuration&quot; /&gt;&#xA;                &lt;Import Namespace = &quot;System.Diagnostics&quot; /&gt;&#xA;            &lt;/Imports&gt;&#xA;        &lt;/Build&gt;&#xA;        &lt;Files&gt;&#xA;            &lt;Include&gt;&#xA;                &lt;File&#xA;                    RelPath = &quot;frmMain.vb&quot;&#xA;                    SubType = &quot;Form&quot;&#xA;                    BuildAction = &quot;Compile&quot;&#xA;                /&gt;&#xA;                &lt;File&#xA;                    RelPath = &quot;frmMain.resx&quot;&#xA;                    DependentUpon = &quot;frmMain.vb&quot;&#xA;                    BuildAction = &quot;EmbeddedResource&quot;&#xA;                /&gt;&#xA;                &lt;File&#xA;                    RelPath = &quot;licenses.licx&quot;&#xA;                    BuildAction = &quot;Content&quot;&#xA;                /&gt;&#xA;            &lt;/Include&gt;&#xA;        &lt;/Files&gt;&#xA;    &lt;/VisualBasic&gt;&#xA;&lt;/VisualStudioProject&gt;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Main" Enabled="True" Style="" Words="&lt;VisualStudioProject&gt;&#xA;&lt;/VisualStudioProject&gt;&#xA;&lt;VisualBasic&#xA;&lt;/VisualBasic&gt;&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Sections" Enabled="True" Style="" Words="&lt;Build&gt;&#xA;&lt;Settings&#xA;&lt;Config&#xA;&lt;/Settings&gt;&#xA;&lt;References&gt;&#xA;&lt;Reference&#xA;&lt;/References&gt;&#xA;&lt;Imports&gt;&#xA;&lt;Import&#xA;&lt;/Imports&gt;&#xA;&lt;/Build&gt;&#xA;&lt;Files&gt;&#xA;&lt;Include&gt;&#xA;&lt;File&#xA;&lt;/Include&gt;&#xA;&lt;/Files&gt;&#xA;/&gt;&#xA;&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

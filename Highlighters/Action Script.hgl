@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Action Script" FileType="" Extensions="AS" Version="1" Revision="0" Sample="&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Basic Actions" Enabled="True" Style="" Words="fscommand&#xA;getURL&#xA;gotoAndPlay&#xA;gotoAndStop&#xA;ifFrameLoaded&#xA;loadMovieNum&#xA;on&#xA;play&#xA;stop&#xA;stopAllSounds&#xA;tellTarget&#xA;toggleHighQuality&#xA;unloadMovieNum&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Mouse Events" Enabled="True" Style="" Words="dragOut&#xA;dragOver&#xA;keyPress&#xA;press&#xA;release&#xA;releaseOutside&#xA;rollOut&#xA;rollOver&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FS Commands" Enabled="True" Style="" Words="fullscreen&#xA;allowscale&#xA;showmenu&#xA;trapallkeys&#xA;exec&#xA;quit&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Actions" Enabled="True" Style="" Words="break&#xA;call&#xA;continue&#xA;delete&#xA;do&#xA;duplicateMovieClip&#xA;else&#xA;for&#xA;function&#xA;if&#xA;in&#xA;include&#xA;loadVariablesNum&#xA;printNum&#xA;removeMovieClip&#xA;return&#xA;setProperty&#xA;startDrag&#xA;stopDrag&#xA;trace&#xA;var&#xA;while&#xA;with&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="escape&#xA;eval&#xA;falsegetProperty&#xA;getTimer&#xA;getVersion&#xA;int&#xA;isFinite&#xA;isNaN&#xA;maxscrollnewlineNumber&#xA;parseFloat&#xA;parseInt&#xA;random&#xA;scrollString&#xA;targetPath&#xA;trueunescape&#xA;updateAfterEvent&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Properties" Enabled="True" Style="" Words="_alpha&#xA;_currentframe&#xA;_droptarget&#xA;_focusrect&#xA;_framesloaded&#xA;_height&#xA;_highquality&#xA;_name&#xA;_quality&#xA;_rotation&#xA;_soundbuf&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Objects" Enabled="True" Style="" Words="Array&#xA;Boolean&#xA;Color&#xA;Date&#xA;Key&#xA;Math&#xA;Mouse&#xA;MovieClip&#xA;Number&#xA;Object&#xA;Selection&#xA;Sound&#xA;String&#xA;XML&#xA;XMLSocket&#xA;">
+          <Attributes Foreground="$00004080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;amp;amp;qt;..&amp;amp;amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

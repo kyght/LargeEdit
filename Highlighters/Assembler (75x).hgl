@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Asm 75x" FileType="" Extensions="A75" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asm75.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#%&amp;()*,./&lt;=&gt;?[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="addc&#xA;adds&#xA;and&#xA;and1&#xA;br&#xA;bra&#xA;brcb&#xA;brk&#xA;call&#xA;calla&#xA;callf&#xA;clr1&#xA;decs&#xA;di&#xA;ei&#xA;eq&#xA;ge&#xA;geti&#xA;gt&#xA;halt&#xA;high&#xA;in&#xA;incs&#xA;low&#xA;lt&#xA;mod&#xA;mov&#xA;mov1&#xA;movt&#xA;ne&#xA;nop&#xA;not&#xA;or&#xA;or1&#xA;out&#xA;out3&#xA;pop&#xA;push&#xA;ret&#xA;reti&#xA;rets&#xA;rolc&#xA;rorc&#xA;sel&#xA;sel1&#xA;shl&#xA;shr&#xA;ske&#xA;skf&#xA;skt&#xA;sktclr&#xA;stop&#xA;subc&#xA;subs&#xA;xch&#xA;xor&#xA;xor1&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="cseg&#xA;db&#xA;dbit&#xA;ds&#xA;dseg&#xA;dw&#xA;end&#xA;equ&#xA;extrn&#xA;name&#xA;org&#xA;public&#xA;set&#xA;stkln&#xA;tbr&#xA;tcall&#xA;vent0&#xA;vent1&#xA;vent2&#xA;vent3&#xA;vent4&#xA;vent5&#xA;vent6&#xA;vent7&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="$&#xA;endm&#xA;exitm&#xA;global&#xA;irp&#xA;irpc&#xA;macro&#xA;rept&#xA;stack&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="@bcde&#xA;@bcxa&#xA;@de&#xA;@dl&#xA;@hl&#xA;@hl-&#xA;@hl+&#xA;@pcde&#xA;@pcxa&#xA;a&#xA;b&#xA;bc&#xA;bc'&#xA;bcde&#xA;bcxa&#xA;c&#xA;cy&#xA;d&#xA;de&#xA;de'&#xA;e&#xA;h&#xA;hl&#xA;hl'&#xA;hl-&#xA;hl+&#xA;l&#xA;mb0&#xA;mb1&#xA;mb10&#xA;mb11&#xA;mb12&#xA;mb13&#xA;mb14&#xA;mb15&#xA;mb2&#xA;mb3&#xA;mb4&#xA;mb5&#xA;mb6&#xA;mb7&#xA;mb8&#xA;mb9&#xA;pcde&#xA;pcxa&#xA;rb0&#xA;rb1&#xA;rb10&#xA;rb11&#xA;rb12&#xA;rb13&#xA;rb14&#xA;rb15&#xA;rb2&#xA;rb3&#xA;rb4&#xA;rb5&#xA;rb6&#xA;rb7&#xA;rb8&#xA;rb9&#xA;x&#xA;xa&#xA;xa'&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="ackd&#xA;acke&#xA;ackt&#xA;adm&#xA;bp0&#xA;bp1&#xA;bp2&#xA;bp3&#xA;bp4&#xA;bp5&#xA;bp6&#xA;bp7&#xA;bs&#xA;bsb0&#xA;bsb1&#xA;bsb2&#xA;bsb3&#xA;bsye&#xA;bt&#xA;btm&#xA;clom&#xA;cmdd&#xA;cmdt&#xA;coi&#xA;csie&#xA;csie0&#xA;csie1&#xA;csim&#xA;csim0&#xA;csim1&#xA;dace0&#xA;dace1&#xA;dacs0&#xA;dacs1&#xA;digs&#xA;dims&#xA;dspm&#xA;eoc&#xA;eot&#xA;ewc&#xA;ewe&#xA;ewp&#xA;ewst&#xA;gatec&#xA;ie&#xA;ie1&#xA;ie2&#xA;ie3&#xA;ie4&#xA;iebt&#xA;iebwt&#xA;iecsi&#xA;iecsio&#xA;ieee&#xA;ieks&#xA;iemft&#xA;iemt0&#xA;iemt1&#xA;ieow&#xA;iesio&#xA;iet0&#xA;iet1&#xA;ietpg&#xA;iew&#xA;im0&#xA;im1&#xA;im2&#xA;ips&#xA;irq1&#xA;irq2&#xA;irq3&#xA;irq4&#xA;irqbt&#xA;irqbwt&#xA;irqcsi&#xA;irqcsio&#xA;irqee&#xA;irqks&#xA;irqmft&#xA;irqmt0&#xA;irqmt1&#xA;irqow&#xA;irqsio&#xA;irqt0&#xA;irqt1&#xA;irqtpg&#xA;irqw&#xA;ist0&#xA;ist1&#xA;kr0&#xA;kr1&#xA;kr2&#xA;kr3&#xA;kr4&#xA;kr5&#xA;kr6&#xA;kr7&#xA;ks0&#xA;ks1&#xA;ks2&#xA;ksf&#xA;lcdc&#xA;lcdm&#xA;lps&#xA;mbe&#xA;mbs&#xA;mftc&#xA;mfth&#xA;mftl&#xA;mftm&#xA;modh&#xA;modl&#xA;mt0&#xA;mt1&#xA;mtm0&#xA;mtm1&#xA;mtoe0&#xA;mtoe1&#xA;mtof0&#xA;mtof1&#xA;pcc&#xA;pdgb&#xA;pmga&#xA;pmgb&#xA;pmgc&#xA;pmgd&#xA;pmge&#xA;poga&#xA;pogb&#xA;pogc&#xA;pogd&#xA;ponf&#xA;port0&#xA;port1&#xA;port10&#xA;port11&#xA;port12&#xA;port13&#xA;port14&#xA;port15&#xA;port16&#xA;port17&#xA;port18&#xA;port19&#xA;port2&#xA;port20&#xA;port3&#xA;port4&#xA;port5&#xA;port6&#xA;port7&#xA;port8&#xA;port9&#xA;porth&#xA;psw&#xA;pth0&#xA;pth1&#xA;pthm&#xA;rbe&#xA;rbs&#xA;reld&#xA;reload&#xA;relt&#xA;sa&#xA;sbs&#xA;scc&#xA;segex&#xA;sio&#xA;sio0&#xA;sio1&#xA;siom&#xA;soc&#xA;sp&#xA;stata&#xA;statb&#xA;sva&#xA;t0&#xA;t1&#xA;tbc0&#xA;tbc4&#xA;tbc8&#xA;tbcm&#xA;tgc&#xA;tgm&#xA;tgs&#xA;ti0&#xA;ti1&#xA;tm0&#xA;tm1&#xA;tmod0&#xA;tmod1&#xA;to0&#xA;to1&#xA;toe0&#xA;toe1&#xA;tof0&#xA;tof1&#xA;tpgm&#xA;wdtm&#xA;wm&#xA;wup&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

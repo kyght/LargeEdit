@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="ARM Assembler" FileType="" Extensions="s arm" Version="1" Revision="0" Sample=""/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:arm.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Branch" Enabled="True" Style="" Words="B&#xA;BL&#xA;BLX&#xA;BX&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Data-Processing" Enabled="True" Style="" Words="ADC&#xA;ADD&#xA;AND&#xA;ASL&#xA;ASR&#xA;BIC&#xA;CMN&#xA;CMP&#xA;EOR&#xA;LSL&#xA;LSR&#xA;MOV&#xA;MVN&#xA;NEG&#xA;ORR&#xA;ROR&#xA;RRX&#xA;RSB&#xA;RSC&#xA;SBC&#xA;SUB&#xA;TEQ&#xA;TST&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Multiply" Enabled="True" Style="" Words="MLA&#xA;MUL&#xA;SMLAL&#xA;SMULL&#xA;UMLAL&#xA;UMULL&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Load and Store" Enabled="True" Style="" Words="LDM&#xA;LDR&#xA;POP&#xA;PUSH&#xA;STM&#xA;STR&#xA;SWP&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Exception" Enabled="True" Style="" Words="BKPT&#xA;SWI&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Miscellaneous" Enabled="True" Style="" Words="CDP&#xA;CLZ&#xA;LDC&#xA;MCR&#xA;MRC&#xA;MRS&#xA;MSR&#xA;STC&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="ADDRESS&#xA;ADR&#xA;ALIGN&#xA;AREA&#xA;ASSERT&#xA;BRK&#xA;CN&#xA;CODE16&#xA;CODE32&#xA;COND&#xA;CP&#xA;DATA&#xA;DC&#xA;DIV&#xA;DN&#xA;ELSE&#xA;END&#xA;ENDFUNC&#xA;ENDIF&#xA;ENDP&#xA;ENTRY&#xA;EQU&#xA;EXPORT&#xA;EXT&#xA;EXTERN&#xA;FIELD&#xA;FILE&#xA;FILL&#xA;FLD&#xA;FN&#xA;FRAME&#xA;FUNCTION&#xA;GBL&#xA;GET&#xA;GLOBAL&#xA;HEAD&#xA;IF&#xA;IMPORT&#xA;INCBIN&#xA;INCLUDE&#xA;INFO&#xA;KEEP&#xA;LCL&#xA;LDF&#xA;LTORG&#xA;MACRO&#xA;MAP&#xA;MEND&#xA;MEXIT&#xA;NOFP&#xA;NOP&#xA;OPT&#xA;ORG&#xA;POP&#xA;PROC&#xA;PUSH&#xA;REGISTER&#xA;REMEMBER&#xA;REQUIRE&#xA;RESTORE&#xA;RLIST&#xA;RN&#xA;ROUT&#xA;SAVE&#xA;SCALAR&#xA;SET&#xA;SMLA&#xA;SMUL&#xA;SN&#xA;SPACE&#xA;SQR&#xA;STATE&#xA;STF&#xA;SUBT&#xA;SWAP&#xA;TTL&#xA;UMLA&#xA;UMUL&#xA;VDU&#xA;VECTOR&#xA;VFPASSERT&#xA;WEND&#xA;WHILE&#xA;">
+          <Attributes Foreground="$00C08080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="A1&#xA;A2&#xA;A3&#xA;A4&#xA;F0&#xA;F1&#xA;F2&#xA;F3&#xA;F4&#xA;F5&#xA;F6&#xA;F7&#xA;FP&#xA;IP&#xA;LR&#xA;PC&#xA;R0&#xA;R1&#xA;R10&#xA;R11&#xA;R12&#xA;R13&#xA;R14&#xA;R15&#xA;R2&#xA;R3&#xA;R4&#xA;R5&#xA;R6&#xA;R7&#xA;R8&#xA;R9&#xA;SL&#xA;SP&#xA;V1&#xA;V2&#xA;V3&#xA;V4&#xA;V5&#xA;V6&#xA;">
+          <Attributes Foreground="clGray" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks \" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="\"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

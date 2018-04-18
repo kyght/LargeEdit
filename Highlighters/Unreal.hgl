@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Unreal Script" FileType="" Extensions="" Version="1" Revision="0" Sample="//----Comment-----------------------------------------------------------&#xA;class TestObject expands Object;&#xA;&#xA;#exec MESH    IMPORT     MESH=Something ANIVFILE=MODELS\Something.3D DATAFILE=MODELS\Something.3D X=0 Y=0 Z=0 MLOD=0&#xA;&#xA;var() Sound HitSound;&#xA;&#xA;state SomeState {&#xA;function Cast()&#xA;        {&#xA;          Super.Cast();&#xA;          CastTime = 50;&#xA;          GatherEffect = Spawn( class'SomethingCorona',,, GetStartLoc(), Pawn(Owner).ViewRotation );&#xA;          GatherEffect.SetFollowPawn( Pawn(Owner) );&#xA;        }&#xA;}&#xA;&#xA;class ex_state3 extends Actor;&#xA;&#xA;function PostBeginPlay() {&#xA;  BroadcastMessage(&quot;PostBeginPlay called&quot;);&#xA;  SetTimer(3.0,True);&#xA;}&#xA;&#xA;// Weapon fire that goes through wall&#xA;var() float Thick;&#xA;&#xA;function TraceFire( float Accuracy ) {&#xA;    local vector HitLocation, HitNormal, StartTrace, EndTrace, X,Y,Z;&#xA;    local actor Other;&#xA;    local Pawn PawnOwner;&#xA;    local float Penetration;&#xA;    PawnOwner = Pawn(Owner);&#xA;    Owner.MakeNoise(PawnOwner.SoundDampening);&#xA;    GetAxes(PawnOwner.ViewRotation,X,Y,Z);&#xA;}&#xA;&#xA;defaultproperties {&#xA;    Thick=20.0&#xA;    PawnThick=36.0&#xA;}&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Translated from SynHighlighterUnreal.pas"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clNone" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="IF&#xA;EACH&#xA;DO&#xA;CASE&#xA;NAME&#xA;CATCH&#xA;BREAK&#xA;EXEC&#xA;DOT&#xA;FOR&#xA;SCALE&#xA;ELSE&#xA;VAR&#xA;GUID&#xA;FINAL&#xA;SELF&#xA;NEW&#xA;INT&#xA;LOCAL&#xA;FALSE&#xA;BOOL&#xA;MESH&#xA;LONG&#xA;NONE&#xA;PLANE&#xA;GLOBAL&#xA;MODEL&#xA;COERCE&#xA;VOID&#xA;DELETE&#xA;BYTE&#xA;ENUM&#xA;CLASS&#xA;CONFIG&#xA;FLOAT&#xA;SKIP&#xA;OUT&#xA;FOREACH&#xA;THIS&#xA;AUTO&#xA;GOTO&#xA;WHILE&#xA;COLOR&#xA;TRUE&#xA;RELIABLE&#xA;STATE&#xA;EVENT&#xA;DEFAULT&#xA;CONST&#xA;NATIVE&#xA;LATENT&#xA;STATIC&#xA;SOUND&#xA;CROSS&#xA;MUTABLE&#xA;COORDS&#xA;SUPER&#xA;SWITCH&#xA;EXPANDS&#xA;VECTOR&#xA;ABSTRACT&#xA;LOCALIZED&#xA;STRING&#xA;EXTENDS&#xA;PRIVATE&#xA;RETURN&#xA;EXPLICIT&#xA;UNRELIABLE&#xA;HIDEPARENT&#xA;CONTINUE&#xA;REGISTER&#xA;STRUCT&#xA;SINGULAR&#xA;FUNCTION&#xA;OPTIONAL&#xA;GLOBALCONFIG&#xA;SIMULATED&#xA;ITERATOR&#xA;PROTECTED&#xA;ROTATOR&#xA;OPERATOR&#xA;EDITCONST&#xA;TEXTURE&#xA;INTRINSIC&#xA;TRANSIENT&#xA;REPLICATION&#xA;NOEXPORT&#xA;BOUNDINGBOX&#xA;PREOPERATOR&#xA;SCRIPTCONST&#xA;BOUNDINGVOLUME&#xA;POSTOPERATOR&#xA;NATIVEREPLICATION&#xA;DEFAULTPROPERTIES&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Resolution" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="::"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

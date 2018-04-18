@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SMIL" FileType="" Extensions="SMI SMIL RAM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:smil.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="&lt;a&#xA;&lt;/a&gt;&#xA;&lt;anchor&#xA;&lt;anchor&gt;&#xA;&lt;/anchor&gt;&#xA;&lt;animation&gt;&#xA;&lt;/animation&gt;&#xA;&lt;audio&#xA;&lt;audio&gt;&#xA;&lt;/audio&gt;&#xA;&lt;body&gt;&#xA;&lt;/body&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;img&gt;&#xA;&lt;img&gt;&#xA;&lt;layout&#xA;&lt;layout&gt;&#xA;&lt;/layout&gt;&#xA;&lt;meta&#xA;&#xA;&lt;par&gt;&#xA;&lt;/par&gt;&#xA;&lt;ref&gt;&#xA;&lt;/ref&gt;&#xA;&lt;region&#xA;&lt;root-layout&#xA;&lt;seq&gt;&#xA;&lt;/seq&gt;&#xA;&lt;smil&gt;&#xA;&lt;/smil&gt;&#xA;&lt;switch&gt;&#xA;&lt;switch&gt;&#xA;&lt;/switch&gt;&#xA;&lt;text&#xA;&lt;text&gt;&#xA;&lt;/text&gt;&#xA;&lt;textstream&gt;&#xA;&lt;/textstream&gt;&#xA;&lt;video&#xA;&lt;video&gt;&#xA;&lt;/video&gt;&#xA;//&#xA;/&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="abstract=&#xA;alt=&#xA;anchor=&#xA;author=&#xA;background-color=&#xA;base=&#xA;begin=&#xA;clip-begin=&#xA;clip-end=&#xA;clock-val=&#xA;content=&#xA;coords=&#xA;copyright=&#xA;dur=&#xA;end=&#xA;endsync=&#xA;fill=&#xA;height=&#xA;href=&#xA;id=&#xA;longdesc=&#xA;name=&#xA;pics-label=&#xA;PICS-label=&#xA;region=&#xA;repeat=&#xA;show=&#xA;skip-content=&#xA;src=&#xA;system-bitrate=&#xA;system-captions=&#xA;system-language=&#xA;system-overdub-or-caption=&#xA;system-required=&#xA;system-screen-size=&#xA;system-screen-depth=&#xA;title=&#xA;type=&#xA;width=&#xA;=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!--../--&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="/--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

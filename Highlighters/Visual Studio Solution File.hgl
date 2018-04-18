@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Visual Studio Solution" FileType="" Extensions="" Version="1" Revision="0" Sample="Microsoft Visual Studio Solution File, Format Version 7.00&#xA;Project(&quot;{F184B08F-C81C-45F6-A57F-5ABD9991F28F}&quot;) = &quot;VehicleSampleBO&quot;, &quot;VehicleBO\VehicleSampleBO.vbproj&quot;, &quot;{79FD7157-F603-4570-8C03-64A887F4728B}&quot;&#xA;EndProject&#xA;Project(&quot;{F184B08F-C81C-45F6-A57F-5ABD9991F28F}&quot;) = &quot;VehicleSampleBaseClient&quot;, &quot;VehicleSampleBaseClient\VehicleSampleBaseClient.vbproj&quot;, &quot;{7D9714BC-31AB-4265-81D0-37421E2021D5}&quot;&#xA;EndProject&#xA;Global&#xA;        GlobalSection(SolutionConfiguration) = preSolution&#xA;		ConfigName.0 = Debug&#xA;		ConfigName.1 = Release&#xA;	EndGlobalSection&#xA;	GlobalSection(ProjectDependencies) = postSolution&#xA;	EndGlobalSection&#xA;	GlobalSection(ProjectConfiguration) = postSolution&#xA;		{79FD7157-F603-4570-8C03-64A887F4728B}.Debug.ActiveCfg = Debug|.NET&#xA;		{79FD7157-F603-4570-8C03-64A887F4728B}.Debug.Build.0 = Debug|.NET&#xA;		{79FD7157-F603-4570-8C03-64A887F4728B}.Release.ActiveCfg = Release|.NET&#xA;		{79FD7157-F603-4570-8C03-64A887F4728B}.Release.Build.0 = Release|.NET&#xA;		{7D9714BC-31AB-4265-81D0-37421E2021D5}.Debug.ActiveCfg = Debug|.NET&#xA;		{7D9714BC-31AB-4265-81D0-37421E2021D5}.Debug.Build.0 = Debug|.NET&#xA;		{7D9714BC-31AB-4265-81D0-37421E2021D5}.Release.ActiveCfg = Release|.NET&#xA;		{7D9714BC-31AB-4265-81D0-37421E2021D5}.Release.Build.0 = Release|.NET&#xA;	EndGlobalSection&#xA;	GlobalSection(ExtensibilityGlobals) = postSolution&#xA;	EndGlobalSection&#xA;	GlobalSection(ExtensibilityAddIns) = postSolution&#xA;	EndGlobalSection&#xA;EndGlobal&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Title" Enabled="True" Style="" Words="Microsoft Visual Studio Solution File, Format Version 7.00&#xA;">
+          <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="Project&#xA;EndProject&#xA;Global&#xA;GlobalSection&#xA;EndGlobalSection&#xA;EndGlobal&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Versions" Enabled="True" Style="" Words="Debug&#xA;.NET&#xA;Release&#xA;postSolution&#xA;preSolution&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="CLSID" Enabled="True" CaseSensitive="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="{" Close="}"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="CLSID" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

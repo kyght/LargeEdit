@@ -1,0 +1,10 @@
+[CodeProposal]
+InsertList=C:\src\LargeEdit6\ComProSQL.cin
+ItemList=C:\src\LargeEdit6\ComProSQL.cit
+Title=SQL Code Completion
+Match=1
+CaseSen=0
+Triggers=  $SPACE$
+Timer=1000
+Tokens=()[].
+Language=SQL

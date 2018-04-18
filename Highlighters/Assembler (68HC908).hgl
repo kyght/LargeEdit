@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="" FileType="" Extensions="" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Group1" Enabled="True" Style="" Words="ADC&#xA;ADD&#xA;AIS&#xA;AIX&#xA;AND&#xA;ASL&#xA;ASLA&#xA;ASLX&#xA;ASR&#xA;ASRA&#xA;ASRX&#xA;BCC&#xA;BCLR&#xA;BCS&#xA;BEQ&#xA;BGE&#xA;BGT&#xA;BHCC&#xA;BHCS&#xA;BHI&#xA;BHS&#xA;BIH&#xA;BIL&#xA;BIT&#xA;BLE&#xA;BLO&#xA;BLS&#xA;BLT&#xA;BMC&#xA;BMI&#xA;BMS&#xA;BNE&#xA;BPL&#xA;BRA&#xA;BRCLR&#xA;BRN&#xA;BRSET&#xA;BSET&#xA;BSR&#xA;CBEQ&#xA;CBEQA&#xA;CBEQX&#xA;CLC&#xA;CLI&#xA;CLR&#xA;CLRA&#xA;CLRH&#xA;CLRX&#xA;CMP&#xA;COM&#xA;COMA&#xA;COMX&#xA;CPHX&#xA;CPX&#xA;DAA&#xA;DBNZ&#xA;DBNZA&#xA;DBNZXDEC&#xA;DECA&#xA;DECX&#xA;DIV&#xA;EOR&#xA;INC&#xA;INCA&#xA;INCX&#xA;JMP&#xA;JSR&#xA;LDA&#xA;LDHX&#xA;LDX&#xA;LSL&#xA;LSLA&#xA;LSLX&#xA;LSR&#xA;LSRA&#xA;LSRX&#xA;MOV&#xA;MUL&#xA;NEG&#xA;NOP&#xA;NSA&#xA;ORA&#xA;PSHA&#xA;PSHH&#xA;PSHX&#xA;PULA&#xA;PULH&#xA;PULX&#xA;ROL&#xA;ROLA&#xA;ROLX&#xA;ROR&#xA;RORA&#xA;RORX&#xA;RSP&#xA;RTI&#xA;RTS&#xA;SBC&#xA;SEC&#xA;SEI&#xA;STA&#xA;STHX&#xA;STOP&#xA;STX&#xA;SUB&#xA;SWI&#xA;TAP&#xA;TAX&#xA;TPA&#xA;TST&#xA;TSTA&#xA;TSX&#xA;TXA&#xA;TXS&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Group2" Enabled="True" Style="" Words="ADCLK&#xA;ADR&#xA;ADSCR&#xA;BFCR&#xA;BRKH&#xA;BRKL&#xA;BSCR&#xA;CONFIG1&#xA;CONFIG2&#xA;DDRA&#xA;DDRB&#xA;DDRD&#xA;FLCR&#xA;FLSPR&#xA;FLTCR&#xA;INT1&#xA;INT2&#xA;INT3&#xA;INTKBIER&#xA;INTKBSR&#xA;INTSCR&#xA;KBIER&#xA;KBSCR&#xA;PDCR&#xA;PORTA&#xA;PORTB&#xA;PORTD&#xA;PTA&#xA;PTAUE&#xA;PTB&#xA;PTD&#xA;RSR&#xA;TCH0H&#xA;TCH0L&#xA;TCH1H&#xA;TCH1L&#xA;TCNTH&#xA;TCNTL&#xA;TMODH&#xA;TMODL&#xA;TSC&#xA;TSC0&#xA;TSC1&#xA;X&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Group3" Enabled="True" Style="" Words="FCB FCC FDB&#xA;DB DS DW&#xA;EQU ENDM&#xA;MACRO&#xA;ORG&#xA;SETDP&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks *" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="#" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="String" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

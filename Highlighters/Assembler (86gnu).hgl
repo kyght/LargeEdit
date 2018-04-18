@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="GNU Assembler x86" FileType="" Extensions="S s" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asm86gnu.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$&amp;'*+,/:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Instructions" Enabled="True" Style="" Words="aaa&#xA;aad&#xA;aam&#xA;aas&#xA;adc&#xA;add&#xA;addb&#xA;addw&#xA;and&#xA;arpl&#xA;bound&#xA;bsf&#xA;bsr&#xA;bswap&#xA;bt&#xA;btc&#xA;btr&#xA;bts&#xA;call&#xA;callw&#xA;cbw&#xA;cdq&#xA;clc&#xA;cld&#xA;cli&#xA;clts&#xA;cmc&#xA;cmov&#xA;cmp&#xA;cmpb&#xA;cmpw&#xA;cmps&#xA;cmpsb&#xA;cmpsd&#xA;cmpsw&#xA;cmpxchg&#xA;cmpxchg8b&#xA;cpuid&#xA;cwd&#xA;cwde&#xA;daa&#xA;das&#xA;dec&#xA;decb&#xA;decw&#xA;div&#xA;enter&#xA;esc&#xA;hlt&#xA;idiv&#xA;imul&#xA;in&#xA;inc&#xA;incb&#xA;incw&#xA;ins&#xA;insb&#xA;insd&#xA;insw&#xA;int&#xA;into&#xA;invd&#xA;invlpg&#xA;invoke&#xA;iret&#xA;iretd&#xA;ja&#xA;jae&#xA;jb&#xA;jbe&#xA;jc&#xA;jcxz&#xA;je&#xA;jecxz&#xA;jg&#xA;jge&#xA;jl&#xA;jle&#xA;jmp&#xA;jna&#xA;jnae&#xA;jnb&#xA;jnbe&#xA;jnc&#xA;jne&#xA;jng&#xA;jnge&#xA;jnl&#xA;jnle&#xA;jno&#xA;jnp&#xA;jns&#xA;jnz&#xA;jo&#xA;jp&#xA;jpe&#xA;jpo&#xA;js&#xA;jz&#xA;lahf&#xA;lar&#xA;lds&#xA;lea&#xA;leave&#xA;les&#xA;lfs&#xA;lgdt&#xA;lgs&#xA;lidt&#xA;lldt&#xA;lmsw&#xA;lock&#xA;lods&#xA;lodsb&#xA;lodsd&#xA;lodsw&#xA;loop&#xA;loope&#xA;loopne&#xA;loopnz&#xA;loopz&#xA;lsl&#xA;lss&#xA;ltr&#xA;mov&#xA;movb&#xA;movs&#xA;movsb&#xA;movsd&#xA;movsw&#xA;movsx&#xA;movw&#xA;movzx&#xA;mul&#xA;neg&#xA;nop&#xA;not&#xA;oio&#xA;or&#xA;orb&#xA;out&#xA;outs&#xA;outsb&#xA;outsd&#xA;outsw&#xA;pop&#xA;popa&#xA;popb&#xA;popad&#xA;popf&#xA;popfd&#xA;popw&#xA;push&#xA;pusha&#xA;phsub&#xA;pushad&#xA;pushf&#xA;pushfd&#xA;pushw&#xA;rcl&#xA;rcr&#xA;rdmsr&#xA;rdtsc&#xA;rep&#xA;repe&#xA;repne&#xA;repnz&#xA;repz&#xA;ret&#xA;retw&#xA;retf&#xA;retn&#xA;rol&#xA;ror&#xA;rsdc&#xA;rsldt&#xA;rsm&#xA;rsts&#xA;sahf&#xA;sal&#xA;sar&#xA;sbb&#xA;scas&#xA;scasb&#xA;scasd&#xA;scasw&#xA;seta&#xA;setae&#xA;setb&#xA;setbe&#xA;setc&#xA;sete&#xA;setg&#xA;setge&#xA;setl&#xA;setle&#xA;setna&#xA;setnae&#xA;setnb&#xA;setnc&#xA;setne&#xA;setng&#xA;setnge&#xA;setnl&#xA;setnle&#xA;setno&#xA;setnp&#xA;setns&#xA;setnz&#xA;seto&#xA;setp&#xA;setpe&#xA;setpo&#xA;sets&#xA;setz&#xA;sgdt&#xA;shl&#xA;shld&#xA;shr&#xA;shrd&#xA;sidt&#xA;sldt&#xA;smsw&#xA;stc&#xA;std&#xA;sti&#xA;stos&#xA;stosb&#xA;stosd&#xA;stosw&#xA;str&#xA;sub&#xA;svdc&#xA;svldt&#xA;svts&#xA;test&#xA;testb&#xA;verr&#xA;verw&#xA;wait&#xA;wbinvd&#xA;wrmsr&#xA;xadd&#xA;xchg&#xA;xlat&#xA;xlatb&#xA;xor&#xA;xorw&#xA;xorb&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="%eax&#xA;%ebx&#xA;%ecx&#xA;%edx&#xA;%edi&#xA;%esi&#xA;%ebp&#xA;%esp&#xA;%ax&#xA;%bx&#xA;%cx&#xA;%dx&#xA;%di&#xA;%si&#xA;%bp&#xA;%sp&#xA;%ah&#xA;%al&#xA;%bh&#xA;%bl&#xA;%ch&#xA;%cl&#xA;%dh&#xA;%dl&#xA;%cs&#xA;%ds&#xA;%ss&#xA;%es&#xA;%fs&#xA;%gs&#xA;%cr0&#xA;%cr2&#xA;%cr3&#xA;%db0&#xA;%db1&#xA;%db2&#xA;%db3&#xA;%db6&#xA;%db7&#xA;%tr6&#xA;%tr7&#xA;%st&#xA;%st(0)&#xA;%st(1)&#xA;%st(2)&#xA;%st(3)&#xA;%st(4)&#xA;%st(5)&#xA;%st(6)&#xA;%st(7)&#xA;%xmm&#xA;%xmm0&#xA;%xmm1&#xA;%xmm2&#xA;%xmm3&#xA;%xmm4&#xA;%xmm5&#xA;%xmm6&#xA;%xmm7&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Directives" Enabled="True" Style="" Words="">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="MMX 3DNow SIMD" Enabled="True" Style="" Words="addps&#xA;addss&#xA;andnps&#xA;andps&#xA;cmpeqps&#xA;cmpeqss&#xA;cmpleps&#xA;cmpless&#xA;cmpltps&#xA;cmpltss&#xA;cmpneqps&#xA;cmpneqss&#xA;cmpnleps&#xA;cmpnless&#xA;cmpnltps&#xA;cmpnltss&#xA;cmpordps&#xA;cmpordss&#xA;cmpps&#xA;cmpss&#xA;cmpunordps&#xA;cmpunordss&#xA;comiss&#xA;cvtpi2ps&#xA;cvtps2pi&#xA;cvtsi2ss&#xA;cvttps2pi&#xA;cvttss2si&#xA;cvtss2si&#xA;divps&#xA;divss&#xA;emms&#xA;femms&#xA;fxrstor&#xA;fxsave&#xA;ldmxcsr&#xA;maskmovq&#xA;maxps&#xA;maxss&#xA;minps&#xA;minss&#xA;movaps&#xA;movd&#xA;movdf&#xA;movdt&#xA;movhps&#xA;movhlps&#xA;movlhps&#xA;movlps&#xA;movmskps&#xA;movntps&#xA;movntq&#xA;movq&#xA;movss&#xA;movups&#xA;mulps&#xA;mulss&#xA;orps&#xA;packssdw&#xA;packsswb&#xA;packuswb&#xA;paddb&#xA;paddd&#xA;paddsb&#xA;paddsw&#xA;paddusb&#xA;paddusw&#xA;paddw&#xA;pand&#xA;pandn&#xA;pavgb&#xA;pavgusb&#xA;pavgw&#xA;pcmpeqb&#xA;pcmpeqd&#xA;pcmpeqd&#xA;pcmpeqw&#xA;pcmpgtb&#xA;pcmpgtd&#xA;pcmpgtw&#xA;pextrw&#xA;pf2id&#xA;pfacc&#xA;pfadd&#xA;pfcmpeq&#xA;pfcmpge&#xA;pfcmpgt&#xA;pfmax&#xA;pfmin&#xA;pfmul&#xA;pfrcp&#xA;pfrcpit1&#xA;pfrcpit2&#xA;pfsqit1&#xA;pfrsqrt&#xA;pfsub&#xA;pfsubr&#xA;pi2fd&#xA;pinsrw&#xA;pmaddwd&#xA;pmaxsw&#xA;pmaxub&#xA;pminsw&#xA;pminub&#xA;pmovmskb&#xA;pmulhrw&#xA;pmulhuw&#xA;pmulhw&#xA;pmullw&#xA;por&#xA;prefetch&#xA;prefetchw&#xA;prefetchnta&#xA;prefetcht0&#xA;prefetcht1&#xA;prefetcht2&#xA;psadbw&#xA;pslld&#xA;psllq&#xA;psllw&#xA;psrad&#xA;psraw&#xA;psrld&#xA;psrlq&#xA;psrlw&#xA;psubb&#xA;psubd&#xA;psubsb&#xA;psubsw&#xA;psubusb&#xA;psubusw&#xA;psubw&#xA;punpckhbw&#xA;punpckhdq&#xA;punpckhwd&#xA;punpcklbw&#xA;punpckldq&#xA;punpcklwd&#xA;pxor&#xA;pshufw&#xA;rcpps&#xA;rcpss&#xA;rdpmc&#xA;rsqrtps&#xA;rsqrtss&#xA;sfence&#xA;shufps&#xA;sqrtps&#xA;sqrtss&#xA;stmxcsr&#xA;subps&#xA;subss&#xA;syscall&#xA;sysret&#xA;ucomiss&#xA;unpckhps&#xA;unpckps&#xA;unpcklps&#xA;xmmword&#xA;xorps&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

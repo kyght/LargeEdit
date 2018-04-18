@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Zillions of Games" FileType="" Extensions="ZRF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:zillions.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./:;&lt;=&gt;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="absolute-config&#xA;add&#xA;add-copy&#xA;add-copy-partial&#xA;add-partial&#xA;adjacent-to-enemy?&#xA;allow-flipping&#xA;and&#xA;animate-captures&#xA;animate-drops&#xA;any-owner&#xA;attacked?&#xA;attribute&#xA;back&#xA;board&#xA;board-setup&#xA;capture&#xA;capture-sound&#xA;captured&#xA;cascade&#xA;change-owner&#xA;change-sound&#xA;change-type&#xA;checkmated&#xA;click-sound&#xA;count-condition&#xA;default&#xA;defended?&#xA;define&#xA;description&#xA;dimensions&#xA;directions&#xA;draw-condition&#xA;draw-sound&#xA;drop-sound&#xA;drops&#xA;dummy&#xA;else&#xA;empty?&#xA;enemy?&#xA;engine&#xA;false&#xA;flag?&#xA;flip&#xA;forced&#xA;friend?&#xA;from&#xA;game&#xA;go&#xA;grid&#xA;help&#xA;history&#xA;if&#xA;image&#xA;in-zone?&#xA;include&#xA;include-off-pieces&#xA;kill-positions&#xA;last-from&#xA;last-from?&#xA;last-to&#xA;last-to?&#xA;links&#xA;loss-condition&#xA;loss-sound&#xA;mark&#xA;marked?&#xA;maximal-captures&#xA;move-priorities&#xA;move-sound&#xA;move-type&#xA;moves&#xA;music&#xA;name&#xA;neutral?&#xA;not&#xA;not-adjacent-to-enemy?&#xA;not-attacked?&#xA;not-defended?&#xA;not-empty?&#xA;not-enemy?&#xA;not-flag?&#xA;not-friend?&#xA;not-in-zone?&#xA;not-last-from?&#xA;not-last-to?&#xA;not-marked?&#xA;not-neutral?&#xA;not-on-board?&#xA;not-piece?&#xA;not-position-flag?&#xA;not-position?&#xA;notation&#xA;off&#xA;on-board?&#xA;open&#xA;opening-sound&#xA;opponent&#xA;opposite&#xA;or&#xA;pass-partial&#xA;pass-turn&#xA;piece&#xA;piece?&#xA;pieces-remaining&#xA;players&#xA;position-flag?&#xA;position?&#xA;positions&#xA;recycle-captures&#xA;recycle-promotions&#xA;relative-config&#xA;release-sound&#xA;repeat&#xA;repetition&#xA;set-attribute&#xA;set-flag&#xA;set-position-flag&#xA;solution&#xA;stalemated&#xA;start-rectangle&#xA;strategy&#xA;symmetry&#xA;title&#xA;to&#xA;total-piece-count&#xA;translate&#xA;true&#xA;turn-order&#xA;unlink&#xA;variant&#xA;verify&#xA;version&#xA;while&#xA;win-condition&#xA;win-sound&#xA;zone&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

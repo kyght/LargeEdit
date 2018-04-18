@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MessageBuilder 4edi" FileType="" Extensions="s4 s4t s4i s4o s4m s4h" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:msgbuilder.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="base" Enabled="True" Style="" Words="AND&#xA;BREAK&#xA;BEGIN&#xA;BY&#xA;CATCH&#xA;CASE&#xA;CONTINUE&#xA;CALL&#xA;DO&#xA;ELSE&#xA;EXIT&#xA;EXEC&#xA;FOR&#xA;IF&#xA;LOOP&#xA;OR&#xA;RETURN&#xA;REPEAT&#xA;SWITCH&#xA;TRY&#xA;THROW&#xA;TO&#xA;WHILE&#xA;WHEN&#xA;WHERE&#xA;WORK&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Data and Structures" Enabled="True" Style="" Words="APPEND&#xA;AS&#xA;ASSIGNMENT&#xA;BYTE&#xA;boolean&#xA;binary&#xA;BIT&#xA;BOUNDED&#xA;CHAR&#xA;CONSTANT&#xA;CENTER&#xA;CHARSET&#xA;COMMENTS&#xA;COMPOSITE&#xA;CONDITIONAL&#xA;CONSTANT&#xA;CONSTANTS&#xA;CONTROL&#xA;DEFAULT&#xA;double&#xA;DECLARE&#xA;DATA&#xA;DATABASE&#xA;DESTINATION&#xA;EDI&#xA;EDI_CHARSET&#xA;ELEMENT&#xA;ERROR&#xA;EXECUTE&#xA;EXPORT&#xA;FALSE&#xA;float&#xA;FUNCTION&#xA;FILE&#xA;FORMAT&#xA;FROM_ISO8859&#xA;FROM&#xA;GROUP&#xA;IMPORT&#xA;INTEGER&#xA;INTO&#xA;INCLUDE&#xA;IN&#xA;INOUT&#xA;INPUT&#xA;INSERT&#xA;LOGID&#xA;LOCK&#xA;MANDATORY&#xA;OUT&#xA;ON&#xA;OPTIONAL&#xA;ORDER&#xA;OTHERS&#xA;OUTPUT&#xA;RELATION&#xA;RELEASE&#xA;RESERVED&#xA;ROLLBACK&#xA;SHORT&#xA;static&#xA;SUB&#xA;STRING&#xA;STATEMENT&#xA;SEGMENT&#xA;SELECT&#xA;SEQUENCE&#xA;SET&#xA;SOURCE&#xA;SQL&#xA;TRUE&#xA;TABLE&#xA;TEXT&#xA;TO_ISO8859&#xA;TYPE&#xA;TYPES&#xA;UNBOUNDED&#xA;UNLOCK&#xA;UPDATE&#xA;VOID&#xA;VALUES&#xA;VARIABLE&#xA;VARIABLES&#xA;$error&#xA;$exec&#xA;$PGM_exception&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="handling" Enabled="True" Style="" Words="ARRAYSIZE&#xA;BIT_AND&#xA;BIT_NOT&#xA;BIT_OR&#xA;BIT_SHIFT&#xA;BIT_XOR&#xA;CLOSE&#xA;COMMIT&#xA;CONVERT&#xA;COPY&#xA;COUNT&#xA;CURRENTDATE&#xA;DATE&#xA;DEBUG&#xA;DELETE&#xA;EDI_READ_CHARSET&#xA;EDI_READ_INTERCHANGE&#xA;EDI_TRUNCATE&#xA;EXPRESSIONS&#xA;LOG&#xA;LEFT&#xA;REGEXP&#xA;READ&#xA;RIGHT&#xA;MOVE&#xA;NDEC&#xA;NOLOG&#xA;OPEN&#xA;PRINT&#xA;PRINTERR&#xA;PRAGMA&#xA;SLEEP&#xA;STRMID&#xA;STRLEN&#xA;STRFIELD&#xA;STRFIELDS&#xA;STR_FIELD&#xA;STR_FIELDS&#xA;STR_LOWER&#xA;STR_UPPER&#xA;STRCNV&#xA;SOURCEFILE&#xA;SOURCELINE&#xA;SOURCEMODULE&#xA;SOURCEPROCEDURE&#xA;SPLIT&#xA;SYSTEM&#xA;UNIQUE_ID&#xA;UNIQUE_NAME&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Interfaces" Enabled="True" Style="" Words="AMTRIX_LOGID&#xA;ARGUMENT&#xA;ARG_LIST&#xA;ARG_OPT&#xA;ARGUMENTCOUNT&#xA;DIR_CLOSE&#xA;DIR_OPEN&#xA;DIR_READ&#xA;DIR_REWIND&#xA;GETOPT&#xA;OPTDTA_READ&#xA;OPTDTA_WRITE&#xA;RAW_CLOSE&#xA;RAW_FLUSH&#xA;RAW_OPEN&#xA;RAW_READ&#xA;RAW_SEEK&#xA;RAW_TELL&#xA;RAW_WRITE&#xA;RECEIVE&#xA;READTAG&#xA;TRUNCATE&#xA;TRUNC&#xA;SEND&#xA;SCAN&#xA;WRITETAG&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Modules and Supplememntal Calls" Enabled="True" Style="" Words="ARG&#xA;EXTERNAL&#xA;MODULE&#xA;PGM&#xA;PUBLIC&#xA;TRANSFER&#xA;USE&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

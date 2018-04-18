@@ -1,0 +1,36 @@
+[Comment]
+Background=536870911
+Foreground=32768
+Style=2
+[Event]
+Background=536870911
+Foreground=536870911
+Style=0
+[Identifier]
+Background=536870911
+Foreground=536870911
+Style=0
+[Non-reserved keyword]
+Background=536870911
+Foreground=536870911
+Style=0
+[Number]
+Background=536870911
+Foreground=128
+Style=0
+[Reserved word]
+Background=536870911
+Foreground=16711680
+Style=1
+[Space]
+Background=536870911
+Foreground=536870911
+Style=0
+[String]
+Background=536870911
+Foreground=8421376
+Style=0
+[Symbol]
+Background=536870911
+Foreground=536870911
+Style=0

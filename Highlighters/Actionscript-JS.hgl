@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Actionscript-JS" FileType="" Extensions="AS JS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:fasjs.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="#include&#xA;_alpha&#xA;_currentframe&#xA;_droptarget&#xA;_focusrect&#xA;_framesloaded&#xA;_height&#xA;_highquality&#xA;_name&#xA;_parent&#xA;_quality&#xA;_root&#xA;_rotation&#xA;_soundbuftime&#xA;_target&#xA;_totalframes&#xA;_url&#xA;_visible&#xA;_width&#xA;_x&#xA;_xmouse&#xA;_xscale&#xA;_y&#xA;_ymouse&#xA;_yscale&#xA;abs&#xA;acos&#xA;add&#xA;and&#xA;appendChild&#xA;Array&#xA;asin&#xA;atan&#xA;atan2&#xA;attachMovie&#xA;attachSound&#xA;attributes&#xA;BACKSPACE&#xA;Boolean&#xA;break&#xA;call&#xA;CAPSLOCK&#xA;ceil&#xA;charAt&#xA;charCodeAt&#xA;childNodes&#xA;chr&#xA;cloneNode&#xA;close&#xA;Color&#xA;concat&#xA;connect&#xA;constructor&#xA;continue&#xA;CONTROL&#xA;cos&#xA;createElement&#xA;createTextNode&#xA;Date&#xA;delete&#xA;DELETEKEY&#xA;do&#xA;docTypeDecl&#xA;DOWN&#xA;duplicateMovieClip&#xA;E&#xA;else&#xA;END&#xA;ENTER&#xA;eq&#xA;escape&#xA;eval&#xA;evaluate&#xA;exp&#xA;firstChild&#xA;floor&#xA;for&#xA;fromCharCode&#xA;fscommand&#xA;function&#xA;ge&#xA;getAscii&#xA;getBeginIndex&#xA;getBounds&#xA;getBytesLoaded&#xA;getBytesTotal&#xA;getCaretIndex&#xA;getCode&#xA;getDate&#xA;getDay&#xA;getEndIndex&#xA;getFocus&#xA;getFullYear&#xA;getHours&#xA;getMilliseconds&#xA;getMinutes&#xA;getMonth&#xA;getPan&#xA;getProperty&#xA;getRGB&#xA;getSeconds&#xA;getTime&#xA;getTimer&#xA;getTimezoneOffset&#xA;getTransform&#xA;getURL&#xA;getUTCDate&#xA;getUTCDay&#xA;getUTCFullYear&#xA;getUTCHours&#xA;getUTCMilliseconds&#xA;getUTCMinutes&#xA;getUTCMonth&#xA;getUTCSeconds&#xA;getVersion&#xA;getVolume&#xA;getYear&#xA;globalToLocal&#xA;gotoAndPlay&#xA;gotoAndStop&#xA;gt&#xA;hasChildNodes&#xA;hide&#xA;hitTest&#xA;HOME&#xA;if&#xA;ifFrameLoaded&#xA;indexOf&#xA;Infinity&#xA;INSERT&#xA;insertBefore&#xA;int&#xA;isDown&#xA;isFinite&#xA;isNaN&#xA;isToggled&#xA;join&#xA;Key&#xA;lastChild&#xA;lastIndexOf&#xA;le&#xA;LEFT&#xA;length&#xA;LN10&#xA;LN2&#xA;load&#xA;loaded&#xA;loadMovie&#xA;loadVariables&#xA;localToGlobal&#xA;log&#xA;LOG10E&#xA;LOG2E&#xA;lt&#xA;Math&#xA;max&#xA;MAX_VALUE&#xA;maxscroll&#xA;mbchr&#xA;mblength&#xA;mbord&#xA;mbsubstring&#xA;min&#xA;MIN_VALUE&#xA;Mouse&#xA;MovieClip&#xA;NaN&#xA;ne&#xA;NEGATIVE_INFINITY&#xA;new&#xA;newline&#xA;nextFrame&#xA;nextScene&#xA;nextSibling&#xA;nodeName&#xA;nodeType&#xA;nodeValue&#xA;not&#xA;null&#xA;Number&#xA;Object&#xA;On&#xA;onClipEvent&#xA;onClose&#xA;onConnect&#xA;OnLoad&#xA;onXML&#xA;or&#xA;ord&#xA;parentNode&#xA;parseFloat&#xA;parseInt&#xA;parseXML&#xA;PGDN&#xA;PGUP&#xA;PI&#xA;play&#xA;pop&#xA;POSITIVE_INFINITY&#xA;pow&#xA;prevFrame&#xA;previousSibling&#xA;prevScene&#xA;print&#xA;printAsBitmap&#xA;prototype&#xA;push&#xA;random&#xA;removeMovieClip&#xA;removeNode&#xA;return&#xA;reverse&#xA;RIGHT&#xA;round&#xA;scroll&#xA;Selection&#xA;send&#xA;sendAndLoad&#xA;set&#xA;setDate&#xA;setFocus&#xA;setFullYear&#xA;setHours&#xA;setMilliseconds&#xA;setMinutes&#xA;setMonth&#xA;setPan&#xA;setProperty&#xA;setRGB&#xA;setSeconds&#xA;setSelection&#xA;setTime&#xA;setTransform&#xA;setUTCDate&#xA;setUTCFullYear&#xA;setUTCHours&#xA;setUTCMilliseconds&#xA;setUTCMinutes&#xA;setUTCMonth&#xA;setUTCSeconds&#xA;setVolume&#xA;setYear&#xA;shift&#xA;show&#xA;sin&#xA;slice&#xA;sort&#xA;Sound&#xA;SPACE&#xA;splice&#xA;split&#xA;sqrt&#xA;SQRT1_2&#xA;SQRT2&#xA;start&#xA;startDrag&#xA;status&#xA;stop&#xA;stopAllSounds&#xA;stopDrag&#xA;String&#xA;substr&#xA;substring&#xA;swapDepths&#xA;TAB&#xA;tan&#xA;targetPath&#xA;tellTarget&#xA;this&#xA;toggleHighQuality&#xA;toLowerCase&#xA;toString&#xA;toUpperCase&#xA;trace&#xA;typeof&#xA;unescape&#xA;unloadMovie&#xA;unshift&#xA;UP&#xA;updateAfterEvent&#xA;UTC&#xA;valueOf&#xA;var&#xA;void&#xA;while&#xA;with&#xA;XML&#xA;xmlDecl&#xA;XMLSocket&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="-&#xA;!&#xA;%&#xA;&amp;&#xA;/&#xA;//&#xA;:&#xA;^&#xA;|&#xA;+&#xA;&lt;&#xA;=&#xA;&gt;&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

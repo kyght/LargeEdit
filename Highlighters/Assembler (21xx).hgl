@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="21xx Assembly" FileType="" Extensions="DSP INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Opcodes" Enabled="True" Style="" Words="abs&#xA;and&#xA;ashift&#xA;by&#xA;call&#xA;clrbit&#xA;dis&#xA;divq&#xA;divs&#xA;dm&#xA;do&#xA;ena&#xA;exp&#xA;expadj&#xA;hi&#xA;hix&#xA;idle&#xA;if&#xA;io&#xA;jump&#xA;lo&#xA;lshift&#xA;modify&#xA;neg&#xA;nop&#xA;norm&#xA;not&#xA;or&#xA;pass&#xA;pm&#xA;pop&#xA;pos&#xA;push&#xA;reset&#xA;rnd&#xA;rti&#xA;rts&#xA;sat&#xA;set&#xA;setbit&#xA;ss&#xA;su&#xA;tglbit&#xA;toggle&#xA;tstbit&#xA;until&#xA;us&#xA;uu&#xA;xor&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="af&#xA;ar&#xA;ax0&#xA;ax1&#xA;ay0&#xA;ay1&#xA;mf&#xA;mr&#xA;mr0&#xA;mr1&#xA;mr2&#xA;mx0&#xA;mx1&#xA;my0&#xA;my1&#xA;none&#xA;se&#xA;si&#xA;sr&#xA;sr0&#xA;sr1&#xA;i0&#xA;i1&#xA;i2&#xA;i3&#xA;i4&#xA;i5&#xA;i6&#xA;i7&#xA;l0&#xA;l1&#xA;l2&#xA;l3&#xA;l4&#xA;l5&#xA;l6&#xA;l7&#xA;m0&#xA;m1&#xA;m2&#xA;m3&#xA;m4&#xA;m5&#xA;m6&#xA;m7&#xA;ac&#xA;astat&#xA;av&#xA;ar_set&#xA;av_latch&#xA;bit_rev&#xA;c&#xA;ce&#xA;cntr&#xA;eq&#xA;flag_in&#xA;flag_out&#xA;fl0&#xA;fl1&#xA;fl2&#xA;ge&#xA;g_mode&#xA;gt&#xA;icntl&#xA;ifc&#xA;imask&#xA;ints&#xA;le&#xA;loop&#xA;lt&#xA;m_mode&#xA;mstat&#xA;mv&#xA;ne&#xA;owrcntr&#xA;pc&#xA;px&#xA;rx0&#xA;rx1&#xA;sb&#xA;sec_reg&#xA;sstat&#xA;sts&#xA;toppcstack&#xA;tx0&#xA;tx1&#xA;timer&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks {..}" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{" Close="}"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//" Close="/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Preprocessor" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Assembler directives" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="."/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

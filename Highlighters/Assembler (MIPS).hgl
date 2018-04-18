@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="MIPS Assembler" FileType="" Extensions="sx s S" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmmips.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;#()*+,-/:"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Mnemonics" Enabled="True" Style="" Words="abs&#xA;add&#xA;addi&#xA;addiu&#xA;addu&#xA;and&#xA;andi&#xA;b&#xA;bczt&#xA;bczf&#xA;beq&#xA;beqz&#xA;bge&#xA;bgez&#xA;bgeu&#xA;bgezal&#xA;bgt&#xA;bgtu&#xA;bgtz&#xA;ble&#xA;bleu&#xA;blez&#xA;blt&#xA;bltu&#xA;bnez&#xA;bltzal&#xA;bltz&#xA;bne&#xA;bqez&#xA;div&#xA;divu&#xA;eret&#xA;j&#xA;jal&#xA;jr&#xA;la&#xA;lb&#xA;li&#xA;lui&#xA;lw&#xA;mfc0&#xA;move&#xA;mul&#xA;mulo&#xA;mulou&#xA;mult&#xA;mtc0&#xA;neg&#xA;negu&#xA;nomove&#xA;nor&#xA;not&#xA;or&#xA;ori&#xA;rem&#xA;remu&#xA;rol&#xA;ror&#xA;sb&#xA;seq&#xA;sge&#xA;sgeu&#xA;sgt&#xA;sgtu&#xA;sle&#xA;sleu&#xA;sne&#xA;sll&#xA;sllv&#xA;slt&#xA;slti&#xA;sltu&#xA;sltiu&#xA;sra&#xA;srav&#xA;srl&#xA;srlv&#xA;sub&#xA;subu&#xA;sw&#xA;syscall&#xA;xor&#xA;xori&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Preprocessor" Enabled="True" Style="" Words=".align&#xA;.ascii&#xA;.asciiz&#xA;.data&#xA;.globl&#xA;.set&#xA;.space&#xA;.text&#xA;.word&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="$a0&#xA;$a1&#xA;$a2&#xA;$a3&#xA;$at&#xA;$fp&#xA;$gp&#xA;$k0&#xA;$k1&#xA;$ra&#xA;$s0&#xA;$s1&#xA;$s2&#xA;$s3&#xA;$s4&#xA;$s5&#xA;$s6&#xA;$s7&#xA;$s8&#xA;$sp&#xA;$t0&#xA;$t1&#xA;$t2&#xA;$t3&#xA;$t4&#xA;$t5&#xA;$t6&#xA;$t7&#xA;$t8&#xA;$t9&#xA;$v0&#xA;$v1&#xA;$zero&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

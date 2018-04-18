@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="coldfusion431" FileType="" Extensions="HTM HTML DBM CFM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:coldfusion431.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="&lt;A&gt;&#xA;&lt;/A&gt;&#xA;&lt;ABOVE&gt;&#xA;&lt;ADDRESS&gt;&#xA;&lt;/ADDRESS&gt;&#xA;&lt;APPLET&#xA;&lt;/APPLET&gt;&#xA;&lt;ARRAY&gt;&#xA;&lt;AREA&#xA;&lt;/AREA&gt;&#xA;&lt;B&gt;&#xA;&lt;/B&gt;&#xA;&lt;BASE&#xA;&lt;BASEFONT&#xA;&lt;BGSOUND&#xA;&lt;BIG&gt;&#xA;&lt;/BIG&gt;&#xA;&lt;BLINK&gt;&#xA;&lt;/BLINK&gt;&#xA;&lt;BLOCKQUOTE&gt;&#xA;&lt;/BLOCKQUOTE&gt;&#xA;&lt;BODY&#xA;&lt;BODY&gt;&#xA;&lt;/BODY&gt;&#xA;&lt;BOX&gt;&#xA;&lt;BR&#xA;&lt;BR&gt;&#xA;&lt;CAPTION&gt;&#xA;&lt;/CAPTION&gt;&#xA;&lt;CENTER&gt;&#xA;&lt;/CENTER&gt;&#xA;&lt;CITE&gt;&#xA;&lt;/CITE&gt;&#xA;&lt;CODE&gt;&#xA;&lt;/CODE&gt;&#xA;&lt;CFIF&gt;&#xA;&lt;CFELSE&gt;&#xA;&lt;/CFIF&gt;&#xA;&lt;CFSET&#xA;&lt;CFQUERY&#xA;&lt;/CFQUERY&gt;&#xA;&lt;CFOUTPUT&gt;&#xA;&lt;/CFOUTPUT&gt;&#xA;&lt;CFMAIL&#xA;&lt;/CFMAIL&gt;&#xA;&lt;CFINSERT&#xA;&lt;CFLOCATION&#xA;&lt;CFINCLUDE&#xA;&lt;CFOUTPUT&#xA;&lt;CFABORT&gt;&#xA;&lt;CFSQL&#xA;&lt;CFCOOKIE&#xA;&lt;CFLOOP&#xA;&lt;/CFLOOP&gt;&#xA;&lt;DD&gt;&#xA;&lt;DFN&gt;&#xA;&lt;DIR&gt;&#xA;&lt;/DIR&gt;&#xA;&lt;DIV&gt;&#xA;&lt;/DIV&gt;&#xA;&lt;DL&gt;&#xA;&lt;/DL&gt;&#xA;&lt;DT&gt;&#xA;&lt;DBIF&#xA;&lt;DBELSE&gt;&#xA;&lt;/DBIF&gt;&#xA;&lt;DBSET&#xA;&lt;DBQUERY&#xA;&lt;/DBQUERY&gt;&#xA;&lt;DBOUTPUT&gt;&#xA;&lt;/DBOUTPUT&gt;&#xA;&lt;DBMAIL&#xA;&lt;/DBMAIL&gt;&#xA;&lt;DBINSERT&#xA;&lt;DBLOCATION&#xA;&lt;DBINCLUDE&#xA;&lt;DBOUTPUT&#xA;&lt;DBABORT&gt;&#xA;&lt;DBSQL&#xA;&lt;DBCOOKIE&gt;&#xA;&lt;EM&gt;&#xA;&lt;/EM&gt;&#xA;&lt;EMBED&gt;&#xA;&lt;FIG&gt;&#xA;&lt;FONT&#xA;&lt;/FONT&gt;&#xA;&lt;FORM&gt;&#xA;&lt;FORM&#xA;&lt;/FORM&gt;&#xA;&lt;FRAME&#xA;&lt;FRAMESET&#xA;&lt;/FRAMESET&gt;&#xA;&lt;H&gt;&#xA;&lt;H1&gt;&#xA;&lt;H2&gt;&#xA;&lt;H3&gt;&#xA;&lt;H4&gt;&#xA;&lt;H5&gt;&#xA;&lt;H6&gt;&#xA;&lt;/H1&gt;&#xA;&lt;/H2&gt;&#xA;&lt;/H3&gt;&#xA;&lt;/H4&gt;&#xA;&lt;/H5&gt;&#xA;&lt;/H6&gt;&#xA;&lt;HEAD&gt;&#xA;&lt;/HEAD&gt;&#xA;&lt;HR&gt;&#xA;&lt;HR&#xA;&lt;HTML&gt;&#xA;&lt;/HTML&gt;&#xA;&lt;I&gt;&#xA;&lt;/I&gt;&#xA;&lt;IMG&#xA;&lt;INPUT&gt;&#xA;&lt;INPUT&#xA;&lt;/INPUT&gt;&#xA;&lt;ISINDEX&gt;&#xA;&lt;KBD&gt;&#xA;&lt;/KBD&gt;&#xA;&lt;LI&gt;&#xA;&lt;LINK&#xA;&lt;/LI&gt;&#xA;&lt;MAP&#xA;&lt;/MAP&gt;&#xA;&lt;MARQUEE&#xA;&lt;/MARQUEE&gt;&#xA;&lt;MENU&gt;&#xA;&lt;/MENU&gt;&#xA;&lt;META&gt;&#xA;&lt;NEXTID&#xA;&lt;NOBR&gt;&#xA;&lt;/NOBR&gt;&#xA;&lt;NOFRAMES&gt;&#xA;&lt;/NOFRAMES&gt;&#xA;&lt;NOTE&gt;&#xA;&lt;/NOTE&gt;&#xA;&lt;OL&gt;&#xA;&lt;/OL&gt;&#xA;&lt;OPTION&gt;&#xA;&lt;OPTION&gt;&#xA;&lt;P&#xA;&lt;P&gt;&#xA;&lt;/P&gt;&#xA;&lt;PRE&gt;&#xA;&lt;/PRE&gt;&#xA;&lt;RANGE&gt;&#xA;&lt;ROOT&gt;&#xA;&lt;SAMP&gt;&#xA;&lt;/SAMP&gt;&#xA;&lt;SCRIPT&#xA;&lt;/SCRIPT&gt;&#xA;&lt;SELECT&gt;&#xA;&lt;/SELECT&gt;&#xA;&lt;SMALL&gt;&#xA;&lt;/SMALL&gt;&#xA;&lt;SOUND&#xA;&lt;SQRT&gt;&#xA;&lt;STYLE&gt;&#xA;&lt;STRIKE&gt;&#xA;&lt;/STRIKE&gt;&#xA;&lt;STRONG&gt;&#xA;&lt;/STRONG&gt;&#xA;&lt;SUB&gt;&#xA;&lt;/SUB&gt;&#xA;&lt;SUP&gt;&#xA;&lt;/SUP&gt;&#xA;&lt;SELECT&#xA;&lt;TABLE&gt;&#xA;&lt;TABLE&#xA;&lt;/TABLE&gt;&#xA;&lt;TD&#xA;&lt;TD&gt;&#xA;&lt;/TD&gt;&#xA;&lt;TEXT&gt;&#xA;&lt;TEXTAREA&gt;&#xA;&lt;/TEXTAREA&gt;&#xA;&lt;TH&gt;&#xA;&lt;/TH&gt;&#xA;&lt;TITLE&gt;&#xA;&lt;/TITLE&gt;&#xA;&lt;TR&#xA;&lt;TR&gt;&#xA;&lt;/TR&gt;&#xA;&lt;TT&gt;&#xA;&lt;/TT&gt;&#xA;&lt;U&gt;&#xA;&lt;/U&gt;&#xA;&lt;UL&gt;&#xA;&lt;/UL&gt;&#xA;&lt;VAR&gt;&#xA;&lt;/VAR&gt;&#xA;&lt;WBR&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="ACTION=&#xA;ALIGN=&#xA;ALINK=&#xA;ALT=&#xA;AUTOSTART=&#xA;BACKGROUND=&#xA;BEHAVIOR&#xA;BELOW&#xA;BGCOLOR=&#xA;BORDER=&#xA;BORDER&#xA;CELLPADDING&#xA;CELLSPACING&#xA;COLS&#xA;COLSPAN&#xA;COLOR=&#xA;DATASOURCE=&#xA;DIRECTION&#xA;ENDROW=&#xA;FACE=&#xA;FORMFIELDS=&#xA;FROM=&#xA;HEIGHT=&#xA;HREF=&#xA;HIDDEN=&#xA;ISMAP&#xA;LANGUAGE&#xA;LINK&#xA;LOOP=&#xA;MAXROWS=&#xA;METHOD=&#xA;MARGINHEIGHT=&#xA;MARGINWIDTH=&#xA;NAME=&#xA;ONLOAD&#xA;QUERY=&#xA;ROWS&#xA;ROWSPAN&#xA;SIZE=&#xA;SQL=&#xA;SRC=&#xA;START&#xA;SUBJECT=&#xA;STARTROW=&#xA;TEXT=&#xA;TOPMARGIN&#xA;TYPE=&#xA;TO=&#xA;TEMPLATE=&#xA;TABLENAME=&#xA;URL=&#xA;VALIGN=&#xA;VALUE=&#xA;VLINK=&#xA;VOLUME=&#xA;WIDTH=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &lt;!..&gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!" Close="&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

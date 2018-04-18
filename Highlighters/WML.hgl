@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WML" FileType="" Extensions="WML wml" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wml.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;$%'()*+,&lt;=&gt;@\^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Elements" Enabled="True" Style="" Words="//&#xA;/&gt;&#xA;&lt;&#xA;&lt;!DOCTYPE&#xA;&lt;![CDATA[&#xA;&lt;a&#xA;&lt;/a&gt;&#xA;&lt;anchor&#xA;&lt;anchor&gt;&#xA;&lt;/anchor&gt;&#xA;&lt;access&gt;&#xA;&lt;/access&gt;&#xA;&lt;b&gt;&#xA;&lt;/b&gt;&#xA;&lt;big&gt;&#xA;&lt;/big&gt;&#xA;&lt;br&gt;&#xA;&lt;br/&gt;&#xA;&lt;card&#xA;&lt;/card&gt;&#xA;&lt;do&#xA;&lt;/do&gt;&#xA;&lt;em&gt;&#xA;&lt;/em&gt;&#xA;&lt;go&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;i&gt;&#xA;&lt;/i&gt;&#xA;&lt;meta&#xA;&lt;p&gt;&#xA;&lt;p&#xA;&lt;/p&gt;&#xA;&lt;prev&#xA;&lt;prev/&gt;&#xA;&lt;/prev&gt;&#xA;&lt;small&gt;&#xA;&lt;/small&gt;&#xA;&lt;strong&gt;&#xA;&lt;/strong&gt;&#xA;&lt;table&#xA;&lt;table&gt;&#xA;&lt;/table&gt;&#xA;&lt;template&gt;&#xA;&lt;/template&gt;&#xA;&lt;td&#xA;&lt;td&gt;&#xA;&lt;/td&gt;&#xA;&lt;tr&#xA;&lt;tr&gt;&#xA;&lt;/tr&gt;&#xA;&lt;u&gt;&#xA;&lt;/u&gt;&#xA;&lt;wml&gt;&#xA;&lt;/wml&gt;&#xA;&lt;xml&gt;&#xA;&lt;/xml&gt;&#xA;&lt;xmp&gt;&#xA;&lt;/xmp&gt;&#xA;&lt;xptr&#xA;&lt;xr&gt;&#xA;&lt;xr&#xA;&lt;/xr&gt;&#xA;&lt;xref&#xA;&lt;xsl&gt;&#xA;&lt;/xsl&gt;&#xA;&gt;&#xA;]]&gt;&#xA;&lt;?&#xA;&lt;?xml&#xA;?&gt;&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="accept-charset&#xA;align&#xA;alt&#xA;columns&#xA;content&#xA;domain&#xA;emptyok&#xA;format&#xA;forua&#xA;height&#xA;href&#xA;hspace&#xA;http-equiv&#xA;id&#xA;iname&#xA;ivalue&#xA;label&#xA;localsrc&#xA;maxlength&#xA;method&#xA;mode&#xA;multiple&#xA;name&#xA;newcontext&#xA;optional&#xA;ordered&#xA;path&#xA;scheme&#xA;sendreferer&#xA;size&#xA;src&#xA;tabindex&#xA;title&#xA;type&#xA;value&#xA;vspace&#xA;width&#xA;xml:lang&#xA;=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Entities" Enabled="True" Style="" Words="&amp;amp;&#xA;&amp;apos;&#xA;&amp;gt;&#xA;&amp;lt;&#xA;&amp;nbsp;&#xA;&amp;quot;&#xA;&amp;shy;&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Events" Enabled="True" Style="" Words="onenterbackward=&#xA;onenterforward=&#xA;onpick=&#xA;ontimer=&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks &amp;lt;!--..--&amp;gt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&lt;!--" Close="--&gt;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

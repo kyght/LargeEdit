@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WAPScript" FileType="" Extensions="wmls" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:wapscript.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,.:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Library" Enabled="True" Style="" Words=";&#xA;access&#xA;agent&#xA;block&#xA;break&#xA;case&#xA;catch&#xA;class&#xA;Console&#xA;const&#xA;continue&#xA;debugger&#xA;defaut&#xA;delete&#xA;Dialogs&#xA;div&#xA;do&#xA;domain&#xA;else&#xA;empty&#xA;enum&#xA;export&#xA;extends&#xA;expression&#xA;extern&#xA;finally&#xA;Float&#xA;for&#xA;function&#xA;header&#xA;http&#xA;if&#xA;import&#xA;in&#xA;Lang&#xA;lib&#xA;main&#xA;meta&#xA;name&#xA;new&#xA;null&#xA;path&#xA;private&#xA;public&#xA;return&#xA;sizeot&#xA;String&#xA;super&#xA;switch&#xA;throw&#xA;this&#xA;try&#xA;typeof&#xA;URL&#xA;use&#xA;var&#xA;varialbe&#xA;void&#xA;while&#xA;with&#xA;WMLBrowser&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Attributes" Enabled="True" Style="" Words="{&#xA;}&#xA;(&#xA;)&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="'&#xA;&quot;&#xA;\&#xA;abort&#xA;abs&#xA;alvert&#xA;cell&#xA;characterSet&#xA;charAt&#xA;compare&#xA;confirm&#xA;elementAt&#xA;elements&#xA;escapeString&#xA;exit&#xA;find&#xA;floor&#xA;format&#xA;getBase&#xA;getCurrentCard&#xA;getFragment&#xA;getHost&#xA;getParameters&#xA;getPath&#xA;getPort&#xA;getQuery&#xA;getReferer&#xA;getScheme&#xA;getVar&#xA;go&#xA;insertAt&#xA;int&#xA;isEmpty&#xA;isFloat&#xA;isInt&#xA;isValid&#xA;length&#xA;loadString&#xA;max&#xA;maxFloat&#xA;maxInt&#xA;min&#xA;minFloat&#xA;minInt&#xA;newContext&#xA;parseFloat&#xA;parseInt&#xA;pow&#xA;prev&#xA;print&#xA;println&#xA;prompt&#xA;random&#xA;refresh&#xA;removeAt&#xA;replace&#xA;replaceAt&#xA;resolve&#xA;round&#xA;seed&#xA;setVar&#xA;sqrt&#xA;squeeze&#xA;subString&#xA;toString&#xA;trim&#xA;unescapeString&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="operatiors" Enabled="True" Style="" Words="+&#xA;-&#xA;=&#xA;*&#xA;//&#xA;/&#xA;%&#xA;&amp;&#xA;&lt;=&#xA;&lt;&#xA;&gt;=&#xA;&gt;&#xA;!&#xA;|&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

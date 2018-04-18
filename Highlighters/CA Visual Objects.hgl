@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="CA Visual Objects" FileType="" Extensions="PRG UDC CH" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:cavisobj.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="__Debug__&#xA;__ENTITY__&#xA;_AND&#xA;_CAST&#xA;_CHR&#xA;_codeblock&#xA;_DLL&#xA;_INIT1&#xA;_INIT2&#xA;_INIT3&#xA;_NC&#xA;_NOT&#xA;_OR&#xA;_WINCALL&#xA;_XOR&#xA;accept&#xA;access&#xA;align&#xA;array&#xA;as&#xA;assert&#xA;assign&#xA;begin&#xA;bitmap&#xA;break&#xA;byte&#xA;case&#xA;class&#xA;clipper&#xA;codeblock&#xA;date&#xA;declare&#xA;default&#xA;define&#xA;dialog&#xA;dim&#xA;do&#xA;downto&#xA;dword&#xA;else&#xA;elseif&#xA;end&#xA;endcase&#xA;enddo&#xA;endif&#xA;export&#xA;external&#xA;false&#xA;float&#xA;for&#xA;func&#xA;function&#xA;get&#xA;global&#xA;hidden&#xA;icon&#xA;if&#xA;inherit&#xA;instance&#xA;int&#xA;integer&#xA;is&#xA;local&#xA;logic&#xA;long&#xA;longint&#xA;member&#xA;method&#xA;next&#xA;nil&#xA;object&#xA;otherwise&#xA;parameter&#xA;parameters&#xA;pascal&#xA;privat&#xA;private&#xA;proc&#xA;procedure&#xA;protect&#xA;psz&#xA;ptr&#xA;public&#xA;read&#xA;real4&#xA;real8&#xA;recover&#xA;ref&#xA;resource&#xA;return&#xA;say&#xA;self&#xA;sequence&#xA;set&#xA;short&#xA;shortint&#xA;static&#xA;strict&#xA;string&#xA;struc&#xA;struct&#xA;structure&#xA;super&#xA;symbol&#xA;textblock&#xA;then&#xA;thiscall&#xA;to&#xA;true&#xA;union&#xA;until&#xA;upto&#xA;using&#xA;usual&#xA;void&#xA;wait&#xA;while&#xA;word&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words=".AND.&#xA;.F.&#xA;.NOT.&#xA;.OR.&#xA;.T.&#xA;NULL&#xA;NULL_ARRAY&#xA;NULL_CODEBLOCK&#xA;NULL_DATE&#xA;NULL_OBJECT&#xA;NULL_PSZ&#xA;NULL_PTR&#xA;NULL_STRING&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&amp;&amp;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

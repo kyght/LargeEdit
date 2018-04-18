@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Clarion Plus" FileType="" Extensions="CLW INC" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:clarion.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,-./;@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Program" Enabled="True" Style="" Words="C&#xA;CODE&#xA;DATA&#xA;DLL&#xA;FUNCTION&#xA;MAP&#xA;MEMBER&#xA;MODULE&#xA;PASCAL&#xA;PROC&#xA;PROCEDURE&#xA;PROGRAM&#xA;RAW&#xA;ROUTINE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Compiler Directives" Enabled="True" Style="" Words="?&#xA;ASSERT&#xA;BEGIN&#xA;COMPILE&#xA;EJECT&#xA;EMBED&#xA;ENDEMBED&#xA;EQUATE&#xA;INCLUDE&#xA;ITEMIZE&#xA;OMIT&#xA;SECTION&#xA;SIZE&#xA;SUBTITLE&#xA;TITLE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Datatypes" Enabled="True" Style="" Words="_PROC&#xA;_PROC1&#xA;_PROC2&#xA;_PROC3&#xA;ANY&#xA;AUTO&#xA;BFLOAT4&#xA;BFLOAT8&#xA;BINARY&#xA;BINDABLE&#xA;BLOB&#xA;BOOL&#xA;BYTE&#xA;CLASS&#xA;CREATE&#xA;CSTRING&#xA;DATE&#xA;DECIMAL&#xA;DIM&#xA;DISPOSE&#xA;DRIVER&#xA;DUP&#xA;ENCRYPT&#xA;EXTERNAL&#xA;FILE&#xA;FILTER&#xA;FLOAT4&#xA;GROUP&#xA;INDEX&#xA;INNER&#xA;JOIN&#xA;KEY&#xA;LIKE&#xA;LONG&#xA;MEMO&#xA;NEW&#xA;NOCASE&#xA;OEM&#xA;OPT&#xA;ORDER&#xA;OVER&#xA;OWNER&#xA;PDECIMAL&#xA;PRE&#xA;PRIMARY&#xA;PRIVATE&#xA;PROJECT&#xA;PROTECTED&#xA;PSTRING&#xA;QUEUE&#xA;REAL&#xA;RECLAIM&#xA;RECORD&#xA;SHORT&#xA;SIGNED&#xA;SREAL&#xA;STATIC&#xA;STRING&#xA;THREAD&#xA;TIME&#xA;TYPE&#xA;ULONG&#xA;UNSIGNED&#xA;USHORT&#xA;VIEW&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Window/Report" Enabled="True" Style="" Words="APPLICATION&#xA;ABSOLUTE&#xA;ABOVE&#xA;ALONE&#xA;ALRT&#xA;ANGLE&#xA;AT&#xA;AUTOSIZE&#xA;AVE&#xA;BELOW&#xA;BREAK&#xA;BOX&#xA;BUTTON&#xA;BEVEL&#xA;BOXED&#xA;CHECK&#xA;COMBO&#xA;CAP&#xA;CENTER&#xA;CENTERED&#xA;CHECK&#xA;CLIP&#xA;CNT&#xA;COLOR&#xA;COLUMN&#xA;COMPATIBILITY&#xA;CURSOR&#xA;DETAIL&#xA;DEFAULT&#xA;DELAY&#xA;DISABLE&#xA;DOCK&#xA;DOCKED&#xA;DOCUMENT&#xA;DOUBLE&#xA;DRAGID&#xA;DROP&#xA;DROPID&#xA;DOWN&#xA;ELLIPSE&#xA;ENTRY&#xA;ENABLE&#xA;FOOTER&#xA;FORM&#xA;FILL&#xA;FIRST&#xA;FLAT&#xA;FONT&#xA;FORMAT&#xA;FROM&#xA;FULL&#xA;GRAY&#xA;GRID&#xA;HEADER&#xA;HIDE&#xA;HLP&#xA;HSCROLL&#xA;HVSCROLL&#xA;IMAGE&#xA;ITEM&#xA;ICON&#xA;ICONIZE&#xA;IMM&#xA;INS&#xA;LAST&#xA;LINE&#xA;LIST&#xA;LANDSCAPE&#xA;LEFT&#xA;LINEWIDTH&#xA;LINK&#xA;MENU&#xA;MENUBAR&#xA;MARK&#xA;MASK&#xA;MAX&#xA;MAXIMIZE&#xA;MDI&#xA;META&#xA;MIN&#xA;MODAL&#xA;MSG&#xA;MM&#xA;NOBAR&#xA;NOFRAME&#xA;NOMERGE&#xA;NOSHEET&#xA;OLE&#xA;OPTION&#xA;OVR&#xA;OPEN&#xA;PAGE&#xA;PANEL&#xA;PROMPT&#xA;PROGRESS&#xA;PAGEAFTER&#xA;PAGEBEFORE&#xA;PAGENO&#xA;PALETTE&#xA;PAPER&#xA;PASSWORD&#xA;PREVIEW&#xA;POINTS&#xA;RADIO&#xA;REGION&#xA;REPORT&#xA;RIGHT&#xA;RANGE&#xA;READONLY&#xA;REPEAT&#xA;REQ&#xA;RESIZE&#xA;RIGHT&#xA;ROUND&#xA;SHEET&#xA;SPIN&#xA;SCROLL&#xA;SEPARATOR&#xA;SINGLE&#xA;SPREAD&#xA;STATUS&#xA;STD&#xA;STEP&#xA;STRETCH&#xA;SUM&#xA;SYSTEM&#xA;TAB&#xA;TEXT&#xA;TOOLBAR&#xA;TALLY&#xA;TARGET&#xA;THOUS&#xA;TILED&#xA;TIMER&#xA;TIP&#xA;TOOLBOX&#xA;TRN&#xA;UP&#xA;UPR&#xA;USE&#xA;VBX&#xA;VALUE&#xA;VCR&#xA;VSCROLL&#xA;WALLPAPER&#xA;WITHNEXT&#xA;WITHPRIOR&#xA;WIZARD&#xA;WRAP&#xA;WINDOW&#xA;ZOOM&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Expressions/Execution Control" Enabled="True" Style="" Words="-&#xA;%&#xA;&amp;=&#xA;*&#xA;*=&#xA;/&#xA;//&#xA;/=&#xA;:=:&#xA;~&#xA;+&#xA;+=&#xA;&lt;&#xA;&lt;=&#xA;=&#xA;-=&#xA;&gt;&#xA;&gt;=&#xA;ACCEPT&#xA;BIND&#xA;BY&#xA;CASE&#xA;CLEAR&#xA;CYCLE&#xA;DO&#xA;ELSE&#xA;ELSIF&#xA;END&#xA;EVALUATE&#xA;EXECUTE&#xA;EXIT&#xA;GOTO&#xA;IF&#xA;LOOP&#xA;MATCH&#xA;OF&#xA;OR&#xA;OROF&#xA;POPBIND&#xA;RETURN&#xA;THEN&#xA;TIMES&#xA;TO&#xA;UNBIND&#xA;UNTIL&#xA;WHILE&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Built-Ins" Enabled="True" Style="" Words="ABS&#xA;ACCEPTED&#xA;ACOS&#xA;ADD&#xA;ADDRESS&#xA;AGE&#xA;ALERT&#xA;ALIAS&#xA;ALL&#xA;APPEND&#xA;ARC&#xA;ASIN&#xA;ASK&#xA;ATAN&#xA;BAND&#xA;BEEP&#xA;BLANK&#xA;BOF&#xA;BOR&#xA;BSHIFT&#xA;BUFFER&#xA;BUILD&#xA;BXOR&#xA;BYTES&#xA;CALL&#xA;CHAIN&#xA;CHANGE&#xA;CHANGES&#xA;CHOICE&#xA;CHOOSE&#xA;CHORD&#xA;CHR&#xA;CLIPBOARD&#xA;CLOCK&#xA;CLOSE&#xA;COL&#xA;COLORDIALOG&#xA;COMMAND&#xA;COMMIT&#xA;CONTENTS&#xA;CONVERTANSITOOEM&#xA;CONVERTOEMTOANSI&#xA;COPY&#xA;COS&#xA;DAY&#xA;DEFORMAT&#xA;DELETE&#xA;DESTROY&#xA;DIRECTORY&#xA;DISPLAY&#xA;DRAGIT&#xA;DROPIT&#xA;DUPLICATE&#xA;EMPTY&#xA;ENDPAGE&#xA;EOF&#xA;ERASE&#xA;ERROR&#xA;ERRORCODE&#xA;ERRORFILE&#xA;EVENT&#xA;EXISTS&#xA;FIELD&#xA;FILEDIALOG&#xA;FILEERROR&#xA;FILEERRORCODE&#xA;FIRSTFIELD&#xA;FLUSH&#xA;FOCUS&#xA;FONTDIALOG&#xA;FREE&#xA;GET&#xA;GETFONT&#xA;GETINI&#xA;GETPOSITION&#xA;HALT&#xA;HELP&#xA;HOLD&#xA;IDLE&#xA;INCOMPLETE&#xA;INLIST&#xA;INRANGE&#xA;INSTRING&#xA;INT&#xA;ISALPHA&#xA;ISLOWER&#xA;ISSTRING&#xA;ISUPPER&#xA;KEYBOARD&#xA;KEYCHAR&#xA;KEYCODE&#xA;KEYSTATE&#xA;LASTFIELD&#xA;LEN&#xA;LOCALE&#xA;LOCK&#xA;LOCKTHREAD&#xA;LOG10&#xA;LOGE&#xA;LOGOUT&#xA;LONGPATH&#xA;LOWER&#xA;MAXIMUM&#xA;MESSAGE&#xA;MONTH&#xA;MOUSEX&#xA;MOUSEY&#xA;NAME&#xA;NEXT&#xA;NOMEMO&#xA;NULL&#xA;NUMERIC&#xA;OMITTED&#xA;OUT&#xA;PACK&#xA;PATH&#xA;PEEK&#xA;PENCOLOR&#xA;PENSTYLE&#xA;PENWIDTH&#xA;PIE&#xA;POINTER&#xA;POKE&#xA;POLYGON&#xA;POPUP&#xA;POST&#xA;PRESS&#xA;PRESSKEY&#xA;PREVIOUS&#xA;PRINT&#xA;PRINTERDIALOG&#xA;PUT&#xA;PUTINI&#xA;RANDOM&#xA;RECORDS&#xA;REGET&#xA;REGISTER&#xA;REGISTEREVENT&#xA;REJECTCODE&#xA;RELEASE&#xA;REMOVE&#xA;RENAME&#xA;RESET&#xA;ROLLBACK&#xA;ROUNDBOX&#xA;RUN&#xA;RUNCODE&#xA;SELECT&#xA;SELECTED&#xA;SEND&#xA;SET&#xA;SET3DLOOK&#xA;SETCLIPBOARD&#xA;SETCLOCK&#xA;SETCOMMAND&#xA;SETCURSOR&#xA;SETDROPID&#xA;SETFONT&#xA;SETKEYCHAR&#xA;SETKEYCODE&#xA;SETNONULL&#xA;SETNULL&#xA;SETPATH&#xA;SETPENCOLOR&#xA;SETPENSTYLE&#xA;SETPENWIDTH&#xA;SETPOSITION&#xA;SETPROPERTY&#xA;SETTARGET&#xA;SETTODAY&#xA;SHORTNAME&#xA;SHORTPATH&#xA;SHOW&#xA;SHUTDOWN&#xA;SIN&#xA;SKIP&#xA;SORT&#xA;SQRT&#xA;START&#xA;STOP&#xA;STREAM&#xA;TAN&#xA;THREADLOCKED&#xA;TODAY&#xA;UNHIDE&#xA;UNLOAD&#xA;UNLOCK&#xA;UNLOCKTHREAD&#xA;UNREGISTER&#xA;UNREGISTEREVENT&#xA;UPDATE&#xA;UPPER&#xA;VAL&#xA;WATCH&#xA;WHAT&#xA;WHERE&#xA;WHO&#xA;YEAR&#xA;YIELD&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Misc" Enabled="True" Style="" Words="BEEP&#xA;DDEACKNOWLEDGE&#xA;DDEAPP&#xA;DDECHANNEL&#xA;DDECLIENT&#xA;DDECLOSE&#xA;DDEEXECUTE&#xA;DDEITEM&#xA;DDEPOKE&#xA;DDEQUERRY&#xA;DDEREAD&#xA;DDESERVER&#xA;DDETOPIC&#xA;DDEVALUE&#xA;DDEWRITE&#xA;OCXGETPARAM&#xA;OCXGETPARAMCOUNT&#xA;OCXLOADIMAGE&#xA;OCXREGISTEREVENTPROC&#xA;OCXREGISTERPROPCHANGE&#xA;OCXREGISTERPROPEDIT&#xA;OCXSETPARAM&#xA;OCXSETPARAMOCXEVENT&#xA;OCXUNREGISTEREVENTPROC&#xA;OCXUNREGISTERPROPCHANGE&#xA;OCXUNREGISTERPROPEDIT&#xA;OLEDIRECTORY&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Equates/Properties" Enabled="True" Style="" Words="BEEP:&#xA;BUTTON:&#xA;COLOR:&#xA;CREATE:&#xA;CURSOR:&#xA;DDE:&#xA;EVENT:&#xA;FALSE&#xA;ff_:&#xA;FILE:&#xA;FONT:&#xA;ICON:&#xA;LISTZONE:&#xA;PARENT&#xA;PEN:&#xA;PROP:&#xA;PROPLIST:&#xA;PROPPRINT:&#xA;REJECT:&#xA;SELF&#xA;STD:&#xA;TRUE&#xA;VBXEVENT:&#xA;VIRTUAL&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="OMIT" Close="ENDOM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="&amp;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00C08000" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&amp;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

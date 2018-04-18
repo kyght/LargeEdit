@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Assembler RDS-500" FileType="" Extensions="ASM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:asmrds500.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="#$%()*+,-./:;=[]"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Pseudo" Enabled="True" Style="" Words="asmb&#xA;blk&#xA;blow&#xA;byte&#xA;chad&#xA;data&#xA;date&#xA;dfld&#xA;dflh&#xA;dfli&#xA;dflm&#xA;dflr&#xA;do&#xA;dpi&#xA;dpr&#xA;ejct&#xA;end&#xA;endc&#xA;endp&#xA;equ&#xA;exit&#xA;include&#xA;is&#xA;labl&#xA;libr&#xA;list&#xA;load&#xA;lorg&#xA;nlst&#xA;nprint&#xA;ntry&#xA;orig&#xA;page&#xA;pals&#xA;print&#xA;proc&#xA;res&#xA;rqs&#xA;skad&#xA;spac&#xA;spr&#xA;subr&#xA;text&#xA;true&#xA;x&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Halt" Enabled="True" Style="" Words="halt&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Word/Byte Reference" Enabled="True" Style="" Words="add&#xA;and&#xA;cmb&#xA;cmw&#xA;dsb&#xA;enb&#xA;inr&#xA;jmp&#xA;jsx&#xA;ldb&#xA;ldw&#xA;ldx&#xA;ore&#xA;ori&#xA;sla&#xA;slc&#xA;sll&#xA;sml&#xA;smu&#xA;sra&#xA;src&#xA;srl&#xA;stb&#xA;stw&#xA;stx&#xA;sub&#xA;sus&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operand Parameters - Arith, Double, Left, Right, Lower, Upper" Enabled="True" Style="" Words="-&#xA;$&#xA;*&#xA;:&#xA;+&#xA;=&#xA;a&#xA;d&#xA;l&#xA;r&#xA;u&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="No Operand" Enabled="True" Style="" Words="cax&#xA;cex&#xA;clr&#xA;cmp&#xA;cxa&#xA;cxe&#xA;eex&#xA;inv&#xA;msk&#xA;nop&#xA;sam&#xA;sao&#xA;sap&#xA;saz&#xA;seq&#xA;sgm&#xA;sgr&#xA;sle&#xA;slm&#xA;sls&#xA;sne&#xA;sno&#xA;ss1&#xA;ss2&#xA;ss3&#xA;sse&#xA;sso&#xA;sxe&#xA;sxm&#xA;sxp&#xA;unm&#xA;xee&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Byte/Double Operand" Enabled="True" Style="" Words="cf&#xA;cfd&#xA;clb&#xA;din&#xA;div&#xA;dot&#xA;dxs&#xA;fab&#xA;fabd&#xA;fad&#xA;fadd&#xA;fcs&#xA;fcsd&#xA;fdv&#xA;fdvd&#xA;fix&#xA;fixd&#xA;flt&#xA;fltd&#xA;fm&#xA;fmd&#xA;fsb&#xA;fsbd&#xA;ftr&#xA;ftrd&#xA;fxr&#xA;fxrd&#xA;ixs&#xA;lf&#xA;lfd&#xA;llb&#xA;lm&#xA;lpl&#xA;lpu&#xA;mpy&#xA;sf&#xA;sfd&#xA;sm&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Single/Memory Register" Enabled="True" Style="" Words="dcr&#xA;drs&#xA;icr&#xA;irs&#xA;ivr&#xA;ldr&#xA;rra&#xA;rrc&#xA;rrm&#xA;rrs&#xA;smb&#xA;srn&#xA;srp&#xA;srz&#xA;str&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Registers" Enabled="True" Style="" Words="r0&#xA;r1&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;r8&#xA;r9&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks **" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="**"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

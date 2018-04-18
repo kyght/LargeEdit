@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Info>
+      <General Name="LargeEdit Scripting" Extensions="" Version="1" Revision="3" Sample="// Syntax Highlighting&#xA;#include &lt;iostream.h&gt;&#xA;&#xA;int a[] = {1, 2, 3};&#xA;void __fastcall TForm1::Button1Click(TObject *Sender)&#xA;{&#xA;  int number = 123456;&#xA;  char c = 'a';&#xA;  Caption = &quot;The number is \&quot;&quot; + IntToStr(i) + &quot;\&quot;&quot;;&#xA;  char text = &quot;This is very big text, that cannot be\&#xA;  placed in only one string. That's why we use slash\&#xA;  (\\) at the end of the string!&quot;.&#xA;  for (int i = 0; i &lt;= number; i++)&#xA;  {&#xA;    x -= 0xff;&#xA;    x -= 023;&#xA;    x += 1.0;&#xA;    x += @; /* illegal character */&#xA;  }&#xA;  #ifdef USE_ASM&#xA;    asm&#xA;    {&#xA;      ASM MOV AX, 0x1234&#xA;      ASM MOV i, AX&#xA;    }&#xA;  #endif&#xA;}" History=""/>
+      <Author Name="Tim OBrien" Mail="support@netlegger.net" Web="www.netlegger.net" Copyright="Netlegger Systems Inc., 2006" Company="Netlegger Systems Inc." Remark=""/>
+    </Info>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Editor/>
+    <MainRules Name="Root" CaseSensitive="True" Style="Root">
+      <Attributes Foreground="clBlack" Background="clWhite"/>
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <SubRules>
+        <Range Name="Remarks //" Style="Remarks //">
+          <Attributes Foreground="clGreen" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine="" PartOfTerm="Right"/>
+          <CloseToken StartLine="" PartOfTerm="False"/>
+          <Properties CloseOnEol="True"/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Style="Remarks /*..*/">
+          <Attributes Foreground="clGreen" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine="" PartOfTerm="Right"/>
+          <CloseToken StartLine="" PartOfTerm="Right"/>
+          <Properties/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &quot;..&quot;" Style="Strings &quot;..&quot;">
+          <Attributes Foreground="clBlue" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine="" PartOfTerm="Right"/>
+          <CloseToken StartLine="" PartOfTerm="Right"/>
+          <Properties CloseOnEol="True"/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules>
+            <Range Name="Continue" Style="Continue">
+              <Attributes Foreground="clBlue" Background="clWhite" ParentForeground="True" ParentBackground="True"/>
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <OpenToken FinishOnEol="True" StartLine="" PartOfTerm="Right"/>
+              <CloseToken StartLine="" PartOfTerm="False"/>
+              <Properties CloseOnEol="True"/>
+              <MultiTokens>
+                <Tokens Open="\"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+            <KeyList Name="Escape" Enabled="True" Style="" Words="\&quot;&#xA;\\&#xA;">
+              <Attributes Foreground="clBlue" Background="clWhite" ParentForeground="True" ParentBackground="True"/>
+            </KeyList>
+          </SubRules>
+        </Range>
+        <Range Name="Chars '..'" Style="Chars '..'">
+          <Attributes Foreground="clBlue" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine="" PartOfTerm="Right"/>
+          <CloseToken StartLine="" PartOfTerm="Right"/>
+          <Properties CloseOnEol="True"/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Hex number" Style="Hex number">
+          <Attributes Foreground="clMaroon" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine="" PartOfTerm="Right"/>
+          <CloseToken StartLine="" PartOfTerm="False"/>
+          <Properties CloseOnTerm="True"/>
+          <MultiTokens>
+            <Tokens Open="0x"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Directive" Style="Directive">
+          <Attributes Foreground="clGreen" Background="clWhite" ParentBackground="True"/>
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <OpenToken StartLine=""/>
+          <CloseToken StartLine=""/>
+          <Properties CloseOnEol="True"/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="New" Enabled="True" Style="" Words="define&#xA;error&#xA;include&#xA;elif&#xA;if&#xA;line&#xA;else&#xA;ifdef&#xA;pragma&#xA;endif&#xA;ifndef&#xA;undef&#xA;">
+              <Attributes Foreground="clGreen" Background="clWhite" ParentForeground="True" ParentBackground="True" Style="B"/>
+            </KeyList>
+          </SubRules>
+        </Range>
+        <KeyList Name="Keywords 1" Enabled="True" Style="" Words="bool&#xA;char&#xA;class&#xA;const&#xA;case&#xA;catch&#xA;const_cast&#xA;double&#xA;default&#xA;do&#xA;delete&#xA;dynamic_cast&#xA;else&#xA;enum&#xA;explicit&#xA;export&#xA;extern&#xA;for&#xA;false&#xA;float&#xA;friend&#xA;if&#xA;inline&#xA;int&#xA;long&#xA;mutable&#xA;new&#xA;namespace&#xA;operator&#xA;protected&#xA;private&#xA;public&#xA;reinterpret_cast&#xA;return&#xA;short&#xA;signed&#xA;sizeof&#xA;static&#xA;struct&#xA;static_cast&#xA;switch&#xA;template&#xA;throw&#xA;true&#xA;typedef&#xA;typename&#xA;this&#xA;try&#xA;typeid&#xA;union&#xA;unsigned&#xA;using&#xA;virtual&#xA;void&#xA;volatile&#xA;wchar_t&#xA;while&#xA;">
+          <Attributes Foreground="clBlack" Background="clWhite" ParentForeground="True" ParentBackground="True" Style="B"/>
+        </KeyList>
+        <KeyList Name="Keywords 2" Enabled="True" Style="" Words="asm&#xA;auto&#xA;break&#xA;continue&#xA;goto&#xA;register&#xA;">
+          <Attributes Foreground="clBlack" Background="clWhite" ParentForeground="True" ParentBackground="True" Style="B"/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;=&#xA;/&#xA;%&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;|&#xA;*&#xA;^&#xA;:&#xA;">
+          <Attributes Foreground="clBlack" Background="clWhite" ParentForeground="True" ParentBackground="True"/>
+        </KeyList>
+        <KeyList Name="Punctuators" Enabled="True" Style="" Words="{&#xA;}&#xA;;&#xA;(&#xA;)&#xA;,&#xA;[&#xA;]&#xA;.&#xA;">
+          <Attributes Foreground="clBlack" Background="clWhite" ParentForeground="True" ParentBackground="True"/>
+        </KeyList>
+        <KeyList Name="Number '0'" Enabled="True" Style="" Words="0&#xA;">
+          <Attributes Foreground="clMaroon" Background="clWhite" ParentBackground="True"/>
+        </KeyList>
+        <Set Name="Illegal characters" Enabled="True" Style="" Symbols="#?@">
+          <Attributes Foreground="clRed" Background="clWhite" ParentBackground="True"/>
+        </Set>
+        <Set Name="Numbers" Enabled="True" Style="" Symbols="0123456789">
+          <Attributes Foreground="clMaroon" Background="clWhite" ParentBackground="True"/>
+        </Set>
+        <Set Name="Floats" Enabled="True" Style="" Symbols=".0123456789">
+          <Attributes Foreground="clMaroon" Background="clWhite" ParentBackground="True"/>
+        </Set>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+</SynUniHighlighter>

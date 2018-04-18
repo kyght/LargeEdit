@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Pearl" FileType="" Extensions="PRL P80 P90" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:pearl.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="ACTIVATE&#xA;AFTER&#xA;ALL&#xA;ALPHIC&#xA;ALT&#xA;AT&#xA;BASIC&#xA;BEGIN&#xA;BIT&#xA;BOLT&#xA;BY&#xA;CALL&#xA;CASE&#xA;CHARACTER&#xA;CHAR&#xA;CLOCK&#xA;CLOSE&#xA;CONT&#xA;CONTINUE&#xA;CONTROL&#xA;CONVERT&#xA;CREATE&#xA;CREATED&#xA;CYCLE&#xA;DATION&#xA;DECLARE&#xA;DCL&#xA;DELETE&#xA;DIM&#xA;DIRECT&#xA;DISABLE&#xA;DURATION&#xA;DUR&#xA;DURING&#xA;ELSE&#xA;ENABLE&#xA;ENTER&#xA;ENTRY&#xA;EVERY&#xA;EXIT&#xA;FIN&#xA;FIXED&#xA;FLOAT&#xA;FOR&#xA;FORBACK&#xA;FORMAT&#xA;FORWARD&#xA;FREE&#xA;FROM&#xA;GET&#xA;GLOBAL&#xA;GOTO&#xA;HRS&#xA;IDENTIACAL&#xA;IDENT&#xA;IF&#xA;IN&#xA;INDUCE&#xA;INITIAL&#xA;INIT&#xA;INLINE&#xA;INOUT&#xA;INTERRUPT&#xA;IRPT&#xA;INTFAC&#xA;INV&#xA;IS&#xA;ISNT&#xA;LEAVE&#xA;LENGTH&#xA;MATCH&#xA;MAX&#xA;MIN&#xA;NIL&#xA;NOCYCL&#xA;NOMATCH&#xA;NOSTREAM&#xA;ON&#xA;ONEOF&#xA;OPEN&#xA;OPERATOR&#xA;OUT&#xA;PRECEDENCE&#xA;PRESET&#xA;PREVENT&#xA;PRIORITY&#xA;PUT&#xA;READ&#xA;REENT&#xA;REF&#xA;RELEASE&#xA;REPEAT&#xA;REQUEST&#xA;RESERVE&#xA;RESIDENT&#xA;RESUME&#xA;RETURN&#xA;RETURNS&#xA;SEC&#xA;SEMA&#xA;SEND&#xA;SIGNAL&#xA;SPECIFY&#xA;SPC&#xA;STREAM&#xA;STRUCT&#xA;SUSPEND&#xA;SYS&#xA;SYSTEM&#xA;TAKE&#xA;TERMINATE&#xA;TFU&#xA;THEN&#xA;TO&#xA;TRIGGER&#xA;TYPE&#xA;UNTIL&#xA;UPON&#xA;USING&#xA;WHEN&#xA;WHILE&#xA;WRITE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="A&#xA;ABS&#xA;ADV&#xA;AND&#xA;ANY&#xA;B&#xA;B1&#xA;B2&#xA;B3&#xA;B4&#xA;CAN&#xA;CAT&#xA;COL&#xA;COS&#xA;CSHIFT&#xA;D&#xA;DATE&#xA;E&#xA;ENTIER&#xA;EQ&#xA;EXOR&#xA;EXP&#xA;F&#xA;FIT&#xA;GE&#xA;GT&#xA;IDF&#xA;LE&#xA;LINE&#xA;LIST&#xA;LN&#xA;LT&#xA;LWB&#xA;NE&#xA;NEW&#xA;NOT&#xA;NOW&#xA;OLD&#xA;OR&#xA;PAGE&#xA;POS&#xA;PRM&#xA;R&#xA;REM&#xA;ROUND&#xA;RST&#xA;S&#xA;SIGN&#xA;SIN&#xA;SKIP&#xA;SOP&#xA;SQRT&#xA;T&#xA;TAN&#xA;TANH&#xA;TOBIT&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="END&#xA;MODEND&#xA;MODULE&#xA;PROBLEM&#xA;PROCEDURE&#xA;PRIO&#xA;PROC&#xA;TASK&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks !" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="!"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

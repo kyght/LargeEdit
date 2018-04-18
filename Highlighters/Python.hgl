@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Python" FileType="" Extensions="" Version="1" Revision="0" Sample="#!/usr/local/bin/python&#xA;import string, sys&#xA;# If no arguments were given, print a helpful message&#xA;&#xA;if len(sys.argv)==1:&#xA;    print 'Usage: celsius temp1 temp2 ...'&#xA;    sys.exit(0)&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key words" Enabled="True" Style="" Words="and&#xA;array&#xA;fnmatch&#xA;struct &#xA;self&#xA;assert&#xA;break&#xA;class&#xA;continue&#xA;def&#xA;del&#xA;elif&#xA;else&#xA;except&#xA;exec&#xA;finally&#xA;for&#xA;from&#xA;global&#xA;if&#xA;import&#xA;in&#xA;is&#xA;lambda&#xA;map&#xA;not&#xA;None&#xA;or&#xA;pass print&#xA;raise range return&#xA;try&#xA;while&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="abs&#xA;apply&#xA;callable&#xA;chr&#xA;cmp&#xA;coerce&#xA;compile&#xA;complex&#xA;delattr&#xA;dir&#xA;divmod&#xA;eval&#xA;execfile&#xA;filter&#xA;float&#xA;getattr&#xA;globals&#xA;group&#xA;hasattr&#xA;hash&#xA;hex&#xA;id &#xA;input &#xA;int &#xA;intern &#xA;isinstance &#xA;issubclass&#xA;joinfields&#xA;len &#xA;list &#xA;local &#xA;long&#xA;max &#xA;min &#xA;match&#xA;oct &#xA;open &#xA;ord&#xA;pow&#xA;raw_input &#xA;reduce &#xA;reload &#xA;repr &#xA;round&#xA;search &#xA;setattr &#xA;slice &#xA;str &#xA;splitfields&#xA;tuple &#xA;type&#xA;vars&#xA;xrange&#xA;__import__&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Exceptions" Enabled="True" Style="" Words="ArithmeticError&#xA;AssertionError&#xA;AttributeError&#xA;EOFError&#xA;Exception&#xA;FloatingPointError&#xA;IOError&#xA;ImportError&#xA;IndexError&#xA;KeyError&#xA;KeyboardInterrupt&#xA;LookupError&#xA;MemoryError&#xA;NameError&#xA;OverflowError&#xA;RuntimeError&#xA;StandardError&#xA;SyntaxError&#xA;SystemError&#xA;SystemExit&#xA;TypeError&#xA;ValueError&#xA;ZeroDivisionError&#xA;">
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Libraries" Enabled="True" Style="" Words="AST&#xA;BaseHTTPServer &#xA;Bastion&#xA;cmd &#xA;commands &#xA;compileall &#xA;copy&#xA;CGIHTTPServer &#xA;Complex&#xA;dbhash &#xA;dircmp &#xA;dis &#xA;dospath &#xA;dumbdbm&#xA;emacs&#xA;find &#xA;fmt &#xA;fnmatch &#xA;ftplib&#xA;getopt &#xA;glob &#xA;gopherlib &#xA;grep&#xA;htmllib &#xA;httplib&#xA;ihooks &#xA;imghdr&#xA;linecache &#xA;lockfile&#xA;macpath &#xA;macurl2path &#xA;mailbox &#xA;mailcap&#xA;mimetools &#xA;mimify &#xA;mutex &#xA;math&#xA;Mimewriter&#xA;newdir &#xA;ni &#xA;nntplib &#xA;ntpath &#xA;nturl2path&#xA;os &#xA;ospath&#xA;pdb &#xA;pickle &#xA;pipes &#xA;poly &#xA;popen2 &#xA;posixfile &#xA;posixpath &#xA;profile &#xA;pstats &#xA;pyclbr&#xA;Para&#xA;quopri&#xA;Queue&#xA;rand &#xA;random &#xA;regex &#xA;regsub &#xA;rfc822&#xA;sched &#xA;sgmllib &#xA;shelve &#xA;site &#xA;sndhdr &#xA;string &#xA;sys &#xA;snmp&#xA;SimpleHTTPServer &#xA;StringIO &#xA;SocketServer&#xA;tb &#xA;tempfile &#xA;toaiff &#xA;token &#xA;tokenize &#xA;traceback &#xA;tty &#xA;types &#xA;tzparse&#xA;Tkinter&#xA;urllib &#xA;urlparse &#xA;util &#xA;uu&#xA;UserDict &#xA;UserList&#xA;wave &#xA;whatsound &#xA;whichdb &#xA;whrandom&#xA;xdrlib&#xA;zmod&#xA;">
+          <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+=&#xA;-=&#xA;%=&#xA;/=&#xA;**=&#xA;&amp;=&#xA;|=&#xA;^=&#xA;&gt;&gt;=&#xA;&lt;&lt;=&#xA;==&#xA;">
+          <Attributes Foreground="$00000040" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Comments" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Integer" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00400080" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Methods and Attributes" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="__" Close="__"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

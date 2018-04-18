@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="PL/I" FileType="" Extensions="PL1 PLI" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:pli.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&amp;'()*+,-./:;&lt;=&gt;?@[\]^{}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="A&#xA;ABS&#xA;ADD&#xA;ADDR&#xA;ADDSUFF&#xA;ALIGNED&#xA;ALL&#xA;ALLOC&#xA;ALLOCATE&#xA;ALLOCATION&#xA;ALLOCN&#xA;AND&#xA;ANY&#xA;AREA&#xA;ARG&#xA;ASCII&#xA;ASIGN&#xA;ASM&#xA;ASSEMBLER&#xA;ATTENTION&#xA;ATTN&#xA;AUTO&#xA;AUTOMATIC&#xA;B&#xA;BACKWARDS&#xA;BASED&#xA;BEGIN&#xA;BIN&#xA;BINARY&#xA;BIT&#xA;BKWD&#xA;BLKSIZE&#xA;BOOL&#xA;BUF&#xA;BUFFERED&#xA;BUFFERS&#xA;BUFND&#xA;BUFNI&#xA;BUFSP&#xA;BUFOFF&#xA;BUILTIN&#xA;BY&#xA;BY&#xA;NAME&#xA;C&#xA;CALL&#xA;CEIL&#xA;CHAR&#xA;CHARACTER&#xA;CHECK&#xA;CLOSE&#xA;COBOL&#xA;COL&#xA;COLUMN&#xA;COMPILETIME&#xA;COMPLEX&#xA;COMPLETION&#xA;COND&#xA;CONDITION&#xA;CONJG&#xA;CONN&#xA;CONNECTED&#xA;CONSECUTIVE&#xA;CONTROLLED&#xA;CONV&#xA;CONVERSION&#xA;COPY&#xA;COUNT&#xA;COUNTER&#xA;CPLN&#xA;CPLX&#xA;CSTG&#xA;CTL&#xA;CTLASA&#xA;CTL360&#xA;CURRENTSTORAGE&#xA;D&#xA;DATA&#xA;DATAFIELD&#xA;DATE&#xA;DB&#xA;DCL&#xA;DEC&#xA;DECIMAL&#xA;DECLARE&#xA;DECIMAL&#xA;DEF&#xA;DEFAULT&#xA;DEFINED&#xA;DELAY&#xA;DESCRIPTORS&#xA;DFT&#xA;DIM&#xA;DIRECT&#xA;DISPLAY&#xA;DIVIDE&#xA;DO&#xA;E&#xA;EDIT&#xA;ELSE&#xA;EMPTY&#xA;END&#xA;ENDFILE&#xA;ENDPAGE&#xA;ENTRY&#xA;ENVIRONMENT&#xA;ERF&#xA;ERFC&#xA;ERROR&#xA;EVENT&#xA;EXCL&#xA;EXCLUSIVE&#xA;EXEC&#xA;EXIT&#xA;EXP&#xA;EXT&#xA;EXTERNAL&#xA;F&#xA;FB&#xA;FBS&#xA;FETCH&#xA;FILE&#xA;FINISH&#xA;FIXED&#xA;FIXEDOVERFLOW&#xA;FLOAT&#xA;FLOOR&#xA;FLOW&#xA;FOFL&#xA;FORMAT&#xA;FORTRAN&#xA;FREE&#xA;FS&#xA;GENERIC&#xA;GET&#xA;GO&#xA;TO&#xA;GOTO&#xA;HALT&#xA;HBOUND&#xA;HIGH&#xA;IF&#xA;IGNORE&#xA;IMAG&#xA;INDEX&#xA;INDEXAREA&#xA;INDEXED&#xA;INIT&#xA;INITIAL&#xA;INPUT&#xA;INT&#xA;INTER&#xA;INTERNAL&#xA;INTO&#xA;IRRED&#xA;IRREDUCIBLE&#xA;KEY&#xA;KEYED&#xA;KEYFROM&#xA;KEYLENGTH&#xA;KEYLOC&#xA;KEYTO&#xA;LABEL&#xA;LBOUND&#xA;LEAVE&#xA;LENGTH&#xA;LIKE&#xA;LINE&#xA;LINENO&#xA;LINESIZE&#xA;LIST&#xA;LOCATE&#xA;LOG&#xA;LOG2&#xA;LOG10&#xA;LOW&#xA;MAIN&#xA;MAX&#xA;MIN&#xA;MOD&#xA;MULTIBLE&#xA;NAME&#xA;NCP&#xA;NOCHECK&#xA;NOFLOW&#xA;NOFORMAT&#xA;NOLOCK&#xA;NOMAP&#xA;NOMAPIN&#xA;NIMAPOUT&#xA;NORESCAN&#xA;NOWRITE&#xA;NULL&#xA;OFFSET&#xA;OFL&#xA;ON&#xA;ONCHAR&#xA;ONCODE&#xA;ONCOUNT&#xA;ONFILE&#xA;ONKEY&#xA;ONLOC&#xA;ONSOURCE&#xA;OPEN&#xA;OPTIONS&#xA;ORDER&#xA;OR&#xA;OTHER&#xA;OTHERWISE&#xA;OUTPUT&#xA;OVERFLOW&#xA;P&#xA;PAGE&#xA;PAGESIZE&#xA;PARMSET&#xA;PASSWORD&#xA;PENDING&#xA;PIC&#xA;PICTURE&#xA;PLIRETV&#xA;POINTER&#xA;POLY&#xA;POS&#xA;POSITION&#xA;PREC&#xA;PRECISION&#xA;PRINT&#xA;PRIORITY&#xA;PRINT&#xA;PROC&#xA;PROCEDURE&#xA;PROD&#xA;PTR&#xA;PUT&#xA;R&#xA;RANGE&#xA;READ&#xA;REAL&#xA;RECORD&#xA;RECSIZE&#xA;RECURSIVE&#xA;RED&#xA;REDUCIBLE&#xA;REENTRANT&#xA;REFER&#xA;REGIONAL&#xA;RELEASE&#xA;REORDER&#xA;REPEAT&#xA;REPLY&#xA;REREAD&#xA;RESCAN&#xA;RETCODE&#xA;RETURN&#xA;RETURNS&#xA;REUSE&#xA;REVERT&#xA;REWRITE&#xA;ROUND&#xA;SAMKEY&#xA;SCALARVARYING&#xA;SEQUENTAL&#xA;SEQL&#xA;SET&#xA;SIGN&#xA;SIGNAL&#xA;SIS&#xA;SIZE&#xA;SKIP&#xA;SNAP&#xA;SORT&#xA;SQL&#xA;STATEMENT&#xA;STATIC&#xA;STATUS&#xA;STG&#xA;STMT&#xA;STOP&#xA;STORAGE&#xA;STREAM&#xA;STRG&#xA;STRING&#xA;STRINGRANGE&#xA;STRINGSIZE&#xA;STRZ&#xA;SUB&#xA;SUBSCRIPTRANGE&#xA;SUBSTR&#xA;SUM&#xA;SYSIN&#xA;SYSPRINT&#xA;SYSTEM&#xA;TASK&#xA;THEN&#xA;TIME&#xA;TITLE&#xA;TO&#xA;TOTAL&#xA;TP&#xA;TRANSIENT&#xA;TRANSLATE&#xA;TRANSMIT&#xA;TRKOFL&#xA;TRUNC&#xA;U&#xA;UFL&#xA;UNAL&#xA;UNALIGNED&#xA;UNBUF&#xA;UNBUFFERED&#xA;UNDEFINEDFILE&#xA;UNDERFLOW&#xA;UNLOCK&#xA;UNSPEC&#xA;UNTIL&#xA;V&#xA;VALUE&#xA;VAR&#xA;VARIABLE&#xA;VARYING&#xA;VB&#xA;VBS&#xA;VERIFY&#xA;VS&#xA;VSAM&#xA;WAIT&#xA;WHEN&#xA;WHILE&#xA;WRITE&#xA;X&#xA;ZDIV&#xA;ZEREODIVIDE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="External Commands" Enabled="True" Style="" Words="$SYSTEM&#xA;%ACT&#xA;%ACTIVATE&#xA;%CONTROL&#xA;%DCL&#xA;%DEACT&#xA;%DEACTIVATE&#xA;%DECLARE&#xA;%DO&#xA;%ELSE&#xA;%END&#xA;%GO&#xA;%GOTO&#xA;%IF&#xA;%INCLUDE&#xA;%NOPRINT&#xA;%NOTE&#xA;%PRINT&#xA;%PROC&#xA;%PROCEDURE&#xA;%SKIP&#xA;%THEN&#xA;CICS&#xA;COMPTIME&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SQL-Befehle" Enabled="True" Style="" Words="BETWEEN&#xA;DROP&#xA;GROUP&#xA;HAVING&#xA;INSERT&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PL/I u. SQL-Befehle" Enabled="True" Style="" Words="DB2SQLCA&#xA;DELETE&#xA;FROM&#xA;IN&#xA;SELECT&#xA;UPDATE&#xA;WHERE&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;*&#xA;//&#xA;/&#xA;=&#xA;&amp;&#xA;&gt;&#xA;&lt;&#xA;^&#xA;!&#xA;||&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Math. Functions" Enabled="True" Style="" Words="ACOS&#xA;ATAN&#xA;ATAND&#xA;ATANH&#xA;COS&#xA;COSD&#xA;COSH&#xA;SIN&#xA;SIND&#xA;SINH&#xA;TAN&#xA;TAND&#xA;TANH&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

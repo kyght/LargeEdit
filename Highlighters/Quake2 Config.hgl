@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Quake2 Config" FileType="" Extensions="CFG" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:quake.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%+,-./="/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="FUNCTIONS" Enabled="True" Style="" Words="alias&#xA;bind&#xA;condump&#xA;connect&#xA;demomap&#xA;dir&#xA;download&#xA;drop&#xA;echo&#xA;error&#xA;exec&#xA;gamemap&#xA;give&#xA;gun_model&#xA;impulse&#xA;kick&#xA;link&#xA;load&#xA;map&#xA;play&#xA;rcon&#xA;rcon_address&#xA;rcon_password&#xA;record&#xA;save&#xA;say&#xA;say_team&#xA;serverrecord&#xA;set&#xA;setenv&#xA;setmaster&#xA;sky&#xA;sv&#xA;sv_maplist&#xA;timelimit&#xA;timerefresh&#xA;unbind&#xA;use&#xA;wave&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="TOGGLES" Enabled="True" Style="" Words="allow_download&#xA;allow_download_maps&#xA;allow_download_models&#xA;allow_download_players&#xA;allow_download_sounds&#xA;cd_nocd&#xA;cheats&#xA;cl_autoskins&#xA;cl_blend&#xA;cl_entities&#xA;cl_footsteps&#xA;cl_gun&#xA;cl_lights&#xA;cl_nodelta&#xA;cl_noskins&#xA;cl_particles&#xA;cl_predict&#xA;cl_run&#xA;cl_showmiss&#xA;cl_shownet&#xA;cl_stats&#xA;cl_stereo&#xA;cl_testblend&#xA;cl_testentities&#xA;cl_testlights&#xA;cl_testparticles&#xA;cl_vwep&#xA;coop&#xA;deathmatch&#xA;debuggraph&#xA;dedicated&#xA;developer&#xA;filterban&#xA;fixedtime&#xA;flushmap&#xA;freelook&#xA;g_select_empty&#xA;gender_auto&#xA;gl_3dlabs_broken&#xA;gl_allow_software&#xA;gl_bitdepth&#xA;gl_clear&#xA;gl_cull&#xA;gl_dynamic&#xA;gl_ext_compiled_vertex_array&#xA;gl_ext_multitexture&#xA;gl_ext_palettedtexture&#xA;gl_ext_pointparameters_ext_swapinterval&#xA;gl_finish&#xA;gl_flashblend&#xA;gl_lightmap&#xA;gl_lockpvs&#xA;gl_log&#xA;gl_monolightmap&#xA;gl_nobind&#xA;gl_nosubimage&#xA;gl_playermip&#xA;gl_polyblend&#xA;gl_round_down&#xA;gl_saturatelightning&#xA;gl_shadows&#xA;gl_showtris&#xA;gl_skymip&#xA;gl_swapinterval&#xA;gl_vertex_arrays&#xA;gl_ztrick&#xA;in_joystick&#xA;in_mouse&#xA;joy_advanced&#xA;log_stats&#xA;lookspring&#xA;lookstrafe&#xA;m_filter&#xA;netgraph&#xA;paused&#xA;public&#xA;r_drawentities&#xA;r_dspeeds&#xA;r_fullbright&#xA;r_lerpmodels&#xA;r_nocull&#xA;r_norefresh&#xA;r_novis&#xA;r_speeds&#xA;s_initsound&#xA;s_loadas8bit&#xA;s_primary&#xA;s_show&#xA;s_textsound&#xA;s_wavonly&#xA;scr_drawall&#xA;scr_showpause&#xA;scr_showturtle&#xA;showclamp&#xA;showdrop&#xA;showpackets&#xA;showtrace&#xA;spectator&#xA;sv_enforcetime&#xA;sv_noreload&#xA;sw_allow_modex&#xA;sw_drawflat&#xA;sw_draworder&#xA;sw_polymodelstats&#xA;sw_reportedgeout&#xA;sw_reportsurfout&#xA;sw_stipplealpha&#xA;sw_surfcacheoverride&#xA;sw_waterwarp&#xA;timedemo&#xA;timegraph&#xA;vid_fullscreen&#xA;win_noalttab&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="BINDS" Enabled="True" Style="" Words="ALT&#xA;AUX1&#xA;AUX10&#xA;AUX11&#xA;AUX12&#xA;AUX13&#xA;AUX14&#xA;AUX15&#xA;AUX16&#xA;AUX17&#xA;AUX18&#xA;AUX19&#xA;AUX2&#xA;AUX20&#xA;AUX21&#xA;AUX22&#xA;AUX23&#xA;AUX24&#xA;AUX25&#xA;AUX26&#xA;AUX27&#xA;AUX28&#xA;AUX29&#xA;AUX3&#xA;AUX30&#xA;AUX31&#xA;AUX32&#xA;AUX4&#xA;AUX5&#xA;AUX6&#xA;AUX7&#xA;AUX8&#xA;AUX9&#xA;BACKSPACE&#xA;CTRL&#xA;DEL&#xA;DOWNARROW&#xA;END&#xA;ENTER&#xA;F1&#xA;F10&#xA;F11&#xA;F12&#xA;F2&#xA;F3&#xA;F4&#xA;F5&#xA;F6&#xA;F7&#xA;F8&#xA;F9&#xA;HOME&#xA;INS&#xA;JOY1&#xA;JOY2&#xA;JOY3&#xA;JOY4&#xA;KP_5&#xA;KP_DEL&#xA;KP_DOWNARROW&#xA;KP_END&#xA;KP_ENTER&#xA;KP_HOME&#xA;KP_INS&#xA;KP_LEFTARROW&#xA;KP_MINUS&#xA;KP_PGDN&#xA;KP_PGUP&#xA;KP_PLUS&#xA;KP_RIGHTARROW&#xA;KP_SLASH&#xA;KP_UPARROW&#xA;LEFTARROW&#xA;MOUSE1&#xA;MOUSE2&#xA;MOUSE3&#xA;MWHEELDOWN&#xA;MWHEELUP&#xA;PAUSE&#xA;PGDN&#xA;PGUP&#xA;RIGHTARROW&#xA;SEMICOLON&#xA;SHIFT&#xA;SPACE&#xA;TAB&#xA;UPARROW&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="REGISTERS" Enabled="True" Style="" Words="adr0&#xA;adr1&#xA;adr2&#xA;adr3&#xA;adr4&#xA;adr5&#xA;adr6&#xA;adr7&#xA;adr8&#xA;bob_pitch&#xA;bob_roll&#xA;bob_up&#xA;cd_loopcount&#xA;cd_looptrack&#xA;cl_anglespeedkey&#xA;cl_forwardspeed&#xA;cl_maxfps&#xA;cl_pitchspeed&#xA;cl_sidespeed&#xA;cl_stereo_separation&#xA;cl_timeout&#xA;cl_upspeed&#xA;cl_yawspeed&#xA;clientport&#xA;con_notifytime&#xA;crosshair&#xA;dumpuser&#xA;flood_msgs&#xA;flood_persecond&#xA;flood_waitdelay&#xA;fov&#xA;fraglimit&#xA;gl_mode&#xA;gl_modulate&#xA;gl_particle_att_a&#xA;gl_particle_att_b&#xA;gl_particle_att_c&#xA;gl_particle_max_size&#xA;gl_particle_min_size&#xA;gl_particle_size&#xA;gl_picmip&#xA;graphheight&#xA;graphscale&#xA;graphshift&#xA;gun_x&#xA;gun_y&#xA;gun_z&#xA;game&#xA;gamedate&#xA;gamedir&#xA;gamename&#xA;gender&#xA;gl_drawbuffer&#xA;gl_driver&#xA;gl_texturerealalphamode&#xA;gl_texturemode&#xA;gl_texturesolidmode&#xA;hand&#xA;host_speeds&#xA;hostname&#xA;hostport&#xA;intensity&#xA;ip&#xA;ip_clientport&#xA;ip_hostport&#xA;ipx_clientport&#xA;ipx_hostport&#xA;joy_name&#xA;joy_advancedupdate&#xA;joy_advaxisx&#xA;joy_advaxisy&#xA;joy_advaxisz&#xA;joy_advaxisr&#xA;joy_advaxisu&#xA;joy_advaxisv&#xA;joy_forwardsensitivity&#xA;joy_forwardthreshold&#xA;joy_pitchsensitivity&#xA;joy_pitchthreshold&#xA;joy_sidesensitivity&#xA;joy_sidethreshold&#xA;joy_upsensitivity&#xA;joy_upthreshold&#xA;joy_yawsensitivity&#xA;joy_yawthreshold&#xA;logfile&#xA;m_forward&#xA;m_pitch&#xA;m_side&#xA;m_yaw&#xA;mapame&#xA;maxclients&#xA;maxentities&#xA;maxspectators&#xA;msg&#xA;name&#xA;netserver&#xA;password&#xA;port&#xA;rate&#xA;run_pitch&#xA;run_roll&#xA;s_khz&#xA;s_mixahead&#xA;s_volume&#xA;scr_centertime&#xA;scr_conspeed&#xA;scr_printspeed&#xA;sensitivity&#xA;skill&#xA;skin&#xA;spectator_password&#xA;sv_airaccelerate&#xA;sv_gravity&#xA;sv_maxvelocity&#xA;sv_reconnect_limit&#xA;sw_clearcolor&#xA;sw_maxedges&#xA;sw_maxsurfs&#xA;sw_mipcap&#xA;sw_mipscale&#xA;sw_mode&#xA;timeout&#xA;timescale&#xA;v_centermove&#xA;v_centerspeed&#xA;vid_gamma&#xA;vid_ref&#xA;vid_xpos&#xA;vid_ypos&#xA;viewsize&#xA;zombietime&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="ACTIONS" Enabled="True" Style="" Words="attack&#xA;back&#xA;forward&#xA;klook&#xA;left&#xA;lookdown&#xA;lookup&#xA;mlook&#xA;movedown&#xA;moveleft&#xA;moveright&#xA;moveup&#xA;right&#xA;speed&#xA;strafe&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATIONS" Enabled="True" Style="" Words="bindlist&#xA;centerview&#xA;changing&#xA;clear&#xA;cmdlist&#xA;cvarlist&#xA;disconnect&#xA;god&#xA;gun_next&#xA;gun_prev&#xA;heartbeat&#xA;imagelist&#xA;info&#xA;invdrop&#xA;inven&#xA;invnext&#xA;invnextp&#xA;invnextw&#xA;invprev&#xA;invprevp&#xA;invprevw&#xA;invuse&#xA;kill&#xA;killserver&#xA;loading&#xA;menu_addressbook&#xA;menu_credits&#xA;menu_dmoptions&#xA;menu_game&#xA;menu_joinserver&#xA;menu_keys&#xA;menu_loadgame&#xA;menu_main&#xA;menu_multiplayer&#xA;menu_options&#xA;menu_playerconfig&#xA;menu_quit&#xA;menu_savegame&#xA;menu_startserver&#xA;menu_video&#xA;messagemode&#xA;messagemode2&#xA;modelist&#xA;noclip&#xA;notarget&#xA;path&#xA;pause&#xA;pingservers&#xA;playerlist&#xA;players&#xA;precache&#xA;quit&#xA;reconnect&#xA;score&#xA;screenshot&#xA;serverinfo&#xA;serverstop&#xA;sizedown&#xA;sizeup&#xA;skins&#xA;snd_restart&#xA;soundinfo&#xA;soundlist&#xA;status&#xA;stop&#xA;stopsound&#xA;togglconsole&#xA;togglechat&#xA;unbindall&#xA;userinfo&#xA;vid_front&#xA;vid_restart&#xA;viewpos&#xA;wait&#xA;weaplast&#xA;weapnext&#xA;weapprev&#xA;z_stats&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="ITEMS" Enabled="True" Style="" Words="adrenaline&#xA;airstrike&#xA;all&#xA;ammo&#xA;ancient&#xA;armor&#xA;bandolier&#xA;bfg10k&#xA;blue&#xA;bullets&#xA;cd&#xA;cells&#xA;chaingun&#xA;combat&#xA;commander's&#xA;cube&#xA;damage&#xA;data&#xA;environment&#xA;grapple&#xA;grenade&#xA;grenades&#xA;head&#xA;health&#xA;hyperblaster&#xA;invulnerability&#xA;jacket&#xA;key&#xA;launcher&#xA;machinegun&#xA;marker&#xA;pack&#xA;pass&#xA;power&#xA;pyramid&#xA;quad&#xA;railgun&#xA;rebreather&#xA;red&#xA;rocket&#xA;rockets&#xA;screen&#xA;security&#xA;shard&#xA;shells&#xA;shield&#xA;shotgun&#xA;silencer&#xA;slugs&#xA;spinner&#xA;suit&#xA;super&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

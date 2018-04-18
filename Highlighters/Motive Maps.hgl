@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Motive Maps" FileType="" Extensions="MCM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:motivemaps.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="all&#xA;anchors&#xA;applets&#xA;areas&#xA;Array&#xA;Boolean&#xA;cells&#xA;checkbox&#xA;children&#xA;Collection&#xA;Date&#xA;Dictionary&#xA;Drive&#xA;Drives&#xA;DT&#xA;document&#xA;elements&#xA;embeds&#xA;external&#xA;Enumerator&#xA;File&#xA;Files&#xA;FileSystemObject&#xA;Folder&#xA;Folders&#xA;Function&#xA;false&#xA;filters&#xA;forms&#xA;frames&#xA;Global&#xA;hidden&#xA;history&#xA;image&#xA;images&#xA;imports&#xA;layer&#xA;layers&#xA;links&#xA;Math&#xA;navigator&#xA;Number&#xA;Object&#xA;options&#xA;password&#xA;plugins&#xA;radio&#xA;reset&#xA;rows&#xA;rules&#xA;RegExp&#xA;screen&#xA;scripts&#xA;selection&#xA;styleSheet&#xA;styleSheets&#xA;String&#xA;TextRange&#xA;TextStream&#xA;tbodies&#xA;true&#xA;userProfile&#xA;VBArray&#xA;window&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="accessKey&#xA;action&#xA;activeElement&#xA;align&#xA;aLink&#xA;alinkColor&#xA;alt&#xA;altHTML&#xA;altKey&#xA;appCodeName&#xA;appMinorVersion&#xA;appName&#xA;appVersion&#xA;arguments&#xA;availHeight&#xA;availWidth&#xA;AtEndOfLine&#xA;AtEndOfStream&#xA;Attributes&#xA;AvailableSpace&#xA;background&#xA;backgroundAttachment&#xA;backgroundColor&#xA;backgroundImage&#xA;backgroundPosition&#xA;backgroundPositionX&#xA;backgroundPositionY&#xA;backgroundRepeat&#xA;balance&#xA;behavior&#xA;bgColor&#xA;bgProperties&#xA;border&#xA;borderBottom&#xA;borderBottomColor&#xA;borderBottomStyle&#xA;borderBottomWidth&#xA;borderColor&#xA;borderColorDark&#xA;borderColorLight&#xA;borderLeft&#xA;borderLeftColor&#xA;borderLeftStyle&#xA;borderLeftWidth&#xA;borderRight&#xA;borderRightColor&#xA;borderRightStyle&#xA;borderRightWidth&#xA;borderStyle&#xA;borderTop&#xA;borderTopColor&#xA;borderTopStyle&#xA;borderTopWidth&#xA;borderWidth&#xA;bottomMargin&#xA;browserLanguage&#xA;bufferDepth&#xA;button&#xA;caller&#xA;cancelBubble&#xA;caption&#xA;cellIndex&#xA;cellPadding&#xA;cellSpacing&#xA;charset&#xA;checked&#xA;classid&#xA;className&#xA;clear&#xA;clientHeight&#xA;clientInformation&#xA;clientLeft&#xA;clientTop&#xA;clientWidth&#xA;clientX&#xA;clientY&#xA;clip&#xA;closed&#xA;code&#xA;codeBase&#xA;codeType&#xA;color&#xA;colorDepth&#xA;cols&#xA;colSpan&#xA;compact&#xA;complete&#xA;connectionSpeed&#xA;constructorCount&#xA;content&#xA;cookie&#xA;cookieEnabled&#xA;coords&#xA;cpuClass&#xA;cssText&#xA;ctrlKey&#xA;cursor&#xA;Column&#xA;CompareMode&#xA;data&#xA;dataFld&#xA;dataFormatAs&#xA;dataPageSize&#xA;dataSrc&#xA;defaultCharset&#xA;defaultChecked&#xA;defaultSelected&#xA;defaultStatus&#xA;defaultValue&#xA;defer&#xA;dialogArguments&#xA;dialogHeight&#xA;dialogLeft&#xA;dialogTop&#xA;dialogWidth&#xA;direction&#xA;disabled&#xA;display&#xA;domain&#xA;dynsrc&#xA;DriveLetter&#xA;DriveType&#xA;DateCreated&#xA;DateLastAccessed&#xA;DateLastModified&#xA;encoding&#xA;event&#xA;expando&#xA;face&#xA;fgColor&#xA;fileCreatedDate&#xA;fileModifiedDate&#xA;fileSize&#xA;fileUpdatedDate&#xA;filter&#xA;font&#xA;fontFamily&#xA;fontSize&#xA;fontSmoothingEnabled&#xA;fontStyle&#xA;fontVariant&#xA;fontWeight&#xA;form&#xA;frame&#xA;frameBorder&#xA;frameSpacing&#xA;fromElement&#xA;FileSystem&#xA;FreeSpace&#xA;global&#xA;hash&#xA;height&#xA;host&#xA;hostname&#xA;href&#xA;hspace&#xA;htmlFor&#xA;htmlText&#xA;httpEquiv&#xA;Hidden&#xA;id&#xA;ignoreCase&#xA;indeterminate&#xA;index&#xA;innerHTML&#xA;innerText&#xA;input&#xA;isMap&#xA;isTextEdit&#xA;Infinity&#xA;IsReady&#xA;IsRootFolder&#xA;Item&#xA;Key&#xA;keyCode&#xA;lang&#xA;language&#xA;lastIndex&#xA;lastMatch&#xA;lastModified&#xA;lastParent&#xA;left&#xA;leftContext&#xA;leftMargin&#xA;length&#xA;letterSpacing&#xA;lineHeight&#xA;link&#xA;linkColor&#xA;listStyle&#xA;listStyleImage&#xA;listStylePosition&#xA;listStyleType&#xA;location&#xA;loop&#xA;lowsrc&#xA;Line&#xA;LN10&#xA;LN2&#xA;LOG10E&#xA;LOG2E&#xA;map&#xA;margin&#xA;marginBottom&#xA;marginHeight&#xA;marginLeft&#xA;marginRight&#xA;marginTop&#xA;marginWidth&#xA;maxLength&#xA;media&#xA;method&#xA;mimeTypes&#xA;multiline&#xA;multiple&#xA;MAX_VALUE&#xA;Methods&#xA;MIN_VALUE&#xA;Name&#xA;NaN&#xA;NEGATIVE_INFINITY&#xA;noHref&#xA;noResize&#xA;noShade&#xA;noWrap&#xA;object&#xA;offscreenBuffering&#xA;offsetHeight&#xA;offsetLeft&#xA;offsetParent&#xA;offsetTop&#xA;offsetWidth&#xA;offsetX&#xA;offsetY&#xA;onLine&#xA;opener&#xA;outerHTML&#xA;outerText&#xA;overflow&#xA;owningElement&#xA;padding&#xA;paddingBottom&#xA;paddingLeft&#xA;paddingRight&#xA;paddingTop&#xA;pageBreakAfter&#xA;pageBreakBefore&#xA;palette&#xA;parent&#xA;parentElement&#xA;parentStyleSheet&#xA;parentTextEdit&#xA;parentWindow&#xA;pathname&#xA;pixelHeight&#xA;pixelLeft&#xA;pixelTop&#xA;pixelWidth&#xA;platform&#xA;pluginspage&#xA;port&#xA;posHeight&#xA;position&#xA;posLeft&#xA;posTop&#xA;posWidth&#xA;protocol&#xA;prototype&#xA;Path&#xA;PI&#xA;POSITIVE_INFINITY&#xA;readOnly&#xA;readyState&#xA;reason&#xA;recordNumber&#xA;recordset&#xA;referrer&#xA;rel&#xA;returnValue&#xA;rev&#xA;rightContext&#xA;rightMargin&#xA;rowIndex&#xA;rowSpan&#xA;RootFolder&#xA;screenX&#xA;screenY&#xA;scrollAmount&#xA;scrollDelay&#xA;scrollHeight&#xA;scrolling&#xA;scrollLeft&#xA;scrollTop&#xA;scrollWidth&#xA;search&#xA;sectionRowIndex&#xA;selected&#xA;selectedIndex&#xA;self&#xA;shape&#xA;shiftKey&#xA;source&#xA;sourceIndex&#xA;span&#xA;src&#xA;srcElement&#xA;srcFilter&#xA;status&#xA;style&#xA;styleFloat&#xA;systemLanguage&#xA;SerialNumber&#xA;ShareName&#xA;ShortName&#xA;ShortPath&#xA;Size&#xA;SQRT1_2&#xA;SQRT2&#xA;SubFolders&#xA;tabIndex&#xA;tagName&#xA;target&#xA;text&#xA;textAlign&#xA;textDecoration&#xA;textDecorationBlink&#xA;textDecorationLineThrough&#xA;textDecorationNone&#xA;textDecorationOverline&#xA;textDecorationUnderline&#xA;textIndent&#xA;textTransform&#xA;tfoot&#xA;thead&#xA;title&#xA;toElement&#xA;top&#xA;topMargin&#xA;trueSpeed&#xA;TotalSize&#xA;Type&#xA;units&#xA;updateInterval&#xA;urn&#xA;useMap&#xA;userAgent&#xA;userLanguage&#xA;URL&#xA;vAlign&#xA;value&#xA;verticalAlign&#xA;visibility&#xA;vLink&#xA;vlinkColor&#xA;volume&#xA;vspace&#xA;VolumeName&#xA;width&#xA;wrap&#xA;x&#xA;y&#xA;zIndex&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="abs&#xA;acos&#xA;addChannel&#xA;addImport&#xA;addReadRequest&#xA;addRule&#xA;alert&#xA;anchor&#xA;asin&#xA;assign&#xA;atan&#xA;atan2&#xA;Add&#xA;AddFolders&#xA;AtEnd&#xA;back&#xA;big&#xA;blink&#xA;blur&#xA;bold&#xA;BuildPath&#xA;ceil&#xA;charAt&#xA;charCodeAt&#xA;clearInterval&#xA;clearRequest&#xA;clearTimeout&#xA;click&#xA;collapse&#xA;compareEndPoints&#xA;compile&#xA;concat&#xA;confirm&#xA;contains&#xA;cos&#xA;createCaption&#xA;createElement&#xA;createRange&#xA;createStyleSheet&#xA;createTextRange&#xA;createTFoot&#xA;createTHead&#xA;Close&#xA;Copy&#xA;CopyFile&#xA;CopyFolder&#xA;CreateFolder&#xA;CreateTextFile&#xA;deleteCaption&#xA;deleteCell&#xA;deleteRow&#xA;deleteTFoot&#xA;deleteTHead&#xA;doReadRequest&#xA;duplicate&#xA;Delete&#xA;DeleteFile&#xA;DeleteFolder&#xA;Dimensions&#xA;DriveExists&#xA;elementFromPoint&#xA;empty&#xA;escape&#xA;eval&#xA;exec&#xA;execCommand&#xA;execScript&#xA;exp&#xA;expand&#xA;Exists&#xA;findText&#xA;fixed&#xA;floor&#xA;focus&#xA;fontcolor&#xA;fontsize&#xA;forward&#xA;fromCharCode&#xA;FileExists&#xA;FolderExists&#xA;getAttribute&#xA;getBookmark&#xA;getDate&#xA;getDay&#xA;getFullYear&#xA;getHours&#xA;getItem&#xA;getMilliseconds&#xA;getMinutes&#xA;getMonth&#xA;getSeconds&#xA;getTime&#xA;getTimezoneOffset&#xA;getUTCDate&#xA;getUTCDay&#xA;getUTCFullYear&#xA;getUTCHours&#xA;getUTCMilliseconds&#xA;getUTCMinutes&#xA;getUTCMonth&#xA;getUTCSeconds&#xA;getVarDate&#xA;getYear&#xA;go&#xA;GetAbsolutePathName&#xA;GetBaseName&#xA;GetDrive&#xA;GetDriveName&#xA;GetExtensionName&#xA;GetFile&#xA;GetFileName&#xA;GetFolder&#xA;GetParentFolderName&#xA;GetSpecialFolder&#xA;GetTempName&#xA;indexOf&#xA;inRange&#xA;insertAdjacentHTML&#xA;insertAdjacentText&#xA;insertCell&#xA;insertRow&#xA;isEqual&#xA;isFinite&#xA;isNaN&#xA;isSubscribed&#xA;italics&#xA;item&#xA;Items&#xA;javaEnabled&#xA;join&#xA;Keys&#xA;lastIndexOf&#xA;lbound&#xA;log&#xA;max&#xA;min&#xA;moveBy&#xA;moveEnd&#xA;moveFirst&#xA;moveNext&#xA;moveStart&#xA;moveTo&#xA;moveToBookmark&#xA;moveToElementText&#xA;moveToPoint&#xA;Move&#xA;MoveFile&#xA;MoveFolder&#xA;navigate&#xA;nextPage&#xA;open&#xA;OpenAsTextStream&#xA;OpenTextFile&#xA;parse&#xA;parseFloat&#xA;parseInt&#xA;pasteHTML&#xA;pow&#xA;previousPage&#xA;prompt&#xA;queryCommandEnabled&#xA;queryCommandIndeterm&#xA;queryCommandState&#xA;queryCommandSupported&#xA;queryCommandValue&#xA;random&#xA;refresh&#xA;reload&#xA;removeAttribute&#xA;replace&#xA;resizeBy&#xA;resizeTo&#xA;reverse&#xA;round&#xA;Read&#xA;ReadAll&#xA;ReadLine&#xA;Remove&#xA;RemoveAll&#xA;scroll&#xA;scrollBy&#xA;scrollIntoView&#xA;scrollTo&#xA;select&#xA;setAttribute&#xA;setDate&#xA;setEndPoint&#xA;setFullYear&#xA;setHours&#xA;setInterval&#xA;setMilliseconds&#xA;setMinutes&#xA;setMonth&#xA;setSeconds&#xA;setTime&#xA;setTimeout&#xA;setUTCDate&#xA;setUTCFullYear&#xA;setUTCHours&#xA;setUTCMilliseconds&#xA;setUTCMinutes&#xA;setUTCMonth&#xA;setUTCSeconds&#xA;setYear&#xA;showHelp&#xA;showModalDialog&#xA;sin&#xA;slice&#xA;small&#xA;sort&#xA;sqrt&#xA;start&#xA;stop&#xA;strike&#xA;sub&#xA;submit&#xA;substr&#xA;substring&#xA;sup&#xA;Skip&#xA;SkipLine&#xA;tags&#xA;taintEnabled&#xA;tan&#xA;test&#xA;toArray&#xA;toGMTString&#xA;toLocaleString&#xA;toLowerCase&#xA;toString&#xA;toUpperCase&#xA;toUTCString&#xA;ubound&#xA;unescape&#xA;UTC&#xA;valueOf&#xA;Write&#xA;WriteBlankLines&#xA;WriteLine&#xA;write&#xA;writeln&#xA;zOrder&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="onabort&#xA;onafterupdate&#xA;onbeforeunload&#xA;onbeforeupdate&#xA;onblur&#xA;onbounce&#xA;onchange&#xA;onclick&#xA;ondataavailable&#xA;ondatasetchanged&#xA;ondatasetcomplete&#xA;ondblclick&#xA;ondragstart&#xA;onerror&#xA;onerrorupdate&#xA;onfilterchange&#xA;onfinish&#xA;onfocus&#xA;onhelp&#xA;onkeydown&#xA;onkeypress&#xA;onkeyup&#xA;onload&#xA;onmousedown&#xA;onmousemove&#xA;onmouseout&#xA;onmouseover&#xA;onmouseup&#xA;onreadystatechange&#xA;onreset&#xA;onresize&#xA;onrowenter&#xA;onrowexit&#xA;onscroll&#xA;onselect&#xA;onselectstart&#xA;onstart&#xA;onsubmit&#xA;onunload&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 5" Enabled="True" Style="" Words="break&#xA;Comments&#xA;continue&#xA;do&#xA;else&#xA;for&#xA;function&#xA;if&#xA;in&#xA;Labeled&#xA;return&#xA;switch&#xA;this&#xA;var&#xA;while&#xA;with&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 6" Enabled="True" Style="" Words="AddAttribute&#xA;AddAttrubutes&#xA;AddEntity&#xA;AddEntry&#xA;AddKey&#xA;AddValue&#xA;Append&#xA;AttributeEquals&#xA;AttributeToInt&#xA;Begin&#xA;CancelRequest&#xA;CheckDesktopShortcuts&#xA;CheckStartMenuLinks&#xA;CopyFileFromUrl&#xA;CopyMapFile&#xA;CreateXMLEntity&#xA;DebugPrint&#xA;DeleteAttribute&#xA;DeleteDirectory&#xA;DeleteEntities&#xA;DeleteEntry&#xA;DeleteKey&#xA;DeleteValue&#xA;End&#xA;FindFile&#xA;GetAllComponentInfo&#xA;GetAllComponents&#xA;GetAllGroupInfo&#xA;GetAllInfoForAllComponents&#xA;GetAllKeyValues&#xA;GetApi&#xA;GetAppInstallPath&#xA;GetAppName&#xA;GetApplicationInstallHistory&#xA;GetAttribute&#xA;GetAttributeInfo&#xA;GetClientForMSNetSettings&#xA;GetComponentHistory&#xA;GetComponentIds&#xA;GetComponentInfo&#xA;GetDeviceInfo&#xA;GetDirAttrs&#xA;GetDirListing&#xA;GetDriverServicesInfo&#xA;GetEntities&#xA;GetEntitiesCompare&#xA;GetEntity&#xA;GetEntry&#xA;GetEnvironmentVariable&#xA;GetEnvironmentVariables&#xA;GetEventLogEntries&#xA;GetFullPath&#xA;GetGeneralInfo&#xA;GetGroupInfo&#xA;GetInstalledApps&#xA;GetInstalledDrivers&#xA;GetInstalledFileHistory&#xA;GetKeyValueName&#xA;GetKeyboardInfo&#xA;GetLoadedModules&#xA;GetLoadedModulesByProcess&#xA;GetLoadedModulesForProcess&#xA;GetLocalDriveInfo&#xA;GetMaxPath&#xA;GetMetaFrameId&#xA;GetMotherboardInfo&#xA;GetMotiveInstallPath&#xA;GetMouseInfo&#xA;GetName&#xA;GetNetConfig&#xA;GetNetworkAdapters&#xA;GetNetworkBindings&#xA;GetNetworkIdentification&#xA;GetNetworkProtocols&#xA;GetNetworkServices&#xA;GetNumAttributes&#xA;GetNumEntities&#xA;GetOLEServers&#xA;GetObject&#xA;GetObjectProperty&#xA;GetObjects&#xA;GetOperatingSystemName&#xA;GetParent&#xA;GetParentAttribute&#xA;GetPrimaryNetworkLogon&#xA;GetProblemDescription&#xA;GetProblemSummary&#xA;GetProperties&#xA;GetPropertiesAndVersions&#xA;GetResourceInfo&#xA;GetReturnCode&#xA;GetScsiAdapterInfo&#xA;GetSection&#xA;GetServicesInfo&#xA;GetSubFrameId&#xA;GetSubkey&#xA;GetSubkeys&#xA;GetSubtree&#xA;GetSystemDllChangeHistory&#xA;GetSystemDllInfo&#xA;GetTCPIPSettings&#xA;GetTaskList&#xA;GetUserName&#xA;GetValue&#xA;GetVersions&#xA;GetVideoAdapterInfo&#xA;GetWinIniOLEServers&#xA;HasWBEMSupport&#xA;Head&#xA;IsGUIAllowed&#xA;IsInteresting&#xA;IsKeyExcluded&#xA;IsPathExcluded&#xA;IsProcessRunning&#xA;IsWindows&#xA;IsWindows95&#xA;IsWindows98&#xA;IsWindowsNT&#xA;KeyExists&#xA;LogMessage&#xA;LogXMLEntities&#xA;LogXMLEntity&#xA;MakeDirectory&#xA;MultiSZToEnum&#xA;OpenRead&#xA;OpenWrite&#xA;Prepend&#xA;Print&#xA;ReadAppInstallPath&#xA;ReadKeyValueName&#xA;ReadSubkey&#xA;ReadValue&#xA;Readln&#xA;RegisteredWithDmiSP&#xA;RunMap&#xA;RunWQLQuery&#xA;Search&#xA;SearchReplace&#xA;SetDirAttrs&#xA;SetFileAttrs&#xA;SetInteresting&#xA;SetName&#xA;SetUninteresting&#xA;ShowEditDlg&#xA;ShowInfoDlg&#xA;ShowListDlg&#xA;ShowMultiSelectListDlg&#xA;ShowOKCancelDlg&#xA;ShowYesNoDlg&#xA;StartBrowser&#xA;StopBrowser&#xA;Tail&#xA;Writeln&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 7" Enabled="True" Style="" Words="AddIniFileEntry&#xA;AddRegistryKey&#xA;AddRegistryValue&#xA;BeginDisplayGroup&#xA;CheckDefaultRegistryValue&#xA;CheckDesktopShortcuts&#xA;CheckDirectoryAttributes&#xA;CheckFileExists&#xA;CheckFileProperties&#xA;CheckFilePropertiesAndVersions&#xA;CheckFileVersions&#xA;CheckIniFileEntry&#xA;CheckRegistryValue&#xA;CheckStartMenuLinks&#xA;CopyFileFromUrl&#xA;DeleteIniFileEntry&#xA;DeleteRegistryKey&#xA;DeleteRegistryValue&#xA;EndDisplayGroup&#xA;FindFile&#xA;GetAllRegistryKeyValues&#xA;GetApplicationInstallHistory&#xA;GetDefaultRegistryValue&#xA;GetDiagnosticsReport&#xA;GetDirectoryAttributes&#xA;GetDirectoryListing&#xA;GetDriverServicesInfo&#xA;GetEnvironmentVariableInfo&#xA;GetEventLogEntries&#xA;GetFileProperties&#xA;GetFilePropertiesAndVersions&#xA;GetFileVersions&#xA;GetGeneralSystemInfo&#xA;GetHardwareDeviceInfo&#xA;GetIniFileEntry&#xA;GetInstalledAppsList&#xA;GetInstalledDrivers&#xA;GetKeyboardInfo&#xA;GetLoadedModuleInfo&#xA;GetLoadedModuleInfoForAllProcesses&#xA;GetLoadedModuleInfoForProcesses&#xA;GetMapParam&#xA;GetMotherboardInfo&#xA;GetMouseInfo&#xA;GetNetworkAdapterInfo&#xA;GetNetworkConfigurationInfo&#xA;GetOLEServers&#xA;GetProcessList&#xA;GetRegistrySubkeys&#xA;GetRegistrySubtree&#xA;GetRegistryValue&#xA;GetResourceUsageSummary&#xA;GetScreenSnapshot&#xA;GetScsiAdapterInfo&#xA;GetSystemDllChangeHistory&#xA;GetSystemDllInfo&#xA;GetTaskList&#xA;GetVideoAdapterInfo&#xA;GetWin32ServicesInfo&#xA;RunProgramAsync&#xA;RunProgramSync&#xA;SetDirectoryAttributes&#xA;SetFileAttributes&#xA;SetSelfServiceAnswer&#xA;SetSelfServiceSearchString&#xA;SetSelfServiceUrl&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 8" Enabled="True" Style="" Words="dmiApi&#xA;DmiApi&#xA;fileApi&#xA;FileApi&#xA;guiApi&#xA;GuiApi&#xA;iniApi&#xA;IniApi&#xA;ntApi&#xA;NtApi&#xA;oleApi&#xA;OleApi&#xA;regApi&#xA;RegApi&#xA;sysApi&#xA;SysApi&#xA;threadApi&#xA;txtApi&#xA;ThreadApi&#xA;TxtApi&#xA;wbemApi&#xA;win98Api&#xA;win9xApi&#xA;WbemApi&#xA;Win98Api&#xA;Win9xApi&#xA;">
+          <Attributes Foreground="$00FF8080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

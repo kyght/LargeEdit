@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Windows Registry Files" FileType="" Extensions="reg" Version="0" Revision="9" Sample="REGEDIT4&#xA;&#xA;[HKEY_CLASSES_ROOT]&#xA;&#xA;[HKEY_CLASSES_ROOT\CLSID]&#xA;@=&quot;&quot;&#xA;&#xA;[HKEY_CLASSES_ROOT\CLSID\{B323F8E0-2E68-11D0-90EA-00AA0060F86C}]&#xA;@=&quot;StillImage&quot;&#xA;&#xA;[HKEY_CLASSES_ROOT\CLSID\{B323F8E0-2E68-11D0-90EA-00AA0060F86C}\InProcServer32]&#xA;@=&quot;C:\\WINDOWS\\SYSTEM\\sti.dll&quot;&#xA;&quot;ThreadingModel&quot;=&quot;Both&quot;&#xA;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Header" Enabled="True" Style="" Words="REGEDIT4&#xA;">
+          <Attributes Foreground="$0080FFFF" Background="$00A00000" Style=""/>
+        </KeyList>
+        <Range Name="Key path" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="[" Close="]"/>
+          </MultiTokens>
+          <SubRules>
+            <KeyList Name="Roots" Enabled="True" Style="" Words="HKEY_CLASSES_ROOT&#xA;HKEY_USERS&#xA;">
+              <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+            </KeyList>
+            <Range Name="CLSID" Enabled="True" CaseSensitive="True" Style="">
+              <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+              <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+              <Properties/>
+              <OpenToken/>
+              <CloseToken/>
+              <MultiTokens>
+                <Tokens Open="{" Close="}"/>
+              </MultiTokens>
+              <SubRules/>
+            </Range>
+          </SubRules>
+        </Range>
+        <Range Name="Hex" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="=hex"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="dword" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="dword:"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

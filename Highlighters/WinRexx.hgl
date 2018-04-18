@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="WinRexx" FileType="" Extensions="CMD REX REXX" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:winrex.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;$%&amp;'()*+,./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="KEYWORDS" Enabled="True" Style="" Words="ABBREV&#xA;ABS&#xA;ADDRESS&#xA;ARG&#xA;BITAND&#xA;BITOR&#xA;BITXOR&#xA;B2X&#xA;CENTER&#xA;CHARIN&#xA;CHAROUT&#xA;CHARS&#xA;COMPARE&#xA;CONDITION&#xA;COPIES&#xA;C2D&#xA;C2X&#xA;DATATYPE&#xA;DATE&#xA;DELSTR&#xA;DELWORD&#xA;DIGITS&#xA;D2C&#xA;D2X&#xA;ERRORTEXT&#xA;FORM&#xA;FORMAT&#xA;FUZZ&#xA;filespec&#xA;INSERT&#xA;LASTPOS&#xA;LEFT&#xA;LENGTH&#xA;LINEIN&#xA;LINEOUT&#xA;LINES&#xA;MAX&#xA;MIN&#xA;nop&#xA;OVERLAY&#xA;POS&#xA;QUEUED&#xA;RANDOM&#xA;RANDOM&#xA;REVERSE&#xA;RIGHT&#xA;SIGN&#xA;SOURCELINE&#xA;SPACE&#xA;STREAM&#xA;STRIP&#xA;SUBSTR&#xA;SUBWORD&#xA;SYMBOL&#xA;TIME&#xA;TRACE&#xA;TRANSLATE&#xA;TRUNC&#xA;VALUE&#xA;VERIFY&#xA;WORD&#xA;WORDINDEX&#xA;WORDLENGTH&#xA;WORDPOS&#xA;WORDS&#xA;XRANGE&#xA;X2B&#xA;X2C&#xA;X2D&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Other" Enabled="True" Style="" Words="say&#xA;signal&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Other" Enabled="True" Style="" Words="call&#xA;do&#xA;end&#xA;exit&#xA;&#xA;&#xA;if&#xA;otherwise&#xA;select&#xA;then&#xA;when&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

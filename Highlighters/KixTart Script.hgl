@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="KixTart Script" FileType="" Extensions="" Version="1" Revision="0" Sample="; KiXtart sample source&#xA;break on&#xA;color b/n&#xA;AT(1, 30) &quot;Hello World!&quot;&#xA;$USERID = @USERID&#xA;AT(1, 30) $USERID&#xA;; Check command line parameters&#xA;Select&#xA;	Case $PC = &quot;&quot;&#xA;		; Default if none specified is local computer (&quot;.&quot;)&#xA;		$strComputer = @WKSTA&#xA;	Case 1&#xA;		; Command line parameter $PC can either be a&#xA;		; computer name or &quot;/?&quot; to request online help&#xA;		$strComputer = $PC&#xA;		If InStr( $strComputer, &quot;?&quot; ) &gt; 0&#xA;			Syntax()&#xA;		EndIf&#xA;EndSelect&#xA;&#xA;; Connect to computer's WMI service&#xA;$objWMIService = GetObject( &quot;winmgmts://&quot; + $strComputer + &quot;/root/cimv2&quot; )&#xA;; Display error number if applicable&#xA;If @ERROR&#xA;	ShowError()&#xA;EndIf&#xA;&#xA;; Collect BIOS information&#xA;$colItems = $objWMIService.ExecQuery( &quot;Select * from Win32_BIOS where PrimaryBIOS = true&quot;, , 48 )&#xA;; Display error number if applicable&#xA;If @ERROR&#xA;	ShowError()&#xA;EndIf&#xA;&#xA;Function Syntax()&#xA;	? &quot;BIOS.kix,  Version 1.00&quot;&#xA;	? &quot;Display BIOS information for any WMI enabled computer on the network.&quot;&#xA;	?&#xA;	? &quot;Usage:  KIX32  BIOS.KIX  [ $PC=computer_name ]&quot;&#xA;	?&#xA;	? &quot;Where:  &quot; + Chr(34) + &quot;computer_name&quot; + Chr(34) + &quot; is the name or IP address of any WMI enabled&quot;&#xA;	? &quot;        computer on the network&quot;&#xA;	?&#xA;	? &quot;Written by Rob van der Woude&quot;&#xA;	? &quot;http://www.robvanderwoude.com&quot;&#xA;	?&#xA;	; Abort with return code 1&#xA;	Quit 1&#xA;EndFunction&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Commands" Enabled="True" Style="" Words=":&#xA;?&#xA;BEEP&#xA;BIG&#xA;BREAK&#xA;CALL&#xA;CASE&#xA;CD&#xA;CLS&#xA;COLOR&#xA;COOKIE1&#xA;COPY&#xA;DEBUG&#xA;DEL&#xA;DIM&#xA;DISPLAY&#xA;DO&#xA;EACH&#xA;ELSE&#xA;ENDFUNCTION&#xA;ENDIF&#xA;ENDSELECT&#xA;EXIT&#xA;FLUSHKB&#xA;FOR&#xA;FUNCTION&#xA;GET&#xA;GETS&#xA;GLOBAL&#xA;GO&#xA;GOSUB&#xA;GOTO&#xA;IF&#xA;LOOP&#xA;MD&#xA;NEXT&#xA;OFF&#xA;ON&#xA;PASSWORD&#xA;PLAY&#xA;QUIT&#xA;RD&#xA;REDIM&#xA;RETURN&#xA;RUN&#xA;SELECT&#xA;SET&#xA;SETL&#xA;SETM&#xA;SETTIME&#xA;SHELL&#xA;SLEEP&#xA;SMALL&#xA;UNTIL&#xA;USE&#xA;WHILE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Functions" Enabled="True" Style="" Words="ADDKEY&#xA;ADDPRINTERCONNECTION&#xA;ADDPROGRAMGROUP&#xA;ADDPROGRAMITEM&#xA;ASC&#xA;AT&#xA;BACKUPEVENTLOG&#xA;BOX&#xA;CHR&#xA;CLEAREVENTLOG&#xA;CLOSE&#xA;COMPAREFILETIMES&#xA;CREATEOBJECT&#xA;DECTOHEX&#xA;DELKEY&#xA;DELPRINTERCONNECTION&#xA;DELPROGRAMGROUP&#xA;DELPROGRAMITEM&#xA;DELTREE&#xA;DELVALUE&#xA;DIR&#xA;ENUMGROUP&#xA;ENUMIPINFO&#xA;ENUMKEY&#xA;ENUMLOCALGROUP&#xA;ENUMVALUE&#xA;EXECUTE&#xA;EXIST&#xA;EXISTKEY&#xA;EXPANDENVIRONMENTVARS&#xA;GETDISKSPACE&#xA;GETFILEATTR&#xA;GETFILESIZE&#xA;GETFILETIME&#xA;GETFILEVERSION&#xA;GETOBJECT&#xA;INGROUP&#xA;INSTR&#xA;KEYEXIST&#xA;LCASE&#xA;LEN&#xA;LOADHIVE&#xA;LOADKEY&#xA;LOGEVENT&#xA;LOGOFF&#xA;LTRIM&#xA;MESSAGEBOX&#xA;OLECALLFUNC&#xA;OLECALLPROC&#xA;OLECREATEOBJECT&#xA;OLEENUMOBJECT&#xA;OLEGETOBJECT&#xA;OLEGETPROPERTY&#xA;OLEGETSUBOBJECT&#xA;OLEPUTPROPERTY&#xA;OLERELEASEOBJECT&#xA;OPEN&#xA;READLINE&#xA;READPROFILESTRING&#xA;READTYPE&#xA;READVALUE&#xA;REDIRECTOUTPUT&#xA;RND&#xA;RTRIM&#xA;SAVEKEY&#xA;SENDKEYS&#xA;SENDMESSAGE&#xA;SETACSII&#xA;SETCONSOLE&#xA;SETDEFAULTPRINTER&#xA;SETFILEATTR&#xA;SETFOCUS&#xA;SETSYSTEMSTATE&#xA;SETTITLE&#xA;SETWALLPAPER&#xA;SHOWPROGRAMGROUP&#xA;SHUTDOWN&#xA;SIDTONAME&#xA;SPLIT&#xA;SRND&#xA;SUBSTR&#xA;UBOUND&#xA;UCASE&#xA;UNLOADHIVE&#xA;VAL&#xA;VARTYPE&#xA;VARTYPENAME&#xA;WRITELINE&#xA;WRITEPROFILESTRING&#xA;WRITEVALUE&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Macros" Enabled="True" Style="" Words="ADDRESS&#xA;COMMENT&#xA;CSD&#xA;CURDIR&#xA;DATE&#xA;DAY&#xA;DOMAIN&#xA;DOS&#xA;ERROR&#xA;FULLNAME&#xA;HOMEDIR&#xA;HOMEDRIVE&#xA;HOMESHR&#xA;HOSTNAME&#xA;INWIN&#xA;IPADDRESS0&#xA;IPADDRESS1&#xA;IPADDRESS2&#xA;IPADDRESS3&#xA;KIX&#xA;LANROOT&#xA;LDOMAIN&#xA;LDRIVE&#xA;LM&#xA;LONGHOMEDIR&#xA;LSERVER&#xA;MAXPWAGE&#xA;MDAYNO&#xA;MONTHNO&#xA;MONTH&#xA;PRIMARYGROUP&#xA;PRIV&#xA;PRODUCTSUITE&#xA;PRODUCTTYPE&#xA;PWAGE&#xA;RAS&#xA;RSERVER&#xA;SCRIPTDIR&#xA;SERROR&#xA;SID&#xA;SITE&#xA;STARTDIR&#xA;SYSLANG&#xA;TIME&#xA;USERID&#xA;USERLANG&#xA;WDAYNO&#xA;WKSTA&#xA;WuSERID&#xA;YDAYNO&#xA;YEAR&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Operators" Enabled="True" Style="" Words="+&#xA;-&#xA;//&#xA;/&#xA;=&#xA;==&#xA;&amp;&#xA;|&#xA;&gt;&#xA;&lt;&#xA;AND&#xA;OR&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="$" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$008000FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="$"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="@" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="@"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="?" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="?"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

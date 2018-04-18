@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="SAP - ABAP/4" FileType="" Extensions="ABP" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:sap.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,./;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="ABS&#xA;ACOS&#xA;ADD&#xA;ADD-CORRESPONDING&#xA;ADJACENT&#xA;ALL&#xA;AND&#xA;ANALYZER&#xA;APPEND&#xA;ASCENDING&#xA;ASIN&#xA;AT&#xA;ATAN&#xA;AUTHORITY-CHECK&#xA;AVG&#xA;BACK&#xA;BEGIN&#xA;BETWEEN&#xA;BINARY&#xA;BLANK&#xA;BLOCK&#xA;BREAK-POINT&#xA;BY&#xA;CA&#xA;CALL&#xA;CASE&#xA;CATCH&#xA;CEIL&#xA;CENTERED&#xA;CHANGE&#xA;CHECK&#xA;CHECKBOX&#xA;CLEAR&#xA;CLEAR:&#xA;CLOSE&#xA;CN&#xA;CNT&#xA;CO&#xA;COLLECT&#xA;COLOR&#xA;COMMIT&#xA;COMMUNICATION&#xA;COMPUTE&#xA;CONCATENATE&#xA;CONDENSE&#xA;CONSTANTS&#xA;CONSTANTS:&#xA;CONTINUE&#xA;CONTROL&#xA;CONTROLS&#xA;CONVERT&#xA;COPY&#xA;COS&#xA;COSH&#xA;COUNT&#xA;COUNTRY&#xA;CP&#xA;CURRENCY&#xA;CUSTOMER-FUNCTION&#xA;DATA&#xA;DATA:&#xA;DATASET&#xA;DECIMALS&#xA;DEFINE&#xA;DEFAULT&#xA;DELETE&#xA;DESCENDING&#xA;DESCRIBE&#xA;DIALOG&#xA;DISTINCT&#xA;DIV&#xA;DIVIDE&#xA;DIVIDE-CORRESPONDING&#xA;DO&#xA;DUPLICATES&#xA;EDITOR-CALL&#xA;ELSE&#xA;ELSEIF&#xA;END&#xA;ENDCATCH&#xA;END-OF-DEFINITION&#xA;END-OF-PAGE&#xA;END-OF-SELECTION&#xA;ENDAT&#xA;ENDCASE&#xA;ENDDO&#xA;ENDFORM&#xA;ENDFUNCTION&#xA;ENDIF&#xA;ENDLOOP&#xA;ENDMODULE&#xA;ENDON&#xA;ENDPROVIDE&#xA;ENDSELECT&#xA;ENDWHILE&#xA;ENTRIES&#xA;EQ&#xA;EXCEPTIONS&#xA;EXEC&#xA;EXIT&#xA;EXP&#xA;EXPONENT&#xA;EXPORT&#xA;EXPORTING&#xA;EXTENDED&#xA;EXTRACT&#xA;FETCH&#xA;FIELD-GROUP&#xA;FIELD-SYMBOLS&#xA;FIELD-SYMBOLS:&#xA;FLOOR&#xA;FOR&#xA;FORM&#xA;FORMAT&#xA;FRAC&#xA;FRAME&#xA;FREE&#xA;FROM&#xA;FUNCTION&#xA;FUNCTION-POOL&#xA;GE&#xA;GENERATE&#xA;GET&#xA;GT&#xA;HIDE&#xA;HOTSPOT&#xA;HEADER&#xA;HEADING.&#xA;HEADING&#xA;ICON&#xA;IF&#xA;IMPORT&#xA;IMPORTING&#xA;IN&#xA;INCLUDE&#xA;INDEX&#xA;INFOTYPES&#xA;INITIAL&#xA;INITIALIZATION&#xA;INPUT&#xA;INSERT&#xA;INTO&#xA;INTENSIFIED&#xA;INVERSE&#xA;IS&#xA;KEY&#xA;LANGUAGE&#xA;LE&#xA;LEAVE&#xA;LEFT-JUSTIFIED&#xA;LIKE&#xA;LINE&#xA;LINE-COUNT&#xA;LINE-SIZE&#xA;LINES&#xA;LIST-PROCESSING&#xA;LOAD&#xA;LOCAL&#xA;LOCAL&#xA;LOCALE&#xA;LOG&#xA;LOG10&#xA;LOOP&#xA;LT&#xA;MESSAGE-ID&#xA;MESSAGE&#xA;M&#xA;MARGIN&#xA;MAX&#xA;MIN&#xA;MOD&#xA;MODE&#xA;MODIFY&#xA;MODULE&#xA;MOVE&#xA;MOVE-CORRESPONDING&#xA;MULTIPLY&#xA;MULTIPLY-CORRESPONDING&#xA;NA&#xA;NE&#xA;NEW-LINE&#xA;NEW-PAGE&#xA;NO-GAP&#xA;NO-HEADING&#xA;NO-SCROLLING&#xA;NO-SIGN&#xA;NO-TITLE&#xA;NO-ZERO&#xA;NOT&#xA;NP&#xA;NS&#xA;NO&#xA;STANDARD&#xA;PAGE&#xA;HEADING&#xA;O&#xA;OBLIGATORY&#xA;OCCURS&#xA;OF&#xA;OFF&#xA;ON&#xA;OPEN&#xA;OR&#xA;ORDER&#xA;OUTPUT&#xA;OVERLAY&#xA;PACK&#xA;PARAMETERS&#xA;PARAMETERS:&#xA;PERFORM&#xA;PF-STATUS&#xA;POSITION&#xA;PRINT&#xA;PRINT-CONTROL&#xA;PROGRAM&#xA;PROVIDE&#xA;PUT&#xA;PAGE&#xA;RADIOBUTTON&#xA;RAISE&#xA;RAISING&#xA;RANGES&#xA;READ&#xA;RECEIVE&#xA;REFRESH&#xA;REJECT&#xA;REPLACE&#xA;REPORT&#xA;RESERVE&#xA;RESET&#xA;RIGHT-JUSTIFIED&#xA;ROLLBACK&#xA;ROUND&#xA;RUN&#xA;SCAN&#xA;SCREEN&#xA;SCROLL&#xA;SCROLL-BOUNDARY&#xA;SEARCH&#xA;SELECT&#xA;SELECT-OPTIONS&#xA;SELECT-OPTIONS:&#xA;SELECTION-SCREEN&#xA;SELECTION-SCREEN:&#xA;SELECTION-TABLE&#xA;SET&#xA;SHIFT&#xA;SIGN&#xA;SIN&#xA;SELECT&#xA;SINGLE&#xA;SINH&#xA;SKIP&#xA;SORT&#xA;SPACE&#xA;SPLIT&#xA;SQL&#xA;SQRT&#xA;STANDARD&#xA;START-OF-SELECTION&#xA;STATICS&#xA;STOP&#xA;STRLEN&#xA;STRUCTURE&#xA;SUBMIT&#xA;SUBSTRACT&#xA;SUBSTRACT-CORRESPONDING&#xA;SUM&#xA;SUPPRESS&#xA;DIALOG&#xA;SYMBOL&#xA;SYNTAX-CHECK&#xA;SYNTAX-TRACE&#xA;SYSTEM-EXCEPTIONS&#xA;TABLE&#xA;TABLES&#xA;TABLES:&#xA;TAN&#xA;TANH&#xA;THEN&#xA;TIME&#xA;TITLE&#xA;TITLEBAR&#xA;TO&#xA;TOP-OF-PAGE&#xA;TRANSACTION&#xA;TRANSFER&#xA;TRANSLATE&#xA;TRUNC&#xA;TYPE-POOLS&#xA;TYPE-POOL&#xA;TYPES&#xA;TYPE&#xA;ULINE&#xA;UNDER&#xA;UNIT&#xA;UNPACK&#xA;UPDATE&#xA;USER-COMMAND&#xA;USING&#xA;USING:&#xA;VALUE&#xA;WHEN&#xA;WHERE&#xA;WHILE&#xA;WINDOW&#xA;WITH&#xA;WITH-TITLE&#xA;WORK&#xA;WRITE&#xA;WRITE:&#xA;WRITE-TO&#xA;Z&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="System Vars" Enabled="True" Style="" Words="BDCDATA&#xA;SY-ABCDE&#xA;SY-APPLI&#xA;SY-BATCH&#xA;SY-BATZD&#xA;SY-BATZM&#xA;SY-BATZO&#xA;SY-BATZS&#xA;SY-BATZW&#xA;SY-BINPT&#xA;SY-BREP4&#xA;SY-BSPLD&#xA;SY-CALLD&#xA;SY-CALLR&#xA;SY-CCURS&#xA;SY-CCURT&#xA;SY-CDATE&#xA;SY-COLNO&#xA;SY-CPAGE&#xA;SY-CPROG&#xA;SY-CTABL&#xA;SY-CTYPE&#xA;SY-CUCOL&#xA;SY-CUROW&#xA;SY-DATAR&#xA;SY-DATLO&#xA;SY-DATUM&#xA;SY-DATUT&#xA;SY-DAYST&#xA;SY-DBCNT&#xA;SY-DBNAM&#xA;SY-DBSYS&#xA;SY-DCSYS&#xA;SY-DSNAM&#xA;SY-DYNGR&#xA;SY-DYNNR&#xA;SY-FDAYW&#xA;SY-FDPOS&#xA;SY-FMKEY&#xA;SY-HOST&#xA;SY-INDEX&#xA;SY-LANGU&#xA;SY-LDBPG&#xA;SY-LILLI&#xA;SY-LINCT&#xA;SY-LINNO&#xA;SY-LINSZ&#xA;SY-LISEL&#xA;SY-LISTI&#xA;SY-LOCDB&#xA;SY-LOCOP&#xA;SY-LOOPC&#xA;SY-LSIND&#xA;SY-LSTAT&#xA;SY-MACDB&#xA;SY-MACOL&#xA;SY-MANDT&#xA;SY-MARKY&#xA;SY-MAROW&#xA;SY-MODNO&#xA;SY-MSGID&#xA;SY-MSGLI&#xA;SY-MSGNO&#xA;SY-MSGTY&#xA;SY-MSGV1&#xA;SY-MSGV2&#xA;SY-MSGV3&#xA;SY-MSGV4&#xA;SY-OPSYS&#xA;SY-PAART&#xA;SY-PAGCT&#xA;SY-PAGNO&#xA;SY-PDEST&#xA;SY-PEXPI&#xA;SY-PFKEY&#xA;SY-PLIST&#xA;SY-PRABT&#xA;SY-PRBIG&#xA;SY-PRCOP&#xA;SY-PRDSN&#xA;SY-PREFX&#xA;SY-PRIMM&#xA;SY-PRNEW&#xA;SY-PRREC&#xA;SY-PRREL&#xA;SY-PRTXT&#xA;SY-REPID&#xA;SY-SPONR&#xA;SY-SROWS&#xA;SY-STACO&#xA;SY-STARO&#xA;SY-STEPL&#xA;SY-SUBRC&#xA;SY-SUBTY&#xA;SY-SYSID&#xA;SY-TABIX&#xA;SY-TCODE&#xA;SY-TFDSN&#xA;SY-TFILL&#xA;SY-TIMLO&#xA;SY-TIMUT&#xA;SY-TITLE&#xA;SY-TLENG&#xA;SY-TMAXL&#xA;SY-TNAME&#xA;SY-TOCCU&#xA;SY-TPAGI&#xA;SY-TSTLO&#xA;SY-TSTUT&#xA;SY-TTABC&#xA;SY-TTABI&#xA;SY-TVAR0&#xA;SY-TVAR1&#xA;SY-TVAR2&#xA;SY-TVAR3&#xA;SY-TVAR4&#xA;SY-TVAR5&#xA;SY-TVAR6&#xA;SY-TVAR7&#xA;SY-TVAR8&#xA;SY-TVAR9&#xA;SY-TZONE&#xA;SY-UCOMM&#xA;SY-ULINE&#xA;SY-UNAME&#xA;SY-UZEIT&#xA;SY-VLINE&#xA;SY-WAERS&#xA;SY-WILLI&#xA;SY-WINCO&#xA;SY-WINDI&#xA;SY-WINRO&#xA;SY-WINSL&#xA;SY-WINX2&#xA;SY-WINXI&#xA;SY-WINY1&#xA;SY-WINY2&#xA;SY-WTITL&#xA;SY-XCODE&#xA;SY-ZON&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks *" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="*"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks &amp;qt;.." Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

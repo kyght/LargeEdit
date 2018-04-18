@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="LotusScript" FileType="" Extensions="LS" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:lotusscript.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="Abs&#xA;Access&#xA;ACos&#xA;ActivateApp&#xA;Alias&#xA;And&#xA;Any&#xA;Append&#xA;As&#xA;Asc&#xA;ASin&#xA;Atn&#xA;Atn2&#xA;Base&#xA;Beep&#xA;Bin&#xA;Bin$&#xA;Binary&#xA;Bind&#xA;ByVal&#xA;Call&#xA;CCur&#xA;CDat&#xA;CDbl&#xA;ChDir&#xA;ChDrive&#xA;Chr&#xA;Chr$&#xA;CInt&#xA;Class&#xA;CLng&#xA;Close&#xA;Command&#xA;Command$&#xA;Compare&#xA;Const&#xA;Cos&#xA;CSng&#xA;CStr&#xA;CurDir&#xA;CurDir$&#xA;CurDrive&#xA;CurDrive$&#xA;CVar&#xA;DataType&#xA;Date&#xA;Date$&#xA;DateNumber&#xA;DateValue&#xA;Day&#xA;Declare&#xA;DefCur&#xA;DefDbl&#xA;DefInt&#xA;DefLng&#xA;DefSng&#xA;DefStr&#xA;DefVar&#xA;Delete&#xA;Dim&#xA;Dir&#xA;Dir$&#xA;Environ&#xA;Environ$&#xA;EOF&#xA;Eqv&#xA;Erase&#xA;Erl&#xA;Err&#xA;Error&#xA;Error$&#xA;Evaluate&#xA;Event&#xA;Execute&#xA;Exit&#xA;Exp&#xA;FALSE&#xA;FileAttr&#xA;FileCopy&#xA;FileDateTime&#xA;FileLen&#xA;Fix&#xA;Format&#xA;Format$&#xA;Fraction&#xA;FreeFile&#xA;FromFunction&#xA;Get&#xA;GetFileAttr&#xA;Hex&#xA;Hex$&#xA;Hour&#xA;IMEStatus&#xA;Imp&#xA;In&#xA;Input&#xA;Input$&#xA;InputB&#xA;InputB$&#xA;InputBox&#xA;InputBox$&#xA;InputBP&#xA;InputBP$&#xA;InStr&#xA;InStrB&#xA;InStrBP&#xA;Int&#xA;Is&#xA;IsArray&#xA;IsDate&#xA;IsElement&#xA;IsEmpty&#xA;IsList&#xA;IsNull&#xA;IsNumeric&#xA;IsObject&#xA;IsScalar&#xA;IsUnknown&#xA;Kill&#xA;LBound&#xA;LCase&#xA;LCase$&#xA;Left&#xA;Left$&#xA;LeftB&#xA;LeftB$&#xA;LeftBP&#xA;LeftBP$&#xA;Len&#xA;LenB&#xA;LenBP&#xA;Let&#xA;Lib&#xA;Like&#xA;Line&#xA;List&#xA;ListTag&#xA;LMBCS&#xA;Loc&#xA;Lock&#xA;LOF&#xA;Log&#xA;Loop&#xA;LSet&#xA;LTrim&#xA;LTrim$&#xA;Me&#xA;MessageBox&#xA;Mid&#xA;Mid$&#xA;MidB&#xA;MidB$&#xA;Minute&#xA;MkDir&#xA;Mod&#xA;Month&#xA;Name&#xA;New&#xA;NoCase&#xA;NoPitch&#xA;Not&#xA;NOTHING&#xA;Now&#xA;NULL&#xA;Oct&#xA;Oct$&#xA;On&#xA;Open&#xA;Option&#xA;Or&#xA;Output&#xA;PI&#xA;Pitch&#xA;Preserve&#xA;Print&#xA;Private&#xA;Property&#xA;Public&#xA;Put&#xA;Random&#xA;Randomize&#xA;Read&#xA;ReDim&#xA;Rem&#xA;Remove&#xA;Reset&#xA;Resume&#xA;Return&#xA;Right&#xA;Right$&#xA;RightB&#xA;RightB$&#xA;RightBP&#xA;RightBP$&#xA;RmDir&#xA;Rnd&#xA;Round&#xA;RSet&#xA;RTrim&#xA;RTrim$&#xA;Second&#xA;Seek&#xA;SendKeys&#xA;Set&#xA;SetFileAttr&#xA;Sgn&#xA;Shared&#xA;Shell&#xA;Sin&#xA;Space&#xA;Space$&#xA;Spc&#xA;Sqr&#xA;Static&#xA;Step&#xA;Stop&#xA;Str&#xA;Str$&#xA;StrCompare&#xA;String$&#xA;Sub&#xA;Tab&#xA;Tan&#xA;Time&#xA;Time$&#xA;TimeNumber&#xA;Timer&#xA;TimeValue&#xA;To&#xA;Today&#xA;Trim&#xA;Trim$&#xA;TRUE&#xA;Type&#xA;TypeName&#xA;UBound&#xA;UCase&#xA;UCase$&#xA;UChr&#xA;UChr$&#xA;Uni&#xA;Unicode&#xA;Unlock&#xA;Use&#xA;UseLSX&#xA;UString&#xA;UString$&#xA;Val&#xA;With&#xA;Write&#xA;Xor&#xA;Year&#xA;Yield&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="Currency&#xA;Double&#xA;Integer&#xA;Long&#xA;Single&#xA;String&#xA;Variant&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="Case&#xA;Do&#xA;Else&#xA;End&#xA;ElseIf&#xA;For&#xA;Forall&#xA;If&#xA;Next&#xA;Select&#xA;Then&#xA;Until&#xA;Wend&#xA;While&#xA;GoSub&#xA;GoTo&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="NotesACLNotesACLEntry&#xA;NotesAgent&#xA;NotesDatabase&#xA;NotesDateRange&#xA;NotesDateTime&#xA;NotesDbDirectory&#xA;NotesDocument&#xA;NotesDocumentCollection&#xA;NotesEmbeddedObject&#xA;NotesForm&#xA;NotesInternational&#xA;NotesItem&#xA;NotesLog&#xA;NotesName&#xA;NotesNewsLetter&#xA;NotesRegistration&#xA;NotesRichTextItem&#xA;NotesRichTextStyle&#xA;NotesSession&#xA;NotesTimer&#xA;NotesView&#xA;NotesViewColumn&#xA;NotesUIDatabase&#xA;NotesUIDocument&#xA;NotesUIView&#xA;NotesUIWorkspace&#xA;Navigator&#xA;notesaclnotesaclentry&#xA;notesagent&#xA;notesdatabase&#xA;notesdaterange&#xA;notesdatetime&#xA;notesdbdirectory&#xA;notesdocument&#xA;notesdocumentcollection&#xA;notesembeddedobject&#xA;notesform&#xA;notesinternational&#xA;notesitem&#xA;noteslog&#xA;notesname&#xA;notesnewsletter&#xA;notesregistration&#xA;notesrichtextitem&#xA;notesrichtextstyle&#xA;notessession&#xA;notestimer&#xA;notesview&#xA;notesviewcolumn&#xA;notesuidatabase&#xA;notesuidocument&#xA;notesuiview&#xA;notesuiworkspace&#xA;navigator&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks '" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks %REM..%END" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="%REM" Close="%END"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

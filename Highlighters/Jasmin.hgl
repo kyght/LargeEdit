@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Jasmin" FileType="" Extensions="J" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:jasmin.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="catch&#xA;class&#xA;end&#xA;field&#xA;implements&#xA;interface&#xA;limit&#xA;line&#xA;method&#xA;source&#xA;super&#xA;throws&#xA;var&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="abstract&#xA;default&#xA;final&#xA;from&#xA;is&#xA;lookupswitch&#xA;native&#xA;private&#xA;protected&#xA;public&#xA;static&#xA;synchronized&#xA;tableswitch&#xA;to&#xA;transient&#xA;using&#xA;volatile&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="aaload&#xA;aastore&#xA;aconst_null&#xA;aload&#xA;aload_0&#xA;aload_1&#xA;aload_2&#xA;aload_3&#xA;anewarray&#xA;areturn&#xA;arraylength&#xA;astore&#xA;astore_0&#xA;astore_1&#xA;astore_2&#xA;astore_3&#xA;athrow&#xA;baload&#xA;bastore&#xA;bipush&#xA;breakpoint&#xA;caload&#xA;castore&#xA;checkcast&#xA;d2f&#xA;d2i&#xA;d2l&#xA;dadd&#xA;daload&#xA;dastore&#xA;dcmpg&#xA;dcmpl&#xA;dconst_0&#xA;dconst_1&#xA;ddiv&#xA;dead&#xA;dload&#xA;dload_0&#xA;dload_1&#xA;dload_2&#xA;dload_3&#xA;dmul&#xA;dneg&#xA;drem&#xA;dreturn&#xA;dstore&#xA;dstore_0&#xA;dstore_1&#xA;dstore_2&#xA;dstore_3&#xA;dsub&#xA;dup&#xA;dup2&#xA;dup2_x1&#xA;dup2_x2&#xA;dup_x1&#xA;dup_x2&#xA;f2d&#xA;f2i&#xA;f2l&#xA;fadd&#xA;faload&#xA;fastore&#xA;fcmpg&#xA;fcmpl&#xA;fconst_0&#xA;fconst_1&#xA;fconst_2&#xA;fdiv&#xA;fload&#xA;fload_0&#xA;fload_1&#xA;fload_2&#xA;fload_3&#xA;fmul&#xA;fneg&#xA;frem&#xA;freturn&#xA;fstore&#xA;fstore_0&#xA;fstore_1&#xA;fstore_2&#xA;fstore_3&#xA;fsub&#xA;getfield&#xA;getstatic&#xA;goto&#xA;goto_w&#xA;i2b&#xA;i2c&#xA;i2d&#xA;i2f&#xA;i2l&#xA;i2s&#xA;iadd&#xA;iaload&#xA;iand&#xA;iastore&#xA;iconst_0&#xA;iconst_1&#xA;iconst_2&#xA;iconst_3&#xA;iconst_4&#xA;iconst_5&#xA;iconst_m1&#xA;idiv&#xA;if_acmpeq&#xA;if_acmpne&#xA;if_icmpeq&#xA;if_icmpge&#xA;if_icmpgt&#xA;if_icmple&#xA;if_icmplt&#xA;if_icmpne&#xA;ifeq&#xA;ifge&#xA;ifgt&#xA;ifle&#xA;iflt&#xA;ifne&#xA;ifnonnull&#xA;ifnull&#xA;iinc&#xA;iload&#xA;iload_0&#xA;iload_1&#xA;iload_2&#xA;iload_3&#xA;imul&#xA;ineg&#xA;instanceof&#xA;int2byte&#xA;int2char&#xA;int2short&#xA;invokeinterface&#xA;invokenonvirtual&#xA;invokespecial&#xA;invokestatic&#xA;invokevirtual&#xA;ior&#xA;irem&#xA;ireturn&#xA;ishl&#xA;ishr&#xA;istore&#xA;istore_0&#xA;istore_1&#xA;istore_2&#xA;istore_3&#xA;isub&#xA;iushr&#xA;ixor&#xA;jsr&#xA;jsr_w&#xA;l2d&#xA;l2f&#xA;l2i&#xA;label&#xA;ladd&#xA;laload&#xA;land&#xA;lastore&#xA;lcmp&#xA;lconst_0&#xA;lconst_1&#xA;ldc&#xA;ldc2_w&#xA;ldc_w&#xA;ldiv&#xA;lload&#xA;lload_0&#xA;lload_1&#xA;lload_2&#xA;lload_3&#xA;lmul&#xA;lneg&#xA;lor&#xA;lrem&#xA;lreturn&#xA;lshl&#xA;lshr&#xA;lstore&#xA;lstore_0&#xA;lstore_1&#xA;lstore_2&#xA;lstore_3&#xA;lsub&#xA;lushr&#xA;lxor&#xA;monitorenter&#xA;monitorexit&#xA;multianewarray&#xA;new&#xA;newarray&#xA;nop&#xA;pop&#xA;pop2&#xA;putfield&#xA;putstatic&#xA;ret&#xA;return&#xA;saload&#xA;sastore&#xA;sipush&#xA;swap&#xA;try&#xA;wide&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="L;&#xA;B&#xA;C&#xA;D&#xA;F&#xA;I&#xA;J&#xA;S&#xA;V&#xA;Z&#xA;[&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks ;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=";"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="VRML97" FileType="" Extensions="wrl" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:vrml97.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Keywords" Enabled="True" Style="" Words="DEF&#xA;eventIn&#xA;eventOut&#xA;exposedField&#xA;EXTERNPROTO&#xA;field&#xA;IS&#xA;PROTO&#xA;ROUTE&#xA;TO&#xA;USE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Nodes" Enabled="True" Style="" Words="Anchor&#xA;Appearance&#xA;AudioClip&#xA;Background&#xA;Billboard&#xA;Box&#xA;Collision&#xA;Color&#xA;ColorInterpolator&#xA;Cone&#xA;Coordinate&#xA;CoordinateInterpolator&#xA;Cylinder&#xA;CylinderSensor&#xA;DirectionalLight&#xA;ElevationGrid&#xA;Extrusion&#xA;Fog&#xA;FontStyle&#xA;Group&#xA;ImageTexture&#xA;IndexedFaceSet&#xA;IndexedLineSet&#xA;Inline&#xA;LOD&#xA;Material&#xA;MovieTexture&#xA;NavigationInfo&#xA;Normal&#xA;NormalInterpolator&#xA;OrientationInterpolator&#xA;PixelTexture&#xA;PlaneSensor&#xA;PointLight&#xA;PointSet&#xA;PositionInterpolator&#xA;ProximitySensor&#xA;ScalarInterpolator&#xA;Script&#xA;Shape&#xA;Sound&#xA;Sphere&#xA;SphereSensor&#xA;SpotLight&#xA;Switch&#xA;Text&#xA;TextureCoordinate&#xA;TextureTransform&#xA;TimeSensor&#xA;TouchSensor&#xA;Transform&#xA;Viewpoint&#xA;VisibilitySensor&#xA;WorldInfo&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Field &amp; Event Types" Enabled="True" Style="" Words="MFColor&#xA;MFFloat&#xA;MFInt32&#xA;MFNode&#xA;MFRotation&#xA;MFString&#xA;MFTime&#xA;MFVec2f&#xA;MFVec3f&#xA;SFBool&#xA;SFColor&#xA;SFFloat&#xA;SFImage&#xA;SFInt32&#xA;SFNode&#xA;SFRotation&#xA;SFString&#xA;&#xA;SFTime&#xA;SFVec2f&#xA;SFVec3f&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Fields" Enabled="True" Style="" Words="ambientColor&#xA;ambientIntensity&#xA;appearance&#xA;attenuation&#xA;autoOffset&#xA;avatarSize&#xA;axisOfRotation&#xA;backUrl&#xA;bboxCenter&#xA;bboxSize&#xA;beamWidth&#xA;beginCap&#xA;bottom&#xA;bottomRadius&#xA;bottomUrl&#xA;ccw&#xA;choice&#xA;center&#xA;children&#xA;collide&#xA;color&#xA;colorIndex&#xA;colorPerVertex&#xA;convex&#xA;coord&#xA;coordIndex&#xA;creaseAngle&#xA;crossSection&#xA;cutOffAngle&#xA;depth&#xA;description&#xA;diffuseColor&#xA;direction&#xA;directOutput&#xA;diskAngle&#xA;dropOffRate&#xA;emissiveColor&#xA;enabled&#xA;endCap&#xA;faceType&#xA;family&#xA;fieldOfViewfields&#xA;filename&#xA;focalDistance&#xA;fogType&#xA;fontStyle&#xA;frontUrl&#xA;geometry&#xA;groundAngle&#xA;groundColor&#xA;headlight&#xA;height&#xA;heightAngle&#xA;horizontal&#xA;image&#xA;indexOfRefraction&#xA;info&#xA;intensity&#xA;isA&#xA;jump&#xA;justification&#xA;justify&#xA;key&#xA;keyValue&#xA;language&#xA;leftToRight&#xA;leftUrl&#xA;length&#xA;level&#xA;location&#xA;loop&#xA;map&#xA;material&#xA;materialIndex&#xA;matrix&#xA;mustEvaluate&#xA;maxAngle&#xA;maxBack&#xA;maxExtent&#xA;maxFront&#xA;maxPosition&#xA;minAngle&#xA;minBack&#xA;minFront&#xA;minPosition&#xA;name&#xA;normal&#xA;normalIndex&#xA;normalPerVertex&#xA;numPoints&#xA;offset&#xA;on&#xA;orientation&#xA;parameter&#xA;parts&#xA;pitch&#xA;point&#xA;position&#xA;priority&#xA;proxy&#xA;radius&#xA;range&#xA;renderCulling&#xA;repeatS&#xA;repeatT&#xA;rightUrl&#xA;rotation&#xA;scale&#xA;scaleFactor&#xA;scaleOrientation&#xA;shapeType&#xA;shininess&#xA;side&#xA;size&#xA;skyAngle&#xA;skyColor&#xA;solid&#xA;source&#xA;spacing&#xA;spatialize&#xA;specularColor&#xA;speed&#xA;spine&#xA;startIndex&#xA;startTime&#xA;stopTime&#xA;string&#xA;style&#xA;title&#xA;texCoord&#xA;texCoordIndex&#xA;texture&#xA;textureCoordIndex&#xA;textureTransform&#xA;top&#xA;topToBottom&#xA;topUrl&#xA;translation&#xA;transparency&#xA;type&#xA;url&#xA;value&#xA;vector&#xA;vertexOrdering&#xA;visibilityLimit&#xA;visibilityRange&#xA;whichChild&#xA;whichChoise&#xA;width&#xA;wrapS&#xA;wrapT&#xA;xDimension&#xA;xSpacing&#xA;zDimension&#xA;zSpacing&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Parameters" Enabled="True" Style="" Words="ALL&#xA;AUTO&#xA;BINDINGS&#xA;BOLD&#xA;BOTTOM&#xA;CENTER&#xA;CLAMP&#xA;CLOCKWISE&#xA;CONVEX&#xA;COUNTERCLOCKWISE&#xA;CULLING&#xA;DEFAULT&#xA;DEFAULTS&#xA;ENUMS&#xA;FACE&#xA;FALSE&#xA;FAMILY&#xA;FILE&#xA;FORMAT&#xA;ITALIC&#xA;JUSTIFICATION&#xA;LEFT&#xA;NONE&#xA;NULL&#xA;OFF&#xA;ON&#xA;OVERALL&#xA;PARTS&#xA;PER_FACE&#xA;PER_FACE_INDEXED&#xA;PER_PART&#xA;PER_PART_INDEXED&#xA;PER_VERTEX&#xA;PER_VERTEX_INDEXED&#xA;REPEAT&#xA;RIGHT&#xA;SHAPE&#xA;SIDES&#xA;SOLID&#xA;STYLE&#xA;TRUE&#xA;TYPE&#xA;UNKNOWN_FACE_TYPE&#xA;UNKNOWN_ORDERING&#xA;UNKNOWN_SHAPE_TYPE&#xA;WRAP&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks #" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

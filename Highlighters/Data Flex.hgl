@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="DataFlex" FileType="" Extensions="SRC PKG" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:dataflex.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="COMPILER" Enabled="True" Style="" Words="#endheader&#xA;#header&#xA;#include&#xA;#replace&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="COMMANDS" Enabled="True" Style="" Words="abort&#xA;abort_transaction&#xA;accept&#xA;activate_view&#xA;add&#xA;append&#xA;append_output&#xA;ascii&#xA;attach&#xA;autopage&#xA;backfield&#xA;begin&#xA;begin_contraints&#xA;begin_transaction&#xA;blankform&#xA;body&#xA;break&#xA;broadcast&#xA;broadcast_focus&#xA;calc&#xA;calculate&#xA;call&#xA;call_driver&#xA;cd_end_object&#xA;cd_popup_object&#xA;chain&#xA;character&#xA;class&#xA;clear&#xA;clear_option&#xA;clearform&#xA;clearscreen&#xA;clearwarning&#xA;clearxy&#xA;close&#xA;close_input&#xA;close_output&#xA;cmdline&#xA;constrain&#xA;contrained_clear&#xA;constrained_find&#xA;constraint_set&#xA;constraint_validate&#xA;copy_db&#xA;copy_records&#xA;copyfile&#xA;create_field&#xA;create_index&#xA;date&#xA;debug&#xA;declare_datafile&#xA;decrement&#xA;deferred_view&#xA;define&#xA;delegate&#xA;delete&#xA;delete_db&#xA;delete_field&#xA;delete_index&#xA;dependent_item&#xA;despool&#xA;direct_input&#xA;direct_output&#xA;directory&#xA;diskfree&#xA;display&#xA;else&#xA;end&#xA;end_class&#xA;end_constraints&#xA;end_function&#xA;end_enumeration_list&#xA;end_item_group&#xA;end_item_list&#xA;end_object&#xA;end_procedure&#xA;end_transaction&#xA;end_type&#xA;endgroup&#xA;entagain&#xA;entdisplay&#xA;enter&#xA;enterend&#xA;entergroup&#xA;entermode&#xA;entry&#xA;entry_item&#xA;entry_name_item&#xA;enumeration_list&#xA;erase_file&#xA;error&#xA;error_report&#xA;export_files&#xA;field&#xA;field_def&#xA;field_map&#xA;file_mode&#xA;file_size&#xA;filelist&#xA;fill_field&#xA;find&#xA;for&#xA;format&#xA;formfeed&#xA;forward&#xA;forward_begin_construct&#xA;forward_end_construct&#xA;from&#xA;function&#xA;function_return&#xA;get&#xA;get_argument_size&#xA;get_attribute&#xA;get_channel_position&#xA;get_channel_size&#xA;get_current_colors&#xA;get_current_directory&#xA;get_current_input_channel&#xA;get_current_lockcount&#xA;get_current_output_channel&#xA;get_current_user_count&#xA;get_date_format&#xA;get_environment&#xA;get_field_value&#xA;get_filelist&#xA;get_licensed_max_users&#xA;get_number_format&#xA;get_resource_name&#xA;get_resource_type&#xA;get_transaction_retry&#xA;get_video_mode&#xA;gosub&#xA;goto&#xA;gotoxy&#xA;group&#xA;header&#xA;help&#xA;if&#xA;ifchange&#xA;import_class_protocol&#xA;inactivate&#xA;include_resource&#xA;increment&#xA;ind&#xA;index_def&#xA;indicate&#xA;inherit_screen&#xA;inkey&#xA;inkey$&#xA;input&#xA;insert&#xA;is_file_included&#xA;item_group&#xA;item_list&#xA;keycheck&#xA;keyproc&#xA;left&#xA;length&#xA;load_def&#xA;local_driver&#xA;local&#xA;lock&#xA;login&#xA;logout&#xA;loop&#xA;make_file&#xA;memory&#xA;mid&#xA;move&#xA;movedate&#xA;moveint&#xA;movenum&#xA;movereal&#xA;movestr&#xA;move_sub_page&#xA;name&#xA;name_item&#xA;name_items&#xA;name_object&#xA;next&#xA;not&#xA;object&#xA;on&#xA;on_item&#xA;on_key&#xA;on_name_item&#xA;open&#xA;output&#xA;output_aux_file&#xA;output_wrap&#xA;pad&#xA;page&#xA;pagecheck&#xA;pathname&#xA;pos&#xA;print&#xA;print_wrap&#xA;procedure&#xA;procedure_return&#xA;property&#xA;read&#xA;read_block&#xA;read_dfini&#xA;read_hex&#xA;readln&#xA;register_function&#xA;register_object&#xA;register_procedure&#xA;register_resource&#xA;registration&#xA;relate&#xA;renamefile&#xA;repeat&#xA;repeat_item&#xA;replace&#xA;report&#xA;reportend&#xA;reread&#xA;return&#xA;right&#xA;runprogram&#xA;save&#xA;saverecord&#xA;screenmode&#xA;screen_optimize&#xA;section&#xA;send&#xA;set&#xA;set_argument_size&#xA;set_attribute&#xA;set_channel_position&#xA;set_dfpath&#xA;set_field_value&#xA;set_filelist&#xA;set_option&#xA;set_relate&#xA;set_resource_library&#xA;set_transaction_retry&#xA;set_video_mode&#xA;setchange&#xA;show&#xA;showln&#xA;showxy&#xA;sleep&#xA;sort&#xA;start_ui&#xA;stop&#xA;structure_abort&#xA;structure_copy&#xA;structure_end&#xA;structure_start&#xA;sub&#xA;sub_page&#xA;subtotal&#xA;sysconf&#xA;sysdate&#xA;sysdate4&#xA;system&#xA;to&#xA;trim&#xA;type&#xA;ui_accept&#xA;unload_driver&#xA;unlock&#xA;until&#xA;uppercase&#xA;use&#xA;vconstrain&#xA;vfind&#xA;while&#xA;write&#xA;write_hex&#xA;writeln&#xA;zerofile&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="FUNCTIONS" Enabled="True" Style="" Words="abs&#xA;acos&#xA;asin&#xA;atan&#xA;callback&#xA;center&#xA;cos&#xA;eval&#xA;exp&#xA;hi&#xA;log&#xA;low&#xA;lowercase&#xA;ltrim&#xA;mod&#xA;overstrike&#xA;random&#xA;remove&#xA;replaces&#xA;round&#xA;rtrim&#xA;sin&#xA;sqrt&#xA;status&#xA;tan&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPERATORS" Enabled="True" Style="" Words="an&#xA;and&#xA;as&#xA;contains&#xA;eq&#xA;ge&#xA;gt&#xA;iand&#xA;in&#xA;ior&#xA;is&#xA;le&#xA;lt&#xA;match&#xA;matches&#xA;max&#xA;min&#xA;ne&#xA;or&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="OPTIONS" Enabled="True" Style="" Words="autoback&#xA;autoclear&#xA;autofind&#xA;autofind_ge&#xA;autoreturn&#xA;capslock&#xA;channel&#xA;check&#xA;displayonly&#xA;fill&#xA;findreq&#xA;float$&#xA;forceput&#xA;modal_insert&#xA;no_calc&#xA;noenter&#xA;noput&#xA;points&#xA;range&#xA;required&#xA;resident&#xA;resource&#xA;retain&#xA;retainall&#xA;signrt&#xA;skipfound&#xA;suppress&#xA;thousands&#xA;wait&#xA;zero_suppress&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="PREDEFINED" Enabled="True" Style="" Words="constrain_found_count&#xA;constrain_tests_count&#xA;current_image&#xA;current_window&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="DATATYPES" Enabled="True" Style="" Words="indicator&#xA;integer&#xA;number&#xA;real&#xA;string&#xA;">
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks //" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks //*..*//" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="//*" Close="*//"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

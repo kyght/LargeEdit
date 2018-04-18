@@ -1,0 +1,84 @@
+<html xmlns:html="http://www.w3.org/tr/rec-html40" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>LargeEdit - ADO(XML) to HTML</title>
+</head>
+<style>
+			.gridtable {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  border: 1px, solid, black;
+			  width: 100%;
+			  background-color: #D5D5D0;
+			}
+
+			.gridheaders {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			}
+			
+			.gridheadercell {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  Font-FAMILY: 'MS Sans Serif';
+			  font-size: 12px;
+			  font-weight: bold;
+			  text-transform: capitalize;
+			  border-left: thin solid #EBEBEB;
+			  border-top: thin solid #EBEBEB;
+			  border-right: thin solid #969696;
+			  border-bottom: 1px solid black;
+			  text-align: center;
+			  white-space: nowrap;
+			  background-color: #D5D5D0;
+			}
+			
+			.gridrow {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			}
+			
+			.gridcell {
+			  padding: 0 0 0 0;
+			  margin: 0 0 0 0;
+			  text-align:left;
+			  background-color: white;
+			}
+
+    </style>
+<body>
+<H2>LargeEdit - ADO(XML) to HTML</H2>
+<DIV ID="GridContents" class="GridContainer">
+<table class="gridtable" border="1" cellpadding="0" cellspacing="0">
+<TR class="gridheaders">
+<TD class="gridheadercell">accountnumber</TD>
+<TD class="gridheadercell">healthnumber</TD>
+<TD class="gridheadercell">versioncode</TD>
+<TD class="gridheadercell">birthdate</TD>
+<TD class="gridheadercell">payprogram</TD>
+<TD class="gridheadercell">groupnumber</TD>
+<TD class="gridheadercell">providernumber</TD>
+<TD class="gridheadercell">specialty</TD>
+<TD class="gridheadercell">referringprovider</TD>
+<TD class="gridheadercell">facilitynumber</TD>
+<TD class="gridheadercell">regnumber</TD>
+<TD class="gridheadercell">lastname</TD>
+<TD class="gridheadercell">firstname</TD>
+<TD class="gridheadercell">sex</TD>
+<TD class="gridheadercell">province</TD>
+<TD class="gridheadercell">servicedate</TD>
+<TD class="gridheadercell">numofservices</TD>
+<TD class="gridheadercell">servicecode</TD>
+<TD class="gridheadercell">feesubmitted</TD>
+<TD class="gridheadercell">diagcode</TD>
+<TD class="gridheadercell">errorcode1</TD>
+<TD class="gridheadercell">errorcode2</TD>
+<TD class="gridheadercell">errorcode3</TD>
+<TD class="gridheadercell">errorcode4</TD>
+<TD class="gridheadercell">errorcode5</TD>
+<TD class="gridheadercell">ownership</TD>
+</TR>
+</table>
+</DIV>
+</body>
+</html>

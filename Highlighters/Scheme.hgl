@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Scheme" FileType="" Extensions="SCM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:scheme.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'()*+,./:;&lt;=@[\]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="accumulate&#xA;aling&#xA;appearances&#xA;append&#xA;apply&#xA;assoc&#xA;before&#xA;begin&#xA;bf&#xA;bl&#xA;butfirst&#xA;butlast&#xA;caaar&#xA;caadr&#xA;caar&#xA;cadar&#xA;caddr&#xA;cadr&#xA;car&#xA;cdaar&#xA;cdadr&#xA;cdar&#xA;cddar&#xA;cdddr&#xA;cddr&#xA;cdr&#xA;children&#xA;close-all-ports&#xA;close-input-port&#xA;close-output-por&#xA;cons&#xA;count&#xA;datum&#xA;define&#xA;display&#xA;empty?&#xA;eof-object?&#xA;error&#xA;every&#xA;filter&#xA;first&#xA;for-each&#xA;item&#xA;keep&#xA;lambda&#xA;last&#xA;length&#xA;let&#xA;list&#xA;list?&#xA;list-&gt;vector&#xA;list-ref&#xA;load&#xA;make-node&#xA;make-vector&#xA;map&#xA;member&#xA;member?&#xA;newline&#xA;null?&#xA;open-input-file&#xA;open-output-file&#xA;procedure?&#xA;quote&#xA;read&#xA;read-line&#xA;read-string&#xA;reduce&#xA;repeated&#xA;se&#xA;sentence&#xA;sentence?&#xA;show&#xA;show-line&#xA;t&#xA;trace&#xA;untrace&#xA;vector&#xA;vector?&#xA;vector-&gt;length&#xA;vector-&gt;list&#xA;vector-ref&#xA;vector-set!&#xA;word&#xA;word?&#xA;write&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="abs&#xA;ceiling&#xA;cos&#xA;even&#xA;expt&#xA;floor&#xA;integer&#xA;log&#xA;max&#xA;min&#xA;number&#xA;odd&#xA;quotient&#xA;random&#xA;remainder&#xA;round&#xA;sin&#xA;sqrt&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="and&#xA;boolean&#xA;cond&#xA;if&#xA;not&#xA;or&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 4" Enabled="True" Style="" Words="#f&#xA;#t&#xA;'()&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

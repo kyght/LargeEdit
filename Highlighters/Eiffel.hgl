@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Eiffel" FileType="" Extensions="e" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:eiffel.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;%&amp;'(),.;&lt;&gt;?[]^{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Structure" Enabled="True" Style="" Words="alias&#xA;all&#xA;and&#xA;as&#xA;check&#xA;class&#xA;creation&#xA;debug&#xA;deferred&#xA;do&#xA;else&#xA;elseif&#xA;end&#xA;expanded&#xA;export&#xA;external&#xA;feature&#xA;from&#xA;frozen&#xA;if&#xA;implies&#xA;indexing&#xA;infix&#xA;inherit&#xA;inspect&#xA;is&#xA;like&#xA;local&#xA;loop&#xA;not&#xA;obsolete&#xA;old&#xA;once&#xA;or&#xA;prefix&#xA;redefine&#xA;rename&#xA;rescue&#xA;retry&#xA;select&#xA;separate&#xA;strip&#xA;then&#xA;true&#xA;undefine&#xA;unique&#xA;until&#xA;when&#xA;xor&#xA;,&#xA;.&#xA;;&#xA;:&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Delim and const" Enabled="True" Style="" Words="Result&#xA;Current&#xA;False&#xA;True&#xA;Void&#xA;@&#xA;!&#xA;!!&#xA;=&#xA;:=&#xA;\&#xA;\\&#xA;-&#xA;(&#xA;)&#xA;[&#xA;]&#xA;{&#xA;}&#xA;&lt;&#xA;&lt;=&#xA;&gt;&#xA;&gt;=&#xA;?&#xA;'&#xA;`&#xA;+&#xA;-&#xA;$&#xA;%&#xA;//&#xA;//&#xA;/&#xA;/=&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Standard classes" Enabled="True" Style="" Words="ANY&#xA;ARGUMENTS&#xA;ARRAY&#xA;BIT&#xA;BOOLEAN&#xA;BOOLEAN_REF&#xA;CHARACTER&#xA;CHARACTER_REF&#xA;COMPARABLE&#xA;DOUBLE&#xA;DOUBLE_REF&#xA;EXCEPTIONS&#xA;INTEGER&#xA;INTEGER_REF&#xA;MEMORY&#xA;NONE&#xA;NUMERIC&#xA;POINTER&#xA;PLATFORM&#xA;POINTER_REF&#xA;REAL&#xA;REAL_REF&#xA;STRING&#xA;STD_FILES&#xA;STORABLE&#xA;STRING&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="SEng features" Enabled="True" Style="" Words="ensure&#xA;interface&#xA;invariant&#xA;require&#xA;variant&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Common object names" Enabled="True" Style="" Words="io&#xA;i&#xA;j&#xA;k&#xA;y&#xA;x&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Starndard Routines" Enabled="True" Style="" Words="abs&#xA;add_first&#xA;add_last&#xA;append&#xA;append&#xA;append_in&#xA;binary_to_integer&#xA;blank&#xA;clear&#xA;compare&#xA;copy&#xA;digit&#xA;even&#xA;fill_blank&#xA;fill_with&#xA;first&#xA;gcd&#xA;has&#xA;has_prefix&#xA;has_string&#xA;has_suffix&#xA;head&#xA;index_of&#xA;index_of_string&#xA;insert&#xA;is_bit&#xA;is_equal&#xA;is_integer&#xA;item&#xA;last&#xA;left_adjust&#xA;log&#xA;lower&#xA;occurrences&#xA;occurrences_of&#xA;odd&#xA;precede&#xA;prepend&#xA;put&#xA;put_boolean&#xA;put_integer&#xA;put_new_line&#xA;put_string&#xA;remove&#xA;remove_all_occurrences&#xA;remove_between&#xA;remove_first&#xA;remove_last&#xA;remove_prefix&#xA;remove_suffix&#xA;reverse&#xA;right_adjust&#xA;same_as&#xA;set_last&#xA;shrink&#xA;split&#xA;split_in&#xA;sqrt&#xA;substring&#xA;substring_index&#xA;swap&#xA;tail&#xA;to_bit&#xA;to_boolean&#xA;to_double&#xA;to_integer&#xA;to_lower&#xA;to_octal&#xA;to_real&#xA;to_string&#xA;to_upper&#xA;upper&#xA;">
+          <Attributes Foreground="clOlive" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Remarks --" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

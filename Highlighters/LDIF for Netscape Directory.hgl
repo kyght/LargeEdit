@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="LDIF for Netscape Directory Server" FileType="" Extensions="LDIF LDF" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark="Created based on UltraEdit:ldif.txt"/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="&quot;,.:;={}"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="aci&#xA;audio&#xA;binary&#xA;businesscategory&#xA;carlicense&#xA;changetype&#xA;cn&#xA;commonname&#xA;departmentNumber&#xA;description&#xA;dn&#xA;employeenumber&#xA;employeeType&#xA;facsimileTelephoneNumber&#xA;givenname&#xA;homePhone&#xA;homePostalAddress&#xA;initials&#xA;internationalIsdnNumber&#xA;jpegPhoto&#xA;l&#xA;labeledURI&#xA;locality&#xA;mail&#xA;mailalternateaddress&#xA;maildeliveryoption&#xA;mailhost&#xA;manager&#xA;mobile&#xA;objectclass&#xA;pager&#xA;photo&#xA;postOfficeBox&#xA;preferredDeliveryMethod&#xA;preferredLanguage&#xA;physicaldeliveryofficename&#xA;postaladdress&#xA;postalcode&#xA;registeredAddress&#xA;roleOccupant&#xA;roomnumber&#xA;secretary&#xA;seeAlso&#xA;sn&#xA;st&#xA;street&#xA;surname&#xA;telephonenumber&#xA;title&#xA;uid&#xA;userpassword&#xA;userCertificate&#xA;userCertificate&#xA;userSMIMECertificate&#xA;x500UniqueIdentifier&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="add&#xA;c&#xA;dc&#xA;delete&#xA;modify&#xA;o&#xA;ou&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 3" Enabled="True" Style="" Words="crypt&#xA;inetOrgPerson&#xA;mailRecipient&#xA;nsLicenseUser&#xA;organizationalPerson&#xA;organizationalRole&#xA;residentialPerson&#xA;person&#xA;SHA&#xA;top&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

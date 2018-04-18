@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="2106x Assembly" FileType="" Extensions="ASM" Version="1" Revision="0" Sample="&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;%&amp;'()*+,-./:;&lt;=&gt;?@[\]^|~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Key Words 1" Enabled="True" Style="" Words="abs&#xA;AC&#xA;AF&#xA;AI&#xA;AIS&#xA;ALUSAT&#xA;AN&#xA;and&#xA;AOS&#xA;AS&#xA;ashift&#xA;astat&#xA;AUS&#xA;AV&#xA;AVS&#xA;AZ&#xA;bclr&#xA;BCNT&#xA;bit&#xA;bitrev&#xA;BMAX&#xA;BR0&#xA;BR8&#xA;bset&#xA;BTF&#xA;btgl&#xA;btst&#xA;BUSLK&#xA;by&#xA;C0&#xA;C1&#xA;C4&#xA;C5&#xA;C6&#xA;C7&#xA;C8&#xA;C9&#xA;CACC0&#xA;CACC1&#xA;CACC2&#xA;CACC3&#xA;CACC4&#xA;CACC5&#xA;CACC6&#xA;CACC7&#xA;CADIS&#xA;CAFRZ&#xA;call&#xA;CB15I&#xA;CB15S&#xA;CB7I&#xA;CB7S&#xA;cjump&#xA;clip&#xA;clr&#xA;comp&#xA;copysign&#xA;CP0&#xA;CP1&#xA;CP4&#xA;CP5&#xA;CP6&#xA;CP7&#xA;CP8&#xA;CP9&#xA;CSEL&#xA;DA0&#xA;DA1&#xA;DA4&#xA;DA5&#xA;DB0&#xA;DB1&#xA;DB4&#xA;DB5&#xA;dm&#xA;DMAC6&#xA;DMAC7&#xA;DMAC8&#xA;DMAC9&#xA;DMASTAT&#xA;do&#xA;EC6&#xA;EC7&#xA;EC8&#xA;EC9&#xA;EI6&#xA;EI7&#xA;EI8&#xA;EI9&#xA;ELAST&#xA;EM6&#xA;EM7&#xA;EM8&#xA;EM9&#xA;endseg&#xA;EP0I&#xA;EP1I&#xA;EP2I&#xA;EP3I&#xA;EPB0&#xA;EPB1&#xA;EPB2&#xA;EPB3&#xA;extern&#xA;fdep&#xA;fext&#xA;fix&#xA;FIXI&#xA;FLG0&#xA;FLG0O&#xA;FLG1&#xA;FLG1O&#xA;FLG2&#xA;FLG2O&#xA;FLG3&#xA;FLG3O&#xA;float&#xA;FLTII&#xA;FLTOI&#xA;FLTUI&#xA;fpack&#xA;funpack&#xA;global&#xA;GP0&#xA;GP1&#xA;GP4&#xA;GP5&#xA;GP6&#xA;GP7&#xA;GP8&#xA;GP9&#xA;idle&#xA;idle16&#xA;if&#xA;II0&#xA;II1&#xA;II2&#xA;II4&#xA;II5&#xA;II6&#xA;II7&#xA;II8&#xA;II9&#xA;IM0&#xA;IM1&#xA;IM2&#xA;IM4&#xA;IM5&#xA;IM6&#xA;IM7&#xA;IM8&#xA;IM9&#xA;imask&#xA;imaskp&#xA;IRPTEN&#xA;irptl&#xA;IRQ0E&#xA;IRQ0I&#xA;IRQ1E&#xA;IRQ1I&#xA;IRQ2E&#xA;IRQ2I&#xA;je&#xA;jne&#xA;jump&#xA;lce&#xA;lcntr&#xA;lefto&#xA;leftz&#xA;logb&#xA;LSEM&#xA;lshift&#xA;LSOV&#xA;mant&#xA;max&#xA;MI&#xA;min&#xA;MIS&#xA;MN&#xA;mode1&#xA;mode2&#xA;modify&#xA;MOS&#xA;MSGR0&#xA;MSGR1&#xA;MSGR2&#xA;MSGR3&#xA;MSGR4&#xA;MSGR5&#xA;MSGR6&#xA;MSGR7&#xA;MU&#xA;MUS&#xA;MV&#xA;MVS&#xA;NESTM&#xA;nop&#xA;not&#xA;or&#xA;pass&#xA;PCEM&#xA;PCFL&#xA;pm&#xA;pop&#xA;push&#xA;px&#xA;px1&#xA;px2&#xA;recips&#xA;rframe&#xA;rnd&#xA;RND32&#xA;rot&#xA;rsqrts&#xA;RSTI&#xA;rti&#xA;rts&#xA;sat&#xA;scalb&#xA;segment&#xA;set&#xA;SFT0I&#xA;SFT1I&#xA;SFT2I&#xA;SFT3I&#xA;SOVFI&#xA;SPR0I&#xA;SPR1I&#xA;SPT0I&#xA;SPT1I&#xA;SRCU&#xA;SRD1H&#xA;SRD1L&#xA;SRD2H&#xA;SRD2L&#xA;SRRFH&#xA;SRRFL&#xA;SS&#xA;SSE&#xA;SSEM&#xA;SSOV&#xA;stky&#xA;SV&#xA;SYSCON&#xA;SYSTAT&#xA;SZ&#xA;TCOUNT&#xA;tgl&#xA;TIMEN&#xA;TMZHI&#xA;TMZLI&#xA;TPERIOD&#xA;trunc&#xA;TRUNCATE&#xA;tst&#xA;until&#xA;ustat1&#xA;ustat2&#xA;var&#xA;VIRPT&#xA;VIRPTI&#xA;WAIT&#xA;xor&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key Words 2" Enabled="True" Style="" Words="CP2&#xA;DA2&#xA;DB2&#xA;GP2&#xA;II3&#xA;IM3&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words 3" Enabled="True" Style="" Words="BSO&#xA;BSYN&#xA;CP3&#xA;CRBM&#xA;DA3&#xA;DB3&#xA;DCPR&#xA;DWPD&#xA;EBPR00&#xA;EBPR01&#xA;EBPR10&#xA;GP3&#xA;HMSWF&#xA;HPFLSH&#xA;HPM00&#xA;HPM01&#xA;HPM10&#xA;HPM11&#xA;HPS&#xA;HSTM&#xA;IDC&#xA;IIVT&#xA;IMDW0X&#xA;IMDW1X&#xA;IMGR&#xA;IWT&#xA;KEYMASK0&#xA;KEYMASK1&#xA;KEYWD0&#xA;KEYWD1&#xA;MRCCS0&#xA;MRCCS1&#xA;MRCS0&#xA;MRCS1&#xA;MTCCS0&#xA;MTCCS1&#xA;MTCS0&#xA;MTCS1&#xA;RCNT0&#xA;RCNT1&#xA;RDIV0&#xA;RDIV1&#xA;RX0&#xA;RX1&#xA;SPATH0&#xA;SPATH1&#xA;SPCNT0&#xA;SPCNT1&#xA;SRCTL0&#xA;SRCTL1&#xA;SRST&#xA;STCTL0&#xA;STCTL1&#xA;TCNT0&#xA;TCNT1&#xA;TDIV0&#xA;TDIV1&#xA;TX0&#xA;TX1&#xA;VIPD&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Key words 4" Enabled="True" Style="" Words="b0&#xA;b1&#xA;b10&#xA;b11&#xA;b12&#xA;b13&#xA;b14&#xA;b15&#xA;b2&#xA;b3&#xA;b4&#xA;b5&#xA;b6&#xA;b7&#xA;b8&#xA;b9&#xA;f0&#xA;f1&#xA;f10&#xA;f11&#xA;f12&#xA;f13&#xA;f14&#xA;f15&#xA;f2&#xA;f3&#xA;f4&#xA;f5&#xA;f6&#xA;f7&#xA;f8&#xA;f9&#xA;i0&#xA;i1&#xA;i10&#xA;i11&#xA;i12&#xA;i13&#xA;i14&#xA;i15&#xA;i2&#xA;i3&#xA;i4&#xA;i5&#xA;i6&#xA;i7&#xA;i8&#xA;i9&#xA;l0&#xA;l1&#xA;l10&#xA;l11&#xA;l12&#xA;l13&#xA;l14&#xA;l15&#xA;l2&#xA;l3&#xA;l4&#xA;l5&#xA;l6&#xA;l7&#xA;l8&#xA;l9&#xA;m0&#xA;m1&#xA;m10&#xA;m11&#xA;m12&#xA;m13&#xA;m14&#xA;m15&#xA;m2&#xA;m3&#xA;m4&#xA;m5&#xA;m6&#xA;m7&#xA;m8&#xA;m9&#xA;r0&#xA;r1&#xA;r10&#xA;r11&#xA;r12&#xA;r13&#xA;r14&#xA;r15&#xA;r2&#xA;r3&#xA;r4&#xA;r5&#xA;r6&#xA;r7&#xA;r8&#xA;r9&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Strings '..'" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks {" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clNavy" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="{"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="#" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="#"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remsrks /*..*/" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>

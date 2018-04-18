@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<SynUniHighlighter Version="2.0">
+  <SyntaxColoring>
+    <Schemes>
+      <Scheme Name="Default">
+        <Editor/>
+        <Styles/>
+      </Scheme>
+    </Schemes>
+    <Info>
+      <General Name="Oracle" FileType="" Extensions="" Version="1" Revision="0" Sample="PROMPT Oracle sample source&#xA;declare&#xA;  x varchar2(2000);&#xA;begin   -- Show some text here&#xA;  select to_char(count(*)) into x&#xA;  from tab;&#xA;  dbms_output.put_line('Hello World: ' || x);&#xA;exception&#xA;  when others then&#xA;    null;&#xA;end;&#xA;&#xA;&#xA;"/>
+      <Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Web="www.delphist.com" Remark=""/>
+    </Info>
+    <MainRules Name="Root" Enabled="True" Style="">
+      <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+      <Attributes Foreground="clBlack" Background="clWhite" Style=""/>
+      <Properties/>
+      <OpenToken/>
+      <CloseToken/>
+      <MultiTokens>
+        <Tokens/>
+      </MultiTokens>
+      <SubRules>
+        <KeyList Name="Standard" Enabled="True" Style="" Words="active&#xA;after&#xA;all&#xA;alter&#xA;and&#xA;any&#xA;as&#xA;asc&#xA;ascending&#xA;at&#xA;auto&#xA;base_name&#xA;before&#xA;begin&#xA;between&#xA;by&#xA;cache&#xA;cast&#xA;check&#xA;column&#xA;commit&#xA;committed&#xA;computed&#xA;conditional&#xA;constraint&#xA;containing&#xA;count&#xA;create&#xA;current&#xA;cursor&#xA;database&#xA;debug&#xA;declare&#xA;default&#xA;delete&#xA;desc&#xA;descending&#xA;distinct&#xA;do&#xA;domain&#xA;drop&#xA;else&#xA;end&#xA;entry_point&#xA;escape&#xA;exception&#xA;execute&#xA;exists&#xA;exit&#xA;external&#xA;extract&#xA;filter&#xA;for&#xA;foreign&#xA;from&#xA;full&#xA;function&#xA;generator&#xA;grant&#xA;group&#xA;having&#xA;if&#xA;in&#xA;inactive&#xA;index&#xA;inner&#xA;insert&#xA;into&#xA;is&#xA;isolation&#xA;join&#xA;key&#xA;left&#xA;level&#xA;like&#xA;merge&#xA;names&#xA;no&#xA;not&#xA;null&#xA;of&#xA;on&#xA;only&#xA;or&#xA;order&#xA;outer&#xA;parameter&#xA;password&#xA;plan&#xA;position&#xA;primary&#xA;privileges&#xA;procedure&#xA;protected&#xA;read&#xA;retain&#xA;returns&#xA;revoke&#xA;right&#xA;rollback&#xA;schema&#xA;select&#xA;set&#xA;shadow&#xA;shared&#xA;snapshot&#xA;some&#xA;suspend&#xA;table&#xA;then&#xA;to&#xA;transaction&#xA;trigger&#xA;uncommitted&#xA;union&#xA;unique&#xA;update&#xA;user&#xA;using&#xA;values&#xA;view&#xA;wait&#xA;when&#xA;where&#xA;while&#xA;with&#xA;work&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle" Enabled="True" Style="" Words="ACCESS&#xA;ACCOUNT&#xA;ACTIVATE&#xA;ADD&#xA;ADMIN&#xA;ADVISE&#xA;ALL&#xA;ALLOCATE&#xA;ALTER&#xA;ANALYZE&#xA;ANCILLARY&#xA;AND&#xA;ANY&#xA;ARCHIVELOG&#xA;AS&#xA;ASC&#xA;ASSOCIATE&#xA;ATTRIBUTES&#xA;AUDIT&#xA;AUTHENTICATED&#xA;AUTHID&#xA;AUTOALLOCATE&#xA;AUTOEXTEND&#xA;AUTOMATIC&#xA;BACKUP&#xA;BECOME&#xA;BEFORE&#xA;BEHALF&#xA;BETWEEN&#xA;BINDING&#xA;BLOCK&#xA;BUFFER_POOL&#xA;BY&#xA;CACHE&#xA;CANCEL&#xA;CASCADE&#xA;CAST&#xA;CATEGORY&#xA;CHAINED&#xA;CHANGE&#xA;CHARACTER&#xA;CHECK&#xA;CHECKPOINT&#xA;CHILD&#xA;CHUNK&#xA;CLASS&#xA;CLONE&#xA;CLUSTER&#xA;COALESCE&#xA;COBOL&#xA;COLUMN&#xA;COLUMNS&#xA;COMMENT&#xA;COMPATIBILITY&#xA;COMPILE&#xA;COMPLETE&#xA;COMPOSITE_LIMIT&#xA;COMPRESS&#xA;COMPUTE&#xA;CONNECT&#xA;CONNECT_TIME&#xA;CONSTRAINT&#xA;CONSTRAINTS&#xA;CONTENTS&#xA;CONTEXT&#xA;CONTINUE&#xA;CONTROL&#xA;CONTROLFILE&#xA;COST&#xA;CPU_PER_CALL&#xA;CPU_PER_SESSION&#xA;CREATE&#xA;CURRENT&#xA;CURRENT_USER&#xA;CYCLE&#xA;DANGLING&#xA;DATAFILE&#xA;DEALLOCATE&#xA;DEBUG&#xA;DEFAULT&#xA;DEFERRED&#xA;DEFINER&#xA;DELETE&#xA;DEMAND&#xA;DETERMINES&#xA;DICTIONARY&#xA;DIMENSION&#xA;DIRECTORY&#xA;DISABLE&#xA;DISASSOCIATE&#xA;DISMOUNT&#xA;DISTINCT&#xA;DISTRIBUTED&#xA;DML&#xA;DROP&#xA;ELSE&#xA;ENABLE&#xA;ESCAPE&#xA;ESTIMATE&#xA;EVENTS&#xA;EXCEPT&#xA;EXCEPTIONS&#xA;EXCHANGE&#xA;EXCLUDING&#xA;EXCLUSIVE&#xA;EXISTS&#xA;EXPIRE&#xA;EXPLAIN&#xA;EXTENT&#xA;EXTERNALLY&#xA;FAILED_LOGIN_ATTEMPTS&#xA;FAST&#xA;FILE&#xA;FLUSH&#xA;FOR&#xA;FORCE&#xA;FOREIGN&#xA;FORTRAN&#xA;FREELIST&#xA;FREELISTS&#xA;FROM&#xA;FUNCTIONS&#xA;GENERATED&#xA;GLOBAL&#xA;GLOBAL_NAME&#xA;GLOBALLY&#xA;GO&#xA;GRANT&#xA;GROUP&#xA;GROUPS&#xA;HASH&#xA;HAVING&#xA;HEAP&#xA;HIERARCHY&#xA;IDENTIFIED&#xA;IDLE_TIME&#xA;IMMEDIATE&#xA;IN&#xA;INCLUDING&#xA;INCREMENT&#xA;INDEX&#xA;INDEXTYPE&#xA;INDEXTYPES&#xA;INFILE&#xA;INITIAL&#xA;INITIALLY&#xA;INITRANS&#xA;INSERT&#xA;INSTANCE&#xA;INT&#xA;INTERSECT&#xA;INTO&#xA;INVALIDATE&#xA;IS&#xA;JAVA&#xA;JOIN&#xA;KEEP&#xA;KEY&#xA;KILL&#xA;LAYERLISTS&#xA;LEVEL&#xA;LIBRARY&#xA;LIKE&#xA;LIMIT&#xA;LINK&#xA;LIST&#xA;LOB&#xA;LOCAL&#xA;LOCATOR&#xA;LOCK&#xA;LOGFILE&#xA;LOGGING&#xA;LOGICAL_READS_PER_CALL&#xA;LOGICAL_READS_PER_SESSION&#xA;MANAGE&#xA;MANAGED&#xA;MANUAL&#xA;MAP&#xA;MASTER&#xA;MATERIALIZED&#xA;MAXDATAFILES&#xA;MAXEXTENTS&#xA;MAXINSTANCES&#xA;MAXLOGFILES&#xA;MAXLOGHISTORY&#xA;MAXLOGMEMBERS&#xA;MAXSIZE&#xA;MAXTRANS&#xA;MAXVALUE&#xA;MEMBER&#xA;MINEXTENTS&#xA;MINIMIZE&#xA;MINIMUM&#xA;MINUS&#xA;MINVALUE&#xA;MODE&#xA;MODIFY&#xA;MODULE&#xA;MOUNT&#xA;MOVE&#xA;MOVEMENT&#xA;MULTISET&#xA;NAMED&#xA;NATIONAL&#xA;NESTED&#xA;NEVER&#xA;NEXT&#xA;NO&#xA;NOARCHIVELOG&#xA;NOAUDIT&#xA;NOCACHE&#xA;NOCOMPRESS&#xA;NOCYCLE&#xA;NOFORCE&#xA;NOLOGGING&#xA;NOMAXVALUE&#xA;NOMINIMIZE&#xA;NOMINVALUE&#xA;NONE&#xA;NOORDER&#xA;NORELY&#xA;NORESETLOGS&#xA;NOREVERSE&#xA;NORMAL&#xA;NOSORT&#xA;NOT&#xA;NOTHING&#xA;NOVALIDATE&#xA;NOWAIT&#xA;NULL&#xA;OF&#xA;OFFLINE&#xA;OID&#xA;ON&#xA;ONLINE&#xA;ONLY&#xA;OPERATOR&#xA;OPTIMAL&#xA;OPTION&#xA;OR&#xA;ORDER&#xA;OUTLINE&#xA;OVERFLOW&#xA;OWN&#xA;PACKAGES&#xA;PARALLEL&#xA;PARAMETERS&#xA;PARTITIONS&#xA;PASSWORD&#xA;PASSWORD_GRACE_TIME&#xA;PASSWORD_LIFE_TIME&#xA;PASSWORD_LOCK_TIME&#xA;PASSWORD_REUSE_MAX&#xA;PASSWORD_REUSE_TIME&#xA;PASSWORD_VERIFY_FUNCTION&#xA;PCTFREE&#xA;PCTINCREASE&#xA;PCTTHRESHOLD&#xA;PCTUSED&#xA;PCTVERSION&#xA;PERCENT&#xA;PERMANENT&#xA;PLAN&#xA;PLI&#xA;POST_TRANSACTION&#xA;PREBUILD&#xA;PRECISION&#xA;PRIMARY&#xA;PRIOR&#xA;PRIVATE_SGA&#xA;PRIVILEGES&#xA;PROFILE&#xA;PUBLIC&#xA;QUERY&#xA;QUOTA&#xA;READ&#xA;REBUILD&#xA;RECORDS_PER_BLOCK&#xA;RECOVER&#xA;RECOVERABLE&#xA;RECOVERY&#xA;RECYCLE&#xA;REDUCED&#xA;REFERENCES&#xA;REFRESH&#xA;RELY&#xA;RENAME&#xA;RESET&#xA;RESETLOGS&#xA;RESIZE&#xA;RESOLVE&#xA;RESOLVER&#xA;RESOURCE&#xA;RESTRICT&#xA;RESTRICTED&#xA;RESUME&#xA;REUSE&#xA;REVOKE&#xA;REWRITE&#xA;ROLE&#xA;ROLES&#xA;ROW&#xA;ROWLABEL&#xA;ROWNUM&#xA;ROWS&#xA;SAMPLE&#xA;SCN&#xA;SCOPE&#xA;SECTION&#xA;SEGMENT&#xA;SELECT&#xA;SELECTIVITY&#xA;SEQUENCE&#xA;SESSION&#xA;SESSIONS_PER_USER&#xA;SHARE&#xA;SHARED&#xA;SHARED_POOL&#xA;SHRINK&#xA;SIZE&#xA;SNAPSHOT&#xA;SOME&#xA;SORT&#xA;SOURCE&#xA;SPECIFICATION&#xA;SPECIFIED&#xA;SPLIT&#xA;STANDBY&#xA;START&#xA;START_DATE&#xA;STATISTICS&#xA;STOP&#xA;STORAGE&#xA;STRUCTURE&#xA;SUBPARTITION&#xA;SUBPARTITIONS&#xA;SUCCESSFUL&#xA;SUSPEND&#xA;SWITCH&#xA;SYNONYM&#xA;SYSTEM&#xA;TABLE&#xA;TABLESPACE&#xA;TEMPFILE&#xA;TEMPORARY&#xA;THE&#xA;THEN&#xA;THREAD&#xA;THROUGH&#xA;TIME&#xA;TIMEOUT&#xA;TO&#xA;TRACING&#xA;TRANSACTION&#xA;TRIGGER&#xA;TRUNCATE&#xA;TYPES&#xA;UNARCHIVED&#xA;UNDER&#xA;UNIFORM&#xA;UNION&#xA;UNIQUE&#xA;UNLIMITED&#xA;UNLOCK&#xA;UNRECOVERABLE&#xA;UNTIL&#xA;UNUSABLE&#xA;UNUSED&#xA;UPDATE&#xA;VALIDATE&#xA;VALIDATION&#xA;VALUES&#xA;VARGRAPHIC&#xA;VARRAY&#xA;VIEW&#xA;WHERE&#xA;WITH&#xA;WITHOUT&#xA;ERRORS&#xA;LISTS&#xA;LAYER&#xA;SQLBUF&#xA;TRIGGERS&#xA;SQLSTATE&#xA;STATEMENT_ID&#xA;">
+          <Attributes Foreground="clBlue" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle PL/SQL" Enabled="True" Style="" Words="ABORT&#xA;ACCEPT&#xA;AFTER&#xA;ARRAY&#xA;ARRAYLEN&#xA;ASSERT&#xA;ASSIGN&#xA;AT&#xA;AUTHORIZATION&#xA;AUTONOMOUS_TRANSACTION&#xA;BASE_TABLE&#xA;BEGIN&#xA;BODY&#xA;BULK&#xA;BULK_ROWCOUNT&#xA;CALL&#xA;CALLING&#xA;CASE&#xA;CHAR_BASE&#xA;CHARSETFORM&#xA;CHARSETID&#xA;CLOSE&#xA;CLUSTERS&#xA;COLAUTH&#xA;COLLECT&#xA;COMMIT&#xA;CONSTANT&#xA;CRASH&#xA;CURRVAL&#xA;CURSOR&#xA;DATA_BASE&#xA;DATABASE&#xA;DBA&#xA;DEBUGOFF&#xA;DEBUGON&#xA;DECLARE&#xA;DEFINITION&#xA;DELAY&#xA;DELTA&#xA;DETERMINISTIC&#xA;DIGITS&#xA;DISPOSE&#xA;DO&#xA;EACH&#xA;ELSIF&#xA;END&#xA;ENTRY&#xA;EXCEPTION&#xA;EXCEPTION_INIT&#xA;EXIT&#xA;EXTERNAL&#xA;FALSE&#xA;FETCH&#xA;FIXED&#xA;FORALL&#xA;FORM&#xA;FOUND&#xA;FUNCTION&#xA;GENERIC&#xA;GOTO&#xA;IF&#xA;INDEXES&#xA;INDICATOR&#xA;INSTEAD&#xA;INTERFACE&#xA;ISOPEN&#xA;LANGUAGE&#xA;LIMITED&#xA;LOOP&#xA;MAXLEN&#xA;NAME&#xA;NEW&#xA;NEXTVAL&#xA;NOTFOUND&#xA;NUMBER_BASE&#xA;OLD&#xA;OPEN&#xA;OUT&#xA;PACKAGE&#xA;PARALLEL_ENABLE&#xA;PARTITION&#xA;PASCAL&#xA;PRAGMA&#xA;PRIVATE&#xA;PROCEDURE&#xA;RAISE&#xA;RANGE&#xA;RECORD&#xA;REF&#xA;REFERENCING&#xA;RELEASE&#xA;REMR&#xA;RESTRICT_REFERENCES&#xA;RETURN&#xA;REVERSE&#xA;ROLLBACK&#xA;ROWCOUNT&#xA;ROWTYPE&#xA;SAVEPOINT&#xA;SCHEMA&#xA;SELF&#xA;SEPARATE&#xA;SERIALLY_REUSABLE&#xA;SPACE&#xA;SQL&#xA;SQLERROR&#xA;STATEMENT&#xA;STRUCT&#xA;SUBTYPE&#xA;TABAUTH&#xA;TABLES&#xA;TASK&#xA;TDO&#xA;TERMINATE&#xA;TRUE&#xA;TYPE&#xA;USE&#xA;VARYING&#xA;VIEWS&#xA;WHEN&#xA;WHILE&#xA;WORK&#xA;WRITE&#xA;XOR&#xA;SEPERATE&#xA;">
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle Data Types" Enabled="True" Style="" Words="BFILE&#xA;BINARY_INTEGER&#xA;BLOB&#xA;BOOLEAN&#xA;CHAR&#xA;CLOB&#xA;DATE&#xA;DEC&#xA;DECIMAL&#xA;DOUBLE&#xA;FLOAT&#xA;INTEGER&#xA;LONG&#xA;MLSLABEL&#xA;NATURAL&#xA;NATURALN&#xA;NCHAR&#xA;NCLOB&#xA;NUMBER&#xA;NUMERIC&#xA;NVARCHAR2&#xA;PLS_INTEGER&#xA;POSITIVE&#xA;POSITIVEN&#xA;RAW&#xA;REAL&#xA;ROWID&#xA;SMALLINT&#xA;UROWID&#xA;VARCHAR&#xA;VARCHAR2&#xA;BFILE_TABLE&#xA;CHARRARR&#xA;BLOB_TABLE&#xA;CLOB_TABLE&#xA;DBLINK_ARRAY&#xA;DATE_TABLE&#xA;DESC_REC&#xA;DESC_TAB&#xA;FILE_TYPE&#xA;INDEX_TABLE_TYPE&#xA;MAXWAIT&#xA;NAME_ARRAY&#xA;NATIVE&#xA;NUMBER_ARRAY&#xA;NUMBER_TABLE&#xA;REG_REPAPI_SNAPSHOT&#xA;REG_UNKNOWN&#xA;REG_V7_SNAPSHOT&#xA;REG_V8_SNAPSHOT&#xA;RNPS&#xA;RNDS&#xA;UNCL_ARRAY&#xA;V7&#xA;V6&#xA;WNDS&#xA;WNPS&#xA;VARCHAR2S&#xA;VARCHAR2_TABLE&#xA;">
+          <Attributes Foreground="clGreen" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle Exceptions" Enabled="True" Style="" Words="ACCESS_INTO_NULL&#xA;COLLECTION_IS_NULL&#xA;CURSOR_ALREADY_OPEN&#xA;DUP_VAL_ON_INDEX&#xA;INVALID_CURSOR&#xA;INVALID_NUMBER&#xA;LOGIN_DENIED&#xA;NO_DATA_FOUND&#xA;NOT_LOGGED_ON&#xA;OTHERS&#xA;PROGRAM_ERROR&#xA;ROWTYPE_MISMATCH&#xA;STORAGE_ERROR&#xA;SUBSCRIPT_BEYOND_COUNT&#xA;SUBSCRIPT_OUTSIDE_LIMIT&#xA;SYS_INVALID_ROWID&#xA;TIMEOUT_ON_RESOURCE&#xA;TOO_MANY_ROWS&#xA;VALUE_ERROR&#xA;ZERO_DIVIDE&#xA;INCONSISTENT_TYPE&#xA;INTERNAL_ERROR&#xA;INVALID_FILEHANDLE&#xA;INVALID_MODE&#xA;INVALID_OPERATION&#xA;INVALID_PATH&#xA;READ_ERROR&#xA;">
+          <Attributes Foreground="clFuchsia" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle Functions" Enabled="True" Style="" Words="ABS&#xA;ACOS&#xA;ADD_MONTHS&#xA;AGGREGATE&#xA;ANALYTIC&#xA;ASCII&#xA;ASIN&#xA;ATAN&#xA;ATAN2&#xA;AVERAGE&#xA;AVG&#xA;BFILENAME&#xA;CEIL&#xA;CHARTOROWID&#xA;CHR&#xA;CONCAT&#xA;CONVERSION&#xA;CONVERT&#xA;CORR&#xA;COS&#xA;COSH&#xA;COUNT&#xA;COVAR_POP&#xA;COVAR_SAMP&#xA;CUBE&#xA;CUME_DIST&#xA;DECODE&#xA;DENSE_RANK&#xA;DEREF&#xA;DUMP&#xA;EMPTY_BLOB&#xA;EMPTY_CLOB&#xA;EXP&#xA;EXTEND&#xA;FIRST&#xA;FIRST_VALUE&#xA;FLOOR&#xA;GLB&#xA;GREATEST&#xA;GREATEST_LB&#xA;GROUPING&#xA;HEXTORAW&#xA;INITCAP&#xA;INSTR&#xA;INSTRB&#xA;LAG&#xA;LAST&#xA;LAST_DAY&#xA;LAST_VALUE&#xA;LEAD&#xA;LEAST&#xA;LEAST_LB&#xA;LENGTH&#xA;LENGTHB&#xA;LINEAR&#xA;LN&#xA;LOG&#xA;LOWER&#xA;LPAD&#xA;LTRIM&#xA;LUB&#xA;MAKE_REF&#xA;MAX&#xA;MIN&#xA;MISCELLANEOUS&#xA;MOD&#xA;MONTHS_BETWEEN&#xA;NEW_TIME&#xA;NEXT_DAY&#xA;NLS_CHARSET_DECL_LEN&#xA;NLS_CHARSET_ID&#xA;NLS_CHARSET_NAME&#xA;NLS_INITCAP&#xA;NLS_LOWER&#xA;NLS_SORT&#xA;NLS_UPPER&#xA;NLSSORT&#xA;NTILE&#xA;NUMTODSINTERVAL&#xA;NUMTOYMINTERVAL&#xA;NVL&#xA;NVL2&#xA;OBJECT&#xA;OVER&#xA;PERCENT_RANK&#xA;POWER&#xA;RANK&#xA;RATION_TO_REPORT&#xA;RAWTOHEX&#xA;REFERENCE&#xA;REFTOHEX&#xA;REGR_AVGX&#xA;REGR_AVGY&#xA;REGR_COUNT&#xA;REGR_INTERCEPT&#xA;REGR_R2&#xA;REGR_SLOPE&#xA;REGR_SXX&#xA;REGR_SXY&#xA;REGR_SYY&#xA;REGRESSION&#xA;REPLACE&#xA;RETURNING&#xA;ROLLUP&#xA;ROUND&#xA;ROW_NUMBER&#xA;ROWIDTOCHAR&#xA;RPAD&#xA;RTRIM&#xA;SIGN&#xA;SIN&#xA;SINH&#xA;SOUNDEX&#xA;SQLCODE&#xA;SQLERRM&#xA;SQRT&#xA;STDDEV&#xA;STDDEV_POP&#xA;STDDEV_SAMP&#xA;STDDEVP&#xA;STDDEVS&#xA;SUBSTR&#xA;SUBSTRB&#xA;SUM&#xA;SYS_CONTEXT&#xA;SYS_GUID&#xA;SYSDATE&#xA;TAN&#xA;TANH&#xA;TO_CHAR&#xA;TO_DATE&#xA;TO_LABEL&#xA;TO_LOB&#xA;TO_MULTI_BYTE&#xA;TO_NUMBER&#xA;TO_SINGLE_BYTE&#xA;TRANSLATE&#xA;TRIM&#xA;TRUNC&#xA;UID&#xA;UPPER&#xA;USER&#xA;USERENV&#xA;USING&#xA;VALUE&#xA;VAR_POP&#xA;VAR_SAMP&#xA;VARIANCE&#xA;VARP&#xA;VARS&#xA;VSIZE&#xA;">
+          <Attributes Foreground="$00A00000" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle Packages" Enabled="True" Style="" Words="DBMS_ALERT&#xA;DBMS_APPLICATION_INFO&#xA;DBMS_AQ&#xA;DBMS_AQ_EXP_HISTORY_TABLES&#xA;DBMS_AQ_EXP_INDEX_TABLES&#xA;DBMS_AQ_EXP_QUEUE_TABLES&#xA;DBMS_AQ_EXP_QUEUES&#xA;DBMS_AQ_EXP_SUBSCRIBER_TABLES&#xA;DBMS_AQ_EXP_TIMEMGR_TABLES&#xA;DBMS_AQ_EXP_ZECURITY&#xA;DBMS_AQ_IMP_INTERNAL&#xA;DBMS_AQ_IMP_ZECURITY&#xA;DBMS_AQ_IMPORT_INTERNAL&#xA;DBMS_AQ_SYS_EXP_ACTIONS&#xA;DBMS_AQ_SYS_EXP_INTERNAL&#xA;DBMS_AQ_SYS_IMP_INTERNAL&#xA;DBMS_AQADM&#xA;DBMS_AQADM_SYS&#xA;DBMS_AQADM_SYSCALLS&#xA;DBMS_AQIN&#xA;DBMS_AQJMS&#xA;DBMS_BACKUP_RESTORE&#xA;DBMS_DDL&#xA;DBMS_DEBUG&#xA;DBMS_DEFER_IMPORT_INTERNAL&#xA;DBMS_DEFER_SYS&#xA;DBMS_DESCRIBE&#xA;DBMS_DISTRIBUTED_TRUST_ADMIN&#xA;DBMS_EXPORT_EXTENSION&#xA;DBMS_IJOB&#xA;DBMS_INTERNAL_TRIGGER&#xA;DBMS_IREFRESH&#xA;DBMS_ISNAPSHOT&#xA;DBMS_JAVA_TEST&#xA;DBMS_JOB&#xA;DBMS_LOB&#xA;DBMS_LOCK&#xA;DBMS_LOGMNR&#xA;DBMS_LOGMNR_D&#xA;DBMS_OUTPUT&#xA;DBMS_PCLXUTIL&#xA;DBMS_PICKLER&#xA;DBMS_PIPE&#xA;DBMS_PITR&#xA;DBMS_PLUGTS&#xA;DBMS_PROFILER&#xA;DBMS_PRVTAQIM&#xA;DBMS_PRVTAQIP&#xA;DBMS_PRVTAQIS&#xA;DBMS_PRVTRMIE&#xA;DBMS_PSP&#xA;DBMS_PSWMG_IMPORT&#xA;DBMS_RCVMAN&#xA;DBMS_REFRESH&#xA;DBMS_REFRESH_EXP_LWM&#xA;DBMS_REFRESH_EXP_SITES&#xA;DBMS_REPAIR&#xA;DBMS_REPCAT_AUTH&#xA;DBMS_RESOURCE_MANAGER&#xA;DBMS_RESOURCE_MANAGER_PRIVS&#xA;DBMS_RLS&#xA;DBMS_RMGR_GROUP_EXPORT&#xA;DBMS_RMGR_PACT_EXPORT&#xA;DBMS_RMGR_PLAN_EXPORT&#xA;DBMS_RMIN&#xA;DBMS_ROWID&#xA;DBMS_RULE&#xA;DBMS_RULE_ADM&#xA;DBMS_RULE_EXIMP&#xA;DBMS_SESSION&#xA;DBMS_SNAP_INTERNAL&#xA;DBMS_SNAP_REPAPI&#xA;DBMS_SNAPSHOT&#xA;DBMS_SNAPSHOT_UTL&#xA;DBMS_SPACE&#xA;DBMS_SPACE_ADMIN&#xA;DBMS_SQL&#xA;DBMS_STANDARD&#xA;DBMS_STATS&#xA;DBMS_SUMADV&#xA;DBMS_SUMMARY&#xA;DBMS_SUMREF_CHILD&#xA;DBMS_SUMREF_PARENT&#xA;DBMS_SUMREF_UTIL&#xA;DBMS_SUMREF_UTIL2&#xA;DBMS_SUMVDM&#xA;DBMS_SYS_ERROR&#xA;DBMS_SYS_SQL&#xA;DBMS_SYSTEM&#xA;DBMS_TRACE&#xA;DBMS_TRANSACTION&#xA;DBMS_TTS&#xA;DBMS_UTILITY&#xA;DBMS_ZHELP&#xA;DBMS_ZHELP_IR&#xA;DBMSZEXP_SYSPKGGRNT&#xA;DIANA&#xA;DIUTIL&#xA;ODCICONST&#xA;OUTLN_PKG&#xA;PBREAK&#xA;PBRPH&#xA;PBSDE&#xA;PBUTL&#xA;PIDL&#xA;PLITBLM&#xA;STANDARD&#xA;SYS_STUB_FOR_PURITY_ANALYSIS&#xA;UTL_COLL&#xA;UTL_FILE&#xA;UTL_HTTP&#xA;UTL_INADDR&#xA;UTL_RAW&#xA;UTL_REF&#xA;UTL_SMTP&#xA;UTL_TCP&#xA;DELETING&#xA;INSERTING&#xA;RAISE_APPLICATION_ERROR&#xA;SET_TRANSACTION_USE&#xA;UPDATING&#xA;">
+          <Attributes Foreground="clPurple" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Oracle Commands" Enabled="True" Style="" Words="ARCHIVE&#xA;ATTRIBUTE&#xA;BREAK&#xA;BRE&#xA;BTITLE&#xA;BTI&#xA;CL&#xA;CLEAR&#xA;COL&#xA;COMP&#xA;CONN&#xA;COPY&#xA;DEFINE&#xA;DEF&#xA;DESCRIBE&#xA;DESCRIB&#xA;DESCRI&#xA;DESCR&#xA;DESC&#xA;DISCONNECT&#xA;DISCONNEC&#xA;DISCONNE&#xA;DISCONN&#xA;DISCON&#xA;DISCO&#xA;DISC&#xA;EXEC&#xA;EXECUTE&#xA;FAILURE&#xA;HELP&#xA;HO&#xA;HOST&#xA;OFF&#xA;OSERROR&#xA;PAU&#xA;PAUSE&#xA;PASSW&#xA;PPRINT&#xA;PRI&#xA;PROMPT&#xA;REPFOOTER&#xA;REPF&#xA;REPHEADER&#xA;REPH&#xA;RUN&#xA;SET&#xA;SHOW&#xA;SHO&#xA;SHUTDOWN&#xA;SPOOL&#xA;STA&#xA;STARTUP&#xA;SUCCESS&#xA;TIMING&#xA;TIMI&#xA;TTITLE&#xA;TTI&#xA;UNDEFINE&#xA;UNDEF&#xA;VARIABLE&#xA;VAR&#xA;WHENEVER&#xA;">
+          <Attributes Foreground="$000080FF" Background="clWhite" Style=""/>
+        </KeyList>
+        <KeyList Name="Package Methods" Enabled="True" Style="" Words="ALTER_COMPILE&#xA;ALTER_TABLE_NOT_REFERENCEABLE&#xA;ALTER_TABLE_REFERENCEABLE&#xA;ANALYZE_DATABASE&#xA;ANALYZE_OBJECT&#xA;ANALYZE_PART_OBJECT&#xA;ANALYZE_SCHEMA&#xA;BEGIN_TABLE_REORGANISATION&#xA;BIND_ARRAY&#xA;BIND_VARIABLE&#xA;BIND_VARIABLE_CHAR&#xA;BIND_VARIABLE_RAW&#xA;BIND_VARIABLE_ROWID&#xA;BROKEN&#xA;CHECK_PRIVS&#xA;CLOSE_CURSOR&#xA;COLUMN_VALUE&#xA;COLUMN_VALUE_CHAR&#xA;COLUMN_VALUE_LONG&#xA;COLUMN_VALUE_RAW&#xA;COLUMN_VALUE_ROWID&#xA;COMMA_TO_TABLE&#xA;COMMIT_CM&#xA;COMPILE_SCHEMA&#xA;CREATE_PIPE&#xA;DATA_BLOCK_ADDRESS_FILE&#xA;DB_VERSION&#xA;DEFINE_ARRAY&#xA;DEFINE_COLUMN&#xA;DEFINE_COLUMN_CHAR&#xA;DEFINE_COLUMN_LONG&#xA;DEFINE_COLUMN_RAW&#xA;DEFINE_COLUMN_ROWID&#xA;DESCRIBE_COLUMNS&#xA;DESCRIBE_PROCEDURE&#xA;EXEC_DDL_STATEMENT&#xA;EXECUTE_AND_FETCH&#xA;END_TABLE_REORGANISATION&#xA;FCLOSE&#xA;FCLOSE_ALL&#xA;FETCH_ROWS&#xA;FFLUSH&#xA;FOPEN&#xA;FORMAT_CALL_STACK&#xA;FORMAT_ERROR_STACK&#xA;GET_PARAMETER_VALUE&#xA;GET_TIME&#xA;GET_LINES&#xA;GET_LINE&#xA;GET_HASH_VALUE&#xA;INTERVAL&#xA;ISUBMIT&#xA;IS_OPEN&#xA;IS_PARALLEL_SERVER&#xA;I_AM_A_REFRESH&#xA;LAST_SQL_FUNCTION_CODE&#xA;LAST_ROW_ID&#xA;LAST_ROW_COUNT&#xA;LAST_ERROR_POSITION&#xA;MAKE_DATA_BLOCK_ADDRESS&#xA;NAME_RESOLVE&#xA;NAME_TOKENIZE&#xA;NEW_LINE&#xA;NEXT_DATE&#xA;NEXT_ITEM_TYPE&#xA;OPEN_CURSOR&#xA;PACK_MESSAGE&#xA;PARSE&#xA;PORT_STRING&#xA;PURGE&#xA;PURGE_LOG&#xA;PURGE_SNAPSHOT_FROM_LOG&#xA;PUT&#xA;PUTF&#xA;PUT_LINE&#xA;RECEIVE_MESSAGE&#xA;REFRESH_ALL&#xA;SIGNAL&#xA;REGISTER&#xA;REGISTER_SNAPSHOT&#xA;REMOVE&#xA;REMOVE_ALL&#xA;REMOVE_PIPE&#xA;RESET_BUFFER&#xA;ROLLBACK_SV&#xA;ROLLBACK_NR&#xA;SEND_MESSAGE&#xA;TABLE_TO_COMMA&#xA;UNIQUE_SESSION_NAME&#xA;VARIABLE_VALUE&#xA;WAITONE&#xA;WAITANY&#xA;WHAT&#xA;VARIABLE_VALUE_CHAR&#xA;VARIABLE_VALUE_RAW&#xA;VARIABLE_VALUE_ROWID&#xA;USER_EXPORT&#xA;UNREGISTER_SNAPSHOT&#xA;UNPACK_MESSAGE&#xA;SET_DEFAULTS&#xA;SET_I_AM_A_REFRESH&#xA;SUBMIT&#xA;">
+          <Attributes Foreground="$00FF0080" Background="clWhite" Style=""/>
+        </KeyList>
+        <Range Name="Oracle Remark" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="REM"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Parameters" Enabled="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clMaroon" Background="clWhite" Style=""/>
+          <Properties CloseOnTerm="True" CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open=":"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings '..'" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="'" Close="'"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Strings &amp;qt;..&amp;qt;" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="clRed" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="&quot;" Close="&quot;"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks --" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties CloseOnEol="True"/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="--"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+        <Range Name="Remarks /*..*/" Enabled="True" CaseSensitive="True" Style="">
+          <Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+          <Attributes Foreground="$00FF8000" Background="clWhite" Style=""/>
+          <Properties/>
+          <OpenToken/>
+          <CloseToken/>
+          <MultiTokens>
+            <Tokens Open="/*" Close="*/"/>
+          </MultiTokens>
+          <SubRules/>
+        </Range>
+      </SubRules>
+    </MainRules>
+  </SyntaxColoring>
+  <CodeFolding/>
+</SynUniHighlighter>
